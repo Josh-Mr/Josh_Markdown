@@ -1,0 +1,41 @@
+```java
+package com.redxun.base.db;
+
+import com.redxun.base.entity.ExtBaseEntity;
+import org.apache.ibatis.type.BaseTypeHandler;
+import org.apache.ibatis.type.JdbcType;
+
+import java.sql.CallableStatement;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+/**
+ * 实体自定义 Handler
+ * @author dengs
+ */
+public class EntityTypeHandler<T extends IObjectProperty> extends BaseTypeHandler<T> {
+
+    @Override
+    public void setNonNullParameter(PreparedStatement preparedStatement, int i, T property, JdbcType jdbcType) throws SQLException {
+        preparedStatement.setObject(i, property.getPersistenceValue());
+    }
+
+    @Override
+    public T getNullableResult(ResultSet resultSet, String s) throws SQLException {
+        return null;
+    }
+
+    @Override
+    public T getNullableResult(ResultSet resultSet, int i) throws SQLException {
+        return null;
+    }
+
+    @Override
+    public T getNullableResult(CallableStatement callableStatement, int i) throws SQLException {
+        return null;
+    }
+}
+
+```
+
