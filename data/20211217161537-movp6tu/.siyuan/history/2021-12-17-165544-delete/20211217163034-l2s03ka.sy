@@ -1,0 +1,20 @@
+{
+	"ID": "20211217163034-l2s03ka",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f9d1-200d-1f52c",
+		"id": "20211217163034-l2s03ka",
+		"title": "daily note",
+		"updated": "20211217163034"
+	},
+	"Children": [
+		{
+			"ID": "20211217163034-xg429jg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211217163034-xg429jg",
+				"updated": "20211217163034"
+			}
+		}
+	]
+}

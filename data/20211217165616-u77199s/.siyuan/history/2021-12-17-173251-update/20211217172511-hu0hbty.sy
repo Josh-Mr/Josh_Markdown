@@ -1,0 +1,25 @@
+{
+	"ID": "20211217172511-hu0hbty",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211217172511-hu0hbty",
+		"title": "新文档",
+		"updated": "20211217172524"
+	},
+	"Children": [
+		{
+			"ID": "20211217172511-ddljhd0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211217172511-ddljhd0",
+				"updated": "20211217172524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "/"
+				}
+			]
+		}
+	]
+}

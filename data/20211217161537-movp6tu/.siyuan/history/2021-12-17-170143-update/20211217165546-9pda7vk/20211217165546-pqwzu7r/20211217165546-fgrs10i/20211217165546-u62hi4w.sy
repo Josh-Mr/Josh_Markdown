@@ -1,0 +1,19 @@
+{
+	"ID": "20211217165546-u62hi4w",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211217165546-u62hi4w",
+		"title": "2021-12-17",
+		"updated": "20211217165546"
+	},
+	"Children": [
+		{
+			"ID": "20211217165546-xamunal",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211217165546-xamunal",
+				"updated": "20211217165546"
+			}
+		}
+	]
+}
