@@ -190,6 +190,7 @@
   {
     "children": [
   {
+    "active": true,
     "children": {
   "blockId": "20211217165546-u62hi4w",
   "instance": "Editor"
@@ -262,7 +263,6 @@
     "title": "新文档"
   },
   {
-    "active": true,
     "children": {
   "blockId": "20211217173746-spfe4f5",
   "instance": "Editor"

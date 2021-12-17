@@ -1,0 +1,19 @@
+{
+	"ID": "20211217225630-1fmhrlr",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211217225630-1fmhrlr",
+		"title": "(",
+		"updated": "20211217225630"
+	},
+	"Children": [
+		{
+			"ID": "20211217225630-3aga98f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211217225630-3aga98f",
+				"updated": "20211217225630"
+			}
+		}
+	]
+}

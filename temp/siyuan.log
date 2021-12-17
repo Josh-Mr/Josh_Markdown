@@ -69,3 +69,9 @@ I 2021/12/17 17:44:07 index.go:416: rebuilt database for notebook [2021121716153
 I 2021/12/17 17:44:07 index.go:416: rebuilt database for notebook [20211217165616-u77199s] in [0.00s], tree stat [count=6, size=2.2 kB]
 I 2021/12/17 17:50:53 index.go:416: rebuilt database for notebook [20210808180117-czj9bvb] in [0.08s], tree stat [count=46, size=886 kB]
 I 2021/12/17 17:57:04 index.go:416: rebuilt database for notebook [20211217161537-movp6tu] in [0.02s], tree stat [count=9, size=295 kB]
+E 2021/12/17 22:22:56 rhy.go:42: get version meta info failed: [Get "https://rhythm.b3log.org/version/siyuan?ver=1.5.4": dial tcp: lookup rhythm.b3log.org: no such host]
+I 2021/12/17 23:38:37 index.go:416: rebuilt database for notebook [20210808180117-czj9bvb] in [0.11s], tree stat [count=46, size=886 kB]
+I 2021/12/17 23:43:20 index.go:416: rebuilt database for notebook [20210808180117-czj9bvb] in [0.12s], tree stat [count=46, size=886 kB]
+I 2021/12/17 23:43:20 index.go:416: rebuilt database for notebook [20211217161537-movp6tu] in [0.03s], tree stat [count=10, size=264 kB]
+I 2021/12/17 23:43:20 index.go:416: rebuilt database for notebook [20211217165616-u77199s] in [0.00s], tree stat [count=7, size=2.5 kB]
+I 2021/12/17 23:49:09 conf.go:359: exited kernel

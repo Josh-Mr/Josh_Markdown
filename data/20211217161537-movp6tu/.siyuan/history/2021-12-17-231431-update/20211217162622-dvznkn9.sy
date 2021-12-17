@@ -1,0 +1,65 @@
+{
+	"ID": "20211217162622-dvznkn9",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4c4",
+		"id": "20211217162622-dvznkn9",
+		"title": "工作日志",
+		"updated": "20211217231427"
+	},
+	"Children": [
+		{
+			"ID": "20211217222636-yzlho8q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211217222636-yzlho8q",
+				"updated": "20211217222636"
+			}
+		},
+		{
+			"ID": "20211217225259-x577dgc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211217225259-x577dgc",
+				"style": "color: var(--b3-card-info-color);background-color: var(--b3-card-info-background);",
+				"updated": "20211217231427"
+			}
+		},
+		{
+			"ID": "20211217162844-hmbsd0n",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"fold": "0",
+				"id": "20211217162844-hmbsd0n",
+				"updated": "20211217225421"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dmJzY3JpcHQtaHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003ctemplate\u003e\n  \u003cdiv\n    :class=\"{ page: true, 'ps-so-sign-edit': true, 'edit-template': true, 'no-header': isHead }\"\n    v-if=\"loadTemplateStatus === 'complete'\"\n    v-loading=\"loading\"\n  \u003e\n    \u003cimg\n      v-if=\"this.getEditTemplate() \u0026\u0026\n            this.getEditTemplate().dataModel \u0026\u0026\n            this.getEditTemplate().dataModel.bisnetsign=='Y'\"\n      src=\"../../../../../assets/img/bill/cfmd.png\"\n      style=\"position: absolute;z-index: 1;left: 50px;padding-top: 50px\"\n    /\u003e\n    \u003cdiv class=\"bill-title\"\u003e\n\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211217231116-se9q0e6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211217231116-se9q0e6",
+				"updated": "20211217231116"
+			}
+		}
+	]
+}
