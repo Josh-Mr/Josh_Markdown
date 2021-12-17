@@ -63,9 +63,13 @@
     "codeLigatures": false,
     "displayBookmarkIcon": true,
     "displayNetImgMark": false,
-    "generateHistoryInterval": 1,
+    "generateHistoryInterval": 5,
     "historyRetentionDays": 30,
     "emoji": [
+      "1f4c4",
+      "1f4d4",
+      "1f4d2",
+      "1f4d3",
       "1f3e0",
       "1f9d1-200d-1f52c",
       "1f600",
@@ -186,9 +190,81 @@
   {
     "children": [
   {
-    "active": true,
     "children": {
   "blockId": "20211217165546-u62hi4w",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "2021-12-17"
+  },
+  {
+    "children": {
+  "blockId": "20211217165546-fgrs10i",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "12"
+  },
+  {
+    "children": {
+  "blockId": "20211217162622-dvznkn9",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "工作日志"
+  },
+  {
+    "children": {
+  "blockId": "20211217161550-ksem67h",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "入门"
+  },
+  {
+    "children": {
+  "blockId": "20211217224856-k8onl2w",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "# 新文档"
+  },
+  {
+    "children": {
+  "blockId": "20211217161550-q7m17sq",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "SQL\u0026amp;Cache"
+  },
+  {
+    "children": {
+  "blockId": "20211217165546-pqwzu7r",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "2021"
+  },
+  {
+    "children": {
+  "blockId": "20200812220555-lj3enxa",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "0 请从这里开始"
+  },
+  {
+    "children": {
+  "blockId": "20211217234259-hhbfotv",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "新文档"
+  },
+  {
+    "active": true,
+    "children": {
+  "blockId": "20211217173746-spfe4f5",
   "instance": "Editor"
 },
     "instance": "Tab",
@@ -221,7 +297,7 @@
     "direction": "tb",
     "instance": "Layout",
     "resize": "lr",
-    "size": "0px",
+    "size": "360px",
     "type": "right"
   }
 ],
@@ -259,21 +335,21 @@
     {
       "show": true,
       "size": {
-  "height": 0,
+  "height": 619,
   "width": 245
 },
       "type": "file"
-    },
-    {
-      "show": false,
-      "size": {
-  "height": 0,
-  "width": 240
-},
-      "type": "outline"
     }
   ],
   [
+    {
+      "show": true,
+      "size": {
+  "height": null,
+  "width": 245
+},
+      "type": "outline"
+    },
     {
       "show": false,
       "size": {
@@ -313,7 +389,7 @@
   ],
   [
     {
-      "show": false,
+      "show": true,
       "size": {
   "height": 0,
   "width": 360
@@ -740,7 +816,7 @@
     "mathBlock": true,
     "table": true,
     "blockquote": false,
-    "superBlock": false,
+    "superBlock": true,
     "paragraph": true,
     "limit": 32,
     "caseSensitive": false,
@@ -749,7 +825,7 @@
     "memo": true
   },
   "stat": {
-    "docCount": 61
+    "docCount": 62
   },
   "api": {
     "token": "9lg6z7f4ub34blui"
