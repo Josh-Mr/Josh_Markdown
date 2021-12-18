@@ -1,0 +1,34 @@
+{
+	"ID": "20211218231608-bg8988w",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20211218231608-bg8988w",
+		"title": "新文档",
+		"updated": "20211219015148"
+	},
+	"Children": [
+		{
+			"ID": "20211218231608-k30pga2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211218231608-k30pga2",
+				"updated": "20211219015134"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6、mybatis初始化与执行sql过程.xmind"
+				}
+			]
+		},
+		{
+			"ID": "20211219015148-p2wrejg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219015148-p2wrejg",
+				"updated": "20211219015148"
+			}
+		}
+	]
+}
