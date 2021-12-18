@@ -1,0 +1,20 @@
+{
+	"ID": "20211219011654-q347x4u",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20211219011654-q347x4u",
+		"title": "XML约束方式",
+		"updated": "20211219011709"
+	},
+	"Children": [
+		{
+			"ID": "20211219011654-8g0qqup",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219011654-8g0qqup",
+				"updated": "20211219011654"
+			}
+		}
+	]
+}

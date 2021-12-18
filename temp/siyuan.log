@@ -75,3 +75,110 @@ I 2021/12/17 23:43:20 index.go:416: rebuilt database for notebook [2021080818011
 I 2021/12/17 23:43:20 index.go:416: rebuilt database for notebook [20211217161537-movp6tu] in [0.03s], tree stat [count=10, size=264 kB]
 I 2021/12/17 23:43:20 index.go:416: rebuilt database for notebook [20211217165616-u77199s] in [0.00s], tree stat [count=7, size=2.5 kB]
 I 2021/12/17 23:49:09 conf.go:359: exited kernel
+I 2021/12/17 23:56:15 working.go:95: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2021/12/17 23:56:17 runtime.go:57: kernel is booting:
+    * ver [1.5.4]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\SiYuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20211124]
+    * workspace directory [F:\Josh_Markdown, data 16 MB]
+    * rsync [version 3.2.4dev  protocol version 31]
+    * pandoc [pandoc.exe 2.13]
+I 2021/12/17 23:56:17 conf.go:257: local serve path [http://192.168.0.109:6806]
+I 2021/12/17 23:56:17 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2021/12/17 23:56:17 conf.go:507: pre-init database size [1.3 MB]
+I 2021/12/17 23:56:17 index.go:136: use existing database for box [20210808180117-czj9bvb]
+I 2021/12/17 23:56:17 index.go:136: use existing database for box [20211217161537-movp6tu]
+I 2021/12/17 23:56:17 index.go:136: use existing database for box [20211217165616-u77199s]
+I 2021/12/17 23:56:17 conf.go:523: post-init database size [1.3 MB], tree stat [count=63, size=1.2 MB]
+I 2021/12/17 23:56:18 working.go:113: kernel booted
+I 2021/12/17 23:58:04 conf.go:359: exited kernel
+I 2021/12/18 22:36:36 working.go:95: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2021/12/18 22:36:39 runtime.go:57: kernel is booting:
+    * ver [1.5.4]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\SiYuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20211124]
+    * workspace directory [F:\Josh_Markdown, data 16 MB]
+    * rsync [version 3.2.4dev  protocol version 31]
+    * pandoc [pandoc.exe 2.13]
+I 2021/12/18 22:36:39 conf.go:257: local serve path [http://192.168.0.109:6806]
+I 2021/12/18 22:36:39 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2021/12/18 22:36:40 conf.go:507: pre-init database size [1.3 MB]
+I 2021/12/18 22:36:40 index.go:136: use existing database for box [20210808180117-czj9bvb]
+I 2021/12/18 22:36:40 index.go:136: use existing database for box [20211217161537-movp6tu]
+I 2021/12/18 22:36:40 index.go:136: use existing database for box [20211217165616-u77199s]
+I 2021/12/18 22:36:40 conf.go:523: post-init database size [1.3 MB], tree stat [count=63, size=1.2 MB]
+I 2021/12/18 22:36:41 working.go:113: kernel booted
+I 2021/12/18 22:53:46 index.go:416: rebuilt database for notebook [20211218225346-xp0ksoo] in [0.00s], tree stat [count=0, size=0 B]
+E 2021/12/18 23:01:52 block_query.go:491: query scan field failed: sql: Rows are closed
+I 2021/12/18 23:07:47 index.go:416: rebuilt database for notebook [20211218230747-88wsl35] in [0.00s], tree stat [count=0, size=0 B]
+I 2021/12/18 23:17:31 index.go:416: rebuilt database for notebook [20210808180117-czj9bvb] in [0.08s], tree stat [count=46, size=886 kB]
+I 2021/12/18 23:17:31 index.go:416: rebuilt database for notebook [20211217161537-movp6tu] in [0.02s], tree stat [count=10, size=264 kB]
+I 2021/12/18 23:17:31 index.go:416: rebuilt database for notebook [20211218225346-xp0ksoo] in [0.03s], tree stat [count=8, size=3.5 kB]
+I 2021/12/18 23:17:31 index.go:416: rebuilt database for notebook [20211218230747-88wsl35] in [0.02s], tree stat [count=4, size=1.4 kB]
+I 2021/12/18 23:28:09 working.go:95: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2021/12/18 23:28:10 runtime.go:57: kernel is booting:
+    * ver [1.5.4]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\SiYuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20211124]
+    * workspace directory [F:\Josh_Markdown, data 16 MB]
+    * rsync [version 3.2.4dev  protocol version 31]
+    * pandoc [pandoc.exe 2.13]
+I 2021/12/18 23:28:10 conf.go:257: local serve path [http://192.168.0.109:6806]
+I 2021/12/18 23:28:10 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2021/12/18 23:28:10 conf.go:507: pre-init database size [1.3 MB]
+I 2021/12/18 23:28:10 index.go:136: use existing database for box [20210808180117-czj9bvb]
+I 2021/12/18 23:28:10 index.go:136: use existing database for box [20211217161537-movp6tu]
+I 2021/12/18 23:28:10 index.go:136: use existing database for box [20211218225346-xp0ksoo]
+I 2021/12/18 23:28:10 index.go:136: use existing database for box [20211218230747-88wsl35]
+I 2021/12/18 23:28:10 conf.go:523: post-init database size [1.3 MB], tree stat [count=72, size=1.2 MB]
+I 2021/12/18 23:28:11 working.go:113: kernel booted
+I 2021/12/19 00:50:54 assets.go:237: copied unused asset from [F:\Josh_Markdown\data\assets\image-20211217173819-sxh78l2.png] to [F:\Josh_Markdown\data\assets\.siyuan\history\2021-12-19-005054-delete\assets\image-20211217173819-sxh78l2.png]
+I 2021/12/19 00:50:54 assets.go:237: copied unused asset from [F:\Josh_Markdown\data\assets\【365约车-28.31元-1个行程】高德打车电子发票-20211219000937-x7imdiq.pdf] to [F:\Josh_Markdown\data\assets\.siyuan\history\2021-12-19-005054-delete\assets\【365约车-28.31元-1个行程】高德打车电子发票-20211219000937-x7imdiq.pdf]
+I 2021/12/19 00:50:54 assets.go:237: copied unused asset from [F:\Josh_Markdown\data\assets\【AA出行-61.65元-3个行程】高德打车电子行程单-20211219000958-6ziorgk.pdf] to [F:\Josh_Markdown\data\assets\.siyuan\history\2021-12-19-005054-delete\assets\【AA出行-61.65元-3个行程】高德打车电子行程单-20211219000958-6ziorgk.pdf]
+I 2021/12/19 01:51:46 assets.go:237: copied unused asset from [F:\Josh_Markdown\data\assets\6、mybatis初始化与执行sql过程-20211219015125-ktdg0ks.xmind] to [F:\Josh_Markdown\data\assets\.siyuan\history\2021-12-19-015146-delete\assets\6、mybatis初始化与执行sql过程-20211219015125-ktdg0ks.xmind]
+I 2021/12/19 01:53:13 conf.go:359: exited kernel

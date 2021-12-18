@@ -1,0 +1,92 @@
+{
+	"ID": "20211218234349-8d3qyd5",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211218234349-8d3qyd5",
+		"title": "Mybatis代码生成工具",
+		"updated": "20211218235308"
+	},
+	"Children": [
+		{
+			"ID": "20211218234904-yisesrf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211218234904-yisesrf",
+				"updated": "20211218235059"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、代码生成方式"
+				}
+			]
+		},
+		{
+			"ID": "20211218235053-sqppxgj",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211218235053-sqppxgj",
+				"updated": "20211218235111"
+			},
+			"Children": [
+				{
+					"ID": "20211218235111-xfntshk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211218235111-xfntshk"
+					},
+					"Children": [
+						{
+							"ID": "20211218235111-jq7ilvu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211218235111-jq7ilvu"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211218235002-b9znuam",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211218235002-b9znuam",
+				"updated": "20211218235009"
+			}
+		},
+		{
+			"ID": "20211218234349-80hhsu9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211218234349-80hhsu9",
+				"updated": "20211218235308"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "、工程"
+				}
+			]
+		},
+		{
+			"ID": "20211218234851-i2i1evv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211218234851-i2i1evv",
+				"updated": "20211218234851"
+			}
+		}
+	]
+}

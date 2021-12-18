@@ -1,0 +1,20 @@
+{
+	"ID": "20211218230503-rxp4pmp",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4c4",
+		"id": "20211218230503-rxp4pmp",
+		"title": "新文档",
+		"updated": "20211218230503"
+	},
+	"Children": [
+		{
+			"ID": "20211218230503-5s1zm26",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211218230503-5s1zm26",
+				"updated": "20211218230503"
+			}
+		}
+	]
+}

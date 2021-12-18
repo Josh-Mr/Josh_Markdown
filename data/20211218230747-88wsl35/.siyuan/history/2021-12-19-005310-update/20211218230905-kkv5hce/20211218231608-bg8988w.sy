@@ -1,0 +1,20 @@
+{
+	"ID": "20211218231608-bg8988w",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20211218231608-bg8988w",
+		"title": "新文档",
+		"updated": "20211218231608"
+	},
+	"Children": [
+		{
+			"ID": "20211218231608-k30pga2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211218231608-k30pga2",
+				"updated": "20211218231608"
+			}
+		}
+	]
+}

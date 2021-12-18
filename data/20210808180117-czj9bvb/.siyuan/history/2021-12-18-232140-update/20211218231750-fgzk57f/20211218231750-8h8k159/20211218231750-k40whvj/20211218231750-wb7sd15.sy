@@ -1,0 +1,276 @@
+{
+	"ID": "20211218231750-wb7sd15",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211218231750-wb7sd15",
+		"title": "2021-12-18",
+		"updated": "20211218231905"
+	},
+	"Children": [
+		{
+			"ID": "20211218231750-k21lxzt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211218231750-k21lxzt",
+				"updated": "20211218231816"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "寄顺丰氨"
+				}
+			]
+		},
+		{
+			"ID": "20211218231905-umctaq7",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211218231905-umctaq7",
+				"updated": "20211218231905"
+			},
+			"Children": [
+				{
+					"ID": "20211218231905-fbqyupz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211218231905-fbqyupz"
+					},
+					"Children": [
+						{
+							"ID": "20211218231816-snydf3k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211218231816-snydf3k",
+								"updated": "20211218231817"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "asdfa "
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211218231905-d868uo5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211218231905-d868uo5"
+					},
+					"Children": [
+						{
+							"ID": "20211218231817-bsaqgwc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211218231817-bsaqgwc",
+								"updated": "20211218231821"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "sdfja sjsidf"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211218231905-90bwvb1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20211218231905-90bwvb1"
+					},
+					"Children": [
+						{
+							"ID": "20211218231828-67pb37l",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20211218231828-67pb37l",
+								"updated": "20211218231851"
+							},
+							"Children": [
+								{
+									"ID": "20211218231851-5xr1o02",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20211218231851-5xr1o02"
+									},
+									"Children": [
+										{
+											"ID": "20211218231851-tzbpsbk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211218231851-tzbpsbk",
+												"updated": "20211218231852"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "jiads "
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211218231853-06jp1xe",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20211218231853-06jp1xe"
+									},
+									"Children": [
+										{
+											"ID": "20211218231853-anbdeem",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211218231853-anbdeem",
+												"updated": "20211218231854"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "sdfa d"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211218231854-r1l8ejd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20211218231854-r1l8ejd"
+									},
+									"Children": [
+										{
+											"ID": "20211218231854-txjgrzn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211218231854-txjgrzn",
+												"updated": "20211218231855"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "adsfj dsf"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211218231855-ovpoir2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20211218231855-ovpoir2"
+									},
+									"Children": [
+										{
+											"ID": "20211218231855-q2btxcu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211218231855-q2btxcu"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "\n1、结算单覅阿甲圣达菲"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211218231905-t0hryjl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20211218231905-t0hryjl"
+					},
+					"Children": [
+						{
+							"ID": "20211218231837-vjuzvhb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211218231837-vjuzvhb",
+								"updated": "20211218231840"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2、技术点"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211218231824-1y4yu3m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211218231824-1y4yu3m",
+				"updated": "20211218231824"
+			}
+		}
+	]
+}

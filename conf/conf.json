@@ -22,7 +22,7 @@
     "codeBlockThemeDark": "base16/dracula",
     "lang": "zh_CN",
     "customCSS": false,
-    "closeButtonBehavior": 0,
+    "closeButtonBehavior": 1,
     "closeKernelWhenExitingUI": true
   },
   "langs": [
@@ -48,7 +48,7 @@
     "alwaysSelectOpenedFile": true,
     "openFilesUseCurrentTab": false,
     "refCreateSavePath": "",
-    "createDocNameTemplate": "",
+    "createDocNameTemplate": "{{now | date \"20060102150405\"}}",
     "maxListCount": 512,
     "sort": 6
   },
@@ -66,9 +66,10 @@
     "generateHistoryInterval": 5,
     "historyRetentionDays": 30,
     "emoji": [
+      "1f4dd",
+      "1f4d2",
       "1f4c4",
       "1f4d4",
-      "1f4d2",
       "1f4d3",
       "1f3e0",
       "1f9d1-200d-1f52c",
@@ -182,7 +183,7 @@
 ],
     "direction": "tb",
     "instance": "Layout",
-    "size": "245px",
+    "size": "350px",
     "type": "left"
   },
   {
@@ -190,85 +191,53 @@
   {
     "children": [
   {
+    "children": {
+  "blockId": "20211218233303-ftdny0i",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Markdown速查表"
+  },
+  {
+    "children": {
+  "blockId": "20211219000253-hd5145m",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "JNDI规范和使用（Spring连接池对比）"
+  },
+  {
+    "children": {
+  "blockId": "20211219011654-q347x4u",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "XML约束方式"
+  },
+  {
+    "children": {
+  "blockId": "20211219011600-o59wnee",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "XML简介"
+  },
+  {
+    "children": {
+  "blockId": "20211219011545-nkxxugh",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "XML"
+  },
+  {
     "active": true,
     "children": {
-  "blockId": "20211217165546-u62hi4w",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "2021-12-17"
-  },
-  {
-    "children": {
-  "blockId": "20211217165546-fgrs10i",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "12"
-  },
-  {
-    "children": {
-  "blockId": "20211217162622-dvznkn9",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "工作日志"
-  },
-  {
-    "children": {
-  "blockId": "20211217161550-ksem67h",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "入门"
-  },
-  {
-    "children": {
-  "blockId": "20211217224856-k8onl2w",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "# 新文档"
-  },
-  {
-    "children": {
-  "blockId": "20211217161550-q7m17sq",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "SQL\u0026amp;Cache"
-  },
-  {
-    "children": {
-  "blockId": "20211217165546-pqwzu7r",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "2021"
-  },
-  {
-    "children": {
-  "blockId": "20200812220555-lj3enxa",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "0 请从这里开始"
-  },
-  {
-    "children": {
-  "blockId": "20211217234259-hhbfotv",
+  "blockId": "20211218231608-bg8988w",
   "instance": "Editor"
 },
     "instance": "Tab",
     "title": "新文档"
-  },
-  {
-    "children": {
-  "blockId": "20211217173746-spfe4f5",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "2021-12-17"
   }
 ],
     "height": "",
@@ -297,7 +266,7 @@
     "direction": "tb",
     "instance": "Layout",
     "resize": "lr",
-    "size": "360px",
+    "size": "0px",
     "type": "right"
   }
 ],
@@ -336,7 +305,7 @@
       "show": true,
       "size": {
   "height": 619,
-  "width": 245
+  "width": 350
 },
       "type": "file"
     }
@@ -346,7 +315,7 @@
       "show": true,
       "size": {
   "height": null,
-  "width": 245
+  "width": 350
 },
       "type": "outline"
     },
@@ -389,7 +358,7 @@
   ],
   [
     {
-      "show": true,
+      "show": false,
       "size": {
   "height": 0,
   "width": 360
@@ -410,7 +379,7 @@
     "publicKey": "c3NoLXJzYSBBQUFBQjNOemFDMXljMkVBQUFBREFRQUJBQUFCQVFER1hLdHdIeW1MWS9PUWl4clp5OGg2WnFuU0xCSWo0WUh1TzIxS09QUFc4OG1YaTVUYThnNFhma1hCVDdCVFR3eGNBTFFMNExVQ1RXWHRGNzhwOTAwSk1ib0hicFNxRUVwVmlWSHV4TVVJOUV1R2tvUkgwR1oxTWZYU1BJcnplMzFoYWcvUGg4WmFsODk0dzhFYnRSd3U3OHZCR2R2YXh4R2F6VSt2aFVSc3l5Wm1Gamhoc1VpNWE5OWpuT2h1Lzl2TUlpYXRhKzBLUzZQcDdQdmJucGxtdXlRejZ3ZTVpbzVXWEJrbG52aXhZYndUWHphNDZQV1dvT3pPZkErN2pjZWxCd1QreituOXNDMWh2R1dGZmJFS0RSOTRVYW4wY3d4bnBuaUNLRC9pNmc0clpCMHRma1AwQUdpQ1ZkeUNSdDY4V1hna0pnYlVlSGFnaFc4MDFQUjcK"
   },
   "readonly": false,
-  "localServeURL": "http://192.168.56.1:6806",
+  "localServeURL": "http://192.168.0.109:6806",
   "accessAuthCode": "",
   "e2eePasswd": "",
   "checkUpdate": 0,
@@ -644,7 +613,7 @@
   "default": "⌘J"
 },
   "sup": {
-  "custom": "⌘H",
+  "custom": "",
   "default": "⌘H"
 },
   "table": {
@@ -783,7 +752,7 @@
   "default": "⌥2"
 },
   "search": {
-  "custom": "⌘P",
+  "custom": "⌘H",
   "default": "⌘P"
 },
   "tag": {
@@ -810,22 +779,22 @@
   "search": {
     "document": true,
     "heading": true,
-    "list": false,
-    "listItem": false,
+    "list": true,
+    "listItem": true,
     "codeBlock": true,
     "mathBlock": true,
     "table": true,
-    "blockquote": false,
+    "blockquote": true,
     "superBlock": true,
     "paragraph": true,
-    "limit": 32,
+    "limit": 50,
     "caseSensitive": false,
     "name": true,
     "alias": true,
     "memo": true
   },
   "stat": {
-    "docCount": 62
+    "docCount": 79
   },
   "api": {
     "token": "9lg6z7f4ub34blui"

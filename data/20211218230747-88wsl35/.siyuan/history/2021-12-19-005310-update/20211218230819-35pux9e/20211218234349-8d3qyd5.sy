@@ -1,0 +1,192 @@
+{
+	"ID": "20211218234349-8d3qyd5",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20211218234349-8d3qyd5",
+		"title": "Mybatis代码生成工具",
+		"updated": "20211218235732"
+	},
+	"Children": [
+		{
+			"ID": "20211218234904-yisesrf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211218234904-yisesrf",
+				"updated": "20211218235059"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、代码生成方式"
+				}
+			]
+		},
+		{
+			"ID": "20211218235053-sqppxgj",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211218235053-sqppxgj",
+				"updated": "20211218235732"
+			},
+			"Children": [
+				{
+					"ID": "20211218235111-xfntshk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211218235111-xfntshk"
+					},
+					"Children": [
+						{
+							"ID": "20211218235111-jq7ilvu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211218235111-jq7ilvu",
+								"updated": "20211218235346"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "E:\\Josh_GitHub_Develop\\JavaDevelop\\mybatis_generate"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211218235401-ecm2vno",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211218235401-ecm2vno",
+						"updated": "20211218235732"
+					},
+					"Children": [
+						{
+							"ID": "20211218235401-yprlchc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211218235401-yprlchc",
+								"updated": "20211218235434"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过IDEA插件MybatisX插件生成（推荐）"
+								}
+							]
+						},
+						{
+							"ID": "20211218235436-wfpwr3h",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20211218235436-wfpwr3h",
+								"updated": "20211218235732"
+							},
+							"Children": [
+								{
+									"ID": "20211218235436-4j6ow1c",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20211218235436-4j6ow1c",
+										"updated": "20211218235732"
+									},
+									"Children": [
+										{
+											"ID": "20211218235436-3tsvenh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211218235436-3tsvenh",
+												"updated": "20211218235732"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "兼容Mybatis3与Mybatis Plus3"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211218235504-tu13k8c",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20211218235504-tu13k8c",
+										"updated": "20211218235520"
+									},
+									"Children": [
+										{
+											"ID": "20211218235504-he95pn2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211218235504-he95pn2",
+												"updated": "20211218235520"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "官方推荐"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211218235522-bcfbnjk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211218235522-bcfbnjk",
+				"updated": "20211218235522"
+			}
+		}
+	]
+}

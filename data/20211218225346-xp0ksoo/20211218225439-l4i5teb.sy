@@ -1,0 +1,49 @@
+{
+	"ID": "20211218225439-l4i5teb",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4d2",
+		"id": "20211218225439-l4i5teb",
+		"title": "Mysql",
+		"updated": "20211218230327"
+	},
+	"Children": [
+		{
+			"ID": "20211218225439-7aye5cb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211218225439-7aye5cb",
+				"updated": "20211218230146"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这是一个测试的新文档"
+				}
+			]
+		},
+		{
+			"ID": "20211218230147-woz8xlv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20211218230147-woz8xlv",
+				"updated": "20211218230221"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这是一个标题！"
+				}
+			]
+		},
+		{
+			"ID": "20211218230157-lxuwrea",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211218230157-lxuwrea",
+				"updated": "20211218230157"
+			}
+		}
+	]
+}

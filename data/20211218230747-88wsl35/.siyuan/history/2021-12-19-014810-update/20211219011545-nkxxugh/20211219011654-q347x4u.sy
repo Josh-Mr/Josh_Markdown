@@ -1,0 +1,2513 @@
+{
+	"ID": "20211219011654-q347x4u",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20211219011654-q347x4u",
+		"title": "XML约束方式",
+		"updated": "20211219014327"
+	},
+	"Children": [
+		{
+			"ID": "20211219011654-8g0qqup",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211219011654-8g0qqup",
+				"updated": "20211219012602"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、概念"
+				}
+			]
+		},
+		{
+			"ID": "20211219012602-xitd0i3",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219012602-xitd0i3",
+				"updated": "20211219012608"
+			},
+			"Children": [
+				{
+					"ID": "20211219012608-ufpl0fl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219012608-ufpl0fl"
+					},
+					"Children": [
+						{
+							"ID": "20211219012608-o1qqwea",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219012608-o1qqwea",
+								"updated": "20211219012628"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "由于xml文件是可扩展的，且里面的标签可以自定义的，只要符合xml的最基本要求，那么就可以写一个xml文件。但是在实际应用中，我们需要针对某一个特定的应用，给xml中引入一下语法，这些语法用来"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Properties": {
+										"style": "text-shadow: 1px 1px var(--b3-border-color), 2px 2px var(--b3-border-color), 3px 3px var(--b3-border-color), 4px 4px var(--b3-border-color);"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "检测特定应用的xml文件编写是否正确"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"text-shadow: 1px 1px var(--b3-border-color), 2px 2px var(--b3-border-color), 3px 3px var(--b3-border-color), 4px 4px var(--b3-border-color);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219012726-dyelf5f",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219012726-dyelf5f",
+				"updated": "20211219012735"
+			},
+			"Children": [
+				{
+					"ID": "20211219012735-f3lj5mf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219012735-f3lj5mf"
+					},
+					"Children": [
+						{
+							"ID": "20211219012735-glnpx7q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219012735-glnpx7q"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "例如mybatis中使用的DTD约束，spring中使用的shema约束。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219012726-624w7ae",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219012726-624w7ae",
+				"updated": "20211219012726"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://ewr1.vultrobjects.com/imgur3/000/010/344/715_7a1_aae.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219012726-e1gi2f0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219012726-e1gi2f0",
+				"updated": "20211219012740"
+			},
+			"Children": [
+				{
+					"ID": "20211219012740-w9liasa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219012740-w9liasa"
+					},
+					"Children": [
+						{
+							"ID": "20211219012740-q8xftvc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219012740-q8xftvc"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "作用："
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219012726-wnxhf94",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219012726-wnxhf94",
+				"updated": "20211219012745"
+			},
+			"Children": [
+				{
+					"ID": "20211219012745-0e564el",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219012745-0e564el"
+					},
+					"Children": [
+						{
+							"ID": "20211219012745-olhvyjf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219012745-olhvyjf"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "规定xml文档的书写规则"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219012818-rqc4o25",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211219012818-rqc4o25",
+				"updated": "20211219014037"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "二、DTD约束"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013920-5j112p9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219013920-5j112p9",
+				"updated": "20211219013924"
+			},
+			"Children": [
+				{
+					"ID": "20211219013924-s7eqlqm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219013924-s7eqlqm"
+					},
+					"Children": [
+						{
+							"ID": "20211219013924-ukxq9u8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219013924-ukxq9u8"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "概念"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-uei998w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-uei998w",
+				"updated": "20211219014040"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\tDTD(Document Type Definition),全称为文档类型定义。一种简单的约束技术,功能单一。"
+				}
+			]
+		},
+		{
+			"ID": "20211219013935-qepbaoj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211219013935-qepbaoj",
+				"updated": "20211219014035"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、DTD"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "文件的语法"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-i4hdj8e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-i4hdj8e",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " \t"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "(1)"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "定义元素（标签）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-xx2vd72",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-xx2vd72",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t\t格式：\u003c!ELEMENT 元素名称 (元素内容)\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-3ccyyzj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-3ccyyzj",
+				"updated": "20211219013748"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**\t元素内容的三种定义：**"
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-ro0x033",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0
+			],
+			"Properties": {
+				"id": "20211219013719-ro0x033",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 7,
+									"TableCellContentMaxWidth": 11,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "EMPTY"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 14,
+									"TableCellContentMaxWidth": 24,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "内容只能为空"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 11,
+							"TableCellContentMaxWidth": 11,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "(#PCDATA)"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 24,
+							"TableCellContentMaxWidth": 24,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "普通文本，不能写标签。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 5,
+							"TableCellContentMaxWidth": 11,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ANY"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 14,
+							"TableCellContentMaxWidth": 24,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是任何内容。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-0kd6cot",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-0kd6cot",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " \t"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "(2)"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "定义子元素（子标签）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-j78tv8r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-j78tv8r",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t格式：\u003c!ELEMENT 元素名称 (子元素名称 1,子元素名称 2,.....)\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-0f986cs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-0f986cs",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "注意："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013813-k7vtfom",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219013813-k7vtfom",
+				"updated": "20211219013813"
+			},
+			"Children": [
+				{
+					"ID": "20211219013813-nmqwoaj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219013813-nmqwoaj"
+					},
+					"Children": [
+						{
+							"ID": "20211219013719-sw0zeir",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219013719-sw0zeir",
+								"updated": "20211219013755"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "若子元素用逗号分开，说明须按照声明顺序从左到右编写XML文档。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211219013813-m7md5m9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219013813-m7md5m9"
+					},
+					"Children": [
+						{
+							"ID": "20211219013719-jpkm3mp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219013719-jpkm3mp",
+								"updated": "20211219013719"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果子元素用“|”分开，说明任选其一"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211219013813-nvu8aam",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219013813-nvu8aam"
+					},
+					"Children": [
+						{
+							"ID": "20211219013719-c2vdvzu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219013719-c2vdvzu",
+								"updated": "20211219013719"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用+、*、?来表示元素出现的次数，默认是1次；"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-az1i87z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-az1i87z",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "(3)"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "定义属性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-hmyprxl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-hmyprxl",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t格式：\u003c!ATTLIST 元素名称 属性名称 属性类型 默认值\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-5iacjsj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-5iacjsj",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "属性类型："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-9srnbqg",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0
+			],
+			"Properties": {
+				"id": "20211219013719-9srnbqg",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 7,
+									"TableCellContentMaxWidth": 7,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "CDATA"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 31,
+									"TableCellContentMaxWidth": 45,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "值为字符数据 (character data)"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 6,
+							"TableCellContentMaxWidth": 7,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "(en1"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 5,
+							"TableCellContentMaxWidth": 45,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "en2"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 4,
+							"TableCellContentMaxWidth": 7,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ID"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 45,
+							"TableCellContentMaxWidth": 45,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "值为唯一的 id(属性值不能是“”或有相同的值)"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-znwwn1d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-znwwn1d",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "默认值："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-oh0i98s",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0
+			],
+			"Properties": {
+				"id": "20211219013719-oh0i98s",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 11,
+									"TableCellContentMaxWidth": 14,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "#REQUIRED"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 16,
+									"TableCellContentMaxWidth": 16,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "属性值是必需的"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 10,
+							"TableCellContentMaxWidth": 14,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "#IMPLIED"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 16,
+							"TableCellContentMaxWidth": 16,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "属性不是必需的"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 14,
+							"TableCellContentMaxWidth": 14,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "#FIXED value"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 16,
+							"TableCellContentMaxWidth": 16,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "属性值是固定的"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-r0x4er1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-r0x4er1",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "例子"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ："
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-5vm13kr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-5vm13kr",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://ewr1.vultrobjects.com/imgur3/000/010/344/716_c59_d44.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-6pdex2g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-6pdex2g",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "注意"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ：dtd文档必须用utf-8编码格式保存"
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-heyq5n7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-heyq5n7",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "3."
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "引入dtd文档到xml文档中"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-71w8nn6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-71w8nn6",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "(1)"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "内部dtd"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-pw6vmg2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-pw6vmg2",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例子：DTD约束和xml写在一个文件中。"
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-p7kdbn2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-p7kdbn2",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://ewr1.vultrobjects.com/imgur3/000/010/344/717_209_1a2.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-ga9y92o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-ga9y92o",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "(2)"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "外部dtd"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-vzvr7j9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-vzvr7j9",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "1)."
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "引用本地的DTD文档时："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-d7398yd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-d7398yd",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "格式：\u003c!DOCTYPE  根元素  SYSTEM \"dtd文件的位置\"\u003e ，其中，SYSTEM :本地文件系统"
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-8ea4gsv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-8ea4gsv",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "例子："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-balggks",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-balggks",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://ewr1.vultrobjects.com/imgur3/000/010/344/718_9ae_265.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-8tzofor",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-8tzofor",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "2)."
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "引用公共网络上的DTD文档时："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013719-wr5pcje",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013719-wr5pcje",
+				"updated": "20211219013719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "格式：\u003c!DOCTYPE  根元素  PUBLIC \"DTD文件名字\" \"DTD文件网络文件位置的url\"\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20211219013954-4x08lpy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211219013954-4x08lpy",
+				"updated": "20211219014015"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四、"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "schema约束："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013907-oiansyd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013907-oiansyd",
+				"updated": "20211219013907"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "1."
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "概念："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013907-bn245p6",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219013907-bn245p6",
+				"updated": "20211219014327"
+			},
+			"Children": [
+				{
+					"ID": "20211219014103-0mbrvle",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219014103-0mbrvle",
+						"updated": "20211219014327"
+					},
+					"Children": [
+						{
+							"ID": "20211219014103-uz4821b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219014103-uz4821b",
+								"updated": "20211219014327"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一种复杂的约束技术, 一个标识，标识一个xml文档被哪个Schema文档约束"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "通过schema来解决DTD的不足"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ",dtd里面有PCDATA类型，但是在schema里面可以支持更多的数据类型，比如 年龄只能是整数，在schema可以直接定义一个整数类型，schema语法更加复杂，schema目前不能替代dtd。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013907-5d2zam2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013907-5d2zam2",
+				"updated": "20211219013907"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "2."
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "优点："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219014124-j0h6tte",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219014124-j0h6tte",
+				"updated": "20211219014124"
+			},
+			"Children": [
+				{
+					"ID": "20211219014124-tgyesd8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219014124-tgyesd8"
+					},
+					"Children": [
+						{
+							"ID": "20211219013907-hwh012s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219013907-hwh012s",
+								"updated": "20211219013907"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "XML Schema符合XML语法结构。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211219014124-fwksl4c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219014124-fwksl4c"
+					},
+					"Children": [
+						{
+							"ID": "20211219013907-mvg5o40",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219013907-mvg5o40",
+								"updated": "20211219013907"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "DOM、SAX等XML API很容易解析出XML Schema文档中的内容。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211219014124-f33aoty",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219014124-f33aoty"
+					},
+					"Children": [
+						{
+							"ID": "20211219013907-ugbmqys",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219013907-ugbmqys",
+								"updated": "20211219013907"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "XML Schema对名称空间支持得非常好。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211219014124-n96pj4r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219014124-n96pj4r"
+					},
+					"Children": [
+						{
+							"ID": "20211219013907-jg8oza0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219013907-jg8oza0",
+								"updated": "20211219013907"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "XML Schema比XML DTD支持更多的数据类型，并支持用户自定义新的数据类型。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211219014124-udxriio",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219014124-udxriio"
+					},
+					"Children": [
+						{
+							"ID": "20211219013907-ajxnah8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219013907-ajxnah8",
+								"updated": "20211219013907"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "XML Schema定义约束的能力非常强大，可以对XML实例文档作出细致的语义限制。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211219014124-ccscf28",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219014124-ccscf28"
+					},
+					"Children": [
+						{
+							"ID": "20211219013907-ornrkbl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219013907-ornrkbl",
+								"updated": "20211219013907"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "XML Schema不能像DTD一样定义实体，比DTD更复杂，但XML Schema现在已是w3c组织的标准，它正逐步取代DTD。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013907-hvg772o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013907-hvg772o",
+				"updated": "20211219013907"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "3."
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "定义schema文档："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013907-gz4ixtu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013907-gz4ixtu",
+				"updated": "20211219013907"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例子：声明schema根元素并定义元素；"
+				}
+			]
+		},
+		{
+			"ID": "20211219013907-npdh2b9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013907-npdh2b9",
+				"updated": "20211219013907"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://ewr1.vultrobjects.com/imgur3/000/010/344/719_65a_12a.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013907-uo7eupj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013907-uo7eupj",
+				"updated": "20211219013907"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "注意："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219014227-irgtl4w",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219014227-irgtl4w",
+				"updated": "20211219014227"
+			},
+			"Children": [
+				{
+					"ID": "20211219014227-knidl9b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219014227-knidl9b"
+					},
+					"Children": [
+						{
+							"ID": "20211219013907-gqr36u7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219013907-gqr36u7",
+								"updated": "20211219013907"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在schema中, 每个约束模式文档都可以被赋予一个唯一的使用URI标识的名称空间,"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211219014227-aydeh3q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219014227-aydeh3q"
+					},
+					"Children": [
+						{
+							"ID": "20211219013907-o0ipb7s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219013907-o0ipb7s",
+								"updated": "20211219013907"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "XML文件引用schema约束的时候, 便是通过这个名称空间来声明来自哪个shema约束文档的."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211219014227-anea3a8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219014227-anea3a8"
+					},
+					"Children": [
+						{
+							"ID": "20211219013907-xrcmr77",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219013907-xrcmr77",
+								"updated": "20211219013907"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在xsd文档中, 至少要包括shema根元素和xml模式命名空间的定义, 元素定义等"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013907-lmi05n6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013907-lmi05n6",
+				"updated": "20211219013907"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "4."
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "引入schema约束："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219014243-px63x2b",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211219014243-px63x2b",
+				"updated": "20211219014243"
+			},
+			"Children": [
+				{
+					"ID": "20211219014243-cht2p7z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211219014243-cht2p7z"
+					},
+					"Children": [
+						{
+							"ID": "20211219013907-zuwa4cm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219013907-zuwa4cm",
+								"updated": "20211219013907"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在新建的xml文档中加入声明后, 引入schema的约束文档"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219014233-l92u9at",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219014233-l92u9at",
+				"updated": "20211219014303"
+			},
+			"Children": [
+				{
+					"ID": "20211219014233-3ztb38l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219014233-3ztb38l",
+						"updated": "20211219014302"
+					},
+					"Children": [
+						{
+							"ID": "20211219013907-9kf06wg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219013907-9kf06wg",
+								"updated": "20211219014302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "首先声明约束来自哪个名称空间, 使用xmlns=\"\" 来指定,"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211219014233-0u1qrpy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219014233-0u1qrpy",
+						"updated": "20211219014303"
+					},
+					"Children": [
+						{
+							"ID": "20211219013907-h67qey0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219013907-h67qey0",
+								"updated": "20211219014303"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "引入的名称空间和哪个xsd文件对应,"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013907-e2a0g08",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211219013907-e2a0g08",
+				"updated": "20211219014254"
+			},
+			"Children": [
+				{
+					"ID": "20211219014254-6veeksb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211219014254-6veeksb"
+					},
+					"Children": [
+						{
+							"ID": "20211219014254-0btbj1x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219014254-0btbj1x"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用schemaLocation=\"\" 来指定, 第一个为名称空间, 第二个为xsd文件路径."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013907-hi2ob1k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013907-hi2ob1k",
+				"updated": "20211219013907"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "例子："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219013907-n0s89rh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219013907-n0s89rh",
+				"updated": "20211219013907"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://ewr1.vultrobjects.com/imgur3/000/010/344/720_41c_d24.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

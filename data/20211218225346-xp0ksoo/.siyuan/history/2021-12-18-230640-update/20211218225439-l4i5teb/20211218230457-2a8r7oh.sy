@@ -1,0 +1,20 @@
+{
+	"ID": "20211218230457-2a8r7oh",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4c4",
+		"id": "20211218230457-2a8r7oh",
+		"title": "新文档",
+		"updated": "20211218230457"
+	},
+	"Children": [
+		{
+			"ID": "20211218230457-qqwi3ha",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211218230457-qqwi3ha",
+				"updated": "20211218230457"
+			}
+		}
+	]
+}

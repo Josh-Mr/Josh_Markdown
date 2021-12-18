@@ -1,0 +1,19 @@
+{
+	"ID": "20211218234349-8d3qyd5",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211218234349-8d3qyd5",
+		"title": "Mybatis代码生成工具",
+		"updated": "20211218234423"
+	},
+	"Children": [
+		{
+			"ID": "20211218234349-80hhsu9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211218234349-80hhsu9",
+				"updated": "20211218234349"
+			}
+		}
+	]
+}

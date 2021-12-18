@@ -1,0 +1,156 @@
+{
+	"ID": "20211218231606-gf6mlfm",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4c4",
+		"id": "20211218231606-gf6mlfm",
+		"title": "新文档",
+		"updated": "20211218233803"
+	},
+	"Children": [
+		{
+			"ID": "20211218231606-erbyx6k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211218231606-erbyx6k",
+				"updated": "20211218233450"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "粗体"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211218233452-h2g71m3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211218233452-h2g71m3",
+				"updated": "20211218233458"
+			},
+			"Children": [
+				{
+					"Type": "NodeEmphasis",
+					"Data": "em",
+					"Children": [
+						{
+							"Type": "NodeEmA6kOpenMarker",
+							"Data": "*"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "斜体"
+						},
+						{
+							"Type": "NodeEmA6kCloseMarker",
+							"Data": "*"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211218233500-2umy9h0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211218233500-2umy9h0",
+				"updated": "20211218233803"
+			},
+			"Children": [
+				{
+					"ID": "20211218233543-4laa5x3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211218233543-4laa5x3"
+					},
+					"Children": [
+						{
+							"ID": "20211218233543-wbwalz7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211218233543-wbwalz7",
+								"updated": "20211218233545"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "案件是滴啊"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211218233545-36a3l8h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211218233545-36a3l8h",
+						"updated": "20211218233803"
+					},
+					"Children": [
+						{
+							"ID": "20211218233545-7jysj7e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211218233545-7jysj7e",
+								"updated": "20211218233546"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "手动阀"
+								}
+							]
+						},
+						{
+							"ID": "20211218233548-qce4z1d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211218233548-qce4z1d",
+								"updated": "20211218233803"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211218233644-eipdkz1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211218233644-eipdkz1",
+				"updated": "20211218233644"
+			}
+		}
+	]
+}
