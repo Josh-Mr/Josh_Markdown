@@ -1,0 +1,1070 @@
+{
+	"ID": "20211219123046-zwr8fvn",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211219123046-zwr8fvn",
+		"title": "\u0026lt;insert\u0026gt;\u0026lt;update\u0026gt;\u0026lt;delete\u0026gt;操作语句",
+		"updated": "20211219123142"
+	},
+	"Children": [
+		{
+			"ID": "20211219123047-60nzwn9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219123047-60nzwn9",
+				"updated": "20211219110303"
+			},
+			"Children": [
+				{
+					"ID": "20211219123047-t4oi8te",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219123047-t4oi8te",
+						"updated": "20211219110303"
+					},
+					"Children": [
+						{
+							"ID": "20211219123047-1vsubcs",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20211219123047-1vsubcs",
+								"updated": "20211219110303"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "insert、update 、delete"
+								}
+							]
+						},
+						{
+							"ID": "20211219123047-1vsubcs",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20211219123047-1vsubcs",
+								"updated": "20211219110303"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219123047-hwrksdx",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219123047-hwrksdx",
+				"updated": "20211219090430"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cinsert\n  id=\"insertAuthor\"\n  parameterType=\"domain.blog.Author\"\n  flushCache=\"true\"\n  statementType=\"PREPARED\"\n  keyProperty=\"\"\n  keyColumn=\"\"\n  useGeneratedKeys=\"\"\n  timeout=\"20\"\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219123047-6iqrh45",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219123047-6iqrh45",
+				"updated": "20211219090448"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cupdate\n  id=\"updateAuthor\"\n  parameterType=\"domain.blog.Author\"\n  flushCache=\"true\"\n  statementType=\"PREPARED\"\n  timeout=\"20\"\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219123047-yib8cy7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219123047-yib8cy7",
+				"updated": "20211219090508"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cdelete\n  id=\"deleteAuthor\"\n  parameterType=\"domain.blog.Author\"\n  flushCache=\"true\"\n  statementType=\"PREPARED\"\n  timeout=\"20\"\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219123047-hlobqep",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219123047-hlobqep",
+				"updated": "20211219123047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Insert, Update, Delete 元素的属性"
+				}
+			]
+		},
+		{
+			"ID": "20211219123047-ihhhatl",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0
+			],
+			"Properties": {
+				"id": "20211219123047-ihhhatl",
+				"updated": "20211219105500"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 6,
+									"TableCellContentMaxWidth": 22,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "属性"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 6,
+									"TableCellContentMaxWidth": 217,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "描述"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 4,
+							"TableCellContentMaxWidth": 22,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "id"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 52,
+							"TableCellContentMaxWidth": 217,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在命名空间中唯一的标识符，可以被用来引用这条语句。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 19,
+							"TableCellContentMaxWidth": 22,
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "parameterType"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 159,
+							"TableCellContentMaxWidth": 217,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将会传入这条语句的参数的类全限定名或别名。这个属性是可选的，因为 MyBatis 可以通过类型处理器（TypeHandler）推断出具体传入语句的参数，默认值为未设置（unset）。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 15,
+							"TableCellContentMaxWidth": 22,
+							"Children": [
+								{
+									"Type": "NodeStrikethrough",
+									"Data": "s",
+									"Children": [
+										{
+											"Type": "NodeStrikethrough2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "parameterMap"
+										},
+										{
+											"Type": "NodeStrikethrough2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 101,
+							"TableCellContentMaxWidth": 217,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用于引用外部 parameterMap 的属性，目前"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "已被废弃"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。请使用行内参数映射和 parameterType 属性。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 12,
+							"TableCellContentMaxWidth": 22,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "flushCache"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 122,
+							"TableCellContentMaxWidth": 217,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将其设置为 true 后，只要语句被调用，都会导致本地缓存和二级缓存被清空，默认值：（对 insert、update 和 delete 语句）true。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 9,
+							"TableCellContentMaxWidth": 22,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "timeout"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 109,
+							"TableCellContentMaxWidth": 217,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这个设置是在抛出异常之前，驱动程序等待数据库返回请求结果的秒数。默认值为未设置（unset）（依赖数据库驱动）。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 15,
+							"TableCellContentMaxWidth": 22,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "statementType"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 133,
+							"TableCellContentMaxWidth": 217,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可选 STATEMENT，PREPARED 或 CALLABLE。这会让 MyBatis 分别使用 Statement，PreparedStatement 或 CallableStatement，默认值：PREPARED。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 22,
+							"TableCellContentMaxWidth": 22,
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "useGeneratedKeys"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 198,
+							"TableCellContentMaxWidth": 217,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "（仅适用于 insert 和 update）这会令 MyBatis 使用 JDBC 的 getGeneratedKeys 方法来取出由数据库内部生成的主键（比如：像 MySQL 和 SQL Server 这样的关系型数据库管理系统的自动递增字段），默认值：false。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 17,
+							"TableCellContentMaxWidth": 22,
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "keyProperty"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 217,
+							"TableCellContentMaxWidth": 217,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "（仅适用于 insert 和 update）指定能够唯一识别对象的属性，MyBatis 会使用 getGeneratedKeys 的返回值或 insert 语句的 selectKey 子元素设置它的值，默认值：未设置（unset）。如果生成列不止一个，可以用逗号分隔多个属性名称。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 15,
+							"TableCellContentMaxWidth": 22,
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "keyColumn"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 184,
+							"TableCellContentMaxWidth": 217,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "（仅适用于 insert 和 update）设置生成键值在表中的列名，在某些数据库（像 PostgreSQL）中，当主键列不是表中的第一列的时候，是必须设置的。如果生成列不止一个，可以用逗号分隔多个属性名称。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 12,
+							"TableCellContentMaxWidth": 22,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "databaseId"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 156,
+							"TableCellContentMaxWidth": 217,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果配置了数据库厂商标识（databaseIdProvider），MyBatis 会加载所有不带 databaseId 或匹配当前 databaseId 的语句；如果带和不带的语句都有，则不带的会被忽略。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219123047-trshd2q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219123047-trshd2q",
+				"updated": "20211219123047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下面是 insert，update 和 delete 语句的示例："
+				}
+			]
+		},
+		{
+			"ID": "20211219123047-mk0sge9",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219123047-mk0sge9",
+				"updated": "20211219090556"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cinsert id=\"insertAuthor\"\u003e\n\tinsert into Author (id,username,password,email,bio)\n\tvalues (#{id},#{username},#{password},#{email},#{bio})\n\u003c/insert\u003e\n\n\u003cupdate id=\"updateAuthor\"\u003e\n\tupdate Author set\n\tusername = #{username},\n\tpassword = #{password},\n\temail = #{email},\n\tbio = #{bio}\n\twhere id = #{id}\n\u003c/update\u003e\n\n\u003cdelete id=\"deleteAuthor\"\u003e\n\tdelete from Author where id = #{id}\n\u003c/delete\u003e\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219123047-fc7x4xx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219123047-fc7x4xx",
+				"updated": "20211219123047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如前所述，插入语句的配置规则更加丰富，在插入语句里面有一些额外的属性和子元素用来处理主键的生成，并且提供了多种生成方式。"
+				}
+			]
+		},
+		{
+			"ID": "20211219123047-6aqohgq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219123047-6aqohgq",
+				"updated": "20211219090701"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "首先，如果你的数据库"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "支持自动生成主键的字段"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（比如 MySQL 和 SQL Server），那么你可以设置 useGeneratedKeys=”true”，然后再把 keyProperty 设置为目标属性就 OK 了。例如，如果上面的 Author 表已经在 id 列上使用了自动生成，那么语句可以修改为："
+				}
+			]
+		},
+		{
+			"ID": "20211219123047-bee3ixg",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219123047-bee3ixg",
+				"updated": "20211219090737"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cinsert id=\"insertAuthor\" useGeneratedKeys=\"true\" keyProperty=\"id\"\u003e\n\tinsert into Author (username,password,email,bio)\n\tvalues (#{username},#{password},#{email},#{bio})\n\u003c/insert\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219123047-87gslgq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219123047-87gslgq",
+				"updated": "20211219123047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果你的数据库还支持多行插入, 你也可以传入一个 Author 数组或集合，并返回自动生成的主键。"
+				}
+			]
+		},
+		{
+			"ID": "20211219123047-leyd50j",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219123047-leyd50j",
+				"updated": "20211219090825"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cinsert id=\"insertAuthor\" useGeneratedKeys=\"true\" keyProperty=\"id\"\u003e\n \tinsert into Author (username, password, email, bio) values\n\t\u003cforeach item=\"item\" collection=\"list\" separator=\",\"\u003e\n \t\t(#{item.username}, #{item.password}, #{item.email}, #{item.bio})\n\t\u003c/foreach\u003e\n\u003c/insert\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219123047-u5wz0xi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219123047-u5wz0xi",
+				"updated": "20211219123047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对于不支持自动生成主键列的数据库和可能不支持自动生成主键的 JDBC 驱动，MyBatis 有另外一种方法来生成主键。"
+				}
+			]
+		},
+		{
+			"ID": "20211219123047-x0zvrtn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219123047-x0zvrtn",
+				"updated": "20211219123047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这里有一个简单（也很傻）的示例，它可以生成一个随机 ID（不建议实际使用，这里只是为了展示 MyBatis 处理问题的灵活性和宽容度）："
+				}
+			]
+		},
+		{
+			"ID": "20211219123047-0lgwrlf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219123047-0lgwrlf",
+				"updated": "20211219105923"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cinsert id=\"insertAuthor\"\u003e\n\t\u003cselectKey keyProperty=\"id\" resultType=\"int\" order=\"BEFORE\"\u003e\n\t\tselect CAST(RANDOM()*1000000 as INTEGER) a from SYSIBM.SYSDUMMY1\n\t\u003c/selectKey\u003e\n\tinsert into Author\n\t\t(id, username, password, email,bio, favourite_section)\n\tvalues\n\t\t(#{id}, #{username}, #{password}, #{email}, #{bio}, #{favouriteSection,jdbcType=VARCHAR})\n\u003c/insert\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219123047-jkao3jy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219123047-jkao3jy",
+				"updated": "20211219123047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在上面的示例中，首先会运行 selectKey 元素中的语句，并设置 Author 的 id，然后才会调用插入语句。这样就实现了数据库自动生成主键类似的行为，同时保持了 Java 代码的简洁。"
+				}
+			]
+		},
+		{
+			"ID": "20211219123047-lvp4eow",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219123047-lvp4eow",
+				"updated": "20211219105948"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "selectKey 元素描述如下：、"
+				}
+			]
+		},
+		{
+			"ID": "20211219123047-bpqf03c",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219123047-bpqf03c",
+				"updated": "20211219105954"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cselectKey\n\tkeyProperty=\"id\"\n\tresultType=\"int\"\n\torder=\"BEFORE\"\n\tstatementType=\"PREPARED\"\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219123047-4fys49j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219123047-4fys49j",
+				"updated": "20211219123047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "selectKey 元素的属性"
+				}
+			]
+		},
+		{
+			"ID": "20211219123047-zqsvf38",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0
+			],
+			"Properties": {
+				"id": "20211219123047-zqsvf38",
+				"updated": "20211219123047"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 6,
+									"TableCellContentMaxWidth": 15,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "属性"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 6,
+									"TableCellContentMaxWidth": 226,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "描述"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 13,
+							"TableCellContentMaxWidth": 15,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "keyProperty"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 91,
+							"TableCellContentMaxWidth": 226,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "selectKey语句结果应该被设置到的目标属性。如果生成列不止一个，可以用逗号分隔多个属性名称。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 11,
+							"TableCellContentMaxWidth": 15,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "keyColumn"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 80,
+							"TableCellContentMaxWidth": 226,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "返回结果集中生成列属性的列名。如果生成列不止一个，可以用逗号分隔多个属性名称。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 12,
+							"TableCellContentMaxWidth": 15,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "resultType"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 195,
+							"TableCellContentMaxWidth": 226,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "结果的类型。通常 MyBatis 可以推断出来，但是为了更加准确，写上也不会有什么问题。MyBatis 允许将任何简单类型用作主键的类型，包括字符串。如果生成列不止一个，则可以使用包含期望属性的 Object 或 Map。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 7,
+							"TableCellContentMaxWidth": 15,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "order"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 226,
+							"TableCellContentMaxWidth": 226,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以设置为 BEFORE或AFTER。如果设置为BEFORE，那么它首先会生成主键，设置keyProperty再执行插入语句。如果设置为AFTER，那么先执行插入语句，然后是selectKey中的语句 - 这和 Oracle 数据库的行为相似，在插入语句内部可能有嵌入索引调用。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 15,
+							"TableCellContentMaxWidth": 15,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "statementType"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 131,
+							"TableCellContentMaxWidth": 226,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "和前面一样，MyBatis 支持STATEMENT，PREPARED和CALLABLE类型的映射语句，分别代表Statement,PreparedStatement和CallableStatement类型。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

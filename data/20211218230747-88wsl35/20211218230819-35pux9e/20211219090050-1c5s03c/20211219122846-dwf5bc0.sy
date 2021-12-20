@@ -1,0 +1,654 @@
+{
+	"ID": "20211219122846-dwf5bc0",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4c4",
+		"id": "20211219122846-dwf5bc0",
+		"title": "\u0026lt;select\u0026gt;_查询语句",
+		"updated": "20211219124402"
+	},
+	"Children": [
+		{
+			"ID": "20211219122933-h6g2p1q",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219122933-h6g2p1q",
+				"updated": "20211219122933"
+			},
+			"Children": [
+				{
+					"ID": "20211219122933-f5t247v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219122933-f5t247v"
+					},
+					"Children": [
+						{
+							"ID": "20211219122933-jp62l19",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20211219122933-jp62l19",
+								"updated": "20211219122744"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "\u003cselect\u003e--查询语句"
+								}
+							]
+						},
+						{
+							"ID": "20211219122933-91hi965",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20211219122933-91hi965",
+								"updated": "20211219093317"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "eG1s"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003cselect\n  id=\"selectPerson\"\n  parameterType=\"int\"\n  resultType=\"hashmap\"\n  resultMap=\"personResultMap\"\n  flushCache=\"false\"\n  useCache=\"true\"\n  timeout=\"10\"\n  fetchSize=\"256\"\n  statementType=\"PREPARED\"\n  resultSetType=\"FORWARD_ONLY\"\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219122933-p1xb9dj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219122933-p1xb9dj",
+				"updated": "20211219122933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Select 元素的属性"
+				}
+			]
+		},
+		{
+			"ID": "20211219122933-ri07zo0",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0
+			],
+			"Properties": {
+				"id": "20211219122933-ri07zo0",
+				"updated": "20211219105349"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 6,
+									"TableCellContentMaxWidth": 19,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "属性"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 6,
+									"TableCellContentMaxWidth": 201,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "描述"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 4,
+							"TableCellContentMaxWidth": 19,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "id"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 52,
+							"TableCellContentMaxWidth": 201,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在命名空间中唯一的标识符，可以被用来引用这条语句。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 19,
+							"TableCellContentMaxWidth": 19,
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "parameterType"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 159,
+							"TableCellContentMaxWidth": 201,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将会传入这条语句的参数的类全限定名或别名。这个属性是可选的，因为 MyBatis 可以通过类型处理器（TypeHandler）推断出具体传入语句的参数，默认值为未设置（unset）。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 15,
+							"TableCellContentMaxWidth": 19,
+							"Children": [
+								{
+									"Type": "NodeStrikethrough",
+									"Data": "s",
+									"Children": [
+										{
+											"Type": "NodeStrikethrough2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "parameterMap"
+										},
+										{
+											"Type": "NodeStrikethrough2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 101,
+							"TableCellContentMaxWidth": 201,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用于引用外部 parameterMap 的属性，目前"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "已被废弃"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。请使用行内参数映射和 parameterType 属性。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 16,
+							"TableCellContentMaxWidth": 19,
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "resultType"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 180,
+							"TableCellContentMaxWidth": 201,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "期望从这条语句中返回结果的类全限定名或别名。 注意，如果返回的是集合，那应该设置为 "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "集合包含的类型"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ，而不是集合本身的类型。 resultType 和 resultMap 之间只能同时使用一个。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 15,
+							"TableCellContentMaxWidth": 19,
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "resultMap"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 163,
+							"TableCellContentMaxWidth": 201,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对外部 resultMap 的命名引用。结果映射是 MyBatis 最强大的特性，如果你对其理解透彻，许多复杂的映射问题都能迎刃而解。 resultType 和 resultMap 之间只能同时使用一个。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 12,
+							"TableCellContentMaxWidth": 19,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "flushCache"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 87,
+							"TableCellContentMaxWidth": 201,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将其设置为 true 后，只要语句被调用，都会导致本地缓存和二级缓存被清空，默认值：false。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 10,
+							"TableCellContentMaxWidth": 19,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "useCache"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 95,
+							"TableCellContentMaxWidth": 201,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将其设置为 true 后，将会导致本条语句的结果被二级缓存缓存起来，默认值：对 select 元素为 true。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 9,
+							"TableCellContentMaxWidth": 19,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "timeout"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 109,
+							"TableCellContentMaxWidth": 201,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这个设置是在抛出异常之前，驱动程序等待数据库返回请求结果的秒数。默认值为未设置（unset）（依赖数据库驱动）。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 11,
+							"TableCellContentMaxWidth": 19,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "fetchSize"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 116,
+							"TableCellContentMaxWidth": 201,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这是一个给驱动的建议值，尝试让驱动程序每次批量返回的结果行数等于这个设置值。 默认值为未设置（unset）（依赖驱动）。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 15,
+							"TableCellContentMaxWidth": 19,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "statementType"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 133,
+							"TableCellContentMaxWidth": 201,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可选 STATEMENT，PREPARED 或 CALLABLE。这会让 MyBatis 分别使用 Statement，PreparedStatement 或 CallableStatement，默认值：PREPARED。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 15,
+							"TableCellContentMaxWidth": 19,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "resultSetType"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 125,
+							"TableCellContentMaxWidth": 201,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "FORWARD_ONLY，SCROLL_SENSITIVE, SCROLL_INSENSITIVE 或 DEFAULT（等价于 unset） 中的一个，默认值为 unset （依赖数据库驱动）。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 12,
+							"TableCellContentMaxWidth": 19,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "databaseId"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 156,
+							"TableCellContentMaxWidth": 201,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果配置了数据库厂商标识（databaseIdProvider），MyBatis 会加载所有不带 databaseId 或匹配当前 databaseId 的语句；如果带和不带的语句都有，则不带的会被忽略。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 15,
+							"TableCellContentMaxWidth": 19,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "resultOrdered"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 201,
+							"TableCellContentMaxWidth": 201,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这个设置仅针对嵌套结果 select 语句：如果为 true，将会假设包含了嵌套结果集或是分组，当返回一个主结果行时，就不会产生对前面结果集的引用。 这就使得在获取嵌套结果集的时候不至于内存不够用。默认值：false。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 12,
+							"TableCellContentMaxWidth": 19,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "resultSets"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 114,
+							"TableCellContentMaxWidth": 201,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这个设置仅适用于多结果集的情况。它将列出语句执行后返回的结果集并赋予每个结果集一个名称，多个名称之间以逗号分隔。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

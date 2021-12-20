@@ -1,0 +1,19 @@
+{
+	"ID": "20211219120359-isngtom",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211219120359-isngtom",
+		"title": "结果映射（resultMap）",
+		"updated": "20211219120409"
+	},
+	"Children": [
+		{
+			"ID": "20211219120359-9j28j12",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219120359-9j28j12",
+				"updated": "20211219120359"
+			}
+		}
+	]
+}

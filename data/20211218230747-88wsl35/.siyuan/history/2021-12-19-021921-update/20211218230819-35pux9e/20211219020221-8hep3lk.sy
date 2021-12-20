@@ -1,0 +1,1972 @@
+{
+	"ID": "20211219020221-8hep3lk",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211219020221-8hep3lk",
+		"title": "Mybatis_XML配置",
+		"updated": "20211219021916"
+	},
+	"Children": [
+		{
+			"ID": "20211219020347-6ava49u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219020347-6ava49u",
+				"updated": "20211219020347"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、关于mybatis配置文件的约束"
+				}
+			]
+		},
+		{
+			"ID": "20211219020347-gjx9tlo",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219020347-gjx9tlo",
+				"updated": "20211219020347"
+			},
+			"Children": [
+				{
+					"ID": "20211219020347-qivs0h0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219020347-qivs0h0"
+					},
+					"Children": [
+						{
+							"ID": "20211219020347-vn6en1s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219020347-vn6en1s"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "config的约束.xml"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219020406-kbd607z",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219020406-kbd607z",
+				"updated": "20211219021640"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003c!DOCTYPE configuration\n  PUBLIC \"-//mybatis.org//DTD Config 3.0//EN\"\n  \"http://mybatis.org/dtd/mybatis-3-config.dtd\"\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219020347-b7s6ok0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219020347-b7s6ok0",
+				"updated": "20211219020347"
+			},
+			"Children": [
+				{
+					"ID": "20211219020347-cqcrmnn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219020347-cqcrmnn"
+					},
+					"Children": [
+						{
+							"ID": "20211219020347-wkl7xx2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219020347-wkl7xx2"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mapper的约束.xml"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219020420-m4o2bsa",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219020420-m4o2bsa",
+				"updated": "20211219021643"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003c!DOCTYPE mapper\n  PUBLIC \"-//mybatis.org//DTD Mapper 3.0//EN\"\n  \"http://mybatis.org/dtd/mybatis-3-mapper.dtd\"\u003e\n \u003c!--命名空间--\u003e\n\u003cmapper namespace=\"com.redxun.bill.deal.mapper.***Mapper\"\u003e\n\u003c/mapper\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219020428-4pfupfn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219020428-4pfupfn",
+				"updated": "20211219020428"
+			}
+		},
+		{
+			"ID": "20211219021721-3vg5arq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-3vg5arq",
+				"updated": "20211219021721"
+			}
+		},
+		{
+			"ID": "20211219021721-i8co0e4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-i8co0e4",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、配置"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-404lp9k",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219021721-404lp9k",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"ID": "20211219021721-zrofent",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219021721-zrofent"
+					},
+					"Children": [
+						{
+							"ID": "20211219021721-sltywom",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-sltywom"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "configuration --配置"
+								}
+							]
+						},
+						{
+							"ID": "20211219021721-q84izef",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211219021721-q84izef"
+							},
+							"Children": [
+								{
+									"ID": "20211219021721-6wpjsnf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211219021721-6wpjsnf"
+									},
+									"Children": [
+										{
+											"ID": "20211219021721-e2c0dp6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211219021721-e2c0dp6"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "properties -- 属性"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211219021721-7zweus7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211219021721-7zweus7"
+									},
+									"Children": [
+										{
+											"ID": "20211219021721-pczjsd2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211219021721-pczjsd2"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "settings --设置"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211219021721-2rtrcoa",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211219021721-2rtrcoa"
+									},
+									"Children": [
+										{
+											"ID": "20211219021721-gvfsqzw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211219021721-gvfsqzw"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "typeAliases -- 类型别名"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211219021721-u7jh1s6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211219021721-u7jh1s6"
+									},
+									"Children": [
+										{
+											"ID": "20211219021721-8rtnj2q",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211219021721-8rtnj2q"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "typeHandlers --类型处理器"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211219021721-5mdcw4e",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211219021721-5mdcw4e"
+									},
+									"Children": [
+										{
+											"ID": "20211219021721-z4idd2s",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211219021721-z4idd2s"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "objectFactory --对象工厂"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211219021721-1bhxef3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211219021721-1bhxef3"
+									},
+									"Children": [
+										{
+											"ID": "20211219021721-r178n31",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211219021721-r178n31"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "plugins -- 插件"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211219021721-vghp0o1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211219021721-vghp0o1"
+									},
+									"Children": [
+										{
+											"ID": "20211219021721-b0fy2zl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211219021721-b0fy2zl"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "environments --环境变量"
+												}
+											]
+										},
+										{
+											"ID": "20211219021721-8uas7wa",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20211219021721-8uas7wa"
+											},
+											"Children": [
+												{
+													"ID": "20211219021721-ww95dvw",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20211219021721-ww95dvw"
+													},
+													"Children": [
+														{
+															"ID": "20211219021721-c88om7a",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211219021721-c88om7a"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "environment"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20211219021721-gbmpfhe",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20211219021721-gbmpfhe"
+													},
+													"Children": [
+														{
+															"ID": "20211219021721-0rvglat",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211219021721-0rvglat"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "transactionManager --事务管理器"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20211219021721-eu7t6bl",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20211219021721-eu7t6bl"
+													},
+													"Children": [
+														{
+															"ID": "20211219021721-d6htxu1",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211219021721-d6htxu1"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "dataSoure --数据源"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211219021721-fxjfn6q",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211219021721-fxjfn6q"
+									},
+									"Children": [
+										{
+											"ID": "20211219021721-m6h64cm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211219021721-m6h64cm"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "databaseldProvider --数据库厂商标识"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211219021721-luixfo5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211219021721-luixfo5"
+									},
+									"Children": [
+										{
+											"ID": "20211219021721-01px7z7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211219021721-01px7z7"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "mappers --映射器"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211219021721-sj11whw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219021721-sj11whw"
+					},
+					"Children": [
+						{
+							"ID": "20211219021721-mxywka1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-mxywka1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "配置文件约束"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219021753-jh3ya72",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219021753-jh3ya72",
+				"updated": "20211219021834"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003c!DOCTYPE configuration\n        PUBLIC \"-//mybatis.org//DTD Config 3.0//EN\"\n        \"http://mybatis.org/dtd/mybatis-3-config.dtd\"\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-o1wilox",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219021721-o1wilox",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"ID": "20211219021721-m7ncv5q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219021721-m7ncv5q"
+					},
+					"Children": [
+						{
+							"ID": "20211219021721-su5yqgn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-su5yqgn"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "properties"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219021904-2e8f2sl",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219021904-2e8f2sl",
+				"updated": "20211219021916"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "1、\u003c!--配置引入数据库连接配置--\u003e\n    \u003cproperties resource=\"jdbc.properties\"\u003e\n\n        \u003c!--\u003cproperty name=\"url\" value=\"jdbc:mysql://localhost:3306/mybatis\"/\u003e\n\n        \u003cproperty name=\"driver\" value=\"com.mysql.jdbc.Driver\"/\u003e\n\n        \u003cproperty name=\"username\" value=\"root\"/\u003e\n\n        \u003cproperty name=\"password\" value=\"root\"/\u003e--\u003e\n\n    \u003c/properties\u003e\n\n2、引入外在配置\n\n\u003cproperties resource=\"jdbc.properties\"\u003e\u003c/properties\u003e\n\n\u003c!-- 配置环境 --\u003e\n\n\u003cenvironments default=\"mysql\"\u003e\n\n    \u003c!-- 配置mysql的环境--\u003e\n\n    \u003cenvironment id=\"mysql\"\u003e\n\n        \u003c!-- 配置事务的类型--\u003e\n\n        \u003ctransactionManager type=\"JDBC\"\u003e\u003c/transactionManager\u003e\n\n        \u003c!-- 配置数据源（连接池） --\u003e\n\n        \u003cdataSource type=\"POOLED\"\u003e\n\n            \u003c!-- 配置连接数据库的4个基本信息 --\u003e\n\n            \u003cproperty name=\"driver\" value=\"${driver}\"/\u003e\n\n            \u003cproperty name=\"url\" value=\"${url}\"/\u003e\n\n            \u003cproperty name=\"username\" value=\"${username}\"/\u003e\n\n            \u003cproperty name=\"password\" value=\"${password}\"/\u003e\n\n        \u003c/dataSource\u003e\n\n    \u003c/environment\u003e\n\n\u003c/environments\u003e\n\n* settings 设置\n\n\u003c!--设置延迟加载等信息--\u003e\n\n    \u003csettings\u003e\n\n      **  \u003c!--开始日志输出控制台--\u003e**\n\n**        \u003csetting name=\"logImpl\" value=\"STDOUT_LOGGING\" /\u003e**\n\n        **\u003c!--全局性地开启或关闭所有映射器配置文件中已配置的任何缓存。**\n\n**        true | false   true--\u003e**\n\n**        \u003csetting name=\"cacheEnabled\" value=\"true\"/\u003e**\n\n        **\u003c!--延迟加载的全局开关。当开启时，所有关联对象都会延迟加载。**\n\n**        特定关联关系中可通过设置 fetchType 属性来覆盖该项的开关状态。**\n\n**        true | false   false--\u003e**\n\n**        \u003csetting name=\"lazyLoadingEnabled\" value=\"false\"/\u003e**\n\n        \u003c!--是否允许单个语句返回多结果集（需要数据库驱动支持）。\n\n        true | false   true--\u003e\n\n        \u003csetting name=\"multipleResultSetsEnabled\" value=\"true\"/\u003e\n\n        \u003c!--是否允许单个语句返回多结果集（需要数据库驱动支持）。\n\n        true | false   true--\u003e\n\n        \u003csetting name=\"useColumnLabel\" value=\"true\"/\u003e\n\n        \u003c!--允许 JDBC 支持自动生成主键，需要数据库驱动支持。\n\n        如果设置为 true，将强制使用自动生成主键。\n\n        尽管一些数据库驱动不支持此特性，但仍可正常工作（如 Derby）。\n\n        true | false   False--\u003e\n\n        \u003csetting name=\"useGeneratedKeys\" value=\"false\"/\u003e\n\n        \u003c!--指定 MyBatis 应如何自动映射列到字段或属性。\n\n        NONE 表示关闭自动映射；PARTIAL 只会自动映射没有定义嵌套结果映射的字段。\n\n        FULL 会自动映射任何复杂的结果集（无论是否嵌套）。\n\n        NONE, PARTIAL, FULL    PARTIAL--\u003e\n\n        \u003csetting name=\"autoMappingBehavior\" value=\"PARTIAL\"/\u003e\n\n        \u003c!--指定发现自动映射目标未知列（或未知属性类型）的行为。\n\n        NONE: 不做任何反应\n\n        WARNING: 输出警告日志（'org.apache.ibatis.session.AutoMappingUnknownColumnBehavior' 的日志等级必须设置为 WARN）\n\n        FAILING: 映射失败 (抛出 SqlSessionException)\n\n        NONE, WARNING, FAILING NONE--\u003e\n\n        \u003csetting name=\"autoMappingUnknownColumnBehavior\" value=\"WARNING\"/\u003e\n\n        \u003csetting name=\"defaultExecutorType\" value=\"SIMPLE\"/\u003e\n\n        \u003csetting name=\"defaultStatementTimeout\" value=\"25\"/\u003e\n\n        \u003csetting name=\"defaultFetchSize\" value=\"100\"/\u003e\n\n        \u003csetting name=\"safeRowBoundsEnabled\" value=\"false\"/\u003e\n\n        \u003csetting name=\"mapUnderscoreToCamelCase\" value=\"false\"/\u003e\n\n        \u003csetting name=\"localCacheScope\" value=\"SESSION\"/\u003e\n\n        \u003csetting name=\"jdbcTypeForNull\" value=\"OTHER\"/\u003e\n\n        \u003csetting name=\"lazyLoadTriggerMethods\" value=\"equals,clone,hashCode,toString\"/\u003e\n\n    \u003c/settings\u003e\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-mazdrqc",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219021721-mazdrqc",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"ID": "20211219021721-jjfxvam",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219021721-jjfxvam"
+					},
+					"Children": [
+						{
+							"ID": "20211219021721-csfl8bf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-csfl8bf"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "typeAliases 类型别名"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-wr770ch",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-wr770ch",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\u003c!--类型别名可为  "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Java 类型设置一个缩写名字"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 。"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-dshnuf7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-dshnuf7",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        它仅用于 XML 配置，意在降低冗余的全限定类名书写。 --\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-f8084ns",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-f8084ns",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    \u003c!-- 运用package 时，可以用注解 **@Alias(value = \"josh\")** 对每个实体定义别名 --\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-dw96y34",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-dw96y34",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    \u003ctypeAliases\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-nylnhdw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-nylnhdw",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\u003c!--单独定义别名--\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-bgtac8s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-bgtac8s",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\u003c!--   \u003ctypeAlias type=\"com.josh.entity.User\" alias=\"user\"\u003e\u003c/typeAlias\u003e--\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-fbh5j18",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-fbh5j18",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "       ** \u003cpackage name=\"com.josh.entity\"/\u003e**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-tr84l9g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-tr84l9g",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    \u003c/typeAliases\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-3ad3d3g",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219021721-3ad3d3g",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"ID": "20211219021721-slpqr3o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219021721-slpqr3o"
+					},
+					"Children": [
+						{
+							"ID": "20211219021721-88vvpec",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-88vvpec"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "typeHandlers 类型处理器"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-b69lvxh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-b69lvxh",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\u003c!-- MyBatis 在设置预处理语句（PreparedStatement）中的参数或从结果集中取出一个值时，"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-n3q8s7b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-n3q8s7b",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    都会用类型处理器将获取到的值以合适的方式转换成 Java 类型。--\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-n09eqms",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-n09eqms",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    \u003ctypeHandlers\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-htm75c5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-htm75c5",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "       ** \u003c!--没引用--\u003e**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-g0ajjx4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-g0ajjx4",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**        \u003ctypeHandler handler=\"com.josh.typehandler.ExampleTypeHandler\"\u003e\u003c/typeHandler\u003e**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-yhwx35v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-yhwx35v",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    \u003c/typeHandlers\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-ad4rlyb",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219021721-ad4rlyb",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"ID": "20211219021721-z5zb4vc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219021721-z5zb4vc"
+					},
+					"Children": [
+						{
+							"ID": "20211219021721-yi6660h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-yi6660h"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "objectFactory 对象工厂"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-atfb6jb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-atfb6jb",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\u003c!--对象工厂（objectFactory）每次 MyBatis 创建结果对象的新实例时，"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-n6brfe3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-n6brfe3",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    它都会使用 "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "一个对象工厂（ObjectFactory"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ）实例来完成实例化工作。"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-1ds3cu6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-1ds3cu6",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    默认的对象工厂需要做的仅仅是 "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "实例化目标类"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ，要么通过默认无参构造方法，"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-c7s07il",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-c7s07il",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    要么通过存在的参数映射来调用带有参数的构造方法。"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-yuattvn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-yuattvn",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    如果想覆盖对象工厂的默认行为，可以通过创建自己的对象工厂来实现。--\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-c5sqyer",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-c5sqyer",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    \u003c!--\u003cobjectFactory type=\"org.mybatis.example.ExampleObjectFactory\"\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-8w3qsbf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-8w3qsbf",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        \u003cproperty name=\"someProperty\" value=\"100\"/\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-ifo7mdp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-ifo7mdp",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    \u003c/objectFactory\u003e--\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-588aedi",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219021721-588aedi",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"ID": "20211219021721-qx6zx30",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219021721-qx6zx30"
+					},
+					"Children": [
+						{
+							"ID": "20211219021721-qxwtfc2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-qxwtfc2"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "plugins 插件"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-958nlrk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-958nlrk",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\u003c!--插件（plugins）"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-8yxkzf1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-8yxkzf1",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    MyBatis 允许你在映射语句执行过程中的某一点进行拦截调用。"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-o8uoivn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-o8uoivn",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    默认情况下，MyBatis 允许使用插件来拦截的方法调用包括："
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-qme1zcj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-qme1zcj",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    Executor (update, query, flushStatements, commit, rollback, getTransaction, close, isClosed)"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-87tqph3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-87tqph3",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    ParameterHandler (getParameterObject, setParameters)"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-iivtzr8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-iivtzr8",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    ResultSetHandler (handleResultSets, handleOutputParameters)"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-te750z2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-te750z2",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    StatementHandler (prepare, parameterize, batch, update, query)--\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-u8zl6e8",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219021721-u8zl6e8",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"ID": "20211219021721-lmekrjz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219021721-lmekrjz"
+					},
+					"Children": [
+						{
+							"ID": "20211219021721-1f5h92l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-1f5h92l"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "environments 环境配置"
+								}
+							]
+						},
+						{
+							"ID": "20211219021721-vzfxku0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-vzfxku0"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "\u003c!-- 配置环境--\u003e"
+								}
+							]
+						},
+						{
+							"ID": "20211219021721-tstfsaa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-tstfsaa"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "\u003c!--MyBatis 可以配置成适应多种环境，这种机制有助于将 SQL 映射应用于多种数据库之中，"
+								}
+							]
+						},
+						{
+							"ID": "20211219021721-c9jvpwu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-c9jvpwu"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "现实情况下有多种理由需要这么做。例如，开发、测试和生产环境需要有不同的配置；"
+								}
+							]
+						},
+						{
+							"ID": "20211219021721-zccaa6z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-zccaa6z"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "或者想在具有相同 Schema 的多个生产数据库中使用相同的 SQL 映射。还有许多类似的使用场景。"
+								}
+							]
+						},
+						{
+							"ID": "20211219021721-hjysdzr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-hjysdzr"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不过要记住：尽管可以配置多个环境，但每个 SqlSessionFactory 实例只能选择一种环境。"
+								}
+							]
+						},
+						{
+							"ID": "20211219021721-kcsbyg0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-kcsbyg0"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "所以，如果你想 "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "连接两个数据库"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ，就需要创建两个 SqlSessionFactory 实例，"
+								}
+							]
+						},
+						{
+							"ID": "20211219021721-s5qltud",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-s5qltud"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "每个数据库对应一个。而如果是三个数据库，就需要三个实例，"
+								}
+							]
+						},
+						{
+							"ID": "20211219021721-zsalpzb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-zsalpzb"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "依此类推，记起来很简单 ：每个数据库对应一个 SqlSessionFactory 实例--\u003e"
+								}
+							]
+						},
+						{
+							"ID": "20211219021721-5du7c96",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-5du7c96"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "\u003cenvironments default=\"mysql\"\u003e"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-243m6tl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-243m6tl",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**        \u003cenvironment id=\"mysql\"\u003e**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-fdvfnhv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-fdvfnhv",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**            \u003c!--配置事务类型--\u003e**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-1x305kw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-1x305kw",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**            \u003ctransactionManager type=\"JDBC\"\u003e\u003c/transactionManager\u003e**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-or2q2wr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-or2q2wr",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**            \u003c!--连接数据库信息--\u003e**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-mw82ptf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-mw82ptf",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**            \u003cdataSource type=\"POOLED\"\u003e**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-5ux5n12",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-5ux5n12",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**                \u003cproperty name=\"url\" value=\"${url}\"/\u003e**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-g8tkqsq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-g8tkqsq",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**                \u003cproperty name=\"driver\" value=\"${driver}\"/\u003e**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-p1ue5vm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-p1ue5vm",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**                \u003cproperty name=\"username\" value=\"${username}\"/\u003e**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-ztdc6hg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-ztdc6hg",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**                \u003cproperty name=\"password\" value=\"${password}\"/\u003e**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-e430zco",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-e430zco",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**            \u003c/dataSource\u003e**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-o6bnppc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-o6bnppc",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**        \u003c/environment\u003e**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-ly3oj2f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-ly3oj2f",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**    \u003c/environments\u003e**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-0rtiiuy",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219021721-0rtiiuy",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"ID": "20211219021721-p35q65m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219021721-p35q65m"
+					},
+					"Children": [
+						{
+							"ID": "20211219021721-ggdb94e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-ggdb94e"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mappers 映射文件"
+								}
+							]
+						},
+						{
+							"ID": "20211219021721-cb831ty",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-cb831ty"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "\u003c!--配置映射文件的位置--\u003e"
+								}
+							]
+						},
+						{
+							"ID": "20211219021721-1gryyf5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-1gryyf5"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "\u003c!--映射器（mappers）"
+								}
+							]
+						},
+						{
+							"ID": "20211219021721-l0eb87a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-l0eb87a"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "既然 MyBatis 的行为已经由上述元素配置完了，我们现在就要来定义 SQL 映射语句了。"
+								}
+							]
+						},
+						{
+							"ID": "20211219021721-eejcss1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-eejcss1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "但首先，我们需要告诉 MyBatis 到哪里去找到这些语句。"
+								}
+							]
+						},
+						{
+							"ID": "20211219021721-k9neneu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-k9neneu"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在自动查找资源方面，Java 并没有提供一个很好的解决方案，"
+								}
+							]
+						},
+						{
+							"ID": "20211219021721-ybi46p5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-ybi46p5"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "所以最好的办法是直接告诉 MyBatis 到哪里去找映射文件。"
+								}
+							]
+						},
+						{
+							"ID": "20211219021721-o61h99c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-o61h99c"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "你可以使用相对于类路径的资源引用，或完全限定资源定位符（包括 file:/// 形式的 URL），"
+								}
+							]
+						},
+						{
+							"ID": "20211219021721-48t6s3e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-48t6s3e"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "或类名和包名等。--\u003e"
+								}
+							]
+						},
+						{
+							"ID": "20211219021721-tdbh83s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-tdbh83s"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "\u003cmappers\u003e"
+								}
+							]
+						},
+						{
+							"ID": "20211219021721-o5alvyg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219021721-o5alvyg"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "**  \u003c!--**"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-6jn81ty",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-6jn81ty",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**        使用相对于类路径的资源引用 - xml的方式**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-gu016ck",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-gu016ck",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**         \u003cmapper resource = \"com/josh/dao/IUserDao.xml\"\u003e\u003c/mapper\u003e--\u003e**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-fjuhm3p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-fjuhm3p",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "     **   \u003c!--使用完全限定资源定位符（URL）**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-jnluqr8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-jnluqr8",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**            \u003cmapper url=\"file:///var/mappers/AuthorMapper.xml\"/\u003e**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-6102d6y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-6102d6y",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**           --\u003e**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-j2yvcs7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-j2yvcs7",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "   **     \u003c!-- 使用映射器接口实现类的完全限定类名 -注解的方式**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-lz0dn94",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-lz0dn94",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**        \u003cmapper class = \"com.josh.dao.IUserDao\"\u003e\u003c/mapper\u003e  --\u003e**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-m40jzb0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-m40jzb0",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "\u003c!--将包内的映射器接口实现全部注册为映射器 --\u003e"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-yi9r7fl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-yi9r7fl",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**       \u003cpackage name=\"com.josh.dao\"/\u003e**"
+				}
+			]
+		},
+		{
+			"ID": "20211219021721-71irhri",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219021721-71irhri",
+				"updated": "20211219021721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    \u003c/mappers\u003e"
+				}
+			]
+		}
+	]
+}

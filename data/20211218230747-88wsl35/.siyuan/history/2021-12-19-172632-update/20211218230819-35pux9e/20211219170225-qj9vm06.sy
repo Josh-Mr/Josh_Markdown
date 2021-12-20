@@ -1,0 +1,1725 @@
+{
+	"ID": "20211219170225-qj9vm06",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20211219170225-qj9vm06",
+		"title": "Mybaits_动态SQL",
+		"updated": "20211219172630"
+	},
+	"Children": [
+		{
+			"ID": "20211219170232-bdxm4ps",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211219170232-bdxm4ps",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "动态 SQL"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-ou32hn9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-ou32hn9",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "动态 SQL 是 MyBatis 的强大特性之一。如果你使用过 JDBC 或其它类似的框架，你应该能理解根据不同条件拼接 SQL 语句有多痛苦，例如拼接时要确保不能忘记添加必要的空格，还要注意去掉列表最后一个列名的逗号。利用动态 SQL，可以彻底摆脱这种痛苦。"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-irid86l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-irid86l",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用动态 SQL 并非一件易事，但借助可用于任何 SQL 映射语句中的强大的动态 SQL 语言，MyBatis 显著地提升了这一特性的易用性。"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-cgp0u2c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-cgp0u2c",
+				"updated": "20211219170532"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果你之前用过 JSTL 或任何基于类 XML 语言的文本处理器，你对动态 SQL 元素可能会感觉似曾相识。在 MyBatis 之前的版本中，需要花时间了解大量的元素。借助功能强大的基于 "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "OGNL"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 的表达式，MyBatis 3 替换了之前的大部分元素，大大精简了元素种类，现在要学习的元素种类比原来的一半还要少。"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-wxs5akp",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211219170232-wxs5akp",
+				"style": "color: var(--b3-card-warning-color); background-color: var(--b3-card-warning-background);",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"ID": "20211219170232-k410lfk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211219170232-k410lfk"
+					},
+					"Children": [
+						{
+							"ID": "20211219170232-xm0tlmz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219170232-xm0tlmz"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "if"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211219170232-von2i1l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211219170232-von2i1l"
+					},
+					"Children": [
+						{
+							"ID": "20211219170232-62tz9ep",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219170232-62tz9ep"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "choose (when, otherwise)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211219170232-ogjelos",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20211219170232-ogjelos"
+					},
+					"Children": [
+						{
+							"ID": "20211219170232-p333e6c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219170232-p333e6c"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "trim (where, set)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211219170232-rl5dqua",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20211219170232-rl5dqua"
+					},
+					"Children": [
+						{
+							"ID": "20211219170232-qz7yrqb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219170232-qz7yrqb",
+								"updated": "20211219170615"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "foreach"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-e3fxgcx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211219170232-e3fxgcx",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "if"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-nsq2a3j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-nsq2a3j",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用动态 SQL 最常见情景是根据条件包含 where 子句的一部分。比如："
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-pdijvyw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219170232-pdijvyw",
+				"updated": "20211219170829"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cselect id=\"findActiveBlogWithTitleLike\" resultType=\"Blog\"\u003e\n  SELECT * FROM BLOG\n  WHERE state = ‘ACTIVE’\n  \u003cif test =\"title != null\"\u003e\n    AND title like #{title}\n  \u003c/if\u003e\n\u003c/select\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-lshjy5f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-lshjy5f",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这条语句提供了可选的查找文本功能。如果不传入 “title”，那么所有处于 “ACTIVE” 状态的 BLOG 都会返回；如果传入了 “title” 参数，那么就会对 “title” 一列进行模糊查找并返回对应的 BLOG 结果（细心的读者可能会发现，“title” 的参数值需要包含查找掩码或通配符字符）。"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-bclw48x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-bclw48x",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果希望通过 “title” 和 “author” 两个参数进行可选搜索该怎么办呢？首先，我想先将语句名称修改成更名副其实的名称；接下来，只需要加入另一个条件即可。"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-y05jco0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219170232-y05jco0",
+				"updated": "20211219171643"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cselect id=\"findActiveBlogLike\"\n     resultType=\"Blog\"\u003e\n  SELECT * FROM BLOG WHERE state = ‘ACTIVE’\n  \u003cif test =\"title != null\"\u003e\n    AND title like #{title}\n  \u003c/if\u003e\n  \u003cif test =\"author != null and author.name != null\"\u003e\n    AND author_name like #{author.name}\n  \u003c/if\u003e\n\u003c/select\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-g38ovfp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211219170232-g38ovfp",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "choose、when、otherwise"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-13da92d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-13da92d",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "有时候，我们不想使用所有的条件，而只是想从多个条件中选择一个使用。针对这种情况，MyBatis 提供了 choose 元素，它有点像 Java 中的 switch 语句。"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-jhoqz1r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-jhoqz1r",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "还是上面的例子，但是策略变为：传入了 “title” 就按 “title” 查找，传入了 “author” 就按 “author” 查找的情形。若两者都没有传入，就返回标记为 featured 的 BLOG（这可能是管理员认为，与其返回大量的无意义随机 Blog，还不如返回一些由管理员精选的 Blog）。"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-1fa8hlb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219170232-1fa8hlb",
+				"updated": "20211219171030"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cselect id=\"findActiveBlogLike\"\n     resultType=\"Blog\"\u003e\n  SELECT * FROM BLOG WHERE state = ‘ACTIVE’\n  \u003cchoose\u003e\n    \u003cwhen test=\"title != null\"\u003e\n      AND title like #{title}\n    \u003c/when\u003e\n    \u003cwhen test=\"author != null and author.name != null\"\u003e\n      AND author_name like #{author.name}\n    \u003c/when\u003e\n    \u003cotherwise\u003e\n      AND featured = 1\n    \u003c/otherwise\u003e\n  \u003c/choose\u003e\n\u003c/select\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-e5poi1j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211219170232-e5poi1j",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "trim、where、set"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-t3emb6m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-t3emb6m",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "前面几个例子已经方便地解决了一个臭名昭著的动态 SQL 问题。现在回到之前的 “if” 示例，这次我们将 “state = ‘ACTIVE’” 设置成动态条件，看看会发生什么。"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-nbi3klx",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219170232-nbi3klx",
+				"updated": "20211219171652"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cselect id=\"findActiveBlogLike\" resultType=\"Blog\"\u003e\n  SELECT * FROM BLOG\n  WHERE\n  \u003cif test =\"state != null\"\u003e\n    state = #{state}\n  \u003c/if\u003e\n  \u003cif test =\"title != null\"\u003e\n    AND title like #{title}\n  \u003c/if\u003e\n  \u003cif test =\"author != null and author.name != null\"\u003e\n    AND author_name like #{author.name}\n  \u003c/if\u003e\n\u003c/select\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-wxb8lh1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-wxb8lh1",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果没有匹配的条件会怎么样？最终这条 SQL 会变成这样："
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-7a24afm",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219170232-7a24afm",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "SELECT * FROM BLOG\nWHERE\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-782exk9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-782exk9",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这会导致查询失败。如果匹配的只是第二个条件又会怎样？这条 SQL 会是这样:"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-ru682cc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219170232-ru682cc",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "SELECT * FROM BLOG\nWHERE\nAND title like ‘someTitle’\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-avs7p2b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-avs7p2b",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这个查询也会失败。这个问题不能简单地用条件元素来解决。这个问题是如此的难以解决，以至于解决过的人不会再想碰到这种问题。"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-pk2cnuu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-pk2cnuu",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MyBatis 有一个简单且适合大多数场景的解决办法。而在其他场景中，可以对其进行自定义以符合需求。而这，只需要一处简单的改动："
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-ij5dn7m",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219170232-ij5dn7m",
+				"updated": "20211219171747"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cselect id=\"findActiveBlogLike\" resultType=\"Blog\"\u003e\n  SELECT * FROM BLOG\n  \u003cwhere\u003e\n    \u003cif test=\"state != null\"\u003e\n         state = #{state}\n    \u003c/if\u003e\n    \u003cif test=\"title != null\"\u003e\n        AND title like #{title}\n    \u003c/if\u003e\n    \u003cif test=\"author != null and author.name != null\"\u003e\n        AND author_name like #{author.name}\n    \u003c/if\u003e\n  \u003c/where\u003e\n\u003c/select\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-h0nqt1o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-h0nqt1o",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeEmphasis",
+					"Data": "em",
+					"Children": [
+						{
+							"Type": "NodeEmA6kOpenMarker",
+							"Data": "*"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "where"
+						},
+						{
+							"Type": "NodeEmA6kCloseMarker",
+							"Data": "*"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 元素只会在子元素返回任何内容的情况下才插入 “WHERE” 子句。而且，若子句的开头为 “AND” 或 “OR”，"
+				},
+				{
+					"Type": "NodeEmphasis",
+					"Data": "em",
+					"Children": [
+						{
+							"Type": "NodeEmA6kOpenMarker",
+							"Data": "*"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "where"
+						},
+						{
+							"Type": "NodeEmA6kCloseMarker",
+							"Data": "*"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 元素也会将它们去除。"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-8ietdvo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-8ietdvo",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果 "
+				},
+				{
+					"Type": "NodeEmphasis",
+					"Data": "em",
+					"Children": [
+						{
+							"Type": "NodeEmA6kOpenMarker",
+							"Data": "*"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "where"
+						},
+						{
+							"Type": "NodeEmA6kCloseMarker",
+							"Data": "*"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 元素与你期望的不太一样，你也可以通过自定义 trim 元素来定制 "
+				},
+				{
+					"Type": "NodeEmphasis",
+					"Data": "em",
+					"Children": [
+						{
+							"Type": "NodeEmA6kOpenMarker",
+							"Data": "*"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "where"
+						},
+						{
+							"Type": "NodeEmA6kCloseMarker",
+							"Data": "*"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 元素的功能。比如，和 "
+				},
+				{
+					"Type": "NodeEmphasis",
+					"Data": "em",
+					"Children": [
+						{
+							"Type": "NodeEmA6kOpenMarker",
+							"Data": "*"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "where"
+						},
+						{
+							"Type": "NodeEmA6kCloseMarker",
+							"Data": "*"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 元素等价的自定义 trim 元素为："
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-rnqccnx",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219170232-rnqccnx",
+				"updated": "20211219172014"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003ctrim prefix=\"WHERE\" prefixOverrides=\"AND |OR \"\u003e\n  ...\n\u003c/trim\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-mfvqsui",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-mfvqsui",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeEmphasis",
+					"Data": "em",
+					"Children": [
+						{
+							"Type": "NodeEmA6kOpenMarker",
+							"Data": "*"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "prefixOverrides"
+						},
+						{
+							"Type": "NodeEmA6kCloseMarker",
+							"Data": "*"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 属性会忽略通过管道符分隔的文本序列（注意此例中的空格是必要的）。上述例子会移除所有 "
+				},
+				{
+					"Type": "NodeEmphasis",
+					"Data": "em",
+					"Children": [
+						{
+							"Type": "NodeEmA6kOpenMarker",
+							"Data": "*"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "prefixOverrides"
+						},
+						{
+							"Type": "NodeEmA6kCloseMarker",
+							"Data": "*"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 属性中指定的内容，并且插入 "
+				},
+				{
+					"Type": "NodeEmphasis",
+					"Data": "em",
+					"Children": [
+						{
+							"Type": "NodeEmA6kOpenMarker",
+							"Data": "*"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "prefix"
+						},
+						{
+							"Type": "NodeEmA6kCloseMarker",
+							"Data": "*"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 属性中指定的内容。"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-s6vaam7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-s6vaam7",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用于动态更新语句的类似解决方案叫做  "
+				},
+				{
+					"Type": "NodeEmphasis",
+					"Data": "em",
+					"Children": [
+						{
+							"Type": "NodeEmA6kOpenMarker",
+							"Data": "*"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "set"
+						},
+						{
+							"Type": "NodeEmA6kCloseMarker",
+							"Data": "*"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 。"
+				},
+				{
+					"Type": "NodeEmphasis",
+					"Data": "em",
+					"Children": [
+						{
+							"Type": "NodeEmA6kOpenMarker",
+							"Data": "*"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "set"
+						},
+						{
+							"Type": "NodeEmA6kCloseMarker",
+							"Data": "*"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 元素可以用于动态包含需要更新的列，忽略其它不更新的列。比如："
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-kivk4bd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219170232-kivk4bd",
+				"updated": "20211219172027"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cupdate id=\"updateAuthorIfNecessary\"\u003e\n  update Author\n    \u003cset\u003e\n      \u003cif test=\"username != null\"\u003eusername=#{username},\u003c/if\u003e\n      \u003cif test=\"password != null\"\u003epassword=#{password},\u003c/if\u003e\n      \u003cif test=\"email != null\"\u003eemail=#{email},\u003c/if\u003e\n      \u003cif test=\"bio != null\"\u003ebio=#{bio}\u003c/if\u003e\n    \u003c/set\u003e\n  where id=#{id}\n\u003c/update\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-jk5j2xf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-jk5j2xf",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这个例子中，"
+				},
+				{
+					"Type": "NodeEmphasis",
+					"Data": "em",
+					"Children": [
+						{
+							"Type": "NodeEmA6kOpenMarker",
+							"Data": "*"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "set"
+						},
+						{
+							"Type": "NodeEmA6kCloseMarker",
+							"Data": "*"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 元素会动态地在行首插入 SET 关键字，并会删掉额外的逗号（这些逗号是在使用条件语句给列赋值时引入的）。"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-ym22slg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-ym22slg",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "来看看与 "
+				},
+				{
+					"Type": "NodeEmphasis",
+					"Data": "em",
+					"Children": [
+						{
+							"Type": "NodeEmA6kOpenMarker",
+							"Data": "*"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "set"
+						},
+						{
+							"Type": "NodeEmA6kCloseMarker",
+							"Data": "*"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 元素等价的自定义 "
+				},
+				{
+					"Type": "NodeEmphasis",
+					"Data": "em",
+					"Children": [
+						{
+							"Type": "NodeEmA6kOpenMarker",
+							"Data": "*"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "trim"
+						},
+						{
+							"Type": "NodeEmA6kCloseMarker",
+							"Data": "*"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 元素吧："
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-72kftrs",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219170232-72kftrs",
+				"updated": "20211219172343"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003ctrim prefix=\"SET\" suffixOverrides=\",\"\u003e\n  ...\n\u003c/trim\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-wcgl5m0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-wcgl5m0",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意，我们覆盖了后缀值设置，并且自定义了前缀值。"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-ek93wtr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211219170232-ek93wtr",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "foreach"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-cudtx8z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-cudtx8z",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "动态 SQL 的另一个常见使用场景是对集合进行遍历（尤其是在构建 IN 条件语句的时候）。比如："
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-1sx8kav",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219170232-1sx8kav",
+				"updated": "20211219172436"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cselect id=\"selectPostIn\" resultType=\"domain.blog.Post\"\u003e\n  SELECT *\n  FROM POST P\n  WHERE ID in\n  \u003cforeach item=\"item\" index=\"index\" collection=\"list\" open=\"(\"separator=\",\"close=\")\"\u003e\n        #{item}\n  \u003c/foreach\u003e\n\u003c/select\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-zh7bz80",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-zh7bz80",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeEmphasis",
+					"Data": "em",
+					"Children": [
+						{
+							"Type": "NodeEmA6kOpenMarker",
+							"Data": "*"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "foreach"
+						},
+						{
+							"Type": "NodeEmA6kCloseMarker",
+							"Data": "*"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 元素的功能非常强大，它允许你指定一个集合，声明可以在元素体内使用的集合项（item）和索引（index）变量。它也允许你指定开头与结尾的字符串以及集合项迭代之间的分隔符。这个元素也不会错误地添加多余的分隔符，看它多智能！"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-u9wh27a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-u9wh27a",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "提示"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 你可以将任何可迭代对象（如 List、Set 等）、Map 对象或者数组对象作为集合参数传递给  "
+				},
+				{
+					"Type": "NodeEmphasis",
+					"Data": "em",
+					"Children": [
+						{
+							"Type": "NodeEmA6kOpenMarker",
+							"Data": "*"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "foreach"
+						},
+						{
+							"Type": "NodeEmA6kCloseMarker",
+							"Data": "*"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 。当使用可迭代对象或者数组时，index 是当前迭代的序号，item 的值是本次迭代获取到的元素。当使用 Map 对象（或者 Map.Entry 对象的集合）时，index 是键，item 是值。"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-iphdlp6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-iphdlp6",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "至此，我们已经完成了与 XML 配置及映射文件相关的讨论。下一章将详细探讨 Java API，以便你能充分利用已经创建的映射配置。"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-6sbfm4e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211219170232-6sbfm4e",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "script"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-ug9s07x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-ug9s07x",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "要在带注解的映射器接口类中使用动态 SQL，可以使用 "
+				},
+				{
+					"Type": "NodeEmphasis",
+					"Data": "em",
+					"Children": [
+						{
+							"Type": "NodeEmA6kOpenMarker",
+							"Data": "*"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "script"
+						},
+						{
+							"Type": "NodeEmA6kCloseMarker",
+							"Data": "*"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 元素。比如:"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-kkut79y",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219170232-kkut79y",
+				"updated": "20211219172528"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@Update({\"\u003cscript\u003e\",\n      \"update Author\",\n      \"  \u003cset\u003e\",\n      \"    \u003cif test='username != null'\u003eusername=#{username},\u003c/if\u003e\",\n      \"    \u003cif test='password != null'\u003epassword=#{password},\u003c/if\u003e\",\n      \"    \u003cif test='email != null'\u003eemail=#{email},\u003c/if\u003e\",\n      \"    \u003cif test='bio != null'\u003ebio=#{bio}\u003c/if\u003e\",\n      \"  \u003c/set\u003e\",\n      \"where id=#{id}\",\n      \"\u003c/script\u003e\"})\n    void updateAuthorValues(Author author);\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-byvegu9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211219170232-byvegu9",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "bind"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-ue87qya",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-ue87qya",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "bind"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 元素允许你在 OGNL 表达式以外创建一个变量，并将其绑定到当前的上下文。比如："
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-nimgj4x",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219170232-nimgj4x",
+				"updated": "20211219172542"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cselect id=\"selectBlogsLike\" resultType=\"Blog\"\u003e\n  \u003cbind name=\"pattern\"value=\"'%' + _parameter.getTitle() + '%'\"/\u003e\n  SELECT * FROM BLOG\n  WHERE title LIKE #{pattern}\n\u003c/select\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-c32kupd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-c32kupd",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "     ### 多数据库支持"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-8ubae6r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-8ubae6r",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果配置了 databaseIdProvider，你就可以在动态代码中使用名为 “_databaseId” 的变量来为不同的数据库构建特定的语句。比如下面的例子："
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-0c1drdf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219170232-0c1drdf",
+				"updated": "20211219172600"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cinsert id=\"insert\"\u003e\n  \u003cselectKey keyProperty=\"id\"resultType=\"int\"order=\"BEFORE\"\u003e\n    \u003cif test=\"_databaseId == 'oracle'\"\u003e\n      select seq_users.nextval from dual\n    \u003c/if\u003e\n    \u003cif test=\"_databaseId == 'db2'\"\u003e\n      select nextval for seq_users from sysibm.sysdummy1\"\n    \u003c/if\u003e\n  \u003c/selectKey\u003e\n  insert into users values (#{id}, #{name})\n\u003c/insert\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-8szuc3m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211219170232-8szuc3m",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "动态 SQL 中的插入脚本语言"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-2unml4e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-2unml4e",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MyBatis 从 3.2 版本开始支持插入脚本语言，这允许你插入一种语言驱动，并基于这种语言来编写动态 SQL 查询语句。"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-uhv1wmh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-uhv1wmh",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可以通过实现以下接口来插入一种语言："
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-qz5c54g",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219170232-qz5c54g",
+				"updated": "20211219172615"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "publicinterfaceLanguageDriver{\n  ParameterHandler createParameterHandler(MappedStatement mappedStatement,Object parameterObject,BoundSql boundSql);\n  SqlSource createSqlSource(Configuration configuration,XNode script,Class\u003c?\u003e parameterType);\n  SqlSource createSqlSource(Configuration configuration,String script,Class\u003c?\u003e parameterType);\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-2jy3how",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-2jy3how",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实现自定义语言驱动后，你就可以在 mybatis-config.xml 文件中将它设置为默认语言："
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-c4c33z8",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219170232-c4c33z8",
+				"updated": "20211219172630"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003ctypeAliases\u003e\n  \u003ctype Aliastype=\"org.sample.MyLanguageDriver\" alias=\"myLanguage\"/\u003e\n\u003c/typeAliases\u003e\n\u003csettings\u003e\n  \u003csettingname=\"defaultScriptingLanguage\"value=\"myLanguage\"/\u003e\n\u003c/settings\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-s9frlhe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-s9frlhe",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "或者，你也可以使用 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "lang"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 属性为特定的语句指定语言："
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-cm6p6d9",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219170232-cm6p6d9",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cselectid=\"selectBlog\"lang=\"myLanguage\"\u003e\n  SELECT * FROM BLOG\n\u003c/select\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-bqegbn0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-bqegbn0",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "或者，在你的 mapper 接口上添加 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "@Lang"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 注解："
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-br20vga",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211219170232-br20vga",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "publicinterfaceMapper{\n  @Lang(MyLanguageDriver.class)\n  @Select(\"SELECT * FROM BLOG\")\n  List\u003cBlog\u003e selectBlog();\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-101g7v3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-101g7v3",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "提示"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 可以使用 Apache Velocity 作为动态语言，更多细节请参考 MyBatis-Velocity 项目。"
+				}
+			]
+		},
+		{
+			"ID": "20211219170232-ecn2bj4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219170232-ecn2bj4",
+				"updated": "20211219170232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "你前面看到的所有 xml 标签都由默认 MyBatis 语言提供，而它由语言驱动 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "org.apache.ibatis.scripting.xmltags.XmlLanguageDriver"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（别名为 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "xml"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "）所提供。"
+				}
+			]
+		}
+	]
+}

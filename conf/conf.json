@@ -66,11 +66,11 @@
     "generateHistoryInterval": 5,
     "historyRetentionDays": 30,
     "emoji": [
-      "1f4dd",
-      "1f4d2",
-      "1f4c4",
-      "1f4d4",
       "1f4d3",
+      "1f4dd",
+      "1f4c4",
+      "1f4d2",
+      "1f4d4",
       "1f3e0",
       "1f9d1-200d-1f52c",
       "1f600",
@@ -183,7 +183,7 @@
 ],
     "direction": "tb",
     "instance": "Layout",
-    "size": "350px",
+    "size": "355px",
     "type": "left"
   },
   {
@@ -192,52 +192,20 @@
     "children": [
   {
     "children": {
-  "blockId": "20211218233303-ftdny0i",
+  "blockId": "20211220104631-6acu58e",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "Markdown速查表"
-  },
-  {
-    "children": {
-  "blockId": "20211219000253-hd5145m",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "JNDI规范和使用（Spring连接池对比）"
-  },
-  {
-    "children": {
-  "blockId": "20211219011654-q347x4u",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "XML约束方式"
-  },
-  {
-    "children": {
-  "blockId": "20211219011600-o59wnee",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "XML简介"
-  },
-  {
-    "children": {
-  "blockId": "20211219011545-nkxxugh",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "XML"
+    "title": "2021-12-20"
   },
   {
     "active": true,
     "children": {
-  "blockId": "20211218231608-bg8988w",
+  "blockId": "20211219174827-dadzip0",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "新文档"
+    "title": "Mybatis_学习"
   }
 ],
     "height": "",
@@ -304,21 +272,13 @@
     {
       "show": true,
       "size": {
-  "height": 619,
-  "width": 350
+  "height": 760,
+  "width": 355
 },
       "type": "file"
     }
   ],
   [
-    {
-      "show": true,
-      "size": {
-  "height": null,
-  "width": 350
-},
-      "type": "outline"
-    },
     {
       "show": false,
       "size": {
@@ -339,6 +299,14 @@
 ],
     "right": [
   [
+    {
+      "show": false,
+      "size": {
+  "height": null,
+  "width": 212
+},
+      "type": "outline"
+    },
     {
       "show": false,
       "size": {
@@ -379,7 +347,7 @@
     "publicKey": "c3NoLXJzYSBBQUFBQjNOemFDMXljMkVBQUFBREFRQUJBQUFCQVFER1hLdHdIeW1MWS9PUWl4clp5OGg2WnFuU0xCSWo0WUh1TzIxS09QUFc4OG1YaTVUYThnNFhma1hCVDdCVFR3eGNBTFFMNExVQ1RXWHRGNzhwOTAwSk1ib0hicFNxRUVwVmlWSHV4TVVJOUV1R2tvUkgwR1oxTWZYU1BJcnplMzFoYWcvUGg4WmFsODk0dzhFYnRSd3U3OHZCR2R2YXh4R2F6VSt2aFVSc3l5Wm1Gamhoc1VpNWE5OWpuT2h1Lzl2TUlpYXRhKzBLUzZQcDdQdmJucGxtdXlRejZ3ZTVpbzVXWEJrbG52aXhZYndUWHphNDZQV1dvT3pPZkErN2pjZWxCd1QreituOXNDMWh2R1dGZmJFS0RSOTRVYW4wY3d4bnBuaUNLRC9pNmc0clpCMHRma1AwQUdpQ1ZkeUNSdDY4V1hna0pnYlVlSGFnaFc4MDFQUjcK"
   },
   "readonly": false,
-  "localServeURL": "http://192.168.0.109:6806",
+  "localServeURL": "http://192.168.56.1:6806",
   "accessAuthCode": "",
   "e2eePasswd": "",
   "checkUpdate": 0,
@@ -794,7 +762,7 @@
     "memo": true
   },
   "stat": {
-    "docCount": 79
+    "docCount": 37
   },
   "api": {
     "token": "9lg6z7f4ub34blui"
