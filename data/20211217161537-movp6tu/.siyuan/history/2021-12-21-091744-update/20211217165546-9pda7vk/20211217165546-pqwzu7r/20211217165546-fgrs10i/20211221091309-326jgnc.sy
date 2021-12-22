@@ -1,0 +1,69 @@
+{
+	"ID": "20211221091309-326jgnc",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211221091309-326jgnc",
+		"title": "2021-12-21",
+		"updated": "20211221091532"
+	},
+	"Children": [
+		{
+			"ID": "20211221091344-qewg2uh",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211221091344-qewg2uh",
+				"updated": "20211221091532"
+			},
+			"Children": [
+				{
+					"ID": "20211221091532-1pusbb7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211221091532-1pusbb7"
+					},
+					"Children": [
+						{
+							"ID": "20211221091532-fzg5lcx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211221091532-fzg5lcx",
+								"updated": "20211221091542"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mybais plus"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211221091543-ecom5xy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211221091543-ecom5xy"
+					},
+					"Children": [
+						{
+							"ID": "20211221091543-p8ns37k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211221091543-p8ns37k"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

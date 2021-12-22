@@ -1,0 +1,38 @@
+{
+	"ID": "20211222222510-erdjq1f",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211222222510-erdjq1f",
+		"title": "20211222222510",
+		"updated": "20211222223357"
+	},
+	"Children": [
+		{
+			"ID": "20211222222510-h388081",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211222222510-h388081",
+				"updated": "20211222223357"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "select lower('GHJK') from dual;--转小写\nselect upper('hhiaf') from dual;--转大写\nselect initcap('guan') from dual;--转首字母大写\nselect length('gahf') from dual;--长度\nselect substr('guan',1,2) from dual;--截取字符串substr(字符串，开始index，长度)\n\nselect round(345.235,2) from dual;--四舍五入-2精确位数\nselect trunc(345.235,2) from dual; --没四舍五入-2是直接4精确的位数\nselect mod(345,7) from dual; --求模\n\nselect sysdate from dual--获取当前日期\n\nselect add_months(sysdate,5) from dual;--多少个月之后\n\nselect last_day(sysdate) from dual;\n--当前日期这个月的最后一天（用于拿到当月倒数的天）\n\nselect next_day(sysdate,'星期一') from dual;--下个星期一对应的日期\n\n\nselect months_between(sysdate,sysdate-5) from dual; --两个月份所对应的月份\n\nselect to_char(sysdate,'yyyy-mm-dd hh24:mi:ss') from dual; --转字符串\n\n\nselect\nto_char(sysdate,'yyyy'),\nto_char(sysdate,'mm'),\nto_char(sysdate,'dd') ,\nto_char(sysdate,'hh24'),\nto_char(sysdate,'mi'),\nto_char(sysdate,'ss')\nfrom dual--年，月，日，时，分，秒 获取\n\nselect to_char(3456765434567,'999,999,999,999,999,999') from dual; --分号分割\n\nselect to_date('2018-10-10 18:15:52','yyyy-mm-dd hh24:mi:ss') from dual--字符串转日期\n\nNVL(value,'replace_value')--如果value为空？则替换成replace_value \ndecode()--函数表达式-decode(列名，值1，表达式1，值2，表达式2,......,值n,表达式n)\nunion --不含重复的数据\nunion all --包含重复的数据\nintersect--交集数据\nminus--两表数据相减后的数据\nmax(时间|数字)--解决查询日期的最晚问题\nmin(时间|数字)--解决查询日期的最早问题\ncount(*)--所有数据统计\ncount(字段)--指定字段数据统计\ncount(distinct 字段)--去重后字段数据统计\navg(数字)--平均值\nsum()--求和\nwhere --\nhaving--\n\nwhere --子句的作用是在对查询结果进行分组前，将不符合where条件的行去掉，即在分组之前过滤数据，条件中不能包含聚组函数，使用where条件显示特定的行。\nhaving --子句的作用是筛选满足条件的组，即在分组之后过滤数据，条件中经常包含聚组函数，使用having 条件显示特定的组，也可以使用多个分组标准进行分组。\nhaving --子句被限制子已经在SELECT语句中定义的列和聚合表达式上。通常，你需要通过在HAVING子句中重复聚合函数表达式来引用聚合值，就如你在SELECT语句中做的那样。例如：\n例子：SELECT A COUNT(B) FROM TABLE GROUP BY A HAVING COUNT(B)\u003e2\n例子：\nselect avg(local_money)\n  from cmp_paybill\n group by bill_no\n having avg(local_money) \u003e 10--分组查询后，平均数\u003e10的\n返回的记录数量：\n\n\nMYSQL的是：\nSELECT *\nFROM Persons\nLIMIT 5\n\nORACLE 的是：\nSELECT *\nFROM Persons\nWHERE ROWNUM \u003c= 5\n\n\n\n\n\n\n\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

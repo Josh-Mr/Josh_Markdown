@@ -1,0 +1,39 @@
+{
+	"ID": "20211222221143-0sclnjg",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20211222221143-0sclnjg",
+		"title": "Oracle_【in超过1000问题】",
+		"updated": "20211222221300"
+	},
+	"Children": [
+		{
+			"ID": "20211222221143-h3c8glp",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211222221143-h3c8glp",
+				"updated": "20211222221159"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n     * 解决Oracle中in的参数列表长度超过1000的问题\n     *\n     * @param length\n     *            每个分段的长度，\n     * @param paramsList\n     *            待拆分的参数列表\n     * @return 拆分后的分段列表\n     */\n    public static \u003cT\u003e List\u003cList\u003cT\u003e\u003e splitInParams(int length, List\u003cT\u003e paramsList) {\n        if (length\u003c1||paramsList == null || paramsList.size() == 0)\n            return null;\n        int size = paramsList.size();\n        List\u003cList\u003cT\u003e\u003e list = new ArrayList\u003cList\u003cT\u003e\u003e();\n        int d = (int) Math.ceil(size / (length+0.0));\n        for (int i = 0; i \u003c d; i++) {\n            int fromIndex = length * i;\n            int toIndex = Math.min(fromIndex + length, size);\n            list.add(paramsList.subList(fromIndex, toIndex));\n        }\n        return list;\n    }\n    /**\n     * 解决Oracle中in的参数列表长度超过1000的问题\n     * 返回拼接的SQL语句\n     * eg:\n     * 返回的SQL语句片段：XX IN (.......) OR XX IN (......)这样的形式\n     * @param paramName  需要进行in查询的查询参数的名称\n     * @param length     每个分段的长度，对于Oracle，一般设置为800-1000\n     * @param paramsList 待拆分的参数列表\n     * @return 拼接的SQL语句片段\n     */\n    public static \u003cT\u003e String getSQLInParamsSplit(String paramName,int length,List\u003cT\u003e paramsList){\n        if(length\u003c1||paramName==null||paramsList==null||paramsList.size()==0)\n            return null;\n        List\u003cList\u003cT\u003e\u003e list = splitInParams(length, paramsList);\n        StringBuilder sb = new StringBuilder();\n        String temp = list.get(0).toString();\n        //由于List的toString方法返回的是[....]形式，需要去掉开头和结尾的中括号\n        sb.append(paramName).append(\" IN (\"+temp.subSequence(1,    temp.length()-1)+\") \");\n        int size = list.size();\n        for(int i=1;i\u003csize;i++){\n            temp = list.get(i).toString();\n            sb.append(\" OR \"+paramName+\" IN (\"+temp.subSequence(1,    temp.length()-1)+\") \");\n        }\n        return sb.toString();\n    }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,143 @@
+{
+	"ID": "20211222221511-2wya6dm",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20211222221511-2wya6dm",
+		"title": "Oracle_创建用户分权限",
+		"updated": "20211222222336"
+	},
+	"Children": [
+		{
+			"ID": "20211222222237-lnwgwkf",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211222222237-lnwgwkf",
+				"updated": "20211222222247"
+			},
+			"Children": [
+				{
+					"ID": "20211222222240-r3vz0wh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211222222240-r3vz0wh",
+						"updated": "20211222222247"
+					},
+					"Children": [
+						{
+							"ID": "20211222222240-w9fafat",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211222222240-w9fafat",
+								"updated": "20211222222247"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建用户"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211222222218-eii1378",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211222222218-eii1378",
+				"updated": "20211222222336"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "--创建用户\nCREATE USER ps_nc63 IDENTIFIED BY \"ps_nc63\" DEFAULT  TABLESPACE OTHER_DATA01 TEMPORARY TABLESPACE TEMP;\n\n--给与连接\n\nGRANT CONNECT TO ps_nc63 ; \n\nGRANT CREATE SESSION TO ps_nc63;\n\ngrant connect,resource,dba to  warrant_nc63;--dba权限\n\n#### 分配表权限\n\ngrant select on ps_sm_trade to ps_nc63;\n\ngrant select on ps_sm_trade_cus   to ps_nc63;\n\ngrant select on ps_sm_trade_pro   to ps_nc63;\n\ngrant select on ps_sm_trade_sellor to ps_nc63;\n\ngrant select on ps_so_subsc   to ps_nc63;\n\ngrant select on ps_so_subsc_cus  to ps_nc63;\n\ngrant select on ps_so_sign     to ps_nc63;\n\ngrant select on ps_so_sign_cus to ps_nc63;\n\n#### 别名\n\nCREATE PUBLIC SYNONYM  ps_sm_trade for  nc63test.ps_sm_trade;\n\nCREATE PUBLIC SYNONYM  ps_sm_trade_cus   for  nc63test.ps_sm_trade_cus;\n\nCREATE PUBLIC SYNONYM  ps_sm_trade_pro   for  nc63test.ps_sm_trade_pro;\n\nCREATE PUBLIC SYNONYM  ps_sm_trade_sellor for  nc63test.ps_sm_trade_sellor;\n\nCREATE PUBLIC SYNONYM  ps_so_subsc   for      nc63test.ps_so_subsc;\n\nCREATE PUBLIC SYNONYM  ps_so_subsc_cus  for   nc63test.ps_so_subsc_cus;\n\nCREATE PUBLIC SYNONYM  ps_so_sign     for    nc63test.ps_so_sign;\n\nCREATE PUBLIC SYNONYM  ps_so_sign_cus for  nc63test.ps_so_sign_cus;\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-a46lgv9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211222221528-a46lgv9",
+				"updated": "20211222222319"
+			},
+			"Children": [
+				{
+					"ID": "20211222222306-vn5ufu1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211222222306-vn5ufu1",
+						"updated": "20211222222319"
+					},
+					"Children": [
+						{
+							"ID": "20211222222306-f7xi9ji",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211222222306-f7xi9ji"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看表空间"
+								}
+							]
+						},
+						{
+							"ID": "20211222222311-0hdn42e",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20211222222311-0hdn42e",
+								"updated": "20211222222319"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c3Fs"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "SELECT t.tablespace_name,  round(SUM(bytes / (1024 * 1024)), 0)  ts_size\nFROM dba_tablespaces t, dba_data_files  d\nWHERE t.tablespace_name =  d.tablespace_name\nGROUP BY t.tablespace_name;\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

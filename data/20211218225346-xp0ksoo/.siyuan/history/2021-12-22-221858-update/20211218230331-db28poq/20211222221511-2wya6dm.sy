@@ -1,0 +1,445 @@
+{
+	"ID": "20211222221511-2wya6dm",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211222221511-2wya6dm",
+		"title": "20211222221511",
+		"updated": "20211222221528"
+	},
+	"Children": [
+		{
+			"ID": "20211222221528-36prkfj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-36prkfj",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建用户分权限"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-6bfm0zm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-6bfm0zm",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "--创建用户"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-8mt7cbh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-8mt7cbh",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CREATE USER ps_nc63 IDENTIFIED BY \"ps_nc63\" DEFAULT  TABLESPACE OTHER_DATA01 TEMPORARY TABLESPACE TEMP;"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-3akgumi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-3akgumi",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "--给与连接"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-p192w6x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-p192w6x",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "GRANT CONNECT TO ps_nc63 ;"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-sx8mrbc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-sx8mrbc",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "GRANT CREATE SESSION TO ps_nc63;"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-shl04wr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-shl04wr",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "grant connect,resource,dba to  warrant_nc63;--dba权限"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-7qo5yy2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-7qo5yy2",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "--分配表权限"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-njv02aa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-njv02aa",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "grant select on ps_sm_trade to ps_nc63;"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-7q6ywht",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-7q6ywht",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "grant select on ps_sm_trade_cus   to ps_nc63;"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-ym954g8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-ym954g8",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "grant select on ps_sm_trade_pro   to ps_nc63;"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-87wbhh7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-87wbhh7",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "grant select on ps_sm_trade_sellor to ps_nc63;"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-dmvr0eh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-dmvr0eh",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "grant select on ps_so_subsc   to ps_nc63;"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-rbahw78",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-rbahw78",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "grant select on ps_so_subsc_cus  to ps_nc63;"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-homfckv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-homfckv",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "grant select on ps_so_sign     to ps_nc63;"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-gx3tgym",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-gx3tgym",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "grant select on ps_so_sign_cus to ps_nc63;"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-haey5qr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-haey5qr",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "--别名"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-4c7lvym",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-4c7lvym",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CREATE PUBLIC SYNONYM  ps_sm_trade for  nc63test.ps_sm_trade;"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-1s4kld4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-1s4kld4",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CREATE PUBLIC SYNONYM  ps_sm_trade_cus   for  nc63test.ps_sm_trade_cus;"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-jjcglw7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-jjcglw7",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CREATE PUBLIC SYNONYM  ps_sm_trade_pro   for  nc63test.ps_sm_trade_pro;"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-loir7xc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-loir7xc",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CREATE PUBLIC SYNONYM  ps_sm_trade_sellor for  nc63test.ps_sm_trade_sellor;"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-qtkmgxf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-qtkmgxf",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CREATE PUBLIC SYNONYM  ps_so_subsc   for      nc63test.ps_so_subsc;"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-adruom1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-adruom1",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CREATE PUBLIC SYNONYM  ps_so_subsc_cus  for   nc63test.ps_so_subsc_cus;"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-e5bs4da",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-e5bs4da",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CREATE PUBLIC SYNONYM  ps_so_sign     for    nc63test.ps_so_sign;"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-9vg4p59",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-9vg4p59",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CREATE PUBLIC SYNONYM  ps_so_sign_cus for  nc63test.ps_so_sign_cus;"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-a46lgv9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-a46lgv9",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "--查看表空间"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-rvqqiuk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-rvqqiuk",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SELECT t.tablespace_name,  round(SUM(bytes / (1024 * 1024)), 0)  ts_size"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-wlzd67m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-wlzd67m",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "FROM dba_tablespaces t, dba_data_files  d"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-3agtjq2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-3agtjq2",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "WHERE t.tablespace_name =  d.tablespace_name"
+				}
+			]
+		},
+		{
+			"ID": "20211222221528-c19vhki",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222221528-c19vhki",
+				"updated": "20211222221528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "GROUP BY t.tablespace_name;"
+				}
+			]
+		}
+	]
+}

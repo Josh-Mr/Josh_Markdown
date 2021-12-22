@@ -336,3 +336,101 @@ I 2021/12/20 10:49:22 assets.go:237: copied unused asset from [F:\Josh_Markdown\
 E 2021/12/20 23:17:56 rhy.go:42: get version meta info failed: [Get "https://rhythm.b3log.org/version/siyuan?ver=1.5.4": dial tcp: lookup rhythm.b3log.org: no such host]
 E 2021/12/20 23:20:42 theme.go:69: get community theme [royc01/notion-theme@d9cc77e1c355de753b5a01c1effa61d060f38eeb] failed: [Get "https://cdn.jsdelivr.net/gh/royc01/notion-theme@d9cc77e1c355de753b5a01c1effa61d060f38eeb/theme.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
 I 2021/12/20 23:21:14 conf.go:359: exited kernel
+I 2021/12/20 23:22:14 working.go:95: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2021/12/20 23:22:15 runtime.go:57: kernel is booting:
+    * ver [1.5.4]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\SiYuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20211124]
+    * workspace directory [F:\Josh_Markdown, data 29 MB]
+    * rsync [version 3.2.4dev  protocol version 31]
+    * pandoc [pandoc.exe 2.13]
+I 2021/12/20 23:22:15 conf.go:257: local serve path [http://192.168.0.109:6806]
+I 2021/12/20 23:22:15 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2021/12/20 23:22:15 conf.go:507: pre-init database size [950 kB]
+I 2021/12/20 23:22:15 index.go:136: use existing database for box [20211217161537-movp6tu]
+I 2021/12/20 23:22:15 index.go:136: use existing database for box [20211218225346-xp0ksoo]
+I 2021/12/20 23:22:15 index.go:136: use existing database for box [20211218230747-88wsl35]
+I 2021/12/20 23:22:15 conf.go:523: post-init database size [950 kB], tree stat [count=37, size=762 kB]
+I 2021/12/20 23:22:16 working.go:113: kernel booted
+I 2021/12/21 09:12:40 working.go:95: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2021/12/21 09:12:44 runtime.go:57: kernel is booting:
+    * ver [1.5.4]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\SiYuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20211124]
+    * workspace directory [F:\Josh_Markdown, data 29 MB]
+    * rsync [version 3.2.4dev  protocol version 31]
+    * pandoc [pandoc.exe 2.13]
+I 2021/12/21 09:12:44 conf.go:257: local serve path [http://192.168.56.1:6806]
+I 2021/12/21 09:12:44 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2021/12/21 09:12:44 conf.go:507: pre-init database size [950 kB]
+I 2021/12/21 09:12:44 index.go:136: use existing database for box [20211217161537-movp6tu]
+I 2021/12/21 09:12:44 index.go:136: use existing database for box [20211218225346-xp0ksoo]
+I 2021/12/21 09:12:44 index.go:136: use existing database for box [20211218230747-88wsl35]
+I 2021/12/21 09:12:44 conf.go:523: post-init database size [950 kB], tree stat [count=37, size=762 kB]
+I 2021/12/21 09:12:45 working.go:113: kernel booted
+E 2021/12/21 09:14:24 theme.go:69: get community theme [Morganwan90/Darkblue-siyuan-theme@0cf8f1a86c3bb1d06734657571eafc856502f6d2] failed: [Get "https://cdn.jsdelivr.net/gh/Morganwan90/Darkblue-siyuan-theme@0cf8f1a86c3bb1d06734657571eafc856502f6d2/theme.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
+E 2021/12/21 22:28:15 rhy.go:42: get version meta info failed: [Get "https://rhythm.b3log.org/version/siyuan?ver=1.5.4": dial tcp: lookup rhythm.b3log.org: no such host]
+I 2021/12/22 09:18:53 working.go:95: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2021/12/22 09:18:58 runtime.go:57: kernel is booting:
+    * ver [1.5.4]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\SiYuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20211124]
+    * workspace directory [F:\Josh_Markdown, data 29 MB]
+    * rsync [version 3.2.4dev  protocol version 31]
+    * pandoc [pandoc.exe 2.13]
+I 2021/12/22 09:18:58 conf.go:257: local serve path [http://192.168.56.1:6806]
+I 2021/12/22 09:18:58 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2021/12/22 09:18:58 conf.go:507: pre-init database size [950 kB]
+I 2021/12/22 09:18:58 index.go:136: use existing database for box [20211217161537-movp6tu]
+I 2021/12/22 09:18:58 index.go:136: use existing database for box [20211218225346-xp0ksoo]
+I 2021/12/22 09:18:58 index.go:136: use existing database for box [20211218230747-88wsl35]
+I 2021/12/22 09:18:58 conf.go:523: post-init database size [950 kB], tree stat [count=38, size=768 kB]
+I 2021/12/22 09:18:59 working.go:113: kernel booted
+I 2021/12/22 14:53:55 index.go:416: rebuilt database for notebook [20211222145355-of875iy] in [0.00s], tree stat [count=0, size=0 B]
+E 2021/12/22 21:33:23 rhy.go:42: get version meta info failed: [Get "https://rhythm.b3log.org/version/siyuan?ver=1.5.4": dial tcp: lookup rhythm.b3log.org: no such host]
+I 2021/12/22 22:35:14 conf.go:359: exited kernel
