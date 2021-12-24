@@ -1,0 +1,881 @@
+{
+	"ID": "20211224172013-ce53j68",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20211224172013-ce53j68",
+		"title": "Mysql_【查询数据库信息】",
+		"updated": "20211224174853"
+	},
+	"Children": [
+		{
+			"ID": "20211224172038-x30yvg0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211224172038-x30yvg0",
+				"updated": "20211224173931"
+			},
+			"Children": [
+				{
+					"ID": "20211224173910-ps4o2bl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211224173910-ps4o2bl",
+						"updated": "20211224173931"
+					},
+					"Children": [
+						{
+							"ID": "20211224173910-8az8n7k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224173910-8az8n7k",
+								"updated": "20211224173931"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mysql查询"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "所有表"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211224174044-qkn8ysh",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20211224174044-qkn8ysh",
+								"updated": "20211224174050"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c3Fs"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "SELECT\n\tTABLE_NAME \nFROM\n\tINFORMATION_SCHEMA.TABLES \nWHERE\n\tTABLE_SCHEMA = '数据库名' \n\tAND TABLE_TYPE = 'BASE TABLE'\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224172038-hyc16nf",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211224172038-hyc16nf",
+				"updated": "20211224174052"
+			},
+			"Children": [
+				{
+					"ID": "20211224173917-9zrd0u6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211224173917-9zrd0u6",
+						"updated": "20211224174052"
+					},
+					"Children": [
+						{
+							"ID": "20211224173917-z56o2l3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224173917-z56o2l3",
+								"updated": "20211224173933"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mysql查询"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "建表语句"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211224174036-pkpmtnb",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20211224174036-pkpmtnb",
+								"updated": "20211224174052"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c3Fs"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "show create table 表名\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224172038-fhn8bz5",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211224172038-fhn8bz5",
+				"updated": "20211224174053"
+			},
+			"Children": [
+				{
+					"ID": "20211224174004-555nk6p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20211224174004-555nk6p",
+						"updated": "20211224174053"
+					},
+					"Children": [
+						{
+							"ID": "20211224174004-twtsxrc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224174004-twtsxrc"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mysql查询"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "所有视图"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211224174026-6v53t6y",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20211224174026-6v53t6y",
+								"updated": "20211224174053"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c3Fs"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "SELECT\n\tTABLE_NAME \nFROM\n\tINFORMATION_SCHEMA.TABLES \nWHERE\n\tTABLE_SCHEMA = '数据库名' \n\tAND TABLE_TYPE = 'VIEW'\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224172038-rclc2as",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211224172038-rclc2as",
+				"updated": "20211224174136"
+			},
+			"Children": [
+				{
+					"ID": "20211224174008-u6zj384",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20211224174008-u6zj384",
+						"updated": "20211224174136"
+					},
+					"Children": [
+						{
+							"ID": "20211224174008-3v86l68",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224174008-3v86l68",
+								"updated": "20211224174136"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mysql查询"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "视图创建语句"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211224174018-mngv35x",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20211224174018-mngv35x",
+								"updated": "20211224174054"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c3Fs"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "show create view 视图名\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224172038-5hct4qw",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211224172038-5hct4qw",
+				"updated": "20211224174328"
+			},
+			"Children": [
+				{
+					"ID": "20211224174100-2ritbm4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20211224174100-2ritbm4",
+						"updated": "20211224174328"
+					},
+					"Children": [
+						{
+							"ID": "20211224174100-0siflj7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224174100-0siflj7",
+								"updated": "20211224174328"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mysql查询"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "所有函数"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211224174104-n8g0b8u",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20211224174104-n8g0b8u",
+								"updated": "20211224174110"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c3Fs"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "SELECT name from mysql.proc where db= 'ifms' and type='function'\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224172038-gbzdouo",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211224172038-gbzdouo",
+				"updated": "20211224174327"
+			},
+			"Children": [
+				{
+					"ID": "20211224174141-l03wnfe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20211224174141-l03wnfe",
+						"updated": "20211224174327"
+					},
+					"Children": [
+						{
+							"ID": "20211224174141-gu36spv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224174141-gu36spv",
+								"updated": "20211224174327"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mysql查询"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "函数定义语句"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211224174143-dvrutkk",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20211224174143-dvrutkk",
+								"updated": "20211224174146"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c3Fs"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "SHOW CREATE FUNCTION 函数名\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224172038-c5b2vl5",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211224172038-c5b2vl5",
+				"updated": "20211224174341"
+			},
+			"Children": [
+				{
+					"ID": "20211224174318-proq21i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20211224174318-proq21i",
+						"updated": "20211224174341"
+					},
+					"Children": [
+						{
+							"ID": "20211224174318-k2wor4r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224174318-k2wor4r",
+								"updated": "20211224174323"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mysql查询"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "所有存储过程"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211224174334-a65ief6",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20211224174334-a65ief6",
+								"updated": "20211224174341"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c3Fs"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "SELECT name from mysql.proc where db= 'ifms' and type='procedure'\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224172038-52iz2a6",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211224172038-52iz2a6",
+				"updated": "20211224174357"
+			},
+			"Children": [
+				{
+					"ID": "20211224174352-6rdrw2w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20211224174352-6rdrw2w",
+						"updated": "20211224174357"
+					},
+					"Children": [
+						{
+							"ID": "20211224174352-vnmjuws",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224174352-vnmjuws",
+								"updated": "20211224174354"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mysql查询procedure定义语句"
+								}
+							]
+						},
+						{
+							"ID": "20211224174354-m4bllgp",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20211224174354-m4bllgp",
+								"updated": "20211224174357"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c3Fs"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "SHOW CREATE procedure 存储过程名\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224172038-nmmfwc3",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211224172038-nmmfwc3",
+				"updated": "20211224174415"
+			},
+			"Children": [
+				{
+					"ID": "20211224174403-wadplbn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20211224174403-wadplbn",
+						"updated": "20211224174415"
+					},
+					"Children": [
+						{
+							"ID": "20211224174403-kpg1dzk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224174403-kpg1dzk",
+								"updated": "20211224174410"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mysql查询"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "所有触发器"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211224174412-rpgrrkk",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20211224174412-rpgrrkk",
+								"updated": "20211224174415"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c3Fs"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "SELECT * FROM information_schema.TRIGGERS\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224172038-dks4z06",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211224172038-dks4z06",
+				"updated": "20211224174443"
+			},
+			"Children": [
+				{
+					"ID": "20211224174427-jhqxje3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20211224174427-jhqxje3",
+						"updated": "20211224174443"
+					},
+					"Children": [
+						{
+							"ID": "20211224174427-y9tqwdv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224174427-y9tqwdv",
+								"updated": "20211224174443"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mysql查询"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "触发器定义语句"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211224174429-w8mk6cf",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20211224174429-w8mk6cf",
+								"updated": "20211224174432"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c3Fs"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "select * from information_schema.triggers where TRIGGER_NAME='触发器名';\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224174422-73b4bbj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224174422-73b4bbj",
+				"updated": "20211224174422"
+			}
+		}
+	]
+}

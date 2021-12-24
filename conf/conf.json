@@ -59,16 +59,16 @@
     "fontFamily": "",
     "codeSyntaxHighlightLineNum": true,
     "codeTabSpaces": 0,
-    "codeLineWrap": false,
+    "codeLineWrap": true,
     "codeLigatures": false,
     "displayBookmarkIcon": true,
     "displayNetImgMark": false,
     "generateHistoryInterval": 5,
     "historyRetentionDays": 30,
     "emoji": [
+      "1f4dd",
       "1f4c4",
       "1f4d2",
-      "1f4dd",
       "2b50",
       "2705",
       "1f601",
@@ -210,7 +210,6 @@
     "title": "\u0026lt;resultMap\u0026gt;_映射关系"
   },
   {
-    "active": true,
     "children": {
   "blockId": "20211223163301-bxqyuth",
   "instance": "Editor"
@@ -353,6 +352,119 @@
 },
     "instance": "Tab",
     "title": "锁-未整理"
+  },
+  {
+    "children": {
+  "blockId": "20211218230503-rxp4pmp",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Oracle_锁表\u0026amp;解锁"
+  },
+  {
+    "children": {
+  "blockId": "20211222222510-erdjq1f",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Oracle_函数"
+  },
+  {
+    "children": {
+  "blockId": "20211218230505-n2nh9ty",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "未分类"
+  },
+  {
+    "children": {
+  "blockId": "20211224161242-lwg9c5q",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "linux下Redis安装过程"
+  },
+  {
+    "children": {
+  "blockId": "20211224164531-yznlfci",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Redis启用"
+  },
+  {
+    "children": {
+  "blockId": "20211218230506-drpwc2o",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "新文档"
+  },
+  {
+    "children": {
+  "blockId": "20211224165623-685i3ol",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "SQL索引总结"
+  },
+  {
+    "children": {
+  "blockId": "20211224165712-bo7igk9",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Mysql索引使用"
+  },
+  {
+    "children": {
+  "blockId": "20211224170448-g5ygq40",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "in和exists使用时，效率问题"
+  },
+  {
+    "children": {
+  "blockId": "20211224170706-oqz0nmm",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "事务的四大特征"
+  },
+  {
+    "children": {
+  "blockId": "20211218225439-l4i5teb",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Mysql"
+  },
+  {
+    "children": {
+  "blockId": "20211224172013-ce53j68",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Mysql_【查询数据库信息】"
+  },
+  {
+    "children": {
+  "blockId": "20211218230457-2a8r7oh",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Mysql 查看死锁，解除死锁 方式"
+  },
+  {
+    "active": true,
+    "children": {
+  "blockId": "20211224174536-arwcube",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Mysql_【数据类型】"
   }
 ],
     "height": "",
@@ -909,7 +1021,7 @@
     "memo": true
   },
   "stat": {
-    "docCount": 60
+    "docCount": 67
   },
   "api": {
     "token": "9lg6z7f4ub34blui"

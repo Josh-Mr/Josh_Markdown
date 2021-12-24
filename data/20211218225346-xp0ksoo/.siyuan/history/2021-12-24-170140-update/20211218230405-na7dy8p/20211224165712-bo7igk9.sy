@@ -1,0 +1,416 @@
+{
+	"ID": "20211224165712-bo7igk9",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20211224165712-bo7igk9",
+		"title": "Mysql索引使用",
+		"updated": "20211224170030"
+	},
+	"Children": [
+		{
+			"ID": "20211224165719-hd4k3x1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224165719-hd4k3x1",
+				"updated": "20211224165719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、索引具体创建方式以及MySQL的索引分类"
+				}
+			]
+		},
+		{
+			"ID": "20211224165719-25jtk5h",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211224165719-25jtk5h",
+				"updated": "20211224165813"
+			},
+			"Children": [
+				{
+					"ID": "20211224165719-44ynhlh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224165719-44ynhlh",
+						"updated": "20211224165813"
+					},
+					"Children": [
+						{
+							"ID": "20211224165719-285u6zy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224165719-285u6zy"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "主键索引：它是一种特殊的唯一索引，不允许有空值。一般是在建表的时候同时创建主键索引："
+								}
+							]
+						},
+						{
+							"ID": "20211224165735-jh99sgi",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20211224165735-jh99sgi",
+								"updated": "20211224165813"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c3Fs"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "CREATE TABLE user(\n        id int unsigned not null auto_increment,\n        name varchar(50) not null,\n        email varchar(40) not null,\n        primary key (id)\n);\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224165719-w2sp8lj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211224165719-w2sp8lj",
+				"updated": "20211224165719"
+			},
+			"Children": [
+				{
+					"ID": "20211224165719-pfaw36x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224165719-pfaw36x"
+					},
+					"Children": [
+						{
+							"ID": "20211224165719-cjg5f7i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224165719-cjg5f7i"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "普通索引：这是最基本的索引，它没有任何限制："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224165719-fswuc24",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211224165719-fswuc24",
+				"updated": "20211224165810"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "create index idx_name on user(name(20));\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211224165719-e7av4td",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211224165719-e7av4td",
+				"updated": "20211224165719"
+			},
+			"Children": [
+				{
+					"ID": "20211224165719-8ittb5r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224165719-8ittb5r"
+					},
+					"Children": [
+						{
+							"ID": "20211224165719-sxhdjq8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224165719-sxhdjq8"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "唯一索引：它与前面的普通索引类似，不同的就是：索引列的值必须唯一，但允许有空值："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224165719-b6ffbkh",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211224165719-b6ffbkh",
+				"updated": "20211224165913"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "CREATE UNIQUE INDEX idx_email ON user(email);\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211224165719-p0szvhk",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211224165719-p0szvhk",
+				"updated": "20211224165931"
+			},
+			"Children": [
+				{
+					"ID": "20211224165719-rx3dfo4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224165719-rx3dfo4",
+						"updated": "20211224165931"
+					},
+					"Children": [
+						{
+							"ID": "20211224165719-7zm3vqk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224165719-7zm3vqk"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "组合索引"
+								}
+							]
+						},
+						{
+							"ID": "20211224165921-2otwnx9",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20211224165921-2otwnx9",
+								"updated": "20211224165931"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c3Fs"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "CREATE TABLE test (\n        id INT NOT NULL,\n        last_name CHAR(30) NOT NULL,\n        first_name CHAR(30) NOT NULL,\n        PRIMARY KEY (id),\n       INDEX name (last_name,first_name)\n   );\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224165719-ixzdv7f",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211224165719-ixzdv7f",
+				"updated": "20211224170021"
+			},
+			"Children": [
+				{
+					"ID": "20211224165719-36ap8ka",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224165719-36ap8ka",
+						"updated": "20211224170021"
+					},
+					"Children": [
+						{
+							"ID": "20211224165719-m0x7pie",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224165719-m0x7pie"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "name索引是一个对last_name和first_name的索引。索引可以用于为last_name，或者为last_name和first_name在已知范围内指定值的查询。因此，name索引用于下面的查询："
+								}
+							]
+						},
+						{
+							"ID": "20211224165936-w07cgwf",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20211224165936-w07cgwf",
+								"updated": "20211224170021"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c3Fs"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "SELECT * FROM test WHERE last_name='Widenius';\nSELECT * FROM test WHERE last_name='Widenius' AND first_name='Michael';\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224165719-exj3s3i",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211224165719-exj3s3i",
+				"updated": "20211224170030"
+			},
+			"Children": [
+				{
+					"ID": "20211224165719-c7s3dy3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224165719-c7s3dy3",
+						"updated": "20211224170030"
+					},
+					"Children": [
+						{
+							"ID": "20211224165719-tw9qyoi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224165719-tw9qyoi",
+								"updated": "20211224170030"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "但是不能用于"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "SELECT * FROM test WHERE first_name='Michael';"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "这是因为MySQL组合索引为“最左前缀”的结果,简单的理解就是只从最左面的开始组合。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224170026-vnp08sx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224170026-vnp08sx",
+				"updated": "20211224170026"
+			}
+		}
+	]
+}

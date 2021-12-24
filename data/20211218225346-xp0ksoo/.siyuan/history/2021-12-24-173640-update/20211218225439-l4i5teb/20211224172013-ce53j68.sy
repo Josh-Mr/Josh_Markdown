@@ -1,0 +1,337 @@
+{
+	"ID": "20211224172013-ce53j68",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211224172013-ce53j68",
+		"title": "Mysql_查询数据库信息",
+		"updated": "20211224173638"
+	},
+	"Children": [
+		{
+			"ID": "20211224172038-xs8glci",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211224172038-xs8glci",
+				"updated": "20211224173614"
+			},
+			"Children": [
+				{
+					"ID": "20211224172038-w0g1x3j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211224172038-w0g1x3j",
+						"updated": "20211224173614"
+					},
+					"Children": [
+						{
+							"ID": "20211224172038-x30yvg0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224172038-x30yvg0"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mysql查询所有表:"
+								}
+							]
+						},
+						{
+							"ID": "20211224173610-9hr4e1a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224173610-9hr4e1a",
+								"updated": "20211224173614"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = '数据库名' AND  TABLE_TYPE ='BASE TABLE'"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224172038-hyc16nf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224172038-hyc16nf",
+				"updated": "20211224173626"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "mysql查询建表语句: "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "show create table 表名"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224172038-fhn8bz5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224172038-fhn8bz5",
+				"updated": "20211224172038"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.mysql查询所有视图:"
+				}
+			]
+		},
+		{
+			"ID": "20211224172038-c8mtl6e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224172038-c8mtl6e",
+				"updated": "20211224173630"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = '数据库名' AND  TABLE_TYPE ='VIEW'"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224172038-rclc2as",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224172038-rclc2as",
+				"updated": "20211224173638"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "mysql查询视图创建语句: show create view 视图名"
+				}
+			]
+		},
+		{
+			"ID": "20211224172038-5hct4qw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224172038-5hct4qw",
+				"updated": "20211224172038"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.mysql查询所有函数:"
+				}
+			]
+		},
+		{
+			"ID": "20211224172038-fuqade5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224172038-fuqade5",
+				"updated": "20211224172038"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SELECT name from mysql.proc where db= 'ifms' and type='function'"
+				}
+			]
+		},
+		{
+			"ID": "20211224172038-gbzdouo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224172038-gbzdouo",
+				"updated": "20211224172038"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "mysql查询函数定义语句: SHOW CREATE FUNCTION "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "函数名"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224172038-c5b2vl5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224172038-c5b2vl5",
+				"updated": "20211224172038"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.mysql查询所有存储过程:"
+				}
+			]
+		},
+		{
+			"ID": "20211224172038-guyrrrz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224172038-guyrrrz",
+				"updated": "20211224172038"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SELECT name from mysql.proc where db= 'ifms' and type='procedure'"
+				}
+			]
+		},
+		{
+			"ID": "20211224172038-52iz2a6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224172038-52iz2a6",
+				"updated": "20211224172038"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "mysql查询procedure定义语句:SHOW CREATE procedure "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "存储过程名"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224172038-nmmfwc3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224172038-nmmfwc3",
+				"updated": "20211224172038"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5.mysql查询所有触发器:"
+				}
+			]
+		},
+		{
+			"ID": "20211224172038-mg2i3n3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224172038-mg2i3n3",
+				"updated": "20211224172038"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SELECT * FROM information_schema."
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "TRIGGERS"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224172038-dks4z06",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224172038-dks4z06",
+				"updated": "20211224172038"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "mysql查询触发器定义语句: select * from information_schema.triggers where TRIGGER_NAME='触发器名';"
+				}
+			]
+		}
+	]
+}

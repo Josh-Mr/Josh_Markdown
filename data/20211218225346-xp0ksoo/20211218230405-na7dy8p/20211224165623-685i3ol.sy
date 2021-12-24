@@ -1,0 +1,1083 @@
+{
+	"ID": "20211224165623-685i3ol",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20211224165623-685i3ol",
+		"title": "SQL索引总结",
+		"updated": "20211224165656"
+	},
+	"Children": [
+		{
+			"ID": "20211224165656-6i74xo5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224165656-6i74xo5",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、数据库的索引是一个排序的数据结构（B+数结构），以协助快速查询操作。"
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-q322oxb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224165656-q322oxb",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、索引的实现："
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-o65znit",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224165656-o65znit",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        数据库系统内置的特定的查询算法的数据结构，这种数据结构的引用会指向“数据”，来实现高级查找算法。一般是用B树或者变种的B+树实现。"
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-rijhz01",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224165656-rijhz01",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、索引优点\u0026缺点："
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-870jdtm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224165656-870jdtm",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  优点："
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-putbn2y",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211224165656-putbn2y",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"ID": "20211224165656-fwze1t2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224165656-fwze1t2"
+					},
+					"Children": [
+						{
+							"ID": "20211224165656-b6v3jx5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224165656-b6v3jx5"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "加快检索速度、使用分组和排序检索时，同样有显著的效果。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211224165656-avp8kcw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224165656-avp8kcw"
+					},
+					"Children": [
+						{
+							"ID": "20211224165656-2jqnrm5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224165656-2jqnrm5"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "保证数据唯一性（仅限于唯一索引）。"
+								}
+							]
+						},
+						{
+							"ID": "20211224165656-r6qfxt9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224165656-r6qfxt9"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "缺点："
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211224165656-u1j3e35",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224165656-u1j3e35"
+					},
+					"Children": [
+						{
+							"ID": "20211224165656-s0zy0tr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224165656-s0zy0tr"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建索引和维护索引需要消耗时间。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211224165656-n36y137",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224165656-n36y137"
+					},
+					"Children": [
+						{
+							"ID": "20211224165656-8xubh6k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224165656-8xubh6k"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "索引也需要占用物理空间，聚簇索引空间占用更大。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-xdpuogz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224165656-xdpuogz",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、不应该创建索引："
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-s560g3w",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211224165656-s560g3w",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"ID": "20211224165656-fyayp3w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224165656-fyayp3w"
+					},
+					"Children": [
+						{
+							"ID": "20211224165656-cc0yy0z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224165656-cc0yy0z"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查询中少使用或者参考列不创建索引。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211224165656-9630cwk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224165656-9630cwk"
+					},
+					"Children": [
+						{
+							"ID": "20211224165656-vfpou3k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224165656-vfpou3k"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在text、image和bit数据类型不应该增加索引。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211224165656-emw4b4z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224165656-emw4b4z"
+					},
+					"Children": [
+						{
+							"ID": "20211224165656-0hbsu5b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224165656-0hbsu5b"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当修改性能远远大于检索性能时，不应该创建索引。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-sa00s2d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224165656-sa00s2d",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、数据库设计器中创建三种索引：唯一索引、主键索引和聚集索引。"
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-ga2ulmb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224165656-ga2ulmb",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、唯一索引"
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-0pw46ik",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211224165656-0pw46ik",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"ID": "20211224165656-hwux5yb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224165656-hwux5yb"
+					},
+					"Children": [
+						{
+							"ID": "20211224165656-rxtru63",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224165656-rxtru63"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "唯一索引是不允许其中任何两行具有相同索引值的索引。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-69dzjz6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224165656-69dzjz6",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当现有数据中存在重复的键值时，大多数数据库不允许将新创建的唯一索引与表一起保存。数据库还可能防止添加将在表中创建重复键值的新数据。"
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-x9ypv4i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224165656-x9ypv4i",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例如，如果在employee表中职员的姓(lname)上创建了唯一索引，则任何两个员工都不能同姓。"
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-gfian2d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224165656-gfian2d",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、主键索引"
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-1vm0mi0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211224165656-1vm0mi0",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"ID": "20211224165656-1g9c3h7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224165656-1g9c3h7"
+					},
+					"Children": [
+						{
+							"ID": "20211224165656-vovnuv3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224165656-vovnuv3"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据库表经常有一列或列组合，其值唯一标识表中的每一行。该列称为表的主键。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-ye9xqfs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224165656-ye9xqfs",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在数据库关系图中为表定义主键将自动创建主键索引，主键索引是唯一索引的特定类型。"
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-bmn8hay",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224165656-bmn8hay",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、聚集索引"
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-gbbdi4t",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211224165656-gbbdi4t",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"ID": "20211224165656-w7qy9h9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224165656-w7qy9h9"
+					},
+					"Children": [
+						{
+							"ID": "20211224165656-uum01kz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224165656-uum01kz"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在聚集索引中，表中行的物理顺序与键值的逻辑（索引）顺序相同。一个表只能包含一个聚集索引。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211224165656-419mgpg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224165656-419mgpg"
+					},
+					"Children": [
+						{
+							"ID": "20211224165656-dhmg4vf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224165656-dhmg4vf"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果某索引不是聚集索引，则表中行的物理顺序与键值的逻辑顺序不匹配。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211224165656-oa6hjis",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224165656-oa6hjis"
+					},
+					"Children": [
+						{
+							"ID": "20211224165656-4ajd5m8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224165656-4ajd5m8"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "与非聚集索引相比，聚集索引通常提供更快的数据访问速度。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-c8oc00y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224165656-c8oc00y",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四、主键索引和唯一索引区别"
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-gil93h7",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211224165656-gil93h7",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"ID": "20211224165656-zcnuljx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224165656-zcnuljx"
+					},
+					"Children": [
+						{
+							"ID": "20211224165656-ua2av3j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224165656-ua2av3j"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "主键一定会创建一个唯一索引，但是有唯一索引的列不一定是主键；"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-jomjlq0",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"id": "20211224165656-jomjlq0",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 10,
+									"TableCellContentMaxWidth": 10,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "索引类别"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 14,
+									"TableCellContentMaxWidth": 14,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "是否允许为空"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 26,
+									"TableCellContentMaxWidth": 26,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "一个表中是否可以存在多个"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 10,
+									"TableCellContentMaxWidth": 10,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "是什么？"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 10,
+							"TableCellContentMaxWidth": 10,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "主键索引"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 3,
+							"TableCellContentMaxWidth": 14,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "N"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 6,
+							"TableCellContentMaxWidth": 26,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一个"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 6,
+							"TableCellContentMaxWidth": 10,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "约束"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 10,
+							"TableCellContentMaxWidth": 10,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "唯一索引"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 3,
+							"TableCellContentMaxWidth": 14,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Y"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 6,
+							"TableCellContentMaxWidth": 26,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "多个"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 6,
+							"TableCellContentMaxWidth": 10,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "索引"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-rcqafwm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224165656-rcqafwm",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "B-树\u0026B+树："
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-yusmo0g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224165656-yusmo0g",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(2)-20211224165656-bzg15gg.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-arf8vht",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224165656-arf8vht",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(3)-20211224165656-0l0tq6m.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-kszldqc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224165656-kszldqc",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(4)-20211224165656-4e81784.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224165656-wwnixrs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224165656-wwnixrs",
+				"updated": "20211224165656"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(5)-20211224165656-qg4z5h3.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

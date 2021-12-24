@@ -1,0 +1,173 @@
+{
+	"ID": "20211224170448-g5ygq40",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20211224170448-g5ygq40",
+		"title": "in和exists使用时，效率问题",
+		"updated": "20211224170544"
+	},
+	"Children": [
+		{
+			"ID": "20211224170455-hamh6st",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224170455-hamh6st",
+				"updated": "20211224170457"
+			}
+		},
+		{
+			"ID": "20211224170455-nsu89q3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224170455-nsu89q3",
+				"updated": "20211224170455"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "in解析的顺序：（子查询所得出来的数据）*主表查询的数据得到的（笛卡尔积）再通过where过滤"
+				}
+			]
+		},
+		{
+			"ID": "20211224170455-9ju2a52",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224170455-9ju2a52",
+				"updated": "20211224170455"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例子："
+				}
+			]
+		},
+		{
+			"ID": "20211224170510-ldrc2xp",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211224170510-ldrc2xp",
+				"updated": "20211224170544"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "SELECT\n    *\nFROM\n    `user`\nWHERE\n    `user`.id IN (\n        SELECT\n            `order`.user_id\n        FROM\n            `order`\n    )\nexists解析的顺序：（先查出子表的的一个结果）再将这个结果去关联主表查询 （主表多次查询）\n例子：\nSELECT\n    `user`.*\nFROM\n    `user`\nWHERE\n    EXISTS (\n        SELECT\n            `order`.user_id\n        FROM\n            `order`\n        WHERE\n            `user`.id = `order`.user_id\n    )\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211224170455-f3vb2vn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224170455-f3vb2vn",
+				"updated": "20211224170455"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "结论："
+				}
+			]
+		},
+		{
+			"ID": "20211224170455-eoasqkr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224170455-eoasqkr",
+				"updated": "20211224170455"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "in 和 exists的区"
+				}
+			]
+		},
+		{
+			"ID": "20211224170455-8519e8e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224170455-8519e8e",
+				"updated": "20211224170455"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果子查询得出的结果集记录较少，主查询中的表较大且又有索引时应该用in,"
+				}
+			]
+		},
+		{
+			"ID": "20211224170455-s2040e7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224170455-s2040e7",
+				"updated": "20211224170455"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "反之如果外层的主查询记录较少，子查询中的表大，又有索引时使用exists。"
+				}
+			]
+		},
+		{
+			"ID": "20211224170455-owtil4q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224170455-owtil4q",
+				"updated": "20211224170455"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其实我们区分in和exists主要是造成了驱动顺序的改变(这是性能变化的关键)"
+				}
+			]
+		},
+		{
+			"ID": "20211224170455-gfzjd76",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224170455-gfzjd76",
+				"updated": "20211224170455"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果是exists，那么以外层表为驱动表，先被访问，"
+				}
+			]
+		},
+		{
+			"ID": "20211224170455-v6am1dp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224170455-v6am1dp",
+				"updated": "20211224170455"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果是IN，那么先执行子查询，所以我们会以驱动表的快速返回为目标，那么就会考虑到索引及结果集的关系了 ，另外IN时不对NULL进行处理。"
+				}
+			]
+		}
+	]
+}
