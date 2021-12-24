@@ -1,0 +1,148 @@
+{
+	"ID": "20211223152406-ii87ypy",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20211223152406-ii87ypy",
+		"title": "笔记（未分类）",
+		"updated": "20211223152525"
+	},
+	"Children": [
+		{
+			"ID": "20211223152406-s32a5xd",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211223152406-s32a5xd",
+				"updated": "20211223152525"
+			},
+			"Children": [
+				{
+					"ID": "20211223152508-8gwi0yg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211223152508-8gwi0yg",
+						"updated": "20211223152525"
+					},
+					"Children": [
+						{
+							"ID": "20211223152508-fq9ei74",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223152508-fq9ei74",
+								"updated": "20211223152509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mybaties查询空字段问题"
+								}
+							]
+						},
+						{
+							"ID": "20211223152525-8vpbzdh",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211223152525-8vpbzdh",
+								"updated": "20211223152525"
+							},
+							"Children": [
+								{
+									"ID": "20211223152522-mla7mpk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223152522-mla7mpk"
+									},
+									"Children": [
+										{
+											"ID": "20211223152522-2xbhwce",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223152522-2xbhwce",
+												"updated": "20211223152530"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "this.queryCols(param, \"BISCOLLECT\")"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223152540-p9cwihk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223152540-p9cwihk"
+									},
+									"Children": [
+										{
+											"ID": "20211223152540-9nrb099",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223152540-9nrb099",
+												"updated": "20211223152541"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "BISCOLLECT如果查出来为空时，mybaties封装map为null，导致空指针。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223152542-cdnb75w",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223152542-cdnb75w"
+									},
+									"Children": [
+										{
+											"ID": "20211223152542-5xk9z78",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223152542-5xk9z78"
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

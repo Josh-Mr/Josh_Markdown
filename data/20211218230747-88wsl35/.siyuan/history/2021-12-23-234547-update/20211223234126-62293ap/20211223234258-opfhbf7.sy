@@ -1,0 +1,34 @@
+{
+	"ID": "20211223234258-opfhbf7",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4c4",
+		"id": "20211223234258-opfhbf7",
+		"title": "未整理",
+		"updated": "20211223234312"
+	},
+	"Children": [
+		{
+			"ID": "20211223234258-1y39vem",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223234258-1y39vem",
+				"updated": "20211223234300"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Springboot：\nspring.factories自动加载配置：\nhttps://qidawu.github.io/posts/spring-factories/"
+				}
+			]
+		},
+		{
+			"ID": "20211223234302-ufi7twg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223234302-ufi7twg",
+				"updated": "20211223234302"
+			}
+		}
+	]
+}

@@ -1,0 +1,123 @@
+{
+	"ID": "20211223163301-bxqyuth",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211223163301-bxqyuth",
+		"title": "优秀的开源项目地址",
+		"updated": "20211223163330"
+	},
+	"Children": [
+		{
+			"ID": "20211223163301-bk3fb6z",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211223163301-bk3fb6z",
+				"updated": "20211223163330"
+			},
+			"Children": [
+				{
+					"ID": "20211223163313-gal20ai",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211223163313-gal20ai",
+						"updated": "20211223163330"
+					},
+					"Children": [
+						{
+							"ID": "20211223163313-h5ogore",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223163313-h5ogore",
+								"updated": "20211223163318"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Nepxion Banner是一款基于Taobao Text的旗标生成器"
+								}
+							]
+						},
+						{
+							"ID": "20211223163322-jsxh9p1",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211223163322-jsxh9p1",
+								"updated": "20211223163330"
+							},
+							"Children": [
+								{
+									"ID": "20211223163326-tp2oc3i",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223163326-tp2oc3i",
+										"updated": "20211223163330"
+									},
+									"Children": [
+										{
+											"ID": "20211223163326-xfjfnqp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223163326-xfjfnqp",
+												"updated": "20211223163330"
+											},
+											"Children": [
+												{
+													"Type": "NodeLink",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "https://github.com/Nepxion/Banner/"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "https://github.com/Nepxion/Banner/"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223163330-s0oyymi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223163330-s0oyymi",
+				"updated": "20211223163330"
+			}
+		}
+	]
+}

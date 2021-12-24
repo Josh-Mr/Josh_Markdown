@@ -1,0 +1,20 @@
+{
+	"ID": "20211223234105-r5rsu4g",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4d2",
+		"id": "20211223234105-r5rsu4g",
+		"title": "Spring",
+		"updated": "20211223234112"
+	},
+	"Children": [
+		{
+			"ID": "20211223234105-477ujy9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223234105-477ujy9",
+				"updated": "20211223234105"
+			}
+		}
+	]
+}

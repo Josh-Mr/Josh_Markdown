@@ -1,0 +1,1211 @@
+{
+	"ID": "20211223164327-esu0vlz",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20211223164327-esu0vlz",
+		"title": "OGNL 表达式",
+		"updated": "20211223164615"
+	},
+	"Children": [
+		{
+			"ID": "20211223164330-v3mrwn8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211223164330-v3mrwn8",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 前言"
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-i3u9nch",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223164330-i3u9nch",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MyBatis 的动态 SQL 广泛应用到了OGNL 表达式，OGNL 表达式可以灵活的组装 SQL 语句，从而完成更多的功能。OGNL 易学易用，与 Java 代码几乎一致，本小节我们将系统的介绍 OGNL 表达式在 MyBatis 中的使用。"
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-c481xdu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211223164330-c481xdu",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. 定义"
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-oqfbkp2",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20211223164330-oqfbkp2",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20211223164330-fmr3rtq",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20211223164330-fmr3rtq"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "慕课解释：OGNL 全称 Object-Graph Navigation Language，是 Java 中的一个开源的表达式语言，用于访问对象数据。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-max83te",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211223164330-max83te",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. 介绍"
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-ux8k3vw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211223164330-ux8k3vw",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.1 实例"
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-aty9ev4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223164330-aty9ev4",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "OGNL 最常用于 if 标签中，用于判断条件是否满足，如下："
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-d9zhctl",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211223164330-d9zhctl",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cif test=\"age != null\"\u003e\n  AND age = #{age}\n\u003c/if\u003e\n代码块预览复制\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-urrtvss",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223164330-urrtvss",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "if 标签的 test 属性就是个典型的 OGNL 表达式。"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "age != null"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "表示当 age 不为 null 的时候 if 成立，则动态的向 SQL 中插入标签内的 SQL 代码段。"
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-x5eela1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211223164330-x5eela1",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.2 常见的 OGNL 表达式"
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-un4tbym",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223164330-un4tbym",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在 MyBatis 中常见的 OGNL 表达式如下："
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-op7ejhi",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211223164330-op7ejhi",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"ID": "20211223164330-sn1mnoe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211223164330-sn1mnoe"
+					},
+					"Children": [
+						{
+							"ID": "20211223164330-h2q4los",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223164330-h2q4los"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "e1 or e2：或关系"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223164330-x6mjy80",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211223164330-x6mjy80"
+					},
+					"Children": [
+						{
+							"ID": "20211223164330-p04v25l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223164330-p04v25l"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "e1 and e2：与关系"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223164330-m3zk744",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20211223164330-m3zk744"
+					},
+					"Children": [
+						{
+							"ID": "20211223164330-w4z1ejj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223164330-w4z1ejj"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "e1 == e2 或者 e1 eq e2：相等"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223164330-fxolzua",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20211223164330-fxolzua"
+					},
+					"Children": [
+						{
+							"ID": "20211223164330-a22c4lw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223164330-a22c4lw"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "e1 != e2 或者 e1 neq e2：不等"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223164330-lz7wwkn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20211223164330-lz7wwkn"
+					},
+					"Children": [
+						{
+							"ID": "20211223164330-bt9gy08",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223164330-bt9gy08"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "e1 lt e2 ；e1 \u003c e2；e1 gt e2；e1 \u003e e2；e1 lte e2；e1 \u003c= e2；e1 gte e2；e1 \u003e= e2：比较关系"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223164330-vku9bs4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20211223164330-vku9bs4"
+					},
+					"Children": [
+						{
+							"ID": "20211223164330-yhgcvla",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223164330-yhgcvla"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "e1 + e2；e1 - e2；e1 * e2；e1 / e2；e1 % e2：运算关系"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223164330-x5m51fv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20211223164330-x5m51fv"
+					},
+					"Children": [
+						{
+							"ID": "20211223164330-lmnejgv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223164330-lmnejgv"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "!e 或者 not e：非，取反"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223164330-okroae3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20211223164330-okroae3"
+					},
+					"Children": [
+						{
+							"ID": "20211223164330-4cdco3k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223164330-4cdco3k"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "e.method(args)：调用对象方法"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223164330-cinxlqp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20211223164330-cinxlqp"
+					},
+					"Children": [
+						{
+							"ID": "20211223164330-hazrfar",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223164330-hazrfar"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "e.property：访问属性值"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223164330-yzigzng",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20211223164330-yzigzng"
+					},
+					"Children": [
+						{
+							"ID": "20211223164330-8uf6mnh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223164330-8uf6mnh"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "e1[e2]：访问数组、链表（e2 为序号）或者 Map（e2 为键值）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-5q17xo1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223164330-5q17xo1",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其中 1～4 以及 9～10 都是特别常用的几种情况，而其它的情况不利于 SQL 的维护，因此并不常见。"
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-fwln810",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20211223164330-fwln810",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20211223164330-32dtei4",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20211223164330-32dtei4"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "TIPS："
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": " 提示， 如果你熟悉 Python 的话，会发现 OGNL 表达式完全就是在写 Python。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-ky6dmju",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211223164330-ky6dmju",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4. 实践"
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-48ch091",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223164330-48ch091",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下面我们就来以实例来看一看 OGNL 表达式。"
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-dij3kno",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223164330-dij3kno",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "有一个名为 pedro 的 User 对象，如下："
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-cd5lpff",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211223164330-cd5lpff",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "User pedro = new User();\npedro.setUsername(\"pedro\");\npedro.setTags(Arrays.asList(\"admin\", \"man\"));\npedro.setAge(23);\n代码块预览复制\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-cabp3jz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211223164330-cabp3jz",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.1 访问属性"
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-0h75dkz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223164330-0h75dkz",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "访问用户的 username 属性，OGNL 表达式为"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "pedro.username"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，结果为："
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-dc4hbrk",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211223164330-dc4hbrk",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# pedro.username\npedro\n代码块预览复制\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-v83c679",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211223164330-v83c679",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.2 访问列表"
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-t5urb48",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223164330-t5urb48",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "访问用户的第一个标签，OGNL 表达式为"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "pedro.tags[0]"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，结果为："
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-tl9uyw6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211223164330-tl9uyw6",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# pedro.tags[0]\nadmin\n代码块预览复制\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-6atfglj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211223164330-6atfglj",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.3 比较"
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-3lkdgml",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223164330-3lkdgml",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "比较用户标签长度是否大于 1，OGNL 表达式为"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "pedro.tags[0]"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，结果为："
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-ghnowp6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211223164330-ghnowp6",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# pedro.tags.size \u003e 1\ntrue\n代码块预览复制\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-ec1lpf5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211223164330-ec1lpf5",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.4 运算"
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-5baua16",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223164330-5baua16",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用户年龄加上一个整数 22，OGNL 表达式为"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "pedro.age + 22"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，结果为："
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-f5iy0va",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211223164330-f5iy0va",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# pedro.age + 22\n45\n代码块预览复制\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-25cjqe7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211223164330-25cjqe7",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.5 方法调用"
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-3zn51s4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223164330-3zn51s4",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "将用户年龄全部大写，OGNL 表达式为"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "pedro.username.toUpperCase"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，结果为："
+				}
+			]
+		},
+		{
+			"ID": "20211223164330-kxq03ir",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211223164330-kxq03ir",
+				"updated": "20211223164330"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# pedro.username.toUpperCase\nPEDRO\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211219182350-y2nufny",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211219182350-y2nufny",
+				"updated": "20211223164615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "备注："
+				}
+			]
+		},
+		{
+			"ID": "20211219191102-1f43q0y",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211219191102-1f43q0y",
+				"updated": "20211219191344"
+			},
+			"Children": [
+				{
+					"ID": "20211219191118-vt5k5sq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211219191118-vt5k5sq",
+						"updated": "20211219191344"
+					},
+					"Children": [
+						{
+							"ID": "20211219191118-66tsz0a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211219191118-66tsz0a",
+								"updated": "20211219191344"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "自定义OGNL"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211219181210-6djx02r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219181210-6djx02r",
+				"updated": "20211219191111"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "问题："
+				}
+			]
+		},
+		{
+			"ID": "20211219191111-4koc8ls",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219191111-4koc8ls",
+				"updated": "20211219191111"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\tMybatis的OGNL语法， 会把 'Y' 或 'N' 认为成char类型"
+				}
+			]
+		},
+		{
+			"ID": "20211219181210-0pqqltw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219181210-0pqqltw",
+				"updated": "20211219181210"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "修改语句："
+				}
+			]
+		},
+		{
+			"ID": "20211219181210-ho11pl7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219181210-ho11pl7",
+				"updated": "20211219181210"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1：将代码改为test=\"param eq 'Y'.toString()\""
+				}
+			]
+		},
+		{
+			"ID": "20211219181210-hn4a8ja",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219181210-hn4a8ja",
+				"updated": "20211219181210"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2：将代码改为test=\"param == "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "\u0026quot;\""
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Y"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "\u0026quot;\""
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "\""
+				}
+			]
+		},
+		{
+			"ID": "20211219181210-drnflsp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219181210-drnflsp",
+				"updated": "20211219181210"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3：将代码改为test='param == \"Y\" '"
+				}
+			]
+		},
+		{
+			"ID": "20211219181210-cg5ut7s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211219181210-cg5ut7s",
+				"updated": "20211219181210"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第三种是最简单的方法，被双引号修饰的都会被看成String类型"
+				}
+			]
+		}
+	]
+}

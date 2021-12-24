@@ -1,0 +1,124 @@
+{
+	"ID": "20211223235010-8a2vpxo",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4c4",
+		"id": "20211223235010-8a2vpxo",
+		"title": "锁-未整理",
+		"updated": "20211223235052"
+	},
+	"Children": [
+		{
+			"ID": "20211223235010-o8z9hmj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223235010-o8z9hmj",
+				"updated": "20211223235043"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SQL锁问题:"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://juejin.cn/post/6844903577660424206"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://juejin.cn/post/6844903577660424206"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（死锁）\n"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://www.cnblogs.com/xiaoxi/p/8311034.html"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.cnblogs.com/xiaoxi/p/8311034.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（死锁）\n"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://learnku.com/articles/39212?order_by=vote_count\u0026"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://learnku.com/articles/39212?order_by=vote_count\u0026"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "(一张图彻底搞懂 MySQL 的锁机制)"
+				}
+			]
+		},
+		{
+			"ID": "20211223235031-dpm3xjq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223235031-dpm3xjq",
+				"updated": "20211223235031"
+			}
+		}
+	]
+}
