@@ -1,0 +1,252 @@
+{
+	"ID": "20211219005208-4ote1to",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20211219005208-4ote1to",
+		"title": "Mybatis-Plus目标",
+		"title-img": "background-image:linear-gradient(to top, #df89b5 0%, #bfd9fe 100%)",
+		"updated": "20211225214720"
+	},
+	"Children": [
+		{
+			"ID": "20211225214328-5ks6fdx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211225214328-5ks6fdx",
+				"updated": "20211225214412"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、模仿一个单据的增删改查"
+				}
+			]
+		},
+		{
+			"ID": "20211225214418-z6h2fqg",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211225214418-z6h2fqg",
+				"updated": "20211225214720"
+			},
+			"Children": [
+				{
+					"ID": "20211225214444-u6unp2d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211225214444-u6unp2d"
+					},
+					"Children": [
+						{
+							"ID": "20211225214444-zxc4ic7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211225214444-zxc4ic7",
+								"updated": "20211225214520"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用MybatisX生成MybatisPlus代码"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211225214523-xwppxpi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211225214523-xwppxpi",
+						"updated": "20211225214720"
+					},
+					"Children": [
+						{
+							"ID": "20211225214523-vktpvnf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211225214523-vktpvnf",
+								"updated": "20211225214637"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对CRUD代码接口进行封装"
+								}
+							]
+						},
+						{
+							"ID": "20211225214638-pa85hr2",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20211225214638-pa85hr2",
+								"updated": "20211225214720"
+							},
+							"Children": [
+								{
+									"ID": "20211225214638-nexl3y0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20211225214638-nexl3y0"
+									},
+									"Children": [
+										{
+											"ID": "20211225214638-1ztnovj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211225214638-1ztnovj",
+												"updated": "20211225214645"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Mappper"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211225214646-6ikyqfj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20211225214646-6ikyqfj"
+									},
+									"Children": [
+										{
+											"ID": "20211225214646-0cdtks1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211225214646-0cdtks1",
+												"updated": "20211225214649"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Service"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211225214649-zen8iz4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20211225214649-zen8iz4"
+									},
+									"Children": [
+										{
+											"ID": "20211225214649-l2agrru",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211225214649-l2agrru",
+												"updated": "20211225214659"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Controller"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211225214714-u7j47pt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20211225214714-u7j47pt",
+										"updated": "20211225214720"
+									},
+									"Children": [
+										{
+											"ID": "20211225214714-8l3e3dk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211225214714-8l3e3dk",
+												"updated": "20211225214720"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "XML"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211225214702-zlswfsv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20211225214702-zlswfsv"
+					},
+					"Children": [
+						{
+							"ID": "20211225214702-ka34mon",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211225214702-ka34mon"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

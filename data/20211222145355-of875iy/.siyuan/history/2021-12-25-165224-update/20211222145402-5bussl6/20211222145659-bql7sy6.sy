@@ -1,0 +1,548 @@
+{
+	"ID": "20211222145659-bql7sy6",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20211222145659-bql7sy6",
+		"title": "2、【方法的引用】",
+		"updated": "20211225165223"
+	},
+	"Children": [
+		{
+			"ID": "20211222145606-0adjnj1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211222145606-0adjnj1",
+				"updated": "20211225164756"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "方法的引用"
+				}
+			]
+		},
+		{
+			"ID": "20211222145606-yte9czx",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211222145606-yte9czx",
+				"updated": "20211225165025"
+			},
+			"Children": [
+				{
+					"ID": "20211225164742-b37ssjq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211225164742-b37ssjq",
+						"updated": "20211225165025"
+					},
+					"Children": [
+						{
+							"ID": "20211225164742-auc15u7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211225164742-auc15u7",
+								"updated": "20211225165025"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Properties": {
+										"style": "text-shadow: 1px 1px var(--b3-border-color), 2px 2px var(--b3-border-color), 3px 3px var(--b3-border-color), 4px 4px var(--b3-border-color);"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "对象::实例方法"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"text-shadow: 1px 1px var(--b3-border-color), 2px 2px var(--b3-border-color), 3px 3px var(--b3-border-color), 4px 4px var(--b3-border-color);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，将lambda的参数当做方法的参数使用"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211222145606-x34g105",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211222145606-x34g105",
+				"style": "text-align: left;",
+				"updated": "20211225164653"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "objectName::instanceMethod\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211222145606-1tw8wfd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222145606-1tw8wfd",
+				"updated": "20211222145606"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "示例："
+				}
+			]
+		},
+		{
+			"ID": "20211222145606-n3x32w0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211222145606-n3x32w0",
+				"updated": "20211225164643"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Consumerstring sc = System.out::println;\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211222145606-5ikf4tk",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211222145606-5ikf4tk",
+				"updated": "20211225164733"
+			},
+			"Children": [
+				{
+					"ID": "20211225164733-0e90bxj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211225164733-0e90bxj"
+					},
+					"Children": [
+						{
+							"ID": "20211225164733-6s7i3z9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211225164733-6s7i3z9"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "等效"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211222145606-u3jobb4",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211222145606-u3jobb4",
+				"updated": "20211225164714"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Consumerstring sc2 = (x) -\u003e System.out.println(x);\nsc.accept(\"618, 狂欢happy\");\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211222145606-4m0two3",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211222145606-4m0two3",
+				"updated": "20211225165034"
+			},
+			"Children": [
+				{
+					"ID": "20211225164745-igtf7r9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211225164745-igtf7r9",
+						"updated": "20211225165034"
+					},
+					"Children": [
+						{
+							"ID": "20211225164745-0kyte3f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211225164745-0kyte3f",
+								"updated": "20211225165034"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Properties": {
+										"style": "text-shadow: 1px 1px var(--b3-border-color), 2px 2px var(--b3-border-color), 3px 3px var(--b3-border-color), 4px 4px var(--b3-border-color);"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "类::静态方法"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"text-shadow: 1px 1px var(--b3-border-color), 2px 2px var(--b3-border-color), 3px 3px var(--b3-border-color), 4px 4px var(--b3-border-color);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，将lambda的参数当做方法的参数使用"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211222145606-a9lbkn5",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211222145606-a9lbkn5",
+				"updated": "20211222145606"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "ClassName::staticMethod\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211222145606-o8grutq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222145606-o8grutq",
+				"updated": "20211222145606"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "示例：类的静态方法：把表达式的参数值作为staticMethod方法的参数"
+				}
+			]
+		},
+		{
+			"ID": "20211222145606-w33dkzg",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211222145606-w33dkzg",
+				"updated": "20211222145606"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Functioninteger, sf = String::valueOf;\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211222145606-xhvhr03",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211222145606-xhvhr03",
+				"updated": "20211225165150"
+			},
+			"Children": [
+				{
+					"ID": "20211225165150-y9axk4t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211225165150-y9axk4t"
+					},
+					"Children": [
+						{
+							"ID": "20211225165150-rt9wfkd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211225165150-rt9wfkd"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "等效"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211222145606-gagf73n",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211222145606-gagf73n",
+				"updated": "20211225165223"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Functioninteger, sf2 = (x) -\u003e String.valueOf(x);\nString apply1 = sf.apply(61888);\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211222145606-gn26ti1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222145606-gn26ti1",
+				"updated": "20211225165220"
+			}
+		},
+		{
+			"ID": "20211222145606-fmglkrr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222145606-fmglkrr",
+				"updated": "20211222145606"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3 类::实例方法，将lambda的第一个参数当做方法的调用者，其他的参数作为方法的参数。开发中尽量少些此类写法，减少后续维护成本。"
+				}
+			]
+		},
+		{
+			"ID": "20211222145606-95ty4g9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222145606-95ty4g9",
+				"updated": "20211222145606"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ClassName::instanceMethod"
+				}
+			]
+		},
+		{
+			"ID": "20211222145606-v3k4igd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222145606-v3k4igd",
+				"updated": "20211222145606"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "示例："
+				}
+			]
+		},
+		{
+			"ID": "20211222145606-kpm5d0d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222145606-kpm5d0d",
+				"updated": "20211222145606"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "//ClassName::instanceMethod 类的实例方法：把表达式的第一个参数当成instanceMethod的调用者，其他参数作为该方法的参数"
+				}
+			]
+		},
+		{
+			"ID": "20211222145606-5bzyoiw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222145606-5bzyoiw",
+				"updated": "20211222145606"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "BiPredicate\u003cString, String\u003e sbp = String::equals;"
+				}
+			]
+		},
+		{
+			"ID": "20211222145606-k1m3aj9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222145606-k1m3aj9",
+				"updated": "20211222145606"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "//等效"
+				}
+			]
+		},
+		{
+			"ID": "20211222145606-9hj58d9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222145606-9hj58d9",
+				"updated": "20211222145606"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "BiPredicate\u003cString, String\u003e sbp2 = (x, y) -\u003e x.equals(y);"
+				}
+			]
+		},
+		{
+			"ID": "20211222145606-4xkjpr2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222145606-4xkjpr2",
+				"updated": "20211222145606"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "boolean test = sbp.test(\"a\", \"A\");"
+				}
+			]
+		}
+	]
+}

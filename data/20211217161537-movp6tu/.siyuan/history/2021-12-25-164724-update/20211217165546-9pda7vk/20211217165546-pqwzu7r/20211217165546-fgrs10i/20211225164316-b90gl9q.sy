@@ -1,0 +1,19 @@
+{
+	"ID": "20211225164316-b90gl9q",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211225164316-b90gl9q",
+		"title": "2021-12-25",
+		"updated": "20211225164316"
+	},
+	"Children": [
+		{
+			"ID": "20211225164316-o0ob1dl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211225164316-o0ob1dl",
+				"updated": "20211225164316"
+			}
+		}
+	]
+}

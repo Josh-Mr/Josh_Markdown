@@ -1,0 +1,737 @@
+{
+	"ID": "20211228160352-7th9lzh",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4c4",
+		"id": "20211228160352-7th9lzh",
+		"title": "行锁、表锁、死锁",
+		"updated": "20211228160553"
+	},
+	"Children": [
+		{
+			"ID": "20211223101908-1i1v83x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211223101908-1i1v83x",
+				"updated": "20211223102021"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、锁的分类"
+				}
+			]
+		},
+		{
+			"ID": "20211223102021-8mhn7hb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20211223102021-8mhn7hb",
+				"updated": "20211223102055"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、DML锁：行锁、表锁、死锁"
+				}
+			]
+		},
+		{
+			"ID": "20211223102055-w8xntnh",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211223102055-w8xntnh",
+				"updated": "20211223113308"
+			},
+			"Children": [
+				{
+					"ID": "20211223102250-ntgip5z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211223102250-ntgip5z",
+						"updated": "20211223113305"
+					},
+					"Children": [
+						{
+							"ID": "20211223102250-1pbxvlo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223102250-1pbxvlo",
+								"updated": "20211223113305"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "行锁"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://www.cnblogs.com/xiaoxi/p/8311034.html"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：当事务执行数据库"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "插入"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "、"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "更新"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "、"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "删除"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "操作时，该事务自动获得操作表中操作行的"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "排它锁"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223102303-as58y3y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211223102303-as58y3y",
+						"updated": "20211223113307"
+					},
+					"Children": [
+						{
+							"ID": "20211223102303-fpzomnm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223102303-fpzomnm",
+								"updated": "20211223113307"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "表锁"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://www.cnblogs.com/xiaoxi/p/8311034.html"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：当事务获得"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "行锁"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "后，此事务也将自动获得该行的"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "表锁(共享锁)"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ",以防止其它事务进行DDL语句影响记录行的更新。事务也可以在进行过程中获得"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "共享锁"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "或"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "排它锁"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，只有当事务显示使用LOCK TABLE语句显示的定义一个排它锁时，事务才会获得表上的排它锁,也可使用LOCK TABLE显示的定义一个表级的共享锁。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223102308-wnx2b6g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211223102308-wnx2b6g",
+						"updated": "20211223113308"
+					},
+					"Children": [
+						{
+							"ID": "20211223102308-kw92hwp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223102308-kw92hwp",
+								"updated": "20211223113308"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "死锁"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://www.cnblogs.com/xiaoxi/p/8311034.html"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：当"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "两个事务需要一组有冲突的锁"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，而"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "不能将事务继续下去的话"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，就出现死锁。"
+								}
+							]
+						},
+						{
+							"ID": "20211223112248-nkh3by4",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211223112248-nkh3by4",
+								"updated": "20211223113255"
+							},
+							"Children": [
+								{
+									"ID": "20211223112247-qv67sv2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223112247-qv67sv2",
+										"updated": "20211223113255"
+									},
+									"Children": [
+										{
+											"ID": "20211223112247-5qtyohw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223112247-5qtyohw",
+												"updated": "20211223113255"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如事务1在表A行记录3中有一排它锁，并等待事务2在表A中记录4中排它锁的释放，而事务2在表A记录行4中有一排它锁，并等待事务1在表A中记录3中排它锁的释放，事务1与事务2彼此等待，因此就造成了死锁。死锁一般是因拙劣的事务设计而产生。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223112259-35njruv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223112259-35njruv",
+										"updated": "20211223112346"
+									},
+									"Children": [
+										{
+											"ID": "20211223112259-1jc2h62",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223112259-1jc2h62",
+												"updated": "20211223112346"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "图解："
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Properties": {
+														"parent-style": "max-width: 274px;",
+														"style": "width: 264px;"
+													},
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image.png"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20211223112346-k66r731.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeKramdownSpanIAL",
+													"Data": "{: style=\"width: 264px;\" parent-style=\"max-width: 274px;\"}"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223102056-0ghosl3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20211223102056-0ghosl3",
+				"updated": "20211228160333"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、DDL锁：排它DDL锁、共享DDL锁"
+				}
+			]
+		},
+		{
+			"ID": "20211223102130-9jwdayt",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211223102130-9jwdayt",
+				"updated": "20211223115915"
+			},
+			"Children": [
+				{
+					"ID": "20211223113755-w9f1gvy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211223113755-w9f1gvy"
+					},
+					"Children": [
+						{
+							"ID": "20211223113755-eh00wpy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223113755-eh00wpy",
+								"updated": "20211223114816"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "排他DDL锁："
+								}
+							]
+						},
+						{
+							"ID": "20211223114819-oce7d8n",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211223114819-oce7d8n"
+							},
+							"Children": [
+								{
+									"ID": "20211223114819-5vnnapk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223114819-5vnnapk"
+									},
+									"Children": [
+										{
+											"ID": "20211223114819-entpkc0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223114819-entpkc0",
+												"updated": "20211223115324"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "创建、修改、删除一个数据库对象的"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "DDL语句"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "获得操作对象的 "
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "排它锁"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "。如使用alter table语句时，为了维护数据的完成性、一致性、合法性，该事务获得一排它DDL锁。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223113811-ht0u7ey",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211223113811-ht0u7ey"
+					},
+					"Children": [
+						{
+							"ID": "20211223113811-b2rsr9r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223113811-b2rsr9r",
+								"updated": "20211223115732"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "共享DDL锁：(允许资源共享)"
+								}
+							]
+						},
+						{
+							"ID": "20211223114823-3zcu7bs",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211223114823-3zcu7bs"
+							},
+							"Children": [
+								{
+									"ID": "20211223114823-at2yfgg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223114823-at2yfgg"
+									},
+									"Children": [
+										{
+											"ID": "20211223114823-9l6xkl3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223114823-9l6xkl3",
+												"updated": "20211223114857"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "需在数据库对象之间建立相互依赖关系的DDL语句通常需共享获得DDL锁。\n如创建一个包，该包中的过程与函数引用了不同的数据库表，当编译此包时，该事务就获得了引用表的共享DDL锁。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

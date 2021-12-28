@@ -1,0 +1,449 @@
+{
+	"ID": "20211228095656-jao4eyz",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4d2",
+		"id": "20211228095656-jao4eyz",
+		"title": "锁的艺术",
+		"updated": "20211228145940"
+	},
+	"Children": [
+		{
+			"ID": "20211228110051-o0e8ky8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20211228110051-o0e8ky8",
+				"updated": "20211228110137"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、死锁"
+				}
+			]
+		},
+		{
+			"ID": "20211228110139-ff11xvl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20211228110139-ff11xvl",
+				"updated": "20211228145940"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、"
+				},
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20211228105906-3jp6lc7"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211228110207-zcixmlh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211228110207-zcixmlh",
+				"updated": "20211228111440"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、"
+				}
+			]
+		},
+		{
+			"ID": "20211228110117-fbq5nmt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228110117-fbq5nmt",
+				"updated": "20211228112227"
+			}
+		},
+		{
+			"ID": "20211228111736-f1hq9io",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228111736-f1hq9io",
+				"updated": "20211228111805"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "锁的作用：解决多个进程或者线程对资源"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "抢占问题"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20211228110051-duqa9i0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228110051-duqa9i0",
+				"updated": "20211228111920"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "javaN中锁："
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://segmentfault.com/a/1190000023735772"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://segmentfault.com/a/1190000023735772"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211228104621-3aszwh6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228104621-3aszwh6",
+				"updated": "20211228112001"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Mysql面试题（锁）："
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://www.cnblogs.com/l-y-h/p/12458777.html#_label0_3"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.cnblogs.com/l-y-h/p/12458777.html#_label0_3"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211228112010-wec9rwj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228112010-wec9rwj",
+				"updated": "20211228112010"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20211228112010-if8ilqg.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211228112253-orf02ip",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228112253-orf02ip",
+				"updated": "20211228112253"
+			}
+		},
+		{
+			"ID": "20211228112253-dfpuxzk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228112253-dfpuxzk",
+				"updated": "20211228112253"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SQL锁问题:"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://juejin.cn/post/6844903577660424206"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://juejin.cn/post/6844903577660424206"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（死锁）\n"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://www.cnblogs.com/xiaoxi/p/8311034.html"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.cnblogs.com/xiaoxi/p/8311034.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（死锁）\n"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://learnku.com/articles/39212?order_by=vote_count\u0026"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://learnku.com/articles/39212?order_by=vote_count\u0026"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "(一张图彻底搞懂 MySQL 的锁机制)"
+				}
+			]
+		},
+		{
+			"ID": "20211228104623-tyr3hn0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228104623-tyr3hn0",
+				"updated": "20211228141622"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://dongxiem.github.io/2020/04/23/java-bing-fa-synchronized-yu-qi-ta-yi-xie-suo-ji-zhi-de-dui-bi/"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://dongxiem.github.io/2020/04/23/java-bing-fa-synchronized-yu-qi-ta-yi-xie-suo-ji-zhi-de-dui-bi/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（java并发-synchronized对比其他锁机制）"
+				}
+			]
+		},
+		{
+			"ID": "20211228141540-d1mlvsm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228141540-d1mlvsm",
+				"updated": "20211228141540"
+			}
+		},
+		{
+			"ID": "20211228145835-o8fqzue",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228145835-o8fqzue",
+				"updated": "20211228145835"
+			}
+		},
+		{
+			"ID": "20211228145835-jk8me9i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228145835-jk8me9i",
+				"updated": "20211228145836"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20211228145835-2i0ei7o.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

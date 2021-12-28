@@ -1,0 +1,428 @@
+{
+	"ID": "20211228160631-uw6qhrj",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20211228160631-uw6qhrj",
+		"title": "数据库基础知识",
+		"updated": "20211228160650"
+	},
+	"Children": [
+		{
+			"ID": "20211223095517-ot8gvt5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211223095517-ot8gvt5",
+				"updated": "20211228160649"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、数据操纵语言的分类"
+				}
+			]
+		},
+		{
+			"ID": "20211223095603-y6zxlt7",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211223095603-y6zxlt7",
+				"updated": "20211223100102"
+			},
+			"Children": [
+				{
+					"ID": "20211223095606-s0d7myz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211223095606-s0d7myz",
+						"updated": "20211223100102"
+					},
+					"Children": [
+						{
+							"ID": "20211223095606-7mk3g57",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223095606-7mk3g57",
+								"updated": "20211223095807"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "DDL：数据库模式定义语言"
+								}
+							]
+						},
+						{
+							"ID": "20211223095810-7238tw9",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211223095810-7238tw9",
+								"updated": "20211223100102"
+							},
+							"Children": [
+								{
+									"ID": "20211223095809-eboes8d",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223095809-eboes8d"
+									},
+									"Children": [
+										{
+											"ID": "20211223095809-y8ttju0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223095809-y8ttju0",
+												"updated": "20211223095929"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "create、alter、drop等"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223095929-z7umk0g",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223095929-z7umk0g",
+										"updated": "20211223100102"
+									},
+									"Children": [
+										{
+											"ID": "20211223095929-y0lp5bo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223095929-y0lp5bo",
+												"updated": "20211223100102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "操作对象："
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "表"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "。对表的结构影响。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223095711-xp916a1",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211223095711-xp916a1",
+				"updated": "20211223100357"
+			},
+			"Children": [
+				{
+					"ID": "20211223100109-oen4zmt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211223100109-oen4zmt",
+						"updated": "20211223100357"
+					},
+					"Children": [
+						{
+							"ID": "20211223100109-wp77lyf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223100109-wp77lyf",
+								"updated": "20211223100223"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "DML：数据操纵语言"
+								}
+							]
+						},
+						{
+							"ID": "20211223100225-74dpagh",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211223100225-74dpagh",
+								"updated": "20211223100357"
+							},
+							"Children": [
+								{
+									"ID": "20211223100225-bf0pz9v",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223100225-bf0pz9v"
+									},
+									"Children": [
+										{
+											"ID": "20211223100225-qvzguly",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223100225-qvzguly",
+												"updated": "20211223100317"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "insert、update 、delete等"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223100317-xnhntwu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223100317-xnhntwu",
+										"updated": "20211223100357"
+									},
+									"Children": [
+										{
+											"ID": "20211223100317-63yok59",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223100317-63yok59",
+												"updated": "20211223100357"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "操作对象："
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "记录"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "。对表记录影响。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223100310-wzb2i8z",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211223100310-wzb2i8z",
+				"updated": "20211223101810"
+			},
+			"Children": [
+				{
+					"ID": "20211223101810-5rwfs6e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211223101810-5rwfs6e"
+					},
+					"Children": [
+						{
+							"ID": "20211223101810-82ky0rx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223101810-82ky0rx",
+								"updated": "20211223101824"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "DCL：数据库控制语言"
+								}
+							]
+						},
+						{
+							"ID": "20211223101825-yfm2yiv",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211223101825-yfm2yiv"
+							},
+							"Children": [
+								{
+									"ID": "20211223101825-343wo6h",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223101825-343wo6h"
+									},
+									"Children": [
+										{
+											"ID": "20211223101825-z1cd2q8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223101825-z1cd2q8",
+												"updated": "20211223101838"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "grant、remove等"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223101841-mdyelea",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211223101841-mdyelea"
+					},
+					"Children": [
+						{
+							"ID": "20211223101841-yegil9z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223101841-yegil9z",
+								"updated": "20211223101854"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "DQL：数据库查询语言"
+								}
+							]
+						},
+						{
+							"ID": "20211223101856-lvipwxt",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211223101856-lvipwxt"
+							},
+							"Children": [
+								{
+									"ID": "20211223101856-yekgwo5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223101856-yekgwo5"
+									},
+									"Children": [
+										{
+											"ID": "20211223101856-4ubavfg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223101856-4ubavfg",
+												"updated": "20211223101858"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "select"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211228160650-82eiuui",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228160650-82eiuui",
+				"updated": "20211228160650"
+			}
+		}
+	]
+}

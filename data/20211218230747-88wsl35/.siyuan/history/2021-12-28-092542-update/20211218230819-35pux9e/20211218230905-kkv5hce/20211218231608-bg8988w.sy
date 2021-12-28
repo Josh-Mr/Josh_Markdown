@@ -1,0 +1,4464 @@
+{
+	"ID": "20211218231608-bg8988w",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20211218231608-bg8988w",
+		"title": "Mybatis-Plus重要知识",
+		"updated": "20211228092136"
+	},
+	"Children": [
+		{
+			"ID": "20211225234453-keoywel",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211225234453-keoywel",
+				"updated": "20211227000438"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、Mybatis-Plus【"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "官网"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://baomidou.com/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "】"
+				}
+			]
+		},
+		{
+			"ID": "20211226235852-vymu0xk",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211226235852-vymu0xk",
+				"updated": "20211226235855"
+			},
+			"Children": [
+				{
+					"ID": "20211226235855-swd93fr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211226235855-swd93fr"
+					},
+					"Children": [
+						{
+							"ID": "20211226235855-nkdwrh5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211226235855-nkdwrh5",
+								"updated": "20211227000635"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20211227000109-yd9wynj"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211227000529-cybskfr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211227000529-cybskfr"
+					},
+					"Children": [
+						{
+							"ID": "20211227000529-f65cfkd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211227000529-f65cfkd",
+								"updated": "20211227000656"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20211227000142-ogo0970"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211227000813-93pcrye",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20211227000813-93pcrye"
+					},
+					"Children": [
+						{
+							"ID": "20211227000813-ccenhxq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211227000813-ccenhxq",
+								"updated": "20211227000854"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20211227000311-5ow2xqz"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211227000911-akqpc29",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211227000911-akqpc29",
+				"updated": "20211227000939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、增删改查操作"
+				}
+			]
+		},
+		{
+			"ID": "20211227000942-i62t3q8",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211227000942-i62t3q8",
+				"updated": "20211227001256"
+			},
+			"Children": [
+				{
+					"ID": "20211227000943-262p3x5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211227000943-262p3x5",
+						"updated": "20211227001256"
+					},
+					"Children": [
+						{
+							"ID": "20211227000943-0d4clzo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211227000943-0d4clzo",
+								"updated": "20211227001256"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Mapper接口方法"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211226235837-ni5z88u",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211226235837-ni5z88u",
+				"updated": "20211227001347"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "【添加数据：（增）】\n    int insert(T entity);              // 插入一条记录\n注：\n    T         表示任意实体类型\n    entity    表示实体对象\n\n【删除数据：（删）】\n    int deleteById(Serializable id);    // 根据主键 ID 删除\n    int deleteByMap(@Param(Constants.COLUMN_MAP) Map\u003cString, Object\u003e columnMap);  // 根据 map 定义字段的条件删除\n    int delete(@Param(Constants.WRAPPER) Wrapper\u003cT\u003e wrapper); // 根据实体类定义的 条件删除对象\n    int deleteBatchIds(@Param(Constants.COLLECTION) Collection\u003c? extends Serializable\u003e idList); // 进行批量删除\n注：\n    id        表示 主键 ID\n    columnMap 表示表字段的 map 对象\n    wrapper   表示实体对象封装操作类，可以为 null。\n    idList    表示 主键 ID 集合（列表、数组），不能为 null 或 empty\n\n【修改数据：（改）】\n    int updateById(@Param(Constants.ENTITY) T entity); // 根据 ID 修改实体对象。\n    int update(@Param(Constants.ENTITY) T entity, @Param(Constants.WRAPPER) Wrapper\u003cT\u003e updateWrapper); // 根据 updateWrapper 条件修改实体对象\n注：\n    update 中的 entity 为 set 条件，可以为 null。\n    updateWrapper 表示实体对象封装操作类（可以为 null,里面的 entity 用于生成 where 语句）\n\n【查询数据：（查）】\n    T selectById(Serializable id); // 根据 主键 ID 查询数据\n    List\u003cT\u003e selectBatchIds(@Param(Constants.COLLECTION) Collection\u003c? extends Serializable\u003e idList); // 进行批量查询\n    List\u003cT\u003e selectByMap(@Param(Constants.COLUMN_MAP) Map\u003cString, Object\u003e columnMap); // 根据表字段条件查询\n    T selectOne(@Param(Constants.WRAPPER) Wrapper\u003cT\u003e queryWrapper); // 根据实体类封装对象 查询一条记录\n    Integer selectCount(@Param(Constants.WRAPPER) Wrapper\u003cT\u003e queryWrapper); // 查询记录的总条数\n    List\u003cT\u003e selectList(@Param(Constants.WRAPPER) Wrapper\u003cT\u003e queryWrapper); // 查询所有记录（返回 entity 集合）\n    List\u003cMap\u003cString, Object\u003e\u003e selectMaps(@Param(Constants.WRAPPER) Wrapper\u003cT\u003e queryWrapper); // 查询所有记录（返回 map 集合）\n    List\u003cObject\u003e selectObjs(@Param(Constants.WRAPPER) Wrapper\u003cT\u003e queryWrapper); // 查询所有记录（但只保存第一个字段的值）\n    \u003cE extends IPage\u003cT\u003e\u003e E selectPage(E page, @Param(Constants.WRAPPER) Wrapper\u003cT\u003e queryWrapper); // 查询所有记录（返回 entity 集合），分页\n    \u003cE extends IPage\u003cMap\u003cString, Object\u003e\u003e\u003e E selectMapsPage(E page, @Param(Constants.WRAPPER) Wrapper\u003cT\u003e queryWrapper); // 查询所有记录（返回 map 集合），分页\n注：\n    queryWrapper 表示实体对象封装操作类（可以为 null）\n    page 表示分页查询条件\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211227001417-tflhli0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211227001417-tflhli0",
+				"updated": "20211227001420"
+			},
+			"Children": [
+				{
+					"ID": "20211227001420-m38i1z5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211227001420-m38i1z5"
+					},
+					"Children": [
+						{
+							"ID": "20211227001420-rmsqhj2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211227001420-rmsqhj2",
+								"updated": "20211227001452"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "IService接口方法"
+								}
+							]
+						},
+						{
+							"ID": "20211227001452-ac54n36",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211227001452-ac54n36",
+								"updated": "20211227001546"
+							},
+							"Children": [
+								{
+									"ID": "20211227001546-yvojir2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211227001546-yvojir2"
+									},
+									"Children": [
+										{
+											"ID": "20211227001546-setqwgu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211227001546-setqwgu",
+												"updated": "20211227001556"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "相比Mapper接口："
+												}
+											]
+										},
+										{
+											"ID": "20211227001559-45so0k1",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20211227001559-45so0k1"
+											},
+											"Children": [
+												{
+													"ID": "20211227001556-hyc0fuh",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20211227001556-hyc0fuh"
+													},
+													"Children": [
+														{
+															"ID": "20211227001556-bewy9ke",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211227001556-bewy9ke",
+																"updated": "20211227001604"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "添加了 批量更新 方法、更新或修改方法等。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20211227001605-8xxiwq9",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20211227001605-8xxiwq9"
+													},
+													"Children": [
+														{
+															"ID": "20211227001605-4nl47o9",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211227001605-4nl47o9",
+																"updated": "20211227001609"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "对 查询方法 做了细化，使用 get 命名的方法查询一条数据，使用 list 命名的方法查询多条数据等。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20211227001610-0ykw55g",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20211227001610-0ykw55g"
+													},
+													"Children": [
+														{
+															"ID": "20211227001610-kahwbk8",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211227001610-kahwbk8"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "增加了链式调用的方法。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211227001649-ch7ugqu",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211227001649-ch7ugqu",
+				"updated": "20211227001655"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "【添加数据：（增）】\n    default boolean save(T entity); // 调用 BaseMapper 的 insert 方法，用于添加一条数据。\n    boolean saveBatch(Collection\u003cT\u003e entityList, int batchSize); // 批量插入数据\n注：\n    entityList 表示实体对象集合 \n    batchSize 表示一次批量插入的数据量，默认为 1000\n\n【添加或修改数据：（增或改）】\n    boolean saveOrUpdate(T entity); // id 若存在，则修改， id 不存在则新增数据\n   default boolean saveOrUpdate(T entity, Wrapper\u003cT\u003e updateWrapper); // 先根据条件尝试更新，然后再执行 saveOrUpdate 操作\n   boolean saveOrUpdateBatch(Collection\u003cT\u003e entityList, int batchSize); // 批量插入并修改数据 \n\n【删除数据：（删）】\n    default boolean removeById(Serializable id); // 调用 BaseMapper 的 deleteById 方法，根据 id 删除数据。\n    default boolean removeByMap(Map\u003cString, Object\u003e columnMap); // 调用 BaseMapper 的 deleteByMap 方法，根据 map 定义字段的条件删除\n    default boolean remove(Wrapper\u003cT\u003e queryWrapper); // 调用 BaseMapper 的 delete 方法，根据实体类定义的 条件删除对象。\n    default boolean removeByIds(Collection\u003c? extends Serializable\u003e idList); // 用 BaseMapper 的 deleteBatchIds 方法, 进行批量删除。\n  \n【修改数据：（改）】\n    default boolean updateById(T entity); // 调用 BaseMapper 的 updateById 方法，根据 ID 选择修改。\n    default boolean update(T entity, Wrapper\u003cT\u003e updateWrapper); // 调用 BaseMapper 的 update 方法，根据 updateWrapper 条件修改实体对象。\n    boolean updateBatchById(Collection\u003cT\u003e entityList, int batchSize); // 批量更新数据\n\n【查找数据：（查）】\n    default T getById(Serializable id); // 调用 BaseMapper 的 selectById 方法，根据 主键 ID 返回数据。\n    default List\u003cT\u003e listByIds(Collection\u003c? extends Serializable\u003e idList); // 调用 BaseMapper 的 selectBatchIds 方法，批量查询数据。\n    default List\u003cT\u003e listByMap(Map\u003cString, Object\u003e columnMap); // 调用 BaseMapper 的 selectByMap 方法，根据表字段条件查询\n    default T getOne(Wrapper\u003cT\u003e queryWrapper); // 返回一条记录（实体类保存）。\n    Map\u003cString, Object\u003e getMap(Wrapper\u003cT\u003e queryWrapper); // 返回一条记录（map 保存）。\n    default int count(Wrapper\u003cT\u003e queryWrapper); // 根据条件返回 记录数。\n    default List\u003cT\u003e list(); // 返回所有数据。\n    default List\u003cT\u003e list(Wrapper\u003cT\u003e queryWrapper); // 调用 BaseMapper 的 selectList 方法，查询所有记录（返回 entity 集合）。\n    default List\u003cMap\u003cString, Object\u003e\u003e listMaps(Wrapper\u003cT\u003e queryWrapper); // 调用 BaseMapper 的 selectMaps 方法，查询所有记录（返回 map 集合）。\n    default List\u003cObject\u003e listObjs(); // 返回全部记录，但只返回第一个字段的值。\n    default \u003cE extends IPage\u003cT\u003e\u003e E page(E page, Wrapper\u003cT\u003e queryWrapper); // 调用 BaseMapper 的 selectPage 方法，分页查询\n    default \u003cE extends IPage\u003cMap\u003cString, Object\u003e\u003e\u003e E pageMaps(E page, Wrapper\u003cT\u003e queryWrapper); // 调用 BaseMapper 的 selectMapsPage 方法，分页查询\n注：\n    get 用于返回一条记录。\n    list 用于返回多条记录。\n    count 用于返回记录总数。\n    page 用于分页查询。\n  \n【链式调用：】\n    default QueryChainWrapper\u003cT\u003e query(); // 普通链式查询\n    default LambdaQueryChainWrapper\u003cT\u003e lambdaQuery(); // 支持 Lambda 表达式的修改\n    default UpdateChainWrapper\u003cT\u003e update(); // 普通链式修改\n    default LambdaUpdateChainWrapper\u003cT\u003e lambdaUpdate(); // 支持 Lambda 表达式的修改\n注：\n    query 表示查询\n    update 表示修改\n    Lambda 表示内部支持 Lambda 写法。\n形如：\n    query().eq(\"column\", value).one();\n    lambdaQuery().eq(Entity::getId, value).list();\n    update().eq(\"column\", value).remove();\n    lambdaUpdate().eq(Entity::getId, value).update(entity);\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211227001812-3twc4px",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211227001812-3twc4px",
+				"updated": "20211227001814"
+			},
+			"Children": [
+				{
+					"ID": "20211227001814-mx2anwr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20211227001814-mx2anwr"
+					},
+					"Children": [
+						{
+							"ID": "20211227001814-uniyl7x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211227001814-uniyl7x",
+								"updated": "20211227001902"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "条件构造器（Wrapper，定义where条件）"
+								}
+							]
+						},
+						{
+							"ID": "20211227001925-t1q5cbe",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211227001925-t1q5cbe",
+								"updated": "20211227001929"
+							},
+							"Children": [
+								{
+									"ID": "20211227001929-ezsrloh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211227001929-ezsrloh"
+									},
+									"Children": [
+										{
+											"ID": "20211227001929-8mga4i6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211227001929-8mga4i6",
+												"updated": "20211227001931"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "上面介绍的 接口方法的参数中，会出现各种 wrapper，比如 queryWrapper、updateWrapper 等。wrapper 的作用就是用于定义各种各样的查询条件（where）"
+												}
+											]
+										},
+										{
+											"ID": "20211227002023-7bdb86a",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20211227002023-7bdb86a",
+												"updated": "20211227002032"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "amF2YQ=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "Wrapper  条件构造抽象类\n    -- AbstractWrapper 查询条件封装，用于生成 sql 中的 where 语句。\n        -- QueryWrapper Entity 对象封装操作类，用于查询。\n        -- UpdateWrapper Update 条件封装操作类，用于更新。\n    -- AbstractLambdaWrapper 使用 Lambda 表达式封装 wrapper\n        -- LambdaQueryWrapper 使用 Lambda 语法封装条件，用于查询。\n        -- LambdaUpdateWrapper 使用 Lambda 语法封装条件，用于更新。\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211227002043-q22ycoi",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211227002043-q22ycoi",
+				"updated": "20211227002124"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "【通用条件：】\n【比较大小： ( =, \u003c\u003e, \u003e, \u003e=, \u003c, \u003c= )】\n    eq(R column, Object val); // 等价于 =，例: eq(\"name\", \"老王\") ---\u003e name = '老王'\n    ne(R column, Object val); // 等价于 \u003c\u003e，例: ne(\"name\", \"老王\") ---\u003e name \u003c\u003e '老王'\n    gt(R column, Object val); // 等价于 \u003e，例: gt(\"name\", \"老王\") ---\u003e name \u003e '老王'\n    ge(R column, Object val); // 等价于 \u003e=，例: ge(\"name\", \"老王\") ---\u003e name \u003e= '老王'\n    lt(R column, Object val); // 等价于 \u003c，例: lt(\"name\", \"老王\") ---\u003e name \u003c '老王'\n    le(R column, Object val); // 等价于 \u003c=，例: le(\"name\", \"老王\") ---\u003e name \u003c= '老王'\n  \n【范围：（between、not between、in、not in）】\n   between(R column, Object val1, Object val2); // 等价于 between a and b, 例： between(\"age\", 18, 30) ---\u003e age between 18 and 30\n   notBetween(R column, Object val1, Object val2); // 等价于 not between a and b, 例： notBetween(\"age\", 18, 30) ---\u003e age not between 18 and 30\n   in(R column, Object... values); // 等价于 字段 IN (v0, v1, ...),例: in(\"age\",{1,2,3}) ---\u003e age in (1,2,3)\n   notIn(R column, Object... values); // 等价于 字段 NOT IN (v0, v1, ...), 例: notIn(\"age\",{1,2,3}) ---\u003e age not in (1,2,3)\n   inSql(R column, Object... values); // 等价于 字段 IN (sql 语句), 例: inSql(\"id\", \"select id from table where id \u003c 3\") ---\u003e id in (select id from table where id \u003c 3)\n   notInSql(R column, Object... values); // 等价于 字段 NOT IN (sql 语句)\n   \n【模糊匹配：（like）】\n    like(R column, Object val); // 等价于 LIKE '%值%'，例: like(\"name\", \"王\") ---\u003e name like '%王%'\n    notLike(R column, Object val); // 等价于 NOT LIKE '%值%'，例: notLike(\"name\", \"王\") ---\u003e name not like '%王%'\n    likeLeft(R column, Object val); // 等价于 LIKE '%值'，例: likeLeft(\"name\", \"王\") ---\u003e name like '%王'\n    likeRight(R column, Object val); // 等价于 LIKE '值%'，例: likeRight(\"name\", \"王\") ---\u003e name like '王%'\n  \n【空值比较：（isNull、isNotNull）】\n    isNull(R column); // 等价于 IS NULL，例: isNull(\"name\") ---\u003e name is null\n    isNotNull(R column); // 等价于 IS NOT NULL，例: isNotNull(\"name\") ---\u003e name is not null\n\n【分组、排序：（group、having、order）】\n    groupBy(R... columns); // 等价于 GROUP BY 字段, ...， 例: groupBy(\"id\", \"name\") ---\u003e group by id,name\n    orderByAsc(R... columns); // 等价于 ORDER BY 字段, ... ASC， 例: orderByAsc(\"id\", \"name\") ---\u003e order by id ASC,name ASC\n    orderByDesc(R... columns); // 等价于 ORDER BY 字段, ... DESC， 例: orderByDesc(\"id\", \"name\") ---\u003e order by id DESC,name DESC\n    having(String sqlHaving, Object... params); // 等价于 HAVING ( sql语句 )， 例: having(\"sum(age) \u003e {0}\", 11) ---\u003e having sum(age) \u003e 11\n\n【拼接、嵌套 sql：（or、and、nested、apply）】\n   or(); // 等价于 a or b， 例：eq(\"id\",1).or().eq(\"name\",\"老王\") ---\u003e id = 1 or name = '老王'\n   or(Consumer\u003cParam\u003e consumer); // 等价于 or(a or/and b)，or 嵌套。例: or(i -\u003e i.eq(\"name\", \"李白\").ne(\"status\", \"活着\")) ---\u003e or (name = '李白' and status \u003c\u003e '活着')\n   and(Consumer\u003cParam\u003e consumer); // 等价于 and(a or/and b)，and 嵌套。例: and(i -\u003e i.eq(\"name\", \"李白\").ne(\"status\", \"活着\")) ---\u003e and (name = '李白' and status \u003c\u003e '活着')\n   nested(Consumer\u003cParam\u003e consumer); // 等价于 (a or/and b)，普通嵌套。例: nested(i -\u003e i.eq(\"name\", \"李白\").ne(\"status\", \"活着\")) ---\u003e (name = '李白' and status \u003c\u003e '活着')\n   apply(String applySql, Object... params); // 拼接sql（若不使用 params 参数，可能存在 sql 注入），例: apply(\"date_format(dateColumn,'%Y-%m-%d') = {0}\", \"2008-08-08\") ---\u003e date_format(dateColumn,'%Y-%m-%d') = '2008-08-08'\")\n   last(String lastSql); // 无视优化规则直接拼接到 sql 的最后，可能存若在 sql 注入。\n   exists(String existsSql); // 拼接 exists 语句。例: exists(\"select id from table where age = 1\") ---\u003e exists (select id from table where age = 1)\n   \n【QueryWrapper 条件：】\n    select(String... sqlSelect); // 用于定义需要返回的字段。例： select(\"id\", \"name\", \"age\") ---\u003e select id, name, age\n    select(Predicate\u003cTableFieldInfo\u003e predicate); // Lambda 表达式，过滤需要的字段。\n    lambda(); // 返回一个 LambdaQueryWrapper\n  \n【UpdateWrapper 条件：】\n    set(String column, Object val); // 用于设置 set 字段值。例: set(\"name\", null) ---\u003e set name = null\n    etSql(String sql); // 用于设置 set 字段值。例: setSql(\"name = '老李头'\") ---\u003e set name = '老李头'\n    lambda(); // 返回一个 LambdaUpdateWrapper\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211227002143-qigyi83",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211227002143-qigyi83",
+				"updated": "20211227002143"
+			}
+		},
+		{
+			"ID": "20211227002144-bs8loiy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211227002144-bs8loiy",
+				"updated": "20211227002144"
+			}
+		},
+		{
+			"ID": "20211227002146-805bz27",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211227002146-805bz27",
+				"updated": "20211227002421"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "https://baomidou.com/pages/223848/"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "sqlparser"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211227002423-vn6d7gu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211227002423-vn6d7gu",
+				"updated": "20211227002436"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "https://www.cnblogs.com/l-y-h/p/12859477.html"
+				}
+			]
+		},
+		{
+			"ID": "20211227002146-92ngtt0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211227002146-92ngtt0",
+				"updated": "20211227175919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、注解"
+				}
+			]
+		},
+		{
+			"ID": "20211227175933-cp710a5",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211227175933-cp710a5",
+				"updated": "20211227180534"
+			},
+			"Children": [
+				{
+					"ID": "20211227175934-vql1hr0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211227175934-vql1hr0",
+						"updated": "20211227180545"
+					},
+					"Children": [
+						{
+							"ID": "20211227175934-k2x4n5g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211227175934-k2x4n5g",
+								"updated": "20211227180545"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "@TableName"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：标识实体类对应的表"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211227175947-joryj7c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211227175947-joryj7c",
+						"updated": "20211227180534"
+					},
+					"Children": [
+						{
+							"ID": "20211227175947-ha5lonj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211227175947-ha5lonj",
+								"updated": "20211227180550"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "@TableId"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211227180137-3lixnpc",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20211227180137-3lixnpc",
+								"updated": "20211227180534"
+							},
+							"Children": [
+								{
+									"ID": "20211227180137-tl4yd14",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20211227180137-tl4yd14"
+									},
+									"Children": [
+										{
+											"ID": "20211227180137-00zbuwy",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211227180137-00zbuwy",
+												"updated": "20211227180238"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "value：主键名称"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211227180226-qra9wwi",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20211227180226-qra9wwi",
+										"updated": "20211227180534"
+									},
+									"Children": [
+										{
+											"ID": "20211227180226-c9dq2vb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211227180226-c9dq2vb",
+												"updated": "20211227180300"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "type：主键类型"
+												}
+											]
+										},
+										{
+											"ID": "20211227180247-ks7tgnc",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20211227180247-ks7tgnc",
+												"updated": "20211227180534"
+											},
+											"Children": [
+												{
+													"ID": "20211227180250-m9w3k3p",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20211227180250-m9w3k3p"
+													},
+													"Children": [
+														{
+															"ID": "20211227180250-t581zlt",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211227180250-t581zlt",
+																"updated": "20211227180411"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "IdType.NONE：无状态，该类型为未设置主键类型（注解里等于跟随全局，全局里约等于 INPUT）"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20211227180341-mn7qoxh",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20211227180341-mn7qoxh"
+													},
+													"Children": [
+														{
+															"ID": "20211227180341-myd1oqj",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211227180341-myd1oqj",
+																"updated": "20211227180418"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "IdType.AUTO：数据库 ID 自增"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20211227180419-vnkd68a",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20211227180419-vnkd68a"
+													},
+													"Children": [
+														{
+															"ID": "20211227180419-5dzinq4",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211227180419-5dzinq4",
+																"updated": "20211227180449"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "IdType.INPUT：insert前自行setID"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20211227180452-og22vrg",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20211227180452-og22vrg"
+													},
+													"Children": [
+														{
+															"ID": "20211227180452-ptyux5h",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211227180452-ptyux5h",
+																"updated": "20211227180517"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "IdType.ASSIGN_UUID：分配 UUID,主键类型为 String(since 3.3.0),使用接口"
+																},
+																{
+																	"Type": "NodeCodeSpan",
+																	"Data": "code",
+																	"Children": [
+																		{
+																			"Type": "NodeCodeSpanOpenMarker"
+																		},
+																		{
+																			"Type": "NodeCodeSpanContent",
+																			"Data": "IdentifierGenerator"
+																		},
+																		{
+																			"Type": "NodeCodeSpanCloseMarker"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "的方法"
+																},
+																{
+																	"Type": "NodeCodeSpan",
+																	"Data": "code",
+																	"Children": [
+																		{
+																			"Type": "NodeCodeSpanOpenMarker"
+																		},
+																		{
+																			"Type": "NodeCodeSpanContent",
+																			"Data": "nextUUID"
+																		},
+																		{
+																			"Type": "NodeCodeSpanCloseMarker"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "(默认 default 方法)"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20211227180519-u236nyt",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20211227180519-u236nyt",
+														"updated": "20211227180534"
+													},
+													"Children": [
+														{
+															"ID": "20211227180519-9x5zce5",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211227180519-9x5zce5",
+																"updated": "20211227180534"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "IdType.ASSIGN_ID：分配 ID(主键类型为 Number(Long 和 Integer)或 String)(since 3.3.0),使用接口"
+																},
+																{
+																	"Type": "NodeCodeSpan",
+																	"Data": "code",
+																	"Children": [
+																		{
+																			"Type": "NodeCodeSpanOpenMarker"
+																		},
+																		{
+																			"Type": "NodeCodeSpanContent",
+																			"Data": "IdentifierGenerator"
+																		},
+																		{
+																			"Type": "NodeCodeSpanCloseMarker"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "的方法"
+																},
+																{
+																	"Type": "NodeCodeSpan",
+																	"Data": "code",
+																	"Children": [
+																		{
+																			"Type": "NodeCodeSpanOpenMarker"
+																		},
+																		{
+																			"Type": "NodeCodeSpanContent",
+																			"Data": "nextId"
+																		},
+																		{
+																			"Type": "NodeCodeSpanCloseMarker"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "(默认实现类为"
+																},
+																{
+																	"Type": "NodeCodeSpan",
+																	"Data": "code",
+																	"Children": [
+																		{
+																			"Type": "NodeCodeSpanOpenMarker"
+																		},
+																		{
+																			"Type": "NodeCodeSpanContent",
+																			"Data": "DefaultIdentifierGenerator"
+																		},
+																		{
+																			"Type": "NodeCodeSpanCloseMarker"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "雪花算法)"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211227002146-f672mrx",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211227002146-f672mrx",
+				"updated": "20211228004149"
+			},
+			"Children": [
+				{
+					"ID": "20211227180602-ukihsae",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20211227180602-ukihsae",
+						"updated": "20211228004149"
+					},
+					"Children": [
+						{
+							"ID": "20211227180602-ev73be5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211227180602-ev73be5",
+								"updated": "20211228003434"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "@TableField"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211227180726-0txp6z1",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211227180726-0txp6z1",
+								"updated": "20211227180726"
+							},
+							"Children": [
+								{
+									"ID": "20211227180726-7ugzz3f",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211227180726-7ugzz3f"
+									},
+									"Children": [
+										{
+											"ID": "20211227180726-j9kff13",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211227180726-j9kff13"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "描述：字段注解（非主键）"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211227180726-h4bb767",
+							"Type": "NodeTable",
+							"TableAligns": [
+								0,
+								0,
+								0,
+								0,
+								0
+							],
+							"Properties": {
+								"id": "20211227180726-h4bb767",
+								"updated": "20211228004149"
+							},
+							"Children": [
+								{
+									"Type": "NodeTableHead",
+									"Data": "thead",
+									"Children": [
+										{
+											"Type": "NodeTableRow",
+											"Data": "tr",
+											"Children": [
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"TableCellContentWidth": 6,
+													"TableCellContentMaxWidth": 26,
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "属性"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"TableCellContentWidth": 6,
+													"TableCellContentMaxWidth": 30,
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "类型"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"TableCellContentWidth": 10,
+													"TableCellContentMaxWidth": 10,
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "必须指定"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"TableCellContentWidth": 8,
+													"TableCellContentMaxWidth": 26,
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "默认值"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"TableCellContentWidth": 6,
+													"TableCellContentMaxWidth": 261,
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "描述"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 17,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "value"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 8,
+											"TableCellContentMaxWidth": 30,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "String"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 4,
+											"TableCellContentMaxWidth": 10,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "否"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 4,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "\"\""
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 14,
+											"TableCellContentMaxWidth": 261,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "数据库字段名"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 17,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "exist"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 9,
+											"TableCellContentMaxWidth": 30,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "boolean"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 4,
+											"TableCellContentMaxWidth": 10,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "否"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 6,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "true"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 20,
+											"TableCellContentMaxWidth": 261,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "是否为数据库表字段"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 11,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "condition"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 8,
+											"TableCellContentMaxWidth": 30,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "String"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 4,
+											"TableCellContentMaxWidth": 10,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "否"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 4,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "\"\""
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 261,
+											"TableCellContentMaxWidth": 261,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "字段 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "where"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 实体查询比较条件，有值设置则按设置的值为准，没有则为默认全局的 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "%s=#{%s}"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，"
+												},
+												{
+													"Type": "NodeLink",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "参考(opens new window)"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "https://github.com/baomidou/mybatis-plus/blob/3.0/mybatis-plus-annotation/src/main/java/com/baomidou/mybatisplus/annotation/SqlCondition.java"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 8,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "update"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 8,
+											"TableCellContentMaxWidth": 30,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "String"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 4,
+											"TableCellContentMaxWidth": 10,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "否"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 4,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "\"\""
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 127,
+											"TableCellContentMaxWidth": 261,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "字段 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "update set"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 部分注入，例如："
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "update=\"%s+1\""
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 表示更新时会 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "set version=version+1"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " （该属性优先级高于 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "el"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 属性）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 26,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "insertStrategy"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 6,
+											"TableCellContentMaxWidth": 30,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Enum"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 4,
+											"TableCellContentMaxWidth": 10,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "否"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 23,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "FieldStrategy.DEFAULT"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 154,
+											"TableCellContentMaxWidth": 261,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "举例：NOT_NULL"
+												},
+												{
+													"Type": "NodeBr",
+													"Data": "br"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "insert into table_a(\u003cif test=\"columnProperty != null\"\u003ecolumn\u003c/if\u003e) values (\u003cif test=\"columnProperty != null\"\u003e#{columnProperty}\u003c/if\u003e)"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 26,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "updateStrategy"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 6,
+											"TableCellContentMaxWidth": 30,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Enum"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 4,
+											"TableCellContentMaxWidth": 10,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "否"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 23,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "FieldStrategy.DEFAULT"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 64,
+											"TableCellContentMaxWidth": 261,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "举例：IGNORED"
+												},
+												{
+													"Type": "NodeBr",
+													"Data": "br"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "update table_a set column=#{columnProperty}"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 15,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "whereStrategy"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 6,
+											"TableCellContentMaxWidth": 30,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Enum"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 4,
+											"TableCellContentMaxWidth": 10,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "否"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 23,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "FieldStrategy.DEFAULT"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 115,
+											"TableCellContentMaxWidth": 261,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "举例：NOT_EMPTY"
+												},
+												{
+													"Type": "NodeBr",
+													"Data": "br"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "where \u003cif test=\"columnProperty != null and columnProperty!=''\"\u003ecolumn=#{columnProperty}\u003c/if\u003e"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 16,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "fill"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 6,
+											"TableCellContentMaxWidth": 30,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Enum"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 4,
+											"TableCellContentMaxWidth": 10,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "否"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 19,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "FieldFill.DEFAULT"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 18,
+											"TableCellContentMaxWidth": 261,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "字段自动填充策略"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 8,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "select"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 9,
+											"TableCellContentMaxWidth": 30,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "boolean"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 4,
+											"TableCellContentMaxWidth": 10,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "否"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 6,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "true"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 22,
+											"TableCellContentMaxWidth": 261,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "是否进行 select 查询"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 18,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "keepGlobalFormat"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 9,
+											"TableCellContentMaxWidth": 30,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "boolean"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 4,
+											"TableCellContentMaxWidth": 10,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "否"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 7,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "false"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 36,
+											"TableCellContentMaxWidth": 261,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "是否保持使用全局的 format 进行处理"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 10,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "jdbcType"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 10,
+											"TableCellContentMaxWidth": 30,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "JdbcType"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 4,
+											"TableCellContentMaxWidth": 10,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "否"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 20,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "JdbcType.UNDEFINED"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 42,
+											"TableCellContentMaxWidth": 261,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "JDBC 类型 (该默认值不代表会按照该值生效)"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 23,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "typeHandler"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 30,
+											"TableCellContentMaxWidth": 30,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Class\u003c? extends TypeHandler\u003e"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 4,
+											"TableCellContentMaxWidth": 10,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "否"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 26,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "UnknownTypeHandler.class"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 43,
+											"TableCellContentMaxWidth": 261,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "类型处理器 (该默认值不代表会按照该值生效)"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 14,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "numericScale"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 8,
+											"TableCellContentMaxWidth": 30,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "String"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 4,
+											"TableCellContentMaxWidth": 10,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "否"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 4,
+											"TableCellContentMaxWidth": 26,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "\"\""
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 24,
+											"TableCellContentMaxWidth": 261,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "指定小数点后保留的位数"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211227180821-yc7z6z6",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20211227180821-yc7z6z6",
+								"updated": "20211227181042"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "FieldStrategy"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://github.com/baomidou/mybatis-plus/blob/3.0/mybatis-plus-annotation/src/main/java/com/baomidou/mybatisplus/annotation/FieldStrategy.java"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "（字段操作策略）"
+								}
+							]
+						},
+						{
+							"ID": "20211227180821-9v78fba",
+							"Type": "NodeTable",
+							"TableAligns": [
+								0,
+								0
+							],
+							"Properties": {
+								"id": "20211227180821-9v78fba",
+								"updated": "20211227180821"
+							},
+							"Children": [
+								{
+									"Type": "NodeTableHead",
+									"Data": "thead",
+									"Children": [
+										{
+											"Type": "NodeTableRow",
+											"Data": "tr",
+											"Children": [
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"TableCellContentWidth": 4,
+													"TableCellContentMaxWidth": 11,
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "值"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"TableCellContentWidth": 6,
+													"TableCellContentMaxWidth": 61,
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "描述"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 9,
+											"TableCellContentMaxWidth": 11,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "IGNORED"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 10,
+											"TableCellContentMaxWidth": 61,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "忽略判断"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 10,
+											"TableCellContentMaxWidth": 11,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "NOT_NULL"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 14,
+											"TableCellContentMaxWidth": 61,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "非 NULL 判断"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 11,
+											"TableCellContentMaxWidth": 11,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "NOT_EMPTY"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 61,
+											"TableCellContentMaxWidth": 61,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "非空判断(只对字符串类型字段,其他类型字段依然为非 NULL 判断)"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 9,
+											"TableCellContentMaxWidth": 11,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "DEFAULT"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 14,
+											"TableCellContentMaxWidth": 61,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "追随全局配置"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211227180821-fhznzgr",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20211227180821-fhznzgr",
+								"updated": "20211227180950"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "FieldFill"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://github.com/baomidou/mybatis-plus/blob/3.0/mybatis-plus-annotation/src/main/java/com/baomidou/mybatisplus/annotation/FieldFill.java"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "（字段自动填充策略）"
+								}
+							]
+						},
+						{
+							"ID": "20211227180821-n503bxl",
+							"Type": "NodeTable",
+							"TableAligns": [
+								0,
+								0
+							],
+							"Properties": {
+								"id": "20211227180821-n503bxl",
+								"updated": "20211227180821"
+							},
+							"Children": [
+								{
+									"Type": "NodeTableHead",
+									"Data": "thead",
+									"Children": [
+										{
+											"Type": "NodeTableRow",
+											"Data": "tr",
+											"Children": [
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"TableCellContentWidth": 4,
+													"TableCellContentMaxWidth": 15,
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "值"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"TableCellContentWidth": 6,
+													"TableCellContentMaxWidth": 22,
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "描述"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 9,
+											"TableCellContentMaxWidth": 15,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "DEFAULT"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 12,
+											"TableCellContentMaxWidth": 22,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "默认不处理"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 8,
+											"TableCellContentMaxWidth": 15,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "INSERT"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 16,
+											"TableCellContentMaxWidth": 22,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "插入时填充字段"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 8,
+											"TableCellContentMaxWidth": 15,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "UPDATE"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 16,
+											"TableCellContentMaxWidth": 22,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "更新时填充字段"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 15,
+											"TableCellContentMaxWidth": 15,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "INSERT_UPDATE"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"TableCellContentWidth": 22,
+											"TableCellContentMaxWidth": 22,
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "插入和更新时填充字段"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211227002146-dncqb1l",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211227002146-dncqb1l",
+				"updated": "20211228004022"
+			},
+			"Children": [
+				{
+					"ID": "20211228003440-swzx3h9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20211228003440-swzx3h9"
+					},
+					"Children": [
+						{
+							"ID": "20211228003440-jqavngl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228003440-jqavngl",
+								"updated": "20211228003518"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "@Version"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211228003520-1afhdki",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211228003520-1afhdki",
+								"updated": "20211228003522"
+							},
+							"Children": [
+								{
+									"ID": "20211228003522-m72b15r",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211228003522-m72b15r"
+									},
+									"Children": [
+										{
+											"ID": "20211228003522-n8h2e33",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211228003522-n8h2e33",
+												"updated": "20211228003547"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "乐观锁注解、标记@Version在字段上"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211228003550-qtuz0q0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20211228003550-qtuz0q0",
+						"updated": "20211228004022"
+					},
+					"Children": [
+						{
+							"ID": "20211228003550-845totw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228003550-845totw",
+								"updated": "20211228004022"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "@EnumValue"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211228003607-effrapx",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211228003607-effrapx",
+								"updated": "20211228003658"
+							},
+							"Children": [
+								{
+									"ID": "20211228003619-lp35958",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211228003619-lp35958",
+										"updated": "20211228003658"
+									},
+									"Children": [
+										{
+											"ID": "20211228003619-u29kv30",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211228003619-u29kv30",
+												"updated": "20211228003658"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "通枚举类注解（注解在枚举字段上）"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211227002146-dgyzrxk",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211227002146-dgyzrxk",
+				"updated": "20211228004024"
+			},
+			"Children": [
+				{
+					"ID": "20211228003702-i77c1ma",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20211228003702-i77c1ma",
+						"updated": "20211228004024"
+					},
+					"Children": [
+						{
+							"ID": "20211228003702-arr1bid",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228003702-arr1bid",
+								"updated": "20211228004024"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "@TableLogic"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211228003717-wov2a6d",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211228003717-wov2a6d",
+								"updated": "20211228003756"
+							},
+							"Children": [
+								{
+									"ID": "20211228003721-2dogfi7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211228003721-2dogfi7",
+										"updated": "20211228003756"
+									},
+									"Children": [
+										{
+											"ID": "20211228003721-fj2zc11",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211228003721-fj2zc11",
+												"updated": "20211228003745"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "表字段逻辑处理注解（逻辑删除）"
+												}
+											]
+										},
+										{
+											"ID": "20211228003756-ri3y95q",
+											"Type": "NodeTable",
+											"TableAligns": [
+												0,
+												0,
+												0,
+												0,
+												0
+											],
+											"Properties": {
+												"id": "20211228003756-ri3y95q",
+												"updated": "20211228003756"
+											},
+											"Children": [
+												{
+													"Type": "NodeTableHead",
+													"Data": "thead",
+													"Children": [
+														{
+															"Type": "NodeTableRow",
+															"Data": "tr",
+															"Children": [
+																{
+																	"Type": "NodeTableCell",
+																	"Data": "th",
+																	"TableCellContentWidth": 6,
+																	"TableCellContentMaxWidth": 8,
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "属性"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeTableCell",
+																	"Data": "th",
+																	"TableCellContentWidth": 6,
+																	"TableCellContentMaxWidth": 8,
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "类型"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeTableCell",
+																	"Data": "th",
+																	"TableCellContentWidth": 10,
+																	"TableCellContentMaxWidth": 10,
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "必须指定"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeTableCell",
+																	"Data": "th",
+																	"TableCellContentWidth": 8,
+																	"TableCellContentMaxWidth": 8,
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "默认值"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeTableCell",
+																	"Data": "th",
+																	"TableCellContentWidth": 6,
+																	"TableCellContentMaxWidth": 14,
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "描述"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellContentWidth": 7,
+															"TableCellContentMaxWidth": 8,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "value"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellContentWidth": 8,
+															"TableCellContentMaxWidth": 8,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "String"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellContentWidth": 4,
+															"TableCellContentMaxWidth": 10,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "否"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellContentWidth": 4,
+															"TableCellContentMaxWidth": 8,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "\"\""
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellContentWidth": 14,
+															"TableCellContentMaxWidth": 14,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "逻辑未删除值"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellContentWidth": 8,
+															"TableCellContentMaxWidth": 8,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "delval"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellContentWidth": 8,
+															"TableCellContentMaxWidth": 8,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "String"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellContentWidth": 4,
+															"TableCellContentMaxWidth": 10,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "否"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellContentWidth": 4,
+															"TableCellContentMaxWidth": 8,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "\"\""
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"TableCellContentWidth": 12,
+															"TableCellContentMaxWidth": 14,
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "逻辑删除值"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211227002147-6h839jj",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211227002147-6h839jj",
+				"updated": "20211228004027"
+			},
+			"Children": [
+				{
+					"ID": "20211228003847-70jf6jh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20211228003847-70jf6jh",
+						"updated": "20211228004026"
+					},
+					"Children": [
+						{
+							"ID": "20211228003847-pl9hasv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228003847-pl9hasv",
+								"updated": "20211228004026"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "@KeySequence"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211228003915-p5a7k7v",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211228003915-p5a7k7v",
+								"updated": "20211228003917"
+							},
+							"Children": [
+								{
+									"ID": "20211228003917-ygu8n3s",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211228003917-ygu8n3s"
+									},
+									"Children": [
+										{
+											"ID": "20211228003917-3b2jn2p",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211228003917-3b2jn2p",
+												"updated": "20211228003943"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "序列主键策略（Oracle）"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211228003953-i1qytq8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20211228003953-i1qytq8",
+						"updated": "20211228004027"
+					},
+					"Children": [
+						{
+							"ID": "20211228003953-3rx2klg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228003953-3rx2klg",
+								"updated": "20211228004027"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "@OrderBy"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211228004009-dy6nld6",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211228004009-dy6nld6",
+								"updated": "20211228004017"
+							},
+							"Children": [
+								{
+									"ID": "20211228004012-akunsmc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211228004012-akunsmc",
+										"updated": "20211228004017"
+									},
+									"Children": [
+										{
+											"ID": "20211228004012-af15wt5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211228004012-af15wt5",
+												"updated": "20211228004017"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "内置 SQL 默认指定排序，优先级低于 wrapper 条件查询"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211227002147-910drbu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211227002147-910drbu",
+				"updated": "20211228092134"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四"
+				}
+			]
+		},
+		{
+			"ID": "20211228092135-9dhu72o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228092135-9dhu72o",
+				"updated": "20211228092135"
+			}
+		},
+		{
+			"ID": "20211228092136-86z2g7h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228092136-86z2g7h",
+				"updated": "20211228092136"
+			}
+		},
+		{
+			"ID": "20211228092136-sbtylbf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228092136-sbtylbf",
+				"updated": "20211228092136"
+			}
+		},
+		{
+			"ID": "20211228092136-ckpeee0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228092136-ckpeee0",
+				"updated": "20211228092136"
+			}
+		},
+		{
+			"ID": "20211228092136-vpbpf1j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228092136-vpbpf1j",
+				"updated": "20211228092136"
+			}
+		},
+		{
+			"ID": "20211226235940-wbz8qzo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211226235940-wbz8qzo",
+				"updated": "20211227000435"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、Mybatis-Plus"
+				}
+			]
+		},
+		{
+			"ID": "20211227000106-oa6djvb",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211227000106-oa6djvb",
+				"updated": "20211227000109"
+			},
+			"Children": [
+				{
+					"ID": "20211227000109-q4mnja7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211227000109-q4mnja7"
+					},
+					"Children": [
+						{
+							"ID": "20211227000109-yd9wynj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211227000109-yd9wynj",
+								"updated": "20211227000114"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "简介"
+								}
+							]
+						},
+						{
+							"ID": "20211227000115-kbdz2el",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211227000115-kbdz2el"
+							},
+							"Children": [
+								{
+									"ID": "20211227000114-0omcxfn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211227000114-0omcxfn"
+									},
+									"Children": [
+										{
+											"ID": "20211227000114-sca7m8n",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211227000114-sca7m8n",
+												"updated": "20211227000119"
+											},
+											"Children": [
+												{
+													"Type": "NodeLink",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "MyBatis-Plus "
+														},
+														{
+															"Type": "NodeStrong",
+															"Data": "strong",
+															"Children": [
+																{
+																	"Type": "NodeStrongA6kOpenMarker",
+																	"Data": "**"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "(opens new window)"
+																},
+																{
+																	"Type": "NodeStrongA6kCloseMarker",
+																	"Data": "**"
+																}
+															]
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "https://github.com/baomidou/mybatis-plus"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "（简称 MP）是一个 "
+												},
+												{
+													"Type": "NodeLink",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "MyBatis "
+														},
+														{
+															"Type": "NodeStrong",
+															"Data": "strong",
+															"Children": [
+																{
+																	"Type": "NodeStrongA6kOpenMarker",
+																	"Data": "**"
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "(opens new window)"
+																},
+																{
+																	"Type": "NodeStrongA6kCloseMarker",
+																	"Data": "**"
+																}
+															]
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "https://www.mybatis.org/mybatis-3/"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "的增强工具，在 MyBatis 的基础上只做增强不做改变，为简化开发、提高效率而生。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211227000138-vbbpa0r",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211227000138-vbbpa0r",
+				"updated": "20211227000228"
+			},
+			"Children": [
+				{
+					"ID": "20211227000142-qbnnigj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211227000142-qbnnigj",
+						"updated": "20211227000228"
+					},
+					"Children": [
+						{
+							"ID": "20211227000142-ogo0970",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211227000142-ogo0970",
+								"updated": "20211227000213"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "特性"
+								}
+							]
+						},
+						{
+							"ID": "20211227000228-1eag7v2",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211227000228-1eag7v2",
+								"updated": "20211227000228"
+							},
+							"Children": [
+								{
+									"ID": "20211227000228-k8e9pqn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211227000228-k8e9pqn"
+									},
+									"Children": [
+										{
+											"ID": "20211227000228-kv7kudw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211227000228-kv7kudw"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "无侵入"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " ：只做增强不做改变，引入它不会对现有工程产生影响，如丝般顺滑"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211227000228-52jb0cs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211227000228-52jb0cs"
+									},
+									"Children": [
+										{
+											"ID": "20211227000228-sbpdjwf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211227000228-sbpdjwf"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "损耗小"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " ：启动即会自动注入基本 CURD，性能基本无损耗，直接面向对象操作"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211227000228-5rcizpg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211227000228-5rcizpg"
+									},
+									"Children": [
+										{
+											"ID": "20211227000228-mplqnen",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211227000228-mplqnen"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "强大的 CRUD 操作"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " ：内置通用 Mapper、通用 Service，仅仅通过少量配置即可实现单表大部分 CRUD 操作，更有强大的条件构造器，满足各类使用需求"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211227000228-9qkoumw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211227000228-9qkoumw"
+									},
+									"Children": [
+										{
+											"ID": "20211227000228-v1kw56q",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211227000228-v1kw56q"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "支持 Lambda 形式调用"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " ：通过 Lambda 表达式，方便的编写各类查询条件，无需再担心字段写错"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211227000228-edk0fgy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211227000228-edk0fgy"
+									},
+									"Children": [
+										{
+											"ID": "20211227000228-37hfalj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211227000228-37hfalj"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "支持主键自动生成"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " ：支持多达 4 种主键策略（内含分布式唯一 ID 生成器 - Sequence），可自由配置，完美解决主键问题"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211227000228-qeudy2m",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211227000228-qeudy2m"
+									},
+									"Children": [
+										{
+											"ID": "20211227000228-fh0eaa7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211227000228-fh0eaa7"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "支持 ActiveRecord 模式"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " ：支持 ActiveRecord 形式调用，实体类只需继承 Model 类即可进行强大的 CRUD 操作"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211227000228-rfqqjv1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211227000228-rfqqjv1"
+									},
+									"Children": [
+										{
+											"ID": "20211227000228-kldkgdz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211227000228-kldkgdz"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "支持自定义全局通用操作"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " ：支持全局通用方法注入（ Write once, use anywhere ）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211227000228-55c146y",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211227000228-55c146y"
+									},
+									"Children": [
+										{
+											"ID": "20211227000228-glvqeji",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211227000228-glvqeji"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "内置代码生成器"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " ：采用代码或者 Maven 插件可快速生成 Mapper 、 Model 、 Service 、 Controller 层代码，支持模板引擎，更有超多自定义配置等您来使用"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211227000228-r8cqxli",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211227000228-r8cqxli"
+									},
+									"Children": [
+										{
+											"ID": "20211227000228-d8rhyaw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211227000228-d8rhyaw"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "内置分页插件"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " ：基于 MyBatis 物理分页，开发者无需关心具体操作，配置好插件之后，写分页等同于普通 List 查询"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211227000228-3bgrcyh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211227000228-3bgrcyh"
+									},
+									"Children": [
+										{
+											"ID": "20211227000228-kozh3bb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211227000228-kozh3bb"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "分页插件支持多种数据库"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " ：支持 MySQL、MariaDB、Oracle、DB2、H2、HSQL、SQLite、Postgre、SQLServer 等多种数据库"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211227000228-e4iiywl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211227000228-e4iiywl"
+									},
+									"Children": [
+										{
+											"ID": "20211227000228-abhoz26",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211227000228-abhoz26"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "内置性能分析插件"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " ：可输出 SQL 语句以及其执行时间，建议开发测试时启用该功能，能快速揪出慢查询"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211227000228-yvj5iks",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211227000228-yvj5iks"
+									},
+									"Children": [
+										{
+											"ID": "20211227000228-b5ieadf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211227000228-b5ieadf"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "内置全局拦截插件"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " ：提供全表 delete 、 update 操作智能分析阻断，也可自定义拦截规则，预防误操作"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211227000001-ea7ftgm",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211227000001-ea7ftgm",
+				"updated": "20211227000836"
+			},
+			"Children": [
+				{
+					"ID": "20211227000311-g1m7fmb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211227000311-g1m7fmb",
+						"updated": "20211227000836"
+					},
+					"Children": [
+						{
+							"ID": "20211227000311-5ow2xqz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211227000311-5ow2xqz",
+								"updated": "20211227000836"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "框架结构"
+								}
+							]
+						},
+						{
+							"ID": "20211227000318-vanqyc7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211227000318-vanqyc7",
+								"updated": "20211227000320"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image.png"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20211227000320-get2f1y.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211227000322-ho8a8c7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211227000322-ho8a8c7"
+					},
+					"Children": [
+						{
+							"ID": "20211227000322-gzzb6ir",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211227000322-gzzb6ir"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

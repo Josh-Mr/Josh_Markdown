@@ -1,0 +1,1365 @@
+{
+	"ID": "20211228161457-2gg8cw5",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211228161457-2gg8cw5",
+		"title": "Mysql_备份表\u0026amp;触发器\u0026amp;临时表\u0026amp;视图",
+		"updated": "20211228161520"
+	},
+	"Children": [
+		{
+			"ID": "20211228161520-1nadtzt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-1nadtzt",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、备份表"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-zfe7e0v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-zfe7e0v",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、创建备份表"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-hv69ye7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211228161520-hv69ye7",
+				"updated": "20211228161529"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "create table new_seckill as select  * from seckill;\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-s7i63nh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-s7i63nh",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、已存在插入数据备份"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-gusaex7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211228161520-gusaex7",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "insert into new_seckill select * from seckill;\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-b2ovsba",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-b2ovsba",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、触发器"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-645ia2g",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211228161520-645ia2g",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"ID": "20211228161520-82qincn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211228161520-82qincn"
+					},
+					"Children": [
+						{
+							"ID": "20211228161520-tr0hvyn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228161520-tr0hvyn"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "某些表发生事件（增删改操作），就会自动执行预先编译好的SQL语句，执行相关操作。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211228161520-5xfw0vn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211228161520-5xfw0vn"
+					},
+					"Children": [
+						{
+							"ID": "20211228161520-0toc0d6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228161520-0toc0d6"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建触发器"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-e2zh7k7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-e2zh7k7",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "语法"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-3xo5j2w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-3xo5j2w",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "create trigger tri_Name  -- tri_Name代表触发器名称"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-5dtyeo1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-5dtyeo1",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "tirgger_time trigger_event on tableName  -- tirgger_time为触发时机，可选值有after/before，trigger_event为触发事件，可选值有insert/update/delete"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-0oja7m2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-0oja7m2",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "for each row   -- 这句话在mysql是固定的，表示任何一条记录上的操作满足触发事件都会触发该触发器。"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-7hg3nml",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-7hg3nml",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "begin"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-c6qxoez",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-c6qxoez",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    sql语句;"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-endv64f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-endv64f",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "end"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-7ijqqfq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-7ijqqfq",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "示例"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-pbfmcyg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-pbfmcyg",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、insert 类型触发器"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-odu40vc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-odu40vc",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "*#drop trigger if exists study.tgr_users_insert;  --先删除触发器 *"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-91ia92k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-91ia92k",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "create trigger tgr_users_insert"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-s1o7zz1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-s1o7zz1",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "before insert on users"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-fdaapsz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-fdaapsz",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "for each row"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-8naqk12",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-8naqk12",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "begin"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-mwinfow",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-mwinfow",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    set new.username='fanqi';    -- NEW用来表示将要(before)或已经(after)插入的新数据。"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-9etcnp1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-9etcnp1",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "end;"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-vlp8xdq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-vlp8xdq",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、delete 类型触发器"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-vvfj1r4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-vvfj1r4",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "*# drop trigger if exists study.tgr_users_delete; *"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-t5mqelu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-t5mqelu",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "create trigger tgr_users_delete"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-0s282mv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-0s282mv",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "before delete on users"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-2q8f21w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-2q8f21w",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "for each row"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-cf1kwmt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-cf1kwmt",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "begin"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-7d5rwbe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-7d5rwbe",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    declare oldusername varchar(20) default 'fan';"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-tpcpmn1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-tpcpmn1",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    set oldusername = old.username;    -- old用来表示将要或已经被删除的原数据。"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-v450w6p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-v450w6p",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "end;"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-rb2rzow",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-rb2rzow",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.update 类型触发器"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-w0rc56b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-w0rc56b",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "*# drop trigger if exists study.tgr_users_update;  *"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-thvchhj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-thvchhj",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "create trigger tgr_users_update"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-6muccny",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-6muccny",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "before update on users"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-mm242z9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-mm242z9",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "for each row"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-6ppjjgn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-6ppjjgn",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "begin"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-2hitgq6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-2hitgq6",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    declare oldusername varchar(20) default 'fan';"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-kgsd67g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-kgsd67g",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    set oldusername = old.username;    -- old用来表示将要或已经被修改的原数据"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-l1xn5qi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-l1xn5qi",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    set new.username= concat(oldusername,new.username);    -- new用来表示将要或已经修改为的新数据"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-t1ay65n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-t1ay65n",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "end;"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-raukh53",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211228161520-raukh53",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"ID": "20211228161520-fk1oydq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211228161520-fk1oydq"
+					},
+					"Children": [
+						{
+							"ID": "20211228161520-qtv3can",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228161520-qtv3can"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看触发器"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-024ejw3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-024ejw3",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "show triggers from databaseName;"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-nvhgr4z",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211228161520-nvhgr4z",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"ID": "20211228161520-vrch9r5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211228161520-vrch9r5"
+					},
+					"Children": [
+						{
+							"ID": "20211228161520-3tha9l0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228161520-3tha9l0"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "删除触发器"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-qnnbrr6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-qnnbrr6",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "drop trigger if exists databaseName.tri_Name; --删除触发器"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-kxzqzlz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-kxzqzlz",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、临时表"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-duzxo0f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-duzxo0f",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.创建临时表"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-25o7i31",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-25o7i31",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CREATE TEMPORARY TABLE SalesSummary ("
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-w2cu3nu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-w2cu3nu",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    product_name VARCHAR(50) NOT NULL ,"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-0xpl6pz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-0xpl6pz",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    total_sales DECIMAL(12,2) NOT NULL DEFAULT 0.00,"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-psmwc50",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-psmwc50",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    avg_unit_price DECIMAL(7,2) NOT NULL DEFAULT 0.00,"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-m202ccm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-m202ccm",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    total_units_sold INT UNSIGNED NOT NULL DEFAULT 0"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-f424gmh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-f424gmh",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": ");"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-9zweimn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-9zweimn",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、插入数据"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-mjrxunj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-mjrxunj",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "INSERT INTO SalesSummary (product_name, total_sales, avg_unit_price, total_units_sold) VALUES ('cucumber', 100.25, 90, 2);"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-f23x639",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-f23x639",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、查询数据"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-eon4hlc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-eon4hlc",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SELECT * FROM SalesSummary;"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-wgx057h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-wgx057h",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4、删除临时表"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-zy5mp1v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-zy5mp1v",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "DROP TABLE SalesSummary;"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-1vt5dko",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-1vt5dko",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意："
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-s72qp9n",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211228161520-s72qp9n",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"ID": "20211228161520-f6od4kw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211228161520-f6od4kw"
+					},
+					"Children": [
+						{
+							"ID": "20211228161520-086hjer",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228161520-086hjer"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1、自己所用的数据库账号要有建立临时表的权限；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211228161520-uxq49el",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211228161520-uxq49el"
+					},
+					"Children": [
+						{
+							"ID": "20211228161520-tf1rbzm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228161520-tf1rbzm"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2、在同一条sql中，不能关联2次相同的临时表，不然，就会报如下错误;"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-bkval4m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-bkval4m",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "select * from temp_table, temp_table as t2;"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-lpzrtg0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-lpzrtg0",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "提示:error 1137: can't reopen table: 'temp_table'"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-hoi1yiv",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211228161520-hoi1yiv",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"ID": "20211228161520-vdi6c7q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211228161520-vdi6c7q"
+					},
+					"Children": [
+						{
+							"ID": "20211228161520-agg0bo5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228161520-agg0bo5"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "3、临时表在建立连接时可见，关闭时会清除空间，删除临时表；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211228161520-ahtoqxg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211228161520-ahtoqxg"
+					},
+					"Children": [
+						{
+							"ID": "20211228161520-ph2srly",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228161520-ph2srly"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "4、show tables 不会列出临时表；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211228161520-7gj3ku1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211228161520-7gj3ku1"
+					},
+					"Children": [
+						{
+							"ID": "20211228161520-nzfutjk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228161520-nzfutjk"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "5、不能使用rename重命名临时表。但是，你可以alter table代替：只能使用alter table old_tp_table_name rename new_tp_table_name;"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211228161520-eh4e6gl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211228161520-eh4e6gl"
+					},
+					"Children": [
+						{
+							"ID": "20211228161520-hmxyjsm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228161520-hmxyjsm"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "6、影响使用replication功能；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211228161520-af01xoi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211228161520-af01xoi"
+					},
+					"Children": [
+						{
+							"ID": "20211228161520-kcjvxig",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228161520-kcjvxig"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "7、如果你为一个表声明了别名，当你指向这个表的时候，就必须使用这个别名"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-oaua8ta",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-oaua8ta",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四、视图"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-g5dv5kd",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211228161520-g5dv5kd",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"ID": "20211228161520-5b62aux",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211228161520-5b62aux"
+					},
+					"Children": [
+						{
+							"ID": "20211228161520-3jonb1r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228161520-3jonb1r"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "视图就是一个虚拟表。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211228161520-fs41ikz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211228161520-fs41ikz"
+					},
+					"Children": [
+						{
+							"ID": "20211228161520-qu07w7u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228161520-qu07w7u"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何使用："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-jvpgckm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-jvpgckm",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建视图：　create view  视图名  as  select 字段名 from 表名;"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-aan7xu5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-aan7xu5",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "修改视图： alter view 视图名 as  select 视图;"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-4m6kh5s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-4m6kh5s",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "删除视图：   drop view 视图名[,视图名…];"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-yhxepgk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-yhxepgk",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "查看（显示）视图：show create view 视图名;"
+				}
+			]
+		},
+		{
+			"ID": "20211228161520-3mc40f5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228161520-3mc40f5",
+				"updated": "20211228161520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "重命名视图：Rename table 视图名 to 新视图名;"
+				}
+			]
+		}
+	]
+}

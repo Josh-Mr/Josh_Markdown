@@ -1,0 +1,117 @@
+{
+	"ID": "20211228095656-jao4eyz",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4d2",
+		"id": "20211228095656-jao4eyz",
+		"title": "锁的艺术",
+		"updated": "20211228111440"
+	},
+	"Children": [
+		{
+			"ID": "20211228110051-o0e8ky8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20211228110051-o0e8ky8",
+				"updated": "20211228110137"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、死锁"
+				}
+			]
+		},
+		{
+			"ID": "20211228110139-ff11xvl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20211228110139-ff11xvl",
+				"updated": "20211228110205"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、乐观锁\u0026悲观锁"
+				}
+			]
+		},
+		{
+			"ID": "20211228110207-zcixmlh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211228110207-zcixmlh",
+				"updated": "20211228111440"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、"
+				}
+			]
+		},
+		{
+			"ID": "20211228110117-fbq5nmt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228110117-fbq5nmt",
+				"updated": "20211228110117"
+			}
+		},
+		{
+			"ID": "20211228110051-duqa9i0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228110051-duqa9i0",
+				"updated": "20211228110051"
+			}
+		},
+		{
+			"ID": "20211228104621-3aszwh6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228104621-3aszwh6",
+				"updated": "20211228110303"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://www.cnblogs.com/l-y-h/p/12458777.html#_label0_3"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.cnblogs.com/l-y-h/p/12458777.html#_label0_3"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211228104623-tyr3hn0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228104623-tyr3hn0",
+				"updated": "20211228104623"
+			}
+		}
+	]
+}
