@@ -1,0 +1,780 @@
+{
+	"ID": "20211229152013-8mfdi7o",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20211229152013-8mfdi7o",
+		"title": "10、【多表连接使用】",
+		"updated": "20211229181009"
+	},
+	"Children": [
+		{
+			"ID": "20211229152014-8jxz05w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20211229152014-8jxz05w",
+				"updated": "20211229152504"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、多表连接使用"
+				}
+			]
+		},
+		{
+			"ID": "20211229152014-zlpnf8t",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211229152014-zlpnf8t",
+				"updated": "20211229152528"
+			},
+			"Children": [
+				{
+					"ID": "20211229152014-lgroll2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229152014-lgroll2",
+						"updated": "20211229152518"
+					},
+					"Children": [
+						{
+							"ID": "20211229152014-fottph3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229152014-fottph3",
+								"updated": "20211229152518"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "JOIN"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 如果表中有至少一个匹配，则返回行( "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "INNER JOIN"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 与 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "JOIN "
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "是相同的。)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211229152014-gzbs01y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229152014-gzbs01y",
+						"updated": "20211229152528"
+					},
+					"Children": [
+						{
+							"ID": "20211229152014-oyjgs58",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229152014-oyjgs58",
+								"updated": "20211229152528"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "LEFT JOIN"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 即使右表中没有匹配，也从左表返回所有的行( 在某些数据库中， "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "LEFT JOIN"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 称为 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "LEFT OUTER JOIN"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211229152014-pqmpf5x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229152014-pqmpf5x",
+						"updated": "20211229152455"
+					},
+					"Children": [
+						{
+							"ID": "20211229152014-37uzstd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229152014-37uzstd",
+								"updated": "20211229152455"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "RIGHT JOIN"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 即使左表中没有匹配，也从右表返回所有的行"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211229152014-0kli8rc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229152014-0kli8rc",
+						"updated": "20211229152457"
+					},
+					"Children": [
+						{
+							"ID": "20211229152014-blrx2r8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229152014-blrx2r8",
+								"updated": "20211229152457"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "FULL JOIN"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 只要其中一个表中存在匹配，就返回行"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229152014-r5sykwc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229152014-r5sykwc",
+				"updated": "20211229152956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "假设我们有两张表。Table A 是左边的表。Table B 是右边的表。"
+				}
+			]
+		},
+		{
+			"ID": "20211229152014-svnihh0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229152014-svnihh0",
+				"updated": "20211229152014"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其各有四条记录，其中有两条记录是相同的，如下所示："
+				}
+			]
+		},
+		{
+			"ID": "20211229152920-94jfcd4",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211229152920-94jfcd4",
+				"updated": "20211229152944"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "id name     id name\n-- ----     -- ----\n1 Pirate    1 Rutabaga\n2 Monkey    2 Pirate\n3 Ninja     3 Darth Vader\n4 Spaghetti 4 Ninja\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211229152014-ve7joew",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229152014-ve7joew",
+				"updated": "20211229152014"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下面让我们来看看不同的Join会产生什么样的结果。"
+				}
+			]
+		},
+		{
+			"ID": "20211229153324-fuwn84s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211229153324-fuwn84s",
+				"updated": "20211229153351"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. Inner join"
+				}
+			]
+		},
+		{
+			"ID": "20211229153143-0h36nc1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229153143-0h36nc1",
+				"updated": "20211229175844"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  例子：INNER JOIN 与 JOIN 是相同的。"
+				}
+			]
+		},
+		{
+			"ID": "20211229153213-yy7uuny",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211229153213-yy7uuny",
+				"updated": "20211229153219"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "SELECT * FROM TableA\nINNER JOIN TableB\nON TableA.name = TableB.name\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211229153229-lh2cb0k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229153229-lh2cb0k",
+				"updated": "20211229153302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "结果：产生的结果集中，是A和B的交集。"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "max-width: 181px;",
+						"style": "width: 171px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(15)-20211229152014-zc1w95m.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 171px;\" parent-style=\"max-width: 181px;\"}"
+				}
+			]
+		},
+		{
+			"ID": "20211229153230-ppw65hn",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211229153230-ppw65hn",
+				"updated": "20211229153318"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "id name id name\n-- ---- -- ----\n1 Pirate 2 Pirate\n3 Ninja 4 Ninja\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211229153231-wfmmumu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211229153231-wfmmumu",
+				"updated": "20211229153457"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.Full outer join"
+				}
+			]
+		},
+		{
+			"ID": "20211229153458-4puxqzn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229153458-4puxqzn",
+				"updated": "20211229153502"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例子："
+				}
+			]
+		},
+		{
+			"ID": "20211229153503-f9byaie",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211229153503-f9byaie",
+				"updated": "20211229153515"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "SELECT * FROM TableA\nFULL OUTER JOIN TableB\nON TableA.name = TableB.name\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211229153231-bsh73lz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229153231-bsh73lz",
+				"updated": "20211229153533"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "结果：Full outer join 产生A和B的并集。但是需要注意的是，对于没有匹配的记录，则会以null做为值。"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "max-width: 166px;",
+						"style": "width: 156px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(16)-20211229152014-x57fc5j.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 156px;\" parent-style=\"max-width: 166px;\"}"
+				}
+			]
+		},
+		{
+			"ID": "20211229153543-zi0c8vf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211229153543-zi0c8vf",
+				"updated": "20211229153554"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "id name id name\n-- ---- -- ----\n1 Pirate 2 Pirate\n2 Monkey null null\n3 Ninja 4 Ninja\n4 Spaghetti null nullnull null 1 Rutabaga\nnull null 3 Darth Vader\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211229153609-h5gtebh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211229153609-h5gtebh",
+				"updated": "20211229153629"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.Left outer join"
+				}
+			]
+		},
+		{
+			"ID": "20211229153630-iszqzei",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229153630-iszqzei",
+				"updated": "20211229153641"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例子："
+				}
+			]
+		},
+		{
+			"ID": "20211229153642-imcrpgz",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211229153642-imcrpgz",
+				"updated": "20211229153644"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "SELECT * FROM TableA\nLEFT OUTER JOIN TableB\nON TableA.name = TableB.name\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211229153650-oigyblf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229153650-oigyblf",
+				"updated": "20211229153709"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "结果：Left outer join 产生表A的完全集，而B表中匹配的则有值，没有匹配的则以null值取代。"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "max-width: 174px;",
+						"style": "width: 164px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(17)-20211229152014-3ygye4n.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 164px;\" parent-style=\"max-width: 174px;\"}"
+				}
+			]
+		},
+		{
+			"ID": "20211229153651-gl6n5yn",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211229153651-gl6n5yn",
+				"updated": "20211229153723"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "id name id name\n-- ---- -- ----\n1 Pirate 2 Pirate\n2 Monkey null null\n3 Ninja 4 Ninja\n4 Spaghetti null null\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211229180017-dq72de4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20211229180017-dq72de4",
+				"updated": "20211229181009"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.Right Join "
+				}
+			]
+		}
+	]
+}

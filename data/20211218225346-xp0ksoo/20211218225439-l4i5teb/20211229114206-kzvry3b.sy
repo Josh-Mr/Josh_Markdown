@@ -1,0 +1,862 @@
+{
+	"ID": "20211229114206-kzvry3b",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20211229114206-kzvry3b",
+		"title": "8、Mysql_【外键详解】",
+		"updated": "20211229150721"
+	},
+	"Children": [
+		{
+			"ID": "20211229114207-dovvn9k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20211229114207-dovvn9k",
+				"updated": "20211229114338"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、外键："
+				}
+			]
+		},
+		{
+			"ID": "20211229114207-we9ndgt",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211229114207-we9ndgt",
+				"updated": "20211229114207"
+			},
+			"Children": [
+				{
+					"ID": "20211229114207-rjf54gz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229114207-rjf54gz"
+					},
+					"Children": [
+						{
+							"ID": "20211229114207-x3sdjav",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229114207-x3sdjav"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果表A的主关键字是表B中的字段，则该字段称为表B的外键，表A称为主表，表B称为从表。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211229114207-bk21djd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229114207-bk21djd"
+					},
+					"Children": [
+						{
+							"ID": "20211229114207-d9zjlo9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229114207-d9zjlo9"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "作用：外键是用来实现参照完整性的，"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229114207-n19jj99",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229114207-n19jj99",
+				"updated": "20211229114207"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这里以用户表和用户组表为例，这是一个典型的多对一关系，多个用户对应于一个用户组。"
+				}
+			]
+		},
+		{
+			"ID": "20211229114207-wjm4n4h",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211229114207-wjm4n4h",
+				"updated": "20211229114347"
+			},
+			"Children": [
+				{
+					"ID": "20211229114347-l36njdq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211229114347-l36njdq"
+					},
+					"Children": [
+						{
+							"ID": "20211229114347-1k16r1c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229114347-1k16r1c"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "首先创建用户组表："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229114207-ho65k7f",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211229114207-ho65k7f",
+				"updated": "20211229114207"
+			},
+			"Children": [
+				{
+					"ID": "20211229114207-tni7i9e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229114207-tni7i9e"
+					},
+					"Children": [
+						{
+							"ID": "20211229114207-sb9qj0a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229114207-sb9qj0a"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建用户组表"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229114255-lmo57x9",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211229114255-lmo57x9",
+				"updated": "20211229114302"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "create table t_group (\n　　id int not null,\n　　name varchar(30),\n　　primary key (id)\n);\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211229114207-gtjex4h",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211229114207-gtjex4h",
+				"updated": "20211229114207"
+			},
+			"Children": [
+				{
+					"ID": "20211229114207-9oe1i7e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229114207-9oe1i7e"
+					},
+					"Children": [
+						{
+							"ID": "20211229114207-0d77fnj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229114207-0d77fnj"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "并插入两条记录："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229114306-iwndqoq",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211229114306-iwndqoq",
+				"updated": "20211229114310"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "　insert into t_group values (1, 'Group1');\n　insert into t_group values (2, 'Group2');\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211229114207-lut86fd",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211229114207-lut86fd",
+				"updated": "20211229150452"
+			},
+			"Children": [
+				{
+					"ID": "20211229150452-pxrsxja",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211229150452-pxrsxja"
+					},
+					"Children": [
+						{
+							"ID": "20211229150452-opl5b8m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229150452-opl5b8m"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下面创建用户表，分别以不同的约束方式创建外键引用关系："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229114207-rwre5vv",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211229114207-rwre5vv",
+				"updated": "20211229114207"
+			},
+			"Children": [
+				{
+					"ID": "20211229114207-la4y4ny",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229114207-la4y4ny"
+					},
+					"Children": [
+						{
+							"ID": "20211229114207-ejn0ffx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229114207-ejn0ffx"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "级联(cascade)方式"
+								}
+							]
+						},
+						{
+							"ID": "20211229114207-kgh135y",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211229114207-kgh135y"
+							},
+							"Children": [
+								{
+									"ID": "20211229114207-k2kpc8y",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211229114207-k2kpc8y"
+									},
+									"Children": [
+										{
+											"ID": "20211229114207-3i29w1f",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211229114207-3i29w1f"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "级联方式"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229150422-8hujgbk",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211229150422-8hujgbk",
+				"updated": "20211229150432"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "　　create table t_user (\n　　    id int not null,\n　　    name varchar(30),\n　　    groupid int,\n　　    primary key (id),\n　　    foreign key (groupid) references t_group(id) on delete cascade on update cascade\n　　);\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211229114207-ng7wmum",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211229114207-ng7wmum",
+				"updated": "20211229150459"
+			},
+			"Children": [
+				{
+					"ID": "20211229150459-36nk48n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229150459-36nk48n"
+					},
+					"Children": [
+						{
+							"ID": "20211229150459-2u7oi3k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229150459-2u7oi3k"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "参照完整性测试"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229150506-g96osqw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211229150506-g96osqw",
+				"updated": "20211229150510"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "　　insert into t_user values (1, 'qianxin', 1); #可以插入\n　　insert into t_user values (2, 'yiyu', 2); #可以插入\n　　insert into t_user values (3, 'dai', 3); #错误，无法插入，用户组3不存在，与参照完整性约束不符\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211229114207-ekzzc8m",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211229114207-ekzzc8m",
+				"updated": "20211229150513"
+			},
+			"Children": [
+				{
+					"ID": "20211229150513-7bdvdwf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229150513-7bdvdwf"
+					},
+					"Children": [
+						{
+							"ID": "20211229150513-g4z3wab",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229150513-g4z3wab"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "约束方式测试"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229150518-fp7phrt",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211229150518-fp7phrt",
+				"updated": "20211229150534"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "　　insert into t_user values (1, 'qianxin', 1);\n　　insert into t_user values (2, 'yiyu', 2);\n　　insert into t_user values (3, 'dai', 2);\n\n    delete from t_group where id=2; #导致t_user中的2、3记录级联删除\n　　 update t_group set id=2 where id=1; #导致t_user中的1记录的groupid级联修改为2\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211229114207-brm3fcf",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211229114207-brm3fcf",
+				"updated": "20211229114207"
+			},
+			"Children": [
+				{
+					"ID": "20211229114207-cvb4cbs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229114207-cvb4cbs"
+					},
+					"Children": [
+						{
+							"ID": "20211229114207-o8hqrdi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229114207-o8hqrdi"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "置空(set null)方式"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229114207-nkmv3hp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229114207-nkmv3hp",
+				"updated": "20211229114207"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "　　置空方式"
+				}
+			]
+		},
+		{
+			"ID": "20211229150602-v3w0cwr",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211229150602-v3w0cwr",
+				"updated": "20211229150609"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "　create table t_user (\n　　id int not null,\n　　name varchar(30),\n　　groupid int,\n　　primary key (id),\n　　foreign key (groupid) references t_group(id) on delete set null on update set null\n　);\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211229114207-w2civsu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229114207-w2civsu",
+				"updated": "20211229114207"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参照完整性测试"
+				}
+			]
+		},
+		{
+			"ID": "20211229150625-nxhvssg",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211229150625-nxhvssg",
+				"updated": "20211229150629"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "    insert into t_user values (1, 'qianxin', 1); #可以插入\n　　insert into t_user values (2, 'yiyu', 2); #可以插入\n　　insert into t_user values (3, 'dai', 3); #错误，无法插入，用户组3不存在，与参照完整性约束不符\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211229114207-wle3xli",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229114207-wle3xli",
+				"updated": "20211229114207"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "约束方式测试"
+				}
+			]
+		},
+		{
+			"ID": "20211229150634-k69dxxv",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211229150634-k69dxxv",
+				"updated": "20211229150644"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "　　insert into t_user values (1, 'qianxin', 1);\n　　insert into t_user values (2, 'yiyu', 2);\n　　insert into t_user values (3, 'dai', 2);\n　　delete from t_group where id=2; #导致t_user中的2、3记录的groupid被设置为NULL\n　　update t_group set id=2 where id=1; #导致t_user中的1记录的groupid被设置为NULL\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211229114207-xmfrcdl",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211229114207-xmfrcdl",
+				"updated": "20211229114207"
+			},
+			"Children": [
+				{
+					"ID": "20211229114207-nk8pg6j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229114207-nk8pg6j"
+					},
+					"Children": [
+						{
+							"ID": "20211229114207-gq0b74m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229114207-gq0b74m"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "禁止(no action / restrict)方式"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229114207-ig318ay",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229114207-ig318ay",
+				"updated": "20211229114207"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "　　禁止方式：在MySQL中，restrict方式与no action方式作用相同"
+				}
+			]
+		},
+		{
+			"ID": "20211229150649-2xxlp1r",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211229150649-2xxlp1r",
+				"updated": "20211229150656"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "create table t_user (\n　　id int not null,\n　　name varchar(30),\n　　groupid int,\n　　primary key (id),\n　　foreign key (groupid) references t_group(id) on delete no action on update no action\n);\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211229114207-su35lgq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229114207-su35lgq",
+				"updated": "20211229114207"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参照完整性测试"
+				}
+			]
+		},
+		{
+			"ID": "20211229150701-fwjq7zc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211229150701-fwjq7zc",
+				"updated": "20211229150708"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "　　insert into t_user values (1, 'qianxin', 1); #可以插入\n　　insert into t_user values (2, 'yiyu', 2); #可以插入\n　　insert into t_user values (3, 'dai', 3); #错误，无法插入，用户组3不存在，与参照完整性约束不符\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211229114207-9isu7cy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229114207-9isu7cy",
+				"updated": "20211229114207"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "约束方式测试"
+				}
+			]
+		},
+		{
+			"ID": "20211229150712-yi0ol3v",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211229150712-yi0ol3v",
+				"updated": "20211229150721"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "　　insert into t_user values (1, 'qianxin', 1);\n　　insert into t_user values (2, 'yiyu', 2);\n　　insert into t_user values (3, 'dai', 2);\n　　delete from t_group where id=2; #错误，从表中有相关引用，因此主表中无法删除\n　　update t_group set id=2 where id=1; #错误，从表中有相关引用，因此主表中无法修改\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

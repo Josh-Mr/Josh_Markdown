@@ -66,9 +66,9 @@
     "generateHistoryInterval": 5,
     "historyRetentionDays": 30,
     "emoji": [
-      "1f4dd",
       "1f4c4",
       "1f4d2",
+      "1f4dd",
       "2b50",
       "2705",
       "1f601",
@@ -195,91 +195,67 @@
     "children": [
   {
     "children": {
-  "blockId": "20211218231608-bg8988w",
+  "blockId": "20211230092952-7hncg3f",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "Mybatis-Plus重要知识"
+    "title": "Redis读写策略问题"
   },
   {
     "children": {
-  "blockId": "20211228095656-jao4eyz",
+  "blockId": "20211218230347-v6r7mt0",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "锁的艺术"
+    "title": "Redis"
   },
   {
     "children": {
-  "blockId": "20211228105906-3jp6lc7",
+  "blockId": "20211224164531-yznlfci",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "乐观锁\u0026悲观锁"
+    "title": "Redis启用"
   },
   {
     "children": {
-  "blockId": "20211228160352-7th9lzh",
+  "blockId": "20211218230505-n2nh9ty",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "行锁、表锁、死锁"
+    "title": "未分类"
   },
   {
     "children": {
-  "blockId": "20211218230506-drpwc2o",
+  "blockId": "20211218230503-rxp4pmp",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "新文档"
+    "title": "Oracle_锁表\u0026amp;解锁"
   },
   {
     "children": {
-  "blockId": "20211228160631-uw6qhrj",
+  "blockId": "20211230221725-z2sn7ta",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "数据库基础知识"
+    "title": "NoSQL"
   },
   {
     "children": {
-  "blockId": "20211224170706-oqz0nmm",
+  "blockId": "20211230221800-uw23ad5",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "事务的四大特征"
+    "title": "MongoDB"
   },
   {
     "children": {
-  "blockId": "20211218230405-na7dy8p",
+  "blockId": "20211230221815-s03hmen",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "SQL_NEW"
-  },
-  {
-    "children": {
-  "blockId": "20211218230457-2a8r7oh",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "Mysql 查看死锁，解除死锁方式"
-  },
-  {
-    "children": {
-  "blockId": "20211218225439-l4i5teb",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "Mysql"
-  },
-  {
-    "children": {
-  "blockId": "20211228163523-6udrtrc",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "Mysql_数据表操作"
+    "title": "MongoDB认识"
   },
   {
     "children": {
@@ -291,40 +267,74 @@
   },
   {
     "children": {
-  "blockId": "20211223234105-r5rsu4g",
+  "blockId": "20211223152406-ii87ypy",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "Spring"
+    "title": "（未分类）"
   },
   {
     "children": {
-  "blockId": "20211228173916-n0605w9",
+  "blockId": "20211226235837-ni5z88u",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "事务问题"
+    "title": "Mybatis-Plus重要知识"
   },
   {
     "children": {
-  "blockId": "20211228161457-2gg8cw5",
+  "blockId": "20211218230506-drpwc2o",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "Mysql_备份表\u0026amp;触发器\u0026amp;临时表\u0026amp;视图"
+    "title": "新文档"
+  },
+  {
+    "children": {
+  "blockId": "20211229152137-ymhk7k4",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Mysql_创建表例子"
+  },
+  {
+    "children": {
+  "blockId": "20211231151542-vcvb5o4",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "2021-12-31"
   },
   {
     "active": true,
     "children": {
-  "blockId": "20211228175716-ubd4yyk",
+  "blockId": "20211231162407-doyxi7h",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "Mysql_表内容的操作"
+    "title": "Redis_知识PDF"
   }
 ],
     "height": "",
     "instance": "Wnd",
+    "width": "258px"
+  },
+  {
+    "children": [
+  {
+    "active": true,
+    "children": {
+  "instance": "Asset",
+  "path": "assets/Redis精讲-20211231162411-9q9s5cf.pdf"
+},
+    "icon": "iconPDF",
+    "instance": "Tab",
+    "title": "Redis精讲-20211231162411-9q9s5cf.pdf"
+  }
+],
+    "height": "",
+    "instance": "Wnd",
+    "resize": "lr",
     "width": ""
   }
 ],
@@ -462,12 +472,12 @@
     "publicKey": "c3NoLXJzYSBBQUFBQjNOemFDMXljMkVBQUFBREFRQUJBQUFCQVFER1hLdHdIeW1MWS9PUWl4clp5OGg2WnFuU0xCSWo0WUh1TzIxS09QUFc4OG1YaTVUYThnNFhma1hCVDdCVFR3eGNBTFFMNExVQ1RXWHRGNzhwOTAwSk1ib0hicFNxRUVwVmlWSHV4TVVJOUV1R2tvUkgwR1oxTWZYU1BJcnplMzFoYWcvUGg4WmFsODk0dzhFYnRSd3U3OHZCR2R2YXh4R2F6VSt2aFVSc3l5Wm1Gamhoc1VpNWE5OWpuT2h1Lzl2TUlpYXRhKzBLUzZQcDdQdmJucGxtdXlRejZ3ZTVpbzVXWEJrbG52aXhZYndUWHphNDZQV1dvT3pPZkErN2pjZWxCd1QreituOXNDMWh2R1dGZmJFS0RSOTRVYW4wY3d4bnBuaUNLRC9pNmc0clpCMHRma1AwQUdpQ1ZkeUNSdDY4V1hna0pnYlVlSGFnaFc4MDFQUjcK"
   },
   "readonly": false,
-  "localServeURL": "http://192.168.56.1:6806",
+  "localServeURL": "http://192.168.0.109:6806",
   "accessAuthCode": "",
   "e2eePasswd": "",
   "checkUpdate": 0,
   "system": {
-    "kernelVersion": "1.5.4",
+    "kernelVersion": "1.5.6",
     "os": "windows",
     "container": "std",
     "isInsider": false,
@@ -481,8 +491,7 @@
       "scheme": "",
       "host": "",
       "port": ""
-    },
-    "useExistingDB": true
+    }
   },
   "keymap": {
     "editor": {
@@ -576,16 +585,16 @@
   "default": "⌘Y"
 },
   "refBottom": {
-  "custom": "⌥.",
-  "default": "⌥."
+  "custom": "⇧\u003e",
+  "default": "⇧\u003e"
 },
   "refPopover": {
   "custom": "⌥⌘.",
   "default": "⌥⌘."
 },
   "refRight": {
-  "custom": "⇧\u003e",
-  "default": "⇧\u003e"
+  "custom": "⌥.",
+  "default": "⌥."
 },
   "refTab": {
   "custom": "⇧⌘.",
@@ -853,7 +862,6 @@
     "cloudName": "",
     "enabled": false,
     "interval": 0,
-    "method": 0,
     "uploaded": 0,
     "downloaded": 0,
     "synced": 0,
@@ -874,10 +882,13 @@
     "caseSensitive": false,
     "name": true,
     "alias": true,
-    "memo": true
+    "memo": true,
+    "backlinkMentionName": false,
+    "backlinkMentionAlias": false,
+    "backlinkMentionAnchor": false
   },
   "stat": {
-    "docCount": 77
+    "docCount": 93
   },
   "api": {
     "token": "9lg6z7f4ub34blui"

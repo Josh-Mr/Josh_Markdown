@@ -1,0 +1,945 @@
+{
+	"ID": "20211230221815-s03hmen",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4c4",
+		"id": "20211230221815-s03hmen",
+		"title": "MongoDB认识",
+		"updated": "20211230223705"
+	},
+	"Children": [
+		{
+			"ID": "20211230223311-0njf94r",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20211230223311-0njf94r",
+				"updated": "20211230223320"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、简介"
+				}
+			]
+		},
+		{
+			"ID": "20211230221815-rpxl24l",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211230221815-rpxl24l",
+				"updated": "20211230223324"
+			},
+			"Children": [
+				{
+					"ID": "20211230223324-v7df4da",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211230223324-v7df4da"
+					},
+					"Children": [
+						{
+							"ID": "20211230223324-lye4r51",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211230223324-lye4r51"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "MongoDB是一个基于"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "分布式文件存储"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "的"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "数据库"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。由C++语言编写，旨在为WEB应用提供可扩展的高性能数据存储解决方案。MongoDB是一个介于关系型数据库和非关系型数据库之间的产品，是非关系型数据库当中功能最丰富，最像关系型数据库的。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211230221901-snmpwk5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20211230221901-snmpwk5",
+				"updated": "20211230223335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、对比Redis"
+				}
+			]
+		},
+		{
+			"ID": "20211230223338-dl664i3",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211230223338-dl664i3",
+				"updated": "20211230223607"
+			},
+			"Children": [
+				{
+					"ID": "20211230223340-zxctcuo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211230223340-zxctcuo"
+					},
+					"Children": [
+						{
+							"ID": "20211230223340-9m2mirl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211230223340-9m2mirl",
+								"updated": "20211230223403"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Redis：用来存储一些热数据，量也不大，但是操作很频繁。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211230223403-skwdzv0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211230223403-skwdzv0"
+					},
+					"Children": [
+						{
+							"ID": "20211230223403-ygpx9uy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211230223403-ygpx9uy",
+								"updated": "20211230223447"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mongo：数据量大，操作相对没那么频繁。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211230223500-tcjyyct",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211230223500-tcjyyct",
+						"updated": "20211230223607"
+					},
+					"Children": [
+						{
+							"ID": "20211230223500-s9yz7jo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211230223500-s9yz7jo",
+								"updated": "20211230223607"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "共同点：都是属于NoSQL数据库，即是"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "非关系型数据库"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，采用"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "结构型数据存储"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211230223608-80611jj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20211230223608-80611jj",
+				"updated": "20211230223705"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、应用指标对比"
+				}
+			]
+		},
+		{
+			"ID": "20211230223639-h22azft",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"id": "20211230223639-h22azft",
+				"updated": "20211230223639"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 6,
+									"TableCellContentMaxWidth": 12,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "指标"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 17,
+									"TableCellContentMaxWidth": 146,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "MongoDB(v2.4.9)"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 16,
+									"TableCellContentMaxWidth": 142,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Redis(v2.4.17)"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 10,
+									"TableCellContentMaxWidth": 216,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "比较说明"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 10,
+							"TableCellContentMaxWidth": 12,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实现语言"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 5,
+							"TableCellContentMaxWidth": 146,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "C++"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 7,
+							"TableCellContentMaxWidth": 142,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "C/C++"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 3,
+							"TableCellContentMaxWidth": 216,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "-"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 3,
+							"TableCellContentMaxWidth": 12,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "-"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 3,
+							"TableCellContentMaxWidth": 146,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "-"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 3,
+							"TableCellContentMaxWidth": 142,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "-"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 3,
+							"TableCellContentMaxWidth": 216,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "-"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 6,
+							"TableCellContentMaxWidth": 12,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "协议"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 20,
+							"TableCellContentMaxWidth": 146,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "BSON、自定义二进制"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 10,
+							"TableCellContentMaxWidth": 142,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "类Telnet"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 3,
+							"TableCellContentMaxWidth": 216,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "-"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 6,
+							"TableCellContentMaxWidth": 12,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "性能"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 19,
+							"TableCellContentMaxWidth": 146,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "依赖内存，TPS较高"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 21,
+							"TableCellContentMaxWidth": 142,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "依赖内存，TPS非常高"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 18,
+							"TableCellContentMaxWidth": 216,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Redis优于MongoDB"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 10,
+							"TableCellContentMaxWidth": 12,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可操作性"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 62,
+							"TableCellContentMaxWidth": 146,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "丰富的数据表达、索引；最类似于关系数据库，支持丰富的查询语言"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 20,
+							"TableCellContentMaxWidth": 142,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据丰富，较少的IO"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 18,
+							"TableCellContentMaxWidth": 216,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "MongoDB优于Redis"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 12,
+							"TableCellContentMaxWidth": 12,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "内存及存储"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 146,
+							"TableCellContentMaxWidth": 146,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "适合大数据量存储，依赖系统虚拟内存管理，采用镜像文件存储；内存占有率比较高，官方建议独立部署在64位系统（32位有最大2.5G文件限制，64位没有改限制）"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 82,
+							"TableCellContentMaxWidth": 142,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Redis2.0后增加虚拟内存特性，突破物理内存限制；数据可以设置时效性，类似于memcache"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 28,
+							"TableCellContentMaxWidth": 216,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不同的应用角度看，各有优势"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 8,
+							"TableCellContentMaxWidth": 12,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可用性"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 120,
+							"TableCellContentMaxWidth": 146,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支持master-slave,replicaset（内部采用paxos选举算法，自动故障恢复）,auto sharding机制，对客户端屏蔽了故障转移和切分机制"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 142,
+							"TableCellContentMaxWidth": 142,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "依赖客户端来实现分布式读写；主从复制时，每次从节点重新连接主节点都要依赖整个快照,无增量复制；不支持自动sharding,需要依赖程序设定一致hash机制"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 216,
+							"TableCellContentMaxWidth": 216,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "MongoDB优于Redis；单点问题上，MongoDB应用简单，相对用户透明，Redis比较复杂，需要客户端主动解决。（MongoDB 一般会使用replica sets和sharding功能结合，replica sets侧重高可用性及高可靠性，而sharding侧重于性能、易扩展）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 8,
+							"TableCellContentMaxWidth": 12,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可靠性"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 74,
+							"TableCellContentMaxWidth": 146,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从1.8版本后，采用binlog方式（MySQL同样采用该方式）支持持久化，增加可靠性"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 67,
+							"TableCellContentMaxWidth": 142,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "依赖快照进行持久化；AOF增强可靠性；增强可靠性的同时，影响访问性能"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 18,
+							"TableCellContentMaxWidth": 216,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "MongoDB优于Redis"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 8,
+							"TableCellContentMaxWidth": 12,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一致性"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 30,
+							"TableCellContentMaxWidth": 146,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不支持事物，靠客户端自身保证"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 50,
+							"TableCellContentMaxWidth": 142,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "支持事物，比较弱，仅能保证事物中的操作按顺序执行"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 18,
+							"TableCellContentMaxWidth": 216,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Redis优于MongoDB"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 10,
+							"TableCellContentMaxWidth": 12,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据分析"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 31,
+							"TableCellContentMaxWidth": 146,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "内置数据分析功能（mapreduce）"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 8,
+							"TableCellContentMaxWidth": 142,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不支持"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 18,
+							"TableCellContentMaxWidth": 216,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "MongoDB优于Redis"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 10,
+							"TableCellContentMaxWidth": 12,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "应用场景"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 24,
+							"TableCellContentMaxWidth": 146,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "海量数据的访问效率提升"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 24,
+							"TableCellContentMaxWidth": 142,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "较小数据量的性能及运算"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 18,
+							"TableCellContentMaxWidth": 216,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "MongoDB优于Redis"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

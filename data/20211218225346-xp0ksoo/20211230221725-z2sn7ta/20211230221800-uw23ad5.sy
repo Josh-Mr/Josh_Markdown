@@ -1,0 +1,20 @@
+{
+	"ID": "20211230221800-uw23ad5",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4d2",
+		"id": "20211230221800-uw23ad5",
+		"title": "MongoDB",
+		"updated": "20211230221809"
+	},
+	"Children": [
+		{
+			"ID": "20211230221800-xyke6xg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211230221800-xyke6xg",
+				"updated": "20211230221800"
+			}
+		}
+	]
+}

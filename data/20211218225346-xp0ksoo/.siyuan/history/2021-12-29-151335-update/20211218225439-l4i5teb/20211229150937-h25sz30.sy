@@ -1,0 +1,705 @@
+{
+	"ID": "20211229150937-h25sz30",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20211229150937-h25sz30",
+		"title": "9、Mysql_【主键\u0026amp;约束】",
+		"updated": "20211229151309"
+	},
+	"Children": [
+		{
+			"ID": "20211229150939-7lxvsc6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-7lxvsc6",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、主键（primary key）"
+				}
+			]
+		},
+		{
+			"ID": "20211229151017-2qmdkuu",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211229151017-2qmdkuu",
+				"updated": "20211229151309"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "CREATE TABLE Persons\n(\n    Id_P int NOT NULL,\n    LastName varchar(255) NOT NULL,\n    FirstName varchar(255),\n    Address varchar(255),\n    City varchar(255),\n    单列 PRIMARY KEY (Id_P)\n    多列：CONSTRAINT pk_PersonID PRIMARY KEY (Id_P,LastName)\n)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-p6gunfo",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211229150939-p6gunfo",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"ID": "20211229150939-y48d4gc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229150939-y48d4gc"
+					},
+					"Children": [
+						{
+							"ID": "20211229150939-3dgje23",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229150939-3dgje23"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "增加主键："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-ebmwarf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-ebmwarf",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "单列: ALTER TABLE Persons "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "ADD PRIMARY KEY (Id_P)"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-p3p8xl2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-p3p8xl2",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "多列：ALTER TABLE Persons "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "ADD CONSTRAINT pk_PersonID PRIMARY KEY (Id_P,LastName)"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-x6y8mye",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211229150939-x6y8mye",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"ID": "20211229150939-015n0g3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229150939-015n0g3"
+					},
+					"Children": [
+						{
+							"ID": "20211229150939-3vmgub9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229150939-3vmgub9"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "撤销约束："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-lv5wmb3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-lv5wmb3",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ALTER TABLE Persons "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "DROP PRIMARY KEY"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-dadwg9f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-dadwg9f",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、约束（constraints）"
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-dgp6k7j",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211229150939-dgp6k7j",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"ID": "20211229150939-9r7n62v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229150939-9r7n62v"
+					},
+					"Children": [
+						{
+							"ID": "20211229150939-74yd079",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229150939-74yd079"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "mysql中一个列定义约束"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-jazijih",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-jazijih",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CREATE TABLE Persons"
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-37gsf86",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-37gsf86",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "("
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-ymk055e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-ymk055e",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    Id_P int NOT NULL,"
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-f9st00w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-f9st00w",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    LastName varchar(255) NOT NULL,"
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-am5vn2w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-am5vn2w",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    FirstName varchar(255),"
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-u5s3z7x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-u5s3z7x",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    UNIQUE (Id_P)"
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-u6hpn4g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-u6hpn4g",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": ")"
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-sqq7w95",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211229150939-sqq7w95",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"ID": "20211229150939-arncwre",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229150939-arncwre"
+					},
+					"Children": [
+						{
+							"ID": "20211229150939-1ardlo7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229150939-1ardlo7"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "多列定义约束："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-v5u7g5i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-v5u7g5i",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CREATE TABLE Persons"
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-832p4q7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-832p4q7",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "("
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-ci34ku1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-ci34ku1",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    Id_P int NOT NULL,"
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-ke1h1zg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-ke1h1zg",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    LastName varchar(255) NOT NULL,"
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-2ip5rg6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-2ip5rg6",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    FirstName varchar(255),"
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-d7sem75",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-d7sem75",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    Address varchar(255),"
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-jf3jsn7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-jf3jsn7",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    City varchar(255),"
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-j6tpilo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-j6tpilo",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "CONSTRAINT uc_PersonID UNIQUE (Id_P,LastName)"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-ukelfxa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-ukelfxa",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": ")"
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-d6v3vuj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211229150939-d6v3vuj",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"ID": "20211229150939-fzozqag",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229150939-fzozqag"
+					},
+					"Children": [
+						{
+							"ID": "20211229150939-rqo7805",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229150939-rqo7805"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "增加约束："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-vesua74",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-vesua74",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一列：ALTER TABLE Persons "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "ADD UNIQUE (Id_P)"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-rujtx9l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-rujtx9l",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "多列：ALTER TABLE Persons "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "ADD CONSTRAINT uc_PersonID UNIQUE (Id_P,LastName)"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-t2gvmjk",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211229150939-t2gvmjk",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"ID": "20211229150939-0bgaatl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229150939-0bgaatl"
+					},
+					"Children": [
+						{
+							"ID": "20211229150939-weax2cm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229150939-weax2cm"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "删除约束："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229150939-1d6xhdz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229150939-1d6xhdz",
+				"updated": "20211229150939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ALTER TABLE Persons DROP INDEX uc_PersonID"
+				}
+			]
+		}
+	]
+}

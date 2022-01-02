@@ -1,0 +1,949 @@
+{
+	"ID": "20211229105104-gyqop2u",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211229105104-gyqop2u",
+		"title": "7、Mysql_【日期详解】",
+		"updated": "20211229113221"
+	},
+	"Children": [
+		{
+			"ID": "20211229105105-vwnjs2j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20211229105105-vwnjs2j",
+				"updated": "20211229105218"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、Date() 函数"
+				}
+			]
+		},
+		{
+			"ID": "20211229105105-gehhkke",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229105105-gehhkke",
+				"updated": "20211229105105"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(14)-20211229105105-rli42hq.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229105105-rx69d06",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211229105105-rx69d06",
+				"updated": "20211229105152"
+			},
+			"Children": [
+				{
+					"ID": "20211229105139-s8swk6p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229105139-s8swk6p",
+						"updated": "20211229105152"
+					},
+					"Children": [
+						{
+							"ID": "20211229105139-oerhsq3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229105139-oerhsq3",
+								"updated": "20211229105152"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "select now() from user;"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " // 当前日期和时间"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229105105-tr19oa4",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211229105105-tr19oa4",
+				"updated": "20211229105155"
+			},
+			"Children": [
+				{
+					"ID": "20211229105142-z7njey2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229105142-z7njey2",
+						"updated": "20211229105155"
+					},
+					"Children": [
+						{
+							"ID": "20211229105142-mzixste",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229105142-mzixste",
+								"updated": "20211229105155"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "select curdate() from user; "
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "// 当前日期"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229105105-n8i3at3",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211229105105-n8i3at3",
+				"updated": "20211229105157"
+			},
+			"Children": [
+				{
+					"ID": "20211229105145-72sqt1r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229105145-72sqt1r",
+						"updated": "20211229105157"
+					},
+					"Children": [
+						{
+							"ID": "20211229105145-27odpf5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229105145-27odpf5",
+								"updated": "20211229105157"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "select curtime() from user; "
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "// 当前时间"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229105105-rwrbhz7",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211229105105-rwrbhz7",
+				"updated": "20211229105159"
+			},
+			"Children": [
+				{
+					"ID": "20211229105148-cwmwc3e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229105148-cwmwc3e",
+						"updated": "20211229105159"
+					},
+					"Children": [
+						{
+							"ID": "20211229105148-5oue8f9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229105148-5oue8f9",
+								"updated": "20211229105159"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "select date(createtime) from user;"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " //提取日期"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229105105-wdemijy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20211229105105-wdemijy",
+				"updated": "20211229105229"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、Mysql 的 Date数据类型"
+				}
+			]
+		},
+		{
+			"ID": "20211229105105-iquv4x6",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211229105105-iquv4x6",
+				"updated": "20211229105105"
+			},
+			"Children": [
+				{
+					"ID": "20211229105105-9idhxmk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229105105-9idhxmk"
+					},
+					"Children": [
+						{
+							"ID": "20211229105105-suoultk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229105105-suoultk"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "date -格式： YYYY-MM-DD"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211229105105-2rnfv5d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229105105-2rnfv5d"
+					},
+					"Children": [
+						{
+							"ID": "20211229105105-0s9yc3x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229105105-0s9yc3x"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "datetime -格式：YYYY-MM-DD HH:MM:SS"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211229105105-rqpdd87",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229105105-rqpdd87"
+					},
+					"Children": [
+						{
+							"ID": "20211229105105-nb7mhdd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229105105-nb7mhdd"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "timestamp -格式：YYYY-MM-DD HH:MM:SS"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211229105105-ldy2p0e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229105105-ldy2p0e"
+					},
+					"Children": [
+						{
+							"ID": "20211229105105-ofeahfe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229105105-ofeahfe"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "year -格式: YYYY 或者 YY"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229112355-opz0skh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20211229112355-opz0skh",
+				"updated": "20211229112815"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、日期转换问题（重点）"
+				}
+			]
+		},
+		{
+			"ID": "20211229112421-bribd3j",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211229112421-bribd3j",
+				"updated": "20211229112504"
+			},
+			"Children": [
+				{
+					"ID": "20211229112424-lwmqv3l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229112424-lwmqv3l",
+						"updated": "20211229112504"
+					},
+					"Children": [
+						{
+							"ID": "20211229112424-8s56wba",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229112424-8s56wba",
+								"updated": "20211229112427"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "@DateTimeFormat"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "把"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "前台"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "传"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "后台"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "的时间"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "字符串"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "转成"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Date"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "类型。"
+								}
+							]
+						},
+						{
+							"ID": "20211229112428-2o45wwa",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211229112428-2o45wwa",
+								"updated": "20211229112504"
+							},
+							"Children": [
+								{
+									"ID": "20211229112428-yqho3ar",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211229112428-yqho3ar",
+										"updated": "20211229112504"
+									},
+									"Children": [
+										{
+											"ID": "20211229112428-y6ijuh1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211229112428-y6ijuh1",
+												"updated": "20211229112504"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "注意：@DateTimeFormat只会在类似"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "@RequestParam"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "的请求参数（url拼接的参数才生效，如果是放到RequestBody中的form-data也是无效的）上生效，如果@DateTimeFormat放到@RequestBody下是无效的。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229105105-93aorpb",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211229105105-93aorpb",
+				"updated": "20211229113221"
+			},
+			"Children": [
+				{
+					"ID": "20211229112507-h8w3mor",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229112507-h8w3mor"
+					},
+					"Children": [
+						{
+							"ID": "20211229112507-o7dmivn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229112507-o7dmivn",
+								"updated": "20211229112758"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "@JsonFormat"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "把"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "后台"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "传"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "前台"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "的时间"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Date"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "转成"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "字符串"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "类型、也可以把"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "前台"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "传"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "后台"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "的时间"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "字符串"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "转成"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Date类型"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211229113200-rigy5cx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211229113200-rigy5cx",
+						"updated": "20211229113221"
+					},
+					"Children": [
+						{
+							"ID": "20211229113200-ow5arnd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211229113200-ow5arnd",
+								"updated": "20211229113221"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "@JSONField"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211229112341-b5nv31y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229112341-b5nv31y",
+				"updated": "20211229112918"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例子："
+				}
+			]
+		},
+		{
+			"ID": "20211229112919-banag7x",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211229112919-banag7x",
+				"updated": "20211229112950"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "    /**\n     * 时间戳\n     */\n    @DateTimeFormat(pattern = \"yyyy-MM-dd HH:mm:ss\")\n    @TableField(value = \"TS\", fill = FieldFill.INSERT_UPDATE, jdbcType = JdbcType.TIMESTAMP)\n    @JSONField(format=\"yyyy-MM-dd HH:mm:ss\")\n    @JsonFormat(pattern = \"yyyy-MM-dd HH:mm:ss\")\n    private Date ts;\n\n// @JsonFormat(pattern = \"yyyy-MM-dd HH:mm:ss\", timezone = \"GMT+8\")\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211229105105-dv3sgfy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211229105105-dv3sgfy",
+				"updated": "20211229112914"
+			}
+		}
+	]
+}
