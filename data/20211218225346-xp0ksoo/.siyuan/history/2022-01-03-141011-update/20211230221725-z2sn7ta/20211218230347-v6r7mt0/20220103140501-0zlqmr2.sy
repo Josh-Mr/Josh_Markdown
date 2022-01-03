@@ -1,0 +1,97 @@
+{
+	"ID": "20220103140501-0zlqmr2",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20220103140501-0zlqmr2",
+		"title": "Redis_主从复制",
+		"updated": "20220103140811"
+	},
+	"Children": [
+		{
+			"ID": "20220103140501-feqigkt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220103140501-feqigkt",
+				"updated": "20220103140556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、概念"
+				}
+			]
+		},
+		{
+			"ID": "20220103140556-mseddu2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220103140556-mseddu2",
+				"updated": "20220103140602"
+			}
+		},
+		{
+			"ID": "20220103140602-7qh097g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220103140602-7qh097g",
+				"updated": "20220103140615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、配置"
+				}
+			]
+		},
+		{
+			"ID": "20220103140616-rajh882",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220103140616-rajh882",
+				"updated": "20220103140616"
+			}
+		},
+		{
+			"ID": "20220103140617-qr0md4e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220103140617-qr0md4e",
+				"updated": "20220103140628"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、一主二从"
+				}
+			]
+		},
+		{
+			"ID": "20220103140628-y8w28ls",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220103140628-y8w28ls",
+				"updated": "20220103140628"
+			}
+		},
+		{
+			"ID": "20220103140637-ukk81nc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220103140637-ukk81nc",
+				"updated": "20220103140811"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四、哨兵模式"
+				}
+			]
+		}
+	]
+}

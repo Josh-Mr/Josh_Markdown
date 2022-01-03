@@ -1,0 +1,170 @@
+{
+	"ID": "20220103175745-5ifkdxw",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20220103175745-5ifkdxw",
+		"title": "Redis_哨兵模式",
+		"updated": "20220103180409"
+	},
+	"Children": [
+		{
+			"ID": "20220103175745-fzh9owk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220103175745-fzh9owk",
+				"updated": "20220103175807"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、概述"
+				}
+			]
+		},
+		{
+			"ID": "20220103175808-8u3beuz",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220103175808-8u3beuz",
+				"updated": "20220103180409"
+			},
+			"Children": [
+				{
+					"ID": "20220103180409-grs4mp9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220103180409-grs4mp9"
+					},
+					"Children": [
+						{
+							"ID": "20220103180409-wqhqemo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103180409-wqhqemo",
+								"updated": "20220103180504"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是一种特殊的模式，首先Redis提供了哨兵的命令。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220103180505-401j0m2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220103180505-401j0m2"
+					},
+					"Children": [
+						{
+							"ID": "20220103180505-mnh3x7r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103180505-mnh3x7r"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220103175808-irlzdkf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220103175808-irlzdkf",
+				"updated": "20220103175836"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、配置"
+				}
+			]
+		},
+		{
+			"ID": "20220103175837-pl6qub1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220103175837-pl6qub1",
+				"updated": "20220103175837"
+			}
+		},
+		{
+			"ID": "20220103175837-1nbbx9w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220103175837-1nbbx9w",
+				"updated": "20220103175837"
+			}
+		},
+		{
+			"ID": "20220103175837-10tnvv6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220103175837-10tnvv6",
+				"updated": "20220103175859"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、优点和缺点"
+				}
+			]
+		},
+		{
+			"ID": "20220103175809-dc0b3md",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220103175809-dc0b3md",
+				"updated": "20220103175809"
+			}
+		},
+		{
+			"ID": "20220103175904-dwlrn2e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220103175904-dwlrn2e",
+				"updated": "20220103175904"
+			}
+		},
+		{
+			"ID": "20220103175904-443sd0l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220103175904-443sd0l",
+				"updated": "20220103175915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四、配置说明"
+				}
+			]
+		},
+		{
+			"ID": "20220103175912-33sjgsz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220103175912-33sjgsz",
+				"updated": "20220103175912"
+			}
+		}
+	]
+}

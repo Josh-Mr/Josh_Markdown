@@ -66,9 +66,9 @@
     "generateHistoryInterval": 5,
     "historyRetentionDays": 30,
     "emoji": [
-      "1f4c4",
-      "1f4d2",
       "1f4dd",
+      "1f4d2",
+      "1f4c4",
       "2b50",
       "2705",
       "1f601",
@@ -186,21 +186,13 @@
 ],
     "direction": "tb",
     "instance": "Layout",
-    "size": "355px",
+    "size": "298px",
     "type": "left"
   },
   {
     "children": [
   {
     "children": [
-  {
-    "children": {
-  "blockId": "20211230092952-7hncg3f",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "Redis读写策略问题"
-  },
   {
     "children": {
   "blockId": "20211218230347-v6r7mt0",
@@ -211,6 +203,70 @@
   },
   {
     "children": {
+  "blockId": "20220103113026-0ln399g",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Jedis详解"
+  },
+  {
+    "children": {
+  "blockId": "20211231162407-doyxi7h",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Redis_知识PDF"
+  },
+  {
+    "children": {
+  "blockId": "20220103130730-zwiveg1",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Redis_SpringBoot使用配置"
+  },
+  {
+    "children": {
+  "blockId": "20220103140924-jsur5pt",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Redis_缓存穿透\u0026雪崩"
+  },
+  {
+    "children": {
+  "blockId": "20220103140501-0zlqmr2",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Redis_主从复制"
+  },
+  {
+    "children": {
+  "blockId": "20220103175745-5ifkdxw",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Redis_哨兵模式"
+  },
+  {
+    "children": {
+  "blockId": "20220103235604-f7cg9sx",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Redis_发布订阅"
+  },
+  {
+    "children": {
+  "blockId": "20211224161242-lwg9c5q",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "linux下Redis安装过程"
+  },
+  {
+    "children": {
   "blockId": "20211224164531-yznlfci",
   "instance": "Editor"
 },
@@ -218,123 +274,17 @@
     "title": "Redis启用"
   },
   {
-    "children": {
-  "blockId": "20211218230505-n2nh9ty",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "未分类"
-  },
-  {
-    "children": {
-  "blockId": "20211218230503-rxp4pmp",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "Oracle_锁表\u0026amp;解锁"
-  },
-  {
-    "children": {
-  "blockId": "20211230221725-z2sn7ta",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "NoSQL"
-  },
-  {
-    "children": {
-  "blockId": "20211230221800-uw23ad5",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "MongoDB"
-  },
-  {
-    "children": {
-  "blockId": "20211230221815-s03hmen",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "MongoDB认识"
-  },
-  {
-    "children": {
-  "blockId": "20211223234126-62293ap",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "SpringBoot"
-  },
-  {
-    "children": {
-  "blockId": "20211223152406-ii87ypy",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "（未分类）"
-  },
-  {
-    "children": {
-  "blockId": "20211226235837-ni5z88u",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "Mybatis-Plus重要知识"
-  },
-  {
-    "children": {
-  "blockId": "20211218230506-drpwc2o",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "新文档"
-  },
-  {
-    "children": {
-  "blockId": "20211229152137-ymhk7k4",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "Mysql_创建表例子"
-  },
-  {
-    "children": {
-  "blockId": "20211231151542-vcvb5o4",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "2021-12-31"
-  },
-  {
     "active": true,
     "children": {
-  "blockId": "20211231162407-doyxi7h",
+  "blockId": "20220104000307-kch1gx5",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "Redis_知识PDF"
+    "title": "Redis_持久化"
   }
 ],
     "height": "",
     "instance": "Wnd",
-    "width": "258px"
-  },
-  {
-    "children": [
-  {
-    "active": true,
-    "children": {
-  "instance": "Asset",
-  "path": "assets/Redis精讲-20211231162411-9q9s5cf.pdf"
-},
-    "icon": "iconPDF",
-    "instance": "Tab",
-    "title": "Redis精讲-20211231162411-9q9s5cf.pdf"
-  }
-],
-    "height": "",
-    "instance": "Wnd",
-    "resize": "lr",
     "width": ""
   }
 ],
@@ -397,10 +347,18 @@
     {
       "show": true,
       "size": {
-  "height": 760,
-  "width": 355
+  "height": 0,
+  "width": 298
 },
       "type": "file"
+    },
+    {
+      "show": false,
+      "size": {
+  "height": 0,
+  "width": 240
+},
+      "type": "outline"
     }
   ],
   [
@@ -424,14 +382,6 @@
 ],
     "right": [
   [
-    {
-      "show": false,
-      "size": {
-  "height": null,
-  "width": 212
-},
-      "type": "outline"
-    },
     {
       "show": false,
       "size": {
@@ -888,7 +838,7 @@
     "backlinkMentionAnchor": false
   },
   "stat": {
-    "docCount": 93
+    "docCount": 100
   },
   "api": {
     "token": "9lg6z7f4ub34blui"

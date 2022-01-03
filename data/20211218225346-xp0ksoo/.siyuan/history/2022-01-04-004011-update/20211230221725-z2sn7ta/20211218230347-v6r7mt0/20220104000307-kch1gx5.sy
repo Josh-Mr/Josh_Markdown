@@ -1,0 +1,1413 @@
+{
+	"ID": "20220104000307-kch1gx5",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220104000307-kch1gx5",
+		"title": "Redis_持久化",
+		"updated": "20220104004009"
+	},
+	"Children": [
+		{
+			"ID": "20220104000307-yw6i6jw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220104000307-yw6i6jw",
+				"updated": "20220104000422"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、RDB（Redis DataBase）"
+				}
+			]
+		},
+		{
+			"ID": "20220104000425-os57694",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104000425-os57694",
+				"updated": "20220104001439"
+			},
+			"Children": [
+				{
+					"ID": "20220104001023-trsnzy2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220104001023-trsnzy2",
+						"updated": "20220104001439"
+					},
+					"Children": [
+						{
+							"ID": "20220104001023-britjrb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104001023-britjrb",
+								"updated": "20220104001439"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "快照（"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Snapshot"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "）持久化：指定的"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "时间间隔内"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "将"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "内存中"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "的"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "数据集中"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "快照"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "写入磁盘"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，即是"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "快照技术"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104000425-8k1hqs8",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104000425-8k1hqs8",
+				"updated": "20220104002245"
+			},
+			"Children": [
+				{
+					"ID": "20220104001715-8o0hhpw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220104001715-8o0hhpw",
+						"updated": "20220104002245"
+					},
+					"Children": [
+						{
+							"ID": "20220104001715-rjiyoyb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104001715-rjiyoyb",
+								"updated": "20220104001904"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原理："
+								}
+							]
+						},
+						{
+							"ID": "20220104001909-rv15loo",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20220104001909-rv15loo",
+								"updated": "20220104002245"
+							},
+							"Children": [
+								{
+									"ID": "20220104001909-bh4x1t2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220104001909-bh4x1t2",
+										"updated": "20220104002245"
+									},
+									"Children": [
+										{
+											"ID": "20220104001909-5as4mbf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104001909-5as4mbf",
+												"updated": "20220104002245"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Redis会单独的"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "Fork"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "一个"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "子线程"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "进行持久化，"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220104002127-fni2dxx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20220104002127-fni2dxx"
+									},
+									"Children": [
+										{
+											"ID": "20220104002127-81r68qf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104002127-81r68qf",
+												"updated": "20220104002154"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "子线程将数据写入一个临时文件中，"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220104002155-o0hqknc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20220104002155-o0hqknc",
+										"updated": "20220104002232"
+									},
+									"Children": [
+										{
+											"ID": "20220104002155-s3r7j41",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104002155-s3r7j41",
+												"updated": "20220104002232"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "持久化结束后，用临时文件替换上次持久化文件。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104000425-aqopy23",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104000425-aqopy23",
+				"updated": "20220104002254"
+			},
+			"Children": [
+				{
+					"ID": "20220104002254-fyo32s9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220104002254-fyo32s9"
+					},
+					"Children": [
+						{
+							"ID": "20220104002254-gwefuqz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104002254-gwefuqz",
+								"updated": "20220104002325"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Fork复制作用"
+								}
+							]
+						},
+						{
+							"ID": "20220104002318-cgyidel",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20220104002318-cgyidel"
+							},
+							"Children": [
+								{
+									"ID": "20220104002318-zshd6g9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220104002318-zshd6g9"
+									},
+									"Children": [
+										{
+											"ID": "20220104002318-jzv3cws",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104002318-jzv3cws",
+												"updated": "20220104002602"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "持久化过程不占用主进程的IO"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220104002446-6fyy3v5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20220104002446-6fyy3v5"
+									},
+									"Children": [
+										{
+											"ID": "20220104002446-1ev7d50",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104002446-1ev7d50",
+												"updated": "20220104002701"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "作为主进程的子进程，持久化瞬间拥有所有数据（变量、环境变量、程序计数器等）"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104002755-81xoqdv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104002755-81xoqdv",
+				"updated": "20220104002757"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220104002751-5bad3mu.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104002758-tehjgdp",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104002758-tehjgdp",
+				"updated": "20220104002812"
+			},
+			"Children": [
+				{
+					"ID": "20220104002812-2ys4yev",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220104002812-2ys4yev"
+					},
+					"Children": [
+						{
+							"ID": "20220104002812-omsvbn9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104002812-omsvbn9",
+								"updated": "20220104002830"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "配置触发条件"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104002835-d0mc75c",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220104002835-d0mc75c",
+				"updated": "20220104002846"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "ZHNjb25maWc="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "save 120 10  # 120秒内修改10次则触发RDB1\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220104002859-p19sfl6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104002859-p19sfl6",
+				"updated": "20220104002901"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "max-width: 313px;",
+						"style": "width: 303px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220104002901-ukp742s.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 303px;\" parent-style=\"max-width: 313px;\"}"
+				}
+			]
+		},
+		{
+			"ID": "20220104002936-vzzx4fd",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104002936-vzzx4fd",
+				"updated": "20220104002940"
+			},
+			"Children": [
+				{
+					"ID": "20220104002940-u9qnaks",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220104002940-u9qnaks"
+					},
+					"Children": [
+						{
+							"ID": "20220104002940-mg2hj4k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104002940-mg2hj4k",
+								"updated": "20220104002952"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "其余的命令解析"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104002953-wuk2uc4",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220104002953-wuk2uc4",
+				"updated": "20220104003004"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "ZHNjb25maWc="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Stop-writes-on-bgsave-error：如果配置为no，表示你不在乎数据不一致或者有其他的手段发现和控\n制，默认为yes。\nrbdcompression：对于存储到磁盘中的快照，可以设置是否进行压缩存储。如果是的话，redis会采用\nLZF算法进行压缩，如果你不想消耗CPU来进行压缩的话，可以设置为关闭此功能。\nrdbchecksum：在存储快照后，还可以让redis使用CRC64算法来进行数据校验，但是这样做会增加大约\n10%的性能消耗，如果希望获取到最大的性能提升，可以关闭此功能。默认为yes。\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220104003014-8ceyabc",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104003014-8ceyabc",
+				"updated": "20220104003228"
+			},
+			"Children": [
+				{
+					"ID": "20220104003019-v4ubknr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220104003019-v4ubknr",
+						"updated": "20220104003228"
+					},
+					"Children": [
+						{
+							"ID": "20220104003019-ubqbyhb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104003019-ubqbyhb",
+								"updated": "20220104003029"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何触发RDB快照"
+								}
+							]
+						},
+						{
+							"ID": "20220104003029-5ge961l",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20220104003029-5ge961l",
+								"updated": "20220104003228"
+							},
+							"Children": [
+								{
+									"ID": "20220104003111-k28olxs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220104003111-k28olxs"
+									},
+									"Children": [
+										{
+											"ID": "20220104003111-dkcivoo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104003111-dkcivoo",
+												"updated": "20220104003143"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "满足触发快照时间：save 100 2"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220104003144-cnvfdwy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20220104003144-cnvfdwy"
+									},
+									"Children": [
+										{
+											"ID": "20220104003144-f35dcpo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104003144-f35dcpo",
+												"updated": "20220104003216"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "执行flushall命令，也会产生dump.rdb文件，但里面是空的，无意义!"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220104003217-46ktax4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20220104003217-46ktax4",
+										"updated": "20220104003228"
+									},
+									"Children": [
+										{
+											"ID": "20220104003217-mjg13ax",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104003217-mjg13ax",
+												"updated": "20220104003228"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "退出"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "的时候也会产生dump.rdb文件！"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104003016-fp3glud",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104003016-fp3glud",
+				"updated": "20220104003323"
+			},
+			"Children": [
+				{
+					"ID": "20220104003233-dfrcy3g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20220104003233-dfrcy3g",
+						"updated": "20220104003323"
+					},
+					"Children": [
+						{
+							"ID": "20220104003233-qziqvn2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104003233-qziqvn2",
+								"updated": "20220104003237"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "恢复快照"
+								}
+							]
+						},
+						{
+							"ID": "20220104003249-u5p5y2k",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20220104003249-u5p5y2k",
+								"updated": "20220104003323"
+							},
+							"Children": [
+								{
+									"ID": "20220104003238-jlz5831",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220104003238-jlz5831"
+									},
+									"Children": [
+										{
+											"ID": "20220104003238-55xlwnu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104003238-55xlwnu",
+												"updated": "20220104003254"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "将备份文件（dump.rdb）移动到redis安装目录并启动服务即可。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220104003251-8y8s01q",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20220104003251-8y8s01q",
+										"updated": "20220104003323"
+									},
+									"Children": [
+										{
+											"ID": "20220104003251-l4d1m4b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104003251-l4d1m4b",
+												"updated": "20220104003305"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "CONFIG GET dir获取目录"
+												}
+											]
+										},
+										{
+											"ID": "20220104003308-62o59zk",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20220104003308-62o59zk",
+												"updated": "20220104003323"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "ZHNjb25maWc="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "127.0.0.1:6379\u003e config get dir\ndir\n/usr/local/bin\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104003016-1q5zy8p",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104003016-1q5zy8p",
+				"updated": "20220104003356"
+			},
+			"Children": [
+				{
+					"ID": "20220104003334-1dsfr2v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20220104003334-1dsfr2v",
+						"updated": "20220104003356"
+					},
+					"Children": [
+						{
+							"ID": "20220104003334-d5ffyog",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104003334-d5ffyog",
+								"updated": "20220104003344"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "优点和缺点"
+								}
+							]
+						},
+						{
+							"ID": "20220104003345-vozsx9i",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220104003345-vozsx9i",
+								"updated": "20220104003356"
+							},
+							"Children": [
+								{
+									"ID": "20220104003352-8q87a8p",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220104003352-8q87a8p",
+										"updated": "20220104003356"
+									},
+									"Children": [
+										{
+											"ID": "20220104003352-gz9nuns",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104003352-gz9nuns",
+												"updated": "20220104003355"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "优点："
+												}
+											]
+										},
+										{
+											"ID": "20220104003356-v4pgyxd",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220104003356-v4pgyxd",
+												"updated": "20220104003356"
+											},
+											"Children": [
+												{
+													"ID": "20220104003356-b6d7kiw",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220104003356-b6d7kiw"
+													},
+													"Children": [
+														{
+															"ID": "20220104003356-qk2e5yh",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220104003356-qk2e5yh",
+																"updated": "20220104003448"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "适合大规模的数据恢复。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220104003410-20cq8vy",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220104003410-20cq8vy"
+													},
+													"Children": [
+														{
+															"ID": "20220104003410-xko50xo",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220104003410-xko50xo",
+																"updated": "20220104003447"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "对数据的完整性和一致性要求不高。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220104003457-yvotqrb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220104003457-yvotqrb",
+										"updated": "20220104003659"
+									},
+									"Children": [
+										{
+											"ID": "20220104003457-obqg408",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104003457-obqg408",
+												"updated": "20220104003502"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "缺点："
+												}
+											]
+										},
+										{
+											"ID": "20220104003503-cj71q52",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220104003503-cj71q52",
+												"updated": "20220104003659"
+											},
+											"Children": [
+												{
+													"ID": "20220104003503-vvlbd7y",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220104003503-vvlbd7y"
+													},
+													"Children": [
+														{
+															"ID": "20220104003503-6y197vl",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220104003503-6y197vl",
+																"updated": "20220104003555"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "一点间隔备份。若意外down，就会失去最后一次修改的数据。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220104003556-xkpbytr",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220104003556-xkpbytr",
+														"updated": "20220104003659"
+													},
+													"Children": [
+														{
+															"ID": "20220104003556-nclz35t",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220104003556-nclz35t",
+																"updated": "20220104003659"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "Fork的时候，内存中数据被克隆一份，内存膨胀性需要考虑。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104003727-48fzc9r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104003727-48fzc9r",
+				"updated": "20220104003729"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220104003729-98d0j25.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104000425-j2qv81h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220104000425-j2qv81h",
+				"updated": "20220104000447"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、AOP(Append Only File)"
+				}
+			]
+		},
+		{
+			"ID": "20220104000449-q2829og",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104000449-q2829og",
+				"updated": "20220104004009"
+			},
+			"Children": [
+				{
+					"ID": "20220104003854-w7s5aou",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220104003854-w7s5aou",
+						"updated": "20220104004009"
+					},
+					"Children": [
+						{
+							"ID": "20220104003854-1bargb8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104003854-1bargb8",
+								"updated": "20220104004009"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "追加"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104000501-6q3tv5u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104000501-6q3tv5u",
+				"updated": "20220104000501"
+			}
+		},
+		{
+			"ID": "20220104000501-dgsidna",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104000501-dgsidna",
+				"updated": "20220104000501"
+			}
+		},
+		{
+			"ID": "20220104000502-iw8ndmu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220104000502-iw8ndmu",
+				"updated": "20220104000508"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、总结"
+				}
+			]
+		},
+		{
+			"ID": "20220104001011-go0gql2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104001011-go0gql2",
+				"updated": "20220104001015"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "作用：Redis是内存数据库，如果不将内存中的数据保存到磁盘，一旦断电数据就会丢失。"
+				}
+			]
+		}
+	]
+}

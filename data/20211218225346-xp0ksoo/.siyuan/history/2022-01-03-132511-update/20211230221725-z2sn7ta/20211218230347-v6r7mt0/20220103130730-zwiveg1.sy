@@ -1,0 +1,360 @@
+{
+	"ID": "20220103130730-zwiveg1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220103130730-zwiveg1",
+		"title": "SpringBoot_Redis使用配置",
+		"updated": "20220103132048"
+	},
+	"Children": [
+		{
+			"ID": "20220103130731-ttbrlr7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20220103130731-ttbrlr7",
+				"updated": "20220103131321"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、常用配置"
+				}
+			]
+		},
+		{
+			"ID": "20220103131322-rv1k31j",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220103131322-rv1k31j",
+				"updated": "20220103131338"
+			},
+			"Children": [
+				{
+					"ID": "20220103131323-1nravoa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220103131323-1nravoa",
+						"updated": "20220103131338"
+					},
+					"Children": [
+						{
+							"ID": "20220103131323-59cnvxy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103131323-59cnvxy",
+								"updated": "20220103131329"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Maven配置"
+								}
+							]
+						},
+						{
+							"ID": "20220103131329-dhlri0k",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220103131329-dhlri0k",
+								"updated": "20220103131338"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "eG1s"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003cdependency\u003e\n\t\u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\n\t\u003cartifactId\u003espring-boot-starter-data-redis\u003c/artifactId\u003e\n\u003c/dependency\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220103131341-hekvx7s",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220103131341-hekvx7s",
+				"updated": "20220103131343"
+			},
+			"Children": [
+				{
+					"ID": "20220103131343-46vz1mo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220103131343-46vz1mo"
+					},
+					"Children": [
+						{
+							"ID": "20220103131343-hscu63z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103131343-hscu63z",
+								"updated": "20220103131407"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "properties配置"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220103131410-r416fqr",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220103131410-r416fqr",
+				"updated": "20220103131440"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "spring.redis.host=127.0.0.1\nspring.redis.port=6379\nspring.redis.password=root\nspring.redis.lettuce.shutdown-timeout=0ms\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220103131442-2c7t6hy",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220103131442-2c7t6hy",
+				"updated": "20220103131604"
+			},
+			"Children": [
+				{
+					"ID": "20220103131447-hqm5oya",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220103131447-hqm5oya",
+						"updated": "20220103131604"
+					},
+					"Children": [
+						{
+							"ID": "20220103131447-5c1aq1x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103131447-5c1aq1x",
+								"updated": "20220103131604"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分析RedisAutoConfiguration配置（源码）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220103131532-osj9xc8",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220103131532-osj9xc8",
+				"updated": "20220103132048"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@Configuration(proxyBeanMethods = false)\n@ConditionalOnClass(RedisOperations.class)\n@EnableConfigurationProperties(RedisProperties.class)\n@Import({ LettuceConnectionConfiguration.class, JedisConnectionConfiguration.class })\npublic class RedisAutoConfiguration {\n\n\t@Bean\n\t@ConditionalOnMissingBean(name = \"redisTemplate\")//如果Spring容器中有了RedisTemplate对象了，这个自动配置的RedisTemplate不会实例化。\n\t@ConditionalOnSingleCandidate(RedisConnectionFactory.class)\n\tpublic RedisTemplate\u003cObject, Object\u003e redisTemplate(RedisConnectionFactory redisConnectionFactory) {\n\t\tRedisTemplate\u003cObject, Object\u003e template = new RedisTemplate\u003c\u003e();\n\t\ttemplate.setConnectionFactory(redisConnectionFactory);\n\t\treturn template;\n\t}\n\n\t@Bean\n\t@ConditionalOnMissingBean//如果Spring容器中有了RedisTemplate对象了，这个自动配置的RedisTemplate不会实例化。\n\t@ConditionalOnSingleCandidate(RedisConnectionFactory.class)\n\tpublic StringRedisTemplate stringRedisTemplate(RedisConnectionFactory redisConnectionFactory) {\n\t\treturn new StringRedisTemplate(redisConnectionFactory);\n\t}\n\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220103131608-6cq0b19",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220103131608-6cq0b19",
+				"updated": "20220103131949"
+			},
+			"Children": [
+				{
+					"ID": "20220103131609-q5jknnn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220103131609-q5jknnn",
+						"updated": "20220103131949"
+					},
+					"Children": [
+						{
+							"ID": "20220103131609-oql98fr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103131609-oql98fr",
+								"updated": "20220103131742"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "作用：返回一个RedisTemplate\u003cObject,Object\u003e和StringRedisTemplate。"
+								}
+							]
+						},
+						{
+							"ID": "20220103131614-ja3m289",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220103131614-ja3m289",
+								"updated": "20220103131949"
+							},
+							"Children": [
+								{
+									"ID": "20220103131613-gmnd5xu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220103131613-gmnd5xu",
+										"updated": "20220103131949"
+									},
+									"Children": [
+										{
+											"ID": "20220103131613-1vjqgkq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220103131613-1vjqgkq",
+												"updated": "20220103131949"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "泛型都是Object类型，需要配置RedisTemplate\u003cString,Object\u003e."
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220103131802-besh9i4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220103131802-besh9i4"
+									},
+									"Children": [
+										{
+											"ID": "20220103131802-7leoyit",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220103131802-7leoyit",
+												"updated": "20220103131918"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "默认JDK序列化方式，需要配置JSON序列化方式。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220103131918-cgaaaek",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220103131918-cgaaaek"
+					},
+					"Children": [
+						{
+							"ID": "20220103131918-rlwhabw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103131918-rlwhabw"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

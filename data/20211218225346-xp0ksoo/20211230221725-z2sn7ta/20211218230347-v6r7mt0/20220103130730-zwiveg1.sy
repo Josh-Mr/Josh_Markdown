@@ -1,0 +1,477 @@
+{
+	"ID": "20220103130730-zwiveg1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20220103130730-zwiveg1",
+		"title": "Redis_SpringBoot使用配置",
+		"updated": "20220103235812"
+	},
+	"Children": [
+		{
+			"ID": "20220103130731-ttbrlr7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20220103130731-ttbrlr7",
+				"updated": "20220103131321"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、常用配置"
+				}
+			]
+		},
+		{
+			"ID": "20220103131322-rv1k31j",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220103131322-rv1k31j",
+				"updated": "20220103131338"
+			},
+			"Children": [
+				{
+					"ID": "20220103131323-1nravoa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220103131323-1nravoa",
+						"updated": "20220103131338"
+					},
+					"Children": [
+						{
+							"ID": "20220103131323-59cnvxy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103131323-59cnvxy",
+								"updated": "20220103131329"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Maven配置"
+								}
+							]
+						},
+						{
+							"ID": "20220103131329-dhlri0k",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220103131329-dhlri0k",
+								"updated": "20220103131338"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "eG1s"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003cdependency\u003e\n\t\u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\n\t\u003cartifactId\u003espring-boot-starter-data-redis\u003c/artifactId\u003e\n\u003c/dependency\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220103131341-hekvx7s",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220103131341-hekvx7s",
+				"updated": "20220103131343"
+			},
+			"Children": [
+				{
+					"ID": "20220103131343-46vz1mo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220103131343-46vz1mo"
+					},
+					"Children": [
+						{
+							"ID": "20220103131343-hscu63z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103131343-hscu63z",
+								"updated": "20220103131407"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "properties配置"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220103131410-r416fqr",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220103131410-r416fqr",
+				"updated": "20220103131440"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "spring.redis.host=127.0.0.1\nspring.redis.port=6379\nspring.redis.password=root\nspring.redis.lettuce.shutdown-timeout=0ms\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220103131442-2c7t6hy",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220103131442-2c7t6hy",
+				"updated": "20220103131604"
+			},
+			"Children": [
+				{
+					"ID": "20220103131447-hqm5oya",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220103131447-hqm5oya",
+						"updated": "20220103131604"
+					},
+					"Children": [
+						{
+							"ID": "20220103131447-5c1aq1x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103131447-5c1aq1x",
+								"updated": "20220103131604"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分析RedisAutoConfiguration配置（源码）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220103131532-osj9xc8",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220103131532-osj9xc8",
+				"updated": "20220103132048"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@Configuration(proxyBeanMethods = false)\n@ConditionalOnClass(RedisOperations.class)\n@EnableConfigurationProperties(RedisProperties.class)\n@Import({ LettuceConnectionConfiguration.class, JedisConnectionConfiguration.class })\npublic class RedisAutoConfiguration {\n\n\t@Bean\n\t@ConditionalOnMissingBean(name = \"redisTemplate\")//如果Spring容器中有了RedisTemplate对象了，这个自动配置的RedisTemplate不会实例化。\n\t@ConditionalOnSingleCandidate(RedisConnectionFactory.class)\n\tpublic RedisTemplate\u003cObject, Object\u003e redisTemplate(RedisConnectionFactory redisConnectionFactory) {\n\t\tRedisTemplate\u003cObject, Object\u003e template = new RedisTemplate\u003c\u003e();\n\t\ttemplate.setConnectionFactory(redisConnectionFactory);\n\t\treturn template;\n\t}\n\n\t@Bean\n\t@ConditionalOnMissingBean//如果Spring容器中有了RedisTemplate对象了，这个自动配置的RedisTemplate不会实例化。\n\t@ConditionalOnSingleCandidate(RedisConnectionFactory.class)\n\tpublic StringRedisTemplate stringRedisTemplate(RedisConnectionFactory redisConnectionFactory) {\n\t\treturn new StringRedisTemplate(redisConnectionFactory);\n\t}\n\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220103131608-6cq0b19",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220103131608-6cq0b19",
+				"updated": "20220103131609"
+			},
+			"Children": [
+				{
+					"ID": "20220103131609-q5jknnn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220103131609-q5jknnn"
+					},
+					"Children": [
+						{
+							"ID": "20220103131609-oql98fr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103131609-oql98fr",
+								"updated": "20220103131742"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "作用：返回一个RedisTemplate\u003cObject,Object\u003e和StringRedisTemplate。"
+								}
+							]
+						},
+						{
+							"ID": "20220103131614-ja3m289",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220103131614-ja3m289"
+							},
+							"Children": [
+								{
+									"ID": "20220103131613-gmnd5xu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220103131613-gmnd5xu"
+									},
+									"Children": [
+										{
+											"ID": "20220103131613-1vjqgkq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220103131613-1vjqgkq",
+												"updated": "20220103131949"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "泛型都是Object类型，需要配置RedisTemplate\u003cString,Object\u003e."
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220103131802-besh9i4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220103131802-besh9i4"
+									},
+									"Children": [
+										{
+											"ID": "20220103131802-7leoyit",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220103131802-7leoyit",
+												"updated": "20220103131918"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "默认JDK序列化方式，需要配置JSON序列化方式。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220103131918-rlwhabw",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220103131918-rlwhabw",
+				"updated": "20220103135712"
+			},
+			"Children": [
+				{
+					"ID": "20220103135712-bh10sgl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220103135712-bh10sgl"
+					},
+					"Children": [
+						{
+							"ID": "20220103135712-138mizi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103135712-138mizi",
+								"updated": "20220103135746"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "自定义配置RedisAutoConfiguration"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220103135747-vrnyb1z",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220103135747-vrnyb1z",
+				"updated": "20220103135754"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "package com.example.springbootredis.config;\n\nimport com.fasterxml.jackson.annotation.JsonAutoDetect;\nimport com.fasterxml.jackson.annotation.PropertyAccessor;\nimport com.fasterxml.jackson.databind.ObjectMapper;\nimport org.springframework.context.annotation.Bean;\nimport org.springframework.context.annotation.Configuration;\nimport org.springframework.data.redis.connection.RedisConnectionFactory;\nimport org.springframework.data.redis.core.RedisTemplate;\nimport org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;\nimport org.springframework.data.redis.serializer.StringRedisSerializer;\n\n/**\n * @Author: Josh\n * @CreateTime: 2022-01-03 13:06\n * @Description: TODO\n */\n@Configuration\npublic class RedisConfig {\n\n    @Bean\n    @SuppressWarnings(\"all\")\n    public RedisTemplate\u003cString,Object\u003e redisTemplate(RedisConnectionFactory redisConnectionFactory){\n        RedisTemplate\u003cString ,Object\u003e redisTemplate = new RedisTemplate\u003c\u003e();\n        redisTemplate.setConnectionFactory(redisConnectionFactory);\n        Jackson2JsonRedisSerializer jackson2JsonRedisSerializer = new Jackson2JsonRedisSerializer(Object.class);\n        ObjectMapper om = new ObjectMapper();\n        om.setVisibility(PropertyAccessor.ALL, JsonAutoDetect.Visibility.ANY);\n        om.enableDefaultTyping(ObjectMapper.DefaultTyping.NON_FINAL);\n        jackson2JsonRedisSerializer.setObjectMapper(om);\n        StringRedisSerializer stringRedisSerializer = new\n                StringRedisSerializer();\n        // key采用String的序列化方式\n        redisTemplate.setKeySerializer(stringRedisSerializer);\n        // hash的key也采用String的序列化方式\n        redisTemplate.setHashKeySerializer(stringRedisSerializer);\n        // value序列化方式采用jackson\n        redisTemplate.setValueSerializer(jackson2JsonRedisSerializer);\n        // hash的value序列化方式采用jackson\n        redisTemplate.setHashValueSerializer(jackson2JsonRedisSerializer);\n        redisTemplate.afterPropertiesSet();\n        return redisTemplate;\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220103135800-5ixvdwz",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220103135800-5ixvdwz",
+				"updated": "20220103140420"
+			},
+			"Children": [
+				{
+					"ID": "20220103135803-humb3c0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220103135803-humb3c0",
+						"updated": "20220103140420"
+					},
+					"Children": [
+						{
+							"ID": "20220103135803-cb5hokx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103135803-cb5hokx",
+								"updated": "20220103140420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "SpringBoot操作RedisTemplate工具类（可用于生产，对比Jpaas的工具类差异）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220103140338-97u2t89",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220103140338-97u2t89",
+				"updated": "20220103140341"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "package com.example.springbootredis.utils;\n\nimport org.springframework.beans.factory.annotation.Autowired;\nimport org.springframework.beans.factory.annotation.Qualifier;\nimport org.springframework.data.redis.core.RedisTemplate;\nimport org.springframework.stereotype.Component;\nimport org.springframework.util.CollectionUtils;\n\nimport java.util.Collection;\nimport java.util.List;\nimport java.util.Map;\nimport java.util.Set;\nimport java.util.concurrent.TimeUnit;\n\n@Component\npublic final class RedisUtil {\n\n\n    @Autowired\n    @Qualifier(\"redisTemplate\")\n    private RedisTemplate\u003cString, Object\u003e redisTemplate;\n// =============================common============================\n\n    /**\n     * 指定缓存失效时间\n     *\n     * @param key  键\n     * @param time 时间(秒)\n     */\n    public boolean expire(String key, long time) {\n        try {\n            if (time \u003e 0) {\n                redisTemplate.expire(key, time, TimeUnit.SECONDS);\n            }\n            return true;\n        } catch (Exception e) {\n            e.printStackTrace();\n            return false;\n        }\n    }\n\n    /**\n     * 根据key 获取过期时间\n     *\n     * @param key 键 不能为null\n     * @return 时间(秒) 返回0代表为永久有效\n     */\n    public long getExpire(String key) {\n        return redisTemplate.getExpire(key, TimeUnit.SECONDS);\n    }\n\n    /**\n     * 判断key是否存在\n     *\n     * @param key 键\n     * @return true 存在 false不存在\n     */\n    public boolean hasKey(String key) {\n        try {\n            return redisTemplate.hasKey(key);\n        } catch (Exception e) {\n            e.printStackTrace();\n            return false;\n        }\n    }\n\n    /**\n     * 删除缓存\n     *\n     * @param key 可以传一个值 或多个\n     */\n    @SuppressWarnings(\"unchecked\")\n    public void del(String... key) {\n        if (key != null \u0026\u0026 key.length \u003e 0) {\n            if (key.length == 1) {\n                redisTemplate.delete(key[0]);\n            } else {\n                redisTemplate.delete((Collection\u003cString\u003e) CollectionUtils.arrayToList(key));\n            }\n        }\n    }\n// ============================String=============================\n\n    /**\n     * 普通缓存获取\n     *\n     * @param key 键\n     * @return 值\n     */\n    public Object get(String key) {\n        return key == null ? null : redisTemplate.opsForValue().get(key);\n    }\n\n    /**\n     * 普通缓存放入\n     *\n     * @param key   键\n     * @param value 值\n     * @return true成功 false失败\n     */\n    public boolean set(String key, Object value) {\n        try {\n            redisTemplate.opsForValue().set(key, value);\n            return true;\n        } catch (Exception e) {\n            e.printStackTrace();\n            return false;\n        }\n    }\n\n    /**\n     * 普通缓存放入并设置时间\n     *\n     * @param key   键\n     * @param value 值\n     * @param time  时间(秒) time要大于0 如果time小于等于0 将设置无限期\n     * @return true成功 false 失败\n     */\n    public boolean set(String key, Object value, long time) {\n        try {\n            if (time \u003e 0) {\n                redisTemplate.opsForValue().set(key, value, time,\n                        TimeUnit.SECONDS);\n            } else {\n                set(key, value);\n            }\n            return true;\n        } catch (Exception e) {\n            e.printStackTrace();\n            return false;\n        }\n    }\n\n    /**\n     * 递增\n     *\n     * @param key   键\n     * @param delta 要增加几(大于0)\n     */\n    public long incr(String key, long delta) {\n        if (delta \u003c 0) {\n            throw new RuntimeException(\"递增因子必须大于0\");\n        }\n        return redisTemplate.opsForValue().increment(key, delta);\n    }\n\n    /**\n     * 递减\n     *\n     * @param key   键\n     * @param delta 要减少几(小于0)\n     */\n    public long decr(String key, long delta) {\n        if (delta \u003c 0) {\n            throw new RuntimeException(\"递减因子必须大于0\");\n        }\n        return redisTemplate.opsForValue().increment(key, -delta);\n    }\n// ================================Map=================================\n\n    /**\n     * HashGet\n     *\n     * @param key  键 不能为null\n     * @param item 项 不能为null\n     */\n    public Object hget(String key, String item) {\n        return redisTemplate.opsForHash().get(key, item);\n    }\n\n    /**\n     * 获取hashKey对应的所有键值\n     *\n     * @param key 键\n     * @return 对应的多个键值\n     */\n    public Map\u003cObject, Object\u003e hmget(String key) {\n        return redisTemplate.opsForHash().entries(key);\n    }\n\n    /**\n     * HashSet\n     *\n     * @param key 键\n     * @param map 对应多个键值\n     */\n    public boolean hmset(String key, Map\u003cString, Object\u003e map) {\n        try {\n            redisTemplate.opsForHash().putAll(key, map);\n            return true;\n        } catch (Exception e) {\n            e.printStackTrace();\n            return false;\n        }\n    }\n\n    /**\n     * HashSet 并设置时间\n     *\n     * @param key  键\n     * @param map  对应多个键值\n     * @param time 时间(秒)\n     * @return true成功 false失败\n     */\n    public boolean hmset(String key, Map\u003cString, Object\u003e map, long time) {\n        try {\n            redisTemplate.opsForHash().putAll(key, map);\n            if (time \u003e 0) {\n                expire(key, time);\n            }\n            return true;\n        } catch (Exception e) {\n            e.printStackTrace();\n            return false;\n        }\n    }\n\n    /**\n     * 向一张hash表中放入数据,如果不存在将创建\n     *\n     * @param key   键\n     * @param item  项\n     * @param value 值\n     * @return true 成功 false失败\n     */\n    public boolean hset(String key, String item, Object value) {\n        try {\n            redisTemplate.opsForHash().put(key, item, value);\n            return true;\n        } catch (Exception e) {\n            e.printStackTrace();\n            return false;\n        }\n    }\n\n    /**\n     * 向一张hash表中放入数据,如果不存在将创建\n     *\n     * @param key   键\n     * @param item  项\n     * @param value 值\n     * @param time  时间(秒) 注意:如果已存在的hash表有时间,这里将会替换原有的时间\n     * @return true 成功 false失败\n     */\n    public boolean hset(String key, String item, Object value, long time) {\n        try {\n            redisTemplate.opsForHash().put(key, item, value);\n            if (time \u003e 0) {\n                expire(key, time);\n            }\n            return true;\n        } catch (Exception e) {\n            e.printStackTrace();\n            return false;\n        }\n    }\n\n    /**\n     * 删除hash表中的值\n     *\n     * @param key  键 不能为null\n     * @param item 项 可以使多个 不能为null\n     */\n    public void hdel(String key, Object... item) {\n        redisTemplate.opsForHash().delete(key, item);\n    }\n\n    /**\n     * 判断hash表中是否有该项的值\n     *\n     * @param key  键 不能为null\n     * @param item 项 不能为null\n     * @return true 存在 false不存在\n     */\n    public boolean hHasKey(String key, String item) {\n        return redisTemplate.opsForHash().hasKey(key, item);\n    }\n\n    /**\n     * hash递增 如果不存在,就会创建一个 并把新增后的值返回\n     *\n     * @param key  键\n     * @param item 项\n     * @param by   要增加几(大于0)\n     */\n    public double hincr(String key, String item, double by) {\n        return redisTemplate.opsForHash().increment(key, item, by);\n    }\n\n    /**\n     * hash递减\n     *\n     * @param key  键\n     * @param item 项\n     * @param by   要减少记(小于0)\n     */\n    public double hdecr(String key, String item, double by) {\n        return redisTemplate.opsForHash().increment(key, item, -by);\n    }\n// ============================set=============================\n\n    /**\n     * 根据key获取Set中的所有值\n     *\n     * @param key 键\n     */\n    public Set\u003cObject\u003e sGet(String key) {\n        try {\n            return redisTemplate.opsForSet().members(key);\n        } catch (Exception e) {\n            e.printStackTrace();\n            return null;\n        }\n    }\n\n    /**\n     * 根据value从一个set中查询,是否存在\n     *\n     * @param key   键\n     * @param value 值\n     * @return true 存在 false不存在\n     */\n    public boolean sHasKey(String key, Object value) {\n        try {\n            return redisTemplate.opsForSet().isMember(key, value);\n        } catch (Exception e) {\n            e.printStackTrace();\n            return false;\n        }\n    }\n\n    /**\n     * 将数据放入set缓存\n     *\n     * @param key    键\n     * @param values 值 可以是多个\n     * @return 成功个数\n     */\n    public long sSet(String key, Object... values) {\n        try {\n            return redisTemplate.opsForSet().add(key, values);\n        } catch (Exception e) {\n            e.printStackTrace();\n            return 0;\n        }\n    }\n\n    /**\n     * 将set数据放入缓存\n     *\n     * @param key    键\n     * @param time   时间(秒)\n     * @param values 值 可以是多个\n     * @return 成功个数\n     */\n    public long sSetAndTime(String key, long time, Object... values) {\n        try {\n            Long count = redisTemplate.opsForSet().add(key, values);\n            if (time \u003e 0)\n                expire(key, time);\n            return count;\n        } catch (Exception e) {\n            e.printStackTrace();\n            return 0;\n        }\n    }\n\n    /**\n     * 获取set缓存的长度\n     *\n     * @param key 键\n     */\n    public long sGetSetSize(String key) {\n        try {\n            return redisTemplate.opsForSet().size(key);\n        } catch (Exception e) {\n            e.printStackTrace();\n            return 0;\n        }\n    }\n\n    /**\n     * 移除值为value的\n     *\n     * @param key    键\n     * @param values 值 可以是多个\n     * @return 移除的个数\n     */\n    public long setRemove(String key, Object... values) {\n        try {\n            Long count = redisTemplate.opsForSet().remove(key, values);\n            return count;\n        } catch (Exception e) {\n            e.printStackTrace();\n            return 0;\n        }\n    }\n// ===============================list=================================\n\n    /**\n     * 获取list缓存的内容\n     *\n     * @param key   键\n     * @param start 开始\n     * @param end   结束 0 到 -1代表所有值\n     */\n    public List\u003cObject\u003e lGet(String key, long start, long end) {\n        try {\n            return redisTemplate.opsForList().range(key, start, end);\n        } catch (Exception e) {\n            e.printStackTrace();\n            return null;\n        }\n    }\n\n    /**\n     * 获取list缓存的长度\n     *\n     * @param key 键\n     */\n    public long lGetListSize(String key) {\n        try {\n            return redisTemplate.opsForList().size(key);\n        } catch (Exception e) {\n            e.printStackTrace();\n            return 0;\n        }\n    }\n\n    /**\n     * 通过索引 获取list中的值\n     *\n     * @param key   键\n     * @param index 索引 index\u003e=0时， 0 表头，1 第二个元素，依次类推；index\u003c0\n     *              时，-1，表尾，-2倒数第二个元素，依次类推\n     */\n    public Object lGetIndex(String key, long index) {\n        try {\n            return redisTemplate.opsForList().index(key, index);\n        } catch (Exception e) {\n            e.printStackTrace();\n            return null;\n        }\n    }\n\n    /**\n     * 将list放入缓存\n     *\n     * @param key   键\n     * @param value 值\n     */\n    public boolean lSet(String key, Object value) {\n        try {\n            redisTemplate.opsForList().rightPush(key, value);\n            return true;\n        } catch (Exception e) {\n            e.printStackTrace();\n            return false;\n        }\n    }\n\n    /**\n     * 将list放入缓存\n     *\n     * @param key   键\n     * @param value 值\n     * @param time  时间(秒)\n     */\n    public boolean lSet(String key, Object value, long time) {\n        try {\n            redisTemplate.opsForList().rightPush(key, value);\n            if (time \u003e 0)\n                expire(key, time);\n            return true;\n        } catch (Exception e) {\n            e.printStackTrace();\n            return false;\n        }\n    }\n\n    /**\n     * 将list放入缓存\n     *\n     * @param key   键\n     * @param value 值\n     * @return\n     */\n    public boolean lSet(String key, List\u003cObject\u003e value) {\n        try {\n            redisTemplate.opsForList().rightPushAll(key, value);\n            return true;\n        } catch (Exception e) {\n            e.printStackTrace();\n            return false;\n        }\n    }\n\n    /**\n     * 将list放入缓存\n     *\n     * @param key   键\n     * @param value 值\n     * @param time  时间(秒)\n     * @return\n     */\n    public boolean lSet(String key, List\u003cObject\u003e value, long time) {\n        try {\n            redisTemplate.opsForList().rightPushAll(key, value);\n            if (time \u003e 0){\n                expire(key, time);\n            }\n            return true;\n        } catch (Exception e) {\n            e.printStackTrace();\n            return false;\n        }\n    }\n\n    /**\n     * 根据索引修改list中的某条数据\n     *\n     * @param key   键\n     * @param index 索引\n     * @param value 值\n     * @return\n     */\n    public boolean lUpdateIndex(String key, long index, Object value) {\n        try {\n            redisTemplate.opsForList().set(key, index, value);\n            return true;\n        } catch (Exception e) {\n            e.printStackTrace();\n            return false;\n        }\n    }\n\n    /**\n     * 移除N个值为value\n     *\n     * @param key   键\n     * @param count 移除多少个\n     * @param value 值\n     * @return 移除的个数\n     */\n    public long lRemove(String key, long count, Object value) {\n        try {\n            Long remove = redisTemplate.opsForList().remove(key, count,\n                    value);\n            return remove;\n        } catch (Exception e) {\n            e.printStackTrace();\n            return 0;\n        }\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

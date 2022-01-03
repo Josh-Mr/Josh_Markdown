@@ -1,0 +1,648 @@
+{
+	"ID": "20220103140501-0zlqmr2",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20220103140501-0zlqmr2",
+		"title": "Redis_主从复制",
+		"updated": "20220103173238"
+	},
+	"Children": [
+		{
+			"ID": "20220103140501-feqigkt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220103140501-feqigkt",
+				"updated": "20220103140556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、概念"
+				}
+			]
+		},
+		{
+			"ID": "20220103172052-zjtc1ql",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220103172052-zjtc1ql",
+				"updated": "20220103172055"
+			},
+			"Children": [
+				{
+					"ID": "20220103172055-3cxms0j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220103172055-3cxms0j"
+					},
+					"Children": [
+						{
+							"ID": "20220103172055-ojl6q12",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103172055-ojl6q12",
+								"updated": "20220103172151"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "指将一台Redis服务器的数据，复制到其他Redis服务器的过程。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220103172155-hnympzu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220103172155-hnympzu"
+					},
+					"Children": [
+						{
+							"ID": "20220103172155-aegos5b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103172155-aegos5b",
+								"updated": "20220103172233"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "前者称为主节点（master）,后者称为从节点（slave）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220103172236-88r59oj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220103172236-88r59oj"
+					},
+					"Children": [
+						{
+							"ID": "20220103172236-9wokklk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103172236-9wokklk",
+								"updated": "20220103172346"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据复制是单向的，只能由主节点到从节点，主节点写数据为主，从节点数据为主。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220103172357-hhr326g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 6,
+			"Properties": {
+				"id": "20220103172357-hhr326g",
+				"updated": "20220103172416"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "主从复制作用："
+				}
+			]
+		},
+		{
+			"ID": "20220103172410-14mj7x2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220103172410-14mj7x2",
+				"updated": "20220103173238"
+			},
+			"Children": [
+				{
+					"ID": "20220103172418-1vxt780",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220103172418-1vxt780"
+					},
+					"Children": [
+						{
+							"ID": "20220103172418-3mndsqp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103172418-3mndsqp",
+								"updated": "20220103172444"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "负载均衡"
+								}
+							]
+						},
+						{
+							"ID": "20220103172543-fb8lzfm",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220103172543-fb8lzfm",
+								"updated": "20220103172549"
+							},
+							"Children": [
+								{
+									"ID": "20220103172549-7k4phlk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220103172549-7k4phlk"
+									},
+									"Children": [
+										{
+											"ID": "20220103172549-fiynqoc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220103172549-fiynqoc",
+												"updated": "20220103172850"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "主从复制"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "基础上，配合"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "读写分离"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，由"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "主节点"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "提供"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "写的服务"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "从节点"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "提供"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "读的服务"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，分担服务器的压力，有效的解决"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "读多写少"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "的业务场景。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220103172444-0z5dejj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220103172444-0z5dejj"
+					},
+					"Children": [
+						{
+							"ID": "20220103172444-9ab37gf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103172444-9ab37gf",
+								"updated": "20220103173056"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据冗余（热备份）"
+								}
+							]
+						},
+						{
+							"ID": "20220103172901-6vdq0ml",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220103172901-6vdq0ml",
+								"updated": "20220103172904"
+							},
+							"Children": [
+								{
+									"ID": "20220103172904-9mt3bij",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220103172904-9mt3bij"
+									},
+									"Children": [
+										{
+											"ID": "20220103172904-a7t01ja",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220103172904-a7t01ja",
+												"updated": "20220103173103"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "主从复制实现了数据的热备份。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220103172452-ayms66v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220103172452-ayms66v"
+					},
+					"Children": [
+						{
+							"ID": "20220103172452-vem6ote",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103172452-vem6ote",
+								"updated": "20220103172509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "故障恢复"
+								}
+							]
+						},
+						{
+							"ID": "20220103173121-hkuiiq8",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220103173121-hkuiiq8",
+								"updated": "20220103173126"
+							},
+							"Children": [
+								{
+									"ID": "20220103173126-iens9eh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220103173126-iens9eh"
+									},
+									"Children": [
+										{
+											"ID": "20220103173126-i33jwxv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220103173126-i33jwxv",
+												"updated": "20220103173204"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "当主节点出现问题时，可以由从节点提供服务，实现快速的故障恢复；实际上是一种服务的冗余。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220103172510-9jcfe8m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220103172510-9jcfe8m",
+						"updated": "20220103173238"
+					},
+					"Children": [
+						{
+							"ID": "20220103172510-a3f3g44",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103172510-a3f3g44",
+								"updated": "20220103172513"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "高可用"
+								}
+							]
+						},
+						{
+							"ID": "20220103173214-9g8m7aa",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220103173214-9g8m7aa",
+								"updated": "20220103173238"
+							},
+							"Children": [
+								{
+									"ID": "20220103173218-ezu0whw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220103173218-ezu0whw",
+										"updated": "20220103173238"
+									},
+									"Children": [
+										{
+											"ID": "20220103173218-7tg56z3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220103173218-7tg56z3",
+												"updated": "20220103173238"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "除了上述作用以外，主从复制还是哨兵和集群能够实施的基础，因此说主从复制是Redis高可用的基础。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220103140602-7qh097g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220103140602-7qh097g",
+				"updated": "20220103140615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、配置"
+				}
+			]
+		},
+		{
+			"ID": "20220103140616-rajh882",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220103140616-rajh882",
+				"updated": "20220103140616"
+			}
+		},
+		{
+			"ID": "20220103140617-qr0md4e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220103140617-qr0md4e",
+				"updated": "20220103140628"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、一主二从"
+				}
+			]
+		},
+		{
+			"ID": "20220103140628-y8w28ls",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220103140628-y8w28ls",
+				"updated": "20220103140628"
+			}
+		},
+		{
+			"ID": "20220103140637-ukk81nc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220103140637-ukk81nc",
+				"updated": "20220103140811"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四、哨兵模式"
+				}
+			]
+		},
+		{
+			"ID": "20220103170528-jntwh9a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220103170528-jntwh9a",
+				"updated": "20220103170528"
+			}
+		}
+	]
+}

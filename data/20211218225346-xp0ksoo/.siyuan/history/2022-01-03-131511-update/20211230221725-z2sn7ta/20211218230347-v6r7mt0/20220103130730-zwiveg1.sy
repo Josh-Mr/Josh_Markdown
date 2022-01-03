@@ -1,0 +1,208 @@
+{
+	"ID": "20220103130730-zwiveg1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220103130730-zwiveg1",
+		"title": "SpringBoot_Redis使用配置",
+		"updated": "20220103131509"
+	},
+	"Children": [
+		{
+			"ID": "20220103130731-ttbrlr7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20220103130731-ttbrlr7",
+				"updated": "20220103131321"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、常用配置"
+				}
+			]
+		},
+		{
+			"ID": "20220103131322-rv1k31j",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220103131322-rv1k31j",
+				"updated": "20220103131338"
+			},
+			"Children": [
+				{
+					"ID": "20220103131323-1nravoa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220103131323-1nravoa",
+						"updated": "20220103131338"
+					},
+					"Children": [
+						{
+							"ID": "20220103131323-59cnvxy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103131323-59cnvxy",
+								"updated": "20220103131329"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Maven配置"
+								}
+							]
+						},
+						{
+							"ID": "20220103131329-dhlri0k",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220103131329-dhlri0k",
+								"updated": "20220103131338"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "eG1s"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003cdependency\u003e\n\t\u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\n\t\u003cartifactId\u003espring-boot-starter-data-redis\u003c/artifactId\u003e\n\u003c/dependency\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220103131341-hekvx7s",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220103131341-hekvx7s",
+				"updated": "20220103131343"
+			},
+			"Children": [
+				{
+					"ID": "20220103131343-46vz1mo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220103131343-46vz1mo"
+					},
+					"Children": [
+						{
+							"ID": "20220103131343-hscu63z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103131343-hscu63z",
+								"updated": "20220103131407"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "properties配置"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220103131410-r416fqr",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220103131410-r416fqr",
+				"updated": "20220103131440"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "spring.redis.host=127.0.0.1\nspring.redis.port=6379\nspring.redis.password=root\nspring.redis.lettuce.shutdown-timeout=0ms\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220103131442-2c7t6hy",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220103131442-2c7t6hy",
+				"updated": "20220103131509"
+			},
+			"Children": [
+				{
+					"ID": "20220103131447-hqm5oya",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220103131447-hqm5oya",
+						"updated": "20220103131509"
+					},
+					"Children": [
+						{
+							"ID": "20220103131447-5c1aq1x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103131447-5c1aq1x",
+								"updated": "20220103131509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分析"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

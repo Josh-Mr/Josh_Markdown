@@ -1,0 +1,573 @@
+{
+	"ID": "20220104000307-kch1gx5",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220104000307-kch1gx5",
+		"title": "Redis_持久化",
+		"updated": "20220104002510"
+	},
+	"Children": [
+		{
+			"ID": "20220104000307-yw6i6jw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220104000307-yw6i6jw",
+				"updated": "20220104000422"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、RDB（Redis DataBase）"
+				}
+			]
+		},
+		{
+			"ID": "20220104000425-os57694",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104000425-os57694",
+				"updated": "20220104001439"
+			},
+			"Children": [
+				{
+					"ID": "20220104001023-trsnzy2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220104001023-trsnzy2",
+						"updated": "20220104001439"
+					},
+					"Children": [
+						{
+							"ID": "20220104001023-britjrb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104001023-britjrb",
+								"updated": "20220104001439"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "快照（"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Snapshot"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "）持久化：指定的"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "时间间隔内"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "将"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "内存中"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "的"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "数据集中"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "快照"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "写入磁盘"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，即是"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "快照技术"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104000425-8k1hqs8",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104000425-8k1hqs8",
+				"updated": "20220104002245"
+			},
+			"Children": [
+				{
+					"ID": "20220104001715-8o0hhpw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220104001715-8o0hhpw",
+						"updated": "20220104002245"
+					},
+					"Children": [
+						{
+							"ID": "20220104001715-rjiyoyb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104001715-rjiyoyb",
+								"updated": "20220104001904"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原理："
+								}
+							]
+						},
+						{
+							"ID": "20220104001909-rv15loo",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20220104001909-rv15loo",
+								"updated": "20220104002245"
+							},
+							"Children": [
+								{
+									"ID": "20220104001909-bh4x1t2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220104001909-bh4x1t2",
+										"updated": "20220104002245"
+									},
+									"Children": [
+										{
+											"ID": "20220104001909-5as4mbf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104001909-5as4mbf",
+												"updated": "20220104002245"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Redis会单独的"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "Fork"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "一个"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "子线程"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "进行持久化，"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220104002127-fni2dxx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20220104002127-fni2dxx"
+									},
+									"Children": [
+										{
+											"ID": "20220104002127-81r68qf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104002127-81r68qf",
+												"updated": "20220104002154"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "子线程将数据写入一个临时文件中，"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220104002155-o0hqknc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20220104002155-o0hqknc",
+										"updated": "20220104002232"
+									},
+									"Children": [
+										{
+											"ID": "20220104002155-s3r7j41",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104002155-s3r7j41",
+												"updated": "20220104002232"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "持久化结束后，用临时文件替换上次持久化文件。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104000425-aqopy23",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104000425-aqopy23",
+				"updated": "20220104002510"
+			},
+			"Children": [
+				{
+					"ID": "20220104002254-fyo32s9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220104002254-fyo32s9",
+						"updated": "20220104002510"
+					},
+					"Children": [
+						{
+							"ID": "20220104002254-gwefuqz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104002254-gwefuqz",
+								"updated": "20220104002325"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Fork复制作用"
+								}
+							]
+						},
+						{
+							"ID": "20220104002318-cgyidel",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20220104002318-cgyidel",
+								"updated": "20220104002510"
+							},
+							"Children": [
+								{
+									"ID": "20220104002318-zshd6g9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220104002318-zshd6g9"
+									},
+									"Children": [
+										{
+											"ID": "20220104002318-jzv3cws",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104002318-jzv3cws",
+												"updated": "20220104002446"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "持久化过程不占用主线程的IO"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220104002446-6fyy3v5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20220104002446-6fyy3v5",
+										"updated": "20220104002510"
+									},
+									"Children": [
+										{
+											"ID": "20220104002446-1ev7d50",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104002446-1ev7d50",
+												"updated": "20220104002510"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "拥有持久化瞬间的所有数据（）"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104000425-j2qv81h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220104000425-j2qv81h",
+				"updated": "20220104000447"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、AOP(Append Only File)"
+				}
+			]
+		},
+		{
+			"ID": "20220104000449-q2829og",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104000449-q2829og",
+				"updated": "20220104000449"
+			}
+		},
+		{
+			"ID": "20220104000501-6q3tv5u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104000501-6q3tv5u",
+				"updated": "20220104000501"
+			}
+		},
+		{
+			"ID": "20220104000501-dgsidna",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104000501-dgsidna",
+				"updated": "20220104000501"
+			}
+		},
+		{
+			"ID": "20220104000502-iw8ndmu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220104000502-iw8ndmu",
+				"updated": "20220104000508"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、总结"
+				}
+			]
+		},
+		{
+			"ID": "20220104001011-go0gql2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104001011-go0gql2",
+				"updated": "20220104001015"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "作用：Redis是内存数据库，如果不将内存中的数据保存到磁盘，一旦断电数据就会丢失。"
+				}
+			]
+		}
+	]
+}

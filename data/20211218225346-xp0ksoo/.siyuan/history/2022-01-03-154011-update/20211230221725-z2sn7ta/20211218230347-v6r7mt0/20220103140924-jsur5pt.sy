@@ -1,0 +1,327 @@
+{
+	"ID": "20220103140924-jsur5pt",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20220103140924-jsur5pt",
+		"title": "Redis_缓存穿透\u0026amp;雪崩",
+		"updated": "20220103154010"
+	},
+	"Children": [
+		{
+			"ID": "20220103140924-21jqkww",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220103140924-21jqkww",
+				"updated": "20220103153026"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、缓存穿透"
+				}
+			]
+		},
+		{
+			"ID": "20220103153027-6vrxxrn",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220103153027-6vrxxrn",
+				"updated": "20220103154010"
+			},
+			"Children": [
+				{
+					"ID": "20220103153309-65av8af",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220103153309-65av8af"
+					},
+					"Children": [
+						{
+							"ID": "20220103153309-i41te1i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103153309-i41te1i",
+								"updated": "20220103153325"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "概念"
+								}
+							]
+						},
+						{
+							"ID": "20220103153332-7jt0p9w",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220103153332-7jt0p9w",
+								"updated": "20220103153336"
+							},
+							"Children": [
+								{
+									"ID": "20220103153336-gs8cppb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220103153336-gs8cppb"
+									},
+									"Children": [
+										{
+											"ID": "20220103153336-mvpycg3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220103153336-mvpycg3",
+												"updated": "20220103153526"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "一大波请求进入，"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "缓存没有命中"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，导致请"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "求持久层数据库"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "。这个现象叫"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "缓存穿透"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220103153532-1xn3b8y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220103153532-1xn3b8y",
+						"updated": "20220103154010"
+					},
+					"Children": [
+						{
+							"ID": "20220103153532-ad76vw7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103153532-ad76vw7",
+								"updated": "20220103153628"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案"
+								}
+							]
+						},
+						{
+							"ID": "20220103153631-3d1c6iu",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220103153631-3d1c6iu",
+								"updated": "20220103154010"
+							},
+							"Children": [
+								{
+									"ID": "20220103153636-gf8m17r",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220103153636-gf8m17r",
+										"updated": "20220103154010"
+									},
+									"Children": [
+										{
+											"ID": "20220103153636-9tdn6ng",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220103153636-9tdn6ng",
+												"updated": "20220103153820"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "布隆过滤器："
+												}
+											]
+										},
+										{
+											"ID": "20220103153821-3mxk88n",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220103153821-3mxk88n",
+												"updated": "20220103154010"
+											},
+											"Children": [
+												{
+													"ID": "20220103153820-e9v86x2",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220103153820-e9v86x2",
+														"updated": "20220103154010"
+													},
+													"Children": [
+														{
+															"ID": "20220103153820-do7dmx9",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220103153820-do7dmx9",
+																"updated": "20220103154010"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "概念：是一种数据结构，对所有可能"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220103153027-1mevwr7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220103153027-1mevwr7",
+				"updated": "20220103153047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、缓存击穿"
+				}
+			]
+		},
+		{
+			"ID": "20220103153047-y8y2vyg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220103153047-y8y2vyg",
+				"updated": "20220103153047"
+			}
+		},
+		{
+			"ID": "20220103153047-u3nkz2e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220103153047-u3nkz2e",
+				"updated": "20220103153056"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、缓存雪崩"
+				}
+			]
+		},
+		{
+			"ID": "20220103153057-1gr8dev",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220103153057-1gr8dev",
+				"updated": "20220103153057"
+			}
+		}
+	]
+}

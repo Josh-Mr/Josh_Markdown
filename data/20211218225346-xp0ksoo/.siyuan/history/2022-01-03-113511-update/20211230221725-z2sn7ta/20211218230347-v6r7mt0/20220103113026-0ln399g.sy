@@ -1,0 +1,131 @@
+{
+	"ID": "20220103113026-0ln399g",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20220103113026-0ln399g",
+		"title": "Jedis详解",
+		"updated": "20220103113439"
+	},
+	"Children": [
+		{
+			"ID": "20220103113026-ci0hdve",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20220103113026-ci0hdve",
+				"updated": "20220103113132"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、简介"
+				}
+			]
+		},
+		{
+			"ID": "20220103113133-ampxq0l",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220103113133-ampxq0l",
+				"updated": "20220103113247"
+			},
+			"Children": [
+				{
+					"ID": "20220103113134-3u35yt0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220103113134-3u35yt0"
+					},
+					"Children": [
+						{
+							"ID": "20220103113134-y0yl7bs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103113134-y0yl7bs",
+								"updated": "20220103113202"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Jedis是redis官方推荐的redis连接开发工具。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220103113206-lsvht8g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220103113206-lsvht8g",
+						"updated": "20220103113247"
+					},
+					"Children": [
+						{
+							"ID": "20220103113206-0w0ppj6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103113206-0w0ppj6",
+								"updated": "20220103113247"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "与Springboot集成的lettuce相比："
+								}
+							]
+						},
+						{
+							"ID": "20220103113243-5f77j4t",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220103113243-5f77j4t"
+							},
+							"Children": [
+								{
+									"ID": "20220103113243-2z1us2e",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220103113243-2z1us2e"
+									},
+									"Children": [
+										{
+											"ID": "20220103113243-1sizmop",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220103113243-1sizmop"
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220103113439-1glgsxg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220103113439-1glgsxg",
+				"updated": "20220103113439"
+			}
+		}
+	]
+}

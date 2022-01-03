@@ -1,0 +1,1346 @@
+{
+	"ID": "20220103140501-0zlqmr2",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20220103140501-0zlqmr2",
+		"title": "Redis_主从复制",
+		"updated": "20220103235302"
+	},
+	"Children": [
+		{
+			"ID": "20220103140501-feqigkt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220103140501-feqigkt",
+				"updated": "20220103140556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、概念"
+				}
+			]
+		},
+		{
+			"ID": "20220103172052-zjtc1ql",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220103172052-zjtc1ql",
+				"updated": "20220103172055"
+			},
+			"Children": [
+				{
+					"ID": "20220103172055-3cxms0j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220103172055-3cxms0j"
+					},
+					"Children": [
+						{
+							"ID": "20220103172055-ojl6q12",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103172055-ojl6q12",
+								"updated": "20220103172151"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "指将一台Redis服务器的数据，复制到其他Redis服务器的过程。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220103172155-hnympzu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220103172155-hnympzu"
+					},
+					"Children": [
+						{
+							"ID": "20220103172155-aegos5b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103172155-aegos5b",
+								"updated": "20220103172233"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "前者称为主节点（master）,后者称为从节点（slave）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220103172236-88r59oj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220103172236-88r59oj"
+					},
+					"Children": [
+						{
+							"ID": "20220103172236-9wokklk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103172236-9wokklk",
+								"updated": "20220103172346"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据复制是单向的，只能由主节点到从节点，主节点写数据为主，从节点数据为主。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220103172357-hhr326g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 6,
+			"Properties": {
+				"id": "20220103172357-hhr326g",
+				"updated": "20220103235302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "主从复制作用"
+				}
+			]
+		},
+		{
+			"ID": "20220103172410-14mj7x2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220103172410-14mj7x2",
+				"updated": "20220103174110"
+			},
+			"Children": [
+				{
+					"ID": "20220103172418-1vxt780",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220103172418-1vxt780",
+						"updated": "20220103174101"
+					},
+					"Children": [
+						{
+							"ID": "20220103172418-3mndsqp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103172418-3mndsqp",
+								"updated": "20220103174144"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Properties": {
+										"style": "text-shadow: 1px 1px var(--b3-border-color), 2px 2px var(--b3-border-color), 3px 3px var(--b3-border-color), 4px 4px var(--b3-border-color);"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "负载均衡"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"text-shadow: 1px 1px var(--b3-border-color), 2px 2px var(--b3-border-color), 3px 3px var(--b3-border-color), 4px 4px var(--b3-border-color);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								}
+							]
+						},
+						{
+							"ID": "20220103172543-fb8lzfm",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220103172543-fb8lzfm",
+								"updated": "20220103172549"
+							},
+							"Children": [
+								{
+									"ID": "20220103172549-7k4phlk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220103172549-7k4phlk"
+									},
+									"Children": [
+										{
+											"ID": "20220103172549-fiynqoc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220103172549-fiynqoc",
+												"updated": "20220103172850"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "主从复制"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "基础上，配合"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "读写分离"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，由"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "主节点"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "提供"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "写的服务"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "从节点"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "提供"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "读的服务"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，分担服务器的压力，有效的解决"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "读多写少"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "的业务场景。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220103172444-0z5dejj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220103172444-0z5dejj"
+					},
+					"Children": [
+						{
+							"ID": "20220103172444-9ab37gf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103172444-9ab37gf",
+								"updated": "20220103174149"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Properties": {
+										"style": "text-shadow: 1px 1px var(--b3-border-color), 2px 2px var(--b3-border-color), 3px 3px var(--b3-border-color), 4px 4px var(--b3-border-color);"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "数据冗余（热备份）"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"text-shadow: 1px 1px var(--b3-border-color), 2px 2px var(--b3-border-color), 3px 3px var(--b3-border-color), 4px 4px var(--b3-border-color);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20220103172901-6vdq0ml",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220103172901-6vdq0ml",
+								"updated": "20220103172904"
+							},
+							"Children": [
+								{
+									"ID": "20220103172904-9mt3bij",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220103172904-9mt3bij"
+									},
+									"Children": [
+										{
+											"ID": "20220103172904-a7t01ja",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220103172904-a7t01ja",
+												"updated": "20220103173103"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "主从复制实现了数据的热备份。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220103172452-ayms66v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220103172452-ayms66v"
+					},
+					"Children": [
+						{
+							"ID": "20220103172452-vem6ote",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103172452-vem6ote",
+								"updated": "20220103174153"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Properties": {
+										"style": "text-shadow: 1px 1px var(--b3-border-color), 2px 2px var(--b3-border-color), 3px 3px var(--b3-border-color), 4px 4px var(--b3-border-color);"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "故障恢复"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"text-shadow: 1px 1px var(--b3-border-color), 2px 2px var(--b3-border-color), 3px 3px var(--b3-border-color), 4px 4px var(--b3-border-color);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20220103173121-hkuiiq8",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220103173121-hkuiiq8",
+								"updated": "20220103173126"
+							},
+							"Children": [
+								{
+									"ID": "20220103173126-iens9eh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220103173126-iens9eh"
+									},
+									"Children": [
+										{
+											"ID": "20220103173126-i33jwxv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220103173126-i33jwxv",
+												"updated": "20220103173204"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "当主节点出现问题时，可以由从节点提供服务，实现快速的故障恢复；实际上是一种服务的冗余。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220103172510-9jcfe8m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220103172510-9jcfe8m",
+						"updated": "20220103174110"
+					},
+					"Children": [
+						{
+							"ID": "20220103172510-a3f3g44",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103172510-a3f3g44",
+								"updated": "20220103174158"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Properties": {
+										"style": "text-shadow: 1px 1px var(--b3-border-color), 2px 2px var(--b3-border-color), 3px 3px var(--b3-border-color), 4px 4px var(--b3-border-color);"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "高可用"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"text-shadow: 1px 1px var(--b3-border-color), 2px 2px var(--b3-border-color), 3px 3px var(--b3-border-color), 4px 4px var(--b3-border-color);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20220103173214-9g8m7aa",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220103173214-9g8m7aa",
+								"updated": "20220103174110"
+							},
+							"Children": [
+								{
+									"ID": "20220103173218-ezu0whw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220103173218-ezu0whw",
+										"updated": "20220103174110"
+									},
+									"Children": [
+										{
+											"ID": "20220103173218-7tg56z3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220103173218-7tg56z3",
+												"updated": "20220103174110"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "除了上述作用以外，主从复制还是哨兵和集群能够实施的基础，因此说主从复制是\nRedis高可用的基础。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220103174225-zox4wzi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 6,
+			"Properties": {
+				"id": "20220103174225-zox4wzi",
+				"updated": "20220103174456"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "集群必要性"
+				}
+			]
+		},
+		{
+			"ID": "20220103174500-vpmta7o",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220103174500-vpmta7o",
+				"updated": "20220103174546"
+			},
+			"Children": [
+				{
+					"ID": "20220103174546-cbpc2ex",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220103174546-cbpc2ex"
+					},
+					"Children": [
+						{
+							"ID": "20220103174546-c386hby",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103174546-c386hby",
+								"updated": "20220103174632"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从结构上，单个Redis服务器会发生"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "单点故障"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，并且一台服务器需要处理所有的请求负载，压力较大；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220103174550-zd4z0ne",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220103174550-zd4z0ne"
+					},
+					"Children": [
+						{
+							"ID": "20220103174550-xnbsr4h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103174550-xnbsr4h",
+								"updated": "20220103174642"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从容量上，单个Redis服务器内存容量有限，就算一台Redis服务器内存容量为256G，也不能将所有内存用作Redis存储内存，一般来说，"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "单台Redis最大使用内存不应该超过20G"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220103174831-yoakhth",
+			"Type": "NodeHeading",
+			"HeadingLevel": 6,
+			"Properties": {
+				"id": "20220103174831-yoakhth",
+				"updated": "20220103174848"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "读多写少"
+				}
+			]
+		},
+		{
+			"ID": "20220103174850-4br8ti3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220103174850-4br8ti3",
+				"updated": "20220103174859"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "max-width: 452px;",
+						"style": "width: 442px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220103174859-9rgker9.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 442px;\" parent-style=\"max-width: 452px;\"}"
+				}
+			]
+		},
+		{
+			"ID": "20220103140602-7qh097g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220103140602-7qh097g",
+				"updated": "20220103140615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、配置"
+				}
+			]
+		},
+		{
+			"ID": "20220103140616-rajh882",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220103140616-rajh882",
+				"updated": "20220103175109"
+			},
+			"Children": [
+				{
+					"ID": "20220103175011-07xb4my",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220103175011-07xb4my",
+						"updated": "20220103175109"
+					},
+					"Children": [
+						{
+							"ID": "20220103175011-x1arr58",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103175011-x1arr58",
+								"updated": "20220103175109"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基本配置（主从复制）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220103175015-zihtdwb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220103175015-zihtdwb",
+				"updated": "20220103175046"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "slaveof 主库ip 主库端口 # 配置主从\nInfo replication # 查看信息\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220103175117-m5njv4r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220103175117-m5njv4r",
+				"updated": "20220103175139"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220103175139-cki0zqv.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220103175157-etx4bzx",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220103175157-etx4bzx",
+				"updated": "20220103175713"
+			},
+			"Children": [
+				{
+					"ID": "20220103175206-3693vq1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220103175206-3693vq1",
+						"updated": "20220103175713"
+					},
+					"Children": [
+						{
+							"ID": "20220103175206-dw3zwoo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220103175206-dw3zwoo",
+								"updated": "20220103175522"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Properties": {
+										"style": "text-shadow: 1px 1px var(--b3-border-color), 2px 2px var(--b3-border-color), 3px 3px var(--b3-border-color), 4px 4px var(--b3-border-color);"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "复制原理"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"text-shadow: 1px 1px var(--b3-border-color), 2px 2px var(--b3-border-color), 3px 3px var(--b3-border-color), 4px 4px var(--b3-border-color);\"}"
+								}
+							]
+						},
+						{
+							"ID": "20220103175238-phgxbb9",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20220103175238-phgxbb9",
+								"updated": "20220103175713"
+							},
+							"Children": [
+								{
+									"ID": "20220103175241-u7zoibo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220103175241-u7zoibo"
+									},
+									"Children": [
+										{
+											"ID": "20220103175241-8kmwhze",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220103175241-8kmwhze",
+												"updated": "20220103175319"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "slave启用成功连接到master后会发送sync命令。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220103175319-18r55am",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20220103175319-18r55am"
+									},
+									"Children": [
+										{
+											"ID": "20220103175319-li0w00f",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220103175319-li0w00f",
+												"updated": "20220103175421"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Master接到命令，启动后台的存盘进程，同时收集所有接收到的用于修改"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "数据集命令"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，在后台进程执行\n完毕之后，"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "master将传送整个数据文件到slave，并完成一次完全同步。"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220103175425-1r2ffu6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20220103175425-1r2ffu6"
+									},
+									"Children": [
+										{
+											"ID": "20220103175425-wv3ceen",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220103175425-wv3ceen",
+												"updated": "20220103175446"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "全量复制：而slave服务在接收到数据库文件数据后，将其存盘并加载到内存中。\n"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220103175449-t5i0v2i",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20220103175449-t5i0v2i"
+									},
+									"Children": [
+										{
+											"ID": "20220103175449-x4hhlfx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220103175449-x4hhlfx"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "增量复制：Master继续将新的所有收集到的修改命令依次传给slave，完成同步\n"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220103175458-0uzejfs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20220103175458-0uzejfs"
+									},
+									"Children": [
+										{
+											"ID": "20220103175458-ugzudds",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220103175458-ugzudds"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "但是只要是重新连接master，一次完全同步（全量复制）将被自动执行"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220103175544-mso4978",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Ni4=",
+										"Num": 6
+									},
+									"Properties": {
+										"id": "20220103175544-mso4978",
+										"updated": "20220103175713"
+									},
+									"Children": [
+										{
+											"ID": "20220103175544-mxu9cnh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220103175544-mxu9cnh",
+												"updated": "20220103175549"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "大白话："
+												}
+											]
+										},
+										{
+											"ID": "20220103175600-s0wh2fx",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20220103175600-s0wh2fx",
+												"updated": "20220103175713"
+											},
+											"Children": [
+												{
+													"ID": "20220103175600-rygrwhu",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20220103175600-rygrwhu"
+													},
+													"Children": [
+														{
+															"ID": "20220103175600-7anqfbv",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220103175600-7anqfbv",
+																"updated": "20220103175622"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "slave发送sync命令"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220103175611-uxqkx1j",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20220103175611-uxqkx1j",
+														"updated": "20220103175713"
+													},
+													"Children": [
+														{
+															"ID": "20220103175611-xcai0jc",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220103175611-xcai0jc",
+																"updated": "20220103175713"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "master收集命令包（全量和增量）发送给slave执行"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220103170528-jntwh9a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220103170528-jntwh9a",
+				"updated": "20220103170528"
+			}
+		}
+	]
+}
