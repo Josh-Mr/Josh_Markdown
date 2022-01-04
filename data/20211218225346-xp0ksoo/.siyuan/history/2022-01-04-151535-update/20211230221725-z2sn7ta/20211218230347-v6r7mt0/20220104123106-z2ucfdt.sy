@@ -1,0 +1,833 @@
+{
+	"ID": "20220104123106-z2ucfdt",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220104123106-z2ucfdt",
+		"title": "NoSQL_讲解",
+		"updated": "20220104151534"
+	},
+	"Children": [
+		{
+			"ID": "20220104123106-jby6rmi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220104123106-jby6rmi",
+				"updated": "20220104144823"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、什么是NoSQL？"
+				}
+			]
+		},
+		{
+			"ID": "20220104144823-xyq7mok",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220104144823-xyq7mok",
+				"updated": "20220104151035"
+			},
+			"Children": [
+				{
+					"ID": "20220104150156-z4u0v9p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220104150156-z4u0v9p"
+					},
+					"Children": [
+						{
+							"ID": "20220104150156-ex4gvkz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104150156-ex4gvkz",
+								"updated": "20220104150332"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "NoSQL：Not Only SQL （不仅仅是SQL）；泛指非关系型数据库。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220104150220-tgbsf9e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220104150220-tgbsf9e",
+						"updated": "20220104151035"
+					},
+					"Children": [
+						{
+							"ID": "20220104150220-dob7d75",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104150220-dob7d75",
+								"updated": "20220104150339"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "特点"
+								}
+							]
+						},
+						{
+							"ID": "20220104150341-42jcxmv",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220104150341-42jcxmv",
+								"updated": "20220104151035"
+							},
+							"Children": [
+								{
+									"ID": "20220104150341-p0lco2y",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220104150341-p0lco2y"
+									},
+									"Children": [
+										{
+											"ID": "20220104150341-18wk8kt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104150341-18wk8kt",
+												"updated": "20220104150412"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "易扩展"
+												}
+											]
+										},
+										{
+											"ID": "20220104150739-o3z2aiq",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20220104150739-o3z2aiq",
+												"updated": "20220104150742"
+											},
+											"Children": [
+												{
+													"ID": "20220104150742-s466pbi",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20220104150742-s466pbi"
+													},
+													"Children": [
+														{
+															"ID": "20220104150742-01tx857",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220104150742-01tx857",
+																"updated": "20220104150836"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "共同的特点都是去除关系数据库的关系型特性。数据之前没有耦合关系。有利于扩展。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220104150414-59memlr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220104150414-59memlr"
+									},
+									"Children": [
+										{
+											"ID": "20220104150414-xguf5bz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104150414-xguf5bz",
+												"updated": "20220104150426"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "大数据量高性能"
+												}
+											]
+										},
+										{
+											"ID": "20220104150851-qb4in68",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20220104150851-qb4in68",
+												"updated": "20220104150853"
+											},
+											"Children": [
+												{
+													"ID": "20220104150853-m7691od",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20220104150853-m7691od"
+													},
+													"Children": [
+														{
+															"ID": "20220104150853-pqj4lho",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220104150853-pqj4lho",
+																"updated": "20220104150912"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "基于内存数据库，非常高的读写性能。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220104150929-415ku8s",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20220104150929-415ku8s"
+													},
+													"Children": [
+														{
+															"ID": "20220104150929-c2h7fho",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220104150929-c2h7fho",
+																"updated": "20220104150937"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "官方记录：Redis一秒可以写8万次，读11万次！"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220104150429-tb7yjrt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220104150429-tb7yjrt"
+									},
+									"Children": [
+										{
+											"ID": "20220104150429-4btslbj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104150429-4btslbj",
+												"updated": "20220104150443"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "多种数据模型"
+												}
+											]
+										},
+										{
+											"ID": "20220104151002-0x5z0uu",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20220104151002-0x5z0uu",
+												"updated": "20220104151006"
+											},
+											"Children": [
+												{
+													"ID": "20220104151006-k6cgry3",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20220104151006-k6cgry3"
+													},
+													"Children": [
+														{
+															"ID": "20220104151006-bt645uz",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220104151006-bt645uz",
+																"updated": "20220104151020"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "NoSQL无需事先为要存储的数据建立字段，随时可以存储自定义的数据格式，而在关系数据库里，增删字段是一件非常麻烦的事情。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220104150443-1crludt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220104150443-1crludt",
+										"updated": "20220104151035"
+									},
+									"Children": [
+										{
+											"ID": "20220104150443-g018tjk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104150443-g018tjk",
+												"updated": "20220104150509"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "对比传统关系型数据库"
+												}
+											]
+										},
+										{
+											"ID": "20220104151031-lsddfvt",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20220104151031-lsddfvt",
+												"updated": "20220104151035"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "YmFzaA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "传统的关系型数据库 RDBMS\n- 高度组织化结构化数据\n- 结构化查询语言（SQL）\n- 数据和关系都存储在单独的表中\n- 数据操纵语言，数据定义语言\n- 严格的一致性\n- 基础事务\nNoSQL\n- 代表着不仅仅是SQL\n- 没有声明性查询语言\n- 没有预定义的模式\n- 键值对存储，列存储，文档存储，图形数据库\n- 最终一致性，而非ACID属性\n- 非结构化和不可预知的数据\n- CAP定理\n- 高性能，高可用性 和 可伸缩性\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104144824-2x6visx",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220104144824-2x6visx",
+				"updated": "20220104151237"
+			},
+			"Children": [
+				{
+					"ID": "20220104150650-iipo435",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220104150650-iipo435",
+						"updated": "20220104151237"
+					},
+					"Children": [
+						{
+							"ID": "20220104150650-l7tqfin",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104150650-l7tqfin",
+								"updated": "20220104150707"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "扩展知识"
+								}
+							]
+						},
+						{
+							"ID": "20220104150707-rojzc9s",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20220104150707-rojzc9s",
+								"updated": "20220104151237"
+							},
+							"Children": [
+								{
+									"ID": "20220104150710-xykvul8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220104150710-xykvul8",
+										"updated": "20220104151237"
+									},
+									"Children": [
+										{
+											"ID": "20220104150710-03u9i95",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104150710-03u9i95",
+												"updated": "20220104151143"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "大数据时代的3V：主要是对问题的描述"
+												}
+											]
+										},
+										{
+											"ID": "20220104151211-xam8isf",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20220104151211-xam8isf",
+												"updated": "20220104151237"
+											},
+											"Children": [
+												{
+													"ID": "20220104151211-ou9r6dq",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20220104151211-ou9r6dq"
+													},
+													"Children": [
+														{
+															"ID": "20220104151211-q3iq3lk",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220104151211-q3iq3lk",
+																"updated": "20220104151219"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "海量 Volume"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220104151219-fyvk4gt",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20220104151219-fyvk4gt"
+													},
+													"Children": [
+														{
+															"ID": "20220104151219-sg23f1r",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220104151219-sg23f1r",
+																"updated": "20220104151230"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "多样 Variety"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220104151230-sa2bri5",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20220104151230-sa2bri5",
+														"updated": "20220104151237"
+													},
+													"Children": [
+														{
+															"ID": "20220104151230-cls1831",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220104151230-cls1831",
+																"updated": "20220104151237"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "实时 Velocity"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220104151111-9oq9mq7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20220104151111-9oq9mq7"
+									},
+									"Children": [
+										{
+											"ID": "20220104151111-wtdxy9h",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104151111-wtdxy9h",
+												"updated": "20220104151154"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "互联网需求的3高：主要是对程序的要求"
+												}
+											]
+										},
+										{
+											"ID": "20220104151157-lq52sie",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20220104151157-lq52sie"
+											},
+											"Children": [
+												{
+													"ID": "20220104151156-04eozgn",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20220104151156-04eozgn"
+													},
+													"Children": [
+														{
+															"ID": "20220104151156-xekzpjj",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220104151156-xekzpjj",
+																"updated": "20220104151203"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "高并发"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220104151203-byswb0j",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20220104151203-byswb0j"
+													},
+													"Children": [
+														{
+															"ID": "20220104151203-mzpv8v2",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220104151203-mzpv8v2",
+																"updated": "20220104151206"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "高可用"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220104151206-kh0vut3",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20220104151206-kh0vut3"
+													},
+													"Children": [
+														{
+															"ID": "20220104151206-v7zatnz",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220104151206-v7zatnz",
+																"updated": "20220104151208"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "高性能"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104144824-pxladdc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220104144824-pxladdc",
+				"updated": "20220104144912"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、NoSQL四大分类"
+				}
+			]
+		},
+		{
+			"ID": "20220104144913-qdothow",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220104144913-qdothow",
+				"updated": "20220104151534"
+			},
+			"Children": [
+				{
+					"ID": "20220104151514-rthyno7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220104151514-rthyno7",
+						"updated": "20220104151534"
+					},
+					"Children": [
+						{
+							"ID": "20220104151514-t2rhaxe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104151514-t2rhaxe",
+								"updated": "20220104151526"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基于键值对"
+								}
+							]
+						},
+						{
+							"ID": "20220104151529-uff93pq",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20220104151529-uff93pq",
+								"updated": "20220104151534"
+							},
+							"Children": [
+								{
+									"ID": "20220104151534-k5xxj9o",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220104151534-k5xxj9o"
+									},
+									"Children": [
+										{
+											"ID": "20220104151534-yd696qn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104151534-yd696qn"
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104144913-dn42z42",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104144913-dn42z42",
+				"updated": "20220104144913"
+			}
+		},
+		{
+			"ID": "20220104144913-51yykxm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104144913-51yykxm",
+				"updated": "20220104144913"
+			}
+		},
+		{
+			"ID": "20220104144913-cbmfcpb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220104144913-cbmfcpb",
+				"updated": "20220104144928"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、CAP+BASE"
+				}
+			]
+		},
+		{
+			"ID": "20220104145952-ondl8nf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104145952-ondl8nf",
+				"updated": "20220104145952"
+			}
+		}
+	]
+}

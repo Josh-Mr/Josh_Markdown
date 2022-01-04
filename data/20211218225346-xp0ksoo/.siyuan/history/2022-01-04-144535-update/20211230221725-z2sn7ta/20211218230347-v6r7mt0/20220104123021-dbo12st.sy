@@ -1,0 +1,484 @@
+{
+	"ID": "20220104123021-dbo12st",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220104123021-dbo12st",
+		"title": "Redis_简介",
+		"updated": "20220104144129"
+	},
+	"Children": [
+		{
+			"ID": "20220104123021-qpt9a4o",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220104123021-qpt9a4o",
+				"updated": "20220104141102"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、Redis是什么？"
+				}
+			]
+		},
+		{
+			"ID": "20220104141858-6fsoase",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220104141858-6fsoase",
+				"updated": "20220104143848"
+			},
+			"Children": [
+				{
+					"ID": "20220104141948-97lr756",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220104141948-97lr756"
+					},
+					"Children": [
+						{
+							"ID": "20220104141948-ub0ny1q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104141948-ub0ny1q"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Redis：Remote Dictionary Server （远程字典服务器）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220104141950-1kt77f9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220104141950-1kt77f9"
+					},
+					"Children": [
+						{
+							"ID": "20220104141950-ptxp4i0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104141950-ptxp4i0",
+								"updated": "20220104142820"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "完全开源免费、用C语言编写、遵守BSD协议的高性能（Key-Value）分布式内存数据库，基于内存运行，并支持持久化的NoSQL数据库。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220104142834-zpxkm14",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220104142834-zpxkm14",
+						"updated": "20220104143848"
+					},
+					"Children": [
+						{
+							"ID": "20220104142834-a76rdz4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104142834-a76rdz4",
+								"updated": "20220104142844"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "特点："
+								}
+							]
+						},
+						{
+							"ID": "20220104142845-6xee2dh",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220104142845-6xee2dh",
+								"updated": "20220104143848"
+							},
+							"Children": [
+								{
+									"ID": "20220104142845-pgjwdrl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220104142845-pgjwdrl"
+									},
+									"Children": [
+										{
+											"ID": "20220104142845-gdgu3sc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104142845-gdgu3sc",
+												"updated": "20220104143034"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "支持数据持久化；把内存的数据持久化到磁盘，重启后自动加载磁盘的数据。"
+												},
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220104000307-kch1gx5"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Redis_持久化"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220104143722-lij7hha",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220104143722-lij7hha"
+									},
+									"Children": [
+										{
+											"ID": "20220104143722-o3bpeyc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104143722-o3bpeyc",
+												"updated": "20220104143803"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "支持多种数据结构类型存储。List、Set、Zset、hash等数据结构。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220104143803-64vqz2q",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220104143803-64vqz2q",
+										"updated": "20220104143848"
+									},
+									"Children": [
+										{
+											"ID": "20220104143803-l2fhoo4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104143803-l2fhoo4",
+												"updated": "20220104143848"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "支持数据的备份，即master-slave模式的数据备份。（主从复制）"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104141103-aph7soq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220104141103-aph7soq",
+				"updated": "20220104141115"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、Redis有什么用？"
+				}
+			]
+		},
+		{
+			"ID": "20220104144114-pilbkx0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104144114-pilbkx0",
+				"updated": "20220104144118"
+			},
+			"Children": [
+				{
+					"ID": "20220104144118-3ulvtkr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220104144118-3ulvtkr"
+					},
+					"Children": [
+						{
+							"ID": "20220104144118-jos3jae",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104144118-jos3jae"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "会话缓存（最常用）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104144114-8tek2j4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104144114-8tek2j4",
+				"updated": "20220104144121"
+			},
+			"Children": [
+				{
+					"ID": "20220104144121-p6ecst0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220104144121-p6ecst0"
+					},
+					"Children": [
+						{
+							"ID": "20220104144121-b9icjmv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104144121-b9icjmv"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "消息队列，比如支付"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104144114-a6xi68i",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104144114-a6xi68i",
+				"updated": "20220104144124"
+			},
+			"Children": [
+				{
+					"ID": "20220104144124-vqu44tz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220104144124-vqu44tz"
+					},
+					"Children": [
+						{
+							"ID": "20220104144124-la30jkc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104144124-la30jkc"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "活动排行榜或计数"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104144114-ibiuoym",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104144114-ibiuoym",
+				"updated": "20220104144126"
+			},
+			"Children": [
+				{
+					"ID": "20220104144126-qvv8swr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220104144126-qvv8swr"
+					},
+					"Children": [
+						{
+							"ID": "20220104144126-ij9a91d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104144126-ij9a91d"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "发布、订阅消息（消息通知）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104144114-gifkbor",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104144114-gifkbor",
+				"updated": "20220104144129"
+			},
+			"Children": [
+				{
+					"ID": "20220104144129-vj8bzbn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220104144129-vj8bzbn"
+					},
+					"Children": [
+						{
+							"ID": "20220104144129-gv1tphc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104144129-gv1tphc"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "商品列表、评论列表等"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104141115-2c1d04t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104141115-2c1d04t",
+				"updated": "20220104141115"
+			}
+		},
+		{
+			"ID": "20220104141115-yeml9lm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104141115-yeml9lm",
+				"updated": "20220104141115"
+			}
+		},
+		{
+			"ID": "20220104141132-b8x771y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104141132-b8x771y",
+				"updated": "20220104141132"
+			}
+		}
+	]
+}

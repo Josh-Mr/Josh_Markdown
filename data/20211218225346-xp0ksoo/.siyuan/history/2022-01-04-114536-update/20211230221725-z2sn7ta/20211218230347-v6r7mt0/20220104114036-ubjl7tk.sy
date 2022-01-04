@@ -1,0 +1,305 @@
+{
+	"ID": "20220104114036-ubjl7tk",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220104114036-ubjl7tk",
+		"title": "Redis_数据类型",
+		"updated": "20220104114436"
+	},
+	"Children": [
+		{
+			"ID": "20220104114101-d6nrq3a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220104114101-d6nrq3a",
+				"updated": "20220104114311"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、五大基本数据类型"
+				}
+			]
+		},
+		{
+			"ID": "20220104114331-53io87i",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220104114331-53io87i",
+				"updated": "20220104114356"
+			},
+			"Children": [
+				{
+					"ID": "20220104114334-3r1zapc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220104114334-3r1zapc"
+					},
+					"Children": [
+						{
+							"ID": "20220104114334-7lqveeq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104114334-7lqveeq",
+								"updated": "20220104114337"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "String"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220104114340-8s73vyu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220104114340-8s73vyu"
+					},
+					"Children": [
+						{
+							"ID": "20220104114340-b1mh5sx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104114340-b1mh5sx",
+								"updated": "20220104114342"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "List"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220104114343-bu2xa7l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220104114343-bu2xa7l"
+					},
+					"Children": [
+						{
+							"ID": "20220104114343-cxf1ht8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104114343-cxf1ht8",
+								"updated": "20220104114345"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Set"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220104114346-940sdb3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220104114346-940sdb3"
+					},
+					"Children": [
+						{
+							"ID": "20220104114346-5uvh6jg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104114346-5uvh6jg",
+								"updated": "20220104114350"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Hash"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220104114351-ix53mph",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220104114351-ix53mph",
+						"updated": "20220104114356"
+					},
+					"Children": [
+						{
+							"ID": "20220104114351-dr3zafq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104114351-dr3zafq",
+								"updated": "20220104114356"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Zset"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104114312-x9ouh1w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104114312-x9ouh1w",
+				"updated": "20220104114312"
+			}
+		},
+		{
+			"ID": "20220104114312-jfha8wo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104114312-jfha8wo",
+				"updated": "20220104114312"
+			}
+		},
+		{
+			"ID": "20220104114312-mfbunrv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104114312-mfbunrv",
+				"updated": "20220104114312"
+			}
+		},
+		{
+			"ID": "20220104114312-5nlljpo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220104114312-5nlljpo",
+				"updated": "20220104114328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、三种特殊数据类型"
+				}
+			]
+		},
+		{
+			"ID": "20220104114406-wdxfri1",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220104114406-wdxfri1",
+				"updated": "20220104114436"
+			},
+			"Children": [
+				{
+					"ID": "20220104114407-of7rj3h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220104114407-of7rj3h"
+					},
+					"Children": [
+						{
+							"ID": "20220104114407-kshw1qt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104114407-kshw1qt",
+								"updated": "20220104114420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "GEO地理位置"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220104114420-41s21av",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220104114420-41s21av"
+					},
+					"Children": [
+						{
+							"ID": "20220104114420-do1qdku",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104114420-do1qdku",
+								"updated": "20220104114426"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HyperLogLog"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220104114436-9bxcy6n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220104114436-9bxcy6n",
+						"updated": "20220104114436"
+					},
+					"Children": [
+						{
+							"ID": "20220104114436-zn3u289",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104114436-zn3u289",
+								"updated": "20220104114436"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "BitMap"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

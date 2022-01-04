@@ -67,6 +67,7 @@
     "historyRetentionDays": 30,
     "emoji": [
       "1f4dd",
+      "1f527",
       "1f4d2",
       "1f4c4",
       "2b50",
@@ -186,7 +187,7 @@
 ],
     "direction": "tb",
     "instance": "Layout",
-    "size": "298px",
+    "size": "240px",
     "type": "left"
   },
   {
@@ -195,19 +196,27 @@
     "children": [
   {
     "children": {
-  "blockId": "20211218230347-v6r7mt0",
+  "blockId": "20211230221725-z2sn7ta",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "Redis"
+    "title": "NoSQL"
   },
   {
     "children": {
-  "blockId": "20220103113026-0ln399g",
+  "blockId": "20220104123021-dbo12st",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "Jedis详解"
+    "title": "Redis_简介"
+  },
+  {
+    "children": {
+  "blockId": "20220104114036-ubjl7tk",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Redis_数据类型"
   },
   {
     "children": {
@@ -219,43 +228,35 @@
   },
   {
     "children": {
-  "blockId": "20220103130730-zwiveg1",
+  "blockId": "20211218230347-v6r7mt0",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "Redis_SpringBoot使用配置"
+    "title": "Redis"
   },
   {
     "children": {
-  "blockId": "20220103140924-jsur5pt",
+  "blockId": "20211230221800-uw23ad5",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "Redis_缓存穿透\u0026雪崩"
+    "title": "MongoDB"
   },
   {
     "children": {
-  "blockId": "20220103140501-0zlqmr2",
+  "blockId": "20211230221815-s03hmen",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "Redis_主从复制"
+    "title": "MongoDB认识"
   },
   {
     "children": {
-  "blockId": "20220103175745-5ifkdxw",
+  "blockId": "20211230092952-7hncg3f",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "Redis_哨兵模式"
-  },
-  {
-    "children": {
-  "blockId": "20220103235604-f7cg9sx",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "Redis_发布订阅"
+    "title": "Redis读写策略问题"
   },
   {
     "children": {
@@ -266,21 +267,13 @@
     "title": "linux下Redis安装过程"
   },
   {
-    "children": {
-  "blockId": "20211224164531-yznlfci",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "Redis启用"
-  },
-  {
     "active": true,
     "children": {
-  "blockId": "20220104000307-kch1gx5",
+  "blockId": "20211218230505-n2nh9ty",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "Redis_持久化"
+    "title": "未分类"
   }
 ],
     "height": "",
@@ -348,7 +341,7 @@
       "show": true,
       "size": {
   "height": 0,
-  "width": 298
+  "width": 240
 },
       "type": "file"
     },
@@ -422,7 +415,7 @@
     "publicKey": "c3NoLXJzYSBBQUFBQjNOemFDMXljMkVBQUFBREFRQUJBQUFCQVFER1hLdHdIeW1MWS9PUWl4clp5OGg2WnFuU0xCSWo0WUh1TzIxS09QUFc4OG1YaTVUYThnNFhma1hCVDdCVFR3eGNBTFFMNExVQ1RXWHRGNzhwOTAwSk1ib0hicFNxRUVwVmlWSHV4TVVJOUV1R2tvUkgwR1oxTWZYU1BJcnplMzFoYWcvUGg4WmFsODk0dzhFYnRSd3U3OHZCR2R2YXh4R2F6VSt2aFVSc3l5Wm1Gamhoc1VpNWE5OWpuT2h1Lzl2TUlpYXRhKzBLUzZQcDdQdmJucGxtdXlRejZ3ZTVpbzVXWEJrbG52aXhZYndUWHphNDZQV1dvT3pPZkErN2pjZWxCd1QreituOXNDMWh2R1dGZmJFS0RSOTRVYW4wY3d4bnBuaUNLRC9pNmc0clpCMHRma1AwQUdpQ1ZkeUNSdDY4V1hna0pnYlVlSGFnaFc4MDFQUjcK"
   },
   "readonly": false,
-  "localServeURL": "http://192.168.0.109:6806",
+  "localServeURL": "http://192.168.56.1:6806",
   "accessAuthCode": "",
   "e2eePasswd": "",
   "checkUpdate": 0,
@@ -838,7 +831,7 @@
     "backlinkMentionAnchor": false
   },
   "stat": {
-    "docCount": 100
+    "docCount": 104
   },
   "api": {
     "token": "9lg6z7f4ub34blui"

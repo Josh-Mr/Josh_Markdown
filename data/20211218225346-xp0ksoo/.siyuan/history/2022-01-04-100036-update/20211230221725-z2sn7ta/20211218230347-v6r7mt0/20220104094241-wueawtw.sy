@@ -1,0 +1,131 @@
+{
+	"ID": "20220104094241-wueawtw",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220104094241-wueawtw",
+		"title": "Redis_事务",
+		"updated": "20220104100033"
+	},
+	"Children": [
+		{
+			"ID": "20220104094241-yw13s5f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220104094241-yw13s5f",
+				"updated": "20220104095552"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、概念"
+				}
+			]
+		},
+		{
+			"ID": "20220104095553-3uoxeco",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104095553-3uoxeco",
+				"updated": "20220104100033"
+			},
+			"Children": [
+				{
+					"ID": "20220104095634-c76meaw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220104095634-c76meaw",
+						"updated": "20220104100033"
+					},
+					"Children": [
+						{
+							"ID": "20220104095634-t5l6px9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104095634-t5l6px9",
+								"updated": "20220104100033"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Redis事务本质：一组命令的集合。事务支持一次执行多个命令，一个事务中所有命令都会被序列化。在事务执行过程，会按照顺序串行化执行队列的命令。其他客户端提交的命令请求不会插入到事务序列中。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104095553-igt8ytc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104095553-igt8ytc",
+				"updated": "20220104095553"
+			}
+		},
+		{
+			"ID": "20220104095553-z5n16m1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220104095553-z5n16m1",
+				"updated": "20220104095616"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、实践"
+				}
+			]
+		},
+		{
+			"ID": "20220104095616-rdc8qlf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104095616-rdc8qlf",
+				"updated": "20220104095616"
+			}
+		},
+		{
+			"ID": "20220104095617-0bf0ur2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104095617-0bf0ur2",
+				"updated": "20220104095617"
+			}
+		},
+		{
+			"ID": "20220104095617-k7bvzxf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220104095617-k7bvzxf",
+				"updated": "20220104095630"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、总结"
+				}
+			]
+		},
+		{
+			"ID": "20220104095617-zyc6dn3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104095617-zyc6dn3",
+				"updated": "20220104095617"
+			}
+		}
+	]
+}

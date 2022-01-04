@@ -1,0 +1,45 @@
+{
+	"ID": "20220104103908-4unvqt3",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220104103908-4unvqt3",
+		"title": "Redis_conf配置文件",
+		"updated": "20220104104241"
+	},
+	"Children": [
+		{
+			"ID": "20220104103908-j0s7u7x",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220104103908-j0s7u7x",
+				"updated": "20220104104237"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "ZHNjb25maWc="
+				},
+				{
+					"Type": "NodeCodeBlockCode"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220104104241-pg0y3pu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104104241-pg0y3pu",
+				"updated": "20220104104241"
+			}
+		}
+	]
+}

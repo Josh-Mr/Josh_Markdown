@@ -1,0 +1,309 @@
+{
+	"ID": "20220104094241-wueawtw",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220104094241-wueawtw",
+		"title": "Redis_事务",
+		"updated": "20220104100435"
+	},
+	"Children": [
+		{
+			"ID": "20220104094241-yw13s5f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220104094241-yw13s5f",
+				"updated": "20220104095552"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、概念"
+				}
+			]
+		},
+		{
+			"ID": "20220104095553-3uoxeco",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104095553-3uoxeco",
+				"updated": "20220104100112"
+			},
+			"Children": [
+				{
+					"ID": "20220104095634-c76meaw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220104095634-c76meaw",
+						"updated": "20220104100112"
+					},
+					"Children": [
+						{
+							"ID": "20220104095634-t5l6px9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104095634-t5l6px9",
+								"updated": "20220104100033"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Redis事务本质：一组命令的集合。事务支持一次执行多个命令，一个事务中所有命令都会被序列化。在事务执行过程，会按照顺序串行化执行队列的命令。其他客户端提交的命令请求不会插入到事务序列中。"
+								}
+							]
+						},
+						{
+							"ID": "20220104100038-dc67nim",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104100038-dc67nim",
+								"updated": "20220104100112"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "总结：redis事务就是一次性、顺序性、排他性的执行一个队列中的一系列命令。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104095553-igt8ytc",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104095553-igt8ytc",
+				"updated": "20220104100319"
+			},
+			"Children": [
+				{
+					"ID": "20220104100117-xj1gn40",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220104100117-xj1gn40",
+						"updated": "20220104100319"
+					},
+					"Children": [
+						{
+							"ID": "20220104100117-26pghmx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104100117-26pghmx",
+								"updated": "20220104100215"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Redis事务没有隔离级别"
+								}
+							]
+						},
+						{
+							"ID": "20220104100224-m9ooeqp",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220104100224-m9ooeqp",
+								"updated": "20220104100319"
+							},
+							"Children": [
+								{
+									"ID": "20220104100236-r0kxman",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220104100236-r0kxman",
+										"updated": "20220104100319"
+									},
+									"Children": [
+										{
+											"ID": "20220104100236-qhbf17t",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104100236-qhbf17t",
+												"updated": "20220104100319"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "批量操作在发送EXEC命令前被放入队列缓存，并不会被实际执行。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104100220-nooula2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104100220-nooula2",
+				"updated": "20220104100435"
+			},
+			"Children": [
+				{
+					"ID": "20220104100348-q2av4bt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220104100348-q2av4bt",
+						"updated": "20220104100435"
+					},
+					"Children": [
+						{
+							"ID": "20220104100348-2xnk9jf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104100348-2xnk9jf",
+								"updated": "20220104100356"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Redis不保存原子性"
+								}
+							]
+						},
+						{
+							"ID": "20220104100358-let4g8b",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220104100358-let4g8b",
+								"updated": "20220104100435"
+							},
+							"Children": [
+								{
+									"ID": "20220104100401-n9vqa0d",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220104100401-n9vqa0d",
+										"updated": "20220104100435"
+									},
+									"Children": [
+										{
+											"ID": "20220104100401-4txs95i",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104100401-4txs95i",
+												"updated": "20220104100435"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "单条命令是保证原子性。但是事务部"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104100221-io1pfke",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104100221-io1pfke",
+				"updated": "20220104100221"
+			}
+		},
+		{
+			"ID": "20220104095553-z5n16m1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220104095553-z5n16m1",
+				"updated": "20220104095616"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、实践"
+				}
+			]
+		},
+		{
+			"ID": "20220104095616-rdc8qlf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104095616-rdc8qlf",
+				"updated": "20220104095616"
+			}
+		},
+		{
+			"ID": "20220104095617-0bf0ur2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104095617-0bf0ur2",
+				"updated": "20220104095617"
+			}
+		},
+		{
+			"ID": "20220104095617-k7bvzxf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220104095617-k7bvzxf",
+				"updated": "20220104095630"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、总结"
+				}
+			]
+		},
+		{
+			"ID": "20220104095617-zyc6dn3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104095617-zyc6dn3",
+				"updated": "20220104095617"
+			}
+		}
+	]
+}

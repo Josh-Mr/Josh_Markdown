@@ -1,0 +1,101 @@
+{
+	"ID": "20220104103908-4unvqt3",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220104103908-4unvqt3",
+		"title": "Redis_Conf配置文件",
+		"updated": "20220104105035"
+	},
+	"Children": [
+		{
+			"ID": "20220104104241-pg0y3pu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220104104241-pg0y3pu",
+				"updated": "20220104104634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、Redis.conf"
+				}
+			]
+		},
+		{
+			"ID": "20220104104628-wogzqxa",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104104628-wogzqxa",
+				"updated": "20220104105035"
+			},
+			"Children": [
+				{
+					"ID": "20220104105004-7e8zua1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220104105004-7e8zua1",
+						"updated": "20220104105035"
+					},
+					"Children": [
+						{
+							"ID": "20220104105004-pz23i7t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104105004-pz23i7t",
+								"updated": "20220104105035"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Units单位"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104104628-mry6mc0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104104628-mry6mc0",
+				"updated": "20220104104628"
+			}
+		},
+		{
+			"ID": "20220104104628-x95pprf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104104628-x95pprf",
+				"updated": "20220104104628"
+			}
+		},
+		{
+			"ID": "20220104104629-rdtnlbe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104104629-rdtnlbe",
+				"updated": "20220104104629"
+			}
+		},
+		{
+			"ID": "20220104104629-jrsm4un",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104104629-jrsm4un",
+				"updated": "20220104104629"
+			}
+		}
+	]
+}

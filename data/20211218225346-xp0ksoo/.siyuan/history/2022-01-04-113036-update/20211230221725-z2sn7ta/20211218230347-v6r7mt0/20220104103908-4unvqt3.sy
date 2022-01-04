@@ -1,0 +1,1282 @@
+{
+	"ID": "20220104103908-4unvqt3",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220104103908-4unvqt3",
+		"title": "Redis_Conf配置文件",
+		"updated": "20220104112707"
+	},
+	"Children": [
+		{
+			"ID": "20220104104241-pg0y3pu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220104104241-pg0y3pu",
+				"updated": "20220104104634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、Redis.conf"
+				}
+			]
+		},
+		{
+			"ID": "20220104104628-wogzqxa",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104104628-wogzqxa",
+				"updated": "20220104105233"
+			},
+			"Children": [
+				{
+					"ID": "20220104105004-7e8zua1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220104105004-7e8zua1"
+					},
+					"Children": [
+						{
+							"ID": "20220104105004-pz23i7t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104105004-pz23i7t",
+								"updated": "20220104105208"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Units"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "单位"
+								}
+							]
+						},
+						{
+							"ID": "20220104105048-nzd44mj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104105048-nzd44mj",
+								"updated": "20220104105049"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image.png"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220104105049-nja9fpi.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220104105051-h1o5lc7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220104105051-h1o5lc7",
+						"updated": "20220104105233"
+					},
+					"Children": [
+						{
+							"ID": "20220104105051-iwlpcqp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104105051-iwlpcqp",
+								"updated": "20220104105214"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "include"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "包含"
+								}
+							]
+						},
+						{
+							"ID": "20220104105217-ifmdoih",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20220104105217-ifmdoih",
+								"updated": "20220104105233"
+							},
+							"Children": [
+								{
+									"ID": "20220104105216-umwezqg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220104105216-umwezqg",
+										"updated": "20220104105233"
+									},
+									"Children": [
+										{
+											"ID": "20220104105216-dbi37h9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104105216-dbi37h9",
+												"updated": "20220104105225"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "和Spring配置文件类似，可以通过includes包含，redis.conf可以作为总文件，可以包含其他文件！"
+												}
+											]
+										},
+										{
+											"ID": "20220104105228-0ul76pr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220104105228-0ul76pr",
+												"updated": "20220104105233"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image.png"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20220104105233-s4ht3j9.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104104628-mry6mc0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104104628-mry6mc0",
+				"updated": "20220104105308"
+			},
+			"Children": [
+				{
+					"ID": "20220104105236-p4xs9ko",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220104105236-p4xs9ko",
+						"updated": "20220104105308"
+					},
+					"Children": [
+						{
+							"ID": "20220104105236-665d92b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104105236-665d92b",
+								"updated": "20220104105252"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "network网络配置"
+								}
+							]
+						},
+						{
+							"ID": "20220104105305-zbkpylk",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220104105305-zbkpylk",
+								"updated": "20220104105308"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "ZHNjb25maWc="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "bind 127.0.0.1\t# 绑定的ip\nprotected-mode yes # 保护模式\nport 6379\t# 默认端口\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104104629-rdtnlbe",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104104629-rdtnlbe",
+				"updated": "20220104105450"
+			},
+			"Children": [
+				{
+					"ID": "20220104105316-fiysdww",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220104105316-fiysdww",
+						"updated": "20220104105450"
+					},
+					"Children": [
+						{
+							"ID": "20220104105316-21quqz7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104105316-21quqz7",
+								"updated": "20220104105341"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "general通用"
+								}
+							]
+						},
+						{
+							"ID": "20220104105341-267m5qi",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220104105341-267m5qi",
+								"updated": "20220104105450"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "ZHNjb25maWc="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "daemonize yes # 默认情况下，Redis不作为守护进程运行。需要开启的话，改为 yes\nsupervised no # 可通过upstart和systemd管理Redis守护进程\npidfile /var/run/redis_6379.pid # 以后台进程方式运行redis，则需要指定pid 文件\nloglevel notice # 日志级别。可选项有：\n# debug（记录大量日志信息，适用于开发、测试阶段）； \n# verbose（较多日志信息）；\n# notice（适量日志信息，使用于生产环境）；\n# warning（仅有部分重要、关键信息才会被记录）。\nlogfile \"\"\t# 日志文件的位置，当指定为空字符串时，为标准输出\ndatabases 16\t# 设置数据库的数目。默认的数据库是DB 0\nalways-show-logo yes # 是否总是显示logo\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104104629-jrsm4un",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104104629-jrsm4un",
+				"updated": "20220104105545"
+			},
+			"Children": [
+				{
+					"ID": "20220104105455-mj3vgjl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220104105455-mj3vgjl",
+						"updated": "20220104105545"
+					},
+					"Children": [
+						{
+							"ID": "20220104105455-6px7jdb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104105455-6px7jdb",
+								"updated": "20220104105516"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Snapshot快照"
+								}
+							]
+						},
+						{
+							"ID": "20220104105519-j9z98sq",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220104105519-j9z98sq",
+								"updated": "20220104105545"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "ZHNjb25maWc="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "# 900秒（15分钟）内至少1个key值改变（则进行数据库保存--持久化）\nsave 900 1\n# 300秒（5分钟）内至少10个key值改变（则进行数据库保存--持久化）\nsave 300 10\n# 60秒（1分钟）内至少10000个key值改变（则进行数据库保存--持久化）\nsave 60 10000\n\nstop-writes-on-bgsave-error yes   # 持久化出现错误后，是否依然进行继续进行工作\n\nrdbcompression yes\t# 使用压缩rdb文件 yes：压缩，但是需要一些cpu的消耗。no：不压缩，需要更多的磁盘空间\n\nrdbchecksum yes\t# 是否校验rdb文件，更有利于文件的容错性，但是在保存rdb文件的时候，会有大概10%的性能损耗\n\ndbfilename dump.rdb # dbfilenamerdb文件名称\n\ndir ./\t# dir 数据目录，数据库的写入会在这个目录。rdb、aof文件也会写在这个目录\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104105616-3w6gw6t",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104105616-3w6gw6t",
+				"updated": "20220104105710"
+			},
+			"Children": [
+				{
+					"ID": "20220104105618-m9aqmus",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220104105618-m9aqmus",
+						"updated": "20220104105710"
+					},
+					"Children": [
+						{
+							"ID": "20220104105618-lwdp56f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104105618-lwdp56f",
+								"updated": "20220104105619"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "SECURITY安全"
+								}
+							]
+						},
+						{
+							"ID": "20220104105642-vh8hz9t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104105642-vh8hz9t",
+								"updated": "20220104105710"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Properties": {
+										"parent-style": "max-width: 247px;",
+										"style": "width: 237px;"
+									},
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image.png"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220104105710-uekewgd.png"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "配置Redis密码"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"width: 237px;\" parent-style=\"max-width: 247px;\"}"
+								}
+							]
+						},
+						{
+							"ID": "20220104105621-e2njquh",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220104105621-e2njquh",
+								"updated": "20220104105630"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "ZHNjb25maWc="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "# 启动redis\n# 连接客户端\n\n# 获得和设置密码\nconfig get requirepass\nconfig set requirepass \"123456\"\n\n#测试ping，发现需要验证\n127.0.0.1:6379\u003e ping\nNOAUTH Authentication required.\n# 验证\n127.0.0.1:6379\u003e auth 123456\nOK\n127.0.0.1:6379\u003e ping\nPONG\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104105639-ghva635",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104105639-ghva635",
+				"updated": "20220104105817"
+			},
+			"Children": [
+				{
+					"ID": "20220104105801-f7oy3mh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20220104105801-f7oy3mh",
+						"updated": "20220104105817"
+					},
+					"Children": [
+						{
+							"ID": "20220104105801-wmacp0n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104105801-wmacp0n",
+								"updated": "20220104105803"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "限制"
+								}
+							]
+						},
+						{
+							"ID": "20220104105811-kb371q8",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220104105811-kb371q8",
+								"updated": "20220104105817"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "ZHNjb25maWc="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "maxclients 10000\t# 设置能连上redis的最大客户端连接数量\nmaxmemory \u003cbytes\u003e\t# redis配置的最大内存容量\nmaxmemory-policy noeviction\t# maxmemory-policy 内存达到上限的处理策略\n#volatile-lru：利用LRU算法移除设置过过期时间的key。\n#volatile-random：随机移除设置过过期时间的key。\n#volatile-ttl：移除即将过期的key，根据最近过期时间来删除（辅以TTL）\n#allkeys-lru：利用LRU算法移除任何key。\n#allkeys-random：随机移除任何key。\n#noeviction：不移除任何key，只是返回一个写错误。\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104105819-qfwcapu",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104105819-qfwcapu",
+				"updated": "20220104111552"
+			},
+			"Children": [
+				{
+					"ID": "20220104105821-axwqfc5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20220104105821-axwqfc5",
+						"updated": "20220104111552"
+					},
+					"Children": [
+						{
+							"ID": "20220104105821-zlp9gzy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104105821-zlp9gzy",
+								"updated": "20220104110317"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "appendonly模式"
+								}
+							]
+						},
+						{
+							"ID": "20220104111547-nz4elow",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220104111547-nz4elow",
+								"updated": "20220104111552"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "ZHNjb25maWc="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "appendonly no\t# 是否以append only模式作为持久化方式，默认使用的是rdb方式持久化，这种方式在许多应用中已经足够用了\n\nappendfilename \"appendonly.aof\"\t# appendfilename AOF 文件名称\n\nappendfsync everysec # appendfsync aof持久化策略的配置\n# no表示不执行fsync，由操作系统保证数据同步到磁盘，速度最快。\n# always表示每次写入都执行fsync，以保证数据同步到磁盘。\n# everysec表示每秒执行一次fsync，可能会导致丢失这1s数据。\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104111545-870uu15",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104111545-870uu15",
+				"updated": "20220104111545"
+			}
+		},
+		{
+			"ID": "20220104111915-l24boi4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220104111915-l24boi4",
+				"updated": "20220104111934"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、常用配置"
+				}
+			]
+		},
+		{
+			"ID": "20220104111935-czpx6mg",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104111935-czpx6mg",
+				"updated": "20220104112701"
+			},
+			"Children": [
+				{
+					"ID": "20220104112625-oaeccei",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220104112625-oaeccei",
+						"updated": "20220104112701"
+					},
+					"Children": [
+						{
+							"ID": "20220104112625-uoza013",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104112625-uoza013",
+								"updated": "20220104112701"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Redis默认不是以守护进程的方式运行，可以通过该配置项修改，使用yes启用守护进程："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "daemonize no"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104112526-bv3psvi",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220104112526-bv3psvi",
+				"updated": "20220104112707"
+			},
+			"Children": [
+				{
+					"ID": "20220104112707-89eqrsx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220104112707-89eqrsx"
+					},
+					"Children": [
+						{
+							"ID": "20220104112707-grx8eul",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104112707-grx8eul",
+								"updated": "20220104112721"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当Redis以守护进程方式运行时，Redis默认会把pid写入"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "/var/run/redis.pid"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "文件，可以通过pidfile指定："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "pidfile /var/run/redis.pid"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220104112727-di8yc6d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220104112727-di8yc6d"
+					},
+					"Children": [
+						{
+							"ID": "20220104112727-qmln8fi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104112727-qmln8fi",
+								"updated": "20220104112753"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "指定Redis监听端口，默认端口为6379："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "port 6379"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220104112841-hjwmj70",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220104112841-hjwmj70"
+					},
+					"Children": [
+						{
+							"ID": "20220104112841-u5rezoc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104112841-u5rezoc",
+								"updated": "20220104112853"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "绑定的主机地址："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "bind 127.0.0.1"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220104112859-tene7rk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220104112859-tene7rk"
+					},
+					"Children": [
+						{
+							"ID": "20220104112859-aomwv9p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104112859-aomwv9p",
+								"updated": "20220104112912"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当 客户端闲置多长时间后关闭连接，如果指定为0，表示关闭该功能："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "timeout 300"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220104112918-qdsmgvf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220104112918-qdsmgvf"
+					},
+					"Children": [
+						{
+							"ID": "20220104112918-g8tqd8a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104112918-g8tqd8a",
+								"updated": "20220104113009"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "指定日志记录级别，Redis总共支持四个级别："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "debug"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "、"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "verbose"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "、"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "notice"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "、"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "warning"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，默认为："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "verbose"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "loglevel verbose"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220104112931-qahbl92",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20220104112931-qahbl92"
+					},
+					"Children": [
+						{
+							"ID": "20220104112931-xq2vppq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104112931-xq2vppq",
+								"updated": "20220104113031"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "日志记录方式，默认为标准输出，如果配置Redis为守护进程方式运行，而这里又配置为日志记录方式为标准输出，则日志将会发送给"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "/dev/null"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "logfile stdout"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n8、"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220104113034-exvsari",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20220104113034-exvsari"
+					},
+					"Children": [
+						{
+							"ID": "20220104113034-229jjy1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220104113034-229jjy1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "设置数据库的数量，默认数据库为0，可以使用SELECT 命令在连接上指定数据库id\ndatabases 16\n9、指定在多长时间内，有多少次更新操作，就将数据同步到数据文件，可以多个条件配合\nsave\nRedis默认配置文件中提供了三个条件：\nsave 900 1\nsave 300 10\nsave 60 10000\n分别表示900秒（15分钟）内有1个更改，300秒（5分钟）内有10个更改以及60秒内有10000个更\n改。\n10、指定存储至本地数据库时是否压缩数据，默认为yes，Redis采用LZF压缩，如果为了节省CPU时\n间，可以关闭该选项，但会导致数据库文件变的巨大\nrdbcompression yes\n11、指定本地数据库文件名，默认值为dump.rdb\ndbfilename dump.rdb\n12、指定本地数据库存放目录\ndir ./\n13、设置当本机为slav服务时，设置master服务的IP地址及端口，在Redis启动时，它会自动从master\n进行数据同步\nslaveof\n14、当master服务设置了密码保护时，slav服务连接master的密码\nmasterauth\n15、设置Redis连接密码，如果配置了连接密码，客户端在连接Redis时需要通过AUTH 命令提供密码，\n默认关闭\nrequirepass foobared\n16、设置同一时间最大客户端连接数，默认无限制，Redis可以同时打开的客户端连接数为Redis进程可\n以打开的最大文件描述符数，如果设置 maxclients 0，表示不作限制。当客户端连接数到达限制时，\nRedis会关闭新的连接并向客户端返回max number of clients reached错误信息\nmaxclients 128\n17、指定Redis最大内存限制，Redis在启动时会把数据加载到内存中，达到最大内存后，Redis会先尝\n试清除已到期或即将到期的Key，当此方法处理 后，仍然到达最大内存设置，将无法再进行写入操作，\n但仍然可以进行读取操作。Redis新的vm机制，会把Key存放内存，Value会存放在swap区\nmaxmemory\n18、指定是否在每次更新操作后进行日志记录，Redis在默认情况下是异步的把数据写入磁盘，如果不\n开启，可能会在断电时导致一段时间内的数据丢失。因为 redis本身同步数据文件是按上面save条件来\n同步的，所以有的数据会在一段时间内只存在于内存中。默认为no\nappendonly no\n19、指定更新日志文件名，默认为appendonly.aof\nappendfilename appendonly.aof\n20、指定更新日志条件，共有3个可选值：\nno：表示等操作系统进行数据缓存同步到磁盘（快）\nalways：表示每次更新操作后手动调用fsync()将数据写到磁盘（慢，安全）\neverysec：表示每秒同步一次（折衷，默认值）\nappendfsync everysec\n21、指定是否启用虚拟内存机制，默认值为no，简单的介绍一下，VM机制将数据分页存放，由Redis将\n访问量较少的页即冷数据swap到磁盘上，访问多的页面由磁盘自动换出到内存中（在后面的文章我会仔\n细分析Redis的VM机制）\nvm-enabled no\n22、虚拟内存文件路径，默认值为/tmp/redis.swap，不可多个Redis实例共享\nvm-swap-file /tmp/redis.swap\n23、将所有大于vm-max-memory的数据存入虚拟内存,无论vm-max-memory设置多小,所有索引数据\n都是内存存储的(Redis的索引数据 就是keys),也就是说,当vm-max-memory设置为0的时候,其实是所有\nvalue都存在于磁盘。默认值为0\nvm-max-memory 0\n24、Redis swap文件分成了很多的page，一个对象可以保存在多个page上面，但一个page上不能被多\n个对象共享，vm-page-size是要根据存储的 数据大小来设定的，作者建议如果存储很多小对象，page\n大小最好设置为32或者64bytes；如果存储很大大对象，则可以使用更大的page，如果不 确定，就使用\n默认值\nvm-page-size 32\n25、设置swap文件中的page数量，由于页表（一种表示页面空闲或使用的bitmap）是在放在内存中\n的，，在磁盘上每8个pages将消耗1byte的内存。\nvm-pages 134217728\n26、设置访问swap文件的线程数,最好不要超过机器的核数,如果设置为0,那么所有对swap文件的操作都\n是串行的，可能会造成比较长时间的延迟。默认值为4\nvm-max-threads 4\n27、设置在向客户端应答时，是否把较小的包合并为一个包发送，默认为开启\nglueoutputbuf yes\n28、指定在超过一定的数量或者最大的元素超过某一临界值时，采用一种特殊的哈希算法\nhash-max-zipmap-entries 64\nhash-max-zipmap-value 512\n29、指定是否激活重置哈希，默认为开启（后面在介绍Redis的哈希算法时具体介绍）\nactiverehashing yes\n30、指定包含其它的配置文件，可以在同一主机上多个Redis实例之间使用同一份配置文件，而同时各\n个实例又拥有自己的特定配置文件\ninclude /path/to/local.conf"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104111922-v02vkw7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104111922-v02vkw7",
+				"updated": "20220104111922"
+			}
+		}
+	]
+}
