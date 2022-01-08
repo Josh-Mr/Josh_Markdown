@@ -1,0 +1,337 @@
+{
+	"ID": "20220106234320-d6wvln0",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220106234320-d6wvln0",
+		"title": "RocketMQ_Springboot整合",
+		"updated": "20220107170409"
+	},
+	"Children": [
+		{
+			"ID": "20220106234320-yhd0i9i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220106234320-yhd0i9i",
+				"updated": "20220107165837"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、springboot集成"
+				}
+			]
+		},
+		{
+			"ID": "20220107165842-jr9nnm5",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220107165842-jr9nnm5",
+				"updated": "20220107170345"
+			},
+			"Children": [
+				{
+					"ID": "20220107165847-ntiq9u4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220107165847-ntiq9u4",
+						"updated": "20220107170345"
+					},
+					"Children": [
+						{
+							"ID": "20220107165847-1q8uznh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220107165847-1q8uznh",
+								"updated": "20220107170345"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "xml "
+								}
+							]
+						},
+						{
+							"ID": "20220107165855-7qg7s82",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220107165855-7qg7s82",
+								"updated": "20220107170133"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "eG1s"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "        \u003cdependency\u003e\n            \u003cgroupId\u003ecom.alibaba\u003c/groupId\u003e\n            \u003cartifactId\u003efastjson\u003c/artifactId\u003e\n            \u003cversion\u003e1.2.47\u003c/version\u003e\n        \u003c/dependency\u003e\n        \u003c!--web--\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\n            \u003cartifactId\u003espring-boot-starter-web\u003c/artifactId\u003e\n        \u003c/dependency\u003e\n        \u003c!--lombok--\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003eorg.projectlombok\u003c/groupId\u003e\n            \u003cartifactId\u003elombok\u003c/artifactId\u003e\n            \u003coptional\u003etrue\u003c/optional\u003e\n        \u003c/dependency\u003e\n        \u003c!--test--\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\n            \u003cartifactId\u003espring-boot-starter-test\u003c/artifactId\u003e\n            \u003cscope\u003etest\u003c/scope\u003e\n        \u003c/dependency\u003e\n        \u003c!--mq--\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003eorg.apache.rocketmq\u003c/groupId\u003e\n            \u003cartifactId\u003erocketmq-spring-boot-starter\u003c/artifactId\u003e\n            \u003cversion\u003e2.0.2\u003c/version\u003e\n        \u003c/dependency\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003ejunit\u003c/groupId\u003e\n            \u003cartifactId\u003ejunit\u003c/artifactId\u003e\n            \u003cscope\u003etest\u003c/scope\u003e\n        \u003c/dependency\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220107170138-8e051ug",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220107170138-8e051ug",
+				"updated": "20220107170343"
+			},
+			"Children": [
+				{
+					"ID": "20220107170140-jska4kl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220107170140-jska4kl",
+						"updated": "20220107170343"
+					},
+					"Children": [
+						{
+							"ID": "20220107170140-oew32i8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220107170140-oew32i8",
+								"updated": "20220107170343"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "properties 配置文件"
+								}
+							]
+						},
+						{
+							"ID": "20220107170148-usv80xe",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220107170148-usv80xe",
+								"updated": "20220107170218"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cHJvcGVydGllcw=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "# application.properties\nrocketmq.name-server=127.0.0.1:9876\nrocketmq.producer.group=springboot-josh\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220107170219-rjdnlel",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220107170219-rjdnlel",
+				"updated": "20220107170335"
+			},
+			"Children": [
+				{
+					"ID": "20220107170220-0lahoxu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220107170220-0lahoxu",
+						"updated": "20220107170335"
+					},
+					"Children": [
+						{
+							"ID": "20220107170220-usmga12",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220107170220-usmga12",
+								"updated": "20220107170335"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "comsumer 消费者"
+								}
+							]
+						},
+						{
+							"ID": "20220107170233-74rmfrs",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220107170233-74rmfrs",
+								"updated": "20220107170242"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "@Component\n@RocketMQMessageListener(topic = \"guanhuaqin_test\", consumerGroup = \"springboot-josh\")\npublic class DemoConsumer implements RocketMQListener\u003cString\u003e {\n    private Logger logger = LoggerFactory.getLogger(getClass());\n    @Override\n    public void onMessage(String message) {\n        logger.info(\"[onMessage][线程编号:{} 消息内容：{}]\", Thread.currentThread().getId(), message);\n    }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220107170244-4ox1d6y",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220107170244-4ox1d6y",
+				"updated": "20220107170331"
+			},
+			"Children": [
+				{
+					"ID": "20220107170245-jq3g4rq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220107170245-jq3g4rq",
+						"updated": "20220107170331"
+					},
+					"Children": [
+						{
+							"ID": "20220107170245-suey2rq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220107170245-suey2rq",
+								"updated": "20220107170331"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "produce 生产者"
+								}
+							]
+						},
+						{
+							"ID": "20220107170257-7n303qc",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220107170257-7n303qc",
+								"updated": "20220107170316"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "@RunWith(SpringRunner.class)\n@SpringBootTest(classes = { SpringbootRocketmqApplication.class })\npublic class ProducerTest {\n\n    @Autowired\n    private RocketMQTemplate rocketMQTemplate;\n\n    @Test\n    public void syncSend() {\n        for (int i = 0; i \u003c 100; i++) {\n            // 同步消息\n            Message\u003cString\u003e bashMessage = new GenericMessage\u003cString\u003e(\"关华钦测试\" + i);\n            SendResult syncSend = rocketMQTemplate.syncSend(\"guanhuaqin_test\", bashMessage);\n            System.out.println(syncSend);\n        }\n    }\n\n    @Test\n    public void asyncSend() {\n        for (int i = 0; i \u003c 100; i++) {\n            // 异步消息\n            Message\u003cString\u003e message = new GenericMessage\u003cString\u003e(\"关华钦测试\" + i);\n            rocketMQTemplate.asyncSend(\"guanhuaqin_test\", message, new SendCallback() {\n                @Override\n                public void onSuccess(SendResult sendResult) {\n                    System.out.println(sendResult);\n                }\n\n                @Override\n                public void onException(Throwable e) {\n                    System.out.println(\"发送失败\");\n                }\n            });\n        }\n    }\n\n    @Test\n    public void sendOneWay() {\n        for (int i = 0; i \u003c 100; i++) {\n            // 单向发送消息\n            Message\u003cString\u003e message = new GenericMessage\u003cString\u003e(\"关华钦测试\" + i);\n            rocketMQTemplate.sendOneWay(\"guanhuaqin_test\", message);\n            System.out.println(\"只发送一次\");\n        }\n    }\n\n    @Test\n    public void syncSendOrder() {\n        // 发送有序消息\n        String[] tags = new String[] { \"TagA\", \"TagC\", \"TagD\" };\n        for (int i = 0; i \u003c 10; i++) {\n            // 加个时间前缀\n            Message\u003cString\u003e message = new GenericMessage\u003cString\u003e(\"我是顺序消息\" + i);\n            SendResult sendResult = rocketMQTemplate.syncSendOrderly(\"guanhuaqin_test:\" + tags[i % tags.length], message,\n                    i + \"\");\n            System.out.println(sendResult);\n        }\n    }\n}\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220107170407-yvkmxll",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220107170407-yvkmxll",
+				"updated": "20220107170407"
+			}
+		},
+		{
+			"ID": "20220107170408-rzdf7xg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220107170408-rzdf7xg",
+				"updated": "20220107170409"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220107170409-cks9k4w.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

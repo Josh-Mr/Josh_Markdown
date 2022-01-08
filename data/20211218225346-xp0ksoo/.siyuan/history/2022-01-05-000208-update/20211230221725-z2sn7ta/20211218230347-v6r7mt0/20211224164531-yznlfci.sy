@@ -1,0 +1,195 @@
+{
+	"ID": "20211224164531-yznlfci",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20211224164531-yznlfci",
+		"title": "Redis_启用",
+		"updated": "20220104235908"
+	},
+	"Children": [
+		{
+			"ID": "20211224164547-ls8he48",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224164547-ls8he48",
+				"updated": "20211224164547"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、redis的使用"
+				}
+			]
+		},
+		{
+			"ID": "20211224164547-4cpelvb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224164547-4cpelvb",
+				"updated": "20211224164547"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "windows下："
+				}
+			]
+		},
+		{
+			"ID": "20211224164547-zpetxbc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224164547-zpetxbc",
+				"updated": "20211224164547"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "启用：在redis的安装目录下用cmd执行redis-server.exe redis.windows.conf"
+				}
+			]
+		},
+		{
+			"ID": "20211224164547-w7l37wx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224164547-w7l37wx",
+				"updated": "20211224164547"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "若启用报错：依次执行第一条指令： "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "redis-cli.exe"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ，第二条指令："
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "shutdown"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "第三条指令："
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "exit"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224164547-444apvw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224164547-444apvw",
+				"updated": "20211224164547"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(1)-20211224164547-w6eq2y9.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

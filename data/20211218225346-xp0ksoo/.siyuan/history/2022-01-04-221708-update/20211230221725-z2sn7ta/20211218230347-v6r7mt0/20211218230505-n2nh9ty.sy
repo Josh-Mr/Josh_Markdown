@@ -1,0 +1,108 @@
+{
+	"ID": "20211218230505-n2nh9ty",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4c4",
+		"id": "20211218230505-n2nh9ty",
+		"title": "未分类",
+		"updated": "20211230141510"
+	},
+	"Children": [
+		{
+			"ID": "20211230141500-tzal8y1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211230141500-tzal8y1",
+				"updated": "20211230141510"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "redis分布式锁："
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://www.cnblogs.com/javastack/p/13303926.html"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.cnblogs.com/javastack/p/13303926.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104122019-2j8j3fn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104122019-2j8j3fn",
+				"updated": "20220104122035"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "redis分布式锁如何续期 ："
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://mp.weixin.qq.com/s/C_ffQwcBjfjFPDg2H6ZWhw"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://mp.weixin.qq.com/s/C_ffQwcBjfjFPDg2H6ZWhw"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220104122036-q927rmj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104122036-q927rmj",
+				"updated": "20220104122036"
+			}
+		},
+		{
+			"ID": "20220104150030-hs16rc1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220104150030-hs16rc1",
+				"updated": "20220104150030"
+			}
+		}
+	]
+}
