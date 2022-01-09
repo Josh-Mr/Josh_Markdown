@@ -1,0 +1,19 @@
+{
+	"ID": "20220105102907-3hm4haa",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220105102907-3hm4haa",
+		"title": "2022-01-05",
+		"updated": "20220105103012"
+	},
+	"Children": [
+		{
+			"ID": "20220105102907-fnl4n0j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220105102907-fnl4n0j",
+				"updated": "20220105103012"
+			}
+		}
+	]
+}

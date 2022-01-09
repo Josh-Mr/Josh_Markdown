@@ -1,0 +1,242 @@
+{
+	"ID": "20220106175416-1der8ry",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220106175416-1der8ry",
+		"title": "Lombok_注解",
+		"updated": "20220106175652"
+	},
+	"Children": [
+		{
+			"ID": "20220106175416-seg7yw1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220106175416-seg7yw1",
+				"updated": "20220106175506"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、常用注解"
+				}
+			]
+		},
+		{
+			"ID": "20220106175506-bdc1p9k",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220106175506-bdc1p9k",
+				"updated": "20220106175512"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "常用的几个注解：\n@Data ： 注在类上，提供类的get、set、equals、hashCode、canEqual、toString方法\n@AllArgsConstructor ： 注在类上，提供类的全参构造\n@NoArgsConstructor ： 注在类上，提供类的无参构造\n@Setter ： 注在属性上，提供 set 方法\n@Getter ： 注在属性上，提供 get 方法\n@EqualsAndHashCode ： 注在类上，提供对应的 equals 和 hashCode 方法\n@Log4j/@Slf4j ： 注在类上，提供对应的 Logger 对象，变量名为 log\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220106175513-r0o6o4n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220106175513-r0o6o4n",
+				"updated": "20220106175515"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、"
+				}
+			]
+		},
+		{
+			"ID": "20220106175536-6xfgw9u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220106175536-6xfgw9u",
+				"updated": "20220106175536"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "@Accessors"
+				}
+			]
+		},
+		{
+			"ID": "20220106175536-8ootz24",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220106175536-8ootz24",
+				"updated": "20220106175536"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Accessor的中文含义是存取器，@Accessors用于配置getter和setter方法的生成结果，下面介绍三个属性"
+				}
+			]
+		},
+		{
+			"ID": "20220106175543-v3nea3t",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220106175543-v3nea3t",
+				"updated": "20220106175652"
+			},
+			"Children": [
+				{
+					"ID": "20220106175544-btfl4li",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220106175544-btfl4li"
+					},
+					"Children": [
+						{
+							"ID": "20220106175544-1a8dt4g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220106175544-1a8dt4g",
+								"updated": "20220106175607"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "fluent的中文含义是流畅的，设置为true，则getter和setter方法的方法名都是基础属性名，且setter方法返回当前对象。如下"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220106175607-h5cwexu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220106175607-h5cwexu",
+						"updated": "20220106175652"
+					},
+					"Children": [
+						{
+							"ID": "20220106175607-if00xj9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220106175607-if00xj9",
+								"updated": "20220106175611"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "chain的中文含义是链式的，设置为true，则setter方法返回当前对象。如下"
+								}
+							]
+						},
+						{
+							"ID": "20220106175641-fhu6fg8",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220106175641-fhu6fg8",
+								"updated": "20220106175652"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "@Data\n@Accessors(chain = true)\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220106175611-93xx56x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220106175611-93xx56x"
+					},
+					"Children": [
+						{
+							"ID": "20220106175611-3p184le",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220106175611-3p184le",
+								"updated": "20220106175615"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "prefix的中文含义是前缀，用于生成getter和setter方法的字段名会忽视指定前缀（遵守驼峰命名）。如下"
+								}
+							]
+						},
+						{
+							"ID": "20220106175626-ncne63q",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220106175626-ncne63q",
+								"updated": "20220106175635"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "@Data\n@Accessors(prefix = \"p\")\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
