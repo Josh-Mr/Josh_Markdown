@@ -2,7 +2,6 @@
 	"ID": "20211231141845-dnlj1fr",
 	"Type": "NodeDocument",
 	"Properties": {
-		"icon": "1f4c4",
 		"id": "20211231141845-dnlj1fr",
 		"title": "读写分离、分库分表",
 		"updated": "20211231145539"

@@ -4,8 +4,8 @@
 	"Properties": {
 		"icon": "1f4dd",
 		"id": "20211224161242-lwg9c5q",
-		"title": "Redis_linux下安装过程",
-		"updated": "20220104235921"
+		"title": "linux下Redis安装过程",
+		"updated": "20211224164440"
 	},
 	"Children": [
 		{

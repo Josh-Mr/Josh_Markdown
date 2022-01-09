@@ -2,12 +2,528 @@
 	"ID": "20211218230347-v6r7mt0",
 	"Type": "NodeDocument",
 	"Properties": {
-		"icon": "1f4d9",
+		"icon": "1f4d2",
 		"id": "20211218230347-v6r7mt0",
 		"title": "Redis",
-		"updated": "20220104222314"
+		"updated": "20211231100048"
 	},
 	"Children": [
+		{
+			"ID": "20211218230347-kl1uozt",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211218230347-kl1uozt",
+				"updated": "20211230101004"
+			},
+			"Children": [
+				{
+					"ID": "20211230094059-lg086pj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211230094059-lg086pj"
+					},
+					"Children": [
+						{
+							"ID": "20211230094059-drlq9kq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211230094059-drlq9kq",
+								"updated": "20211230094239"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "什么是缓存的命中率"
+								}
+							]
+						},
+						{
+							"ID": "20211230094115-ex0dcgf",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211230094115-ex0dcgf",
+								"updated": "20211230094139"
+							},
+							"Children": [
+								{
+									"ID": "20211230094139-13jndrh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211230094139-13jndrh"
+									},
+									"Children": [
+										{
+											"ID": "20211230094139-5sc7545",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211230094139-5sc7545",
+												"updated": "20211230094224"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "是否通过缓存获得数据称为缓存命中，反之，不命中。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211230094227-54crmpu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211230094227-54crmpu",
+						"updated": "20211230101004"
+					},
+					"Children": [
+						{
+							"ID": "20211230094227-9oj597v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211230094227-9oj597v",
+								"updated": "20211230094335"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何提高缓存的命中率？"
+								}
+							]
+						},
+						{
+							"ID": "20211230094403-slgq070",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20211230094403-slgq070",
+								"updated": "20211230101004"
+							},
+							"Children": [
+								{
+									"ID": "20211230094403-f7smfrn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20211230094403-f7smfrn"
+									},
+									"Children": [
+										{
+											"ID": "20211230094403-1dejulk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211230094403-1dejulk",
+												"updated": "20211230100430"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "业务场景和"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "时效性"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "少"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "（"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "同一件事"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "在"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "不同的时间"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "内存在的"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "差异"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，这种差异叫"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "时效性"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "）"
+												}
+											]
+										},
+										{
+											"ID": "20211230094501-ha0bn4p",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20211230094501-ha0bn4p"
+											},
+											"Children": [
+												{
+													"ID": "20211230094457-ahzw99i",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20211230094457-ahzw99i"
+													},
+													"Children": [
+														{
+															"ID": "20211230094457-y2fscko",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211230094457-y2fscko",
+																"updated": "20211230100410"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "适合读多写少场景，尽可能在高频率访问，并且"
+																},
+																{
+																	"Type": "NodeStrong",
+																	"Data": "strong",
+																	"Children": [
+																		{
+																			"Type": "NodeStrongA6kOpenMarker",
+																			"Data": "**"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "时效性不高"
+																		},
+																		{
+																			"Type": "NodeStrongA6kCloseMarker",
+																			"Data": "**"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "的场景：数据字典、session、token。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211230094454-ugpyc78",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20211230094454-ugpyc78",
+										"updated": "20211230101004"
+									},
+									"Children": [
+										{
+											"ID": "20211230094454-d9335ra",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211230094454-d9335ra",
+												"updated": "20211230095300"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "缓存的设计"
+												}
+											]
+										},
+										{
+											"ID": "20211230095302-8ebphdk",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20211230095302-8ebphdk",
+												"updated": "20211230101004"
+											},
+											"Children": [
+												{
+													"ID": "20211230095302-brftwvo",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20211230095302-brftwvo"
+													},
+													"Children": [
+														{
+															"ID": "20211230095302-zyzrx95",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211230095302-zyzrx95",
+																"updated": "20211230100946"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "（缓存粒度）缓存的粒度越小，命中率就越高。"
+																}
+															]
+														},
+														{
+															"ID": "20211230095335-l6bzz53",
+															"Type": "NodeList",
+															"ListData": {
+																"Typ": 1
+															},
+															"Properties": {
+																"id": "20211230095335-l6bzz53"
+															},
+															"Children": [
+																{
+																	"ID": "20211230095334-p2j90ua",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "MS4=",
+																		"Num": 1
+																	},
+																	"Properties": {
+																		"id": "20211230095334-p2j90ua"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20211230095334-ucopypi",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20211230095334-ucopypi",
+																				"updated": "20211230100400"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "如：一个用户"
+																				},
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "全部信息"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "和"
+																				},
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "用户的部分"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "信息作为缓存。理论上全部信息更新的频率（时效性）更大。"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20211230100446-pappfhr",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20211230100446-pappfhr",
+														"updated": "20211230101004"
+													},
+													"Children": [
+														{
+															"ID": "20211230100446-2b3gxuq",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211230100446-2b3gxuq",
+																"updated": "20211230101004"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "（缓存策略）缓存的更新/过期策略也有影响。更新缓存会比移除缓存可以提高命中率。系统复杂度增大。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
 		{
 			"ID": "20211230095701-t3utv0g",
 			"Type": "NodeParagraph",
@@ -17,91 +533,497 @@
 			}
 		},
 		{
-			"ID": "20211230141500-tzal8y1",
-			"Type": "NodeParagraph",
+			"ID": "20211231094516-28zof5t",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
 			"Properties": {
-				"id": "20211230141500-tzal8y1",
-				"updated": "20211230141510"
+				"id": "20211231094516-28zof5t",
+				"updated": "20211231094540"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "redis分布式锁："
-				},
+					"Data": "一、关系型数据库和非关系型数据库区别"
+				}
+			]
+		},
+		{
+			"ID": "20211231094543-39oqj3d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20211231094543-39oqj3d",
+				"updated": "20211231095201"
+			},
+			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
+					"Type": "NodeText",
+					"Data": "1、关系型数据库"
+				}
+			]
+		},
+		{
+			"ID": "20211231095208-w9s7dk0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211231095208-w9s7dk0",
+				"updated": "20211231095621"
+			},
+			"Children": [
+				{
+					"ID": "20211231095210-j3so82h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211231095210-j3so82h"
+					},
 					"Children": [
 						{
-							"Type": "NodeOpenBracket"
-						},
+							"ID": "20211231095210-iel4o8y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211231095210-iel4o8y",
+								"updated": "20211231095216"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "概念：有"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "关系模型"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "组织的"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "数据库"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，简单来说："
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "关系模型"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "就是"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "二维表格模型"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211231095217-tu6vta4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211231095217-tu6vta4"
+					},
+					"Children": [
 						{
-							"Type": "NodeLinkText",
-							"Data": "https://www.cnblogs.com/javastack/p/13303926.html"
-						},
+							"ID": "20211231095217-y3cvq7c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211231095217-y3cvq7c",
+								"updated": "20211231095222"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "主要代表：Mysql、Oracle、SQL Server"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211231095222-h7vkklf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20211231095222-h7vkklf"
+					},
+					"Children": [
 						{
-							"Type": "NodeCloseBracket"
-						},
+							"ID": "20211231095222-yvzml2j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211231095222-yvzml2j",
+								"updated": "20211231095447"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "优点：容易理解（二维数据模型）、操作简单（SQL语句），具有ACID属性。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211231095503-0oksy2p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20211231095503-0oksy2p",
+						"updated": "20211231095621"
+					},
+					"Children": [
 						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://www.cnblogs.com/javastack/p/13303926.html"
-						},
-						{
-							"Type": "NodeCloseParen"
+							"ID": "20211231095503-ik9io84",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211231095503-ik9io84",
+								"updated": "20211231095621"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "缺点：读写（IO）性能瓶颈。"
+								}
+							]
 						}
 					]
 				}
 			]
 		},
 		{
-			"ID": "20220104122019-2j8j3fn",
-			"Type": "NodeParagraph",
+			"ID": "20211231095622-pexzz65",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
 			"Properties": {
-				"id": "20220104122019-2j8j3fn",
-				"updated": "20220104122035"
+				"id": "20211231095622-pexzz65",
+				"updated": "20211231095641"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "redis分布式锁如何续期 ："
-				},
+					"Data": "2、非关系型数据库"
+				}
+			]
+		},
+		{
+			"ID": "20211231095642-mn6z2oh",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211231095642-mn6z2oh",
+				"updated": "20211231100047"
+			},
+			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
+					"ID": "20211231095644-zggpwez",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211231095644-zggpwez"
+					},
 					"Children": [
 						{
-							"Type": "NodeOpenBracket"
+							"ID": "20211231095644-wn5bqga",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211231095644-wn5bqga",
+								"updated": "20211231095859"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "概念：非关系型、分布式、不存在二维模型，且一般不保证ACID的数据库系统。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211231095901-mjiwrrw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211231095901-mjiwrrw"
+					},
+					"Children": [
+						{
+							"ID": "20211231095901-bzntmht",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211231095901-bzntmht",
+								"updated": "20211231095921"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "主要代表：Redis、MongoDB"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211231095936-67r5ws2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20211231095936-67r5ws2",
+						"updated": "20211231100047"
+					},
+					"Children": [
+						{
+							"ID": "20211231095936-oyu8u5g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211231095936-oyu8u5g",
+								"updated": "20211231095938"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对比："
+								}
+							]
 						},
 						{
-							"Type": "NodeLinkText",
-							"Data": "https://mp.weixin.qq.com/s/C_ffQwcBjfjFPDg2H6ZWhw"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://mp.weixin.qq.com/s/C_ffQwcBjfjFPDg2H6ZWhw"
-						},
-						{
-							"Type": "NodeCloseParen"
+							"ID": "20211231095940-6s7znv9",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20211231095940-6s7znv9",
+								"updated": "20211231100047"
+							},
+							"Children": [
+								{
+									"ID": "20211231095939-u5f468r",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20211231095939-u5f468r"
+									},
+									"Children": [
+										{
+											"ID": "20211231095939-lw5q9jf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211231095939-lw5q9jf",
+												"updated": "20211231100009"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "面向高性能并发读写数据库key-value数据库"
+												}
+											]
+										},
+										{
+											"ID": "20211231100010-hscw0k7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211231100010-hscw0k7",
+												"updated": "20211231100019"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "主要特点是具有极高的并发读写性能，例如Redis、Tokyo Cabint等"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211231100021-i8qid7a",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20211231100021-i8qid7a",
+										"updated": "20211231100047"
+									},
+									"Children": [
+										{
+											"ID": "20211231100021-a6hxxaf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211231100021-a6hxxaf",
+												"updated": "20211231100028"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "面向海量数据访问的面向文档数据库"
+												}
+											]
+										},
+										{
+											"ID": "20211231100028-uon5omh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211231100028-uon5omh",
+												"updated": "20211231100047"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以在"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "海量的数据库快速"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "的查询数据。例如MongoDB以及CouchDB"
+												}
+											]
+										}
+									]
+								}
+							]
 						}
 					]
 				}
 			]
 		},
 		{
-			"ID": "20220104222314-iemagc6",
+			"ID": "20211231100048-kp3qmv6",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220104222314-iemagc6",
-				"updated": "20220104222314"
+				"id": "20211231100048-kp3qmv6",
+				"updated": "20211231100048"
 			}
 		}
 	]

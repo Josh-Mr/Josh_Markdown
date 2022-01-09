@@ -5,7 +5,7 @@
 		"icon": "1f4d2",
 		"id": "20211228095656-jao4eyz",
 		"title": "锁的艺术",
-		"updated": "20220105165624"
+		"updated": "20211228145940"
 	},
 	"Children": [
 		{
@@ -14,12 +14,12 @@
 			"HeadingLevel": 4,
 			"Properties": {
 				"id": "20211228110051-o0e8ky8",
-				"updated": "20220105165624"
+				"updated": "20211228110137"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "1、死锁：Http请求没事设置超时，请求的接口出现死锁无法返回，也导致死锁。"
+					"Data": "1、死锁"
 				}
 			]
 		},

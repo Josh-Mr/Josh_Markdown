@@ -4,8 +4,8 @@
 	"Properties": {
 		"icon": "1f4dd",
 		"id": "20211224164531-yznlfci",
-		"title": "Redis_Windows启用",
-		"updated": "20220105004448"
+		"title": "Redis启用",
+		"updated": "20211224164604"
 	},
 	"Children": [
 		{
@@ -190,14 +190,6 @@
 					]
 				}
 			]
-		},
-		{
-			"ID": "20220105004448-t8ju1im",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220105004448-t8ju1im",
-				"updated": "20220105004448"
-			}
 		}
 	]
 }

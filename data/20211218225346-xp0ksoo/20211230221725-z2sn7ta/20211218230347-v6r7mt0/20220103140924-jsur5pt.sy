@@ -4,8 +4,8 @@
 	"Properties": {
 		"icon": "1f4dd",
 		"id": "20220103140924-jsur5pt",
-		"title": "Redis_缓存穿透\u0026amp;击穿\u0026amp;雪崩\u0026amp;预热\u0026amp;降级",
-		"updated": "20220104221057"
+		"title": "Redis_缓存穿透\u0026amp;雪崩",
+		"updated": "20220103161316"
 	},
 	"Children": [
 		{
@@ -31,7 +31,7 @@
 			},
 			"Properties": {
 				"id": "20220103153027-6vrxxrn",
-				"updated": "20220104221057"
+				"updated": "20220103160856"
 			},
 			"Children": [
 				{
@@ -135,7 +135,7 @@
 					},
 					"Properties": {
 						"id": "20220103153532-1xn3b8y",
-						"updated": "20220104221057"
+						"updated": "20220103155040"
 					},
 					"Children": [
 						{
@@ -158,7 +158,7 @@
 							"ListData": {},
 							"Properties": {
 								"id": "20220103153631-3d1c6iu",
-								"updated": "20220104221057"
+								"updated": "20220103155040"
 							},
 							"Children": [
 								{
@@ -170,7 +170,7 @@
 									},
 									"Properties": {
 										"id": "20220103153636-gf8m17r",
-										"updated": "20220104221057"
+										"updated": "20220103154250"
 									},
 									"Children": [
 										{
@@ -193,7 +193,7 @@
 											"ListData": {},
 											"Properties": {
 												"id": "20220103153821-3mxk88n",
-												"updated": "20220104221057"
+												"updated": "20220103154250"
 											},
 											"Children": [
 												{
@@ -334,10 +334,6 @@
 																{
 																	"Type": "NodeImage",
 																	"Data": "span",
-																	"Properties": {
-																		"parent-style": "max-width: 234px;",
-																		"style": "width: 224px;"
-																	},
 																	"Children": [
 																		{
 																			"Type": "NodeBang"
@@ -363,169 +359,6 @@
 																			"Type": "NodeCloseParen"
 																		}
 																	]
-																},
-																{
-																	"Type": "NodeKramdownSpanIAL",
-																	"Data": "{: style=\"width: 224px;\" parent-style=\"max-width: 234px;\"}"
-																}
-															]
-														}
-													]
-												},
-												{
-													"ID": "20220104220205-ua7axud",
-													"Type": "NodeListItem",
-													"ListData": {
-														"BulletChar": 42,
-														"Marker": "Kg=="
-													},
-													"Properties": {
-														"id": "20220104220205-ua7axud",
-														"updated": "20220104221057"
-													},
-													"Children": [
-														{
-															"ID": "20220104220205-359qdk9",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20220104220205-359qdk9",
-																"updated": "20220104221057"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": " "
-																},
-																{
-																	"Type": "NodeStrong",
-																	"Data": "strong",
-																	"Children": [
-																		{
-																			"Type": "NodeStrongA6kOpenMarker",
-																			"Data": "**"
-																		},
-																		{
-																			"Type": "NodeText",
-																			"Data": "使用布隆过滤器"
-																		},
-																		{
-																			"Type": "NodeStrongA6kCloseMarker",
-																			"Data": "**"
-																		}
-																	]
-																},
-																{
-																	"Type": "NodeText",
-																	"Data": " （"
-																},
-																{
-																	"Type": "NodeLink",
-																	"Data": "span",
-																	"Children": [
-																		{
-																			"Type": "NodeOpenBracket"
-																		},
-																		{
-																			"Type": "NodeLinkText",
-																			"Data": "github:布隆过滤器"
-																		},
-																		{
-																			"Type": "NodeCloseBracket"
-																		},
-																		{
-																			"Type": "NodeOpenParen"
-																		},
-																		{
-																			"Type": "NodeLinkDest",
-																			"Data": "https://github.com/Snailclimb/JavaGuide/blob/master/docs/cs-basics/data-structure/bloom-filter.md"
-																		},
-																		{
-																			"Type": "NodeCloseParen"
-																		}
-																	]
-																},
-																{
-																	"Type": "NodeText",
-																	"Data": "）："
-																},
-																{
-																	"Type": "NodeEmphasis",
-																	"Data": "em",
-																	"Children": [
-																		{
-																			"Type": "NodeEmA6kOpenMarker",
-																			"Data": "*"
-																		},
-																		{
-																			"Type": "NodeText",
-																			"Data": "如果布隆过滤器判定某个 key 不存在布隆过滤器中，那么就一定不存在，如果判定某个 key 存在，那么很大可能是存在（存在一定的误判率）。于是我们可以在缓存之前再加一个布隆过滤器，将数据库中的所有 key 都存储在布隆过滤器中，在查询 Redis 前先去布隆过滤器查询 key 是否存在，如果不存在就直接返回，不让其访问数据库，从而避免了对底层存储系统的查询压力。"
-																		},
-																		{
-																			"Type": "NodeEmA6kCloseMarker",
-																			"Data": "*"
-																		}
-																	]
-																}
-															]
-														}
-													]
-												},
-												{
-													"ID": "20220104220313-4mu8vzh",
-													"Type": "NodeListItem",
-													"ListData": {
-														"BulletChar": 42,
-														"Marker": "Kg=="
-													},
-													"Properties": {
-														"id": "20220104220313-4mu8vzh",
-														"updated": "20220104220333"
-													},
-													"Children": [
-														{
-															"ID": "20220104220313-7yvjliv",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20220104220313-7yvjliv",
-																"updated": "20220104220333"
-															},
-															"Children": [
-																{
-																	"Type": "NodeImage",
-																	"Data": "span",
-																	"Properties": {
-																		"parent-style": "max-width: 944px;",
-																		"style": "width: 934px;"
-																	},
-																	"Children": [
-																		{
-																			"Type": "NodeBang"
-																		},
-																		{
-																			"Type": "NodeOpenBracket"
-																		},
-																		{
-																			"Type": "NodeLinkText",
-																			"Data": "image.png"
-																		},
-																		{
-																			"Type": "NodeCloseBracket"
-																		},
-																		{
-																			"Type": "NodeOpenParen"
-																		},
-																		{
-																			"Type": "NodeLinkDest",
-																			"Data": "assets/image-20220104220333-n407wf5.png"
-																		},
-																		{
-																			"Type": "NodeCloseParen"
-																		}
-																	]
-																},
-																{
-																	"Type": "NodeKramdownSpanIAL",
-																	"Data": "{: style=\"width: 934px;\" parent-style=\"max-width: 944px;\"}"
 																}
 															]
 														}
@@ -544,7 +377,7 @@
 									},
 									"Properties": {
 										"id": "20220103154221-3rcsq5z",
-										"updated": "20220103154621"
+										"updated": "20220103155040"
 									},
 									"Children": [
 										{
@@ -567,7 +400,7 @@
 											"ListData": {},
 											"Properties": {
 												"id": "20220103154235-ob84qfj",
-												"updated": "20220103154621"
+												"updated": "20220103155040"
 											},
 											"Children": [
 												{
@@ -715,8 +548,7 @@
 														"Marker": "Kg=="
 													},
 													"Properties": {
-														"id": "20220103154621-drrnuku",
-														"updated": "20220103154621"
+														"id": "20220103154621-drrnuku"
 													},
 													"Children": [
 														{
@@ -730,10 +562,6 @@
 																{
 																	"Type": "NodeImage",
 																	"Data": "span",
-																	"Properties": {
-																		"parent-style": "max-width: 254px;",
-																		"style": "width: 244px;"
-																	},
 																	"Children": [
 																		{
 																			"Type": "NodeBang"
@@ -759,10 +587,6 @@
 																			"Type": "NodeCloseParen"
 																		}
 																	]
-																},
-																{
-																	"Type": "NodeKramdownSpanIAL",
-																	"Data": "{: style=\"width: 244px;\" parent-style=\"max-width: 254px;\"}"
 																}
 															]
 														}
@@ -1665,343 +1489,11 @@
 		},
 		{
 			"ID": "20220103161130-fd8lg3a",
-			"Type": "NodeHeading",
-			"HeadingLevel": 4,
+			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220103161130-fd8lg3a",
-				"updated": "20220104220032"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "四、缓存预热"
-				}
-			]
-		},
-		{
-			"ID": "20220104220500-v3r1c5e",
-			"Type": "NodeList",
-			"ListData": {
-				"Typ": 1
-			},
-			"Properties": {
-				"id": "20220104220500-v3r1c5e",
-				"updated": "20220104220518"
-			},
-			"Children": [
-				{
-					"ID": "20220104220511-5kxarwa",
-					"Type": "NodeListItem",
-					"ListData": {
-						"Typ": 1,
-						"Delimiter": 46,
-						"Marker": "MS4=",
-						"Num": 1
-					},
-					"Properties": {
-						"id": "20220104220511-5kxarwa",
-						"updated": "20220104220518"
-					},
-					"Children": [
-						{
-							"ID": "20220104220511-89y8ksl",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20220104220511-89y8ksl",
-								"updated": "20220104220518"
-							},
-							"Children": [
-								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "缓存预热解决方案："
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"ID": "20220104220456-tbs46r1",
-			"Type": "NodeList",
-			"ListData": {},
-			"Properties": {
-				"id": "20220104220456-tbs46r1",
-				"updated": "20220104220456"
-			},
-			"Children": [
-				{
-					"ID": "20220104220456-xzzbmq0",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20220104220456-xzzbmq0"
-					},
-					"Children": [
-						{
-							"ID": "20220104220456-gkob7jn",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20220104220456-gkob7jn"
-							},
-							"Children": [
-								{
-									"Type": "NodeEmphasis",
-									"Data": "em",
-									"Children": [
-										{
-											"Type": "NodeEmA6kOpenMarker",
-											"Data": "*"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "数据量不大的时候，工程启动的时候进行加载缓存动作；"
-										},
-										{
-											"Type": "NodeEmA6kCloseMarker",
-											"Data": "*"
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20220104220456-hwpp9a5",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20220104220456-hwpp9a5"
-					},
-					"Children": [
-						{
-							"ID": "20220104220456-ufssmme",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20220104220456-ufssmme"
-							},
-							"Children": [
-								{
-									"Type": "NodeEmphasis",
-									"Data": "em",
-									"Children": [
-										{
-											"Type": "NodeEmA6kOpenMarker",
-											"Data": "*"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "数据量大的时候，设置一个定时任务脚本，进行缓存的刷新；"
-										},
-										{
-											"Type": "NodeEmA6kCloseMarker",
-											"Data": "*"
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20220104220456-68qe0yy",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20220104220456-68qe0yy",
-						"updated": "20220104220456"
-					},
-					"Children": [
-						{
-							"ID": "20220104220456-hgenpr5",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20220104220456-hgenpr5",
-								"updated": "20220104220456"
-							},
-							"Children": [
-								{
-									"Type": "NodeEmphasis",
-									"Data": "em",
-									"Children": [
-										{
-											"Type": "NodeEmA6kOpenMarker",
-											"Data": "*"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "数据量太大的时候，优先保证热点数据进行提前加载到缓存。"
-										},
-										{
-											"Type": "NodeEmA6kCloseMarker",
-											"Data": "*"
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"ID": "20220104220034-9hihmk1",
-			"Type": "NodeHeading",
-			"HeadingLevel": 4,
-			"Properties": {
-				"id": "20220104220034-9hihmk1",
-				"updated": "20220104220702"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "五、缓存降级"
-				}
-			]
-		},
-		{
-			"ID": "20220104220703-hw3cv0q",
-			"Type": "NodeList",
-			"ListData": {},
-			"Properties": {
-				"id": "20220104220703-hw3cv0q",
-				"updated": "20220104220748"
-			},
-			"Children": [
-				{
-					"ID": "20220104220729-7rn6a1n",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20220104220729-7rn6a1n",
-						"updated": "20220104220748"
-					},
-					"Children": [
-						{
-							"ID": "20220104220729-ndhuiu3",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20220104220729-ndhuiu3",
-								"updated": "20220104220748"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "缓存降级是指"
-								},
-								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "缓存失效"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
-								},
-								{
-									"Type": "NodeText",
-									"Data": "或"
-								},
-								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "缓存服务器"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
-								},
-								{
-									"Type": "NodeText",
-									"Data": "挂掉的情况下，不去访问数据库，直接返回默认数据或访问服务的内存数据。"
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"ID": "20220104220725-32mlts9",
-			"Type": "NodeList",
-			"ListData": {},
-			"Properties": {
-				"id": "20220104220725-32mlts9",
-				"updated": "20220104220733"
-			},
-			"Children": [
-				{
-					"ID": "20220104220733-w5wg2m2",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20220104220733-w5wg2m2"
-					},
-					"Children": [
-						{
-							"ID": "20220104220733-mwnlidr",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20220104220733-mwnlidr"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "降级一般是有损的操作，所以尽量减少降级对于业务的影响程度。"
-								}
-							]
-						}
-					]
-				}
-			]
+				"updated": "20220103161130"
+			}
 		}
 	]
 }
