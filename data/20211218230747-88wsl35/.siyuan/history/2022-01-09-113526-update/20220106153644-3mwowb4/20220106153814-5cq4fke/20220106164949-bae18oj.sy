@@ -1,0 +1,734 @@
+{
+	"ID": "20220106164949-bae18oj",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20220106164949-bae18oj",
+		"title": "RB_入门",
+		"updated": "20220109113218"
+	},
+	"Children": [
+		{
+			"ID": "20220106164951-87x56w9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220106164951-87x56w9",
+				"updated": "20220106164951"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、RabbitMQ是什么？"
+				}
+			]
+		},
+		{
+			"ID": "20220106164951-cvn7za1",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220106164951-cvn7za1",
+				"updated": "20220106164951"
+			},
+			"Children": [
+				{
+					"ID": "20220106164951-b723qjc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220106164951-b723qjc"
+					},
+					"Children": [
+						{
+							"ID": "20220106164951-c8jmt3f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220106164951-c8jmt3f"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "MQ：消息队列（Message Queue）遵循先进先出原则既是FIFO。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220106164951-bhu0e02",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220106164951-bhu0e02"
+					},
+					"Children": [
+						{
+							"ID": "20220106164951-0ozhvxe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220106164951-0ozhvxe"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "RabbitMQ：是一个开源的消息代理和队列服务器，通过普通协议可以进行各个应用之间的数据共享。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220106164951-6563n9l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220106164951-6563n9l",
+				"updated": "20220106164951"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、RabbitMQ有什么用？"
+				}
+			]
+		},
+		{
+			"ID": "20220106164951-g2t9egv",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220106164951-g2t9egv",
+				"updated": "20220106164951"
+			},
+			"Children": [
+				{
+					"ID": "20220106164951-rhs909f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220106164951-rhs909f"
+					},
+					"Children": [
+						{
+							"ID": "20220106164951-jo1bm8q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220106164951-jo1bm8q"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用场景："
+								}
+							]
+						},
+						{
+							"ID": "20220106164951-3dhzaqq",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220106164951-3dhzaqq"
+							},
+							"Children": [
+								{
+									"ID": "20220106164951-pbr37m2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220106164951-pbr37m2"
+									},
+									"Children": [
+										{
+											"ID": "20220106164951-p36vocg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220106164951-p36vocg"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "上下游逻辑解耦\u0026\u0026物理解耦"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220106164951-irpdqmx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220106164951-irpdqmx"
+									},
+									"Children": [
+										{
+											"ID": "20220106164951-px08c4x",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220106164951-px08c4x"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "广播"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220106164951-h0m9slt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220106164951-h0m9slt"
+									},
+									"Children": [
+										{
+											"ID": "20220106164951-ocpo1re",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220106164951-ocpo1re"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "保证数据的一致性"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220106164951-rklgyjr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220106164951-rklgyjr"
+									},
+									"Children": [
+										{
+											"ID": "20220106164951-fenf66h",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220106164951-fenf66h"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "流量削锋"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220106164951-lk3mmhj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220106164951-lk3mmhj"
+									},
+									"Children": [
+										{
+											"ID": "20220106164951-uqttmr6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220106164951-uqttmr6"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "异步处理"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220106164951-b00pzj3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220106164951-b00pzj3"
+					},
+					"Children": [
+						{
+							"ID": "20220106164951-29truql",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220106164951-29truql"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "特点："
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220106164951-1i2183o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220106164951-1i2183o"
+					},
+					"Children": [
+						{
+							"ID": "20220106164951-fni29lq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220106164951-fni29lq"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是由Erlang语言开发的AMQP的开源实现。（Erlang 是一种多用途编程语言，主要用于开发并发和分布式系统。它最初是一种专有的编程语言，Ericsson 使用它来开发电话和通信应用程序。）AMQP： Advanced Message Queue，高级消息队列协议"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220106164951-ozm5qzh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220106164951-ozm5qzh"
+					},
+					"Children": [
+						{
+							"ID": "20220106164951-g9bmyab",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220106164951-g9bmyab"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "与springAMQP完美整合，API丰富"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220106164951-h1ubgnb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220106164951-h1ubgnb"
+					},
+					"Children": [
+						{
+							"ID": "20220106164951-zis4qpp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220106164951-zis4qpp"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可靠性(Reliablity)：：使用一些机制保证可靠性，例如：持久化、传输确认、发布确认。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220106164951-bs9m3ow",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220106164951-bs9m3ow"
+					},
+					"Children": [
+						{
+							"ID": "20220106164951-ybfkriv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220106164951-ybfkriv"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "灵活的路由(Flexible Routing)：在消息进入队列之前，通过Exchange来路由消息。对于典型的路由功能，Rabbit已经提供了一些内置的Exchange来实现。针对更复杂的路由功能，可以将多个Exchange绑定在一起，也通过插件机制实现自己的Exchange。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220106164951-159w5xe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220106164951-159w5xe"
+					},
+					"Children": [
+						{
+							"ID": "20220106164951-4ecy7ub",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220106164951-4ecy7ub"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "消息集群(Clustering)：多个RabbitMQ服务器可以组成一个集群，形成一个逻辑Broker。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220106164951-jrjgj54",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220106164951-jrjgj54"
+					},
+					"Children": [
+						{
+							"ID": "20220106164951-sxjvetg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220106164951-sxjvetg"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "高可用(Highly Avaliable Queues)：队列可以在集群中的机器上进行镜像，使得在部分节点出问题的情况下队列仍然可用。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220106164951-570befq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220106164951-570befq"
+					},
+					"Children": [
+						{
+							"ID": "20220106164951-gwtopcv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220106164951-gwtopcv"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "多种协议(Multi-protocol)：支持多种消息队列协议，如STOMP、MQTT等。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220106164951-7lf1bnl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220106164951-7lf1bnl"
+					},
+					"Children": [
+						{
+							"ID": "20220106164951-6xile5d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220106164951-6xile5d"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "多种语言客户端(Many Clients)：几乎支持所有常用语言，比如Java、.NET、Ruby等。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220106164951-hk9wsrd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220106164951-hk9wsrd"
+					},
+					"Children": [
+						{
+							"ID": "20220106164951-b2y0y6u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220106164951-b2y0y6u"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "管理界面(Management UI)：提供了易用的用户界面，使得用户可以监控和管理消息Broker的许多方面。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220106164951-k07cs8l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220106164951-k07cs8l"
+					},
+					"Children": [
+						{
+							"ID": "20220106164951-owae5wr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220106164951-owae5wr"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "跟踪机制(Tracing)：如果消息异常，RabbitMQ提供了消息的跟踪机制，使用者可以找出发生了什么。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220106164951-huu58jd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220106164951-huu58jd"
+					},
+					"Children": [
+						{
+							"ID": "20220106164951-kwxb074",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220106164951-kwxb074"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "插件机制(Plugin System)：提供了许多插件，来从多方面进行扩展，也可以编辑自己的插件。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220106164951-367vwhb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220106164951-367vwhb",
+				"updated": "20220106164951"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、Rabbit怎么用？"
+				}
+			]
+		},
+		{
+			"ID": "20220106164951-4ttlm33",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220106164951-4ttlm33",
+				"updated": "20220106164951"
+			},
+			"Children": [
+				{
+					"ID": "20220106164951-rwi35s4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220106164951-rwi35s4"
+					},
+					"Children": [
+						{
+							"ID": "20220106164951-ti2ue9e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220106164951-ti2ue9e"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Spring"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220106164951-8n2smed",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220106164951-8n2smed"
+					},
+					"Children": [
+						{
+							"ID": "20220106164951-yyfnfc7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220106164951-yyfnfc7"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Springboot"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220106164951-bo7byrg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220106164951-bo7byrg",
+				"updated": "20220106164951"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(20)-20220106164951-effrb7s.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

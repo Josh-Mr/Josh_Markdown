@@ -1,0 +1,26 @@
+{
+	"ID": "20220109141358-d3ayezw",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220109141358-d3ayezw",
+		"title": "Kafka_入门",
+		"updated": "20220109141427"
+	},
+	"Children": [
+		{
+			"ID": "20220109141358-hrh8a7v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220109141358-hrh8a7v",
+				"updated": "20220109141427"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、"
+				}
+			]
+		}
+	]
+}

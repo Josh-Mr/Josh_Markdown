@@ -1,0 +1,349 @@
+{
+	"ID": "20220106153644-3mwowb4",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4d2",
+		"id": "20220106153644-3mwowb4",
+		"title": "MQ",
+		"updated": "20220109121954"
+	},
+	"Children": [
+		{
+			"ID": "20220106153644-wnf7563",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220106153644-wnf7563",
+				"updated": "20220106234619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、什么是消息队列？"
+				}
+			]
+		},
+		{
+			"ID": "20220109114852-eetanr5",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220109114852-eetanr5",
+				"updated": "20220109115311"
+			},
+			"Children": [
+				{
+					"ID": "20220109114853-4pz2e54",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220109114853-4pz2e54",
+						"updated": "20220109115311"
+					},
+					"Children": [
+						{
+							"ID": "20220109114853-sfsebv3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220109114853-sfsebv3",
+								"updated": "20220109115311"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "概念：消息传输过程中"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "保存消息"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "的"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "容器"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。 "
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220109115046-bun9g0t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220109115046-bun9g0t",
+						"updated": "20220109115305"
+					},
+					"Children": [
+						{
+							"ID": "20220109115046-sfkb167",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220109115046-sfkb167",
+								"updated": "20220109115305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "特点："
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "先进先出"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "模式（栈：后进先出模式-\u003e"
+								},
+								{
+									"Type": "NodeEmphasis",
+									"Data": "em",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "圧栈"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "或者出栈"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220106234619-rtxzzcd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220106234619-rtxzzcd",
+				"updated": "20220106234619"
+			}
+		},
+		{
+			"ID": "20220106234619-9x8mmk0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220106234619-9x8mmk0",
+				"updated": "20220106234634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、为什么要使用消息队列？"
+				}
+			]
+		},
+		{
+			"ID": "20220106234634-n1sl77c",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220106234634-n1sl77c",
+				"updated": "20220109121954"
+			},
+			"Children": [
+				{
+					"ID": "20220109115403-e248l76",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220109115403-e248l76",
+						"updated": "20220109121952"
+					},
+					"Children": [
+						{
+							"ID": "20220109115403-gtcf2ks",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220109115403-gtcf2ks",
+								"updated": "20220109121952"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "应用解耦，"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "通过异步处理提高系统性能"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220109121740-sfeupev",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220109121740-sfeupev",
+						"updated": "20220109121954"
+					},
+					"Children": [
+						{
+							"ID": "20220109121740-25b3ork",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220109121740-25b3ork",
+								"updated": "20220109121954"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "流量削峰，"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220109121803-b1e1mnh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220109121803-b1e1mnh",
+						"updated": "20220109121925"
+					},
+					"Children": [
+						{
+							"ID": "20220109121803-yscce4y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220109121803-yscce4y",
+								"updated": "20220109121925"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据分发"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220106234635-0f0sboo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220106234635-0f0sboo",
+				"updated": "20220106234703"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、使用带来了什么"
+				}
+			]
+		},
+		{
+			"ID": "20220106234635-v0yi2l4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220106234635-v0yi2l4",
+				"updated": "20220106234635"
+			}
+		}
+	]
+}

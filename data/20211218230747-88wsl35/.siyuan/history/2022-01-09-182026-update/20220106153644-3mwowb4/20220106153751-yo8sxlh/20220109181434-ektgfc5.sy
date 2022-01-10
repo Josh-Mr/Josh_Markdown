@@ -1,0 +1,285 @@
+{
+	"ID": "20220109181434-ektgfc5",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20220109181434-ektgfc5",
+		"title": "RocketMQ_入门",
+		"updated": "20220109181726"
+	},
+	"Children": [
+		{
+			"ID": "20220109181434-0qla6ix",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220109181434-0qla6ix",
+				"updated": "20220109181555"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "入门总结"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://javaguide.cn/high-performance/message-queue/rocketmq-intro/"
+						},
+						{
+							"Type": "NodeLinkSpace"
+						},
+						{
+							"Type": "NodeLinkTitle",
+							"Data": "入门总结"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220109181550-kvxepnz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220109181550-kvxepnz",
+				"updated": "20220109181721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、消息队列日常问题"
+				}
+			]
+		},
+		{
+			"ID": "20220109181725-psw6ufo",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220109181725-psw6ufo",
+				"updated": "20220109181726"
+			},
+			"Children": [
+				{
+					"ID": "20220109181726-v0xlbn2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220109181726-v0xlbn2"
+					},
+					"Children": [
+						{
+							"ID": "20220109181726-ywneafd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220109181726-ywneafd",
+								"updated": "20220109181732"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "如何解决重复消费消息的问题"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220109181732-dluz235",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220109181732-dluz235"
+					},
+					"Children": [
+						{
+							"ID": "20220109181732-nyrjrxw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220109181732-nyrjrxw",
+								"updated": "20220109181738"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "如何解决消息的顺序消费问题"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220109181740-ex5q96b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220109181740-ex5q96b"
+					},
+					"Children": [
+						{
+							"ID": "20220109181740-ga0r044",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220109181740-ga0r044",
+								"updated": "20220109181752"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "如何"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "解决分布式事务问题"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220109181754-3jgn53g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220109181754-3jgn53g"
+					},
+					"Children": [
+						{
+							"ID": "20220109181754-vdx04u3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220109181754-vdx04u3",
+								"updated": "20220109181805"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "如何解决消息堆积的问题"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220109181806-7l4r69c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220109181806-7l4r69c",
+				"updated": "20220109181807"
+			}
+		}
+	]
+}

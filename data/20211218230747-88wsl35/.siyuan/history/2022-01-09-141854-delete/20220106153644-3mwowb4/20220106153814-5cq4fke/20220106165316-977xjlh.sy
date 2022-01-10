@@ -1,0 +1,33 @@
+{
+	"ID": "20220106165316-977xjlh",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220106165316-977xjlh",
+		"title": "RabbitMQ几种模式",
+		"updated": "20220109141828"
+	},
+	"Children": [
+		{
+			"ID": "20220106165343-m39plrv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220106165343-m39plrv",
+				"updated": "20220106165343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、rabbitmq"
+				}
+			]
+		},
+		{
+			"ID": "20220109141828-p5vnp9g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220109141828-p5vnp9g",
+				"updated": "20220109141828"
+			}
+		}
+	]
+}

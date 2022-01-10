@@ -1,0 +1,19 @@
+{
+	"ID": "20220109193718-9kn892q",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220109193718-9kn892q",
+		"title": "2022-01-09",
+		"updated": "20220109193718"
+	},
+	"Children": [
+		{
+			"ID": "20220109193718-xqn9ylb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220109193718-xqn9ylb",
+				"updated": "20220109193718"
+			}
+		}
+	]
+}
