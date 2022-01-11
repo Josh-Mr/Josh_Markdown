@@ -1,0 +1,256 @@
+{
+	"ID": "20220110212741-8fworqf",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220110212741-8fworqf",
+		"title": "【局部变量为什么是线程安全的？】",
+		"updated": "20220110212749"
+	},
+	"Children": [
+		{
+			"ID": "20220110212749-z74bfjs",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220110212749-z74bfjs",
+				"updated": "20220110212749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、局部变量存放在哪里？"
+				}
+			]
+		},
+		{
+			"ID": "20220110212749-c14tv6r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110212749-c14tv6r",
+				"updated": "20220110212749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "局部变量的作用域在方法内部，当方法执行完，局部变量也就没用了。可以这么说，方法返回时，局部变量也就“消亡”了。此时，我们会联想到调用栈的栈帧。没错，局部变量就是存放在调用栈里的。此时，我们可以将方法的调用栈用下图表示。"
+				}
+			]
+		},
+		{
+			"ID": "20220110212749-zmdx8io",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110212749-zmdx8io",
+				"updated": "20220110212749"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(24)-20220110212749-ds5hu0r.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220110212749-9nudvn3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110212749-9nudvn3",
+				"updated": "20220110212749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "很多人都知道，局部变量会存放在栈里。如果一个变量需要跨越方法的边界，就必须创建在堆里。"
+				}
+			]
+		},
+		{
+			"ID": "20220110212749-hh1uozd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220110212749-hh1uozd",
+				"updated": "20220110212749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、调用栈与线程"
+				}
+			]
+		},
+		{
+			"ID": "20220110212749-57fnp5l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110212749-57fnp5l",
+				"updated": "20220110212749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "两个线程就可以同时用不同的参数调用相同的方法。那么问题来了，调用栈和线程之间是什么关系呢？答案是：每个线程都有自己独立的调用栈。我们可以使用下图来简单的表示这种关系。"
+				}
+			]
+		},
+		{
+			"ID": "20220110212749-2n5xdj0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110212749-2n5xdj0",
+				"updated": "20220110212749"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(25)-20220110212749-bt0goy5.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220110212749-7rjl3fg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110212749-7rjl3fg",
+				"updated": "20220110212749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "此时，我们在看下文中开头的问题：Java方法内部的局部变量是否存在并发问题？答案是不存在并发问题！因为每个线程都有自己的调用栈，局部变量保存在线程各自的调用栈里，不会共享，自然也就不存在并发问题。"
+				}
+			]
+		},
+		{
+			"ID": "20220110212749-8f82rz6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220110212749-8f82rz6",
+				"updated": "20220110212749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、线程封闭"
+				}
+			]
+		},
+		{
+			"ID": "20220110212749-270xgc9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110212749-270xgc9",
+				"updated": "20220110212749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "方法里的局部变量，因为不会和其他线程共享，所以不会存在并发问题。这种解决问题的技术也叫做线程封闭。官方的解释为：仅在单线程内访问数据。由于不存在共享，所以即使不设置同步，也不会出现并发问题！"
+				}
+			]
+		}
+	]
+}

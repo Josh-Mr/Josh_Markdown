@@ -1,0 +1,436 @@
+{
+	"ID": "20220110211309-xlwmzyn",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220110211309-xlwmzyn",
+		"title": "20220110211309",
+		"updated": "20220110211429"
+	},
+	"Children": [
+		{
+			"ID": "20220110211311-79km2po",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211311-79km2po",
+				"updated": "20220110211311"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、Thread类的静态方法"
+				}
+			]
+		},
+		{
+			"ID": "20220110211311-x6ak0k4",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220110211311-x6ak0k4",
+				"updated": "20220110211311"
+			},
+			"Children": [
+				{
+					"ID": "20220110211311-fv28z2a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110211311-fv28z2a"
+					},
+					"Children": [
+						{
+							"ID": "20220110211311-a44mkx7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110211311-a44mkx7"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "sleep ：线程休眠方法"
+								}
+							]
+						},
+						{
+							"ID": "20220110211311-dw5de89",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220110211311-dw5de89"
+							},
+							"Children": [
+								{
+									"ID": "20220110211311-czko93m",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220110211311-czko93m"
+									},
+									"Children": [
+										{
+											"ID": "20220110211311-neckg7m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220110211311-neckg7m"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "1、释放了CPU资源 2、不释放锁资源 （外层有synchronized的话）"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110211311-zsap97z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110211311-zsap97z"
+					},
+					"Children": [
+						{
+							"ID": "20220110211311-pqaww0c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110211311-pqaww0c"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "yield  : 让出CPU调度"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110211311-gs0a9aa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110211311-gs0a9aa"
+					},
+					"Children": [
+						{
+							"ID": "20220110211311-rgi0pwn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110211311-rgi0pwn"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1、把当前线程重新回到就绪状态、2、只让其他同等优先级的线程有执行的机会、"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220110211311-g6rtkn2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211311-g6rtkn2",
+				"updated": "20220110211311"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、Thread的对象方法"
+				}
+			]
+		},
+		{
+			"ID": "20220110211311-02968w8",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220110211311-02968w8",
+				"updated": "20220110211429"
+			},
+			"Children": [
+				{
+					"ID": "20220110211311-iosil3o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110211311-iosil3o"
+					},
+					"Children": [
+						{
+							"ID": "20220110211311-npqa7b6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110211311-npqa7b6"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "wait ：线程等待方法。"
+								}
+							]
+						},
+						{
+							"ID": "20220110211311-khcy8gj",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220110211311-khcy8gj"
+							},
+							"Children": [
+								{
+									"ID": "20220110211311-vfuz603",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220110211311-vfuz603"
+									},
+									"Children": [
+										{
+											"ID": "20220110211311-69h3e47",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220110211311-69h3e47"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "1、当前线程暂停执行并释放对象锁和CPU资源、2、让其他线程可以进入同步代码中、当前线程进去对象等待池当中"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110211311-k2ttdzd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110211311-k2ttdzd"
+					},
+					"Children": [
+						{
+							"ID": "20220110211311-59tv4jd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110211311-59tv4jd"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "notify  \u0026 notifyAll ： 唤醒线程方法"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110211311-bnc0u35",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110211311-bnc0u35"
+					},
+					"Children": [
+						{
+							"ID": "20220110211311-5w9nrxj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110211311-5w9nrxj"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1、调用方法notify方法后、对象的等待池中移走任意的线程并放到锁同步等待池中、只有锁池才可以获取同步锁、2、如果锁同步等待池中没有线程、notify不起作用的。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110211311-yqzj3r5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110211311-yqzj3r5"
+					},
+					"Children": [
+						{
+							"ID": "20220110211311-qpbthyb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110211311-qpbthyb"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "3、notifyAll、从对象等待池移走所有等待那个对象的线程并放到锁同步等待池中。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110211311-lx5eoco",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110211311-lx5eoco",
+						"updated": "20220110211429"
+					},
+					"Children": [
+						{
+							"ID": "20220110211311-8ds6l8g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110211311-8ds6l8g",
+								"updated": "20220110211333"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "join ：  加入线程方法 "
+								}
+							]
+						},
+						{
+							"ID": "20220110211352-8a12551",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220110211352-8a12551",
+								"updated": "20220110211429"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "/**\n* @author Josh\n* @version 1.0.0\n* @ClassName JoinThreadDemo.java\n* @Description TODO\n* @createTime 2021-03-16 21:59:00\n*/\npublic class JoinThreadDemo {\n    public static void main(String[] args) {\n        Thread thread = new JoinThread01();\n        try {\n            for(int i = 0 ; i \u003c 5 ; i++) {\n                System.out.println(\"main = \" + i );\n                if (i == 2 ) {\n                thread.start();\n                thread.join();\n            }\n        }\n    } catch (InterruptedException e) {\n        e.printStackTrace();\n    }\n    }\n }\nclass JoinThread01 extends Thread{\n        @Override\n        public void run() {\n        for(int i = 0 ; i \u003c 5 ; i++) {\n            System.out.println(\"Join Thread01 = \" + i );\n        }\n    }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110211311-6vx6vtc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110211311-6vx6vtc"
+					},
+					"Children": [
+						{
+							"ID": "20220110211311-bykswjm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110211311-bykswjm"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一种特殊的wait，当前运行线程调用另一个线程的join方法，当前线程进入阻塞状态直到另一个线程运行结束等待该线程终止。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110211311-vd000xa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110211311-vd000xa"
+					},
+					"Children": [
+						{
+							"ID": "20220110211311-hy0dx5s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110211311-hy0dx5s"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "等待调用join方法的线程结束，再继续执行。如：t.join();//主要用于等待t线程运行结束，若无此句，main则会执行完毕，导致结果不可预测。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220110211311-yu0ucjm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211311-yu0ucjm",
+				"updated": "20220110211311"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意：wait、notify 、notifyall 方法： Synchronized语句块内使用这三个方法"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,668 @@
+{
+	"ID": "20220110212801-k2aqfq3",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220110212801-k2aqfq3",
+		"title": "【ThreadLocal使用、原理】",
+		"updated": "20220110212813"
+	},
+	"Children": [
+		{
+			"ID": "20220110212813-77407r7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110212813-77407r7",
+				"updated": "20220110212813"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、使用场景："
+				}
+			]
+		},
+		{
+			"ID": "20220110212813-tfmtrzm",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220110212813-tfmtrzm",
+				"updated": "20220110212813"
+			},
+			"Children": [
+				{
+					"ID": "20220110212813-9pb1v4u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110212813-9pb1v4u"
+					},
+					"Children": [
+						{
+							"ID": "20220110212813-jhixlfa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110212813-jhixlfa"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "提问“在多线程的情况下、如何防止自己的变量被其他线程篡改”?"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110212813-v49vd7a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110212813-v49vd7a"
+					},
+					"Children": [
+						{
+							"ID": "20220110212813-fyo5cin",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110212813-fyo5cin"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "每个线程需要自己单独一份实例（Session可能用到）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110212813-vze3veb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110212813-vze3veb"
+					},
+					"Children": [
+						{
+							"ID": "20220110212813-u34tnv7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110212813-u34tnv7"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实例需要被多个方法共享，但不允许被多线程共享"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110212813-3hl8dqp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110212813-3hl8dqp"
+					},
+					"Children": [
+						{
+							"ID": "20220110212813-qrb8oa5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110212813-qrb8oa5"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "场景总结："
+								}
+							]
+						},
+						{
+							"ID": "20220110212813-u5nd67j",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220110212813-u5nd67j"
+							},
+							"Children": [
+								{
+									"ID": "20220110212813-cd025ab",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220110212813-cd025ab"
+									},
+									"Children": [
+										{
+											"ID": "20220110212813-iankxu3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220110212813-iankxu3"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用于每个线程需要自己独立的实例且该实例需要再多个方法中被使用。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220110212813-tfyvzg9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220110212813-tfyvzg9"
+									},
+									"Children": [
+										{
+											"ID": "20220110212813-5tcs13m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220110212813-5tcs13m"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "也即是变量在线程间隔离而在方法或类间共享的场景。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110212813-1rz67l4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110212813-1rz67l4"
+					},
+					"Children": [
+						{
+							"ID": "20220110212813-dtit54w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110212813-dtit54w"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "全链路追踪中的 traceId 或者流程引擎中上下文的传递一般采用 ThreadLocal"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110212813-c9nld29",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110212813-c9nld29"
+					},
+					"Children": [
+						{
+							"ID": "20220110212813-429p6bz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110212813-429p6bz"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Spring 事务管理器采用了 ThreadLocal"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110212813-1h3w92y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110212813-1h3w92y"
+					},
+					"Children": [
+						{
+							"ID": "20220110212813-oax9gao",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110212813-oax9gao"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Spring MVC 的 RequestContextHolder 的实现使用了 ThreadLocal"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220110212813-350s0na",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110212813-350s0na",
+				"updated": "20220110212813"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、ThreadLocal是什么？"
+				}
+			]
+		},
+		{
+			"ID": "20220110212813-me46xb3",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220110212813-me46xb3",
+				"updated": "20220110212813"
+			},
+			"Children": [
+				{
+					"ID": "20220110212813-kr0x9ek",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110212813-kr0x9ek"
+					},
+					"Children": [
+						{
+							"ID": "20220110212813-ew24zdc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110212813-ew24zdc"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "线程本地变量、提供了线程本地的实例。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110212813-z5fapnu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110212813-z5fapnu"
+					},
+					"Children": [
+						{
+							"ID": "20220110212813-0tp6syx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110212813-0tp6syx"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "与普通变量相比、每一个使用该变量（ThreadLocal）的线程都会初始化一个完全独立的实例副本。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110212813-muh2cye",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110212813-muh2cye"
+					},
+					"Children": [
+						{
+							"ID": "20220110212813-493ncz5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110212813-493ncz5"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ThreadLocal变量通常被private static 修复，线程结束时，所使用的实例副本都会回收。--内存泄漏？"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220110212813-xh3435e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110212813-xh3435e",
+				"updated": "20220110212813"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、ThreadLocal实现原理"
+				}
+			]
+		},
+		{
+			"ID": "20220110212813-k3uj06e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110212813-k3uj06e",
+				"updated": "20220110212813"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(26)-20220110212813-vrb9lbl.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220110212813-42txfle",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110212813-42txfle",
+				"updated": "20220110212813"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、实现原理"
+				}
+			]
+		},
+		{
+			"ID": "20220110212813-yr5rnag",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220110212813-yr5rnag",
+				"updated": "20220110212813"
+			},
+			"Children": [
+				{
+					"ID": "20220110212813-4pyxsjz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110212813-4pyxsjz"
+					},
+					"Children": [
+						{
+							"ID": "20220110212813-azhfj3t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110212813-azhfj3t"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ThreadLocal本地线程变量有一个静态内部类ThreadLocalMap，Map的key就是ThreadLocal的hashcode值，value就是要存的Object值T。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110212813-mofz5qj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110212813-mofz5qj"
+					},
+					"Children": [
+						{
+							"ID": "20220110212813-ezzclm1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110212813-ezzclm1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ThreadLocalMap用来管理一个线程里面有多个ThreadLocal变量。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220110212813-afqotbs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110212813-afqotbs",
+				"updated": "20220110212813"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四、内存泄漏问题 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Java中的内存泄露的几种可能"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://app.yinxiang.com/shard/s57/nl/20268372/05a959b1-5348-4f80-b8e8-6e31258aeae8"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220110212813-yy3wedp",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220110212813-yy3wedp",
+				"updated": "20220110212813"
+			},
+			"Children": [
+				{
+					"ID": "20220110212813-66v9bnb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110212813-66v9bnb"
+					},
+					"Children": [
+						{
+							"ID": "20220110212813-2tleiv8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110212813-2tleiv8"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ThreadLocalMap中使用key为ThreadLocal的弱引用，弱引用的特点是：如果这个对象只存在弱引用，那么这个对象下次垃圾回收就会清理。为什么呢？"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110212813-4c3bbub",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110212813-4c3bbub"
+					},
+					"Children": [
+						{
+							"ID": "20220110212813-chqe8hv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110212813-chqe8hv"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当ThreadLocalMap的key为弱引用回收ThreadLocal时，由于ThreadLocalMap持有ThreadLocal的弱引用，即使没有手动删除，ThreadLocal也会被回收。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110212813-1opp17m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110212813-1opp17m"
+					},
+					"Children": [
+						{
+							"ID": "20220110212813-q64fe0s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110212813-q64fe0s"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当key为null，在下一次ThreadLocalMap调用set(),get()，remove()方法的时候会被清除value值。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

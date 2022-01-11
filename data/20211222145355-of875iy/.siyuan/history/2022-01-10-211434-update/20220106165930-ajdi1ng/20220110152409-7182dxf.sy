@@ -1,0 +1,445 @@
+{
+	"ID": "20220110152409-7182dxf",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20220110152409-7182dxf",
+		"title": "【线程生命周期】",
+		"updated": "20220110211215"
+	},
+	"Children": [
+		{
+			"ID": "20220110152409-u4kspix",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220110152409-u4kspix",
+				"updated": "20220110211140"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、线程的生命周期"
+				}
+			]
+		},
+		{
+			"ID": "20220110211117-vai65v9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220110211117-vai65v9",
+				"updated": "20220110211117"
+			},
+			"Children": [
+				{
+					"ID": "20220110211117-hkcq8hu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110211117-hkcq8hu"
+					},
+					"Children": [
+						{
+							"ID": "20220110211117-7ajmpll",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110211117-7ajmpll"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "五种基本状态"
+								}
+							]
+						},
+						{
+							"ID": "20220110211117-y8m1swn",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220110211117-y8m1swn"
+							},
+							"Children": [
+								{
+									"ID": "20220110211117-8j81yyu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220110211117-8j81yyu"
+									},
+									"Children": [
+										{
+											"ID": "20220110211117-letzmk4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220110211117-letzmk4"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "新建状态 New ：new thread的时候"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220110211117-wt6fboq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220110211117-wt6fboq"
+									},
+									"Children": [
+										{
+											"ID": "20220110211117-yk12hkn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220110211117-yk12hkn"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "就绪状态 Runnable：线程对象调用start()的时候，等待获取cpu资源"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220110211117-l526reb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220110211117-l526reb"
+									},
+									"Children": [
+										{
+											"ID": "20220110211117-yqttxcz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220110211117-yqttxcz"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "运行状态 Running：获得cpu资源的后"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220110211117-ey0aqs2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220110211117-ey0aqs2"
+									},
+									"Children": [
+										{
+											"ID": "20220110211117-pygxacc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220110211117-pygxacc"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "死亡状态 Deaded：执行完毕、异常退出"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220110211117-o2f08x3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220110211117-o2f08x3"
+									},
+									"Children": [
+										{
+											"ID": "20220110211117-xiaa0pb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220110211117-xiaa0pb"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "阻塞状态 Blocked："
+												}
+											]
+										},
+										{
+											"ID": "20220110211117-g9uaehz",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220110211117-g9uaehz"
+											},
+											"Children": [
+												{
+													"ID": "20220110211117-6ft4mtm",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220110211117-6ft4mtm"
+													},
+													"Children": [
+														{
+															"ID": "20220110211117-rj1az39",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220110211117-rj1az39"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "等待阻塞：运行状态中线程执行wait(),使本线程进入到等待阻塞状态。JVM把改线程放入等待队列中。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220110211117-685nh36",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220110211117-685nh36"
+													},
+													"Children": [
+														{
+															"ID": "20220110211117-82adtlr",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220110211117-82adtlr"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "同步阻塞：线程在获取同步锁的时候（synchronized）被其他线程占用，进入同步阻塞。JVM会把该线程放入锁池中。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220110211117-i7txgcw",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220110211117-i7txgcw"
+													},
+													"Children": [
+														{
+															"ID": "20220110211117-9zing12",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220110211117-9zing12"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "其他阻塞：下面阻塞完毕后，线程重新转入就绪状态"
+																}
+															]
+														},
+														{
+															"ID": "20220110211117-dp8xche",
+															"Type": "NodeList",
+															"ListData": {},
+															"Properties": {
+																"id": "20220110211117-dp8xche"
+															},
+															"Children": [
+																{
+																	"ID": "20220110211117-28mq1om",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220110211117-28mq1om"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220110211117-dw63c7i",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220110211117-dw63c7i"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "线程调用sleep方法"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220110211117-07dly5g",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220110211117-07dly5g"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220110211117-vgqqv5k",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220110211117-vgqqv5k"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "线程调用join方法"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220110211117-rxnqjvi",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220110211117-rxnqjvi"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220110211117-z4u5072",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220110211117-z4u5072"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "I/O请求时"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220110211132-d45w283",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211132-d45w283",
+				"updated": "20220110211132"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(22)-20220110211117-l3z4mum.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

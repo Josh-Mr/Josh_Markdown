@@ -1695,3 +1695,46 @@ I 2022/01/10 09:22:28 conf.go:487: post-init database size [14 MB], tree stat [c
 I 2022/01/10 09:22:28 working.go:135: kernel booted
 E 2022/01/10 09:22:51 rhy.go:42: get version meta info failed: [Get "https://rhythm.b3log.org/version/siyuan?ver=1.6.3": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
 I 2022/01/10 09:22:57 conf.go:341: exited kernel
+I 2022/01/10 09:24:32 working.go:95: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2022/01/10 09:24:33 runtime.go:49: kernel is booting:
+    * ver [1.6.3]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\SiYuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20211218]
+    * workspace directory [F:\Josh_Markdown, data 80 MB]
+    * pandoc [.exe 2.13]
+I 2022/01/10 09:24:33 conf.go:250: local serve path [http://127.0.0.1:6806]
+I 2022/01/10 09:24:33 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2022/01/10 09:24:33 conf.go:466: pre-init database size [14 MB]
+I 2022/01/10 09:24:33 index.go:132: use existing database for box [20211217161537-movp6tu]
+I 2022/01/10 09:24:33 index.go:132: use existing database for box [20211222145355-of875iy]
+I 2022/01/10 09:24:33 index.go:132: use existing database for box [20211218225346-xp0ksoo]
+I 2022/01/10 09:24:34 index.go:132: use existing database for box [20211218230747-88wsl35]
+I 2022/01/10 09:24:34 index.go:214: resolving refs...
+I 2022/01/10 09:24:34 index.go:355: resolved refs
+I 2022/01/10 09:24:34 conf.go:487: post-init database size [14 MB], tree stat [count=123, size=2.3 MB]
+I 2022/01/10 09:24:34 working.go:135: kernel booted
+E 2022/01/10 20:29:15 rhy.go:42: get version meta info failed: [Get "https://rhythm.b3log.org/version/siyuan?ver=1.6.3": dial tcp: lookup rhythm.b3log.org: no such host]
+E 2022/01/10 23:15:11 transaction.go:762: load tree [id=20220110231506-jl5worc] failed: block not found
+E 2022/01/10 23:15:12 transaction.go:762: load tree [id=20220110231506-jl5worc] failed: block not found
+I 2022/01/10 23:15:14 database.go:73: reinitialized database [F:\Josh_Markdown\temp\siyuan.db]
+I 2022/01/10 23:15:14 index.go:204: rebuilt database for notebook [20211217161537-movp6tu] in [0.01s], tree stat [count=16, size=21 kB]
+I 2022/01/10 23:15:14 index.go:204: rebuilt database for notebook [20211222145355-of875iy] in [0.04s], tree stat [count=16, size=204 kB]
+I 2022/01/10 23:15:14 index.go:204: rebuilt database for notebook [20211218225346-xp0ksoo] in [0.14s], tree stat [count=51, size=967 kB]
+I 2022/01/10 23:15:14 index.go:204: rebuilt database for notebook [20211218230747-88wsl35] in [0.09s], tree stat [count=49, size=1.2 MB]
+I 2022/01/10 23:15:14 index.go:214: resolving refs...
+I 2022/01/10 23:15:14 index.go:355: resolved refs

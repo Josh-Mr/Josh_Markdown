@@ -1,0 +1,60 @@
+{
+	"ID": "20220110115534-vo48t6y",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220110115534-vo48t6y",
+		"title": "2022-01-10",
+		"updated": "20220110143459"
+	},
+	"Children": [
+		{
+			"ID": "20220110115534-kd6o9jw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110115534-kd6o9jw",
+				"updated": "20220110115535"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "main方法-\u003e创建进程，运行不同虚拟机的实例，内存数据不共享。"
+				}
+			]
+		},
+		{
+			"ID": "20220110115536-2l04vrw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220110115536-2l04vrw",
+				"updated": "20220110115620"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * @Author: Josh\n * @CreateTime: 2022-01-10 11:15\n * @Description: TODO\n */\npublic class TempDemo {\n    public static Map\u003cString, String\u003e data = new HashMap\u003c\u003e();\n    public static void main(String[] args) {\n        data.put(\"name\", \"rayjun\");\n        System.out.println(data.get(\"name\"));\n    }\n}\nclass Main2 {\n    public static void main(String[] args) {\n        System.out.println(TempDemo.data.get(\"name\"));\n    }\n}\n结果：\nrayjun\nnull\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220110143459-f6u5ekg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110143459-f6u5ekg",
+				"updated": "20220110143459"
+			}
+		}
+	]
+}

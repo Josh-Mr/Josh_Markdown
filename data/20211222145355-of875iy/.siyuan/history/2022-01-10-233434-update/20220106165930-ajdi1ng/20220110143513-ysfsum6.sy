@@ -1,0 +1,1200 @@
+{
+	"ID": "20220110143513-ysfsum6",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20220110143513-ysfsum6",
+		"title": "【自定义线程池】",
+		"updated": "20220110233432"
+	},
+	"Children": [
+		{
+			"ID": "20220110143513-rxhsomo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220110143513-rxhsomo",
+				"updated": "20220110231057"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、池化技术"
+				}
+			]
+		},
+		{
+			"ID": "20220110231100-7s2c099",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220110231100-7s2c099",
+				"updated": "20220110231428"
+			},
+			"Children": [
+				{
+					"ID": "20220110231127-mavet9o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110231127-mavet9o",
+						"updated": "20220110231310"
+					},
+					"Children": [
+						{
+							"ID": "20220110231127-kprhx66",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110231127-kprhx66",
+								"updated": "20220110231310"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "池化技术是："
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "提前保存大量的资源"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，什么时候需要就可以直接用。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110231307-vitwou7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110231307-vitwou7",
+						"updated": "20220110231428"
+					},
+					"Children": [
+						{
+							"ID": "20220110231307-2lpabob",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110231307-2lpabob",
+								"updated": "20220110231428"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "池化技术有哪些："
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "线程池"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "、"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "连接池"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "、"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "内存池"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "、"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "对象池"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220110231101-e8nj2qc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220110231101-e8nj2qc",
+				"updated": "20220110231501"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、线程池"
+				}
+			]
+		},
+		{
+			"ID": "20220110231503-dtz8yfv",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220110231503-dtz8yfv",
+				"updated": "20220110231943"
+			},
+			"Children": [
+				{
+					"ID": "20220110231520-gpvvn5g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110231520-gpvvn5g"
+					},
+					"Children": [
+						{
+							"ID": "20220110231520-ftaizy1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110231520-ftaizy1",
+								"updated": "20220110231715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "线程池是：提前创建好很多线程，放到池子里面。需要用时直接取，避免多次创建线程、销毁带来的性能开销。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110231856-7fa83ez",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110231856-7fa83ez",
+						"updated": "20220110231943"
+					},
+					"Children": [
+						{
+							"ID": "20220110231856-amkia9t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110231856-amkia9t",
+								"updated": "20220110231943"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "特点：线程复用、控制最大并发数、管理线程。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110231721-fqw7w8o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110231721-fqw7w8o"
+					},
+					"Children": [
+						{
+							"ID": "20220110231721-x708qqv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110231721-x708qqv",
+								"updated": "20220110231723"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "作用："
+								}
+							]
+						},
+						{
+							"ID": "20220110231727-uy249dz",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20220110231727-uy249dz",
+								"updated": "20220110231729"
+							},
+							"Children": [
+								{
+									"ID": "20220110231729-58km25e",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220110231729-58km25e"
+									},
+									"Children": [
+										{
+											"ID": "20220110231729-sri7gh3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220110231729-sri7gh3",
+												"updated": "20220110231757"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "提高响应速率。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220110231757-lbnt2fc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20220110231757-lbnt2fc"
+									},
+									"Children": [
+										{
+											"ID": "20220110231757-i0l2954",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220110231757-i0l2954",
+												"updated": "20220110231808"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "降低资源消耗"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220110231809-sbzoh87",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20220110231809-sbzoh87"
+									},
+									"Children": [
+										{
+											"ID": "20220110231809-ty2ds22",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220110231809-ty2ds22",
+												"updated": "20220110231847"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "提高线程可管理性"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220110231101-ys3j7b2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220110231101-ys3j7b2",
+				"updated": "20220110232011"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、线程池三大方法"
+				}
+			]
+		},
+		{
+			"ID": "20220110232011-bp7lc12",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220110232011-bp7lc12",
+				"updated": "20220110232215"
+			},
+			"Children": [
+				{
+					"ID": "20220110232215-sjzgfip",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220110232215-sjzgfip"
+					},
+					"Children": [
+						{
+							"ID": "20220110232215-smtknc2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110232215-smtknc2",
+								"updated": "20220110232424"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Executors.newFixedThreadPool(N)"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：创建指定数量线程池。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110232235-xpfowpv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220110232235-xpfowpv"
+					},
+					"Children": [
+						{
+							"ID": "20220110232235-5xiilhr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110232235-5xiilhr",
+								"updated": "20220110232435"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Executors.newSingleThreadExecutor()"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：有且只有一个固定的线程。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110232325-f8q9gbo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220110232325-f8q9gbo"
+					},
+					"Children": [
+						{
+							"ID": "20220110232325-ng9xlsn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110232325-ng9xlsn",
+								"updated": "20220110232437"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Executors.newCachedThreadPool()"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：创建自适应大小的线程池。 "
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220110232131-9yc7fqx",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220110232131-9yc7fqx",
+				"updated": "20220110232613"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "        /**\n         * 三种方式（不推荐；最好用手动创建线程池方式）\n         */\n        // 创建一个线程的线程池\n        ExecutorService singleThreadExecutor = Executors.newSingleThreadExecutor();\n        // 创建指定数量线程池\n        ExecutorService fixedThreadPool = Executors.newFixedThreadPool(3);\n        // 创建自适应大小的线程池\n        ExecutorService cachedThreadPool = Executors.newCachedThreadPool();\n        for (int i = 1; i \u003c= 10; i++) {\n            final int temp = i;\n            singleThreadExecutor.execute(()-\u003e{\n                System.out.println(Thread.currentThread().getName()+\"=\u003e\"+temp);\n            });\n        }\n        // 关闭\n        singleThreadExecutor.shutdown(\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220110232559-8aspmk1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20220110232559-8aspmk1",
+				"updated": "20220110232624"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Properties": {
+						"style": "text-shadow: 1px 1px var(--b3-border-color), 2px 2px var(--b3-border-color), 3px 3px var(--b3-border-color), 4px 4px var(--b3-border-color);"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "三大方法本质：调用了 new ThreadPoolExecutor ( 7 大参数 )"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"text-shadow: 1px 1px var(--b3-border-color), 2px 2px var(--b3-border-color), 3px 3px var(--b3-border-color), 4px 4px var(--b3-border-color);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20220110232042-qjl8iif",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220110232042-qjl8iif",
+				"updated": "20220110232101"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四、线程池七大参数"
+				}
+			]
+		},
+		{
+			"ID": "20220110232102-dhwbr5c",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220110232102-dhwbr5c",
+				"updated": "20220110232837"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\n    /**\n     * Creates a new {@code ThreadPoolExecutor} with the given initial\n     * parameters.\n     *\n     * @param corePoolSize the number of threads to keep in the pool, even\n     *        if they are idle, unless {@code allowCoreThreadTimeOut} is set\n     * @param maximumPoolSize the maximum number of threads to allow in the\n     *        pool\n     * @param keepAliveTime when the number of threads is greater than\n     *        the core, this is the maximum time that excess idle threads\n     *        will wait for new tasks before terminating.\n     * @param unit the time unit for the {@code keepAliveTime} argument\n     * @param workQueue the queue to use for holding tasks before they are\n     *        executed.  This queue will hold only the {@code Runnable}\n     *        tasks submitted by the {@code execute} method.\n     * @param threadFactory the factory to use when the executor\n     *        creates a new thread\n     * @param handler the handler to use when execution is blocked\n     *        because the thread bounds and queue capacities are reached\n     * @throws IllegalArgumentException if one of the following holds:\u003cbr\u003e\n     *         {@code corePoolSize \u003c 0}\u003cbr\u003e\n     *         {@code keepAliveTime \u003c 0}\u003cbr\u003e\n     *         {@code maximumPoolSize \u003c= 0}\u003cbr\u003e\n     *         {@code maximumPoolSize \u003c corePoolSize}\n     * @throws NullPointerException if {@code workQueue}\n     *         or {@code threadFactory} or {@code handler} is null\n     */\n    public ThreadPoolExecutor(int corePoolSize,\n                              int maximumPoolSize,\n                              long keepAliveTime,\n                              TimeUnit unit,\n                              BlockingQueue\u003cRunnable\u003e workQueue,\n                              ThreadFactory threadFactory,\n                              RejectedExecutionHandler handler) {\n        if (corePoolSize \u003c 0 ||\n            maximumPoolSize \u003c= 0 ||\n            maximumPoolSize \u003c corePoolSize ||\n            keepAliveTime \u003c 0)\n            throw new IllegalArgumentException();\n        if (workQueue == null || threadFactory == null || handler == null)\n            throw new NullPointerException();\n        this.acc = System.getSecurityManager() == null ?\n                null :\n                AccessController.getContext();\n        this.corePoolSize = corePoolSize;\n        this.maximumPoolSize = maximumPoolSize;\n        this.workQueue = workQueue;\n        this.keepAliveTime = unit.toNanos(keepAliveTime);\n        this.threadFactory = threadFactory;\n        this.handler = handler;\n    }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220110232102-u6ghz61",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220110232102-u6ghz61",
+				"updated": "20220110233432"
+			},
+			"Children": [
+				{
+					"ID": "20220110233120-z9vvse9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110233120-z9vvse9"
+					},
+					"Children": [
+						{
+							"ID": "20220110233120-vhasq66",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110233120-vhasq66",
+								"updated": "20220110233307"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "corePollSize"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：核心线程数。在创建了线程池后，线程中没有任何线程，等到有任务到来时才创建线程去执行任务。默认情况下，在创建了线程池后，线程池中的线程数为0，当有任务来之后，就会创建一个线程去执行任务，当线程池中的线程数目达到corePoolSize后，就会把到达的任务放到缓存队列当中。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110233154-s4foz7b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110233154-s4foz7b"
+					},
+					"Children": [
+						{
+							"ID": "20220110233154-nqzhy3x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110233154-nqzhy3x",
+								"updated": "20220110233308"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "maximumPoolSize"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：最大线程数。表明线程中最多能够创建的线程数量，此值必须大于等于1。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110233301-sku8itv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110233301-sku8itv"
+					},
+					"Children": [
+						{
+							"ID": "20220110233301-254x74z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110233301-254x74z",
+								"updated": "20220110233318"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "keepAliveTime"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：空闲的线程保留的时间。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110233324-n7rhigy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110233324-n7rhigy"
+					},
+					"Children": [
+						{
+							"ID": "20220110233324-nj9ib8t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110233324-nj9ib8t",
+								"updated": "20220110233332"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "TimeUnit"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：空闲线程的保留时间单位。"
+								}
+							]
+						},
+						{
+							"ID": "20220110233334-zwhy85d",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220110233334-zwhy85d",
+								"updated": "20220110233344"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "TimeUnit.DAYS; //天\nTimeUnit.HOURS; //小时\nTimeUnit.MINUTES; //分钟\nTimeUnit.SECONDS; //秒\nTimeUnit.MILLISECONDS; //毫秒\nTimeUnit.MICROSECONDS; //微妙\nTimeUnit.NANOSECONDS; //纳秒\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110233355-20uqaqu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110233355-20uqaqu"
+					},
+					"Children": [
+						{
+							"ID": "20220110233355-tkc41nk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110233355-tkc41nk",
+								"updated": "20220110233404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "BlockingQueue\u003c Runnable\u003e ：阻塞队列，存储等待执行的任务。参数有ArrayBlockingQueue、\nLinkedBlockingQueue、SynchronousQueue可选。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110233405-vdg0ibe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110233405-vdg0ibe"
+					},
+					"Children": [
+						{
+							"ID": "20220110233405-9i2su2h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110233405-9i2su2h",
+								"updated": "20220110233412"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ThreadFactory ：线程工厂，用来创建线程，一般默认即可"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110233413-14vdldu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110233413-14vdldu",
+						"updated": "20220110233432"
+					},
+					"Children": [
+						{
+							"ID": "20220110233413-5iey06a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110233413-5iey06a",
+								"updated": "20220110233421"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "RejectedExecutionHandler ：队列已满，而且任务量大于最大线程的异常处理策略。有以下取值"
+								}
+							]
+						},
+						{
+							"ID": "20220110233422-yyfre7c",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220110233422-yyfre7c",
+								"updated": "20220110233432"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "ThreadPoolExecutor.AbortPolicy:丢弃任务并抛出RejectedExecutionException异常。\nThreadPoolExecutor.DiscardPolicy：也是丢弃任务，但是不抛出异常。\nThreadPoolExecutor.DiscardOldestPolicy：丢弃队列最前面的任务，然后重新尝试执行任务（重复此过程）\nThreadPoolExecutor.CallerRunsPolicy：由调用线程处理该任务\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220110232102-3buq3o8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220110232102-3buq3o8",
+				"updated": "20220110232112"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "五、四种策略"
+				}
+			]
+		},
+		{
+			"ID": "20220110231101-vnxjhw5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110231101-vnxjhw5",
+				"updated": "20220110231101"
+			}
+		},
+		{
+			"ID": "20220110143544-gqcy0ve",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220110143544-gqcy0ve",
+				"updated": "20220110144011"
+			},
+			"Children": [
+				{
+					"ID": "20220110143545-5wf7tt2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220110143545-5wf7tt2"
+					},
+					"Children": [
+						{
+							"ID": "20220110143545-odb8rfh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110143545-odb8rfh",
+								"updated": "20220110143556"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "三种方式"
+								}
+							]
+						},
+						{
+							"ID": "20220110143609-r4xcgdj",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220110143609-r4xcgdj",
+								"updated": "20220110143854"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "        /**\n         * 三种方式（不推荐；最好用手动创建线程池方式）\n         */\n        // 创建一个线程的线程池\n        ExecutorService singleThreadExecutor = Executors.newSingleThreadExecutor();\n        // 创建指定数量线程池\n        ExecutorService fixedThreadPool = Executors.newFixedThreadPool(3);\n        // 创建自适应大小的线程池\n        ExecutorService cachedThreadPool = Executors.newCachedThreadPool();\n        for (int i = 1; i \u003c= 10; i++) {\n            final int temp = i;\n            singleThreadExecutor.execute(()-\u003e{\n                System.out.println(Thread.currentThread().getName()+\"=\u003e\"+temp);\n            });\n        }\n        // 关闭\n        singleThreadExecutor.shutdown();\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110143556-fr05o1a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220110143556-fr05o1a",
+						"updated": "20220110144011"
+					},
+					"Children": [
+						{
+							"ID": "20220110143556-o77gu40",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110143556-o77gu40",
+								"updated": "20220110143602"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "七个参数"
+								}
+							]
+						},
+						{
+							"ID": "20220110144009-qafm0p1",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220110144009-qafm0p1",
+								"updated": "20220110144011"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110143602-yncc8dx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220110143602-yncc8dx"
+					},
+					"Children": [
+						{
+							"ID": "20220110143602-2k1fnis",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110143602-2k1fnis",
+								"updated": "20220110143608"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "四种策略"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220110144858-i3pncun",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110144858-i3pncun",
+				"updated": "20220110144858"
+			}
+		}
+	]
+}

@@ -1,0 +1,876 @@
+{
+	"ID": "20220110211556-2sw3qz3",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220110211556-2sw3qz3",
+		"title": "【volatile、synchronized的作用、原理、区别】",
+		"updated": "20220110212722"
+	},
+	"Children": [
+		{
+			"ID": "20220110211617-nntdql0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211617-nntdql0",
+				"updated": "20220110211617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "volatile："
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://www.cnblogs.com/paddix/p/5428507.html"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.cnblogs.com/paddix/p/5428507.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220110211617-tyn5k2x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211617-tyn5k2x",
+				"updated": "20220110211617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、Synchronized的作用"
+				}
+			]
+		},
+		{
+			"ID": "20220110211617-594vomb",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220110211617-594vomb",
+				"updated": "20220110211617"
+			},
+			"Children": [
+				{
+					"ID": "20220110211617-5imxkvi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110211617-5imxkvi"
+					},
+					"Children": [
+						{
+							"ID": "20220110211617-myzgffo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110211617-myzgffo"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "确保线程互斥的访问同步代码（互斥性）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110211617-4xr26an",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110211617-4xr26an"
+					},
+					"Children": [
+						{
+							"ID": "20220110211617-f990dyp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110211617-f990dyp"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "保证共享变量的修改能够及时可见（可见性）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110211617-u9dfp4k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110211617-u9dfp4k"
+					},
+					"Children": [
+						{
+							"ID": "20220110211617-0p4sdq3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110211617-0p4sdq3"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "有效解决重排序问题"
+								}
+							]
+						},
+						{
+							"ID": "20220110211617-p3p5i5j",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220110211617-p3p5i5j"
+							},
+							"Children": [
+								{
+									"ID": "20220110211617-vacj97j",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220110211617-vacj97j"
+									},
+									"Children": [
+										{
+											"ID": "20220110211617-vq06sjn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220110211617-vq06sjn"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "指令重排是指处理器为了提高程序运行效率，可能会对输入代码进行优化，它不保证各个语句的执行顺序同代码中的顺序一致，但是它会保证程序最终执行结果和代码顺序执行的结果是一致的。指令重排序不会影响单个线程的执行，但是会影响到线程并发执行的正确性。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220110211617-5k6cw1i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211617-5k6cw1i",
+				"updated": "20220110211635"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、Synchronized用法（用Lock接口类也可以实现）"
+				}
+			]
+		},
+		{
+			"ID": "20220110211617-uep1gmc",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220110211617-uep1gmc",
+				"updated": "20220110211617"
+			},
+			"Children": [
+				{
+					"ID": "20220110211617-624wawh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110211617-624wawh"
+					},
+					"Children": [
+						{
+							"ID": "20220110211617-0gqqv6p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110211617-0gqqv6p"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码块"
+								}
+							]
+						},
+						{
+							"ID": "20220110211617-yxxeiab",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220110211617-yxxeiab"
+							},
+							"Children": [
+								{
+									"ID": "20220110211617-gwgjmgy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220110211617-gwgjmgy"
+									},
+									"Children": [
+										{
+											"ID": "20220110211617-wauhy1z",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220110211617-wauhy1z"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "对象--\u003e对象锁"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220110211617-rvermqj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220110211617-rvermqj"
+									},
+									"Children": [
+										{
+											"ID": "20220110211617-0np4g4r",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220110211617-0np4g4r"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Class--\u003e类的Class对象锁"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110211617-767a4j8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110211617-767a4j8"
+					},
+					"Children": [
+						{
+							"ID": "20220110211617-qrwj7x6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110211617-qrwj7x6"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "普通方法：将该对象上锁"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220110211617-7aqxuq1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220110211617-7aqxuq1"
+					},
+					"Children": [
+						{
+							"ID": "20220110211617-qa6p23p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110211617-qa6p23p"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "静态方法: synchronized方法所在的对象所对应的Class对象"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220110211617-kv2omco",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211617-kv2omco",
+				"updated": "20220110211617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "普通方法："
+				}
+			]
+		},
+		{
+			"ID": "20220110211617-x7gl2ud",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211617-x7gl2ud",
+				"updated": "20220110211617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    Java中的每个对象都有一个锁（lock）或者叫做监视器（monitor），当访问某个对象的synchronized方法时，表示将该对象上锁，此时其他任何线程都无法再去访问该synchronized方法了，直到之前的那个线程执行方法完毕后（或者是抛出了异常），那么将该对象的锁释放掉，其他线程才有可能再去访问该synchronized方法。"
+				}
+			]
+		},
+		{
+			"ID": "20220110211617-dyn1k4r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211617-dyn1k4r",
+				"updated": "20220110211617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "静态方法："
+				}
+			]
+		},
+		{
+			"ID": "20220110211617-vrqgwt3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211617-vrqgwt3",
+				"updated": "20220110211617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果某个synchronized方法是static的，那么当线程访问该方法时，它锁的并不是synchronized方法所在的对象，而是synchronized方法所在的对象所对应的Class对象，因为Java中无论一个类有多少个对象，这些对象会对应唯一一个Class对象，因此当线程分别访问同一个类的两个对象的两个static，synchronized方法时，他们的执行顺序也是顺序的，也就是说一个线程先去执行方法，执行完毕后另一个线程才开始执行。"
+				}
+			]
+		},
+		{
+			"ID": "20220110211617-wk90c9q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211617-wk90c9q",
+				"updated": "20220110211617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、synchronized原理"
+				}
+			]
+		},
+		{
+			"ID": "20220110211617-jc1ablp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211617-jc1ablp",
+				"updated": "20220110211617"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(23)-20220110211617-akjvhh3.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220110211617-ju9eb3x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211617-ju9eb3x",
+				"updated": "20220110211617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "关于这两条指令的作用，我们直接参考JVM规范中描述："
+				}
+			]
+		},
+		{
+			"ID": "20220110211617-a4ideou",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211617-a4ideou",
+				"updated": "20220110211617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**monitorenter **"
+				}
+			]
+		},
+		{
+			"ID": "20220110211617-sow02ty",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211617-sow02ty",
+				"updated": "20220110211617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这段话的大概意思为："
+				}
+			]
+		},
+		{
+			"ID": "20220110211617-fm2uuub",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211617-fm2uuub",
+				"updated": "20220110211617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "每个对象有一个监视器锁（monitor）。当monitor被占用时就会处于锁定状态，线程执行monitorenter指令时尝试获取monitor的所有权，过程如下："
+				}
+			]
+		},
+		{
+			"ID": "20220110211617-8zxh530",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211617-8zxh530",
+				"updated": "20220110211617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、如果monitor的进入数为0，则该线程进入monitor，然后将进入数设置为1，该线程即为monitor的所有者。"
+				}
+			]
+		},
+		{
+			"ID": "20220110211617-al96sp2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211617-al96sp2",
+				"updated": "20220110211617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、如果线程已经占有该monitor，只是重新进入，则进入monitor的进入数加1."
+				}
+			]
+		},
+		{
+			"ID": "20220110211617-in78t80",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211617-in78t80",
+				"updated": "20220110211617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.如果其他线程已经占用了monitor，则该线程进入阻塞状态，直到monitor的进入数为0，再重新尝试获取monitor的所有权。"
+				}
+			]
+		},
+		{
+			"ID": "20220110211617-eq0r197",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211617-eq0r197",
+				"updated": "20220110211617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "monitorexit：　"
+				}
+			]
+		},
+		{
+			"ID": "20220110211617-2iy52x9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211617-2iy52x9",
+				"updated": "20220110211617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这段话的大概意思为："
+				}
+			]
+		},
+		{
+			"ID": "20220110211617-bhqto8p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211617-bhqto8p",
+				"updated": "20220110211617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "执行monitorexit的线程必须是objectref所对应的monitor的所有者。"
+				}
+			]
+		},
+		{
+			"ID": "20220110211617-able7tp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211617-able7tp",
+				"updated": "20220110211617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "指令执行时，monitor的进入数减1，如果减1后进入数为0，那线程退出monitor，不再是这个monitor的所有者。其他被这个monitor阻塞的线程可以尝试去获取这个 monitor 的所有权。"
+				}
+			]
+		},
+		{
+			"ID": "20220110211617-n3osgke",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211617-n3osgke",
+				"updated": "20220110211617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "总结：Synchronized的语义底层是通过一个monitor的对象（进入数）来完成（进入加一、出来减一），其实wait/notify等方法也依赖于monitor对象，这就是为什么只有在同步的块或者方法中才能调用wait/notify等方法。"
+				}
+			]
+		},
+		{
+			"ID": "20220110211707-z6v3s8n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220110211707-z6v3s8n",
+				"updated": "20220110211707"
+			}
+		},
+		{
+			"ID": "20220110211709-p42phrf",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220110211709-p42phrf",
+				"updated": "20220110212722"
+			},
+			"Children": [
+				{
+					"ID": "20220110211938-0ng6p3k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220110211938-0ng6p3k",
+						"updated": "20220110212722"
+					},
+					"Children": [
+						{
+							"ID": "20220110211938-0vk99au",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110211938-0vk99au",
+								"updated": "20220110212722"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对象锁"
+								}
+							]
+						},
+						{
+							"ID": "20220110212242-wadoyiq",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220110212242-wadoyiq",
+								"updated": "20220110212256"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "public class FetchMoney {\n    public static void main(String[] args) {\n        Bank bank = new Bank();//锁这个对象\n        Thread t1 = new MoneyThread(bank); // 柜台\n        //bank = new Bank();\n        Thread t2 = new MoneyThread(bank); // 取款机\n        t1.start();\n        t2.start();\n    }\n}\nclass Bank {\n    private int money = 1000;\n    public synchronized int getMoney(int number) {\n        if (number \u003c 0) {\n            return -1;\n        } else if (number \u003e money) {\n            return -2;\n        } else if (money \u003c 0) {\n            return -3;\n        } else {\n            try {\n                Thread.sleep(1000);\n            } catch (InterruptedException e) {\n                e.printStackTrace();\n            }\n            money -= number;\n            System.out.println(\"left money: \" + money);\n            return number;\n        }\n    }\n}\n\nclass MoneyThread extends Thread {\n    private Bank bank;\n    public MoneyThread(Bank bank) {\n        this.bank = bank;\n    }\n    @Override\n    public void run() {\n        System.out.println(bank.getMoney(800));\n    }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220110211944-nosgbhr",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220110211944-nosgbhr",
+				"updated": "20220110212101"
+			},
+			"Children": [
+				{
+					"ID": "20220110211945-ggrhnxf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220110211945-ggrhnxf",
+						"updated": "20220110212101"
+					},
+					"Children": [
+						{
+							"ID": "20220110211945-n8qaqgp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110211945-n8qaqgp",
+								"updated": "20220110212054"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Class类锁"
+								}
+							]
+						},
+						{
+							"ID": "20220110212054-rgo4u2k",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220110212054-rgo4u2k",
+								"updated": "20220110212101"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "package com;\n\npublic class ThreadTest4 {\n    public static void main(String[] args) {\n        Example example = new Example();\n        Thread t1 = new TheThread(example);\n        example = new Example();\n        Thread t2 = new TheThread2(example);\n        t1.start();\n        t2.start();\n    }\n}\nclass Example {\n    public synchronized static void execute() {\n        for (int i = 0; i \u003c 20; i++) {\n            try {\n                Thread.sleep((long) (Math.random() * 1000));\n            } catch (InterruptedException e) {\n                e.printStackTrace();\n            }\n            System.out.println(\"hello: \" + i);\n        }\n    }\n    public synchronized static void execute2() {\n        for (int i = 0; i \u003c 20; i++) {\n            try {\n                Thread.sleep((long) (Math.random() * 1000));\n            } catch (InterruptedException e) {\n                e.printStackTrace();\n            }\n            System.out.println(\"world: \" + i);\n        }\n    }\n}\nclass TheThread extends Thread {\n    private Example example;\n    public TheThread(Example example) {\n        this.example = example;\n    }\n    @Override\n    public void run() {\n        this.example.execute();\n    }\n}\nclass TheThread2 extends Thread {\n    private Example example;\n    public TheThread2(Example example) {\n        this.example = example;\n    }\n    @Override\n    public void run() {\n        this.example.execute2();\n    }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220110212122-gizzrpz",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220110212122-gizzrpz",
+				"updated": "20220110212227"
+			},
+			"Children": [
+				{
+					"ID": "20220110212123-5u8t0ev",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220110212123-5u8t0ev",
+						"updated": "20220110212227"
+					},
+					"Children": [
+						{
+							"ID": "20220110212123-q9v6fc4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220110212123-q9v6fc4",
+								"updated": "20220110212123"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码块类锁或者对象锁"
+								}
+							]
+						},
+						{
+							"ID": "20220110212124-6t55yzh",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220110212124-6t55yzh",
+								"updated": "20220110212227"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "public class ThreadTest5 {\n    public static void main(String[] args) {\n        Example2 e = new Example2();\n        TheThread3 t1 = new TheThread3(e);\n        e = new Example2();\n        TheThread4 t2 = new TheThread4(e);\n        t1.start();\n        t2.start();\n    }\n}\nclass Example2 {\n    private Object object = new Object();\n    public void execute() {\n        synchronized (this)//当前对象锁，如果是Example.class那就是对象锁\n        {\n            for (int i = 0; i \u003c 20; i++) {\n                try {\n                    Thread.sleep((long) (Math.random() * 1000));\n                } catch (InterruptedException e) {\n                    e.printStackTrace();\n                }\n                System.out.println(\"hello: \" + i);\n            }\n        }\n    }\n    public void execute2() {\n        synchronized (this)//当前对象锁\n        {\n            for (int i = 0; i \u003c 20; i++) {\n                try {\n                    Thread.sleep((long) (Math.random() * 1000));\n                } catch (InterruptedException e) {\n                    e.printStackTrace();\n                }\n                System.out.println(\"world: \" + i);\n            }\n        }\n    }\n}\nclass TheThread3 extends Thread {\n    private Example2 example;\n    public TheThread3(Example2 example) {\n        this.example = example;\n    }\n    @Override\n    public void run() {\n        this.example.execute();\n    }\n}\nclass TheThread4 extends Thread {\n    private Example2 example;\n    public TheThread4(Example2 example) {\n        this.example = example;\n    }\n    @Override\n    public void run() {\n        this.example.execute2();\n    }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
