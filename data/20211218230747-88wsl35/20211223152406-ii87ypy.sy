@@ -5,7 +5,7 @@
 		"icon": "1f4dd",
 		"id": "20211223152406-ii87ypy",
 		"title": "（未分类）",
-		"updated": "20220106165357"
+		"updated": "20220111142119"
 	},
 	"Children": [
 		{
@@ -1624,6 +1624,14 @@
 					"Data": "Transaction机制：在发送消息之前，开启事务（channel.txSelect()）,然后发送消息，如果程序出现异常，事务就会回滚（channel.txRallback()）,"
 				}
 			]
+		},
+		{
+			"ID": "20220111142119-lgdlaxs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220111142119-lgdlaxs",
+				"updated": "20220111142119"
+			}
 		}
 	]
 }

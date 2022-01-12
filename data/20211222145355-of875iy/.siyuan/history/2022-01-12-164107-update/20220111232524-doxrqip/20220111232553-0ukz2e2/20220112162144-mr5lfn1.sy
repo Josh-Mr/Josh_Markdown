@@ -1,0 +1,38 @@
+{
+	"ID": "20220112162144-mr5lfn1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220112162144-mr5lfn1",
+		"title": "【DataInputStream\u0026amp;DataOutputStream】例子",
+		"updated": "20220112164018"
+	},
+	"Children": [
+		{
+			"ID": "20220112162234-4ijcibh",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220112162234-4ijcibh",
+				"updated": "20220112164018"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "public class DataStream1\n{\n    public static void main(String[] args) throws Exception\n    {\n        DataOutputStream dos = new DataOutputStream(new BufferedOutputStream(\n                new FileOutputStream(\"data.txt\")));\n\n        byte b = 3;\n        int i = 12;\n        char ch = 'a';\n        float f = 3.3f;\n\n        dos.writeByte(b);\n        dos.writeInt(i);\n        dos.writeChar(ch);\n        dos.writeFloat(f);\n\n        dos.close();\n        DataInputStream dis = new DataInputStream(new BufferedInputStream(\n                new FileInputStream(\"data.txt\")));\n    \n        //读和写的顺序要保持一致\n        System.out.println(dis.readByte());\n        System.out.println(dis.readInt());\n        System.out.println(dis.readChar());\n        System.out.println(dis.readFloat());\n    \n        dis.close();\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

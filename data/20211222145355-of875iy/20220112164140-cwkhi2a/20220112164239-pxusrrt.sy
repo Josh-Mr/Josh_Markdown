@@ -1,0 +1,1345 @@
+{
+	"ID": "20220112164239-pxusrrt",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220112164239-pxusrrt",
+		"title": "2、【设计模式】单例模式",
+		"updated": "20220112164328"
+	},
+	"Children": [
+		{
+			"ID": "20220112164328-x7mgewl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-x7mgewl",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、什么是设计模式？"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-mt3iil4",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220112164328-mt3iil4",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"ID": "20220112164328-m7rk5wp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112164328-m7rk5wp"
+					},
+					"Children": [
+						{
+							"ID": "20220112164328-joi6lq8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112164328-joi6lq8"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "前人留下的经验总结。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112164328-8zmsma2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112164328-8zmsma2"
+					},
+					"Children": [
+						{
+							"ID": "20220112164328-suhojyy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112164328-suhojyy"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "让我们的代码复用性更高、可维护性更好、代码更优雅。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-n5p3sc5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-n5p3sc5",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、什么是单例模式？"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-wqgdj1t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-wqgdj1t",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "双重校验锁："
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://blog.csdn.net/weixin_44903465/article/details/103553455"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://blog.csdn.net/weixin_44903465/article/details/103553455"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-6w8asa4",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220112164328-6w8asa4",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"ID": "20220112164328-i128vtq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112164328-i128vtq"
+					},
+					"Children": [
+						{
+							"ID": "20220112164328-6vleusd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112164328-6vleusd"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "该类有且仅有一个实例，提供一个全局的访问点。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-7t0zsw4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-7t0zsw4",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、单例模式有什么用？"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-yflvx2m",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220112164328-yflvx2m",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"ID": "20220112164328-8ztgx5h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112164328-8ztgx5h"
+					},
+					"Children": [
+						{
+							"ID": "20220112164328-2jef3rz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112164328-2jef3rz"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "共享资源、全局使用、避免资源浪费"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112164328-i2n1q2p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112164328-i2n1q2p"
+					},
+					"Children": [
+						{
+							"ID": "20220112164328-7t29161",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112164328-7t29161"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "节省创建时间、提高性能"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-mf0zss5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-mf0zss5",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四、怎么使用单例模式（几种写法）？"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-mfgyzch",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220112164328-mfgyzch",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"ID": "20220112164328-f5yqh9i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112164328-f5yqh9i"
+					},
+					"Children": [
+						{
+							"ID": "20220112164328-zket7d1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112164328-zket7d1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "饿汉式"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-wbu0v85",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-wbu0v85",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "/**"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-3iv6knf",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220112164328-3iv6knf",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"ID": "20220112164328-zjzx622",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112164328-zjzx622"
+					},
+					"Children": [
+						{
+							"ID": "20220112164328-z908jvo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112164328-z908jvo"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "饿汉式"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：应用启用的时候"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "直接加载类"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "并且 "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "初始化"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112164328-8m1vu6j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112164328-8m1vu6j"
+					},
+					"Children": [
+						{
+							"ID": "20220112164328-18vxrzt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112164328-18vxrzt"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "*/"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-86o5qjf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-86o5qjf",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "public class SingletonDemo3 {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-pbbemsk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-pbbemsk",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    private static SingletonDemo3 singletondemo3 = new SingletonDemo3();"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-laq5dm7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-laq5dm7",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    private SingletonDemo3(){}"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-rcc7q7i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-rcc7q7i",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    public static SingletonDemo3 getInstance(){"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-di7vxgu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-di7vxgu",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        return singletondemo3;"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-h59zm3c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-h59zm3c",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    }"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-mtks4es",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-mtks4es",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "}"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-5lhuy3e",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220112164328-5lhuy3e",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"ID": "20220112164328-51nwjpq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112164328-51nwjpq"
+					},
+					"Children": [
+						{
+							"ID": "20220112164328-7p2vfh0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112164328-7p2vfh0"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "懒汉式"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-b57eaee",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-b57eaee",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "/**"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-0iols5g",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220112164328-0iols5g",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"ID": "20220112164328-fnteylb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112164328-fnteylb"
+					},
+					"Children": [
+						{
+							"ID": "20220112164328-mawesnm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112164328-mawesnm"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "懒汉式:线程安全的，但是有可能存在线程阻塞。"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-mnhb96i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-mnhb96i",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "因为这种方式在 "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "getInstance()方法上加了同步锁"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ，所以在 "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "多线程情况下会造成线程阻塞"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ，把大量的线程锁在外面，只有一个线程执行完毕才会执行下一个线程。"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-mnfbgwv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-mnfbgwv",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "*/"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-99tykzm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-99tykzm",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "public class SingletonDemo {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-z066ozc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-z066ozc",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    private static SingletonDemo singletonDemo = null;"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-mm4pzg6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-mm4pzg6",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    private SingletonDemo(){"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-tm5crz7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-tm5crz7",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    }"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-xka1ryz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-xka1ryz",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    public static "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "synchronized"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " SingletonDemo getInstance(){"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-y0tszz3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-y0tszz3",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        if(singletonDemo == null){"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-r2k5lua",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-r2k5lua",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "            singletonDemo = new SingletonDemo();"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-wtt5cf7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-wtt5cf7",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        }"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-a33picm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-a33picm",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        return singletonDemo;"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-wa0e204",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-wa0e204",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    }"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-y9szhza",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-y9szhza",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "}"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-bheo2my",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220112164328-bheo2my",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"ID": "20220112164328-7yric7w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112164328-7yric7w"
+					},
+					"Children": [
+						{
+							"ID": "20220112164328-6etoksa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112164328-6etoksa"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "静态内部类"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-x5h3xiy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-x5h3xiy",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "/**"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-9bh2ubu",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220112164328-9bh2ubu",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"ID": "20220112164328-hsulyza",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112164328-hsulyza"
+					},
+					"Children": [
+						{
+							"ID": "20220112164328-84nb420",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112164328-84nb420"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "静态内部类的方式："
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 延迟加载和线程安全*/"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-8pwdb5l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-8pwdb5l",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "public class SingletonDemo4 {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-xcvuxwk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-xcvuxwk",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    private SingletonDemo4(){}"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-51cl9pb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-51cl9pb",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    public static SingletonDemo4 getInstance(){"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-d7xv73o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-d7xv73o",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        return SingletonDemo4Handle.SINGLETON_DEMO_4;"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-lkl7o32",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-lkl7o32",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    }"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-4rw0oof",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-4rw0oof",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    private static class SingletonDemo4Handle{"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-slylggq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-slylggq",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        private static final SingletonDemo4 SINGLETON_DEMO_4 = new SingletonDemo4();"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-jfbqxui",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-jfbqxui",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    }"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-oh1im6k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-oh1im6k",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "}"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-kxaxwnu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-kxaxwnu",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "--第一次加载Singleton类时并不会初始化sInstance，只有第一次调用getInstance方法时虚拟机加载SingletonDemo4Handle并初始化sInstance ，这样不仅能确保线程安全也能保证SingletonDemo4类的唯一性，所以推荐使用静态内部类单例模式。"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-lah78gc",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220112164328-lah78gc",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"ID": "20220112164328-3jm952t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112164328-3jm952t"
+					},
+					"Children": [
+						{
+							"ID": "20220112164328-hrjopml",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112164328-hrjopml"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "枚举方式"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-k0jukub",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-k0jukub",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "public enum Singleton {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-7cg0q2l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-7cg0q2l",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      //定义一个枚举的元素，它就是 Singleton 的一个实例"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-0whzwvu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-0whzwvu",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "     INSTANCE;"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-mgocpng",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-mgocpng",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "     public void doSomeThing() {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-friwahu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-friwahu",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "          // do something..."
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-ohpcd6n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-ohpcd6n",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "     }"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-2kjnpkz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-2kjnpkz",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "}"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-66a9io1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-66a9io1",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用："
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-i9afklh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-i9afklh",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "public static void main(String args[]) {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-lu0nex4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-lu0nex4",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      Singleton singleton = Singleton.instance;"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-7qbospz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-7qbospz",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      说singleton.doSomeThing();"
+				}
+			]
+		},
+		{
+			"ID": "20220112164328-7oa2fr0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164328-7oa2fr0",
+				"updated": "20220112164328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "}"
+				}
+			]
+		}
+	]
+}

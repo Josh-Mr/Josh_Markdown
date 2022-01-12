@@ -4,15 +4,16 @@
 	"Properties": {
 		"id": "20220110212801-k2aqfq3",
 		"title": "【ThreadLocal使用、原理】",
-		"updated": "20220110212813"
+		"updated": "20220111232444"
 	},
 	"Children": [
 		{
 			"ID": "20220110212813-77407r7",
-			"Type": "NodeParagraph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
 			"Properties": {
 				"id": "20220110212813-77407r7",
-				"updated": "20220110212813"
+				"updated": "20220111232434"
 			},
 			"Children": [
 				{
@@ -278,10 +279,11 @@
 		},
 		{
 			"ID": "20220110212813-350s0na",
-			"Type": "NodeParagraph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
 			"Properties": {
 				"id": "20220110212813-350s0na",
-				"updated": "20220110212813"
+				"updated": "20220111232437"
 			},
 			"Children": [
 				{
@@ -381,10 +383,11 @@
 		},
 		{
 			"ID": "20220110212813-xh3435e",
-			"Type": "NodeParagraph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
 			"Properties": {
 				"id": "20220110212813-xh3435e",
-				"updated": "20220110212813"
+				"updated": "20220111232440"
 			},
 			"Children": [
 				{
@@ -537,10 +540,11 @@
 		},
 		{
 			"ID": "20220110212813-afqotbs",
-			"Type": "NodeParagraph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
 			"Properties": {
 				"id": "20220110212813-afqotbs",
-				"updated": "20220110212813"
+				"updated": "20220111232444"
 			},
 			"Children": [
 				{

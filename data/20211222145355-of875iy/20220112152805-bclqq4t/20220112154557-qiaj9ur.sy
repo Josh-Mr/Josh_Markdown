@@ -1,0 +1,744 @@
+{
+	"ID": "20220112154557-qiaj9ur",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220112154557-qiaj9ur",
+		"title": "JVM【垃圾回收机制】",
+		"updated": "20220112154609"
+	},
+	"Children": [
+		{
+			"ID": "20220112154609-iq7xorz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220112154609-iq7xorz",
+				"updated": "20220112154612"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、GC的主要任务"
+				}
+			]
+		},
+		{
+			"ID": "20220112154609-okolhgu",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220112154609-okolhgu",
+				"updated": "20220112154626"
+			},
+			"Children": [
+				{
+					"ID": "20220112154609-uvd1x1g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112154609-uvd1x1g"
+					},
+					"Children": [
+						{
+							"ID": "20220112154609-qrkjonl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112154609-qrkjonl"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分配内存"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112154609-r507fi3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112154609-r507fi3"
+					},
+					"Children": [
+						{
+							"ID": "20220112154609-2qeax9y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112154609-2qeax9y"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "确保被引用对象的内存不被错误的回收"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112154609-67blkga",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112154609-67blkga",
+						"updated": "20220112154626"
+					},
+					"Children": [
+						{
+							"ID": "20220112154609-o8kmyui",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112154609-o8kmyui",
+								"updated": "20220112154626"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "回收不再被引用的对象的内存空间"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112154609-y1uskbr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220112154609-y1uskbr",
+				"updated": "20220112154615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、主要解决问题"
+				}
+			]
+		},
+		{
+			"ID": "20220112154609-qetemfo",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220112154609-qetemfo",
+				"updated": "20220112154609"
+			},
+			"Children": [
+				{
+					"ID": "20220112154609-0k6fhqd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112154609-0k6fhqd"
+					},
+					"Children": [
+						{
+							"ID": "20220112154609-e7n3w5g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112154609-e7n3w5g",
+								"updated": "20220112154629"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "哪些内存需要回收？"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220112154609-ycwcju7",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220112154609-ycwcju7"
+							},
+							"Children": [
+								{
+									"ID": "20220112154609-otu2c18",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220112154609-otu2c18"
+									},
+									"Children": [
+										{
+											"ID": "20220112154609-qk39n6h",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220112154609-qk39n6h"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "垃圾收集器会对堆进行回收前，确定对象中哪些是“存活”，哪些是“死亡”（不可能再被任何途径使用的对象）"
+												}
+											]
+										},
+										{
+											"ID": "20220112154609-d2tf2nt",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220112154609-d2tf2nt"
+											},
+											"Children": [
+												{
+													"ID": "20220112154609-6xaosy1",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220112154609-6xaosy1"
+													},
+													"Children": [
+														{
+															"ID": "20220112154609-s0m61pk",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220112154609-s0m61pk",
+																"updated": "20220112161030"
+															},
+															"Children": [
+																{
+																	"Type": "NodeMark",
+																	"Data": "mark",
+																	"Children": [
+																		{
+																			"Type": "NodeMark2OpenMarker"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "引用计数算法"
+																		},
+																		{
+																			"Type": "NodeMark2CloseMarker"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "： 每当一个地方引用它时，计数器+1；引用失效时，计数器-1；计数值=0——不可能再被引用，"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220112154609-w2jj745",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220112154609-w2jj745"
+													},
+													"Children": [
+														{
+															"ID": "20220112154609-om3ihyb",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220112154609-om3ihyb",
+																"updated": "20220112161032"
+															},
+															"Children": [
+																{
+																	"Type": "NodeMark",
+																	"Data": "mark",
+																	"Children": [
+																		{
+																			"Type": "NodeMark2OpenMarker"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "可达性分析算法"
+																		},
+																		{
+																			"Type": "NodeMark2CloseMarker"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "： 向图，树图，把一系列“GC Roots”作为起始点，从节点向下搜索，路径称为引用链，当一个对象到GC Roots没有任何引用链相连，即不可达时，则证明此对象时不可用的。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112154609-iq7jrw1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112154609-iq7jrw1"
+					},
+					"Children": [
+						{
+							"ID": "20220112154609-m3ahsq9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112154609-m3ahsq9"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "什么时候回收？"
+								}
+							]
+						},
+						{
+							"ID": "20220112161035-gkze7ge",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220112161035-gkze7ge"
+							},
+							"Children": [
+								{
+									"ID": "20220112154609-ij56oc3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220112154609-ij56oc3"
+									},
+									"Children": [
+										{
+											"ID": "20220112154609-gox5zfb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220112154609-gox5zfb",
+												"updated": "20220112161037"
+											},
+											"Children": [
+												{
+													"Type": "NodeMark",
+													"Data": "mark",
+													"Children": [
+														{
+															"Type": "NodeMark2OpenMarker"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "可达性分析算法"
+														},
+														{
+															"Type": "NodeMark2CloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "：被判断不可达的对象，并且 再进行筛选，当对象没有覆盖finalize()方法，或者finalize方法已经被虚拟机调用过，则没有必要执行；"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112154609-zugvbjc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112154609-zugvbjc"
+					},
+					"Children": [
+						{
+							"ID": "20220112154609-lsn31e5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112154609-lsn31e5",
+								"updated": "20220112161041"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "如何回收？"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220112161045-d9xkzm2",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220112161045-d9xkzm2"
+							},
+							"Children": [
+								{
+									"ID": "20220112154609-shko28i",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220112154609-shko28i"
+									},
+									"Children": [
+										{
+											"ID": "20220112154609-r7jxn2g",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220112154609-r7jxn2g"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "1）标记—清除算法"
+												}
+											]
+										},
+										{
+											"ID": "20220112161050-y9b29hk",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220112161050-y9b29hk"
+											},
+											"Children": [
+												{
+													"ID": "20220112154609-hfcjgjt",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220112154609-hfcjgjt"
+													},
+													"Children": [
+														{
+															"ID": "20220112154609-l32haiz",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220112154609-l32haiz"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "两个阶段：标记，清除；"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220112154609-fwz7fb1",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220112154609-fwz7fb1"
+													},
+													"Children": [
+														{
+															"ID": "20220112154609-1l8b9vt",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220112154609-1l8b9vt"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "不足：效率问题；空间问题(会产生大量不连续的内存碎片)"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220112154609-kups4ku",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220112154609-kups4ku"
+									},
+									"Children": [
+										{
+											"ID": "20220112154609-bn0ozip",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220112154609-bn0ozip"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "2）复制算法"
+												}
+											]
+										},
+										{
+											"ID": "20220112161054-mxm74sa",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220112161054-mxm74sa"
+											},
+											"Children": [
+												{
+													"ID": "20220112154609-7l2yzea",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220112154609-7l2yzea"
+													},
+													"Children": [
+														{
+															"ID": "20220112154609-z47xgfn",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220112154609-z47xgfn"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "将可用内存按容量分为大小相等的两块，每次都只使用其中一块；"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220112154609-7qb2vct",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220112154609-7qb2vct"
+													},
+													"Children": [
+														{
+															"ID": "20220112154609-at1gw5a",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220112154609-at1gw5a"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "不足：将内存缩小为了原来的一半"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220112154609-zme8mvw",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220112154609-zme8mvw"
+													},
+													"Children": [
+														{
+															"ID": "20220112154609-bkl7nd1",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220112154609-bkl7nd1"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "新生代"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112154609-47v0uwi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112154609-47v0uwi"
+					},
+					"Children": [
+						{
+							"ID": "20220112154609-day99yv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112154609-day99yv"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "3）标记—整理算法"
+								}
+							]
+						},
+						{
+							"ID": "20220112161101-3ajp4ob",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220112161101-3ajp4ob"
+							},
+							"Children": [
+								{
+									"ID": "20220112154609-5nnzrvc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220112154609-5nnzrvc"
+									},
+									"Children": [
+										{
+											"ID": "20220112154609-w6qjupn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220112154609-w6qjupn"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "标记，清除（让存活的对象都向一端移动）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220112154609-vnu222x",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220112154609-vnu222x"
+									},
+									"Children": [
+										{
+											"ID": "20220112154609-2zr5xq5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220112154609-2zr5xq5"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "老年代"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,95 @@
+{
+	"ID": "20220112161543-my7skru",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220112161543-my7skru",
+		"title": "20220112161543",
+		"updated": "20220112162104"
+	},
+	"Children": [
+		{
+			"ID": "20220112161543-epn8r0d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220112161543-epn8r0d",
+				"updated": "20220112161617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、ByteArrayInputStream"
+				}
+			]
+		},
+		{
+			"ID": "20220112161619-2jgqgu3",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220112161619-2jgqgu3",
+				"updated": "20220112161621"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "public class ByteArrayInputStreamTest1\n{\n    public static void main(String[] args)\n    {\n        String temp = \"abc\";\n    \n        byte[] b = temp.getBytes();\n    \n        ByteArrayInputStream in = new ByteArrayInputStream(b);\n    \n        for(int i = 0; i \u003c 2; i++)\n        {\n            int c;\n        \n            while(-1 != (c = in.read()))\n            {\n                if(0 == i)\n                {\n                    System.out.println((char)c);\n                }\n                else\n                {\n                    System.out.println(Character.toUpperCase((char)c));\n                }\n            }\n                \n            System.out.println();\n        \n            in.reset();  \n        \n        }\n    \n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220112162034-gkq4q99",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220112162034-gkq4q99",
+				"updated": "20220112162104"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、byteArrayOutputStream"
+				}
+			]
+		},
+		{
+			"ID": "20220112162046-e4s4d7v",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220112162046-e4s4d7v",
+				"updated": "20220112162057"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "public class ByteArrayOutputStreamTest1\n{\n    public static void main(String[] args) throws Exception\n    {\n        ByteArrayOutputStream f = new ByteArrayOutputStream();\n  \n        String str = \"hello world welcome\";\n  \n        byte[] buffer = str.getBytes();\n  \n        f.write(buffer);\n  \n        byte[] result = f.toByteArray();\n  \n        for(int i = 0; i \u003c result.length; i++)\n        {\n            System.out.println((char)result[i]);\n        }\n        OutputStream os = new FileOutputStream(\"test.txt\");\n        f.writeTo(os);\n        f.close();\n        os.close();\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

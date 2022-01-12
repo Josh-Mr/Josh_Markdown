@@ -1,0 +1,428 @@
+{
+	"ID": "20220112164158-t0nmn51",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220112164158-t0nmn51",
+		"title": "1、【设计模式】概念",
+		"updated": "20220112164309"
+	},
+	"Children": [
+		{
+			"ID": "20220112164250-7i6ir49",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164250-7i6ir49",
+				"updated": "20220112164250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java的设计模式"
+				}
+			]
+		},
+		{
+			"ID": "20220112164250-uu2ig8l",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220112164250-uu2ig8l",
+				"updated": "20220112164309"
+			},
+			"Children": [
+				{
+					"ID": "20220112164250-h943iml",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220112164250-h943iml",
+						"updated": "20220112164309"
+					},
+					"Children": [
+						{
+							"ID": "20220112164250-2a4j1ja",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112164250-2a4j1ja",
+								"updated": "20220112164309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "单例模式： 设计模式之单例模式"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112164250-9x3si6z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164250-9x3si6z",
+				"updated": "20220112164250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目的：保护构造方法进行实例化"
+				}
+			]
+		},
+		{
+			"ID": "20220112164250-fjq5uba",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164250-fjq5uba",
+				"updated": "20220112164250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "思路：通过定义静态方法通过类名来访问"
+				}
+			]
+		},
+		{
+			"ID": "20220112164250-ay78hin",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220112164250-ay78hin",
+				"updated": "20220112164250"
+			},
+			"Children": [
+				{
+					"ID": "20220112164250-8zc9h32",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220112164250-8zc9h32"
+					},
+					"Children": [
+						{
+							"ID": "20220112164250-gs5hzvw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112164250-gs5hzvw"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "策略模式"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112164250-g8vtljl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164250-g8vtljl",
+				"updated": "20220112164250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目的：可以动态改变对象的行为"
+				}
+			]
+		},
+		{
+			"ID": "20220112164250-x1o2anz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164250-x1o2anz",
+				"updated": "20220112164250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "思路：定义共同算法的接口（Interface）（抽象策略类）-继承接口的具体方法（具体策略类）-定义维护接口的引用并定义一个（test）方法实现具体方法（环境类）-通过环境的实例调用（test）方法间接调用具体类（client）。"
+				}
+			]
+		},
+		{
+			"ID": "20220112164250-a3ok9dt",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220112164250-a3ok9dt",
+				"updated": "20220112164250"
+			},
+			"Children": [
+				{
+					"ID": "20220112164250-lr8qh6t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220112164250-lr8qh6t"
+					},
+					"Children": [
+						{
+							"ID": "20220112164250-8bv5u9j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112164250-8bv5u9j"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代理模式"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112164250-sf2glb7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164250-sf2glb7",
+				"updated": "20220112164250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目的：结构模式-对一些对象提供代理，以限制那些对象去访问其它对象。"
+				}
+			]
+		},
+		{
+			"ID": "20220112164250-om6127v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164250-om6127v",
+				"updated": "20220112164250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "思路：定义抽象类或接口为抽象角色（房子或车）—真实角色继承或实现抽象角色（拥有自己的行为）（真实角色）-代理角色不仅拥有自己的方法而且拥有真实角色的引用-通过代理角色调用真实角色。"
+				}
+			]
+		},
+		{
+			"ID": "20220112164250-71gwz1n",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220112164250-71gwz1n",
+				"updated": "20220112164250"
+			},
+			"Children": [
+				{
+					"ID": "20220112164250-scaq3qo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220112164250-scaq3qo"
+					},
+					"Children": [
+						{
+							"ID": "20220112164250-1fjyilk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112164250-1fjyilk"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "装饰模式"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112164250-mqniyu3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164250-mqniyu3",
+				"updated": "20220112164250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目的：装饰模式以对客户透明的方式动态地给一个对象附加上更多的责任。换言之，客户端并不会觉得对象在装饰前和装饰后有什么不同。装饰模式可以在不使用创造更多子类的情况下，将对象的功能加以扩展。"
+				}
+			]
+		},
+		{
+			"ID": "20220112164250-q93lzjg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164250-q93lzjg",
+				"updated": "20220112164250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "思路：抽象构件(Component)角色：给出一个抽象接口，以规范准备接收附加责任的对象-----具体构件(ConcreteComponent)角色：定义一个将要接收附加责任的类。-----装饰(Decorator)角色：持有一个构件(Component)对象的实例，并定义一个与抽象构件接口一致的接口。----具体装饰(ConcreteDecorator)角色：负责给构件对象“贴上”附加的责任。---测试。"
+				}
+			]
+		},
+		{
+			"ID": "20220112164250-5lj60ba",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220112164250-5lj60ba",
+				"updated": "20220112164250"
+			},
+			"Children": [
+				{
+					"ID": "20220112164250-pd47jrg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220112164250-pd47jrg"
+					},
+					"Children": [
+						{
+							"ID": "20220112164250-i6veppo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112164250-i6veppo"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "观察者模式"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112164250-boab1cu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164250-boab1cu",
+				"updated": "20220112164250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目的：观察者模式（又被称为发布-订阅（Publish/Subscribe）模式，属于行为型模式的一种，它定义了一种一对多的依赖关系，让多个观察者对象同时监听某一个主题对象。这个主题对象在状态变化时，会通知所有的观察者对象，使他们能够自动更新自己"
+				}
+			]
+		},
+		{
+			"ID": "20220112164250-jaeywmu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164250-jaeywmu",
+				"updated": "20220112164250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "思路：a).Subject：抽象主题（抽象被观察者），抽象主题角色把所有观察者对象保存在一个集合里，每个主题都可以有任意数量的观察者，抽象主题提供一个接口，可以增加和删除观察者对象。"
+				}
+			]
+		},
+		{
+			"ID": "20220112164250-vj812a9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164250-vj812a9",
+				"updated": "20220112164250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "b).ConcreteSubject：具体主题（具体被观察者），该角色将有关状态存入具体观察者对象，在具体主题的内部状态发生改变时，给所有注册过的观察者发送通知。"
+				}
+			]
+		},
+		{
+			"ID": "20220112164250-mjnmero",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164250-mjnmero",
+				"updated": "20220112164250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "C).Observer：抽象观察者，是观察者者的抽象类，它定义了一个更新接口，使得在得到主题更改通知时更新自己。"
+				}
+			]
+		},
+		{
+			"ID": "20220112164250-mkp97xb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164250-mkp97xb",
+				"updated": "20220112164250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "d).ConcrereObserver：具体观察者，是实现抽象观察者定义的更新接口，以便在得到主题更改通知时更新自身的状态。"
+				}
+			]
+		},
+		{
+			"ID": "20220112164250-6j5l4fn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164250-6j5l4fn",
+				"updated": "20220112164250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6、工厂模式"
+				}
+			]
+		}
+	]
+}

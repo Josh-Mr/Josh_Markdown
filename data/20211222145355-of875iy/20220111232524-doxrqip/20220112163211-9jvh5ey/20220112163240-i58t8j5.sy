@@ -1,0 +1,53 @@
+{
+	"ID": "20220112163240-i58t8j5",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220112163240-i58t8j5",
+		"title": "【File类】",
+		"updated": "20220112163308"
+	},
+	"Children": [
+		{
+			"ID": "20220112163240-pyo5ub2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220112163240-pyo5ub2",
+				"updated": "20220112163302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、File的常用方法和使用"
+				}
+			]
+		},
+		{
+			"ID": "20220112163303-gbn75xe",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220112163303-gbn75xe",
+				"updated": "20220112163308"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "File file = new File(\"d:/abc/1/s\", \"1.txt\");\nif (!file.exists()){//是否存在文件\n    File parentFile = file.getParentFile();//获取父级目录\n    if (!parentFile.exists()){\n        parentFile.mkdirs();// 创建文件夹（多个一并创建）\n    }\n    file.createNewFile();//创建文件\n}\nfile.getAbsolutePath();//获取绝对路径d:\\abc\\1\\s\\1.txt\nfile.getName();//文件名字1.txt\nfile.getPath();//获取路径d:\\abc\\1\\s\\1.txt\nfile.getCanonicalPath();//获取标准的路径D:\\abc\\1\\s\\1.txt\nfile.length();//文件大小\nfile.renameTo(new File(file.getParentFile(),\"abc.txt\"));//修改文件名称\nfile.list();//当前目录下的所有文件，如果是文件显示null\nfile.isDirectory();//是否是目录\nfile.isFile();//是否是文件\nfile.canExecute();//文件是否具有执行操作\nfile.canRead();//文件是否具有可读操作\nfile.canWrite();//文件是否具体写入操作\nfile.delete();//删除文件\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"ID": "20220112165556-yui6r6d",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220112165556-yui6r6d",
+		"title": "Java之递归算法",
+		"updated": "20220112165620"
+	},
+	"Children": [
+		{
+			"ID": "20220112165619-g8twloq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112165619-g8twloq",
+				"updated": "20220112165620"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、递归累乘算法"
+				}
+			]
+		},
+		{
+			"ID": "20220112165556-qtsbjbs",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220112165556-qtsbjbs",
+				"updated": "20220112165615"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\n/**\n* 用递归但是累乘数列n! = n * (n-1) * (n-2) ... *1\n* @return\n*/\nprivate static int diGuiNumber(int n){\n    int count = 1;\n    if(n == 1 ){\n        return count ;\n    }\n    count = n * diGuiNumber(n-1);\n    return count;\n}\n\n二、递归删除路径下所有文件\n/**\n* 删除路径下的全部文件和目录\n* @param file\n*/\nprivate static void deleteAllFileAndDirectory(File file){\n    if (file.isFile()){\n        file.delete();\n    }else{\n        if (file.isDirectory()){\n            for (File f :file.listFiles()){\n                deleteAllFileAndDirectory(f);\n                if(f.isDirectory()){//删除目录\n                    f.delete();\n                }\n            }\n        }\n    }\n}\n/**\n* 显示路径下的全部文件和目录\n* @param file\n*/\nprivate static void queryAllFileAndDirectory(File file){\n    if(file.isFile()){\n        System.out.println(file.getAbsolutePath());\n    }else{\n        File[] files = file.listFiles();\n        for(File f :files){\n            queryAllFileAndDirectory(f);\n            if (f.isDirectory()){\n                System.out.println(f.getAbsolutePath());\n            }\n        }\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

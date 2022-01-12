@@ -1,0 +1,38 @@
+{
+	"ID": "20220112164025-5qhbfw6",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220112164025-5qhbfw6",
+		"title": "【FileReader\u0026amp;FileWriter\u0026amp;BufferedReader\u0026amp;BufferedWriter】例子",
+		"updated": "20220112164048"
+	},
+	"Children": [
+		{
+			"ID": "20220112164025-j8xr0lr",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220112164025-j8xr0lr",
+				"updated": "20220112164048"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "public class Demo {\n    public static void main(String[] args) {\n        try {\n            // 读取\n            BufferedReader reader = new BufferedReader(new FileReader(new File(\"file_url.properties\")));\n            //写入\n            BufferedWriter writer = new BufferedWriter(new FileWriter(\"charWriter.properties\"));\n            String read ;\n            while ((read = reader.readLine())!= null){//读取一行，空表示读完了\n                writer.write(read,0,read.length());\n                writer.write(\"\\n\");\n                System.out.println(read);\n            }\n            reader.close();\n            writer.flush();\n            writer.close();\n        }catch (Exception ex){\n            ex.printStackTrace();\n        }\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

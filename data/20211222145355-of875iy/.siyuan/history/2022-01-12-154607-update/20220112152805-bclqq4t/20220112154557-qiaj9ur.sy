@@ -1,0 +1,19 @@
+{
+	"ID": "20220112154557-qiaj9ur",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220112154557-qiaj9ur",
+		"title": "JVM【垃圾回收机制】",
+		"updated": "20220112154559"
+	},
+	"Children": [
+		{
+			"ID": "20220112154557-iwteyid",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112154557-iwteyid",
+				"updated": "20220112154557"
+			}
+		}
+	]
+}

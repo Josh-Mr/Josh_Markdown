@@ -4,15 +4,16 @@
 	"Properties": {
 		"id": "20220110211309-xlwmzyn",
 		"title": "【sleep、yield、wait、notify、notifyAll】使用",
-		"updated": "20220110211545"
+		"updated": "20220111232400"
 	},
 	"Children": [
 		{
 			"ID": "20220110211311-79km2po",
-			"Type": "NodeParagraph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
 			"Properties": {
 				"id": "20220110211311-79km2po",
-				"updated": "20220110211311"
+				"updated": "20220111232357"
 			},
 			"Children": [
 				{
@@ -148,10 +149,11 @@
 		},
 		{
 			"ID": "20220110211311-g6rtkn2",
-			"Type": "NodeParagraph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
 			"Properties": {
 				"id": "20220110211311-g6rtkn2",
-				"updated": "20220110211311"
+				"updated": "20220111232400"
 			},
 			"Children": [
 				{

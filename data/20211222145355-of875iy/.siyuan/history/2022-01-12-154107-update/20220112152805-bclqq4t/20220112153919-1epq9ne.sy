@@ -1,0 +1,999 @@
+{
+	"ID": "20220112153919-1epq9ne",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220112153919-1epq9ne",
+		"title": "JVM【类的加载机制】",
+		"updated": "20220112153928"
+	},
+	"Children": [
+		{
+			"ID": "20220112153928-bl8ynkc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112153928-bl8ynkc",
+				"updated": "20220112153928"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、什么是类的加载"
+				}
+			]
+		},
+		{
+			"ID": "20220112153928-6fqnae3",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220112153928-6fqnae3",
+				"updated": "20220112153928"
+			},
+			"Children": [
+				{
+					"ID": "20220112153928-be84rqf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112153928-be84rqf"
+					},
+					"Children": [
+						{
+							"ID": "20220112153928-d2ki36h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112153928-d2ki36h"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "过程"
+								}
+							]
+						},
+						{
+							"ID": "20220112153928-15847y9",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220112153928-15847y9"
+							},
+							"Children": [
+								{
+									"ID": "20220112153928-8x563a9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220112153928-8x563a9"
+									},
+									"Children": [
+										{
+											"ID": "20220112153928-x1doxdy",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220112153928-x1doxdy"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "类的.class文件中的二进制文件加载到内存中、"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220112153928-zvieoqv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220112153928-zvieoqv"
+									},
+									"Children": [
+										{
+											"ID": "20220112153928-8rfak47",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220112153928-8rfak47"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "然后把二进制文件放到运行时方法区"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220112153928-b0bm6n2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220112153928-b0bm6n2"
+									},
+									"Children": [
+										{
+											"ID": "20220112153928-7niz6w6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220112153928-7niz6w6"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在堆区创建一个Class对象，用来封装方法区的数据结构"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220112153928-p9t6fxh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220112153928-p9t6fxh"
+									},
+									"Children": [
+										{
+											"ID": "20220112153928-ohga128",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220112153928-ohga128"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "最终产物：位于堆区中的Class对象，封装方法区的数据结构。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112153928-881meqk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112153928-881meqk"
+					},
+					"Children": [
+						{
+							"ID": "20220112153928-1azlbi3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112153928-1azlbi3"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/Image(38)-20220112153928-8kfdrcv.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112153928-id0bzj5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112153928-id0bzj5",
+				"updated": "20220112153928"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、类的生命周期"
+				}
+			]
+		},
+		{
+			"ID": "20220112153928-ghgmlsf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112153928-ghgmlsf",
+				"updated": "20220112153928"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(39)-20220112153928-2luhdw0.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112153928-nkgn6pb",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220112153928-nkgn6pb",
+				"updated": "20220112153928"
+			},
+			"Children": [
+				{
+					"ID": "20220112153928-25mkmb5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112153928-25mkmb5"
+					},
+					"Children": [
+						{
+							"ID": "20220112153928-jr7u7be",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112153928-jr7u7be"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "加载（loading）：加载类的二进制数据。在java堆中也创建一个Class类对象"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112153928-8dvj166",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112153928-8dvj166"
+					},
+					"Children": [
+						{
+							"ID": "20220112153928-ccpl8eo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112153928-ccpl8eo"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "连接 （connection）："
+								}
+							]
+						},
+						{
+							"ID": "20220112153928-qy31iuw",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220112153928-qy31iuw"
+							},
+							"Children": [
+								{
+									"ID": "20220112153928-votejco",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220112153928-votejco"
+									},
+									"Children": [
+										{
+											"ID": "20220112153928-gn8o6gm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220112153928-gn8o6gm"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "验证（Verification）：文件格式、元数据、字节码、符号引用"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220112153928-3qg5co9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220112153928-3qg5co9"
+									},
+									"Children": [
+										{
+											"ID": "20220112153928-4cm7smk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220112153928-4cm7smk"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "准备（Preparation）：为类的静态变量分配存在，并将其初始化为默认值"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220112153928-s2ivkrt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220112153928-s2ivkrt"
+									},
+									"Children": [
+										{
+											"ID": "20220112153928-yp9rrba",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220112153928-yp9rrba"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "解析（Resolution）：把类的符号引用转换为直接引用（解析阶段是虚拟机将常量池内的符号引用替换为直接引用的过程"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112153928-rdxlwym",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112153928-rdxlwym"
+					},
+					"Children": [
+						{
+							"ID": "20220112153928-n7mnnmo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112153928-n7mnnmo"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "初始化 （Initialization）：为类静态变量赋予正确的初始值，执行static代码块"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112153928-mnnof5s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112153928-mnnof5s"
+					},
+					"Children": [
+						{
+							"ID": "20220112153928-axkdhhn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112153928-axkdhhn"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用（Using）：new 出对象程序中使用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112153928-sx3kkcd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112153928-sx3kkcd"
+					},
+					"Children": [
+						{
+							"ID": "20220112153928-qvk8cyv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112153928-qvk8cyv"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "卸载（Unloading）：执行垃圾回收"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112153928-igbniv5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112153928-igbniv5",
+				"updated": "20220112153928"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意：类主动加载的时机："
+				}
+			]
+		},
+		{
+			"ID": "20220112153928-acps5a1",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220112153928-acps5a1",
+				"updated": "20220112153928"
+			},
+			"Children": [
+				{
+					"ID": "20220112153928-g64eice",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220112153928-g64eice"
+					},
+					"Children": [
+						{
+							"ID": "20220112153928-exel6zt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112153928-exel6zt"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建类的实例（new 关键字）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112153928-myjz1d2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220112153928-myjz1d2"
+					},
+					"Children": [
+						{
+							"ID": "20220112153928-nk3son2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112153928-nk3son2"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用到反射的方法（Class.forName(\"\"com.test)）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112153928-xtg41f3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220112153928-xtg41f3"
+					},
+					"Children": [
+						{
+							"ID": "20220112153928-7v5ziw9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112153928-7v5ziw9"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对类调用类的静态方法"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112153928-wcbv3il",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220112153928-wcbv3il"
+					},
+					"Children": [
+						{
+							"ID": "20220112153928-0wgo5me",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112153928-0wgo5me"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "初始化一个类子类，父类本身也会被初始化；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112153928-8f0kbki",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220112153928-8f0kbki"
+					},
+					"Children": [
+						{
+							"ID": "20220112153928-8cygu6d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112153928-8cygu6d"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "启用程序入口：main"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112153928-us4nica",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112153928-us4nica",
+				"updated": "20220112153928"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、类的加载器"
+				}
+			]
+		},
+		{
+			"ID": "20220112153928-iagx0i6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112153928-iagx0i6",
+				"updated": "20220112153928"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(40)-20220112153928-n9piafe.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112153928-vvcl9py",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220112153928-vvcl9py",
+				"updated": "20220112153928"
+			},
+			"Children": [
+				{
+					"ID": "20220112153928-rv4rxfr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112153928-rv4rxfr"
+					},
+					"Children": [
+						{
+							"ID": "20220112153928-l8p5hm3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112153928-l8p5hm3"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "启动类加载器：Bootstrap ClassLoader，负责加载存放在JDK\\jre\\lib(JDK代表JDK的安装目录，下同)下，或被-Xbootclasspath参数指定的路径中的，并且能被虚拟机识别的类库"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112153928-kmcd0qy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112153928-kmcd0qy"
+					},
+					"Children": [
+						{
+							"ID": "20220112153928-t1qok9c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112153928-t1qok9c"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "扩展类加载器：Extension ClassLoader，该加载器由sun.misc.Launcher$ExtClassLoader实现，它负责加载DK\\jre\\lib\\ext目录中，或者由java.ext.dirs系统变量指定的路径中的所有类库（如javax.*开头的类），开发者可以直接使用扩展类加载器。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112153928-7v1d85j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112153928-7v1d85j"
+					},
+					"Children": [
+						{
+							"ID": "20220112153928-qgmragz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112153928-qgmragz"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "应用程序类加载器：Application ClassLoader，该类加载器由sun.misc.Launcher$AppClassLoader来实现，它负责加载用户类路径（ClassPath）所指定的类，开发者可以直接使用该类加载器"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112153928-3bvb7h3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112153928-3bvb7h3",
+				"updated": "20220112153928"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四、类的加载机制（双亲委派模型）"
+				}
+			]
+		},
+		{
+			"ID": "20220112153928-38ba47i",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220112153928-38ba47i",
+				"updated": "20220112153928"
+			},
+			"Children": [
+				{
+					"ID": "20220112153928-8j120gm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112153928-8j120gm"
+					},
+					"Children": [
+						{
+							"ID": "20220112153928-qahi6wa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112153928-qahi6wa"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "全盘负责，当一个类加载器负责加载某个Class时，该Class所依赖的和引用的其他Class也将由该类加载器负责载入，除非显示使用另外一个类加载器来载入"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112153928-qbg9a6z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112153928-qbg9a6z"
+					},
+					"Children": [
+						{
+							"ID": "20220112153928-xyba9fd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112153928-xyba9fd"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "父类委托，先让父类加载器试图加载该类，只有在父类加载器无法加载该类时才尝试从自己的类路径中加载该类（双亲委派模型）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112153928-iuddoa5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112153928-iuddoa5"
+					},
+					"Children": [
+						{
+							"ID": "20220112153928-yvlje0o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112153928-yvlje0o"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "缓存机制，缓存机制将会保证所有加载过的Class都会被缓存，当程序中需要使用某个Class时，类加载器先从缓存区寻找该Class，只有缓存区不存在，系统才会读取该类对应的二进制数据，并将其转换成Class对象，存入缓存区。这就是为什么修改了Class后，必须重启JVM，程序的修改才会生效。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

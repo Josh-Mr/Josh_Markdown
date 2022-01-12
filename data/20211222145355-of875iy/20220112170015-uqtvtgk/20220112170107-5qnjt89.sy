@@ -1,0 +1,38 @@
+{
+	"ID": "20220112170107-5qnjt89",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220112170107-5qnjt89",
+		"title": "Java之ASCIICode和String相互转化问题！",
+		"updated": "20220112170121"
+	},
+	"Children": [
+		{
+			"ID": "20220112170107-v8lqc2b",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220112170107-v8lqc2b",
+				"updated": "20220112170121"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * ASCII and String to convert\n *\n * @author JCS by 2018-12-04\n * 解决特殊传输乱码问题\n */\npublic class ASCIICodeMutualStringConvertUtil {\n    /**\n     * StringToASCII\n     * @param parameter\n     * @return\n     */\n    public static String StringToASCII(String parameter) {\n         if (parameter == null) {\n             throw new NullPointerException(\"convert resource data is null ！\");\n         }\n         char[] c = parameter.toCharArray();\n         StringBuffer result = new StringBuffer();\n         for (int i = 0; i \u003c c.length; i++) {\n             if (i != c.length - 1) {\n                 result.append((int) c[i]).append(\",\");\n             } else {\n                 result.append((int) c[i]);\n             }\n         }\n         return result.toString();\n    }\n    /**\n     * ASCIIToString\n     * @param parameter\n     * @return\n     */\n    public static String ASCIIToString(String parameter) {\n         if (parameter == null)\n             throw new NullPointerException(\"convert resource data is null ！\");\n     \n         StringBuffer result = new StringBuffer();\n         String[] strs = parameter.split(\",\");\n         for (int i = 0; i \u003c strs.length; i++) {\n             result.append((char) Integer.parseInt(strs[i]));\n         }\n         return result.toString();\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1287 @@
+{
+	"ID": "20220112164241-4j40og0",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220112164241-4j40og0",
+		"title": "5、【设计模式】工厂模式",
+		"updated": "20220112164445"
+	},
+	"Children": [
+		{
+			"ID": "20220112164445-kjd9lxl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-kjd9lxl",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、什么是工厂模式？"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-8m9sfw3",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220112164445-8m9sfw3",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"ID": "20220112164445-myq83l2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112164445-myq83l2"
+					},
+					"Children": [
+						{
+							"ID": "20220112164445-ketpzuo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112164445-ketpzuo"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用于封装和管理对象的创建，是一种创建型模式。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-ifqfshk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-ifqfshk",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、工厂模式有什么用？"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-retowfw",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220112164445-retowfw",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"ID": "20220112164445-iyuo83n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112164445-iyuo83n"
+					},
+					"Children": [
+						{
+							"ID": "20220112164445-z2pec4g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112164445-z2pec4g"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用于对象的创建。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112164445-78rs7re",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112164445-78rs7re"
+					},
+					"Children": [
+						{
+							"ID": "20220112164445-9hwidk9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112164445-9hwidk9"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使得客户从具体的产品对象中被解耦。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-0cxf9ke",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-0cxf9ke",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、怎么使用工厂模式？"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-5kvipir",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-5kvipir",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "抽象工厂模式是为了让创建工厂和一组产品与使用相分离，并可以随时切换到另一个工厂以及另一组产品；"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-flexrs3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-flexrs3",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "抽象工厂模式实现的关键点是定义工厂接口和产品接口，但如何实现工厂与产品本身需要留给具体的子类实现，"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-k7proyf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-k7proyf",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "客户端只和抽象工厂与抽象产品打交道。"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-egwtccg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-egwtccg",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "*     抽象产品接口"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-wkea3o4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-wkea3o4",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "public interface IPC {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-j9ggpct",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-j9ggpct",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    void make();"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-i6dxbme",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-i6dxbme",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "}"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-dvfo0ys",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-dvfo0ys",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "***   具体产品类**"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-5owg23g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-5owg23g",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "public class ApplePC implements IPC {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-32j10xx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-32j10xx",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    @Override"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-9nfw3su",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-9nfw3su",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    public void make() {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-19eogui",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-19eogui",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        System.out.println(\"apple PC\");"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-9l1t7aw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-9l1t7aw",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    }"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-qvkidhd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-qvkidhd",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "}"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-gvjclpd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-gvjclpd",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "***    具体产品类**"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-d353q75",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-d353q75",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "public class MiPC implements IPC{"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-5ryz9no",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-5ryz9no",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    @Override"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-pnzg1yi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-pnzg1yi",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    public void make() {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-2klx6u8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-2klx6u8",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        System.out.println(\"mi PC\");"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-asp8kcn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-asp8kcn",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    }"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-hlesvil",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-hlesvil",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "}"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-yn195u4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-yn195u4",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "***  抽象产品接口**"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-cbk34b2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-cbk34b2",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "public interface IPhone {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-p3vx0ec",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-p3vx0ec",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    void make();"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-sh9k1j7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-sh9k1j7",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "}"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-simdc6f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-simdc6f",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "***    具体产品类**"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-81re3lk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-81re3lk",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "public class ApplePhone implements IPhone {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-fzup7e8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-fzup7e8",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    @Override"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-k2wmpsf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-k2wmpsf",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    public void make() {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-s2icm3q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-s2icm3q",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        System.out.println(\"apple phone\");"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-34vlun7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-34vlun7",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    }"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-k9738oa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-k9738oa",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "}"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-1u5oj3b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-1u5oj3b",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "***    具体产品类**"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-6vzwvvu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-6vzwvvu",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "public class MiPhone implements IPhone{"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-mz8gs5d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-mz8gs5d",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    @Override"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-l61afz1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-l61afz1",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    public void make() {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-8r2ewr7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-8r2ewr7",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        System.out.println(\"mi phone\");"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-oyd5vl3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-oyd5vl3",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    }"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-ipksv3k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-ipksv3k",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "}"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-6vkq8au",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-6vkq8au",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "***    抽象工厂接口**"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-7ur87s0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-7ur87s0",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "public interface IAbstractFactory {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-l0hrdtn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-l0hrdtn",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    IPhone makePhone();"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-b62o2q0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-b62o2q0",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    IPC makePC();"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-ibrxtgf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-ibrxtgf",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "}"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-uqlxgmj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-uqlxgmj",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "***    具体工厂类**"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-rmprkj7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-rmprkj7",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "public class AppleFactory implements IAbstractFactory {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-5y1r7xw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-5y1r7xw",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    @Override"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-z5m206l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-z5m206l",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    public IPhone makePhone() {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-yobi0o9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-yobi0o9",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        return new ApplePhone();"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-rg00s1p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-rg00s1p",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    }"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-l3wu0y2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-l3wu0y2",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    @Override"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-e71y35h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-e71y35h",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    public IPC makePC() {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-12vch46",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-12vch46",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        return new ApplePC();"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-h9o17up",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-h9o17up",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    }"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-arl0dqx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-arl0dqx",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "}"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-jughro8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-jughro8",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "***    具体工厂类**"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-y8shlfx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-y8shlfx",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "public class MiFactory implements IAbstractFactory {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-dfz4h8n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-dfz4h8n",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    @Override"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-83oa0gl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-83oa0gl",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    public IPhone makePhone() {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-8akp46i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-8akp46i",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        return new MiPhone();"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-bf7s92n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-bf7s92n",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    }"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-u1ktq13",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-u1ktq13",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    @Override"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-a89m70h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-a89m70h",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    public IPC makePC() {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-2cizi3x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-2cizi3x",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        return new MiPC();"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-ups3mfm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-ups3mfm",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    }"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-jx2dank",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-jx2dank",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "}"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-gvi8u4n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-gvi8u4n",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "测试："
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-31lcmv0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-31lcmv0",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "public class factoryDemo {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-namq4xa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-namq4xa",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    public static void main(String[] args) {"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-63gsk63",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-63gsk63",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        IAbstractFactory applefactory = new AppleFactory();//抽象工厂"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-7qtnzmt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-7qtnzmt",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        IPC applePC = applefactory.makePC();//抽象产品"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-uh4vtmw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-uh4vtmw",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        applePC.make();"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-qhdhq38",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-qhdhq38",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        IPhone applePhone = applefactory.makePhone();"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-iwhrpvt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-iwhrpvt",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        applePhone.make();"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-f0w36bq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-f0w36bq",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        IAbstractFactory miFactory = new MiFactory();//抽象工厂"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-5pw550c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-5pw550c",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        IPhone miPhone = miFactory.makePhone();//抽象产品"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-pdbeozi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-pdbeozi",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        miPhone.make();"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-08xpzpv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-08xpzpv",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        IPC miPC = miFactory.makePC();"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-fmebkk4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-fmebkk4",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        miPC.make();"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-ba3vjrc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-ba3vjrc",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    }"
+				}
+			]
+		},
+		{
+			"ID": "20220112164445-0ymu648",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112164445-0ymu648",
+				"updated": "20220112164445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "}"
+				}
+			]
+		}
+	]
+}

@@ -66,12 +66,12 @@
     "generateHistoryInterval": 5,
     "historyRetentionDays": 30,
     "emoji": [
+      "1f4d2",
+      "1f4d9",
       "1f4dd",
       "1f527",
-      "1f4d9",
       "1f5d2",
       "1f4c4",
-      "1f4d2",
       "1f4c2",
       "1f4d4",
       "1f4c1",
@@ -192,7 +192,7 @@
 ],
     "direction": "tb",
     "instance": "Layout",
-    "size": "290px",
+    "size": "414px",
     "type": "left"
   },
   {
@@ -201,76 +201,316 @@
     "children": [
   {
     "children": {
-  "blockId": "20220110094200-cpen0wr",
+  "blockId": "20220112152805-bclqq4t",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "【线程_进程】"
+    "title": "Java_JVM"
   },
   {
     "children": {
-  "blockId": "20220110152409-7182dxf",
+  "blockId": "20220112152821-tnul9sm",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "【线程生命周期】"
+    "title": "JVM【内存结构】"
   },
   {
     "children": {
-  "blockId": "20220106165930-ajdi1ng",
+  "blockId": "20220112152846-ha5yhmr",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "Java_多线程"
+    "title": "JVM【栈、堆、常量池（字符串池）的详解】"
+  },
+  {
+    "children": {
+  "blockId": "20220112153700-5r139i2",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "JVM【对象的创建过程】"
+  },
+  {
+    "children": {
+  "blockId": "20220112153919-1epq9ne",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "JVM【类的加载机制】"
+  },
+  {
+    "children": {
+  "blockId": "20220112154557-qiaj9ur",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "JVM【垃圾回收机制】"
+  },
+  {
+    "children": {
+  "blockId": "20220112161126-3gsv820",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "JVM【内存泄露的几种可能】"
+  },
+  {
+    "children": {
+  "blockId": "20211222145402-5bussl6",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Java_新特性"
+  },
+  {
+    "children": {
+  "blockId": "20211222145434-kjjg748",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "1、【Lamdba表达式】"
+  },
+  {
+    "children": {
+  "blockId": "20220111232553-0ukz2e2",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "IO_源码例子"
+  },
+  {
+    "children": {
+  "blockId": "20220111232524-doxrqip",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Java_IO流"
+  },
+  {
+    "children": {
+  "blockId": "20220112161543-my7skru",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "【byteArrayInputStream\u0026ByteArrayOutputStream】例子"
+  },
+  {
+    "children": {
+  "blockId": "20220112162144-mr5lfn1",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "【DataInputStream\u0026DataOutputStream】例子"
+  },
+  {
+    "children": {
+  "blockId": "20220112163211-9jvh5ey",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "IO_基础"
+  },
+  {
+    "children": {
+  "blockId": "20220112163240-i58t8j5",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "【File类】"
+  },
+  {
+    "children": {
+  "blockId": "20220112163347-3ruizp0",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "【字节流、字符流】"
+  },
+  {
+    "children": {
+  "blockId": "20220112163357-5jfyxf5",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "【对象序列化过程】"
+  },
+  {
+    "children": {
+  "blockId": "20220112163510-nmjtgxu",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "【BIO、NIO、AIO理解】"
+  },
+  {
+    "children": {
+  "blockId": "20220112163600-yt6s2hj",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "【IO 常问面试题】"
+  },
+  {
+    "children": {
+  "blockId": "20220112164024-j2zz62z",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "【FileInputStream\u0026FileOutputstream\u0026BufferedInputSream\u0026BufferedOutputStream】例子"
+  },
+  {
+    "children": {
+  "blockId": "20220112164025-5qhbfw6",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "【FileReader\u0026FileWriter\u0026BufferedReader\u0026BufferedWriter】例子"
+  },
+  {
+    "children": {
+  "blockId": "20220112164055-ruk90k2",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "【OutputStreamWriter\u0026InputStreamReader】例子"
+  },
+  {
+    "children": {
+  "blockId": "20220112164140-cwkhi2a",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Java_设计模式"
+  },
+  {
+    "children": {
+  "blockId": "20220112164158-t0nmn51",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "1、【设计模式】概念"
+  },
+  {
+    "children": {
+  "blockId": "20220112164239-pxusrrt",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "2、【设计模式】单例模式"
+  },
+  {
+    "children": {
+  "blockId": "20220112164239-iju9p0g",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "3、【设计模式】观察者模式"
+  },
+  {
+    "children": {
+  "blockId": "20220112164240-xvnb6de",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "4、【设计模式】装饰模式"
+  },
+  {
+    "children": {
+  "blockId": "20220112164241-4j40og0",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "5、【设计模式】工厂模式"
+  },
+  {
+    "children": {
+  "blockId": "20220112164454-ptht84f",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "6、【设计模式】代理模式"
+  },
+  {
+    "children": {
+  "blockId": "20220112165539-uys4gbr",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Java_算法"
+  },
+  {
+    "children": {
+  "blockId": "20220112165556-yui6r6d",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Java之递归算法"
+  },
+  {
+    "children": {
+  "blockId": "20220112165628-rvq1ton",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Java之二分排序\u0026冒泡排序"
+  },
+  {
+    "children": {
+  "blockId": "20220112165650-l6mzcvo",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Java之排序基本算法"
+  },
+  {
+    "children": {
+  "blockId": "20220112170015-uqtvtgk",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Java_笔记"
+  },
+  {
+    "children": {
+  "blockId": "20220112170107-5qnjt89",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Java之ASCIICode和String相互转化问题！"
+  },
+  {
+    "children": {
+  "blockId": "20220112170126-bjyidz1",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Java之URL"
+  },
+  {
+    "children": {
+  "blockId": "20220112170155-qocwp0n",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Java之日常开发收集"
   },
   {
     "active": true,
     "children": {
-  "blockId": "20220110143513-ysfsum6",
+  "blockId": "20220112170225-ztmd6ck",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "【自定义线程池】"
+    "title": "Java之学习DEMO1"
   },
   {
     "children": {
-  "blockId": "20211223234941-wt2o28n",
+  "blockId": "20220112171608-fgkfiez",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "Java_并发"
-  },
-  {
-    "children": {
-  "blockId": "20220110211309-xlwmzyn",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "【sleep、yield、wait、notify、notifyAll】使用"
-  },
-  {
-    "children": {
-  "blockId": "20220110211556-2sw3qz3",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "【volatile、synchronized的作用、原理、区别】"
-  },
-  {
-    "children": {
-  "blockId": "20220110212741-8fworqf",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "【局部变量为什么是线程安全的？】"
-  },
-  {
-    "children": {
-  "blockId": "20220110212801-k2aqfq3",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "【ThreadLocal使用、原理】"
+    "title": "Java之学习DEMO2"
   }
 ],
     "height": "",
@@ -338,14 +578,14 @@
       "show": true,
       "size": {
   "height": 589,
-  "width": 290
+  "width": 414
 },
       "type": "file"
     }
   ],
   [
     {
-      "show": true,
+      "show": false,
       "size": {
   "height": null,
   "width": 290
@@ -828,7 +1068,7 @@
     "virtualRefDoc": false
   },
   "stat": {
-    "docCount": 132
+    "docCount": 169
   },
   "api": {
     "token": "9lg6z7f4ub34blui"

@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20220110211556-2sw3qz3",
 		"title": "【volatile、synchronized的作用、原理、区别】",
-		"updated": "20220110212722"
+		"updated": "20220111232420"
 	},
 	"Children": [
 		{
@@ -49,10 +49,11 @@
 		},
 		{
 			"ID": "20220110211617-tyn5k2x",
-			"Type": "NodeParagraph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
 			"Properties": {
 				"id": "20220110211617-tyn5k2x",
-				"updated": "20220110211617"
+				"updated": "20220111232417"
 			},
 			"Children": [
 				{
@@ -188,10 +189,11 @@
 		},
 		{
 			"ID": "20220110211617-5k6cw1i",
-			"Type": "NodeParagraph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
 			"Properties": {
 				"id": "20220110211617-5k6cw1i",
-				"updated": "20220110211635"
+				"updated": "20220111232420"
 			},
 			"Children": [
 				{

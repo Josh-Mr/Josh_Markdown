@@ -1,0 +1,785 @@
+{
+	"ID": "20220112152821-tnul9sm",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220112152821-tnul9sm",
+		"title": "JVM【内存结构】",
+		"updated": "20220112152830"
+	},
+	"Children": [
+		{
+			"ID": "20220112152830-vg2qrxa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112152830-vg2qrxa",
+				"updated": "20220112152830"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、内存结构图"
+				}
+			]
+		},
+		{
+			"ID": "20220112152830-bt0bm2j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112152830-bt0bm2j",
+				"updated": "20220112152830"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(27)-20220112152830-zrj840j.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112152830-rh11axx",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220112152830-rh11axx",
+				"updated": "20220112152830"
+			},
+			"Children": [
+				{
+					"ID": "20220112152830-3y41bw0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112152830-3y41bw0"
+					},
+					"Children": [
+						{
+							"ID": "20220112152830-2z248lw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112152830-2z248lw"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "java堆（Heap）："
+								}
+							]
+						},
+						{
+							"ID": "20220112152830-ozollf0",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220112152830-ozollf0"
+							},
+							"Children": [
+								{
+									"ID": "20220112152830-j9ep1tt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220112152830-j9ep1tt"
+									},
+									"Children": [
+										{
+											"ID": "20220112152830-g1osv5a",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220112152830-g1osv5a"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "JVM管理内存中的最大一块，被所有线程共享的一块存在区域。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220112152830-p2ojf33",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220112152830-p2ojf33"
+									},
+									"Children": [
+										{
+											"ID": "20220112152830-o6udgbr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220112152830-o6udgbr"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "存放对象的实例数据（被new 出来的对象数据信息）、数组。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112152830-qdhlnqd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112152830-qdhlnqd"
+					},
+					"Children": [
+						{
+							"ID": "20220112152830-bv7cf67",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112152830-bv7cf67"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "方法区（Method Area）："
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112152830-oepe60y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112152830-oepe60y"
+					},
+					"Children": [
+						{
+							"ID": "20220112152830-wolmd1c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112152830-wolmd1c"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "被所有线程共享的一块存在区域。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112152830-76delyo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112152830-76delyo"
+					},
+					"Children": [
+						{
+							"ID": "20220112152830-9byoqmf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112152830-9byoqmf"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用于存储已被虚拟机加载的类信息、常量、静态变量、即时编译器编译后的代码等数据。对象的类型数据（被虚拟机加载的类信息，即是Class类）。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112152830-lsgovfz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112152830-lsgovfz"
+					},
+					"Children": [
+						{
+							"ID": "20220112152830-2zwcvhq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112152830-2zwcvhq"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "程序计数器（Program Counter  Register）:"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112152830-3lyrpgt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112152830-3lyrpgt"
+					},
+					"Children": [
+						{
+							"ID": "20220112152830-2vq8lmu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112152830-2vq8lmu"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当前线程所执行的字节码的行号指示器。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112152830-3j5jklw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112152830-3j5jklw"
+					},
+					"Children": [
+						{
+							"ID": "20220112152830-aawsfhs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112152830-aawsfhs"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JVM栈（JVM Stack）："
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112152830-qmpb3b0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112152830-qmpb3b0"
+					},
+					"Children": [
+						{
+							"ID": "20220112152830-voblszw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112152830-voblszw"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "虚拟机栈描述的是Java方法执行的内存模型：每个方法被执行的时候都会同时创建一个栈帧（Stack Frame）用于存储局部变量表（对象的引用）、操作栈、动态链接、方法出口等信息。每一个方法被调用直至执行完成的过程，就对应着一个栈帧在虚拟机栈中从入栈到出栈的过程。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112152830-eu428q2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112152830-eu428q2"
+					},
+					"Children": [
+						{
+							"ID": "20220112152830-diho4fq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112152830-diho4fq"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "本地方法（Native Method Stacks）:"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112152830-amm9fk6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112152830-amm9fk6"
+					},
+					"Children": [
+						{
+							"ID": "20220112152830-m7jcria",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112152830-m7jcria"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "区别不过是虚拟机栈为虚拟机执行Java方法（也就是字节码）服务。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112152830-pym6gwl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112152830-pym6gwl"
+					},
+					"Children": [
+						{
+							"ID": "20220112152830-53a24j4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112152830-53a24j4"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "而本地方法栈则是为虚拟机使用到的Native方法服务。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112152830-xsawkqs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112152830-xsawkqs",
+				"updated": "20220112152830"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(28)-20220112152830-njdi7qu.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112152830-52de6vb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112152830-52de6vb",
+				"updated": "20220112152830"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(29)-20220112152830-yxzvnq7.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112152830-dc92xu6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112152830-dc92xu6",
+				"updated": "20220112152830"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "线程私有的："
+				}
+			]
+		},
+		{
+			"ID": "20220112152830-x9z2dr9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220112152830-x9z2dr9",
+				"updated": "20220112152830"
+			},
+			"Children": [
+				{
+					"ID": "20220112152830-5565wzr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112152830-5565wzr"
+					},
+					"Children": [
+						{
+							"ID": "20220112152830-n56bn7g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112152830-n56bn7g"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "程序计数器"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112152830-z8gt9jb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112152830-z8gt9jb"
+					},
+					"Children": [
+						{
+							"ID": "20220112152830-rg5i05v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112152830-rg5i05v"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "虚拟机栈"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112152830-xlnxcvf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112152830-xlnxcvf"
+					},
+					"Children": [
+						{
+							"ID": "20220112152830-umtppjx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112152830-umtppjx"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "本地方法栈"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112152830-8nqv7p1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112152830-8nqv7p1",
+				"updated": "20220112152830"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "线程共享的："
+				}
+			]
+		},
+		{
+			"ID": "20220112152830-e7ia50c",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220112152830-e7ia50c",
+				"updated": "20220112152830"
+			},
+			"Children": [
+				{
+					"ID": "20220112152830-novmdyl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112152830-novmdyl"
+					},
+					"Children": [
+						{
+							"ID": "20220112152830-zzloff0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112152830-zzloff0"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "堆"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112152830-505rysk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112152830-505rysk"
+					},
+					"Children": [
+						{
+							"ID": "20220112152830-7k9kl3e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112152830-7k9kl3e"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "方法区"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220112152830-0pi24a3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220112152830-0pi24a3"
+					},
+					"Children": [
+						{
+							"ID": "20220112152830-dadopss",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112152830-dadopss"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "直接内存 (非运行时数据区的一部分)"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

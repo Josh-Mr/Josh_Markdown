@@ -5,7 +5,7 @@
 		"icon": "1f4c4",
 		"id": "20211223163301-bxqyuth",
 		"title": "优秀的开源项目地址",
-		"updated": "20220105162610"
+		"updated": "20220112092938"
 	},
 	"Children": [
 		{
@@ -1194,6 +1194,184 @@
 					]
 				}
 			]
+		},
+		{
+			"ID": "20220112092614-wraoz7j",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220112092614-wraoz7j",
+				"updated": "20220112092938"
+			},
+			"Children": [
+				{
+					"ID": "20220112092617-9why210",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20220112092617-9why210",
+						"updated": "20220112092938"
+					},
+					"Children": [
+						{
+							"ID": "20220112092617-yoh71gn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220112092617-yoh71gn",
+								"updated": "20220112092742"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "VO、DTO、DO、BO转化工具"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://github.com/mapstruct/mapstruct"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220112092747-ujgg2lo",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20220112092747-ujgg2lo",
+								"updated": "20220112092938"
+							},
+							"Children": [
+								{
+									"ID": "20220112092746-kk7gojg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220112092746-kk7gojg",
+										"updated": "20220112092935"
+									},
+									"Children": [
+										{
+											"ID": "20220112092746-xccm7le",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220112092746-xccm7le",
+												"updated": "20220112092935"
+											},
+											"Children": [
+												{
+													"Type": "NodeMark",
+													"Data": "mark",
+													"Children": [
+														{
+															"Type": "NodeMark2OpenMarker"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "mapstruct"
+														},
+														{
+															"Type": "NodeMark2CloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "：直接在编译期生成对应的get、set，像手写的代码一样"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220112092841-oxk20f3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20220112092841-oxk20f3",
+										"updated": "20220112092938"
+									},
+									"Children": [
+										{
+											"ID": "20220112092841-cxacp9i",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220112092841-cxacp9i",
+												"updated": "20220112092938"
+											},
+											"Children": [
+												{
+													"Type": "NodeMark",
+													"Data": "mark",
+													"Children": [
+														{
+															"Type": "NodeMark2OpenMarker"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "Spring CopyProperties"
+														},
+														{
+															"Type": "NodeMark2CloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "：BeanUtils.copyProperties(var, userDTO);"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220112092627-kfl4dwq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220112092627-kfl4dwq",
+				"updated": "20220112092627"
+			}
 		}
 	]
 }
