@@ -1,0 +1,51 @@
+{
+	"ID": "20220113230858-59qnzkh",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f5d2",
+		"id": "20220113230858-59qnzkh",
+		"title": "Java SE 第十一讲",
+		"updated": "20220113230957"
+	},
+	"Children": [
+		{
+			"ID": "20220113230858-o4lvwdn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230858-o4lvwdn",
+				"updated": "20220113230957"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "11.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/11-20220113230957-y5hujwz.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

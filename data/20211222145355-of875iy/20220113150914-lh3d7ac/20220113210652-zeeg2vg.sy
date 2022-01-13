@@ -1,0 +1,304 @@
+{
+	"ID": "20220113210652-zeeg2vg",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220113210652-zeeg2vg",
+		"title": "7、Java【Object类源码】",
+		"updated": "20220113210657"
+	},
+	"Children": [
+		{
+			"ID": "20220113210657-dztr143",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113210657-dztr143",
+				"updated": "20220113210657"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、方法"
+				}
+			]
+		},
+		{
+			"ID": "20220113210657-m1nsnff",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220113210657-m1nsnff",
+				"updated": "20220113210657"
+			},
+			"Children": [
+				{
+					"ID": "20220113210657-elji79o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210657-elji79o"
+					},
+					"Children": [
+						{
+							"ID": "20220113210657-p4m9s8s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210657-p4m9s8s"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "toString()"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113210657-we6vf9i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210657-we6vf9i"
+					},
+					"Children": [
+						{
+							"ID": "20220113210657-u2fy02r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210657-u2fy02r"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "equals()"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113210657-nbsp8an",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210657-nbsp8an"
+					},
+					"Children": [
+						{
+							"ID": "20220113210657-rwyos7k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210657-rwyos7k"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "getClass()"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113210657-9ej5ptn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210657-9ej5ptn"
+					},
+					"Children": [
+						{
+							"ID": "20220113210657-t431365",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210657-t431365"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "hashCode()"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113210657-3hij0cp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210657-3hij0cp"
+					},
+					"Children": [
+						{
+							"ID": "20220113210657-drk4461",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210657-drk4461"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "clone()： "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "https://www.cnblogs.com/xzwblog/p/7230788.html"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://www.cnblogs.com/xzwblog/p/7230788.html"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113210657-wnifexm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210657-wnifexm"
+					},
+					"Children": [
+						{
+							"ID": "20220113210657-ubi9tu4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210657-ubi9tu4"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "wait()"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113210657-7rt8jxp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210657-7rt8jxp"
+					},
+					"Children": [
+						{
+							"ID": "20220113210657-x1u4xkq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210657-x1u4xkq"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "notify()"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113210657-12bob52",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210657-12bob52"
+					},
+					"Children": [
+						{
+							"ID": "20220113210657-km0yr29",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210657-km0yr29"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "notifyAll()"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113210657-5kkjxzp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210657-5kkjxzp"
+					},
+					"Children": [
+						{
+							"ID": "20220113210657-51ykj0t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210657-51ykj0t"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "finalize()"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113210657-bk8wvb7",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220113210657-bk8wvb7",
+				"updated": "20220113210657"
+			}
+		}
+	]
+}

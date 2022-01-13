@@ -1,0 +1,50 @@
+{
+	"ID": "20220113230524-acqepa2",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220113230524-acqepa2",
+		"title": "Java SE 第八讲",
+		"updated": "20220113230806"
+	},
+	"Children": [
+		{
+			"ID": "20220113230524-bqleasz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230524-bqleasz",
+				"updated": "20220113230806"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "8.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/8-20220113230806-d9ghj7n.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

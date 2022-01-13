@@ -1,0 +1,772 @@
+{
+	"ID": "20220113151413-h3a81ap",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220113151413-h3a81ap",
+		"title": "2、Java【抽象、接口】",
+		"updated": "20220113151643"
+	},
+	"Children": [
+		{
+			"ID": "20220113151421-t3pblyf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220113151421-t3pblyf",
+				"updated": "20220113151637"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、抽象"
+				}
+			]
+		},
+		{
+			"ID": "20220113151421-rrlqmp3",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220113151421-rrlqmp3",
+				"updated": "20220113151501"
+			},
+			"Children": [
+				{
+					"ID": "20220113151448-m3r9033",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220113151448-m3r9033",
+						"updated": "20220113151501"
+					},
+					"Children": [
+						{
+							"ID": "20220113151448-5arvcyd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113151448-5arvcyd"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "抽象类 （abstract class）"
+								}
+							]
+						},
+						{
+							"ID": "20220113151455-07cwg3u",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220113151455-07cwg3u",
+								"updated": "20220113151501"
+							},
+							"Children": [
+								{
+									"ID": "20220113151456-tiocxwz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113151456-tiocxwz"
+									},
+									"Children": [
+										{
+											"ID": "20220113151456-svmf43q",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113151456-svmf43q"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用abstract关键字修饰的类是抽象类"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220113151501-405baa2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113151501-405baa2",
+										"updated": "20220113151501"
+									},
+									"Children": [
+										{
+											"ID": "20220113151501-sbtd4w2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113151501-sbtd4w2",
+												"updated": "20220113151501"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "特点：抽象类不能实例化，不能（new）实例"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113151421-5ibvd1z",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220113151421-5ibvd1z",
+				"updated": "20220113151539"
+			},
+			"Children": [
+				{
+					"ID": "20220113151523-i7btrb0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220113151523-i7btrb0",
+						"updated": "20220113151539"
+					},
+					"Children": [
+						{
+							"ID": "20220113151523-hkyhpom",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113151523-hkyhpom"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "抽象方法（abstract method）"
+								}
+							]
+						},
+						{
+							"ID": "20220113151529-zoo8a63",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220113151529-zoo8a63",
+								"updated": "20220113151539"
+							},
+							"Children": [
+								{
+									"ID": "20220113151530-6wk9nhs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113151530-6wk9nhs"
+									},
+									"Children": [
+										{
+											"ID": "20220113151530-qqc4ldu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113151530-qqc4ldu"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用abstract关键字修饰的方法叫抽象方法。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220113151536-rwzix41",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113151536-rwzix41",
+										"updated": "20220113151539"
+									},
+									"Children": [
+										{
+											"ID": "20220113151536-us8o7cy",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113151536-us8o7cy",
+												"updated": "20220113151539"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "特点：抽象方法要定义在抽象类中"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113151421-l8cl4q1",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220113151421-l8cl4q1",
+				"updated": "20220113151557"
+			},
+			"Children": [
+				{
+					"ID": "20220113151546-hfc81vo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220113151546-hfc81vo",
+						"updated": "20220113151557"
+					},
+					"Children": [
+						{
+							"ID": "20220113151546-cm9iy9r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113151546-cm9iy9r"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "抽象类\u0026抽象方法联系："
+								}
+							]
+						},
+						{
+							"ID": "20220113151552-zy8n68b",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220113151552-zy8n68b",
+								"updated": "20220113151557"
+							},
+							"Children": [
+								{
+									"ID": "20220113151557-j3oc9vj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113151557-j3oc9vj"
+									},
+									"Children": [
+										{
+											"ID": "20220113151557-rimi7so",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113151557-rimi7so"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "一个类包含了抽象方法，这个类一定是抽象类。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220113151559-eaqc7o2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113151559-eaqc7o2"
+									},
+									"Children": [
+										{
+											"ID": "20220113151559-t5wond6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113151559-t5wond6"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "一个类是抽象类，里面可以有抽象方法也可以有具体方法。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220113151603-2jkkp9i",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113151603-2jkkp9i"
+									},
+									"Children": [
+										{
+											"ID": "20220113151603-xt53k9h",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113151603-xt53k9h"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "抽象类是无法实例化对象"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220113151605-j7kxnq8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113151605-j7kxnq8"
+									},
+									"Children": [
+										{
+											"ID": "20220113151605-r1etbie",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113151605-r1etbie"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "子类继承（抽象）父类时，子类一定要实现父类所有的抽象方法，否则，该类需要成名抽象类。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113151421-rc16lhi",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220113151421-rc16lhi",
+				"updated": "20220113151621"
+			},
+			"Children": [
+				{
+					"ID": "20220113151613-vnnlbga",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220113151613-vnnlbga",
+						"updated": "20220113151621"
+					},
+					"Children": [
+						{
+							"ID": "20220113151613-iucst1b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113151613-iucst1b"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "abstract 关键字和哪些关键字不能共存?"
+								}
+							]
+						},
+						{
+							"ID": "20220113151617-xh0oryt",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220113151617-xh0oryt",
+								"updated": "20220113151621"
+							},
+							"Children": [
+								{
+									"ID": "20220113151621-fa0qhzo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113151621-fa0qhzo"
+									},
+									"Children": [
+										{
+											"ID": "20220113151621-8sj397g",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113151621-8sj397g"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "final：被final修饰的类不能有子类。而被abstract修饰的类一定是一个父类。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220113151625-eymrh3o",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113151625-eymrh3o"
+									},
+									"Children": [
+										{
+											"ID": "20220113151625-ijsmq0z",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113151625-ijsmq0z"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "private: 抽象类中的私有的抽象方法，不被子类所知，就无法被复写。而抽象方法出现的就是需要被复写。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220113151629-y8efdfm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113151629-y8efdfm"
+									},
+									"Children": [
+										{
+											"ID": "20220113151629-93pdowm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113151629-93pdowm"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "static：如果static可以修饰抽象方法，那么连对象都省了，直接类名调用就可以了。可是抽象方法运行没意义。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113151421-3mytsrh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220113151421-3mytsrh",
+				"updated": "20220113151643"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、接口（interface）"
+				}
+			]
+		},
+		{
+			"ID": "20220113151421-94ka0w6",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220113151421-94ka0w6",
+				"updated": "20220113151421"
+			},
+			"Children": [
+				{
+					"ID": "20220113151421-0i8o4cg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113151421-0i8o4cg"
+					},
+					"Children": [
+						{
+							"ID": "20220113151421-86bpu3v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113151421-86bpu3v"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "特点："
+								}
+							]
+						},
+						{
+							"ID": "20220113151421-2t11ah1",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220113151421-2t11ah1"
+							},
+							"Children": [
+								{
+									"ID": "20220113151421-kgw75ba",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113151421-kgw75ba"
+									},
+									"Children": [
+										{
+											"ID": "20220113151421-n1029g2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113151421-n1029g2"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "接口中的所有方法都是抽象方法。（在声明接口时，可以使用abstract 关键字，也可以不使用，通常是省略了）"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113151421-4yyfj5y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113151421-4yyfj5y"
+					},
+					"Children": [
+						{
+							"ID": "20220113151421-kjgqcfm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113151421-kjgqcfm"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "abstract 联系与区别"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113151421-ggzzt2u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113151421-ggzzt2u"
+					},
+					"Children": [
+						{
+							"ID": "20220113151421-5831k6d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113151421-5831k6d"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "接口可以看作特殊的抽象类"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113151421-oi9e5c2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113151421-oi9e5c2"
+					},
+					"Children": [
+						{
+							"ID": "20220113151421-y4gzuz0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113151421-y4gzuz0"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "抽象类中可以有具体方法，也可以有抽象方法"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113151421-177skg5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113151421-177skg5"
+					},
+					"Children": [
+						{
+							"ID": "20220113151421-t8l4oeq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113151421-t8l4oeq"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "而接口中只能有抽象方法，不能有具体方法。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113151421-q1kxmsm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113151421-q1kxmsm"
+					},
+					"Children": [
+						{
+							"ID": "20220113151421-2buzd07",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113151421-2buzd07"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一个类实现了一个接口，就要实现接口中的所有方法。若是抽象类不需要实现。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113151421-7ftnqh4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113151421-7ftnqh4"
+					},
+					"Children": [
+						{
+							"ID": "20220113151421-ickwxjn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113151421-ickwxjn"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java是单继承多实现（接口）的。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

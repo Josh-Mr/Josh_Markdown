@@ -1,0 +1,50 @@
+{
+	"ID": "20220113230811-as6onng",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220113230811-as6onng",
+		"title": "Java SE 第九讲",
+		"updated": "20220113230845"
+	},
+	"Children": [
+		{
+			"ID": "20220113230811-1b49jof",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230811-1b49jof",
+				"updated": "20220113230845"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "9.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/9-20220113230845-1x2et6q.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

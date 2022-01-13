@@ -1,0 +1,51 @@
+{
+	"ID": "20220113230526-yypco67",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f5d2",
+		"id": "20220113230526-yypco67",
+		"title": "Java SE Lesson 7",
+		"updated": "20220113230743"
+	},
+	"Children": [
+		{
+			"ID": "20220113230526-94f5u0s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230526-94f5u0s",
+				"updated": "20220113230743"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Java SE Lesson 7.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Java SE Lesson 7-20220113230743-fl25045.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

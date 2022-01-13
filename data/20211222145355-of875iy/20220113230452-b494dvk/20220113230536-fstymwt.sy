@@ -1,0 +1,51 @@
+{
+	"ID": "20220113230536-fstymwt",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f5d2",
+		"id": "20220113230536-fstymwt",
+		"title": "Java SE Lesson 3",
+		"updated": "20220113230638"
+	},
+	"Children": [
+		{
+			"ID": "20220113230536-7qcepnt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230536-7qcepnt",
+				"updated": "20220113230638"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "lesson03.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/lesson03-20220113230638-0sww16i.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

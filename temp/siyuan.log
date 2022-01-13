@@ -1808,3 +1808,118 @@ I 2022/01/12 09:26:07 conf.go:487: post-init database size [3.6 MB], tree stat [
 I 2022/01/12 09:26:07 working.go:135: kernel booted
 E 2022/01/12 22:17:48 rhy.go:42: get version meta info failed: [Get "https://rhythm.b3log.org/version/siyuan?ver=1.6.3": dial tcp: lookup rhythm.b3log.org: no such host]
 I 2022/01/12 22:21:20 conf.go:341: exited kernel
+I 2022/01/12 22:22:36 working.go:95: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2022/01/12 22:22:37 runtime.go:49: kernel is booting:
+    * ver [1.6.3]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\SiYuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20211218]
+    * workspace directory [F:\Josh_Markdown, data 100 MB]
+    * pandoc [.exe 2.13]
+I 2022/01/12 22:22:37 conf.go:250: local serve path [http://192.168.0.109:6806]
+I 2022/01/12 22:22:37 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2022/01/12 22:22:37 conf.go:466: pre-init database size [4.2 MB]
+I 2022/01/12 22:22:37 index.go:132: use existing database for box [20211217161537-movp6tu]
+I 2022/01/12 22:22:37 index.go:204: rebuilt database for notebook [20211222145355-of875iy] in [0.10s], tree stat [count=53, size=598 kB]
+I 2022/01/12 22:22:37 index.go:132: use existing database for box [20211218225346-xp0ksoo]
+I 2022/01/12 22:22:37 index.go:132: use existing database for box [20211218230747-88wsl35]
+I 2022/01/12 22:22:37 index.go:214: resolving refs...
+I 2022/01/12 22:22:37 index.go:355: resolved refs
+I 2022/01/12 22:22:37 conf.go:487: post-init database size [4.2 MB], tree stat [count=169, size=2.8 MB]
+I 2022/01/12 22:22:37 working.go:135: kernel booted
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\Image(18)-20211229152014-c5m92hq.png] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\Image(18)-20211229152014-c5m92hq.png]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\Image(19)-20211229152014-yx943sc.png] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\Image(19)-20211229152014-yx943sc.png]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\Image(20)-20220106164951-effrb7s.png] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\Image(20)-20220106164951-effrb7s.png]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\Image(26)-20220110212807-edcyenq.png] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\Image(26)-20220110212807-edcyenq.png]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\Image(41)-20220112163328-842k3bx.png] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\Image(41)-20220112163328-842k3bx.png]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\MQ（消息队列）-20220106165255-l8q1jq6.png] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\MQ（消息队列）-20220106165255-l8q1jq6.png]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\clip_image002-20220104103931-mb94t61.gif] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\clip_image002-20220104103931-mb94t61.gif]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\clip_image003-20220104103931-ogh3ait.gif] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\clip_image003-20220104103931-ogh3ait.gif]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\clip_image004-20220104111739-cxcmndl.gif] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\clip_image004-20220104111739-cxcmndl.gif]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\clip_image004-20220104111739-l9ml7z5.gif] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\clip_image004-20220104111739-l9ml7z5.gif]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\clip_image011-20220104111739-o9oygi0.gif] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\clip_image011-20220104111739-o9oygi0.gif]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\clip_image011-20220104111739-wqwly7u.gif] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\clip_image011-20220104111739-wqwly7u.gif]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\clip_image014-20220104111739-cp2sh6k.gif] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\clip_image014-20220104111739-cp2sh6k.gif]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\clip_image014-20220104111739-oo4emeq.gif] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\clip_image014-20220104111739-oo4emeq.gif]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\clip_image016-20220104111739-9gic4z3.gif] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\clip_image016-20220104111739-9gic4z3.gif]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\clip_image016-20220104111739-ou86err.gif] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\clip_image016-20220104111739-ou86err.gif]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\clip_image020-20220104111739-glzgb59.gif] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\clip_image020-20220104111739-glzgb59.gif]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\clip_image020-20220104111739-m0kij2u.gif] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\clip_image020-20220104111739-m0kij2u.gif]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\clip_image029-20220104111739-3t52l18.gif] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\clip_image029-20220104111739-3t52l18.gif]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\clip_image029-20220104111739-m5gngl1.gif] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\clip_image029-20220104111739-m5gngl1.gif]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\image-20220103154245-ief5fwn.png] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\image-20220103154245-ief5fwn.png]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\image-20220103233625-r6ecegk.png] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\image-20220103233625-r6ecegk.png]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\image-20220104103946-hnjgswk.png] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\image-20220104103946-hnjgswk.png]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\image-20220105162607-aa7gn3y.png] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\image-20220105162607-aa7gn3y.png]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\image-20220105162609-tur3zsc.png] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\image-20220105162609-tur3zsc.png]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\image-20220109124352-wcg0ojw.png] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\image-20220109124352-wcg0ojw.png]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\image-20220110154647-885ibk4.png] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\image-20220110154647-885ibk4.png]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\字符输入输出流架构图-20220112163328-ftmfvjn.png] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\字符输入输出流架构图-20220112163328-ftmfvjn.png]
+I 2022/01/12 22:23:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\字节输入输出流架构图-20220112163328-g7jo1zf.png] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-12-222321-delete\assets\字节输入输出流架构图-20220112163328-g7jo1zf.png]
+I 2022/01/12 22:28:29 database.go:73: reinitialized database [F:\Josh_Markdown\temp\siyuan.db]
+I 2022/01/12 22:28:29 index.go:204: rebuilt database for notebook [20211217161537-movp6tu] in [0.01s], tree stat [count=16, size=21 kB]
+I 2022/01/12 22:28:29 index.go:204: rebuilt database for notebook [20211222145355-of875iy] in [0.08s], tree stat [count=53, size=598 kB]
+I 2022/01/12 22:28:30 index.go:204: rebuilt database for notebook [20211218225346-xp0ksoo] in [0.14s], tree stat [count=51, size=967 kB]
+I 2022/01/12 22:28:30 index.go:204: rebuilt database for notebook [20211218230747-88wsl35] in [0.09s], tree stat [count=49, size=1.2 MB]
+I 2022/01/12 22:28:30 index.go:214: resolving refs...
+I 2022/01/12 22:28:30 index.go:355: resolved refs
+E 2022/01/13 00:11:37 transaction.go:762: load tree [id=20220113001136-gz4qnjg] failed: block not found
+I 2022/01/13 00:11:40 database.go:73: reinitialized database [F:\Josh_Markdown\temp\siyuan.db]
+I 2022/01/13 00:11:40 index.go:204: rebuilt database for notebook [20211217161537-movp6tu] in [0.00s], tree stat [count=17, size=21 kB]
+I 2022/01/13 00:11:40 index.go:204: rebuilt database for notebook [20211222145355-of875iy] in [0.09s], tree stat [count=53, size=600 kB]
+I 2022/01/13 00:11:40 index.go:204: rebuilt database for notebook [20211218225346-xp0ksoo] in [0.12s], tree stat [count=51, size=967 kB]
+I 2022/01/13 00:11:40 index.go:204: rebuilt database for notebook [20211218230747-88wsl35] in [0.10s], tree stat [count=50, size=1.2 MB]
+I 2022/01/13 00:11:40 index.go:214: resolving refs...
+I 2022/01/13 00:11:40 index.go:355: resolved refs
+I 2022/01/13 10:07:28 working.go:95: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2022/01/13 10:07:29 runtime.go:49: kernel is booting:
+    * ver [1.6.3]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\SiYuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20211218]
+    * workspace directory [F:\Josh_Markdown, data 101 MB]
+    * pandoc [.exe 2.13]
+I 2022/01/13 10:07:30 conf.go:250: local serve path [http://127.0.0.1:6806]
+I 2022/01/13 10:07:30 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2022/01/13 10:07:30 conf.go:466: pre-init database size [4.2 MB]
+I 2022/01/13 10:07:30 index.go:132: use existing database for box [20211217161537-movp6tu]
+I 2022/01/13 10:07:30 index.go:132: use existing database for box [20211222145355-of875iy]
+I 2022/01/13 10:07:30 index.go:132: use existing database for box [20211218225346-xp0ksoo]
+I 2022/01/13 10:07:30 index.go:132: use existing database for box [20211218230747-88wsl35]
+I 2022/01/13 10:07:30 index.go:214: resolving refs...
+I 2022/01/13 10:07:30 index.go:355: resolved refs
+I 2022/01/13 10:07:30 conf.go:487: post-init database size [4.2 MB], tree stat [count=171, size=2.8 MB]
+I 2022/01/13 10:07:30 working.go:135: kernel booted
+E 2022/01/13 20:55:11 rhy.go:42: get version meta info failed: [Get "https://rhythm.b3log.org/version/siyuan?ver=1.6.3": dial tcp: lookup rhythm.b3log.org: no such host]
+I 2022/01/13 23:14:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\Image-20220113210929-x6n8b5u.png] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-13-231421-delete\assets\Image-20220113210929-x6n8b5u.png]
+I 2022/01/13 23:14:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\Image-20220113210952-9jnf7ux.png] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-13-231421-delete\assets\Image-20220113210952-9jnf7ux.png]
+I 2022/01/13 23:14:21 assets.go:250: copied unused asset from [F:\Josh_Markdown\data\assets\image-20220112224154-2eb3fs5.png] to [F:\Josh_Markdown\data\assets\.siyuan\history\2022-01-13-231421-delete\assets\image-20220112224154-2eb3fs5.png]
+I 2022/01/13 23:14:49 conf.go:341: exited kernel

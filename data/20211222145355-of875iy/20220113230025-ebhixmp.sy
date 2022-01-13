@@ -1,0 +1,50 @@
+{
+	"ID": "20220113230025-ebhixmp",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220113230025-ebhixmp",
+		"title": "Java_知识框架图",
+		"updated": "20220113230042"
+	},
+	"Children": [
+		{
+			"ID": "20220113230025-e6wiy7l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230025-e6wiy7l",
+				"updated": "20220113230031"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Java知识框架图.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Java知识框架图-20220113230031-3lojb8u.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

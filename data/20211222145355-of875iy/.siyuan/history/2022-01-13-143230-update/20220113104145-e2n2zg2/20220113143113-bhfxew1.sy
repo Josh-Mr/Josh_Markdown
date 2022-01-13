@@ -1,0 +1,232 @@
+{
+	"ID": "20220113143113-bhfxew1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220113143113-bhfxew1",
+		"title": "1、Java【思维导图-集合】",
+		"updated": "20220113143123"
+	},
+	"Children": [
+		{
+			"ID": "20220113143115-q94zw3b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113143115-q94zw3b",
+				"updated": "20220113143115"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java 集合详解"
+				}
+			]
+		},
+		{
+			"ID": "20220113143115-twpuffe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113143115-twpuffe",
+				"updated": "20220113143115"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Java集合-20220113143115-8o39mfy.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113143115-yjk9o8z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113143115-yjk9o8z",
+				"updated": "20220113143115"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(48)-20220113143115-se9qkgc.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113143115-7apsk1j",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220113143115-7apsk1j",
+				"updated": "20220113143115"
+			},
+			"Children": [
+				{
+					"ID": "20220113143115-p0lpmsu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113143115-p0lpmsu"
+					},
+					"Children": [
+						{
+							"ID": "20220113143115-bxvncqq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113143115-bxvncqq"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "发现一个特点，上述所有的集合类，除了map系列的集合，即左边的集合都实现了Iterator接口。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113143115-ukchp0x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113143115-ukchp0x"
+					},
+					"Children": [
+						{
+							"ID": "20220113143115-ymocyi1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113143115-ymocyi1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Iterator是一个用来遍历集合中元素的接口，主要有hashNext()，next()，remove()三种方法。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113143115-8s6z0f4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113143115-8s6z0f4",
+				"updated": "20220113143115"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "　　它的子接口ListIterator在它的基础上又添加了三种方法，分别是add()，previous()，hasPrevious()。"
+				}
+			]
+		}
+	]
+}

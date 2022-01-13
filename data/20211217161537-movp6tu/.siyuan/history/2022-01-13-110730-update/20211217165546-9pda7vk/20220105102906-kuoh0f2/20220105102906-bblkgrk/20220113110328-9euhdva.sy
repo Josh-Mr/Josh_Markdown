@@ -1,0 +1,117 @@
+{
+	"ID": "20220113110328-9euhdva",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220113110328-9euhdva",
+		"title": "2022-01-13",
+		"updated": "20220113110706"
+	},
+	"Children": [
+		{
+			"ID": "20220113110328-mci5mbu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113110328-mci5mbu",
+				"updated": "20220113110351"
+			},
+			"Children": [
+				{
+					"Type": "NodeMark",
+					"Data": "mark",
+					"Children": [
+						{
+							"Type": "NodeMark2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "specified"
+						},
+						{
+							"Type": "NodeMark2CloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "element  指定元素"
+				}
+			]
+		},
+		{
+			"ID": "20220113110658-wdnug1z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113110658-wdnug1z",
+				"updated": "20220113110704"
+			},
+			"Children": [
+				{
+					"Type": "NodeMark",
+					"Data": "mark",
+					"Children": [
+						{
+							"Type": "NodeMark2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "ensure"
+						},
+						{
+							"Type": "NodeMark2CloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 确保"
+				}
+			]
+		},
+		{
+			"ID": "20220113110351-pgs6727",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113110351-pgs6727",
+				"updated": "20220113110706"
+			},
+			"Children": [
+				{
+					"Type": "NodeMark",
+					"Data": "mark",
+					"Children": [
+						{
+							"Type": "NodeMark2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Capacity"
+						},
+						{
+							"Type": "NodeMark2CloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "容量，能力"
+				}
+			]
+		},
+		{
+			"ID": "20220113110640-xjg7rad",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113110640-xjg7rad",
+				"updated": "20220113110640"
+			}
+		}
+	]
+}

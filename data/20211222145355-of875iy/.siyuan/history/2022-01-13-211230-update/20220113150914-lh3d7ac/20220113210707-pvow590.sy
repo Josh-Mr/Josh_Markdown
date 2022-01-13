@@ -1,0 +1,742 @@
+{
+	"ID": "20220113210707-pvow590",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220113210707-pvow590",
+		"title": "8、Java【Object类HashCode\u0026amp;Equals的详解】",
+		"updated": "20220113210716"
+	},
+	"Children": [
+		{
+			"ID": "20220113210716-3h7q8qp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113210716-3h7q8qp",
+				"updated": "20220113210716"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "扩展："
+				}
+			]
+		},
+		{
+			"ID": "20220113210716-ts7k2to",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113210716-ts7k2to",
+				"updated": "20220113210716"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、 关于Object类的equals方法的特点"
+				}
+			]
+		},
+		{
+			"ID": "20220113210716-dpr6m6h",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220113210716-dpr6m6h",
+				"updated": "20220113210716"
+			},
+			"Children": [
+				{
+					"ID": "20220113210716-youabmv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210716-youabmv"
+					},
+					"Children": [
+						{
+							"ID": "20220113210716-q54uwdc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210716-q54uwdc"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "自反性：x.equals(x)应该返回true"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113210716-azsdhpb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210716-azsdhpb"
+					},
+					"Children": [
+						{
+							"ID": "20220113210716-gfqjilu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210716-gfqjilu"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对称性：x.equals(y)为true，那么y.equals(x)也为true。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113210716-neb1s5a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210716-neb1s5a"
+					},
+					"Children": [
+						{
+							"ID": "20220113210716-2xtbndu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210716-2xtbndu"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "传递性：x.equals(y)为 true并且y.equals(z)为true，那么x.equals(z)也应该为true。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113210716-jrihggu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210716-jrihggu"
+					},
+					"Children": [
+						{
+							"ID": "20220113210716-34gjbdo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210716-34gjbdo"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一致性：x.equals(y)的第一次调用为true，那么x.equals(y)的第二次、第三次、第n次调用也应该为true，前提条件是在比较之间没有修改x也没有修改y。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113210716-4uv1msz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210716-4uv1msz"
+					},
+					"Children": [
+						{
+							"ID": "20220113210716-52n5mgd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210716-52n5mgd"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对于非空引用x，x.equals(null)返回false。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113210716-447kqjl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113210716-447kqjl",
+				"updated": "20220113210716"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、 关于Object类的hashCode()方法的特点："
+				}
+			]
+		},
+		{
+			"ID": "20220113210716-uu6ex02",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220113210716-uu6ex02",
+				"updated": "20220113210716"
+			},
+			"Children": [
+				{
+					"ID": "20220113210716-5h7syt0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210716-5h7syt0"
+					},
+					"Children": [
+						{
+							"ID": "20220113210716-r7kuvb8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210716-r7kuvb8"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在Java应用的一次执行过程当中，对于同一个对象的hashCode方法的多次调用，他们应该返回同样的值（前提是该对象的信息没有发生变化）。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113210716-y0hufj0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210716-y0hufj0"
+					},
+					"Children": [
+						{
+							"ID": "20220113210716-vyasm90",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210716-vyasm90"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对于两个对象来说，如果使用equals方法比较返回true，那么这两个对象的hashCode值一定是相同的。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113210716-ru7ip9e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210716-ru7ip9e"
+					},
+					"Children": [
+						{
+							"ID": "20220113210716-r6gkcuf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210716-r6gkcuf"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对于两个对象来说，如果使用equals方法比较返回false，那么这两个对象的hashCode值不要求一定不同（可以相同，可以不同），但是如果不同则可以提高应用的性能。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113210716-k7zji04",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210716-k7zji04"
+					},
+					"Children": [
+						{
+							"ID": "20220113210716-ly2zd8k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210716-ly2zd8k"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对于Object类来说，不同的Object对象的hashCode值是不同的（Object类的hashCode值表示的是对象的地址）。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113210716-wl20ndp",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220113210716-wl20ndp",
+				"updated": "20220113210716"
+			}
+		},
+		{
+			"ID": "20220113210716-obl9xu4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113210716-obl9xu4",
+				"updated": "20220113210716"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "HashCode\u0026Equals的区别"
+				}
+			]
+		},
+		{
+			"ID": "20220113210716-qfu1ggh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113210716-qfu1ggh",
+				"updated": "20220113210716"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、他们是什么？"
+				}
+			]
+		},
+		{
+			"ID": "20220113210716-21wuu6g",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220113210716-21wuu6g",
+				"updated": "20220113210716"
+			},
+			"Children": [
+				{
+					"ID": "20220113210716-v6zmqb6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210716-v6zmqb6"
+					},
+					"Children": [
+						{
+							"ID": "20220113210716-nykrxg3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210716-nykrxg3"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用于比较对象是否相等"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113210716-ult75pc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113210716-ult75pc",
+				"updated": "20220113210716"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、两者的区别？"
+				}
+			]
+		},
+		{
+			"ID": "20220113210716-okrc19s",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220113210716-okrc19s",
+				"updated": "20220113210716"
+			},
+			"Children": [
+				{
+					"ID": "20220113210716-8czwja5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210716-8czwja5"
+					},
+					"Children": [
+						{
+							"ID": "20220113210716-s5y9l77",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210716-s5y9l77"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "equals已经有对比功能了，为什么还要用hashcode呢？"
+								}
+							]
+						},
+						{
+							"ID": "20220113210716-a1rawxz",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220113210716-a1rawxz"
+							},
+							"Children": [
+								{
+									"ID": "20220113210716-6mcetj7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113210716-6mcetj7"
+									},
+									"Children": [
+										{
+											"ID": "20220113210716-3mql4u0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113210716-3mql4u0"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "hashcode效率比equals高：equals全面对比而hashcode生成一个hash值对比就好！"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113210716-zow74oj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210716-zow74oj"
+					},
+					"Children": [
+						{
+							"ID": "20220113210716-8ae5n67",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210716-8ae5n67"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "hashcode的效率这个高为什么还要equals呢？"
+								}
+							]
+						},
+						{
+							"ID": "20220113210740-ov9zlz0",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220113210740-ov9zlz0"
+							},
+							"Children": [
+								{
+									"ID": "20220113210716-h5rs87d",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113210716-h5rs87d"
+									},
+									"Children": [
+										{
+											"ID": "20220113210716-eu3iu49",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113210716-eu3iu49"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "hashcode是不可靠的，不同的对象也有可能相同的hashcode值。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113210716-1weih84",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210716-1weih84"
+					},
+					"Children": [
+						{
+							"ID": "20220113210716-2oaforp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210716-2oaforp"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "重点："
+								}
+							]
+						},
+						{
+							"ID": "20220113210746-89rshuy",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220113210746-89rshuy"
+							},
+							"Children": [
+								{
+									"ID": "20220113210716-ldo44a5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113210716-ldo44a5"
+									},
+									"Children": [
+										{
+											"ID": "20220113210716-7sjer3y",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113210716-7sjer3y"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "equals相等的两个对象他们的hashcode一定相等，equals是绝对可靠的。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220113210716-uxtxqv4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113210716-uxtxqv4"
+									},
+									"Children": [
+										{
+											"ID": "20220113210716-6spr8zp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113210716-6spr8zp"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "hashcode相等的两个对象equals不一定相等，hashcode是不可靠的。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220113210716-l63qxar",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113210716-l63qxar"
+									},
+									"Children": [
+										{
+											"ID": "20220113210716-z27mcpn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113210716-z27mcpn"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "hashcode不相等时，两个对象一定不等。（联想HashSet底层）"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113210716-h8gu6hw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210716-h8gu6hw"
+					},
+					"Children": [
+						{
+							"ID": "20220113210716-2sv4ocy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210716-2sv4ocy"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "扩展："
+								}
+							]
+						},
+						{
+							"ID": "20220113210753-q0qcoa1",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220113210753-q0qcoa1"
+							},
+							"Children": [
+								{
+									"ID": "20220113210716-lynin55",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113210716-lynin55"
+									},
+									"Children": [
+										{
+											"ID": "20220113210716-wdqwvv3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113210716-wdqwvv3"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "HashSet的底层是用HashMap，HashSet底层判断重复就是先用hashcode判断是否一致？"
+												}
+											]
+										},
+										{
+											"ID": "20220113210716-dqy3l60",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113210716-dqy3l60"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "若一致？在判断equals是否一致？这样可以增加效率！"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113210716-9ghgusq",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220113210716-9ghgusq",
+				"updated": "20220113210716"
+			}
+		},
+		{
+			"ID": "20220113210716-3x9pi3t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113210716-3x9pi3t",
+				"updated": "20220113210716"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "hashCode() 的作用是获取哈希码，也称为散列码；它实际上是返回一个int整数。这个哈希码的作用是确定该对象在哈希表中的索引位置。"
+				}
+			]
+		}
+	]
+}

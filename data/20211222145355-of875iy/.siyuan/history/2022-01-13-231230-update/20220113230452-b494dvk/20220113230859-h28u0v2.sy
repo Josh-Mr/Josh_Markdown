@@ -1,0 +1,50 @@
+{
+	"ID": "20220113230859-h28u0v2",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220113230859-h28u0v2",
+		"title": "Java SE 第三讲",
+		"updated": "20220113230938"
+	},
+	"Children": [
+		{
+			"ID": "20220113230859-64mpqbc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230859-64mpqbc",
+				"updated": "20220113230938"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "3.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/3-20220113230938-rahn6to.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"ID": "20220113230452-b494dvk",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4d2",
+		"id": "20220113230452-b494dvk",
+		"title": "Java_圣思园",
+		"updated": "20220113230520"
+	},
+	"Children": [
+		{
+			"ID": "20220113230452-3hipx5p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230452-3hipx5p",
+				"updated": "20220113230452"
+			}
+		}
+	]
+}

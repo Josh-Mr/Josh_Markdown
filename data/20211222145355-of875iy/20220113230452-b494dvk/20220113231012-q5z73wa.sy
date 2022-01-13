@@ -1,0 +1,51 @@
+{
+	"ID": "20220113231012-q5z73wa",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f5d2",
+		"id": "20220113231012-q5z73wa",
+		"title": "Java SE 第五讲",
+		"updated": "20220113231021"
+	},
+	"Children": [
+		{
+			"ID": "20220113231012-1bctjso",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113231012-1bctjso",
+				"updated": "20220113231021"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "5.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/5-20220113231021-ak8fei6.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

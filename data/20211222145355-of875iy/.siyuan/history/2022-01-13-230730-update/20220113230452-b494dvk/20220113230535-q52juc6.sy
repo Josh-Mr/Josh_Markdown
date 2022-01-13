@@ -1,0 +1,50 @@
+{
+	"ID": "20220113230535-q52juc6",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220113230535-q52juc6",
+		"title": "Java SE Lesson 4",
+		"updated": "20220113230700"
+	},
+	"Children": [
+		{
+			"ID": "20220113230535-tksobup",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230535-tksobup",
+				"updated": "20220113230700"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "lesson04.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/lesson04-20220113230700-tsli8la.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

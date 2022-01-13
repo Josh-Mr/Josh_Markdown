@@ -1,0 +1,19 @@
+{
+	"ID": "20220113230526-zc8j7pf",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220113230526-zc8j7pf",
+		"title": "Java SE Lesson 6",
+		"updated": "20220113230724"
+	},
+	"Children": [
+		{
+			"ID": "20220113230526-o3oqg6u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230526-o3oqg6u",
+				"updated": "20220113230526"
+			}
+		}
+	]
+}

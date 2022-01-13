@@ -1,0 +1,324 @@
+{
+	"ID": "20220113230128-3qb96bv",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220113230128-3qb96bv",
+		"title": "20220113230128",
+		"updated": "20220113230223"
+	},
+	"Children": [
+		{
+			"ID": "20220113230213-giy5vvl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230213-giy5vvl",
+				"updated": "20220113230213"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、十进制--\u003e 二进制"
+				}
+			]
+		},
+		{
+			"ID": "20220113230213-5rz37m0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230213-5rz37m0",
+				"updated": "20220113230223"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image-20220113230219-i2uy9xd.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113230213-7c1zbe6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230213-7c1zbe6",
+				"updated": "20220113230213"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、十进制--\u003e八进制"
+				}
+			]
+		},
+		{
+			"ID": "20220113230213-azgzfzc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230213-azgzfzc",
+				"updated": "20220113230213"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "en-resource://database/1120:0"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113230213-ffkiyfm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230213-ffkiyfm",
+				"updated": "20220113230213"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、十进制--\u003e十六进制"
+				}
+			]
+		},
+		{
+			"ID": "20220113230213-nxvuyz7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230213-nxvuyz7",
+				"updated": "20220113230213"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "en-resource://database/1122:0"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113230213-ia1739l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230213-ia1739l",
+				"updated": "20220113230213"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四、二进制--\u003e十进制"
+				}
+			]
+		},
+		{
+			"ID": "20220113230213-fa91ajj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230213-fa91ajj",
+				"updated": "20220113230213"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "en-resource://database/1123:0"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113230213-acnd5ga",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230213-acnd5ga",
+				"updated": "20220113230213"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "五、八进制--\u003e十进制"
+				}
+			]
+		},
+		{
+			"ID": "20220113230213-gkdmgi1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230213-gkdmgi1",
+				"updated": "20220113230213"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "en-resource://database/1125:0"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113230213-9zsm6v4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230213-9zsm6v4",
+				"updated": "20220113230213"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "六、十六进制--\u003e十进制"
+				}
+			]
+		},
+		{
+			"ID": "20220113230213-xcn3w5t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230213-xcn3w5t",
+				"updated": "20220113230213"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "en-resource://database/1124:0"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

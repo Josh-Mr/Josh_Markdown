@@ -1,0 +1,960 @@
+{
+	"ID": "20220113153345-bzqv183",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220113153345-bzqv183",
+		"title": "3、Java【重载、重写、继承、封装、多态】",
+		"updated": "20220113153714"
+	},
+	"Children": [
+		{
+			"ID": "20220113153624-vj9vz0w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113153624-vj9vz0w",
+				"updated": "20220113153624"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、方法的重载（Overload）"
+				}
+			]
+		},
+		{
+			"ID": "20220113153624-gluexba",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220113153624-gluexba",
+				"updated": "20220113153624"
+			},
+			"Children": [
+				{
+					"ID": "20220113153624-8uehdk5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113153624-8uehdk5"
+					},
+					"Children": [
+						{
+							"ID": "20220113153624-4vmuiuw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113153624-4vmuiuw"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在同一个类中："
+								}
+							]
+						},
+						{
+							"ID": "20220113153624-yhk6y9k",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220113153624-yhk6y9k"
+							},
+							"Children": [
+								{
+									"ID": "20220113153624-s8bdg5i",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113153624-s8bdg5i"
+									},
+									"Children": [
+										{
+											"ID": "20220113153624-qrod1kh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113153624-qrod1kh"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "表示两个或多个方法名字相同，但方法参数不同（两层含义）："
+												}
+											]
+										},
+										{
+											"ID": "20220113153624-bcn7nr6",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220113153624-bcn7nr6"
+											},
+											"Children": [
+												{
+													"ID": "20220113153624-3t6bjoc",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220113153624-3t6bjoc"
+													},
+													"Children": [
+														{
+															"ID": "20220113153624-jvqvb2g",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220113153624-jvqvb2g"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "参数个数不同"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220113153624-arpivi0",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220113153624-arpivi0"
+													},
+													"Children": [
+														{
+															"ID": "20220113153624-qygtmst",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220113153624-qygtmst"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "参数类型不同"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220113153624-9dn1wz3",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220113153624-9dn1wz3"
+													},
+													"Children": [
+														{
+															"ID": "20220113153624-idwmevm",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220113153624-idwmevm"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "注意：方法的返回值对重载没有任何影响。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113153624-us66437",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113153624-us66437",
+				"updated": "20220113153624"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、方法的重写（Override）"
+				}
+			]
+		},
+		{
+			"ID": "20220113153624-bhnit7r",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220113153624-bhnit7r",
+				"updated": "20220113153624"
+			},
+			"Children": [
+				{
+					"ID": "20220113153624-5ncqjyd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113153624-5ncqjyd"
+					},
+					"Children": [
+						{
+							"ID": "20220113153624-zf8xqch",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113153624-zf8xqch"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在（继承）不同类中："
+								}
+							]
+						},
+						{
+							"ID": "20220113153624-bicvcoz",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220113153624-bicvcoz"
+							},
+							"Children": [
+								{
+									"ID": "20220113153624-lnownzr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113153624-lnownzr"
+									},
+									"Children": [
+										{
+											"ID": "20220113153624-j2j7c3s",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113153624-j2j7c3s"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "子类与父类方法返回类型一样、方法名称一样、参数一样。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113153624-5yho025",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113153624-5yho025"
+					},
+					"Children": [
+						{
+							"ID": "20220113153624-732hmn9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113153624-732hmn9"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当两个方法形成重写关系时，可以在子类方法中通过super.run()形式调用父类分run()方法，其中super.run()不必放第一行语句，因此此时父类对象已经构造完毕，先调用父类的run()方法还是先调用子类的run()方法是根据程序的逻辑决定。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113153624-q8x8wx0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113153624-q8x8wx0",
+				"updated": "20220113153624"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、两者的关系："
+				}
+			]
+		},
+		{
+			"ID": "20220113153624-orewi7k",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220113153624-orewi7k",
+				"updated": "20220113153624"
+			},
+			"Children": [
+				{
+					"ID": "20220113153624-ebqcs9u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113153624-ebqcs9u"
+					},
+					"Children": [
+						{
+							"ID": "20220113153624-tmfig14",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113153624-tmfig14"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "重载发生在同一个类内部的两个或者多个方法。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113153624-tyfd1sw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113153624-tyfd1sw"
+					},
+					"Children": [
+						{
+							"ID": "20220113153624-lh5sfdv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113153624-lh5sfdv"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "重写发生在父类与子类之间。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113153624-z73mlw4",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220113153624-z73mlw4",
+				"updated": "20220113153624"
+			}
+		},
+		{
+			"ID": "20220113153624-5rk92cb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113153624-5rk92cb",
+				"updated": "20220113153624"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、什么是继承？"
+				}
+			]
+		},
+		{
+			"ID": "20220113153624-nn7r7ga",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220113153624-nn7r7ga",
+				"updated": "20220113153624"
+			},
+			"Children": [
+				{
+					"ID": "20220113153624-mrwcgky",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113153624-mrwcgky"
+					},
+					"Children": [
+						{
+							"ID": "20220113153624-aqofabu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113153624-aqofabu"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java是单继承的，意味着一个类只能从另一个类继承，是对类的一种扩展。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113153624-vguwhwt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113153624-vguwhwt",
+				"updated": "20220113153624"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、继承的三个点？"
+				}
+			]
+		},
+		{
+			"ID": "20220113153624-bdc6m2d",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220113153624-bdc6m2d",
+				"updated": "20220113153624"
+			},
+			"Children": [
+				{
+					"ID": "20220113153624-9h22x4p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113153624-9h22x4p"
+					},
+					"Children": [
+						{
+							"ID": "20220113153624-d48irz5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113153624-d48irz5"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "父类有的，子类也有"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113153624-0d6g4p0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113153624-0d6g4p0"
+					},
+					"Children": [
+						{
+							"ID": "20220113153624-b0k7l25",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113153624-b0k7l25"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "父类没有的，子类可以增加"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113153624-3520ib4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113153624-3520ib4"
+					},
+					"Children": [
+						{
+							"ID": "20220113153624-z0680dy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113153624-z0680dy"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "父类有的。子类可以改变"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113153624-9cxu8zm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113153624-9cxu8zm",
+				"updated": "20220113153624"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、继承的注意事项？"
+				}
+			]
+		},
+		{
+			"ID": "20220113153624-x4zwu0m",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220113153624-x4zwu0m",
+				"updated": "20220113153624"
+			},
+			"Children": [
+				{
+					"ID": "20220113153624-d5birr0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113153624-d5birr0"
+					},
+					"Children": [
+						{
+							"ID": "20220113153624-gezh8po",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113153624-gezh8po"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "构造方法不能被继承"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113153624-41hcu7q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113153624-41hcu7q"
+					},
+					"Children": [
+						{
+							"ID": "20220113153624-icd9uob",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113153624-icd9uob"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "方法和属性可以被继承"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113153624-pu3xppp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113153624-pu3xppp"
+					},
+					"Children": [
+						{
+							"ID": "20220113153624-sbhhtpp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113153624-sbhhtpp"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "子类的构造方法隐式的调用父类的不带参数的构造方法"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113153624-qqgopes",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113153624-qqgopes"
+					},
+					"Children": [
+						{
+							"ID": "20220113153624-0mawne2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113153624-0mawne2"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当父类没有不带参数的构造方法时。子类需要使用super来显式地调用父类的构造方法，super指的是对父类的引用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113153624-a2xu2xg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113153624-a2xu2xg"
+					},
+					"Children": [
+						{
+							"ID": "20220113153624-tbbrj02",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113153624-tbbrj02"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "super 关键字必须是构造方法中的第一行语句。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113153651-b8jf6zn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113153651-b8jf6zn",
+				"updated": "20220113153651"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、封装"
+				}
+			]
+		},
+		{
+			"ID": "20220113153651-fwjdo07",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220113153651-fwjdo07",
+				"updated": "20220113153714"
+			},
+			"Children": [
+				{
+					"ID": "20220113153651-qgdbsi3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113153651-qgdbsi3",
+						"updated": "20220113153714"
+					},
+					"Children": [
+						{
+							"ID": "20220113153651-b89ms95",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113153651-b89ms95"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "封装是指把一个对象的状态信息（也就是属性）隐藏在对象内部，不允许外部对象直接访问对象的内部信息。"
+								}
+							]
+						},
+						{
+							"ID": "20220113153704-0ytcp1m",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220113153704-0ytcp1m",
+								"updated": "20220113153714"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "private int id;//id属性私有化 \nprivate String name;//name属性私有化\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113153651-0yl3c34",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220113153651-0yl3c34",
+				"updated": "20220113153651"
+			}
+		},
+		{
+			"ID": "20220113153651-8z6qtxz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113153651-8z6qtxz",
+				"updated": "20220113153651"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、多态：解耦"
+				}
+			]
+		},
+		{
+			"ID": "20220113153651-h3la150",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220113153651-h3la150",
+				"updated": "20220113153651"
+			},
+			"Children": [
+				{
+					"ID": "20220113153651-nrs9v6p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113153651-nrs9v6p"
+					},
+					"Children": [
+						{
+							"ID": "20220113153651-zkz09wd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113153651-zkz09wd"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "父类型的引用可以指向子类型的对象，或者接口类型的引用可以指向实现该接口的类的实例。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113153651-ef0ha17",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113153651-ef0ha17",
+				"updated": "20220113153651"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "多态的特点:"
+				}
+			]
+		},
+		{
+			"ID": "20220113153651-afxhwug",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220113153651-afxhwug",
+				"updated": "20220113153651"
+			},
+			"Children": [
+				{
+					"ID": "20220113153651-8qsrhvx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113153651-8qsrhvx"
+					},
+					"Children": [
+						{
+							"ID": "20220113153651-42w6cxb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113153651-42w6cxb"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对象类型和引用类型之间具有继承（类）/实现（接口）的关系；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113153651-ygntafa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113153651-ygntafa"
+					},
+					"Children": [
+						{
+							"ID": "20220113153651-44of945",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113153651-44of945"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "引用类型变量发出的方法调用的到底是哪个类中的方法，必须在程序运行期间才能确定；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113153651-obqb0wa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113153651-obqb0wa"
+					},
+					"Children": [
+						{
+							"ID": "20220113153651-xtrsme2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113153651-xtrsme2"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "多态不能调用“只在子类存在但在父类不存在”的方法；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113153651-r056aj1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113153651-r056aj1"
+					},
+					"Children": [
+						{
+							"ID": "20220113153651-ocr4ozv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113153651-ocr4ozv"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果子类重写了父类的方法，真正执行的是子类覆盖的方法，如果子类没有覆盖父类的方法，执行的是父类的方法。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
