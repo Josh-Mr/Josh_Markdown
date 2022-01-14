@@ -62,24 +62,28 @@
     "codeLineWrap": true,
     "codeLigatures": false,
     "displayBookmarkIcon": true,
-    "displayNetImgMark": false,
+    "displayNetImgMark": true,
     "generateHistoryInterval": 5,
     "historyRetentionDays": 30,
     "emoji": [
-      "1f5d2",
       "1f4d2",
-      "1f4d9",
+      "1f4a1",
+      "1f3d8",
+      "1f9d1-200d-1f4bb",
+      "1f4d3",
+      "1fa9f",
       "1f4dd",
       "1f527",
+      "1f4d4",
+      "1f5d2",
+      "1f4d9",
       "1f4c4",
       "1f4c2",
-      "1f4d4",
       "1f4c1",
       "1f4c3",
       "2b50",
       "2705",
       "1f601",
-      "1f4d3",
       "1f3e0",
       "1f9d1-200d-1f52c",
       "1f600",
@@ -156,7 +160,7 @@
   },
   "uiLayout": {
     "bottom": [],
-    "hideDock": false,
+    "hideDock": true,
     "layout": {
   "children": [
   {
@@ -201,20 +205,124 @@
     "children": [
   {
     "children": {
-  "blockId": "20220113230452-b494dvk",
+  "blockId": "20220114152042-1ihqy3v",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "Java_圣思园"
+    "title": "日记"
+  },
+  {
+    "children": {
+  "blockId": "20220114145346-3lkn1u6",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "20220114145346"
+  },
+  {
+    "children": {
+  "blockId": "20220114153600-ycunldn",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Eclipse"
+  },
+  {
+    "children": {
+  "blockId": "20220114160225-ts20lre",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Git"
+  },
+  {
+    "children": {
+  "blockId": "20220114160240-dilmnsa",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "IDEA"
+  },
+  {
+    "children": {
+  "blockId": "20220114160256-36xmvr7",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Maven"
+  },
+  {
+    "children": {
+  "blockId": "20220114160317-tbmwhf6",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "SVN"
+  },
+  {
+    "children": {
+  "blockId": "20220114160614-hup3z8b",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "TPS和用户并发数的关系"
+  },
+  {
+    "children": {
+  "blockId": "20220114160631-7pfq00q",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "关于TPS、QPS和系统的吞吐量理解"
+  },
+  {
+    "children": {
+  "blockId": "20220114160903-qb9c9vc",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Eclipse_快捷键"
+  },
+  {
+    "children": {
+  "blockId": "20220114160931-sjz9n8n",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Eclipse_中文对比学习"
+  },
+  {
+    "children": {
+  "blockId": "20220114161057-1g35uxg",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Git_GitHub\u0026Gitlab区别与联系"
+  },
+  {
+    "children": {
+  "blockId": "20220114161115-5uv29ij",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Git_Terminal的基本使用"
   },
   {
     "active": true,
     "children": {
-  "blockId": "20220113230857-1k8gv13",
+  "blockId": "20220114161238-rtu076v",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "Java SE 第四讲"
+    "title": "Git_分支管理"
+  },
+  {
+    "children": {
+  "blockId": "20220114161542-rwso323",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Git_日常问题记录"
   }
 ],
     "height": "",
@@ -355,7 +463,7 @@
   "localServeURL": "http://127.0.0.1:6806",
   "accessAuthCode": "",
   "e2eePasswd": "",
-  "checkUpdate": 0,
+  "checkUpdate": 1,
   "system": {
     "kernelVersion": "1.6.3",
     "os": "windows",
@@ -758,7 +866,7 @@
     "blockquote": true,
     "superBlock": true,
     "paragraph": true,
-    "limit": 50,
+    "limit": 32,
     "caseSensitive": false,
     "name": true,
     "alias": true,
@@ -772,7 +880,7 @@
     "virtualRefDoc": false
   },
   "stat": {
-    "docCount": 205
+    "docCount": 221
   },
   "api": {
     "token": "9lg6z7f4ub34blui"

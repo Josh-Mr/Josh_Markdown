@@ -1,0 +1,20 @@
+{
+	"ID": "20220114160240-dilmnsa",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4d2",
+		"id": "20220114160240-dilmnsa",
+		"title": "IDEA",
+		"updated": "20220114160254"
+	},
+	"Children": [
+		{
+			"ID": "20220114160240-jnerb21",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114160240-jnerb21",
+				"updated": "20220114160240"
+			}
+		}
+	]
+}

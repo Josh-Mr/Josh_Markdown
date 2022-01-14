@@ -1,0 +1,19 @@
+{
+	"ID": "20220114152042-q1v4gnq",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220114152042-q1v4gnq",
+		"title": "2022-01-14",
+		"updated": "20220114152240"
+	},
+	"Children": [
+		{
+			"ID": "20220114152240-f94r0rw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114152240-f94r0rw",
+				"updated": "20220114152240"
+			}
+		}
+	]
+}

@@ -1,0 +1,1326 @@
+{
+	"ID": "20220114161115-5uv29ij",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220114161115-5uv29ij",
+		"title": "Git之Terminal的基本使用",
+		"updated": "20220114161256"
+	},
+	"Children": [
+		{
+			"ID": "20220114161117-nmnhtwe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114161117-nmnhtwe",
+				"updated": "20220114161117"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、查看配置信息"
+				}
+			]
+		},
+		{
+			"ID": "20220114161117-hypxr7u",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220114161117-hypxr7u",
+				"updated": "20220114161117"
+			},
+			"Children": [
+				{
+					"ID": "20220114161117-4a6f06s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-4a6f06s"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-dkzz1yr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-dkzz1yr"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安装目录：I:\\Program Files\\Git\\bin"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-wqqaj7q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-wqqaj7q"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-an6azf8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-an6azf8"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看目前配置的所以信息"
+								}
+							]
+						},
+						{
+							"ID": "20220114161117-70n9iw0",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220114161117-70n9iw0"
+							},
+							"Children": [
+								{
+									"ID": "20220114161117-kwrhfmd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220114161117-kwrhfmd"
+									},
+									"Children": [
+										{
+											"ID": "20220114161117-z93bxyb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220114161117-z93bxyb"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "git config --list"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-mhc9brs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-mhc9brs"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-npge555",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-npge555"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看当前配置用户"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-a6jpwsv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-a6jpwsv"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-4ggn6pn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-4ggn6pn"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "git config user.name"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-l8x2krw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-l8x2krw"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-5n7ls10",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-5n7ls10"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看当前配置邮箱"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-65q8ol0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-65q8ol0"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-f3gldu5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-f3gldu5"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "git config user.email"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220114161117-fawb83y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114161117-fawb83y",
+				"updated": "20220114161117"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、Git工作流程"
+				}
+			]
+		},
+		{
+			"ID": "20220114161117-gstkw06",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114161117-gstkw06",
+				"updated": "20220114161117"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    "
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(86)-20220114161117-p6g94u1.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220114161117-fh0yh84",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114161117-fh0yh84",
+				"updated": "20220114161117"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、Git之创建仓库"
+				}
+			]
+		},
+		{
+			"ID": "20220114161117-oaeuoom",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220114161117-oaeuoom",
+				"updated": "20220114161117"
+			},
+			"Children": [
+				{
+					"ID": "20220114161117-l9x4cmy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-l9x4cmy"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-pzeco02",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-pzeco02"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "初始化仓库(生成.git目录)"
+								}
+							]
+						},
+						{
+							"ID": "20220114161117-x88h6li",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220114161117-x88h6li"
+							},
+							"Children": [
+								{
+									"ID": "20220114161117-rdqz8pf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220114161117-rdqz8pf"
+									},
+									"Children": [
+										{
+											"ID": "20220114161117-rvie2v7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220114161117-rvie2v7"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "git init [src（指定初始化目录）]"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-ld5i8o9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-ld5i8o9"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-inaay53",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-inaay53"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "添加到仓库"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-0i25jfm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-0i25jfm"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-6n6vfwg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-6n6vfwg"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "git add \u003cfile\u003e"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-csphjuc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-csphjuc"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-7662u0r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-7662u0r"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "提交到仓库"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-g2b89bl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-g2b89bl"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-m90wzp5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-m90wzp5"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "git commit -m \"commitMessage\"  \u003cfile\u003e"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-vajn4no",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-vajn4no"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-qzawmpx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-qzawmpx"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看文件状态"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-v5rry9p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-v5rry9p"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-cdqjjvu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-cdqjjvu"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "git status"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-00pgf8u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-00pgf8u"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-h57m8lg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-h57m8lg"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "获取历史版本"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-e79af7x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-e79af7x"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-vgc9yfg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-vgc9yfg"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "git reset --hard commit_id"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-jfolm7a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-jfolm7a"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-wck0yco",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-wck0yco"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看提交历史日志"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-cwk81lj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-cwk81lj"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-nb8zeua",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-nb8zeua"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "git log \u003cfile\u003e"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-hq3b5e4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-hq3b5e4"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-szzwo6l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-szzwo6l"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "简化显示：git log --pretty=oneline"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-ys2lrxl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-ys2lrxl",
+						"updated": "20220114161117"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-hkdoqu5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-hkdoqu5",
+								"updated": "20220114161117"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看命令历史"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-sk8v3ul",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-sk8v3ul"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-4glbsxf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-4glbsxf"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "git reflog"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220114161117-2l873g9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114161117-2l873g9",
+				"updated": "20220114161117"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四、版本退回"
+				}
+			]
+		},
+		{
+			"ID": "20220114161117-cuy2iw1",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220114161117-cuy2iw1",
+				"updated": "20220114161117"
+			},
+			"Children": [
+				{
+					"ID": "20220114161117-lj0u4xa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-lj0u4xa"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-myh4fll",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-myh4fll"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从版本区退回到暂存和工作区："
+								}
+							]
+						},
+						{
+							"ID": "20220114161117-bpzual3",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220114161117-bpzual3"
+							},
+							"Children": [
+								{
+									"ID": "20220114161117-za3zqr4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220114161117-za3zqr4"
+									},
+									"Children": [
+										{
+											"ID": "20220114161117-drxi8za",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220114161117-drxi8za"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "git reset  --hard [commit id 版本号]"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-324getn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-324getn"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-8i1p3wo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-8i1p3wo"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从暂存区退回工作区"
+								}
+							]
+						},
+						{
+							"ID": "20220114161205-i0pne6x",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220114161205-i0pne6x"
+							},
+							"Children": [
+								{
+									"ID": "20220114161117-4c4w9zu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220114161117-4c4w9zu"
+									},
+									"Children": [
+										{
+											"ID": "20220114161117-x1t7ugk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220114161117-x1t7ugk"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "git reset HEAD \u003cfile\u003e"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-fecoo2w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-fecoo2w"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-iv22qgk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-iv22qgk"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从工作区退回工作区"
+								}
+							]
+						},
+						{
+							"ID": "20220114161207-qmnwnyt",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220114161207-qmnwnyt"
+							},
+							"Children": [
+								{
+									"ID": "20220114161117-y794ld8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220114161117-y794ld8"
+									},
+									"Children": [
+										{
+											"ID": "20220114161117-7k0sjr2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220114161117-7k0sjr2"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "git checkout -- \u003cfile\u003e"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220114161117-mlu4xez",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114161117-mlu4xez",
+				"updated": "20220114161117"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "五、修改管理"
+				}
+			]
+		},
+		{
+			"ID": "20220114161117-xd2q6qy",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220114161117-xd2q6qy",
+				"updated": "20220114161117"
+			},
+			"Children": [
+				{
+					"ID": "20220114161117-aiqfsis",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-aiqfsis"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-jjtediw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-jjtediw"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对比工作区和暂存区的差别"
+								}
+							]
+						},
+						{
+							"ID": "20220114161117-nb1xxz4",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220114161117-nb1xxz4"
+							},
+							"Children": [
+								{
+									"ID": "20220114161117-hf2739t",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220114161117-hf2739t"
+									},
+									"Children": [
+										{
+											"ID": "20220114161117-gfr2cgr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220114161117-gfr2cgr"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "git diff -- \u003cfile\u003e"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-4244qer",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-4244qer"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-bzitqaj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-bzitqaj"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对比工作区和版本区最新版本的差异"
+								}
+							]
+						},
+						{
+							"ID": "20220114161208-zvfqhlv",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220114161208-zvfqhlv"
+							},
+							"Children": [
+								{
+									"ID": "20220114161117-1ht2mcb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220114161117-1ht2mcb"
+									},
+									"Children": [
+										{
+											"ID": "20220114161117-dr6poio",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220114161117-dr6poio"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "git diff HEAD -- \u003cfile\u003e"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-imjmi6o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-imjmi6o"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-s3lf2zp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-s3lf2zp"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对比暂存区和版本区最新的差异"
+								}
+							]
+						},
+						{
+							"ID": "20220114161209-qpn8aj0",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220114161209-qpn8aj0"
+							},
+							"Children": [
+								{
+									"ID": "20220114161117-mb2elil",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220114161117-mb2elil"
+									},
+									"Children": [
+										{
+											"ID": "20220114161117-3acycbh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220114161117-3acycbh"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "git diff --cached \u003cfile\u003e"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220114161117-r8mhvh2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114161117-r8mhvh2",
+				"updated": "20220114161117"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "六、删除文件\u0026恢复"
+				}
+			]
+		},
+		{
+			"ID": "20220114161117-wq6o4gl",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220114161117-wq6o4gl",
+				"updated": "20220114161117"
+			},
+			"Children": [
+				{
+					"ID": "20220114161117-tp8eq9j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-tp8eq9j"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-ira2u1i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-ira2u1i"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "删除版本区的文件"
+								}
+							]
+						},
+						{
+							"ID": "20220114161117-4c3gi0j",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220114161117-4c3gi0j"
+							},
+							"Children": [
+								{
+									"ID": "20220114161117-jmr8z75",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220114161117-jmr8z75"
+									},
+									"Children": [
+										{
+											"ID": "20220114161117-bi5sr0i",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220114161117-bi5sr0i"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "git  rm \u003cfile\u003e 然后  git commit -m “Mes”\u003cfile\u003e"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-eccq8vn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-eccq8vn"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-6e9ovxm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-6e9ovxm"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "删除后恢复（一定要有提交过才可以恢复）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161117-vui34r1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161117-vui34r1"
+					},
+					"Children": [
+						{
+							"ID": "20220114161117-tynxsdi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161117-tynxsdi"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "参考版本退回"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220114161123-gntmjs7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220114161123-gntmjs7",
+				"updated": "20220114161156"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git rm -r --cached datax-web-ui/\n\n\n\n在github上只能删除仓库,却无法删除文件夹或文件, 所以只能通过命令来解决\n首先进入你的master文件夹下, Git Bash Here ,打开命令窗口\n$ git --help                                      # 帮助命令\n$ git pull origin master                    # 将远程仓库里面的项目拉下来\n$ dir                                                # 查看有哪些文件夹\n\n$ git rm -r --cached .idea              # 删除.idea文件夹\n$ git commit -m '删除.idea'        # 提交,添加操作说明\n\n初次关联远程仓库以后用\n将会关联到远程的master 分支上，以后就可以git push不指定参数了\n$ git push -u origin master               # 将本次更改更新到github项目上去\n\n\n\n设置远程仓库：\ngit remote set-url origin XXXXXXXXXXXXXXX\n\n查看远程仓库\ngit remote -V\n\n合并分支\n在master分支上，将develop分支合并到master上面\ngit merge develop\n如果不行，使用命令\ngit merge develop --allow-unrelated-histories\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

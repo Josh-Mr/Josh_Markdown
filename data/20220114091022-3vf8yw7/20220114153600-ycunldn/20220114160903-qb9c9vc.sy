@@ -1,0 +1,165 @@
+{
+	"ID": "20220114160903-qb9c9vc",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220114160903-qb9c9vc",
+		"title": "Eclipse_快捷键",
+		"updated": "20220114161009"
+	},
+	"Children": [
+		{
+			"ID": "20220114160905-e0oo9r7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114160905-e0oo9r7",
+				"updated": "20220114160909"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "搜索快捷键"
+				}
+			]
+		},
+		{
+			"ID": "20220114160905-h7q3vt6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114160905-h7q3vt6",
+				"updated": "20220114160905"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CTRL + M  显示最大化"
+				}
+			]
+		},
+		{
+			"ID": "20220114160905-nlean1d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114160905-nlean1d",
+				"updated": "20220114160905"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CTRL + O  快速OUTLINE"
+				}
+			]
+		},
+		{
+			"ID": "20220114160905-td4boh2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114160905-td4boh2",
+				"updated": "20220114160905"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CTRL + T   显示树形结构"
+				}
+			]
+		},
+		{
+			"ID": "20220114160905-tpctj9e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114160905-tpctj9e",
+				"updated": "20220114160905"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CTRL + E   快速转换编辑器"
+				}
+			]
+		},
+		{
+			"ID": "20220114160905-2swfnus",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114160905-2swfnus",
+				"updated": "20220114160905"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CTRL + SHIFT+O  导包"
+				}
+			]
+		},
+		{
+			"ID": "20220114160905-jxqwxxp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114160905-jxqwxxp",
+				"updated": "20220114160905"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CTRL + SHIFT + X 所选择的变更为大写"
+				}
+			]
+		},
+		{
+			"ID": "20220114160905-yl9s4v5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114160905-yl9s4v5",
+				"updated": "20220114160905"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CTRL + SHIFT + Y 所选择的变更为小写"
+				}
+			]
+		},
+		{
+			"ID": "20220114160905-2o5n3e8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114160905-2o5n3e8",
+				"updated": "20220114160905"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CTRL + SHIFT + R   打开资源"
+				}
+			]
+		},
+		{
+			"ID": "20220114160905-gagj0yt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114160905-gagj0yt",
+				"updated": "20220114160905"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ALT + SHIFT + R：重命名"
+				}
+			]
+		},
+		{
+			"ID": "20220114160905-quiknyd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114160905-quiknyd",
+				"updated": "20220114160905"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ALT + SHIFT + L 以及ALT + SHIFT +M：提取本地变量及方法"
+				}
+			]
+		}
+	]
+}

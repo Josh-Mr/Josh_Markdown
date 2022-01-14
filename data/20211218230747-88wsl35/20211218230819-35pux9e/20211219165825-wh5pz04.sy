@@ -5,7 +5,7 @@
 		"icon": "1f4dd",
 		"id": "20211219165825-wh5pz04",
 		"title": "Mybatis_JavaAPI",
-		"updated": "20211219174135"
+		"updated": "20220114004245"
 	},
 	"Children": [
 		{
@@ -2594,32 +2594,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20211219165827-ggu1yfa",
-				"updated": "20211219165827"
+				"updated": "20220114004245"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "你可以传递多个参数给一个映射器方法。在多个参数的情况下，默认它们将会以 param 加上它们在参数列表中的位置来命名，比如："
-				},
-				{
-					"Type": "NodeTag",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeTagOpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "{param1}、"
-						},
-						{
-							"Type": "NodeTagCloseMarker"
-						}
-					]
-				},
-				{
-					"Type": "NodeText",
-					"Data": "{param2}等。如果你想（在有多个参数时）自定义参数的名称，那么你可以在参数上使用 @Param(\"paramName\") 注解。"
+					"Data": "你可以传递多个参数给一个映射器方法。在多个参数的情况下，默认它们将会以 param 加上它们在参数列表中的位置来命名，比如：{param1}、{param2}等。如果你想（在有多个参数时）自定义参数的名称，那么你可以在参数上使用 @Param(\"paramName\") 注解。"
 				}
 			]
 		},

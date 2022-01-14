@@ -1,0 +1,301 @@
+{
+	"ID": "20220114160614-hup3z8b",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220114160614-hup3z8b",
+		"title": "TPS和用户并发数的关系",
+		"updated": "20220114160620"
+	},
+	"Children": [
+		{
+			"ID": "20220114160620-6ifn7r3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220114160620-6ifn7r3",
+				"updated": "20220114160620"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "理解："
+				}
+			]
+		},
+		{
+			"ID": "20220114160620-o1bfs9t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114160620-o1bfs9t",
+				"updated": "20220114160620"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Ø  系统的性能由TPS决定，跟并发用户数没有多大关系。在同样的TPS下，可以由不同的用户数去压（通过加思考时间设置）。"
+				}
+			]
+		},
+		{
+			"ID": "20220114160620-g7jld33",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114160620-g7jld33",
+				"updated": "20220114160620"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Ø  系统的最大TPS是一定的（在一个范围内），但并发用户数不一定，可以调整。"
+				}
+			]
+		},
+		{
+			"ID": "20220114160620-2jgzy9j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114160620-2jgzy9j",
+				"updated": "20220114160620"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Ø  建议性能测试的时候，不要设置过长的思考时间，以最坏的情况下对服务器施压。"
+				}
+			]
+		},
+		{
+			"ID": "20220114160620-ijx64ec",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114160620-ijx64ec",
+				"updated": "20220114160620"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Ø  一般情况下，大型系统（业务量大、机器多）做压力测试，5000个用户并发就够了，中小型系统做压力测试，1000个用户并发就足够了。"
+				}
+			]
+		},
+		{
+			"ID": "20220114160620-4m698t3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220114160620-4m698t3",
+				"updated": "20220114160620"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "性能测试中如何确定并发用户数"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "http://www.codeceo.com/article/performance-bingfa-users.html"
+						},
+						{
+							"Type": "NodeLinkSpace"
+						},
+						{
+							"Type": "NodeLinkTitle",
+							"Data": "性能测试中如何确定并发用户数 - 码农网"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220114160620-zx0ylec",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220114160620-zx0ylec",
+				"updated": "20220114160620"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220114160620-wu6xo10",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220114160620-wu6xo10"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "并发用户数：是指现实系统中操作业务的用户，在性能测试工具中，一般称为虚拟用户数(Virutal User)。"
+						}
+					]
+				},
+				{
+					"ID": "20220114160620-ykmyl63",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220114160620-ykmyl63"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "并发用户数和注册用户数、在线用户数的概念不同，"
+						}
+					]
+				},
+				{
+					"ID": "20220114160620-49qx81d",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220114160620-49qx81d"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "并发用户数一定会对服务器产生压力的，"
+						}
+					]
+				},
+				{
+					"ID": "20220114160620-fk7r50g",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220114160620-fk7r50g"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "而在线用户数只是 ”挂” 在系统上，对服务器不产生压力，"
+						}
+					]
+				},
+				{
+					"ID": "20220114160620-facrtde",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220114160620-facrtde"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "注册用户数一般指的是数据库中存在的用户数。"
+						}
+					]
+				},
+				{
+					"ID": "20220114160620-ng4xbuf",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220114160620-ng4xbuf"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "TPS：Transaction Per Second, 每秒事务数, 是衡量系统性能的一个非常重要的指标。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220114160620-3hq5m81",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114160620-3hq5m81",
+				"updated": "20220114160620"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        作者认为现在很多从业人员在做性能测试时，都错误的认为系统能支撑的并发用户数越多，系统的性能就越好。要理解这个问题，"
+				}
+			]
+		},
+		{
+			"ID": "20220114160620-dmranrp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114160620-dmranrp",
+				"updated": "20220114160620"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        首先需要了解TPS和并发用户数之间的关系："
+				}
+			]
+		},
+		{
+			"ID": "20220114160620-txn4vhv",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220114160620-txn4vhv",
+				"updated": "20220114160620"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220114160620-45b7s1f",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220114160620-45b7s1f"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "TPS就是每秒事务数，但是事务是基于虚拟用户数的，假如1个虚拟用户在1秒内完成1笔事务，那么TPS明显就是1；如果 某笔业务响应时间是1ms,那么1个用户在1秒内能完成1000笔事务，TPS就是1000了；如果某笔业务响应时间是1s,那么1个用户在1秒内只能完 成1笔事务，要想达到1000TPS，至少需要1000个用户；因此可以说1个用户可以产生1000TPS，1000个用户也可以产生1000TPS，无 非是看响应时间快慢。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220114160620-gp0zif4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114160620-gp0zif4",
+				"updated": "20220114160620"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "也就是说，在评定服务器的性能时，应该结合TPS和并发用户数，以TPS为主，并发用户数为辅来衡量系统的性能。如果必须要用并发用户数来衡量的 话，需要一个前提，那就是交易在多长时间内完成，因为在系统负载不高的情况下，将思考时间(思考时间的值等于交易响应时间)加到脚本中，并发用户数基本可 以增加一倍，因此用并发用户数来衡量系统的性能没太大的意义。"
+				}
+			]
+		},
+		{
+			"ID": "20220114160620-vkudywx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114160620-vkudywx",
+				"updated": "20220114160620"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "作者最后做了综述，他认为在性能测试时并不需要用上万的用户并发去进行测试，如果只需要保证系统处理业务时间足够快，几百个用户甚至几十个用户就可 以达到目的。据他了解，很多专家做过的性能测试项目基本都没有超过5000用户并发。因此对于大型系统、业务量非常高、硬件配置足够多的情况下，5000 用户并发就足够了；对于中小型系统，1000用户并发就足够了。"
+				}
+			]
+		}
+	]
+}

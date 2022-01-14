@@ -1,0 +1,726 @@
+{
+	"ID": "20220114161057-1g35uxg",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220114161057-1g35uxg",
+		"title": "Git\u0026amp;GitHub\u0026amp;Gitlab区别与联系",
+		"updated": "20220114161106"
+	},
+	"Children": [
+		{
+			"ID": "20220114161058-hxyepwb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114161058-hxyepwb",
+				"updated": "20220114161058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、什么是Git？"
+				}
+			]
+		},
+		{
+			"ID": "20220114161058-yuxajam",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220114161058-yuxajam",
+				"updated": "20220114161058"
+			},
+			"Children": [
+				{
+					"ID": "20220114161058-k8vcc6z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161058-k8vcc6z"
+					},
+					"Children": [
+						{
+							"ID": "20220114161058-e7do03u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161058-e7do03u"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Git是一个版本控制系统（Version Control System VCS）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161058-fb1deyf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161058-fb1deyf"
+					},
+					"Children": [
+						{
+							"ID": "20220114161058-ksncigc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161058-ksncigc"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "版本系统是记录一个或者多个文件内容的变化。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161058-pflgdgw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161058-pflgdgw"
+					},
+					"Children": [
+						{
+							"ID": "20220114161058-ryob4wm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161058-ryob4wm"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "早期出现的VCS："
+								}
+							]
+						},
+						{
+							"ID": "20220114161058-fn84u4y",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220114161058-fn84u4y"
+							},
+							"Children": [
+								{
+									"ID": "20220114161058-qff4isv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220114161058-qff4isv"
+									},
+									"Children": [
+										{
+											"ID": "20220114161058-aeus3i6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220114161058-aeus3i6"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "SVN \u0026 CVS："
+												}
+											]
+										},
+										{
+											"ID": "20220114161058-yjs00v9",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220114161058-yjs00v9"
+											},
+											"Children": [
+												{
+													"ID": "20220114161058-638maob",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220114161058-638maob"
+													},
+													"Children": [
+														{
+															"ID": "20220114161058-5oab8no",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220114161058-5oab8no"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "集中式版本控制系统；都有单一的集中管理的服务器，保存的所有文件的修订版。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220114161058-caa3f7i",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220114161058-caa3f7i"
+													},
+													"Children": [
+														{
+															"ID": "20220114161058-14qp183",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220114161058-14qp183"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "如图："
+																},
+																{
+																	"Type": "NodeImage",
+																	"Data": "span",
+																	"Children": [
+																		{
+																			"Type": "NodeBang"
+																		},
+																		{
+																			"Type": "NodeOpenBracket"
+																		},
+																		{
+																			"Type": "NodeLinkText"
+																		},
+																		{
+																			"Type": "NodeCloseBracket"
+																		},
+																		{
+																			"Type": "NodeOpenParen"
+																		},
+																		{
+																			"Type": "NodeLinkDest",
+																			"Data": "assets/Image(84)-20220114161058-mzbwamh.png"
+																		},
+																		{
+																			"Type": "NodeCloseParen"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeImage",
+																	"Data": "span",
+																	"Children": [
+																		{
+																			"Type": "NodeBang"
+																		},
+																		{
+																			"Type": "NodeOpenBracket"
+																		},
+																		{
+																			"Type": "NodeLinkText"
+																		},
+																		{
+																			"Type": "NodeCloseBracket"
+																		},
+																		{
+																			"Type": "NodeOpenParen"
+																		},
+																		{
+																			"Type": "NodeLinkDest"
+																		},
+																		{
+																			"Type": "NodeCloseParen"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220114161058-kpgwami",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220114161058-kpgwami"
+													},
+													"Children": [
+														{
+															"ID": "20220114161058-11yl40g",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220114161058-11yl40g"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "而Git是分布式版本控制系统。如图:"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220114161058-ke3tde0",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220114161058-ke3tde0"
+													},
+													"Children": [
+														{
+															"ID": "20220114161058-3vetsxf",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220114161058-3vetsxf"
+															},
+															"Children": [
+																{
+																	"Type": "NodeImage",
+																	"Data": "span",
+																	"Children": [
+																		{
+																			"Type": "NodeBang"
+																		},
+																		{
+																			"Type": "NodeOpenBracket"
+																		},
+																		{
+																			"Type": "NodeLinkText"
+																		},
+																		{
+																			"Type": "NodeCloseBracket"
+																		},
+																		{
+																			"Type": "NodeOpenParen"
+																		},
+																		{
+																			"Type": "NodeLinkDest",
+																			"Data": "assets/Image(85)-20220114161058-x31h1yt.png"
+																		},
+																		{
+																			"Type": "NodeCloseParen"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeImage",
+																	"Data": "span",
+																	"Children": [
+																		{
+																			"Type": "NodeBang"
+																		},
+																		{
+																			"Type": "NodeOpenBracket"
+																		},
+																		{
+																			"Type": "NodeLinkText"
+																		},
+																		{
+																			"Type": "NodeCloseBracket"
+																		},
+																		{
+																			"Type": "NodeOpenParen"
+																		},
+																		{
+																			"Type": "NodeLinkDest"
+																		},
+																		{
+																			"Type": "NodeCloseParen"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220114161058-ujijron",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114161058-ujijron",
+				"updated": "20220114161058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、集中式版本控制和分布式版本控制系统"
+				}
+			]
+		},
+		{
+			"ID": "20220114161058-hvsc8dn",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220114161058-hvsc8dn",
+				"updated": "20220114161058"
+			},
+			"Children": [
+				{
+					"ID": "20220114161058-uemvqcb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161058-uemvqcb"
+					},
+					"Children": [
+						{
+							"ID": "20220114161058-or0657t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161058-or0657t"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "集中式："
+								}
+							]
+						},
+						{
+							"ID": "20220114161058-vbglwsd",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220114161058-vbglwsd"
+							},
+							"Children": [
+								{
+									"ID": "20220114161058-xh2b5ec",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220114161058-xh2b5ec"
+									},
+									"Children": [
+										{
+											"ID": "20220114161058-687fuif",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220114161058-687fuif"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "需要联网工作"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220114161058-hofqpmn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220114161058-hofqpmn"
+									},
+									"Children": [
+										{
+											"ID": "20220114161058-cyigcjh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220114161058-cyigcjh"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "历史仓库是存在中央仓库，每次提交代码都要连接中央仓库。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161058-fkb7kga",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161058-fkb7kga"
+					},
+					"Children": [
+						{
+							"ID": "20220114161058-ve12so8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161058-ve12so8"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分布式："
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161058-7fcd1xm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161058-7fcd1xm"
+					},
+					"Children": [
+						{
+							"ID": "20220114161058-jicn9u8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161058-jicn9u8"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "没有中央服务器概念"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161058-51cdg04",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161058-51cdg04"
+					},
+					"Children": [
+						{
+							"ID": "20220114161058-0u4q4rc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161058-0u4q4rc"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "每个人电脑都是一个完整的版本库。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161058-uv2tmzp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161058-uv2tmzp"
+					},
+					"Children": [
+						{
+							"ID": "20220114161058-sv972m6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161058-sv972m6"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "无需网络可以提交本地版本库。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220114161058-fnn52yc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114161058-fnn52yc",
+				"updated": "20220114161058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、Github和Gitlab区别"
+				}
+			]
+		},
+		{
+			"ID": "20220114161058-4sygrlm",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220114161058-4sygrlm",
+				"updated": "20220114161058"
+			},
+			"Children": [
+				{
+					"ID": "20220114161058-9ns29hz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161058-9ns29hz"
+					},
+					"Children": [
+						{
+							"ID": "20220114161058-v5bvuhb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161058-v5bvuhb"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Github："
+								}
+							]
+						},
+						{
+							"ID": "20220114161058-qfny5wj",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220114161058-qfny5wj"
+							},
+							"Children": [
+								{
+									"ID": "20220114161058-y5z5w0s",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220114161058-y5z5w0s"
+									},
+									"Children": [
+										{
+											"ID": "20220114161058-4w64dpn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220114161058-4w64dpn"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "开源代码托管平台，提供了公共仓库和私有仓库。私有的收费。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161058-0euredo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161058-0euredo"
+					},
+					"Children": [
+						{
+							"ID": "20220114161058-o9n96ft",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161058-o9n96ft"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Gitlab："
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220114161058-hcnr8fw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220114161058-hcnr8fw"
+					},
+					"Children": [
+						{
+							"ID": "20220114161058-lxtfe0l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220114161058-lxtfe0l"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "和Github类似，私服免费的，还增加其他特点。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
