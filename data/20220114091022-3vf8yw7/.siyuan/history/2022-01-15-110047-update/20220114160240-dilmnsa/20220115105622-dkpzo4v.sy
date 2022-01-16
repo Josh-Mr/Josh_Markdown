@@ -1,0 +1,2185 @@
+{
+	"ID": "20220115105622-dkpzo4v",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220115105622-dkpzo4v",
+		"title": "IDEA_Github的基本使用",
+		"updated": "20220115105648"
+	},
+	"Children": [
+		{
+			"ID": "20220115105648-d97z279",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220115105648-d97z279",
+				"updated": "20220115105648"
+			},
+			"Children": [
+				{
+					"ID": "20220115105648-ocawwla",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220115105648-ocawwla"
+					},
+					"Children": [
+						{
+							"ID": "20220115105648-ip19z9w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220115105648-ip19z9w"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "导航栏"
+								}
+							]
+						},
+						{
+							"ID": "20220115105648-59h8ed1",
+							"Type": "NodeThematicBreak",
+							"Properties": {
+								"id": "20220115105648-59h8ed1"
+							}
+						},
+						{
+							"ID": "20220115105648-zfytgzn",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220115105648-zfytgzn"
+							},
+							"Children": [
+								{
+									"ID": "20220115105648-u5u9eh0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-u5u9eh0"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-5d4rjn4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-5d4rjn4"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "从Git仓库检出项目"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-knzbvhd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-knzbvhd"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-n3ijmz5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-n3ijmz5"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "更新目录、解决冲突"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-gole2in",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-gole2in"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-kwzb9h0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-kwzb9h0"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "项目上传到Github"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220115105648-527kh3l",
+							"Type": "NodeThematicBreak",
+							"Properties": {
+								"id": "20220115105648-527kh3l"
+							}
+						},
+						{
+							"ID": "20220115105648-v0668bx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220115105648-v0668bx"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一、从Git仓库检出项目"
+								}
+							]
+						},
+						{
+							"ID": "20220115105648-exh0rn8",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220115105648-exh0rn8"
+							},
+							"Children": [
+								{
+									"ID": "20220115105648-3crxrya",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-3crxrya"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-zrgzpx4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-zrgzpx4"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "检出版本控制-Git"
+												}
+											]
+										},
+										{
+											"ID": "20220115105648-qsrcg8a",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220115105648-qsrcg8a"
+											},
+											"Children": [
+												{
+													"ID": "20220115105648-lf0c3mh",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220115105648-lf0c3mh"
+													},
+													"Children": [
+														{
+															"ID": "20220115105648-680cu2e",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220115105648-680cu2e"
+															},
+															"Children": [
+																{
+																	"Type": "NodeImage",
+																	"Data": "span",
+																	"Children": [
+																		{
+																			"Type": "NodeBang"
+																		},
+																		{
+																			"Type": "NodeOpenBracket"
+																		},
+																		{
+																			"Type": "NodeLinkText"
+																		},
+																		{
+																			"Type": "NodeCloseBracket"
+																		},
+																		{
+																			"Type": "NodeOpenParen"
+																		},
+																		{
+																			"Type": "NodeLinkDest",
+																			"Data": "assets/Image(90)-20220115105648-5wrrugq.png"
+																		},
+																		{
+																			"Type": "NodeCloseParen"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeImage",
+																	"Data": "span",
+																	"Children": [
+																		{
+																			"Type": "NodeBang"
+																		},
+																		{
+																			"Type": "NodeOpenBracket"
+																		},
+																		{
+																			"Type": "NodeLinkText"
+																		},
+																		{
+																			"Type": "NodeCloseBracket"
+																		},
+																		{
+																			"Type": "NodeOpenParen"
+																		},
+																		{
+																			"Type": "NodeLinkDest"
+																		},
+																		{
+																			"Type": "NodeCloseParen"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-rvzngre",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-rvzngre"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-2b4s6u2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-2b4s6u2"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "输入URL地址和目录"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-acxeayn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-acxeayn"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-65ffs5v",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-65ffs5v"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Image(91)-20220115105648-6dzjevw.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220115105648-qrnev8z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220115105648-qrnev8z"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "二、更新目录、解决冲突"
+								}
+							]
+						},
+						{
+							"ID": "20220115105648-b5ymq01",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220115105648-b5ymq01"
+							},
+							"Children": [
+								{
+									"ID": "20220115105648-ev2b4pn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-ev2b4pn"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-ibfr3of",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-ibfr3of"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "更新目录"
+												}
+											]
+										},
+										{
+											"ID": "20220115105648-ch62013",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220115105648-ch62013"
+											},
+											"Children": [
+												{
+													"ID": "20220115105648-hve725f",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220115105648-hve725f"
+													},
+													"Children": [
+														{
+															"ID": "20220115105648-ecsxiu8",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220115105648-ecsxiu8"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "步骤：stash --\u003e pull --\u003e unstash"
+																}
+															]
+														},
+														{
+															"ID": "20220115105648-n5dev93",
+															"Type": "NodeList",
+															"ListData": {},
+															"Properties": {
+																"id": "20220115105648-n5dev93"
+															},
+															"Children": [
+																{
+																	"ID": "20220115105648-ah8eikw",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220115105648-ah8eikw"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220115105648-ibr0wyy",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220115105648-ibr0wyy"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeImage",
+																					"Data": "span",
+																					"Children": [
+																						{
+																							"Type": "NodeBang"
+																						},
+																						{
+																							"Type": "NodeOpenBracket"
+																						},
+																						{
+																							"Type": "NodeLinkText"
+																						},
+																						{
+																							"Type": "NodeCloseBracket"
+																						},
+																						{
+																							"Type": "NodeOpenParen"
+																						},
+																						{
+																							"Type": "NodeLinkDest",
+																							"Data": "assets/Image(92)-20220115105648-gcdpm53.png"
+																						},
+																						{
+																							"Type": "NodeCloseParen"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeImage",
+																					"Data": "span",
+																					"Children": [
+																						{
+																							"Type": "NodeBang"
+																						},
+																						{
+																							"Type": "NodeOpenBracket"
+																						},
+																						{
+																							"Type": "NodeLinkText"
+																						},
+																						{
+																							"Type": "NodeCloseBracket"
+																						},
+																						{
+																							"Type": "NodeOpenParen"
+																						},
+																						{
+																							"Type": "NodeLinkDest"
+																						},
+																						{
+																							"Type": "NodeCloseParen"
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220115105648-od9wf1y",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220115105648-od9wf1y"
+													},
+													"Children": [
+														{
+															"ID": "20220115105648-ap1293a",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220115105648-ap1293a"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "选择stash标记的名字，在Unstash选择对应的名字"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220115105648-yvhebuk",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220115105648-yvhebuk"
+													},
+													"Children": [
+														{
+															"ID": "20220115105648-6wwek63",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220115105648-6wwek63"
+															},
+															"Children": [
+																{
+																	"Type": "NodeImage",
+																	"Data": "span",
+																	"Children": [
+																		{
+																			"Type": "NodeBang"
+																		},
+																		{
+																			"Type": "NodeOpenBracket"
+																		},
+																		{
+																			"Type": "NodeLinkText"
+																		},
+																		{
+																			"Type": "NodeCloseBracket"
+																		},
+																		{
+																			"Type": "NodeOpenParen"
+																		},
+																		{
+																			"Type": "NodeLinkDest",
+																			"Data": "assets/Image(93)-20220115105648-45kaabt.png"
+																		},
+																		{
+																			"Type": "NodeCloseParen"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeImage",
+																	"Data": "span",
+																	"Children": [
+																		{
+																			"Type": "NodeBang"
+																		},
+																		{
+																			"Type": "NodeOpenBracket"
+																		},
+																		{
+																			"Type": "NodeLinkText"
+																		},
+																		{
+																			"Type": "NodeCloseBracket"
+																		},
+																		{
+																			"Type": "NodeOpenParen"
+																		},
+																		{
+																			"Type": "NodeLinkDest"
+																		},
+																		{
+																			"Type": "NodeCloseParen"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-7i7c2oe",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-7i7c2oe"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-vu1qxir",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-vu1qxir"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "解决冲突——代码合并"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-dbtvbj2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-dbtvbj2"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-8g6dgw8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-8g6dgw8"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果有代码冲突，需要编辑冲突，选择Merge"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-owufeqm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-owufeqm"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-b8dmykv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-b8dmykv"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Image(94)-20220115105648-v45w0mi.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-0kirll2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-0kirll2"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-ss310jj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-ss310jj"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "合并代码的时候三屏"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-oou9b5k",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-oou9b5k"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-fwpg30s",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-fwpg30s"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Image(95)-20220115105648-aj3jyza.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220115105648-itop7l9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220115105648-itop7l9"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "三、项目上传到Github"
+								}
+							]
+						},
+						{
+							"ID": "20220115105648-rvq1e87",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220115105648-rvq1e87"
+							},
+							"Children": [
+								{
+									"ID": "20220115105648-83lg7br",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-83lg7br"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-x8x2s3h",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-x8x2s3h"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "先在本地创建项目建立Git项目"
+												}
+											]
+										},
+										{
+											"ID": "20220115105648-ikf611d",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220115105648-ikf611d"
+											},
+											"Children": [
+												{
+													"ID": "20220115105648-s51ei01",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220115105648-s51ei01"
+													},
+													"Children": [
+														{
+															"ID": "20220115105648-htqpenu",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220115105648-htqpenu"
+															},
+															"Children": [
+																{
+																	"Type": "NodeImage",
+																	"Data": "span",
+																	"Children": [
+																		{
+																			"Type": "NodeBang"
+																		},
+																		{
+																			"Type": "NodeOpenBracket"
+																		},
+																		{
+																			"Type": "NodeLinkText"
+																		},
+																		{
+																			"Type": "NodeCloseBracket"
+																		},
+																		{
+																			"Type": "NodeOpenParen"
+																		},
+																		{
+																			"Type": "NodeLinkDest",
+																			"Data": "assets/Image(96)-20220115105648-vo81t52.png"
+																		},
+																		{
+																			"Type": "NodeCloseParen"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeImage",
+																	"Data": "span",
+																	"Children": [
+																		{
+																			"Type": "NodeBang"
+																		},
+																		{
+																			"Type": "NodeOpenBracket"
+																		},
+																		{
+																			"Type": "NodeLinkText"
+																		},
+																		{
+																			"Type": "NodeCloseBracket"
+																		},
+																		{
+																			"Type": "NodeOpenParen"
+																		},
+																		{
+																			"Type": "NodeLinkDest"
+																		},
+																		{
+																			"Type": "NodeCloseParen"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-houdtlr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-houdtlr"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-m2gv4dp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-m2gv4dp"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "创建完毕后文件会显示"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-ql5s28z",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-ql5s28z"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-fychme2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-fychme2"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "红色 --新建未添加到git"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-xhq6l7b",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-xhq6l7b"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-ufk1pt9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-ufk1pt9"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "绿色 --用Add添加到暂存区"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-lxozd9j",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-lxozd9j"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-5d2xxgm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-5d2xxgm"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "蓝色 --提交过的文件有修改"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-83lwsr9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-83lwsr9"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-0ejm1hk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-0ejm1hk"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "黑色 --和仓库同步"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-qd70x7f",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-qd70x7f"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-d98vs55",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-d98vs55"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "只建立未添加git"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-08d7fpx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-08d7fpx"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-0el0ikv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-0el0ikv"
+											}
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-9rkp588",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-9rkp588"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-qu9zrzc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-qu9zrzc"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Image(97)-20220115105648-crirr1m.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-8y90dg6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-8y90dg6"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-xwf957y",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-xwf957y"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "用add添加到暂存区"
+												}
+											]
+										},
+										{
+											"ID": "20220115105648-8p54sdw",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220115105648-8p54sdw"
+											},
+											"Children": [
+												{
+													"ID": "20220115105648-091x7v0",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220115105648-091x7v0"
+													},
+													"Children": [
+														{
+															"ID": "20220115105648-gj19hay",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220115105648-gj19hay"
+															},
+															"Children": [
+																{
+																	"Type": "NodeImage",
+																	"Data": "span",
+																	"Children": [
+																		{
+																			"Type": "NodeBang"
+																		},
+																		{
+																			"Type": "NodeOpenBracket"
+																		},
+																		{
+																			"Type": "NodeLinkText"
+																		},
+																		{
+																			"Type": "NodeCloseBracket"
+																		},
+																		{
+																			"Type": "NodeOpenParen"
+																		},
+																		{
+																			"Type": "NodeLinkDest",
+																			"Data": "assets/Image(98)-20220115105648-sa5rm9y.png"
+																		},
+																		{
+																			"Type": "NodeCloseParen"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeImage",
+																	"Data": "span",
+																	"Children": [
+																		{
+																			"Type": "NodeBang"
+																		},
+																		{
+																			"Type": "NodeOpenBracket"
+																		},
+																		{
+																			"Type": "NodeLinkText"
+																		},
+																		{
+																			"Type": "NodeCloseBracket"
+																		},
+																		{
+																			"Type": "NodeOpenParen"
+																		},
+																		{
+																			"Type": "NodeLinkDest"
+																		},
+																		{
+																			"Type": "NodeCloseParen"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-gsljr70",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-gsljr70"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-761ujvx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-761ujvx"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "提交到本地仓库"
+												}
+											]
+										},
+										{
+											"ID": "20220115105648-vfsaz5n",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220115105648-vfsaz5n"
+											},
+											"Children": [
+												{
+													"ID": "20220115105648-n623g56",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220115105648-n623g56"
+													},
+													"Children": [
+														{
+															"ID": "20220115105648-2zyhyeo",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220115105648-2zyhyeo"
+															},
+															"Children": [
+																{
+																	"Type": "NodeImage",
+																	"Data": "span",
+																	"Children": [
+																		{
+																			"Type": "NodeBang"
+																		},
+																		{
+																			"Type": "NodeOpenBracket"
+																		},
+																		{
+																			"Type": "NodeLinkText"
+																		},
+																		{
+																			"Type": "NodeCloseBracket"
+																		},
+																		{
+																			"Type": "NodeOpenParen"
+																		},
+																		{
+																			"Type": "NodeLinkDest",
+																			"Data": "assets/Image(99)-20220115105648-2xafxcc.png"
+																		},
+																		{
+																			"Type": "NodeCloseParen"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeImage",
+																	"Data": "span",
+																	"Children": [
+																		{
+																			"Type": "NodeBang"
+																		},
+																		{
+																			"Type": "NodeOpenBracket"
+																		},
+																		{
+																			"Type": "NodeLinkText"
+																		},
+																		{
+																			"Type": "NodeCloseBracket"
+																		},
+																		{
+																			"Type": "NodeOpenParen"
+																		},
+																		{
+																			"Type": "NodeLinkDest"
+																		},
+																		{
+																			"Type": "NodeCloseParen"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-1xr1a54",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-1xr1a54"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-qp9ly9q",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-qp9ly9q"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "(方式一)：提交到远程仓库Github"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-c5c0ub2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-c5c0ub2"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-pj0hr3c",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-pj0hr3c"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Image(100)-20220115105648-t89pn39.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-mp3dmmj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-mp3dmmj"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-ci4xa3j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-ci4xa3j"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Image(101)-20220115105648-ul5gqz0.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-r83v8ci",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-r83v8ci"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-t6drjye",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-t6drjye"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "有可能出现"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-7xvbxai",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-7xvbxai"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-hz8mf2c",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-hz8mf2c"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "访问被拒绝"
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Image(102)-20220115105648-iv3miu0.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-6787zo7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-6787zo7"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-d7g6l9r",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-d7g6l9r"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "原因： 查阅资料后发现应该是本地代码代码版本与远程代码版本不一致导致的（这种问题一般发生在GitHub上为新建的代码仓库，代码仓库会有一些初始化的信息如README.md文件，而本地是新建的项目没有这些内容，导致的版本冲突）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-kasowvs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-kasowvs"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-mvilosd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-mvilosd"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "解决方式："
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-zr1wtjv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-zr1wtjv"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-1glcl0m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-1glcl0m"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用： git pull origin master --allow-unrelated-histories（允许不相关的历史）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-4t6at7t",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-4t6at7t"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-tdex12x",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-tdex12x"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Image(103)-20220115105648-vu3cgy7.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-6kuw5te",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-6kuw5te"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-0igsbgb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-0igsbgb"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "重启pull就ok了"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-mrp1fat",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-mrp1fat"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-60yvpi2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-60yvpi2"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Image(104)-20220115105648-4rh0l9w.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-6psrzov",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-6psrzov"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-oyq07sc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-oyq07sc"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "(快捷-方式二)：提交到远程仓库Github"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-sivh0eb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-sivh0eb"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-860e46h",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-860e46h"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "直接分享到Github，自动创建远程Github项目，自动创建本地仓库"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220115105648-rl6co9w",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220115105648-rl6co9w"
+									},
+									"Children": [
+										{
+											"ID": "20220115105648-gpwua9f",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220115105648-gpwua9f"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Image(105)-20220115105648-sx7at2q.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"ID": "20220116115113-9l7x6bd",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220116115113-9l7x6bd",
+		"title": "2022-01-16",
+		"updated": "20220116115113"
+	},
+	"Children": [
+		{
+			"ID": "20220116115113-gihvipi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220116115113-gihvipi",
+				"updated": "20220116115113"
+			}
+		}
+	]
+}

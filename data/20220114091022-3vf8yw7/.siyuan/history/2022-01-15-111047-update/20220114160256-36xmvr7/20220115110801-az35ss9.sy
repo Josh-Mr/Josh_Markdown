@@ -1,0 +1,344 @@
+{
+	"ID": "20220115110801-az35ss9",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220115110801-az35ss9",
+		"title": "Maven_自动化部署",
+		"updated": "20220115111047"
+	},
+	"Children": [
+		{
+			"ID": "20220115110814-q1rrxpk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220115110814-q1rrxpk",
+				"updated": "20220115110814"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、引入所需要的包"
+				}
+			]
+		},
+		{
+			"ID": "20220115110829-7xsyg6n",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220115110829-7xsyg6n",
+				"updated": "20220115110844"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!--远程部署所需的包--\u003e\n\u003cdependency\u003e\n    \u003cgroupId\u003eorg.codehaus.mojo\u003c/groupId\u003e\n    \u003cartifactId\u003ewagon-maven-plugin\u003c/artifactId\u003e\n    \u003cversion\u003e1.0\u003c/version\u003e\n\u003c/dependency\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220115110814-kp5iogv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220115110814-kp5iogv",
+				"updated": "20220115110814"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、配置本地maven文件setting.xml(也可以配置在pom上)"
+				}
+			]
+		},
+		{
+			"ID": "20220115110847-5gaazji",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220115110847-5gaazji",
+				"updated": "20220115110855"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!-- serverId即上一步中在settings.xml中配置的service的id(配置远程部署服务器密码)\n\u003cserver\u003e\n    \u003cid\u003elinux-server-test\u003c/id\u003e\n    \u003cusername\u003eroot\u003c/username\u003e\n    \u003cpassword\u003e***\u003c/password\u003e\n\u003c/server\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220115110814-r3zkyfn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220115110814-r3zkyfn",
+				"updated": "20220115110814"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、在pom下配置"
+				}
+			]
+		},
+		{
+			"ID": "20220115110913-3ezf7gj",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220115110913-3ezf7gj",
+				"updated": "20220115110922"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cbuild\u003e\n    \u003c!--远程部署所需的配置--\u003e\n    \u003cextensions\u003e\n        \u003cextension\u003e\n            \u003c!-- 配置wagon-maven-plugin连接服务器使用的技术是ssh  --\u003e\n            \u003cgroupId\u003eorg.apache.maven.wagon\u003c/groupId\u003e\n            \u003cartifactId\u003ewagon-ssh\u003c/artifactId\u003e\n            \u003cversion\u003e2.10\u003c/version\u003e\n        \u003c/extension\u003e\n    \u003c/extensions\u003e\n\u003c/build\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220115110934-dpoq4c5",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220115110934-dpoq4c5",
+				"updated": "20220115111036"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cplugins\u003e\n    \u003c!--远程部署所需的配置--\u003e\n    \u003cplugin\u003e\n        \u003cgroupId\u003eorg.codehaus.mojo\u003c/groupId\u003e\n        \u003cartifactId\u003ewagon-maven-plugin\u003c/artifactId\u003e\n        \u003cversion\u003e1.0\u003c/version\u003e\n        \u003cconfiguration\u003e\n            \u003c!-- serverId即上一步中在settings.xml中配置的service的id\n            \u003cserver\u003e配置远程部署服务器密码\n                \u003cid\u003elinux-server-test\u003c/id\u003e\n                \u003cusername\u003eroot\u003c/username\u003e\n                \u003cpassword\u003e***\u003c/password\u003e\n            \u003c/server\u003e\n            --\u003e\n            \u003cserverId\u003elinux-server-test\u003c/serverId\u003e\n            \u003c!-- 要上传到服务器的文件，一般来说是jar或者war包 --\u003e\n            \u003cfromFile\u003etarget/finance-services-1.0.jar\u003c/fromFile\u003e\n            \u003c!-- 192.168.234.28（测试环境）配置服务器的地址以及文件上传的目录。 --\u003e\n            \u003curl\u003escp://192.168.234.28/caiwu/\u003c/url\u003e\n            \u003c!--重启服务--\u003e\n            \u003ccommands\u003e\n                \u003c!--停用服务--\u003e\n                \u003ccommand\u003esh /caiwu/finance-services.sh stop\u003c/command\u003e\n                \u003c!--启用服务--\u003e\n                \u003ccommand\u003esh /caiwu/finance-services.sh start\u003c/command\u003e\n            \u003c/commands\u003e\n            \u003c!--显示控制台输出--\u003e\n            \u003cdisplayCommandOutputs\u003etrue\u003c/displayCommandOutputs\u003e\n        \u003c/configuration\u003e\n    \u003c/plugin\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220115110814-cw1jqef",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220115110814-cw1jqef",
+				"updated": "20220115110814"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四、使用过程的命令"
+				}
+			]
+		},
+		{
+			"ID": "20220115110814-xsri1gd",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220115110814-xsri1gd",
+				"updated": "20220115111047"
+			},
+			"Children": [
+				{
+					"ID": "20220115110814-ytk6sn7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220115110814-ytk6sn7",
+						"updated": "20220115111043"
+					},
+					"Children": [
+						{
+							"ID": "20220115110814-5z62ayj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220115110814-5z62ayj",
+								"updated": "20220115111043"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "清除打包："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "mvn clean package"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220115110814-m7p0cz1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220115110814-m7p0cz1",
+						"updated": "20220115111045"
+					},
+					"Children": [
+						{
+							"ID": "20220115110814-bhe3qrj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220115110814-bhe3qrj",
+								"updated": "20220115111045"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "上传命令："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "mvn wagon:upload-single"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220115110814-rl3vb45",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220115110814-rl3vb45",
+						"updated": "20220115111047"
+					},
+					"Children": [
+						{
+							"ID": "20220115110814-u3u5u8s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220115110814-u3u5u8s",
+								"updated": "20220115111047"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "远程执行命令："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "mvn wagon:sshexec"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220115110814-9ocm9rf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220115110814-9ocm9rf"
+					},
+					"Children": [
+						{
+							"ID": "20220115110814-03tb97i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220115110814-03tb97i"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "也可以一键部署： mvn clean package wagon:upload-single wagon:sshexec"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

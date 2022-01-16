@@ -1,0 +1,19 @@
+{
+	"ID": "20220116115037-s2espqn",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220116115037-s2espqn",
+		"title": "2022-01-16",
+		"updated": "20220116115037"
+	},
+	"Children": [
+		{
+			"ID": "20220116115037-gvb96z7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220116115037-gvb96z7",
+				"updated": "20220116115037"
+			}
+		}
+	]
+}

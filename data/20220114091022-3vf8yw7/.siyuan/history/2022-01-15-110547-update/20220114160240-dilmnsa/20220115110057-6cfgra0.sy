@@ -1,0 +1,38 @@
+{
+	"ID": "20220115110057-6cfgra0",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220115110057-6cfgra0",
+		"title": "IDEA_快捷键",
+		"updated": "20220115110213"
+	},
+	"Children": [
+		{
+			"ID": "20220115110057-ak6xihh",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220115110057-ak6xihh",
+				"updated": "20220115110213"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaWM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Idea常用快捷键大全，拿小本本记下来，忘记了可以方便查找。\n编写代码\nCtrl+Shift + Enter，语句完成\n“！”，否定完成，输入表达式时按 “！”键\nCtrl+E，最近的文件\nCtrl+Shift+E，最近更改的文件\nShift+Click，可以关闭文件\nCtrl+[ OR ]，可以跑到大括号的开头与结尾\nCtrl+F12，可以显示当前文件的结构\nCtrl+F7，可以查询当前元素在当前文件中的引用，然后按 F3 可以选择\nCtrl+N，可以快速打开类\nCtrl+Shift+N，可以快速打开文件\nAlt+Q，可以看到当前方法的声明\nCtrl+P，可以显示参数信息\nCtrl+Shift+Insert，可以选择剪贴板内容并插入\nAlt+Insert，可以生成构造器/Getter/Setter等\nCtrl+Alt+V，可以引入变量。例如：new String(); 自动导入变量定义\nCtrl+Alt+T，可以把代码包在一个块内，例如：try/catch\nCtrl+Enter，导入包，自动修正\nCtrl+Alt+L，格式化代码\nCtrl+Alt+I，将选中的代码进行自动缩进编排，这个功能在编辑 JSP 文件时也可以工作\nCtrl+Alt+O，优化导入的类和包\nCtrl+R，替换文本\nCtrl+F，查找文本\nCtrl+Shift+Space，自动补全代码\nCtrl+空格，代码提示（与系统输入法快捷键冲突）\nCtrl+Shift+Alt+N，查找类中的方法或变量\nAlt+Shift+C，最近的更改\nAlt+Shift+Up/Down，上/下移一行\nShift+F6，重构 – 重命名\nCtrl+X，删除行\nCtrl+D，复制行\nCtrl+/或Ctrl+Shift+/，注释（//或者/**/）\nCtrl+J，自动代码（例如：serr）\nCtrl+Alt+J，用动态模板环绕\nCtrl+H，显示类结构图（类的继承层次）\nCtrl+Q，显示注释文档\nAlt+F1，查找代码所在位置\nAlt+1，快速打开或隐藏工程面板\nCtrl+Alt+left/right，返回至上次浏览的位置\nAlt+left/right，切换代码视图\nAlt+Up/Down，在方法间快速移动定位\nCtrl+Shift+Up/Down，向上/下移动语句\nF2 或 Shift+F2，高亮错误或警告快速定位\nTab，代码标签输入完成后，按 Tab，生成代码\nCtrl+Shift+F7，高亮显示所有该文本，按 Esc 高亮消失\nAlt+F3，逐个往下查找相同文本，并高亮显示\nCtrl+Up/Down，光标中转到第一行或最后一行下\nCtrl+B/Ctrl+Click，快速打开光标处的类或方法（跳转到定义处）\nCtrl+Alt+B，跳转到方法实现处\nCtrl+Shift+Backspace，跳转到上次编辑的地方\nCtrl+O，重写方法\nCtrl+Alt+Space，类名自动完成\nCtrl+Alt+Up/Down，快速跳转搜索结果\nCtrl+Shift+J，整合两行\nAlt+F8，计算变量值\nCtrl+Shift+V，可以将最近使用的剪贴板内容选择插入到文本\nCtrl+Alt+Shift+V，简单粘贴\nShift+Esc，不仅可以把焦点移到编辑器上，而且还可以隐藏当前（或最后活动的）工具窗口\nF12，把焦点从编辑器移到最近使用的工具窗口\nShift+F1，要打开编辑器光标字符处使用的类或者方法 Java 文档的浏览器\nCtrl+W，可以选择单词继而语句继而行继而函数\nCtrl+Shift+W，取消选择光标所在词\nAlt+F7，查找整个工程中使用地某一个类、方法或者变量的位置\nCtrl+I，实现方法\nCtrl+Shift+U，大小写转化\nCtrl+Y，删除当前行\nShift+Enter，向下插入新行\npsvm/sout，main/System.out.println(); Ctrl+J，查看更多\nCtrl+Shift+F，全局查找\nCtrl+F，查找/Shift+F3，向上查找/F3，向下查找\nCtrl+Shift+S，高级搜索\nCtrl+U，转到父类\nCtrl+Alt+S，打开设置对话框\nAlt+Shift+Inert，开启/关闭列选择模式\nCtrl+Alt+Shift+S，打开当前项目/模块属性\nCtrl+G，定位行\nAlt+Home，跳转到导航栏\nCtrl+Enter，上插一行\nCtrl+Backspace，按单词删除\nCtrl+”+/-”，当前方法展开、折叠\nCtrl+Shift+”+/-”，全部展开、折叠\n调试部分、编译\nCtrl+F2，停止\nAlt+Shift+F9，选择 Debug\nAlt+Shift+F10，选择 Run\nCtrl+Shift+F9，编译\nCtrl+Shift+F10，运行\nCtrl+Shift+F8，查看断点\nF8，步过\nF7，步入\nShift+F7，智能步入\nShift+F8，步出\nAlt+Shift+F8，强制步过\nAlt+Shift+F7，强制步入\nAlt+F9，运行至光标处\nCtrl+Alt+F9，强制运行至光标处\nF9，恢复程序\nAlt+F10，定位到断点\nCtrl+F8，切换行断点\nCtrl+F9，生成项目\nAlt+1，项目\nAlt+2，收藏\nAlt+6，TODO\nAlt+7，结构\nCtrl+Shift+C，复制路径\nCtrl+Alt+Shift+C，复制引用，必须选择类名\nCtrl+Alt+Y，同步\nCtrl+~，快速切换方案（界面外观、代码风格、快捷键映射等菜单）\nShift+F12，还原默认布局\nCtrl+Shift+F12，隐藏/恢复所有窗口\nCtrl+F4，关闭\nCtrl+Shift+F4，关闭活动选项卡\nCtrl+Tab，转到下一个拆分器\nCtrl+Shift+Tab，转到上一个拆分器\n重构\nCtrl+Alt+Shift+T，弹出重构菜单\nShift+F6，重命名\nF6，移动\nF5，复制\nAlt+Delete，安全删除\nCtrl+Alt+N，内联\n查找\nCtrl+F，查找\nCtrl+R，替换\nF3，查找下一个\nShift+F3，查找上一个\nCtrl+Shift+F，在路径中查找\nCtrl+Shift+R，在路径中替换\nCtrl+Shift+S，搜索结构\nCtrl+Shift+M，替换结构\nAlt+F7，查找用法\nCtrl+Alt+F7，显示用法\nCtrl+F7，在文件中查找用法\nCtrl+Shift+F7，在文件中高亮显示用法\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}
