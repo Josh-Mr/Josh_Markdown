@@ -230,6 +230,7 @@
     "title": "Maven_POM配置表"
   },
   {
+    "active": true,
     "children": {
   "blockId": "20220114091909-m4zwyue",
   "instance": "Editor"
@@ -350,7 +351,6 @@
     "title": "资源文件图床"
   },
   {
-    "active": true,
     "children": {
   "blockId": "20220105100506-auvmvcw",
   "instance": "Editor"
