@@ -1,0 +1,847 @@
+{
+	"ID": "20220118000825-dikul4f",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220118000825-dikul4f",
+		"title": "Linux_JDK",
+		"updated": "20220118000852"
+	},
+	"Children": [
+		{
+			"ID": "20220118000852-a66s8kq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220118000852-a66s8kq",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Linux安装JDK完整步骤"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-ikjt8do",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220118000852-ikjt8do",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、检查一下系统中的jdk版本"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-6iudkqb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-6iudkqb",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "[root@localhost software]# java -version"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-8e5cfpv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-8e5cfpv",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "显示："
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-545uck0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-545uck0",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "openjdk version \"1.8.0_102\""
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-vjxs253",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-vjxs253",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "OpenJDK Runtime Environment (build 1.8.0_102-b14)"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-r6zn2zr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-r6zn2zr",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "OpenJDK 64-Bit Server VM (build 25.102-b14, mixed mode)"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-a5k9021",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220118000852-a5k9021",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、检测jdk安装包"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-gnwqu9v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-gnwqu9v",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "[root@localhost software]# rpm -qa | grep java"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-uc18ot0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-uc18ot0",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "显示："
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-wnjkqi9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-wnjkqi9",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "java-1.7.0-openjdk-1.7.0.111-2.6.7.8.el7.x86_64"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-llula4k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-llula4k",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "python-javapackages-3.4.1-11.el7.noarch"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-l4v1hx1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-l4v1hx1",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "tzdata-java-2016g-2.el7.noarch"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-t5rt4nn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-t5rt4nn",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "javapackages-tools-3.4.1-11.el7.noarch"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-f0lyrgz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-f0lyrgz",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "java-1.8.0-openjdk-1.8.0.102-4.b14.el7.x86_64"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-2ue6ac5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-2ue6ac5",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "java-1.8.0-openjdk-headless-1.8.0.102-4.b14.el7.x86_64"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-fgmt68y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-fgmt68y",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "java-1.7.0-openjdk-headless-1.7.0.111-2.6.7.8.el7.x86_64"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-3a0z3f9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220118000852-3a0z3f9",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、卸载openjdk"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-0q5oe19",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-0q5oe19",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "[root@localhost software]# rpm -e --nodeps tzdata-java-2016g-2.el7.noarch"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-1c6kqj0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-1c6kqj0",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "[root@localhost software]# rpm -e --nodeps java-1.7.0-openjdk-1.7.0.111-2.6.7.8.el7.x86_64"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-r9j77s6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-r9j77s6",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "[root@localhost software]# rpm -e --nodeps java-1.7.0-openjdk-headless-1.7.0.111-2.6.7.8.el7.x86_64"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-wmxtn4b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-wmxtn4b",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "[root@localhost software]# rpm -e --nodeps java-1.8.0-openjdk-1.8.0.102-4.b14.el7.x86_64"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-004gmff",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-004gmff",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "[root@localhost software]# rpm -e --nodeps java-1.8.0-openjdk-headless-1.8.0.102-4.b14.el7.x86_64"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-k5zpgl0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-k5zpgl0",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "或者使用"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-4mjtch1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-4mjtch1",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "[root@localhost jvm]# yum remove "
+				},
+				{
+					"Type": "NodeEmphasis",
+					"Data": "em",
+					"Children": [
+						{
+							"Type": "NodeEmA6kOpenMarker",
+							"Data": "*"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "openjdk"
+						},
+						{
+							"Type": "NodeEmA6kCloseMarker",
+							"Data": "*"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-r76dcy2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-r76dcy2",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "之后再次输入rpm -qa | grep java 查看卸载情况："
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-i2ue6wx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-i2ue6wx",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "[root@localhost software]# rpm -qa | grep java"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-0cicmmg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-0cicmmg",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "python-javapackages-3.4.1-11.el7.noarch"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-vg23m4b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-vg23m4b",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "javapackages-tools-3.4.1-11.el7.noarch"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-dvpr2a6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220118000852-dvpr2a6",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4、安装新的jdk"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-rs72pr2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-rs72pr2",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "[root@localhost software]# ll"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-ld4a6h8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-ld4a6h8",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "total 181192"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-5h3hw4y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-5h3hw4y",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "-rw-r--r-- 1 root root 185540433 May 20 2017 jdk-8u131-linux-x64.tar.gz"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-mbreqv7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-mbreqv7",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解压 jdk-8u131-linux-x64.tar.gz安装包"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-i5jiki6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-i5jiki6",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "[root@localhost software]# mkdir -p /opt/soft"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-ufpmec3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-ufpmec3",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "[root@localhost software]# mv jdk-8u131-linux-x64.tar.gz /opt/soft"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-3hqov59",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-3hqov59",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "[root@localhost software]# tar -zxvf jdk-8u131-linux-x64.tar.gz"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-gzcks9c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-gzcks9c",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "[root@localhost software]# ln -s jdk1.8.0_131 jdk（可以不要）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-scwpfwj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220118000852-scwpfwj",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5、设置环境变量"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-67frby3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-67frby3",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "[root@localhost software]# vim /etc/profile"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-ug4ucz8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-ug4ucz8",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在最前面添加："
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-k0n5kzr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-k0n5kzr",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "export JAVA_HOME=/opt/soft/jdk(版本)"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-ovev5wl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-ovev5wl",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "export JRE_HOME=${JAVA_HOME}/jre"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-1676j1o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-1676j1o",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "export CLASSPATH=.:"
+				},
+				{
+					"Type": "NodeInlineMath",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeInlineMathOpenMarker"
+						},
+						{
+							"Type": "NodeInlineMathContent",
+							"Data": "{JAVA_HOME}/lib:"
+						},
+						{
+							"Type": "NodeInlineMathCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "{JRE_HOME}/lib"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-sz6wmj4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-sz6wmj4",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "export PATH="
+				},
+				{
+					"Type": "NodeInlineMath",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeInlineMathOpenMarker"
+						},
+						{
+							"Type": "NodeInlineMathContent",
+							"Data": "{JAVA_HOME}/bin:"
+						},
+						{
+							"Type": "NodeInlineMathCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "PATH"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-gvlf1e8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220118000852-gvlf1e8",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6、执行profile文件"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-lo7nxab",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-lo7nxab",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "[root@localhost software]# source /etc/profile"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-fipdwib",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220118000852-fipdwib",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7、检查新安装的jdk"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-58znk0o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-58znk0o",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "[root@localhost software]# java -version"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-yuyky0q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-yuyky0q",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "显示："
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-etx7ho7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-etx7ho7",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "java version \"1.8.0_131\""
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-u29uxjw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-u29uxjw",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java(TM) SE Runtime Environment (build 1.8.0_131-b11)"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-lchzr93",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-lchzr93",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)"
+				}
+			]
+		},
+		{
+			"ID": "20220118000852-4ww8lv5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118000852-4ww8lv5",
+				"updated": "20220118000852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "到此为止，整个安装过程结束。"
+				}
+			]
+		}
+	]
+}

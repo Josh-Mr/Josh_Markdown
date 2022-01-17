@@ -1,0 +1,565 @@
+{
+	"ID": "20220117173656-t9n9ux1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20220117173656-t9n9ux1",
+		"title": "Docker_Redis安装",
+		"updated": "20220117173858"
+	},
+	"Children": [
+		{
+			"ID": "20220117173656-qma2x8v",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220117173656-qma2x8v",
+				"updated": "20220117173734"
+			},
+			"Children": [
+				{
+					"ID": "20220117173727-4d4kd3m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220117173727-4d4kd3m",
+						"updated": "20220117173734"
+					},
+					"Children": [
+						{
+							"ID": "20220117173727-rnh1kp3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117173727-rnh1kp3",
+								"updated": "20220117173727"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "获取redis镜像"
+								}
+							]
+						},
+						{
+							"ID": "20220117173728-wjngqbv",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220117173728-wjngqbv",
+								"updated": "20220117173734"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "ZG9ja2VyZmlsZQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "docker pull redis\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220117173734-1spubkq",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220117173734-1spubkq",
+				"updated": "20220117173745"
+			},
+			"Children": [
+				{
+					"ID": "20220117173735-c08kwyy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220117173735-c08kwyy",
+						"updated": "20220117173745"
+					},
+					"Children": [
+						{
+							"ID": "20220117173735-rm7unli",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117173735-rm7unli",
+								"updated": "20220117173739"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看本地镜像"
+								}
+							]
+						},
+						{
+							"ID": "20220117173739-f2wz3dt",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220117173739-f2wz3dt",
+								"updated": "20220117173745"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "ZG9ja2VyZmlsZQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "docker images\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220117173745-9ozrpe3",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220117173745-9ozrpe3",
+				"updated": "20220117173803"
+			},
+			"Children": [
+				{
+					"ID": "20220117173747-lh9jnzh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220117173747-lh9jnzh",
+						"updated": "20220117173803"
+					},
+					"Children": [
+						{
+							"ID": "20220117173747-b7w7819",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117173747-b7w7819",
+								"updated": "20220117173752"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "先在服务器创建挂载的目录和配置文件"
+								}
+							]
+						},
+						{
+							"ID": "20220117173753-y175jbz",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220117173753-y175jbz",
+								"updated": "20220117173803"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "mkdir -p /mydata/redis/conf\n[root@iZwz9hw4qywrrl4vj6o0j1Z ~]# cd /mydata/redis/conf/\n[root@iZwz9hw4qywrrl4vj6o0j1Z conf]# touch redis.conf\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220117173800-u85xqsz",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220117173800-u85xqsz",
+				"updated": "20220117173842"
+			},
+			"Children": [
+				{
+					"ID": "20220117173809-w5m8b5q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220117173809-w5m8b5q",
+						"updated": "20220117173842"
+					},
+					"Children": [
+						{
+							"ID": "20220117173809-pugpfop",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117173809-pugpfop",
+								"updated": "20220117173812"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "启动redis"
+								}
+							]
+						},
+						{
+							"ID": "20220117173813-xep3ogz",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220117173813-xep3ogz",
+								"updated": "20220117173842"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "docker run -p 6379:6379 --name redis -v /mydata/redis/redis.conf:/etc/redis/redis.conf -v /mydata/redis/data:/data -d redis redis-server /etc/redis/redis.conf --appendonly yes\n\n# 结果\n[root@iZwz9hw4qywrrl4vj6o0j1Z conf]# docker run -p 6379:6379 --name redis -v /mydata/redis/redis.conf:/etc/redis/redis.conf -v /mydata/redis/data:/data -d redis redis-server /etc/redis/redis.conf --appendonly yes\n004edb8a18e1f3f53702ef423834129cb060450046fc8452a833da244fa0a42b\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220117173847-sg6zl0k",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220117173847-sg6zl0k",
+				"updated": "20220117173847"
+			},
+			"Children": [
+				{
+					"ID": "20220117173847-4k4eu6u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220117173847-4k4eu6u"
+					},
+					"Children": [
+						{
+							"ID": "20220117173847-dexn1eq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117173847-dexn1eq"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "命令解释"
+								}
+							]
+						},
+						{
+							"ID": "20220117173847-c9e15m8",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220117173847-c9e15m8"
+							},
+							"Children": [
+								{
+									"ID": "20220117173847-d06nken",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117173847-d06nken"
+									},
+									"Children": [
+										{
+											"ID": "20220117173847-x2ov6mf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117173847-x2ov6mf"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "-p 6379:6379 端口映射：前表示主机部分，：后表示容器部分。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220117173847-pzurllm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117173847-pzurllm"
+									},
+									"Children": [
+										{
+											"ID": "20220117173847-d8ikao1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117173847-d8ikao1"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "--name myredis 指定该容器名称，查看和进行操作都比较方便。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220117173847-sz0682i",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117173847-sz0682i"
+									},
+									"Children": [
+										{
+											"ID": "20220117173847-q5jnlth",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117173847-q5jnlth"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "-v 挂载目录，规则与端口映射相同。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220117173847-zrgcceu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117173847-zrgcceu"
+									},
+									"Children": [
+										{
+											"ID": "20220117173847-4myntdq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117173847-4myntdq"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "-d redis 表示后台启动redis"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220117173847-cc8yufp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117173847-cc8yufp"
+									},
+									"Children": [
+										{
+											"ID": "20220117173847-6qkvs3x",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117173847-6qkvs3x"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "redis-server /etc/redis/redis.conf 以配置文件启动redis，加载容器内的conf文件，最终找到的是挂载的目录/usr/local/docker/redis.conf"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220117173847-tsyxqmv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117173847-tsyxqmv"
+									},
+									"Children": [
+										{
+											"ID": "20220117173847-4gocpi1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117173847-4gocpi1"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "appendonly yes 开启redis 持久化"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220117173852-bw3lk9k",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220117173852-bw3lk9k",
+				"updated": "20220117173858"
+			},
+			"Children": [
+				{
+					"ID": "20220117173853-tulzu6r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220117173853-tulzu6r",
+						"updated": "20220117173858"
+					},
+					"Children": [
+						{
+							"ID": "20220117173853-7p8w07j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117173853-7p8w07j",
+								"updated": "20220117173857"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "进入Redis"
+								}
+							]
+						},
+						{
+							"ID": "20220117173857-dc2kasn",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220117173857-dc2kasn",
+								"updated": "20220117173858"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "[root@iZwz9hw4qywrrl4vj6o0j1Z conf]# docker exec -it redis redis-cli\n127.0.0.1:6379\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

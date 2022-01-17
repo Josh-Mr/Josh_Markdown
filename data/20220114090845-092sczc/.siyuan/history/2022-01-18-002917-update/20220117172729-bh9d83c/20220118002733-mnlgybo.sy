@@ -1,0 +1,20 @@
+{
+	"ID": "20220118002733-mnlgybo",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4d9",
+		"id": "20220118002733-mnlgybo",
+		"title": "Linux基础",
+		"updated": "20220118002750"
+	},
+	"Children": [
+		{
+			"ID": "20220118002733-33n3t97",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118002733-33n3t97",
+				"updated": "20220118002733"
+			}
+		}
+	]
+}

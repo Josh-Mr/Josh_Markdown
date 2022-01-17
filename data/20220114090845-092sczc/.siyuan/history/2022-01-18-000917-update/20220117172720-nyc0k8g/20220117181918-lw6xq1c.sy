@@ -1,0 +1,2734 @@
+{
+	"ID": "20220117181918-lw6xq1c",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20220117181918-lw6xq1c",
+		"title": "Docker_Compose安装和使用",
+		"updated": "20220118000424"
+	},
+	"Children": [
+		{
+			"ID": "20220117181918-jmts835",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220117181918-jmts835",
+				"updated": "20220117231359"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、Centos7安装docker-compose"
+				}
+			]
+		},
+		{
+			"ID": "20220117230251-g61rtx8",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220117230251-g61rtx8",
+				"updated": "20220117230435"
+			},
+			"Children": [
+				{
+					"ID": "20220117230300-srhzkab",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220117230300-srhzkab",
+						"updated": "20220117230435"
+					},
+					"Children": [
+						{
+							"ID": "20220117230300-bbs7sex",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117230300-bbs7sex",
+								"updated": "20220117230355"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "官网下载"
+								}
+							]
+						},
+						{
+							"ID": "20220117230358-7vk9jrl",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220117230358-7vk9jrl",
+								"updated": "20220117230435"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "ZG9ja2VyZmlsZQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "sudo curl -L \"https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)\" -o /usr/local/bin/docker-compose\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220117230448-optfw5c",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220117230448-optfw5c",
+				"updated": "20220117230509"
+			},
+			"Children": [
+				{
+					"ID": "20220117230450-irtupfo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220117230450-irtupfo",
+						"updated": "20220117230509"
+					},
+					"Children": [
+						{
+							"ID": "20220117230450-ty1i8zj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117230450-ty1i8zj",
+								"updated": "20220117230455"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "添加权限"
+								}
+							]
+						},
+						{
+							"ID": "20220117230503-68vh8jw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117230503-68vh8jw",
+								"updated": "20220117230509"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "sudo chmod +x /usr/local/bin/docker-compose\nsudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220117230515-z6rcbuk",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220117230515-z6rcbuk",
+				"updated": "20220117230533"
+			},
+			"Children": [
+				{
+					"ID": "20220117230517-ix9v08a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220117230517-ix9v08a",
+						"updated": "20220117230533"
+					},
+					"Children": [
+						{
+							"ID": "20220117230517-f02edxo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117230517-f02edxo",
+								"updated": "20220117230522"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看版本（安装）"
+								}
+							]
+						},
+						{
+							"ID": "20220117230530-li91hxe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117230530-li91hxe",
+								"updated": "20220117230533"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "docker-compose --version"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220117182020-ndbjnwu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220117182020-ndbjnwu",
+				"updated": "20220117231335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、简介"
+				}
+			]
+		},
+		{
+			"ID": "20220117182020-fxy8wqj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220117182020-fxy8wqj",
+				"updated": "20220117231931"
+			},
+			"Children": [
+				{
+					"ID": "20220117182020-mqpyx8n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220117182020-mqpyx8n",
+						"updated": "20220117231931"
+					},
+					"Children": [
+						{
+							"ID": "20220117182020-71ne4e6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117182020-71ne4e6",
+								"updated": "20220117231931"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "主要是实现对docker集群的"
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "快速的编排"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220117182020-uv4mbh5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220117182020-uv4mbh5"
+					},
+					"Children": [
+						{
+							"ID": "20220117182020-y5d97q4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117182020-y5d97q4"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "管理的的容器分为三层，分别是工程（project）、服务（service）、容器（container）。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220117182020-nwwemo6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220117182020-nwwemo6",
+				"updated": "20220117231351"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、常用命令"
+				}
+			]
+		},
+		{
+			"ID": "20220117182020-o163x68",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220117182020-o163x68",
+				"updated": "20220117232119"
+			},
+			"Children": [
+				{
+					"ID": "20220117182020-nqwh7ra",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220117182020-nqwh7ra",
+						"updated": "20220117232119"
+					},
+					"Children": [
+						{
+							"ID": "20220117182020-2kfcdfw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117182020-2kfcdfw",
+								"updated": "20220117231911"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "docker-compose"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220117231416-o2pj0pk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117231416-o2pj0pk",
+								"updated": "20220117231427"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "$ docker-compose [-f \u003carg\u003e...] [options] [COMMAND] [ARGS...]"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220117231458-rqoxbgo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117231458-rqoxbgo",
+								"updated": "20220117231523"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "常见的命令格式如下："
+								}
+							]
+						},
+						{
+							"ID": "20220117231523-2ms63qy",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220117231523-2ms63qy",
+								"updated": "20220117232119"
+							},
+							"Children": [
+								{
+									"ID": "20220117231542-wdgp1jr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117231542-wdgp1jr",
+										"updated": "20220117232119"
+									},
+									"Children": [
+										{
+											"ID": "20220117231542-hmzbscm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117231542-hmzbscm",
+												"updated": "20220117232119"
+											},
+											"Children": [
+												{
+													"Type": "NodeMark",
+													"Data": "mark",
+													"Children": [
+														{
+															"Type": "NodeMark2OpenMarker"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "-f，–file FILE指定Compose模板文件，默认为docker-compose.yml，可以多次指定"
+														},
+														{
+															"Type": "NodeMark2CloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220117231544-mzimnqg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117231544-mzimnqg",
+										"updated": "20220117232122"
+									},
+									"Children": [
+										{
+											"ID": "20220117231544-qywjsoh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117231544-qywjsoh",
+												"updated": "20220117232122"
+											},
+											"Children": [
+												{
+													"Type": "NodeMark",
+													"Data": "mark",
+													"Children": [
+														{
+															"Type": "NodeMark2OpenMarker"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "-p，–project-name NAME指定项目名称，默认将使用所在目录名称作为项目名"
+														},
+														{
+															"Type": "NodeMark2CloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220117231604-ogrltmn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117231604-ogrltmn",
+										"updated": "20220117231638"
+									},
+									"Children": [
+										{
+											"ID": "20220117231604-f0xhl0o",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117231604-f0xhl0o",
+												"updated": "20220117231638"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "-x-network-driver 使用Docker的可拔插网络后端特性（需要Docker 1.9+版本）"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220117231618-uy2szag",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117231618-uy2szag",
+										"updated": "20220117231637"
+									},
+									"Children": [
+										{
+											"ID": "20220117231618-nl22x1a",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117231618-nl22x1a",
+												"updated": "20220117231637"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "-x-network-driver DRIVER指定网络后端的驱动，默认为bridge（需要Docker 1.9+版本）"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220117231629-i4gleop",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117231629-i4gleop",
+										"updated": "20220117231636"
+									},
+									"Children": [
+										{
+											"ID": "20220117231629-7lnq5tj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117231629-7lnq5tj",
+												"updated": "20220117231636"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "-verbose输出更多调试信息"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220117231630-knwiye9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117231630-knwiye9",
+										"updated": "20220117231635"
+									},
+									"Children": [
+										{
+											"ID": "20220117231630-aw3lepo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117231630-aw3lepo",
+												"updated": "20220117231635"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "-v，–version打印版本并退出"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220117182055-ma9hrdg",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220117182055-ma9hrdg",
+				"updated": "20220117231946"
+			},
+			"Children": [
+				{
+					"ID": "20220117182056-1rjx78g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220117182056-1rjx78g",
+						"updated": "20220117231946"
+					},
+					"Children": [
+						{
+							"ID": "20220117182056-a9mq6wt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117182056-a9mq6wt",
+								"updated": "20220117231913"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "docker-compose up"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220117231723-wuwgl2c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117231723-wuwgl2c",
+								"updated": "20220117231907"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "$ docker-compose up [options] [--scale SERVICE=NUM...] [SERVICE...]"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220117231737-kvijz36",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117231737-kvijz36",
+								"updated": "20220117231748"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "选项包括："
+								}
+							]
+						},
+						{
+							"ID": "20220117231755-1mxcd0e",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220117231755-1mxcd0e",
+								"updated": "20220117231946"
+							},
+							"Children": [
+								{
+									"ID": "20220117231806-sfsirb4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117231806-sfsirb4"
+									},
+									"Children": [
+										{
+											"ID": "20220117231806-jtcgaw6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117231806-jtcgaw6",
+												"updated": "20220117232140"
+											},
+											"Children": [
+												{
+													"Type": "NodeMark",
+													"Data": "mark",
+													"Children": [
+														{
+															"Type": "NodeMark2OpenMarker"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "-d 在后台运行服务容器"
+														},
+														{
+															"Type": "NodeMark2CloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220117231806-s5kvoys",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117231806-s5kvoys"
+									},
+									"Children": [
+										{
+											"ID": "20220117231806-6i8zbjj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117231806-6i8zbjj",
+												"updated": "20220117231817"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "–no-color 不使用颜色来区分不同的服务的控制输出"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220117231806-as8kv8e",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117231806-as8kv8e"
+									},
+									"Children": [
+										{
+											"ID": "20220117231806-f8vke7o",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117231806-f8vke7o",
+												"updated": "20220117231818"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "–no-deps 不启动服务所链接的容器"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220117231806-j4gxcj8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117231806-j4gxcj8"
+									},
+									"Children": [
+										{
+											"ID": "20220117231806-s3u7t12",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117231806-s3u7t12",
+												"updated": "20220117231819"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "–force-recreate 强制重新创建容器，不能与–no-recreate同时使用"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220117231806-8wp321i",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117231806-8wp321i"
+									},
+									"Children": [
+										{
+											"ID": "20220117231806-m64qtwj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117231806-m64qtwj",
+												"updated": "20220117231820"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "–no-recreate 如果容器已经存在，则不重新创建，不能与–force-recreate同时使用"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220117231806-3fg3jgj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117231806-3fg3jgj"
+									},
+									"Children": [
+										{
+											"ID": "20220117231806-4tc55cw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117231806-4tc55cw",
+												"updated": "20220117231821"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "–no-build 不自动构建缺失的服务镜像"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220117231806-z2p89ed",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117231806-z2p89ed"
+									},
+									"Children": [
+										{
+											"ID": "20220117231806-n7zcsy0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117231806-n7zcsy0",
+												"updated": "20220117232149"
+											},
+											"Children": [
+												{
+													"Type": "NodeMark",
+													"Data": "mark",
+													"Children": [
+														{
+															"Type": "NodeMark2OpenMarker"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "–build 在启动容器前构建服务镜像"
+														},
+														{
+															"Type": "NodeMark2CloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220117231806-z8iwwcr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117231806-z8iwwcr"
+									},
+									"Children": [
+										{
+											"ID": "20220117231806-xssfhhj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117231806-xssfhhj",
+												"updated": "20220117231823"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "–abort-on-container-exit 停止所有容器，如果任何一个容器被停止，不能与-d同时使用"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220117231806-6thlffg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117231806-6thlffg"
+									},
+									"Children": [
+										{
+											"ID": "20220117231806-r6r5nla",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117231806-r6r5nla",
+												"updated": "20220117231825"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "-t, –timeout TIMEOUT 停止容器时候的超时（默认为10秒）"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220117231806-0256fj7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117231806-0256fj7"
+									},
+									"Children": [
+										{
+											"ID": "20220117231806-okkfnrl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117231806-okkfnrl",
+												"updated": "20220117231826"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "–remove-orphans 删除服务中没有在compose文件中定义的容器"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220117231806-c80tesk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117231806-c80tesk",
+										"updated": "20220117231946"
+									},
+									"Children": [
+										{
+											"ID": "20220117231806-7avw6y7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117231806-7avw6y7",
+												"updated": "20220117231946"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "–scale SERVICE=NUM 设置服务运行容器的个数，将覆盖在compose中通过scale指定的参数"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220117231848-9c1f85i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117231848-9c1f85i",
+								"updated": "20220117231849"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在后台所有启动服务"
+								}
+							]
+						},
+						{
+							"ID": "20220117231851-uge62r6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117231851-uge62r6",
+								"updated": "20220117232216"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "-f "
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "指定使用的Compose模板文件，默认为docker-compose.yml，可以多次指定。\n例子："
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "docker-compose -f compose.yml up -d"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220117182116-co0k241",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220117182116-co0k241",
+				"updated": "20220117232340"
+			},
+			"Children": [
+				{
+					"ID": "20220117232249-xtp0njk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220117232249-xtp0njk",
+						"updated": "20220117232340"
+					},
+					"Children": [
+						{
+							"ID": "20220117232249-viav1j6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117232249-viav1j6",
+								"updated": "20220117232255"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "docker-compose ps"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220117232332-4n2tcqr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117232332-4n2tcqr",
+								"updated": "20220117232335"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "列出项目中目前所有的容器：docker-compose"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "-f docker-compose.yml  ps"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220117232336-7iqw9a3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117232336-7iqw9a3",
+								"updated": "20220117232340"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Image.png"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/Image-20220117232340-c17oqih.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220117232349-4d7zofw",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220117232349-4d7zofw",
+				"updated": "20220117232423"
+			},
+			"Children": [
+				{
+					"ID": "20220117232349-2rt17rg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220117232349-2rt17rg",
+						"updated": "20220117232423"
+					},
+					"Children": [
+						{
+							"ID": "20220117232349-7gxhs2m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117232349-7gxhs2m",
+								"updated": "20220117232423"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "docker-compose start"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220117232354-v1xwr71",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117232354-v1xwr71"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "启动已存在的服务容器：docker-compose  -f docker-compose.yml start"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220117232404-19spplu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117232404-19spplu",
+								"updated": "20220117232411"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/Image(167)-20220117232349-gddyrx3.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220117232349-68fzy5d",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220117232349-68fzy5d",
+				"updated": "20220117235732"
+			},
+			"Children": [
+				{
+					"ID": "20220117232349-kn4mdob",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220117232349-kn4mdob",
+						"updated": "20220117235730"
+					},
+					"Children": [
+						{
+							"ID": "20220117232349-g9aqya8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117232349-g9aqya8",
+								"updated": "20220117232424"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "docker-compose stop"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220117232433-9s14ey6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117232433-9s14ey6",
+								"updated": "20220117235730"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "停止正在运行的容器：docker-compose  -f docker-compose.yml stop"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220117232438-7svhhyo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117232438-7svhhyo",
+								"updated": "20220117232441"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Image.png"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/Image-20220117232441-ux33866.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220117232443-dhpl8rw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220117232443-dhpl8rw",
+						"updated": "20220117235732"
+					},
+					"Children": [
+						{
+							"ID": "20220117232443-y0t162s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117232443-y0t162s",
+								"updated": "20220117235724"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "docker-compose restart"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220117232450-h8mw8i3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117232450-h8mw8i3",
+								"updated": "20220117235732"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "重启项目中的服务：docker-compose -f docker-compose.yml restart"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220117232455-0222dv3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117232455-0222dv3",
+								"updated": "20220117232458"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Image.png"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/Image-20220117232458-mo1gtan.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220117232425-kvel3yz",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220117232425-kvel3yz",
+				"updated": "20220118000400"
+			},
+			"Children": [
+				{
+					"ID": "20220117232503-77ptalj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220117232503-77ptalj",
+						"updated": "20220118000400"
+					},
+					"Children": [
+						{
+							"ID": "20220117232503-2vkwxj9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117232503-2vkwxj9",
+								"updated": "20220118000357"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "docker-compose down"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220117235741-464h56t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117235741-464h56t",
+								"updated": "20220118000400"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "停止和删除容器、网络、卷、镜像"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ："
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "$ docker-compose down [options]"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220117235808-o8jsafa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117235808-o8jsafa",
+								"updated": "20220117235808"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "选项包括"
+								}
+							]
+						},
+						{
+							"ID": "20220117235808-6y17gdf",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220117235808-6y17gdf",
+								"updated": "20220117235808"
+							},
+							"Children": [
+								{
+									"ID": "20220117235808-b6jhtta",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117235808-b6jhtta"
+									},
+									"Children": [
+										{
+											"ID": "20220117235808-2vps42g",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117235808-2vps42g"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "–rmi type，删除镜像，类型必须是：all，删除compose文件中定义的所有镜像；local，删除镜像名为空的镜像"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220117235808-oj4et0s",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117235808-oj4et0s"
+									},
+									"Children": [
+										{
+											"ID": "20220117235808-hpqqj2l",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117235808-hpqqj2l"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "-v, –volumes，删除已经在compose文件中定义的和匿名的附在容器上的数据卷"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220117235808-x2wgx22",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220117235808-x2wgx22"
+									},
+									"Children": [
+										{
+											"ID": "20220117235808-3r7qktq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220117235808-3r7qktq"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "–remove-orphans，删除服务中没有在compose中定义的容器"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220117235757-qo718zh",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220117235757-qo718zh",
+				"updated": "20220118000406"
+			},
+			"Children": [
+				{
+					"ID": "20220117235813-kv5mkr2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220117235813-kv5mkr2",
+						"updated": "20220118000406"
+					},
+					"Children": [
+						{
+							"ID": "20220117235813-0siu7li",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220117235813-0siu7li",
+								"updated": "20220118000403"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "docke-compose logs"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220118000135-kukjsye",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118000135-kukjsye"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看服务容器的输出：默认情况下，docker-compose将对不同的服务输出使用不同的颜色来区分。可以通过–no-color来关闭颜色。"
+								}
+							]
+						},
+						{
+							"ID": "20220118000135-256jopm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118000135-256jopm",
+								"updated": "20220118000406"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "$ docker-compose logs [options] [SERVICE...]"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220118000140-yad6bix",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118000140-yad6bix",
+								"updated": "20220118000141"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Image.png"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/Image-20220118000141-a8uo0j0.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220118000132-b00q9x2",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220118000132-b00q9x2",
+				"updated": "20220118000415"
+			},
+			"Children": [
+				{
+					"ID": "20220118000143-fcl2w68",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220118000143-fcl2w68",
+						"updated": "20220118000415"
+					},
+					"Children": [
+						{
+							"ID": "20220118000143-slkyu4m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118000143-slkyu4m",
+								"updated": "20220118000411"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "docker-compose build"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220118000152-uev39ym",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118000152-uev39ym",
+								"updated": "20220118000153"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": " 构建（重新构建）项目中的服务容器"
+								}
+							]
+						},
+						{
+							"ID": "20220118000153-b5zl115",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118000153-b5zl115",
+								"updated": "20220118000415"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "$ docker-compose build [options] [--build-arg key=val...] [SERVICE...]"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220118000204-wa4fbuq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118000204-wa4fbuq",
+								"updated": "20220118000204"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "选项包括："
+								}
+							]
+						},
+						{
+							"ID": "20220118000204-qkn37jt",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220118000204-qkn37jt",
+								"updated": "20220118000204"
+							},
+							"Children": [
+								{
+									"ID": "20220118000204-0myzb9s",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118000204-0myzb9s"
+									},
+									"Children": [
+										{
+											"ID": "20220118000204-n2c1ttj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118000204-n2c1ttj"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "–compress 通过gzip压缩构建上下环境"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220118000204-gehonfv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118000204-gehonfv"
+									},
+									"Children": [
+										{
+											"ID": "20220118000204-01pm212",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118000204-01pm212"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "–force-rm 删除构建过程中的临时容器"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220118000204-v6moc0m",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118000204-v6moc0m"
+									},
+									"Children": [
+										{
+											"ID": "20220118000204-d70yu2k",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118000204-d70yu2k"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "–no-cache 构建镜像过程中不使用缓存"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220118000204-lwgfnrl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118000204-lwgfnrl"
+									},
+									"Children": [
+										{
+											"ID": "20220118000204-rwpiyin",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118000204-rwpiyin"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "–pull 始终尝试通过拉取操作来获取更新版本的镜像"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220118000204-g9dpsw9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118000204-g9dpsw9"
+									},
+									"Children": [
+										{
+											"ID": "20220118000204-t94184v",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118000204-t94184v"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "-m, –memory MEM为构建的容器设置内存大小"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220118000204-dw9x3qo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118000204-dw9x3qo"
+									},
+									"Children": [
+										{
+											"ID": "20220118000204-qk3yt8j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118000204-qk3yt8j"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "–build-arg key=val为服务设置build-time变量"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220118000206-fqh4f3m",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220118000206-fqh4f3m",
+				"updated": "20220118000420"
+			},
+			"Children": [
+				{
+					"ID": "20220118000213-qu3paoc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220118000213-qu3paoc",
+						"updated": "20220118000420"
+					},
+					"Children": [
+						{
+							"ID": "20220118000213-jxkx7x8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118000213-jxkx7x8",
+								"updated": "20220118000418"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "docker-compose pull"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220118000216-jof9uvw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118000216-jof9uvw",
+								"updated": "20220118000220"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "拉取服务依赖的镜像："
+								}
+							]
+						},
+						{
+							"ID": "20220118000221-wfk9g11",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118000221-wfk9g11",
+								"updated": "20220118000420"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "$ docker-compose rm [options] [SERVICE...]"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220118000232-gt2h0jc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118000232-gt2h0jc",
+								"updated": "20220118000232"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "选项包括："
+								}
+							]
+						},
+						{
+							"ID": "20220118000232-2ys69m5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118000232-2ys69m5",
+								"updated": "20220118000232"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "–f, –force，强制直接删除，包括非停止状态的容器"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220118000232-pxtun6a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118000232-pxtun6a",
+								"updated": "20220118000232"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "-v，删除容器所挂载的数据卷"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220118000242-by85vgf",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220118000242-by85vgf",
+				"updated": "20220118000424"
+			},
+			"Children": [
+				{
+					"ID": "20220118000244-4fvlhl3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220118000244-4fvlhl3",
+						"updated": "20220118000424"
+					},
+					"Children": [
+						{
+							"ID": "20220118000244-sh10m8w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118000244-sh10m8w",
+								"updated": "20220118000424"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "docker-compose run"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220118000255-8kk3c8k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118000255-8kk3c8k",
+								"updated": "20220118000255"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "在指定服务上执行一个命令。"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220118000255-b0pbez3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118000255-b0pbez3",
+								"updated": "20220118000300"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "$ docker-compose run [options] [-v VOLUME...] [-p PORT...] [-e KEY=VAL...] SERVICE [COMMAND] [ARGS...]"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220118000301-6m56s4a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220118000301-6m56s4a",
+				"updated": "20220118000310"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四、docker-compose 模板文件详解"
+				}
+			]
+		},
+		{
+			"ID": "20220118000311-8qo14xh",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220118000311-8qo14xh",
+				"updated": "20220118000324"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "ZG9ja2VyZmlsZQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Compose和Docker兼容性：\n    Compose 文件格式有3个版本,分别为1, 2.x 和 3.x\n    目前主流的为 3.x 其支持 docker 1.13.0 及其以上的版本\n常用参数：\n    version           # 指定 compose 文件的版本\n    services          # 定义所有的 service 信息, services 下面的第一级别的 key 既是一个 service 的名称\n        build                 # 指定包含构建上下文的路径, 或作为一个对象，该对象具有 context 和指定的 dockerfile 文件以及 args 参数值\n            context               # context: 指定 Dockerfile 文件所在的路径\n            dockerfile            # dockerfile: 指定 context 指定的目录下面的 Dockerfile 的名称(默认为 Dockerfile)\n            args                  # args: Dockerfile 在 build 过程中需要的参数 (等同于 docker container build --build-arg 的作用)\n            cache_from            # v3.2中新增的参数, 指定缓存的镜像列表 (等同于 docker container build --cache_from 的作用)\n            labels                # v3.3中新增的参数, 设置镜像的元数据 (等同于 docker container build --labels 的作用)\n            shm_size              # v3.5中新增的参数, 设置容器 /dev/shm 分区的大小 (等同于 docker container build --shm-size 的作用)\n        command               # 覆盖容器启动后默认执行的命令, 支持 shell 格式和 [] 格式\n        configs               # 不知道怎么用\n        cgroup_parent         # 不知道怎么用\n        container_name        # 指定容器的名称 (等同于 docker run --name 的作用)\n        credential_spec       # 不知道怎么用\n        deploy                # v3 版本以上, 指定与部署和运行服务相关的配置, deploy 部分是 docker stack 使用的, docker stack 依赖 docker swarm\n            endpoint_mode         # v3.3 版本中新增的功能, 指定服务暴露的方式\n                vip                   # Docker 为该服务分配了一个虚拟 IP(VIP), 作为客户端的访问服务的地址\n                dnsrr                 # DNS轮询, Docker 为该服务设置 DNS 条目, 使得服务名称的 DNS 查询返回一个 IP 地址列表, 客户端直接访问其中的一个地址\n            labels                # 指定服务的标签，这些标签仅在服务上设置\n            mode                  # 指定 deploy 的模式\n                global                # 每个集群节点都只有一个容器\n                replicated            # 用户可以指定集群中容器的数量(默认)\n            placement             # 不知道怎么用\n            replicas              # deploy 的 mode 为 replicated 时, 指定容器副本的数量\n            resources             # 资源限制\n                limits                # 设置容器的资源限制\n                    cpus: \"0.5\"           # 设置该容器最多只能使用 50% 的 CPU\n                    memory: 50M           # 设置该容器最多只能使用 50M 的内存空间\n                reservations          # 设置为容器预留的系统资源(随时可用)\n                    cpus: \"0.2\"           # 为该容器保留 20% 的 CPU\n                    memory: 20M           # 为该容器保留 20M 的内存空间\n            restart_policy        # 定义容器重启策略, 用于代替 restart 参数\n                condition             # 定义容器重启策略(接受三个参数)\n                    none                  # 不尝试重启\n                    on-failure            # 只有当容器内部应用程序出现问题才会重启\n                    any                   # 无论如何都会尝试重启(默认)\n                delay                 # 尝试重启的间隔时间(默认为 0s)\n                max_attempts          # 尝试重启次数(默认一直尝试重启)\n                window                # 检查重启是否成功之前的等待时间(即如果容器启动了, 隔多少秒之后去检测容器是否正常, 默认 0s)\n            update_config         # 用于配置滚动更新配置\n                parallelism           # 一次性更新的容器数量\n                delay                 # 更新一组容器之间的间隔时间\n                failure_action        # 定义更新失败的策略\n                    continue              # 继续更新\n                    rollback              # 回滚更新\n                    pause                 # 暂停更新(默认)\n                monitor               # 每次更新后的持续时间以监视更新是否失败(单位: ns|us|ms|s|m|h) (默认为0)\n                max_failure_ratio     # 回滚期间容忍的失败率(默认值为0)\n                order                 # v3.4 版本中新增的参数, 回滚期间的操作顺序\n                    stop-first            #旧任务在启动新任务之前停止(默认)\n                    start-first           #首先启动新任务, 并且正在运行的任务暂时重叠\n            rollback_config       # v3.7 版本中新增的参数, 用于定义在 update_config 更新失败的回滚策略\n                parallelism           # 一次回滚的容器数, 如果设置为0, 则所有容器同时回滚\n                delay                 # 每个组回滚之间的时间间隔(默认为0)\n                failure_action        # 定义回滚失败的策略\n                    continue              # 继续回滚\n                    pause                 # 暂停回滚\n                monitor               # 每次回滚任务后的持续时间以监视失败(单位: ns|us|ms|s|m|h) (默认为0)\n                max_failure_ratio     # 回滚期间容忍的失败率(默认值0)\n                order                 # 回滚期间的操作顺序\n                    stop-first            # 旧任务在启动新任务之前停止(默认)\n                    start-first           # 首先启动新任务, 并且正在运行的任务暂时重叠\n            注意：\n                支持 docker-compose up 和 docker-compose run 但不支持 docker stack deploy 的子选项\n                security_opt  container_name  devices  tmpfs  stop_signal  links    cgroup_parent\n                network_mode  external_links  restart  build  userns_mode  sysctls\n        devices               # 指定设备映射列表 (等同于 docker run --device 的作用)\n        depends_on            # 定义容器启动顺序 (此选项解决了容器之间的依赖关系， 此选项在 v3 版本中 使用 swarm 部署时将忽略该选项)\n            示例：\n                docker-compose up 以依赖顺序启动服务，下面例子中 redis 和 db 服务在 web 启动前启动\n                默认情况下使用 docker-compose up web 这样的方式启动 web 服务时，也会启动 redis 和 db 两个服务，因为在配置文件中定义了依赖关系\n                version: '3'\n                services:\n                    web:\n                        build: .\n                        depends_on:\n                            - db  \n                            - redis  \n                    redis:\n                        image: redis\n                    db:\n                        image: postgres                         \n        dns                   # 设置 DNS 地址(等同于 docker run --dns 的作用)\n        dns_search            # 设置 DNS 搜索域(等同于 docker run --dns-search 的作用)\n        tmpfs                 # v2 版本以上, 挂载目录到容器中, 作为容器的临时文件系统(等同于 docker run --tmpfs 的作用, 在使用 swarm 部署时将忽略该选项)\n        entrypoint            # 覆盖容器的默认 entrypoint 指令 (等同于 docker run --entrypoint 的作用)\n        env_file              # 从指定文件中读取变量设置为容器中的环境变量, 可以是单个值或者一个文件列表, 如果多个文件中的变量重名则后面的变量覆盖前面的变量, environment 的值覆盖 env_file 的值\n            文件格式：\n                RACK_ENV=development\n        environment           # 设置环境变量， environment 的值可以覆盖 env_file 的值 (等同于 docker run --env 的作用)\n        expose                # 暴露端口, 但是不能和宿主机建立映射关系, 类似于 Dockerfile 的 EXPOSE 指令\n        external_links        # 连接不在 docker-compose.yml 中定义的容器或者不在 compose 管理的容器(docker run 启动的容器, 在 v3 版本中使用 swarm 部署时将忽略该选项)\n        extra_hosts           # 添加 host 记录到容器中的 /etc/hosts 中 (等同于 docker run --add-host 的作用)\n        healthcheck           # v2.1 以上版本, 定义容器健康状态检查, 类似于 Dockerfile 的 HEALTHCHECK 指令\n            test                  # 检查容器检查状态的命令, 该选项必须是一个字符串或者列表, 第一项必须是 NONE, CMD 或 CMD-SHELL, 如果其是一个字符串则相当于 CMD-SHELL 加该字符串\n                NONE                  # 禁用容器的健康状态检测\n                CMD                   # test: [\"CMD\", \"curl\", \"-f\", \"http://localhost\"]\n                CMD-SHELL             # test: [\"CMD-SHELL\", \"curl -f http://localhost || exit 1\"] 或者　test: curl -f https://localhost || exit 1\n            interval: 1m30s       # 每次检查之间的间隔时间\n            timeout: 10s          # 运行命令的超时时间\n            retries: 3            # 重试次数\n            start_period: 40s     # v3.4 以上新增的选项, 定义容器启动时间间隔\n            disable: true         # true 或 false, 表示是否禁用健康状态检测和　test: NONE 相同\n        image                 # 指定 docker 镜像, 可以是远程仓库镜像、本地镜像\n        init                  # v3.7 中新增的参数, true 或 false 表示是否在容器中运行一个 init, 它接收信号并传递给进程\n        isolation             # 隔离容器技术, 在 Linux 中仅支持 default 值\n        labels                # 使用 Docker 标签将元数据添加到容器, 与 Dockerfile 中的 LABELS 类似\n        links                 # 链接到其它服务中的容器, 该选项是 docker 历史遗留的选项, 目前已被用户自定义网络名称空间取代, 最终有可能被废弃 (在使用 swarm 部署时将忽略该选项)\n        logging               # 设置容器日志服务\n            driver                # 指定日志记录驱动程序, 默认 json-file (等同于 docker run --log-driver 的作用)\n            options               # 指定日志的相关参数 (等同于 docker run --log-opt 的作用)\n                max-size              # 设置单个日志文件的大小, 当到达这个值后会进行日志滚动操作\n                max-file              # 日志文件保留的数量\n        network_mode          # 指定网络模式 (等同于 docker run --net 的作用, 在使用 swarm 部署时将忽略该选项)     \n        networks              # 将容器加入指定网络 (等同于 docker network connect 的作用), networks 可以位于 compose 文件顶级键和 services 键的二级键\n            aliases               # 同一网络上的容器可以使用服务名称或别名连接到其中一个服务的容器\n            ipv4_address      # IP V4 格式\n            ipv6_address      # IP V6 格式\n            示例:\n                version: '3.7'\n                services:\n                    test:\n                        image: nginx:1.14-alpine\n                        container_name: mynginx\n                        command: ifconfig\n                        networks:\n                            app_net:                                # 调用下面 networks 定义的 app_net 网络\n                            ipv4_address: 172.16.238.10\n                networks:\n                    app_net:\n                        driver: bridge\n                        ipam:\n                            driver: default\n                            config:\n                                - subnet: 172.16.238.0/24\n\n\n        pid: 'host'           # 共享宿主机的 进程空间(PID)\n\n\n        ports                 # 建立宿主机和容器之间的端口映射关系, ports 支持两种语法格式\n            SHORT 语法格式示例:\n                - \"3000\"                            # 暴露容器的 3000 端口, 宿主机的端口由 docker 随机映射一个没有被占用的端口\n                - \"3000-3005\"                       # 暴露容器的 3000 到 3005 端口, 宿主机的端口由 docker 随机映射没有被占用的端口\n                - \"8000:8000\"                       # 容器的 8000 端口和宿主机的 8000 端口建立映射关系\n                - \"9090-9091:8080-8081\"\n                - \"127.0.0.1:8001:8001\"             # 指定映射宿主机的指定地址的\n                - \"127.0.0.1:5000-5010:5000-5010\"   \n                - \"6060:6060/udp\"                   # 指定协议\n            LONG 语法格式示例:(v3.2 新增的语法格式)\n                ports:\n                    - target: 80                    # 容器端口\n                      published: 8080               # 宿主机端口\n                      protocol: tcp                 # 协议类型\n                      mode: host                    # host 在每个节点上发布主机端口,  ingress 对于群模式端口进行负载均衡\n        secrets               # 不知道怎么用\n        security_opt          # 为每个容器覆盖默认的标签 (在使用 swarm 部署时将忽略该选项)\n        stop_grace_period     # 指定在发送了 SIGTERM 信号之后, 容器等待多少秒之后退出(默认 10s)\n        stop_signal           # 指定停止容器发送的信号 (默认为 SIGTERM 相当于 kill PID; SIGKILL 相当于 kill -9 PID; 在使用 swarm 部署时将忽略该选项)\n        sysctls               # 设置容器中的内核参数 (在使用 swarm 部署时将忽略该选项)\n        ulimits               # 设置容器的 limit\n        userns_mode           # 如果Docker守护程序配置了用户名称空间, 则禁用此服务的用户名称空间 (在使用 swarm 部署时将忽略该选项)\n        volumes               # 定义容器和宿主机的卷映射关系, 其和 networks 一样可以位于 services 键的二级键和 compose 顶级键, 如果需要跨服务间使用则在顶级键定义, 在 services 中引用\n            SHORT 语法格式示例:\n                volumes:\n                    - /var/lib/mysql                # 映射容器内的 /var/lib/mysql 到宿主机的一个随机目录中\n                    - /opt/data:/var/lib/mysql      # 映射容器内的 /var/lib/mysql 到宿主机的 /opt/data\n                    - ./cache:/tmp/cache            # 映射容器内的 /var/lib/mysql 到宿主机 compose 文件所在的位置\n                    - ~/configs:/etc/configs/:ro    # 映射容器宿主机的目录到容器中去, 权限只读\n                    - datavolume:/var/lib/mysql     # datavolume 为 volumes 顶级键定义的目录, 在此处直接调用\n            LONG 语法格式示例:(v3.2 新增的语法格式)\n                version: \"3.2\"\n                services:\n                    web:\n                        image: nginx:alpine\n                        ports:\n                            - \"80:80\"\n                        volumes:\n                            - type: volume                  # mount 的类型, 必须是 bind、volume 或 tmpfs\n                                source: mydata              # 宿主机目录\n                                target: /data               # 容器目录\n                                volume:                     # 配置额外的选项, 其 key 必须和 type 的值相同\n                                    nocopy: true                # volume 额外的选项, 在创建卷时禁用从容器复制数据\n                            - type: bind                    # volume 模式只指定容器路径即可, 宿主机路径随机生成; bind 需要指定容器和数据机的映射路径\n                                source: ./static\n                                target: /opt/app/static\n                                read_only: true             # 设置文件系统为只读文件系统\n                volumes:\n                    mydata:                                 # 定义在 volume, 可在所有服务中调用\n\n\n        restart               # 定义容器重启策略(在使用 swarm 部署时将忽略该选项, 在 swarm 使用 restart_policy 代替 restart)\n            no                    # 禁止自动重启容器(默认)\n            always                # 无论如何容器都会重启\n            on-failure            # 当出现 on-failure 报错时, 容器重新启动\n\n\n        其他选项：\n            domainname, hostname, ipc, mac_address, privileged, read_only, shm_size, stdin_open, tty, user, working_dir\n            上面这些选项都只接受单个值和 docker run 的对应参数类似\n\n        对于值为时间的可接受的值：\n            2.5s\n            10s\n            1m30s\n            2h32m\n            5h34m56s\n            时间单位: us, ms, s, m， h\n        对于值为大小的可接受的值：\n            2b\n            1024kb\n            2048k\n            300m\n            1gb\n            单位: b, k, m, g 或者 kb, mb, gb\n    networks          # 定义 networks 信息\n        driver                # 指定网络模式, 大多数情况下, 它 bridge 于单个主机和 overlay Swarm 上\n            bridge                # Docker 默认使用 bridge 连接单个主机上的网络\n            overlay               # overlay 驱动程序创建一个跨多个节点命名的网络\n            host                  # 共享主机网络名称空间(等同于 docker run --net=host)\n            none                  # 等同于 docker run --net=none\n        driver_opts           # v3.2以上版本, 传递给驱动程序的参数, 这些参数取决于驱动程序\n        attachable            # driver 为 overlay 时使用, 如果设置为 true 则除了服务之外，独立容器也可以附加到该网络; 如果独立容器连接到该网络，则它可以与其他 Docker 守护进程连接到的该网络的服务和独立容器进行通信\n        ipam                  # 自定义 IPAM 配置. 这是一个具有多个属性的对象, 每个属性都是可选的\n            driver                # IPAM 驱动程序, bridge 或者 default\n            config                # 配置项\n                subnet                # CIDR格式的子网，表示该网络的网段\n        external              # 外部网络, 如果设置为 true 则 docker-compose up 不会尝试创建它, 如果它不存在则引发错误\n        name                  # v3.5 以上版本, 为此网络设置名称\n文件格式示例：\n    version: \"3\"\n    services:\n      redis:\n        image: redis:alpine\n        ports:\n          - \"6379\"\n        networks:\n          - frontend\n        deploy:\n          replicas: 2\n          update_config:\n            parallelism: 2\n            delay: 10s\n          restart_policy:\n            condition: on-failure\n      db:\n        image: postgres:9.4\n        volumes:\n          - db-data:/var/lib/postgresql/data\n        networks:\n          - backend\n        deploy:\n          placement:\n            constraints: [node.role == manager]\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220118000327-2jh8k9t",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220118000327-2jh8k9t",
+				"updated": "20220118000335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "五、挂载文件方式"
+				}
+			]
+		},
+		{
+			"ID": "20220118000336-t6gt4ft",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220118000336-t6gt4ft",
+				"updated": "20220118000342"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "ZG9ja2VyZmlsZQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "    volumes:\n      - /app/docker_home/datax-web_home/datax-mysql:/var/lib/mysql\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

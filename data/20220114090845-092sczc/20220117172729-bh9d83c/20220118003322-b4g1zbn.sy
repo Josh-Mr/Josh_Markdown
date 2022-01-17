@@ -1,0 +1,490 @@
+{
+	"ID": "20220118003322-b4g1zbn",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20220118003322-b4g1zbn",
+		"title": "Linux_Tomcat 安装过程",
+		"updated": "20220118003542"
+	},
+	"Children": [
+		{
+			"ID": "20220118003359-qx49k95",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220118003359-qx49k95",
+				"updated": "20220118003542"
+			},
+			"Children": [
+				{
+					"ID": "20220118003513-prl4fu5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220118003513-prl4fu5",
+						"updated": "20220118003542"
+					},
+					"Children": [
+						{
+							"ID": "20220118003513-l2wqxt0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118003513-l2wqxt0",
+								"updated": "20220118003542"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "下载tomcat*.tar.gz解压后"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220118003516-mkm9mpv",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220118003516-mkm9mpv",
+				"updated": "20220118003541"
+			},
+			"Children": [
+				{
+					"ID": "20220118003524-apznve1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220118003524-apznve1",
+						"updated": "20220118003541"
+					},
+					"Children": [
+						{
+							"ID": "20220118003524-c4mu67m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118003524-c4mu67m",
+								"updated": "20220118003541"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "看当前iptables(防火墙)规则"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220118003359-m898cut",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118003359-m898cut",
+				"updated": "20220118003406"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "#iptables -L -n（查看防火墙关闭的端口）"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220118003359-1d5gb0a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118003359-1d5gb0a",
+				"updated": "20220118003359"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "max-width: 601px;",
+						"style": "width: 591px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(173)-20220118003359-4ox8v7d.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 591px;\" parent-style=\"max-width: 601px;\"}"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220118003359-ydqr1uc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118003359-ydqr1uc",
+				"updated": "20220118003359"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "添加指定端口到防火墙中"
+				}
+			]
+		},
+		{
+			"ID": "20220118003359-wfrqvqr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118003359-wfrqvqr",
+				"updated": "20220118003413"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "iptables -I INPUT -p 协议 --dport 端口号 -j ACCEPT"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220118003429-dblyv6g",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220118003429-dblyv6g",
+				"updated": "20220118003439"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "例如\n#iptables -I INPUT -p udp --dport 161 -j ACCEPT\n#iptables -I INPUT -p tcp --dport 8080 -j ACCEPT\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220118003449-8i17ykd",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220118003449-8i17ykd",
+				"updated": "20220118003538"
+			},
+			"Children": [
+				{
+					"ID": "20220118003529-dep6ieu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220118003529-dep6ieu",
+						"updated": "20220118003538"
+					},
+					"Children": [
+						{
+							"ID": "20220118003529-z3tvy96",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118003529-z3tvy96",
+								"updated": "20220118003538"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "vim /etc/sysconfig/iptables 添加端口也可以"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220118003456-pjcsczf",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220118003456-pjcsczf",
+				"updated": "20220118003537"
+			},
+			"Children": [
+				{
+					"ID": "20220118003532-a547yer",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220118003532-a547yer",
+						"updated": "20220118003537"
+					},
+					"Children": [
+						{
+							"ID": "20220118003532-r7b7pef",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118003532-r7b7pef",
+								"updated": "20220118003537"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "查看、停止、重启防火墙 ( /etc/sysconfig/iptables )"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220118003456-8e0rhst",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220118003456-8e0rhst",
+				"updated": "20220118003456"
+			},
+			"Children": [
+				{
+					"ID": "20220118003456-zdd30v1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220118003456-zdd30v1"
+					},
+					"Children": [
+						{
+							"ID": "20220118003456-jfyrmou",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20220118003456-jfyrmou"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "service iptables status #查看iptables状态"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220118003456-l2epdgp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220118003456-l2epdgp"
+					},
+					"Children": [
+						{
+							"ID": "20220118003456-n474ywx",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20220118003456-n474ywx"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "service iptables restart #iptables服务重启"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220118003456-2anakxh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220118003456-2anakxh"
+					},
+					"Children": [
+						{
+							"ID": "20220118003456-jwdffhk",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20220118003456-jwdffhk"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "service iptables stop #iptables服务禁用"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -66,10 +66,11 @@
     "generateHistoryInterval": 5,
     "historyRetentionDays": 30,
     "emoji": [
-      "1f9d1-200d-1f4bb",
-      "1f58d",
+      "1f4dd",
       "1f4d9",
       "1f4d2",
+      "1f9d1-200d-1f4bb",
+      "1f58d",
       "1f4c2",
       "1f4c1",
       "1f468-200d-1f393",
@@ -77,7 +78,6 @@
       "1f3d8",
       "1f4d3",
       "1fa9f",
-      "1f4dd",
       "1f527",
       "1f4d4",
       "1f5d2",
@@ -162,7 +162,7 @@
   },
   "uiLayout": {
     "bottom": [],
-    "hideDock": true,
+    "hideDock": false,
     "layout": {
   "children": [
   {
@@ -207,28 +207,100 @@
     "children": [
   {
     "children": {
-  "blockId": "20220116115013-sa0mqdv",
+  "blockId": "20220117180112-nibupgh",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "英语学习"
+    "title": "Docker_操作、镜像、容器管理命令"
+  },
+  {
+    "children": {
+  "blockId": "20220117231207-ty81id1",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "2022-01-17"
+  },
+  {
+    "children": {
+  "blockId": "20220117181918-lw6xq1c",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Docker_Compose安装和使用"
+  },
+  {
+    "children": {
+  "blockId": "20220117173941-nl3wz4m",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Docker_ELK安装和使用"
+  },
+  {
+    "children": {
+  "blockId": "20220117172729-bh9d83c",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Linux"
+  },
+  {
+    "children": {
+  "blockId": "20220118000825-dikul4f",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Linux_安装JDK步骤"
+  },
+  {
+    "children": {
+  "blockId": "20220118002432-fblqmzs",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Linux_安装MySQL"
+  },
+  {
+    "children": {
+  "blockId": "20220118002551-v2w539c",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "常用命令"
+  },
+  {
+    "children": {
+  "blockId": "20220118002733-mnlgybo",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Linux基础"
   },
   {
     "active": true,
     "children": {
-  "blockId": "20220114091909-m4zwyue",
+  "blockId": "20220118002758-cdkwmh0",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "Centos7账号密码"
+    "title": "20220118002758"
   },
   {
     "children": {
-  "blockId": "20220114141311-ejcc5i3",
+  "blockId": "20220118002816-z625ujn",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "Window_日常使用"
+    "title": "Linux_Tomcat修改\u0026查看JVM内存大小"
+  },
+  {
+    "children": {
+  "blockId": "20220118003322-b4g1zbn",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Linux_Tomcat 安装过程"
   }
 ],
     "height": "",
@@ -236,7 +308,7 @@
     "width": ""
   }
 ],
-    "direction": "tb",
+    "direction": "lr",
     "instance": "Layout",
     "resize": "lr",
     "size": "auto",
@@ -786,7 +858,7 @@
     "virtualRefDoc": false
   },
   "stat": {
-    "docCount": 235
+    "docCount": 250
   },
   "api": {
     "token": "9lg6z7f4ub34blui"

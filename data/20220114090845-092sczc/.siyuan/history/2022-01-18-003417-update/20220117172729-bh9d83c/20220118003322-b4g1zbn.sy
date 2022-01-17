@@ -1,0 +1,186 @@
+{
+	"ID": "20220118003322-b4g1zbn",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220118003322-b4g1zbn",
+		"title": "Linux_Tomcat 安装过程",
+		"updated": "20220118003414"
+	},
+	"Children": [
+		{
+			"ID": "20220118003359-qx49k95",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118003359-qx49k95",
+				"updated": "20220118003359"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、下载tomcat*.tar.gz解压后"
+				}
+			]
+		},
+		{
+			"ID": "20220118003359-g0p3bvh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118003359-g0p3bvh",
+				"updated": "20220118003359"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、看当前iptables(防火墙)规则"
+				}
+			]
+		},
+		{
+			"ID": "20220118003359-m898cut",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118003359-m898cut",
+				"updated": "20220118003406"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "#iptables -L -n（查看防火墙关闭的端口）"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220118003359-1d5gb0a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118003359-1d5gb0a",
+				"updated": "20220118003359"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "max-width: 601px;",
+						"style": "width: 591px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(173)-20220118003359-4ox8v7d.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 591px;\" parent-style=\"max-width: 601px;\"}"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220118003359-ydqr1uc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118003359-ydqr1uc",
+				"updated": "20220118003359"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "添加指定端口到防火墙中"
+				}
+			]
+		},
+		{
+			"ID": "20220118003359-wfrqvqr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118003359-wfrqvqr",
+				"updated": "20220118003413"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "iptables -I INPUT -p 协议 --dport 端口号 -j ACCEPT"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220118003414-e1gwniw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118003414-e1gwniw",
+				"updated": "20220118003414"
+			}
+		}
+	]
+}
