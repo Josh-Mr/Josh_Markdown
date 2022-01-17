@@ -2369,3 +2369,42 @@ I 2022/01/17 01:28:37 index.go:355: resolved refs
 I 2022/01/17 01:28:37 conf.go:487: post-init database size [6.4 MB], tree stat [count=282, size=4.5 MB]
 I 2022/01/17 01:28:37 working.go:135: kernel booted
 I 2022/01/17 01:29:01 conf.go:341: exited kernel
+I 2022/01/17 09:00:38 working.go:95: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2022/01/17 09:00:39 runtime.go:49: kernel is booting:
+    * ver [1.6.3]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\SiYuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20211218]
+    * workspace directory [F:\Josh_Markdown, data 136 MB]
+    * pandoc [.exe 2.13]
+I 2022/01/17 09:00:39 conf.go:250: local serve path [http://127.0.0.1:6806]
+I 2022/01/17 09:00:39 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2022/01/17 09:00:39 conf.go:466: pre-init database size [6.4 MB]
+I 2022/01/17 09:00:39 index.go:132: use existing database for box [20210808180117-czj9bvb]
+I 2022/01/17 09:00:39 index.go:132: use existing database for box [20211217161537-movp6tu]
+I 2022/01/17 09:00:39 index.go:132: use existing database for box [20220114091112-ltzwxt5]
+I 2022/01/17 09:00:39 index.go:132: use existing database for box [20220114091146-9zrxcy8]
+I 2022/01/17 09:00:39 index.go:132: use existing database for box [20220114090845-092sczc]
+I 2022/01/17 09:00:39 index.go:132: use existing database for box [20220114091022-3vf8yw7]
+I 2022/01/17 09:00:39 index.go:132: use existing database for box [20211222145355-of875iy]
+I 2022/01/17 09:00:39 index.go:132: use existing database for box [20211218225346-xp0ksoo]
+I 2022/01/17 09:00:39 index.go:132: use existing database for box [20211218230747-88wsl35]
+I 2022/01/17 09:00:39 index.go:214: resolving refs...
+I 2022/01/17 09:00:40 index.go:355: resolved refs
+I 2022/01/17 09:00:40 conf.go:487: post-init database size [6.4 MB], tree stat [count=282, size=4.5 MB]
+I 2022/01/17 09:00:40 working.go:135: kernel booted
+I 2022/01/17 09:02:40 conf.go:341: exited kernel

@@ -66,6 +66,7 @@
     "generateHistoryInterval": 5,
     "historyRetentionDays": 30,
     "emoji": [
+      "1f9d1-200d-1f4bb",
       "1f58d",
       "1f4d9",
       "1f4d2",
@@ -74,7 +75,6 @@
       "1f468-200d-1f393",
       "1f4a1",
       "1f3d8",
-      "1f9d1-200d-1f4bb",
       "1f4d3",
       "1fa9f",
       "1f4dd",
@@ -230,7 +230,6 @@
     "title": "Maven_POM配置表"
   },
   {
-    "active": true,
     "children": {
   "blockId": "20220114091909-m4zwyue",
   "instance": "Editor"
@@ -295,68 +294,13 @@
     "title": "2022-01-13"
   },
   {
+    "active": true,
     "children": {
-  "blockId": "20200812220555-lj3enxa",
+  "blockId": "20220117090152-s0kpbgn",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "请从这里开始"
-  },
-  {
-    "children": {
-  "blockId": "20210117211155-56n4odu",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "数据安全"
-  },
-  {
-    "children": {
-  "blockId": "20210721101227-pi8f6ga",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "存储空间"
-  },
-  {
-    "children": {
-  "blockId": "20210721103420-vn6g2yy",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "数据同步"
-  },
-  {
-    "children": {
-  "blockId": "20201002090451-hb9j8ai",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "数据备份和恢复"
-  },
-  {
-    "children": {
-  "blockId": "20210721110423-5m6vo52",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "端到端加密"
-  },
-  {
-    "children": {
-  "blockId": "20210721154441-vav9m02",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "资源文件图床"
-  },
-  {
-    "children": {
-  "blockId": "20220105100506-auvmvcw",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "限制"
+    "title": "本人密码"
   }
 ],
     "height": "",
@@ -494,7 +438,7 @@
     "displayVIP": false
   },
   "readonly": false,
-  "localServeURL": "http://192.168.0.109:6806",
+  "localServeURL": "http://127.0.0.1:6806",
   "accessAuthCode": "",
   "e2eePasswd": "",
   "checkUpdate": 1,
