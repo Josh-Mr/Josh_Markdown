@@ -1,0 +1,382 @@
+{
+	"ID": "20220119101245-86yrrsr",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220119101245-86yrrsr",
+		"title": "Linux_系统目录结构",
+		"updated": "20220119101312"
+	},
+	"Children": [
+		{
+			"ID": "20220119101312-bm687ls",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119101312-bm687ls",
+				"updated": "20220119101312"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、、Linux系统目录结构"
+				}
+			]
+		},
+		{
+			"ID": "20220119101312-82vq17q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119101312-82vq17q",
+				"updated": "20220119101312"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "max-width: 539px;",
+						"style": "width: 529px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(175)-20220119101312-lzq3o7f.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 529px;\" parent-style=\"max-width: 539px;\"}"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119101312-f9kb5oi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119101312-f9kb5oi",
+				"updated": "20220119101312"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "主要的目录："
+				}
+			]
+		},
+		{
+			"ID": "20220119101312-oyfkbsk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119101312-oyfkbsk",
+				"updated": "20220119101354"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "/bin"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " : binary（二进制）的缩写，主要放置的是"
+				},
+				{
+					"Type": "NodeMark",
+					"Data": "mark",
+					"Children": [
+						{
+							"Type": "NodeMark2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "常用的命令"
+						},
+						{
+							"Type": "NodeMark2CloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20220119101312-e1horwo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119101312-e1horwo",
+				"updated": "20220119101352"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "/boot"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": ": 主要存放的是linux"
+				},
+				{
+					"Type": "NodeMark",
+					"Data": "mark",
+					"Children": [
+						{
+							"Type": "NodeMark2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "启动时的引导文件"
+						},
+						{
+							"Type": "NodeMark2CloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，包括连接和镜像文件。"
+				}
+			]
+		},
+		{
+			"ID": "20220119101312-dmnzift",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119101312-dmnzift",
+				"updated": "20220119101348"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "/dev:"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " device（设备）的缩写，主要存放的是"
+				},
+				{
+					"Type": "NodeMark",
+					"Data": "mark",
+					"Children": [
+						{
+							"Type": "NodeMark2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "外部设备的访问方式"
+						},
+						{
+							"Type": "NodeMark2CloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "等。"
+				}
+			]
+		},
+		{
+			"ID": "20220119101312-hndz0fj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119101312-hndz0fj",
+				"updated": "20220119101346"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4、"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "/usr"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": ":  这是一个非常重要的目录，"
+				},
+				{
+					"Type": "NodeMark",
+					"Data": "mark",
+					"Children": [
+						{
+							"Type": "NodeMark2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "用户的很多应用程序和文件都放在这个目录下"
+						},
+						{
+							"Type": "NodeMark2CloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，类似与windows下的program files目录。"
+				}
+			]
+		},
+		{
+			"ID": "20220119101312-owucaww",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119101312-owucaww",
+				"updated": "20220119101344"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5、"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "/etc "
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": ":  这个目录用来存放"
+				},
+				{
+					"Type": "NodeMark",
+					"Data": "mark",
+					"Children": [
+						{
+							"Type": "NodeMark2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "所有的系统管理所需要的配置文件和子目录"
+						},
+						{
+							"Type": "NodeMark2CloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		}
+	]
+}

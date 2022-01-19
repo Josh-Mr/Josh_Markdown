@@ -67,8 +67,8 @@
     "historyRetentionDays": 30,
     "emoji": [
       "1f4dd",
-      "1f4d9",
       "1f4d2",
+      "1f4d9",
       "1f9d1-200d-1f4bb",
       "1f58d",
       "1f4c2",
@@ -207,67 +207,19 @@
     "children": [
   {
     "children": {
-  "blockId": "20220117180112-nibupgh",
+  "blockId": "20220118093507-6za5kk0",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "Docker_操作、镜像、容器管理命令"
+    "title": "Mysql_自增ID与UUID索引结构对比"
   },
   {
     "children": {
-  "blockId": "20220117231207-ty81id1",
+  "blockId": "20220118002758-cdkwmh0",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "2022-01-17"
-  },
-  {
-    "children": {
-  "blockId": "20220117181918-lw6xq1c",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "Docker_Compose安装和使用"
-  },
-  {
-    "children": {
-  "blockId": "20220117173941-nl3wz4m",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "Docker_ELK安装和使用"
-  },
-  {
-    "children": {
-  "blockId": "20220117172729-bh9d83c",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "Linux"
-  },
-  {
-    "children": {
-  "blockId": "20220118000825-dikul4f",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "Linux_安装JDK步骤"
-  },
-  {
-    "children": {
-  "blockId": "20220118002432-fblqmzs",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "Linux_安装MySQL"
-  },
-  {
-    "children": {
-  "blockId": "20220118002551-v2w539c",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "常用命令"
+    "title": "Linux_目录操作命令"
   },
   {
     "children": {
@@ -278,13 +230,44 @@
     "title": "Linux基础"
   },
   {
-    "active": true,
     "children": {
-  "blockId": "20220118002758-cdkwmh0",
+  "blockId": "20220118220511-mvweok5",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "20220118002758"
+    "title": "Linux_文件操作命令"
+  },
+  {
+    "children": {
+  "blockId": "20220119093814-89hiwpi",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Linux_权限命令"
+  },
+  {
+    "children": {
+  "blockId": "20220119101245-86yrrsr",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Linux_系统目录结构"
+  },
+  {
+    "children": {
+  "blockId": "20220119101520-g3hd5tp",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Linux_NFS搭建与配置（Centos7）"
+  },
+  {
+    "children": {
+  "blockId": "20220118003322-b4g1zbn",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Linux_安装Tomcat过程"
   },
   {
     "children": {
@@ -296,11 +279,100 @@
   },
   {
     "children": {
-  "blockId": "20220118003322-b4g1zbn",
+  "blockId": "20220118002432-fblqmzs",
   "instance": "Editor"
 },
     "instance": "Tab",
-    "title": "Linux_Tomcat 安装过程"
+    "title": "Linux_安装MySQL"
+  },
+  {
+    "children": {
+  "blockId": "20220118000825-dikul4f",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Linux_安装JDK步骤"
+  },
+  {
+    "children": {
+  "blockId": "20220119104521-7401p14",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Linux_常用操作命令"
+  },
+  {
+    "children": {
+  "blockId": "20220119114221-xlm9k86",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Linux_Centos7防火墙设置"
+  },
+  {
+    "children": {
+  "blockId": "20220119114234-f3brwfx",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Linux_在线传输文件"
+  },
+  {
+    "children": {
+  "blockId": "20220119115219-ivs9men",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Linux_常用操作命令（参考）"
+  },
+  {
+    "children": {
+  "blockId": "20220119174728-ccpcsae",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Nginx"
+  },
+  {
+    "children": {
+  "blockId": "20220119174847-2z6yoie",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Nginx安装、启动、停用"
+  },
+  {
+    "children": {
+  "blockId": "20220119175548-p5cndji",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Nginx_反向代理"
+  },
+  {
+    "children": {
+  "blockId": "20220119175938-ir0ttvp",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Nginx_负载均衡\u0026Session复制共享配置"
+  },
+  {
+    "children": {
+  "blockId": "20220119180738-uer82im",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "Nginx_配置文件详解"
+  },
+  {
+    "active": true,
+    "children": {
+  "blockId": "20220119181247-q4p5st7",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "如何解决Session共享问题？"
   }
 ],
     "height": "",
@@ -375,7 +447,7 @@
   ],
   [
     {
-      "show": false,
+      "show": true,
       "size": {
   "height": null,
   "width": 290
@@ -438,7 +510,7 @@
     "displayVIP": false
   },
   "readonly": false,
-  "localServeURL": "http://127.0.0.1:6806",
+  "localServeURL": "http://192.168.56.1:6806",
   "accessAuthCode": "",
   "e2eePasswd": "",
   "checkUpdate": 1,
@@ -858,7 +930,7 @@
     "virtualRefDoc": false
   },
   "stat": {
-    "docCount": 250
+    "docCount": 265
   },
   "api": {
     "token": "9lg6z7f4ub34blui"

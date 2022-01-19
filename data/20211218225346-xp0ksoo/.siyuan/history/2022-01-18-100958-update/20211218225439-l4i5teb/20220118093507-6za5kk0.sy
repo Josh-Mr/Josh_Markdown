@@ -1,0 +1,426 @@
+{
+	"ID": "20220118093507-6za5kk0",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220118093507-6za5kk0",
+		"title": "Mysql_自增ID与UUID索引结构对比",
+		"updated": "20220118100705"
+	},
+	"Children": [
+		{
+			"ID": "20220118100538-yvka3cy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118100538-yvka3cy",
+				"updated": "20220118100538"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "2.1 使用自增id的内部结构"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220118100538-o9040c5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118100538-o9040c5",
+				"updated": "20220118100550"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220118100550-cc86qbt.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220118100538-wzq14ta",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118100538-wzq14ta",
+				"updated": "20220118100538"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "自增的主键的值是顺序的,所以Innodb把每一条记录都存储在一条记录的后面。当达到页面的最大填充因子时候(innodb默认的最大填充因子是页大小的15/16,会留出1/16的空间留作以后的     修改)："
+				}
+			]
+		},
+		{
+			"ID": "20220118100538-cvf85jb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118100538-cvf85jb",
+				"updated": "20220118100538"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "①. 下一条记录就会写入新的页中，一旦数据按照这种顺序的方式加载，主键页就会近乎于顺序的记录填满，提升了页面的最大填充率，不会有页的浪费"
+				}
+			]
+		},
+		{
+			"ID": "20220118100538-6hgf4jq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118100538-6hgf4jq",
+				"updated": "20220118100538"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "②. 新插入的行一定会在原有的最大数据行下一行,mysql定位和寻址很快，不会为计算新行的位置而做出额外的消耗"
+				}
+			]
+		},
+		{
+			"ID": "20220118100538-9exlm4j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118100538-9exlm4j",
+				"updated": "20220118100538"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "③. 减少了页分裂和碎片的产生"
+				}
+			]
+		},
+		{
+			"ID": "20220118100552-x5wk39t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118100552-x5wk39t",
+				"updated": "20220118100602"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "2.2 使用uuid的索引内部结构"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220118100603-jt4nmnd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118100603-jt4nmnd",
+				"updated": "20220118100615"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220118100614-dlzwoo1.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220118100625-5dy2scu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118100625-5dy2scu",
+				"updated": "20220118100625"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "因为uuid相对顺序的自增id来说是毫无规律可言的,新行的值不一定要比之前的主键的值要大,所以innodb无法做到总是把新行插入到索引的最后,而是需要为新行寻找新的合适的位置从而来分配新的空间。这个过程需要做很多额外的操作，数据的毫无顺序会导致数据分布散乱，将会导致以下的问题："
+				}
+			]
+		},
+		{
+			"ID": "20220118100625-jv10wbi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118100625-jv10wbi",
+				"updated": "20220118100625"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "①. 写入的目标页很可能已经刷新到磁盘上并且从缓存上移除，或者还没有被加载到缓存中，innodb在插入之前不得不先找到并从磁盘读取目标页到内存中，这将导致大量的随机IO"
+				}
+			]
+		},
+		{
+			"ID": "20220118100625-as98mr1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118100625-as98mr1",
+				"updated": "20220118100625"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**②. **因为写入是乱序的,innodb不得不频繁的做页分裂操作,以便为新的行分配空间,页分裂导致移动大量的数据，一次插入最少需要修改三个页以上"
+				}
+			]
+		},
+		{
+			"ID": "20220118100625-xecd2q6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118100625-xecd2q6",
+				"updated": "20220118100625"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**③. **由于频繁的页分裂，页会变得稀疏并被不规则的填充，最终会导致数据会有碎片"
+				}
+			]
+		},
+		{
+			"ID": "20220118100625-6d9jxjc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118100625-6d9jxjc",
+				"updated": "20220118100625"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在把随机值（uuid和雪花id）载入到聚簇索引(innodb默认的索引类型)以后,有时候会需要做一次OPTIMEIZE TABLE来重建表并优化页的填充，这将又需要一定的时间消耗。"
+				}
+			]
+		},
+		{
+			"ID": "20220118100625-hf3hk3f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118100625-hf3hk3f",
+				"updated": "20220118100625"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "结论：使用innodb应该尽可能的按主键的自增顺序插入，并且尽可能使用单调的增加的聚簇键的值来插入新行"
+				}
+			]
+		},
+		{
+			"ID": "20220118100626-iyelfhg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118100626-iyelfhg",
+				"updated": "20220118100630"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "2.3 使用自增id的缺点"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220118100635-zbobsqb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118100635-zbobsqb",
+				"updated": "20220118100635"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "那么使用自增的id就完全没有坏处了吗？并不是，自增id也会存在以下几点问题："
+				}
+			]
+		},
+		{
+			"ID": "20220118100635-xuskd1z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118100635-xuskd1z",
+				"updated": "20220118100635"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "①. 别人一旦爬取你的数据库,就可以根据数据库的自增id获取到你的业务增长信息，很容易分析出你的经营情况"
+				}
+			]
+		},
+		{
+			"ID": "20220118100635-tthhsi0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118100635-tthhsi0",
+				"updated": "20220118100635"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "②. 对于高并发的负载，innodb在按主键进行插入的时候会造成明显的锁争用，主键的上界会成为争抢的热点，因为所有的插入都发生在这里，并发插入会导致间隙锁竞争"
+				}
+			]
+		},
+		{
+			"ID": "20220118100635-2hmpx03",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118100635-2hmpx03",
+				"updated": "20220118100635"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "③. Auto_Increment锁机制会造成自增锁的抢夺,有一定的性能损失"
+				}
+			]
+		},
+		{
+			"ID": "20220118100635-cmkod3d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118100635-cmkod3d",
+				"updated": "20220118100635"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "附："
+				}
+			]
+		},
+		{
+			"ID": "20220118100635-pupj8c1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118100635-pupj8c1",
+				"updated": "20220118100635"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Auto_increment的锁争抢问题，如果要改善需要调优innodb_autoinc_lock_mode的配置"
+				}
+			]
+		},
+		{
+			"ID": "20220118100705-vra5q8u",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220118100705-vra5q8u",
+				"updated": "20220118100705"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、总结"
+				}
+			]
+		},
+		{
+			"ID": "20220118100705-n7b4jxv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220118100705-n7b4jxv",
+				"updated": "20220118100705"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "本篇博客首先从开篇的提出问题,建表到使用jdbcTemplate去测试不同id的生成策略在大数据量的数据插入表现，然后分析了id的机制不同在mysql的索引结构以及优缺点，深入的解释了为何uuid和随机不重复id在数据插入中的性能损耗，详细的解释了这个问题。在实际的开发中还是根据mysql的官方推荐最好使用自增id，mysql博大精深，内部还有很多值得优化的点需要我们学习。"
+				}
+			]
+		}
+	]
+}

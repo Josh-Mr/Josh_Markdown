@@ -1,0 +1,1048 @@
+{
+	"ID": "20220119104521-7401p14",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220119104521-7401p14",
+		"title": "Linux_常用操作命令",
+		"updated": "20220119113423"
+	},
+	"Children": [
+		{
+			"ID": "20220119104521-kxxd9su",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220119104521-kxxd9su",
+				"updated": "20220119111307"
+			},
+			"Children": [
+				{
+					"ID": "20220119105114-1z330vx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220119105114-1z330vx",
+						"updated": "20220119111307"
+					},
+					"Children": [
+						{
+							"ID": "20220119105114-h6j15jt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119105114-h6j15jt",
+								"updated": "20220119111307"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "查看进程是否启动"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220119105414-dyyb87j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119105414-dyyb87j",
+								"updated": "20220119105551"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "ps aux | grep tomcat "
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220119105423-4thbmru",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119105423-4thbmru",
+								"updated": "20220119105745"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "推荐"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "ps -ef | grep tomcat"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119105642-dyvkht1",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220119105642-dyvkht1",
+				"updated": "20220119112641"
+			},
+			"Children": [
+				{
+					"ID": "20220119105751-ghdz8hr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220119105751-ghdz8hr"
+					},
+					"Children": [
+						{
+							"ID": "20220119105751-cd4zgd0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119105751-cd4zgd0",
+								"updated": "20220119111420"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "查看端口方式"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "（杀进程）"
+								}
+							]
+						},
+						{
+							"ID": "20220119111319-8dj1zmy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119111319-8dj1zmy",
+								"updated": "20220119111943"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "netstat -apn | grep 8080"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "（Linux）"
+								}
+							]
+						},
+						{
+							"ID": "20220119111331-5hnvu7m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119111331-5hnvu7m",
+								"updated": "20220119111945"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "netstat -ano | findstr 80"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "（windows）"
+								}
+							]
+						},
+						{
+							"ID": "20220119111341-9w10fam",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220119111341-9w10fam",
+								"updated": "20220119111347"
+							},
+							"Children": [
+								{
+									"ID": "20220119111347-dvd1izp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220119111347-dvd1izp"
+									},
+									"Children": [
+										{
+											"ID": "20220119111347-lhwxbww",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119111347-lhwxbww",
+												"updated": "20220119111948"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "taskkill /pid 4136 -t -f"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " （window杀进程）"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220119111330-rg4kun7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220119111330-rg4kun7",
+						"updated": "20220119112641"
+					},
+					"Children": [
+						{
+							"ID": "20220119111330-tf3i3lw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119111330-tf3i3lw",
+								"updated": "20220119112634"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看服务cpu利用"
+								}
+							]
+						},
+						{
+							"ID": "20220119112635-277boif",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119112635-277boif",
+								"updated": "20220119112641"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "top"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119112112-6mxo4bv",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220119112112-6mxo4bv",
+				"updated": "20220119112700"
+			},
+			"Children": [
+				{
+					"ID": "20220119112648-wo5b0v3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220119112648-wo5b0v3",
+						"updated": "20220119112700"
+					},
+					"Children": [
+						{
+							"ID": "20220119112648-mnl9luk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119112648-mnl9luk",
+								"updated": "20220119112649"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看服务对应端口"
+								}
+							]
+						},
+						{
+							"ID": "20220119112650-yqcfrh1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119112650-yqcfrh1",
+								"updated": "20220119112700"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "netstat -nlp"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119112701-vtk8ef1",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220119112701-vtk8ef1",
+				"updated": "20220119112801"
+			},
+			"Children": [
+				{
+					"ID": "20220119112702-swxbz4u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220119112702-swxbz4u",
+						"updated": "20220119112801"
+					},
+					"Children": [
+						{
+							"ID": "20220119112702-0r9dlfd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119112702-0r9dlfd",
+								"updated": "20220119112755"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看运行内存（Memory）信息"
+								}
+							]
+						},
+						{
+							"ID": "20220119112755-9h2gdla",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119112755-9h2gdla",
+								"updated": "20220119112801"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "free -m"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119112802-nody132",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220119112802-nody132",
+				"updated": "20220119112819"
+			},
+			"Children": [
+				{
+					"ID": "20220119112803-g7ye2wh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220119112803-g7ye2wh",
+						"updated": "20220119112819"
+					},
+					"Children": [
+						{
+							"ID": "20220119112803-0lpq1f0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119112803-0lpq1f0",
+								"updated": "20220119112813"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看实时文件内容，用于查看日志"
+								}
+							]
+						},
+						{
+							"ID": "20220119112814-bz3z53z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119112814-bz3z53z",
+								"updated": "20220119112819"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "tail -f （filename）"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119112820-7xu78yi",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220119112820-7xu78yi",
+				"updated": "20220119112956"
+			},
+			"Children": [
+				{
+					"ID": "20220119112825-pp77kvj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20220119112825-pp77kvj",
+						"updated": "20220119112956"
+					},
+					"Children": [
+						{
+							"ID": "20220119112825-bbd0nxo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119112825-bbd0nxo",
+								"updated": "20220119112904"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在linux中，"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "\u0026"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 和 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "\u0026\u0026"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " , "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "| "
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "和 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "|| "
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "介绍如下"
+								}
+							]
+						},
+						{
+							"ID": "20220119112826-nvijc5d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119112826-nvijc5d",
+								"updated": "20220119112844"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "\u0026"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " : 表示任务在后台执行，如要在后台运行redis-server,则有? redis-server"
+								}
+							]
+						},
+						{
+							"ID": "20220119112847-49cq2zn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119112847-49cq2zn",
+								"updated": "20220119112856"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "\u0026\u0026"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " : 表示前一条命令执行成功时，才执行后一条命令 ，如 echo '1‘ \u0026\u0026 echo '2'"
+								}
+							]
+						},
+						{
+							"ID": "20220119112945-69f5ym0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119112945-69f5ym0",
+								"updated": "20220119112954"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "| "
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 表示管道，上一条命令的输出，作为下一条命令参数，如 echo 'yes' | wc -l"
+								}
+							]
+						},
+						{
+							"ID": "20220119112946-kjxj10v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119112946-kjxj10v",
+								"updated": "20220119112956"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "||"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " : 表示上一条命令执行失败后，才执行下一条命令，如 cat nofile || echo \"fail\""
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119112957-s4ymf6s",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220119112957-s4ymf6s",
+				"updated": "20220119113017"
+			},
+			"Children": [
+				{
+					"ID": "20220119113005-p0zt4v4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20220119113005-p0zt4v4",
+						"updated": "20220119113017"
+					},
+					"Children": [
+						{
+							"ID": "20220119113005-pv5rckg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119113005-pv5rckg",
+								"updated": "20220119113010"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "显示当前位置"
+								}
+							]
+						},
+						{
+							"ID": "20220119113011-w5gh3yk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119113011-w5gh3yk",
+								"updated": "20220119113017"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "pwd"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119113017-dexlmrz",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220119113017-dexlmrz",
+				"updated": "20220119113420"
+			},
+			"Children": [
+				{
+					"ID": "20220119113357-s1n124l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20220119113357-s1n124l"
+					},
+					"Children": [
+						{
+							"ID": "20220119113357-3komwh7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119113357-3komwh7",
+								"updated": "20220119113357"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "管道命令"
+								}
+							]
+						},
+						{
+							"ID": "20220119113358-n4zy15x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119113358-n4zy15x",
+								"updated": "20220119113406"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "| "
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：将前一个命令的输出作为本次目录的输入"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220119113409-bgqdkdr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20220119113409-bgqdkdr",
+						"updated": "20220119113420"
+					},
+					"Children": [
+						{
+							"ID": "20220119113409-f9w8xi8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119113409-f9w8xi8",
+								"updated": "20220119113415"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "杀死进程"
+								}
+							]
+						},
+						{
+							"ID": "20220119113415-a81fbwh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119113415-a81fbwh",
+								"updated": "20220119113420"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "kill -9 pid"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119113421-qcp44j7",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220119113421-qcp44j7",
+				"updated": "20220119113423"
+			},
+			"Children": [
+				{
+					"ID": "20220119113423-s797z2q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20220119113423-s797z2q"
+					},
+					"Children": [
+						{
+							"ID": "20220119113423-yy5kex4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119113423-yy5kex4"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1258 @@
+{
+	"ID": "20220118220511-mvweok5",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220118220511-mvweok5",
+		"title": "Linux_文件操作命令",
+		"updated": "20220119093521"
+	},
+	"Children": [
+		{
+			"ID": "20220118231839-eebtxte",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220118231839-eebtxte",
+				"updated": "20220119093521"
+			},
+			"Children": [
+				{
+					"ID": "20220118231839-pr0l7vm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220118231839-pr0l7vm"
+					},
+					"Children": [
+						{
+							"ID": "20220118231839-ugty9cb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118231839-ugty9cb",
+								"updated": "20220118232308"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "文件的创建"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220118231839-84h0ix6",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220118231839-84h0ix6"
+							},
+							"Children": [
+								{
+									"ID": "20220118231839-qkrcedk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118231839-qkrcedk"
+									},
+									"Children": [
+										{
+											"ID": "20220118231839-hmgav8c",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118231839-hmgav8c",
+												"updated": "20220118232008"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "touch test.txt"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220118231839-crzg811",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220118231839-crzg811"
+					},
+					"Children": [
+						{
+							"ID": "20220118231839-di7g1sz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118231839-di7g1sz",
+								"updated": "20220118232309"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "文件的查看"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220118232010-1e3w65i",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220118232010-1e3w65i"
+							},
+							"Children": [
+								{
+									"ID": "20220118231839-jqdi6gg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118231839-jqdi6gg"
+									},
+									"Children": [
+										{
+											"ID": "20220118231839-55oxhii",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118231839-55oxhii",
+												"updated": "20220118232014"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "cat -n fileName"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 查看文件"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220118231839-lhiss24",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118231839-lhiss24"
+									},
+									"Children": [
+										{
+											"ID": "20220118231839-063801p",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118231839-063801p",
+												"updated": "20220118232026"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "tail -f "
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "查看动态监控"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220118231839-nq4ufkd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118231839-nq4ufkd"
+									},
+									"Children": [
+										{
+											"ID": "20220118231839-7bs7db1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118231839-7bs7db1",
+												"updated": "20220118232141"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "注意：命令 tail -f 文件 可以对某个文件进行动态监控，例如tomcat的日志文件，   会随着程序的运行，日志会变化，可以使用tail -f catalina-2016-11-11.log 监控 文 件的变化"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220118231839-4rnfsut",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220118231839-4rnfsut"
+					},
+					"Children": [
+						{
+							"ID": "20220118231839-davq4cm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118231839-davq4cm",
+								"updated": "20220118232310"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "修改文件的内容"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220118232149-28uurtz",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220118232149-28uurtz"
+							},
+							"Children": [
+								{
+									"ID": "20220118231839-m7uqgt8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118231839-m7uqgt8"
+									},
+									"Children": [
+										{
+											"ID": "20220118231839-m3d4lgy",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118231839-m3d4lgy",
+												"updated": "20220118232225"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "vim 文件名"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220118231839-bjvo1r8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118231839-bjvo1r8"
+									},
+									"Children": [
+										{
+											"ID": "20220118231839-rq12k1b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118231839-rq12k1b",
+												"updated": "20220118232239"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "关于vim使用过程：vim 文件------\u003e进入文件-----\u003e命令模式------\u003e按"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "i"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "进入编辑模式-----\u003e编辑文件     -------\u003e按"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "Esc"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "进入底行模式-----\u003e输入:"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "wq"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "或者"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "q!"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220118231839-12w56cl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118231839-12w56cl"
+									},
+									"Children": [
+										{
+											"ID": "20220118231839-ckgjig6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118231839-ckgjig6",
+												"updated": "20220118232251"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "进入底行模式，在底行模式下输入"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "wq"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "代表写入内容并退出，即保存；输入"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "q!"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "代表强制退出不保存。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220118231839-ubfys06",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220118231839-ubfys06"
+					},
+					"Children": [
+						{
+							"ID": "20220118231839-brxzwnj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118231839-brxzwnj",
+								"updated": "20220118232314"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "打包并解压文件"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220118232301-lmw4p8a",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220118232301-lmw4p8a"
+							},
+							"Children": [
+								{
+									"ID": "20220118231839-xqgvb2h",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118231839-xqgvb2h"
+									},
+									"Children": [
+										{
+											"ID": "20220118231839-n9ob8gk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118231839-n9ob8gk",
+												"updated": "20220119092306"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Linux中的"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "打包文件"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "一般是以.tar结尾的，"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "压缩的命令"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "一般是以.gz结尾的。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220118231839-svtdjjf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118231839-svtdjjf"
+									},
+									"Children": [
+										{
+											"ID": "20220118231839-bk7otai",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118231839-bk7otai",
+												"updated": "20220119092317"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "而一般情况下"
+												},
+												{
+													"Type": "NodeMark",
+													"Data": "mark",
+													"Children": [
+														{
+															"Type": "NodeMark2OpenMarker"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "打包和压缩"
+														},
+														{
+															"Type": "NodeMark2CloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "是一起进行的，打包并压缩后的文件的后缀名一般"
+												},
+												{
+													"Type": "NodeMark",
+													"Data": "mark",
+													"Children": [
+														{
+															"Type": "NodeMark2OpenMarker"
+														},
+														{
+															"Type": "NodeText",
+															"Data": ".tar.gz"
+														},
+														{
+															"Type": "NodeMark2CloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220118231839-b7akk4u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220118231839-b7akk4u",
+						"updated": "20220119093436"
+					},
+					"Children": [
+						{
+							"ID": "20220118231839-1pbtqp6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118231839-1pbtqp6",
+								"updated": "20220119093436"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Properties": {
+										"style": "color: var(--b3-font-color12);"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "压缩打包命令"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "tar -zcvf 打包压缩后的文件名 要打包压缩的文件"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220119092345-cpuei3n",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220119092345-cpuei3n"
+							},
+							"Children": [
+								{
+									"ID": "20220118231839-y1mj7jz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118231839-y1mj7jz"
+									},
+									"Children": [
+										{
+											"ID": "20220118231839-5h415p2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118231839-5h415p2",
+												"updated": "20220119092355"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "z"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "：调用gzip压缩命令进行压缩"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220118231839-mmq6uvv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118231839-mmq6uvv"
+									},
+									"Children": [
+										{
+											"ID": "20220118231839-u2heeb8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118231839-u2heeb8",
+												"updated": "20220119092359"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "c"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "：打包文件"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220118231839-blv6y0n",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118231839-blv6y0n"
+									},
+									"Children": [
+										{
+											"ID": "20220118231839-asw2fwv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118231839-asw2fwv",
+												"updated": "20220119092401"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "v"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "：显示运行过程"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220118231839-b9wjmei",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118231839-b9wjmei"
+									},
+									"Children": [
+										{
+											"ID": "20220118231839-cda23lm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118231839-cda23lm",
+												"updated": "20220119092406"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "f"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "：指定文件名"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220118231839-30nu6kh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220118231839-30nu6kh"
+					},
+					"Children": [
+						{
+							"ID": "20220118231839-kgv0mr4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118231839-kgv0mr4"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "示例：打包并压缩/test下的所有文件 压缩后的压缩包指定名称为xxx.tar.gz"
+								}
+							]
+						},
+						{
+							"ID": "20220119092426-ftay26o",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220119092426-ftay26o"
+							},
+							"Children": [
+								{
+									"ID": "20220118231839-gs4gwcg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118231839-gs4gwcg"
+									},
+									"Children": [
+										{
+											"ID": "20220118231839-48i0zey",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118231839-48i0zey",
+												"updated": "20220119093302"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Properties": {
+														"style": "background-color: var(--b3-font-background8);"
+													},
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "tar -zcvf xxx.tar.gz aaa.txt bbb.txt ccc.txt"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeKramdownSpanIAL",
+													"Data": "{: style=\"background-color: var(--b3-font-background8);\"}"
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 或："
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Properties": {
+														"style": "background-color: var(--b3-font-background8);"
+													},
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "tar -zcvf xxx.tar.gz /test/*"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeKramdownSpanIAL",
+													"Data": "{: style=\"background-color: var(--b3-font-background8);\"}"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220118231839-itlxoip",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220118231839-itlxoip",
+						"updated": "20220119093521"
+					},
+					"Children": [
+						{
+							"ID": "20220118231839-xepp82u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220118231839-xepp82u",
+								"updated": "20220119093514"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解压压缩命令："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "tar [-xvf] 压缩文件"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220119093345-wgd1nk2",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220119093345-wgd1nk2",
+								"updated": "20220119093521"
+							},
+							"Children": [
+								{
+									"ID": "20220118231839-l9e4oea",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118231839-l9e4oea",
+										"updated": "20220119093521"
+									},
+									"Children": [
+										{
+											"ID": "20220118231839-siruugm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118231839-siruugm",
+												"updated": "20220119093521"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "x"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "：代表解压"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220118231839-c1eh6yt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118231839-c1eh6yt"
+									},
+									"Children": [
+										{
+											"ID": "20220118231839-b0ocxil",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118231839-b0ocxil"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "tar -xvf xxx.tar.gz"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220118231839-ihjct8v",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118231839-ihjct8v"
+									},
+									"Children": [
+										{
+											"ID": "20220118231839-fo1p4tj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118231839-fo1p4tj"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "示例：将/test下的xxx.tar.gz解压到根目录/usr下"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220118231839-lch14to",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220118231839-lch14to"
+									},
+									"Children": [
+										{
+											"ID": "20220118231839-8z6trlm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220118231839-8z6trlm"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "tar -xvf xxx.tar.gz -C /usr------C代表指定解压的位置"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

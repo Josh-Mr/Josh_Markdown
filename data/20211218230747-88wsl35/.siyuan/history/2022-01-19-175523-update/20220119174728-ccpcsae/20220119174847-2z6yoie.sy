@@ -1,0 +1,1197 @@
+{
+	"ID": "20220119174847-2z6yoie",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220119174847-2z6yoie",
+		"title": "Linux_Nginx安装、启动、停用",
+		"updated": "20220119175521"
+	},
+	"Children": [
+		{
+			"ID": "20220119174847-5k9zmnk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220119174847-5k9zmnk",
+				"updated": "20220119175008"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、nginx安装"
+				}
+			]
+		},
+		{
+			"ID": "20220119175009-zipe2es",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220119175009-zipe2es",
+				"updated": "20220119175215"
+			},
+			"Children": [
+				{
+					"ID": "20220119175017-gc7vji6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220119175017-gc7vji6"
+					},
+					"Children": [
+						{
+							"ID": "20220119175017-jvgiscw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119175017-jvgiscw",
+								"updated": "20220119175017"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "官网下载nginx"
+								}
+							]
+						},
+						{
+							"ID": "20220119175023-v6sbia9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119175023-v6sbia9",
+								"updated": "20220119175026"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "http://nginx.org/en/download.html"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "http://nginx.org/en/download.html"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220119175018-manu0u2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220119175018-manu0u2",
+						"updated": "20220119175215"
+					},
+					"Children": [
+						{
+							"ID": "20220119175018-f9y63i7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119175018-f9y63i7",
+								"updated": "20220119175036"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解压创建安装位置"
+								}
+							]
+						},
+						{
+							"ID": "20220119175136-dtvhc4t",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20220119175136-dtvhc4t",
+								"updated": "20220119175212"
+							},
+							"Children": [
+								{
+									"ID": "20220119175138-4wzira7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220119175138-4wzira7"
+									},
+									"Children": [
+										{
+											"ID": "20220119175138-i1b0sic",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119175138-i1b0sic",
+												"updated": "20220119175141"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "解压安装包"
+												}
+											]
+										},
+										{
+											"ID": "20220119175141-1o22zar",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119175141-1o22zar",
+												"updated": "20220119175146"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "tar -zxvf nginx-1.16.1.tar.gz"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220119175148-agbahv8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20220119175148-agbahv8"
+									},
+									"Children": [
+										{
+											"ID": "20220119175148-frh2yht",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119175148-frh2yht",
+												"updated": "20220119175151"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "修改文件夹名字"
+												}
+											]
+										},
+										{
+											"ID": "20220119175152-7nkqq76",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119175152-7nkqq76",
+												"updated": "20220119175157"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "mv nginx-1.16.1 nginx"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220119175158-ozbsb3y",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20220119175158-ozbsb3y",
+										"updated": "20220119175212"
+									},
+									"Children": [
+										{
+											"ID": "20220119175158-bzmup17",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119175158-bzmup17",
+												"updated": "20220119175212"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "把nginx拷贝到"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "/usr/local/src"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "里面"
+												}
+											]
+										},
+										{
+											"ID": "20220119175202-3i1ndkr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119175202-3i1ndkr",
+												"updated": "20220119175207"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "cp -r nginx /usr/local/src"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119175045-zxwq7y5",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220119175045-zxwq7y5",
+				"updated": "20220119175320"
+			},
+			"Children": [
+				{
+					"ID": "20220119175050-wb6n023",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220119175050-wb6n023",
+						"updated": "20220119175320"
+					},
+					"Children": [
+						{
+							"ID": "20220119175050-jo681sk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119175050-jo681sk",
+								"updated": "20220119175050"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安装"
+								}
+							]
+						},
+						{
+							"ID": "20220119175223-71926pf",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20220119175223-71926pf",
+								"updated": "20220119175317"
+							},
+							"Children": [
+								{
+									"ID": "20220119175225-4e9mlp6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220119175225-4e9mlp6"
+									},
+									"Children": [
+										{
+											"ID": "20220119175225-pzumb6b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119175225-pzumb6b",
+												"updated": "20220119175227"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "进入"
+												}
+											]
+										},
+										{
+											"ID": "20220119175229-c7y05mm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119175229-c7y05mm",
+												"updated": "20220119175233"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "cd /usr/local/src/nginx"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220119175238-bgzkfzw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20220119175238-bgzkfzw"
+									},
+									"Children": [
+										{
+											"ID": "20220119175238-qebppld",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119175238-qebppld",
+												"updated": "20220119175243"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "运行configure文件，在/usr下创建nginx目标(如果有ssl的话，要增加ssl模块安装)"
+												}
+											]
+										},
+										{
+											"ID": "20220119175244-z1tzfe7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119175244-z1tzfe7",
+												"updated": "20220119175255"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "mkdir /usr/nginx"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220119175250-99s6p6h",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119175250-99s6p6h",
+												"updated": "20220119175256"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "./confirgure --prefix=/usr/nginx "
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220119175257-gjjhsdj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20220119175257-gjjhsdj"
+									},
+									"Children": [
+										{
+											"ID": "20220119175257-7tg0z8h",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119175257-7tg0z8h",
+												"updated": "20220119175301"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "make编译"
+												}
+											]
+										},
+										{
+											"ID": "20220119175302-ofa9z1m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119175302-ofa9z1m",
+												"updated": "20220119175307"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "make"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220119175308-0x6zuyy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20220119175308-0x6zuyy",
+										"updated": "20220119175317"
+									},
+									"Children": [
+										{
+											"ID": "20220119175308-j3x3cds",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119175308-j3x3cds",
+												"updated": "20220119175311"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "编译安装"
+												}
+											]
+										},
+										{
+											"ID": "20220119175312-vfaz7ef",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119175312-vfaz7ef",
+												"updated": "20220119175317"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "make install "
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119175116-h6tkidt",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220119175116-h6tkidt",
+				"updated": "20220119175128"
+			},
+			"Children": [
+				{
+					"ID": "20220119175117-7xkc7xx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220119175117-7xkc7xx",
+						"updated": "20220119175128"
+					},
+					"Children": [
+						{
+							"ID": "20220119175117-jy3fgoj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119175117-jy3fgoj",
+								"updated": "20220119175117"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "目录结构"
+								}
+							]
+						},
+						{
+							"ID": "20220119175128-lyvdcvp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119175128-lyvdcvp",
+								"updated": "20220119175128"
+							},
+							"Children": [
+								{
+									"Type": "NodeEmphasis",
+									"Data": "em",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "conf 配置目录"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220119175128-pvhgtlz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119175128-pvhgtlz",
+								"updated": "20220119175128"
+							},
+							"Children": [
+								{
+									"Type": "NodeEmphasis",
+									"Data": "em",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "html 静态文件【cdn加速】"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220119175128-pigqo9j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119175128-pigqo9j",
+								"updated": "20220119175128"
+							},
+							"Children": [
+								{
+									"Type": "NodeEmphasis",
+									"Data": "em",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "logs 日志目录"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220119175128-vldjxw1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119175128-vldjxw1",
+								"updated": "20220119175128"
+							},
+							"Children": [
+								{
+									"Type": "NodeEmphasis",
+									"Data": "em",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "sbin 执行文件"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119175325-so0ip52",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220119175325-so0ip52",
+				"updated": "20220119175339"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、Nginx的启动、停止、重启、启动配置检查"
+				}
+			]
+		},
+		{
+			"ID": "20220119175339-a5zyj1t",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220119175339-a5zyj1t",
+				"updated": "20220119175354"
+			},
+			"Children": [
+				{
+					"ID": "20220119175342-5igi7h5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220119175342-5igi7h5",
+						"updated": "20220119175354"
+					},
+					"Children": [
+						{
+							"ID": "20220119175342-js6ust3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119175342-js6ust3",
+								"updated": "20220119175346"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "启动"
+								}
+							]
+						},
+						{
+							"ID": "20220119175347-5dep01h",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220119175347-5dep01h",
+								"updated": "20220119175354"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "#进入nginx/sbin\n./nginx\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119175355-ri3p581",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220119175355-ri3p581",
+				"updated": "20220119175414"
+			},
+			"Children": [
+				{
+					"ID": "20220119175356-u9g3n2x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220119175356-u9g3n2x",
+						"updated": "20220119175414"
+					},
+					"Children": [
+						{
+							"ID": "20220119175356-i3qk3xb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119175356-i3qk3xb",
+								"updated": "20220119175401"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "停用"
+								}
+							]
+						},
+						{
+							"ID": "20220119175401-q87nvbq",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220119175401-q87nvbq",
+								"updated": "20220119175414"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "./nginx -s stop\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119175404-ix5cgey",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220119175404-ix5cgey",
+				"updated": "20220119175420"
+			},
+			"Children": [
+				{
+					"ID": "20220119175405-cktge1f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220119175405-cktge1f",
+						"updated": "20220119175420"
+					},
+					"Children": [
+						{
+							"ID": "20220119175405-53mrfuu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119175405-53mrfuu",
+								"updated": "20220119175409"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "重启"
+								}
+							]
+						},
+						{
+							"ID": "20220119175409-jvq2pwx",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220119175409-jvq2pwx",
+								"updated": "20220119175420"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "./nginx -s reload\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119175420-hxy5xt1",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220119175420-hxy5xt1",
+				"updated": "20220119175521"
+			},
+			"Children": [
+				{
+					"ID": "20220119175441-6e72bdq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220119175441-6e72bdq"
+					},
+					"Children": [
+						{
+							"ID": "20220119175441-n9uhjsj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119175441-n9uhjsj",
+								"updated": "20220119175441"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "配置检查"
+								}
+							]
+						},
+						{
+							"ID": "20220119175442-9seowoj",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220119175442-9seowoj",
+								"updated": "20220119175446"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "./nginx -t\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220119175458-0riaj1u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119175458-0riaj1u",
+								"updated": "20220119175508"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Image.png"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/Image-20220119175508-x43sinh.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220119175509-roflggm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220119175509-roflggm",
+						"updated": "20220119175521"
+					},
+					"Children": [
+						{
+							"ID": "20220119175509-s5a2yz1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119175509-s5a2yz1",
+								"updated": "20220119175514"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看版本配置详细信息"
+								}
+							]
+						},
+						{
+							"ID": "20220119175515-uv9ndce",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220119175515-uv9ndce",
+								"updated": "20220119175521"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "./nginx -V\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119175455-qcrgpnd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119175455-qcrgpnd",
+				"updated": "20220119175455"
+			}
+		},
+		{
+			"ID": "20220119175447-jxfmxfg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119175447-jxfmxfg",
+				"updated": "20220119175447"
+			}
+		}
+	]
+}

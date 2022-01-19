@@ -1,0 +1,239 @@
+{
+	"ID": "20220119114234-f3brwfx",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220119114234-f3brwfx",
+		"title": "Linux_在线传输文件",
+		"updated": "20220119114328"
+	},
+	"Children": [
+		{
+			"ID": "20220119114234-2xnqfzw",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220119114234-2xnqfzw",
+				"updated": "20220119114313"
+			},
+			"Children": [
+				{
+					"ID": "20220119114306-1wck8pr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220119114306-1wck8pr",
+						"updated": "20220119114313"
+					},
+					"Children": [
+						{
+							"ID": "20220119114306-hsszq9m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119114306-hsszq9m",
+								"updated": "20220119114307"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Linux之前传输文件"
+								}
+							]
+						},
+						{
+							"ID": "20220119114308-ukobxu8",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220119114308-ukobxu8",
+								"updated": "20220119114313"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "scp /data/jdk-8u241-linux-x64.tar.gz root@192.168.234.28:/root\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119114321-3d4hl3g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119114321-3d4hl3g",
+				"updated": "20220119114321"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "许多人使用简易的SSH连接工具，有时候需要在SSH下复制文件到本地查看比较方便，我给大家介绍一个简单的命令SCP。[@more@]scp是有Security的文件copy，基于ssh登录。操作起来比较方便，比如要把当前一个文件copy到远程另外一台主机上，可以如下命令。"
+				}
+			]
+		},
+		{
+			"ID": "20220119114321-x5m7e5s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119114321-x5m7e5s",
+				"updated": "20220119114326"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "http://images.csdn.net/syntaxhighlighting/OutliningIndicators/None.gif"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": " scp  / home / daisy / full . tar . gz root@ 172.19 . 2.75 : / home / root"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119114321-du3iynq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119114321-du3iynq",
+				"updated": "20220119114321"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "然后会提示你输入另外那台172.19.2.75主机的root用户的登录密码，接着就开始copy了。"
+				}
+			]
+		},
+		{
+			"ID": "20220119114321-f69xbvq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119114321-f69xbvq",
+				"updated": "20220119114321"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果想反过来操作，把文件从远程主机copy到当前系统，也很简单。"
+				}
+			]
+		},
+		{
+			"ID": "20220119114321-y98r96k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119114321-y98r96k",
+				"updated": "20220119114328"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "http://images.csdn.net/syntaxhighlighting/OutliningIndicators/None.gif"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": " scp root@ 172.19 . 2.75 : / home / root  / home / daisy /* . tar . gz"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119114328-ux8rdlp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119114328-ux8rdlp",
+				"updated": "20220119114328"
+			}
+		}
+	]
+}

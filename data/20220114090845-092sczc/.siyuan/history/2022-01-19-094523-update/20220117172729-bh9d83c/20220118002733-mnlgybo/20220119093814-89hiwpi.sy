@@ -1,0 +1,58 @@
+{
+	"ID": "20220119093814-89hiwpi",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220119093814-89hiwpi",
+		"title": "Linux_权限命令",
+		"updated": "20220119094027"
+	},
+	"Children": [
+		{
+			"ID": "20220119093814-ibn3335",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119093814-ibn3335",
+				"updated": "20220119094026"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220119094026-4h273pi.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119094027-6rxp2pg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119094027-6rxp2pg",
+				"updated": "20220119094027"
+			}
+		}
+	]
+}
