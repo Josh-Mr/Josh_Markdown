@@ -1,0 +1,360 @@
+{
+	"ID": "20220120154127-um8suz9",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220120154127-um8suz9",
+		"title": "JavaScript_【对象】使用",
+		"updated": "20220120154436"
+	},
+	"Children": [
+		{
+			"ID": "20220120154127-o8thjwx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120154127-o8thjwx",
+				"updated": "20220120154230"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、对象的创建方式"
+				}
+			]
+		},
+		{
+			"ID": "20220120154231-wpy5azq",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220120154231-wpy5azq",
+				"updated": "20220120154300"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "1、对象字面量\n    let  obj = {name:'josh',age:23,phone:123123123}\n\n2、new Object()创建\n    let obj2 = new Object();\n    obj2.name = \"josh2\";\n    obj2.age = 24;\n\n3、自定义构造函数创建\nfunction Person(name, age, job){\n  this.name = name;\n  this.age = age;\n  this.sex= sex;\n  this.doIt= function(){\n      console.log('呵呵呵！');\n  }\n}\nvar liao = new Person('josh', 22, '哈哈哈');\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220120154303-wd8h9ph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120154303-wd8h9ph",
+				"updated": "20220120154309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、this关键字"
+				}
+			]
+		},
+		{
+			"ID": "20220120154324-40n7lb9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120154324-40n7lb9",
+				"updated": "20220120154333"
+			},
+			"Children": [
+				{
+					"ID": "20220120154324-7xml3ph",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120154324-7xml3ph",
+						"updated": "20220120154333"
+					},
+					"Children": [
+						{
+							"ID": "20220120154324-w8xilu6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120154324-w8xilu6",
+								"updated": "20220120154333"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "this是一根"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "指针"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120154324-0l70rcy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120154324-0l70rcy",
+						"updated": "20220120154329"
+					},
+					"Children": [
+						{
+							"ID": "20220120154324-wjwshzr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120154324-wjwshzr"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "特点："
+								}
+							]
+						},
+						{
+							"ID": "20220120154324-bavv3bf",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220120154324-bavv3bf",
+								"updated": "20220120154329"
+							},
+							"Children": [
+								{
+									"ID": "20220120154324-9at8kn4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120154324-9at8kn4"
+									},
+									"Children": [
+										{
+											"ID": "20220120154324-kbia1j7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120154324-kbia1j7"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "普通函数执行，内部this指向全局对象window"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120154324-6dx4ime",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120154324-6dx4ime"
+									},
+									"Children": [
+										{
+											"ID": "20220120154324-nix3oxq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120154324-nix3oxq"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "函数在定义的时候this是不确定的，只有在调用的时候才可以确定"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120154324-7diga40",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120154324-7diga40",
+										"updated": "20220120154329"
+									},
+									"Children": [
+										{
+											"ID": "20220120154324-u6urp05",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120154324-u6urp05",
+												"updated": "20220120154329"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果函数作为"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "一个对象的方法"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，被该对象所调用，那么函数内的this则指向该对象"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120154324-1cx3b6v",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120154324-1cx3b6v"
+									},
+									"Children": [
+										{
+											"ID": "20220120154324-d5t0rgz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120154324-d5t0rgz"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "构造函数中的this是一个隐式对象，类似一个初始化的模型，所有方法和属性都挂载到了这个隐式对象身上，后续通过new关键字来调用，从而实现实例化"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120154334-byocyvj",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220120154334-byocyvj",
+				"updated": "20220120154342"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "例子：\n1、\n    function test(){\n        console.log(this);\n    }\n    test();\n结果：\nWindow {window: Window, self: Window, document: #document, name: '', location: Location, …}\n2、\n\n    let obj3 = {\n        name:\"josh\",\n        age: 23,\n        active: function(){\n            console.log(this);\n            console.log(this.name);\n        }\n    }\n结果：\n{name: 'josh', age: 23, active: ƒ}\njosh\n3、\n    function test4(){\n        this.name = \"josh\";\n        this.age = 24;\n        console.log(\"test4=\"+this);\n    }\n    let object4 = new test4();\n    test4();\n\n结果：\ntest4=[object Object]\ntest4=[object Window]\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220120154349-s6jgupt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120154349-s6jgupt",
+				"updated": "20220120154351"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、对象的属性"
+				}
+			]
+		},
+		{
+			"ID": "20220120154351-52rk2fg",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220120154351-52rk2fg",
+				"updated": "20220120154358"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "let obj3 = {\n        name:\"josh\",\n        age: 23,\n        active: function(){\n            console.log(this.name);\n        }\n    }\n    //访问对象的属性\n    console.log(obj3.name);\n    console.log(obj3[\"active\"]);\n    console.log(obj3.active);\n    //遍历对象的成员\n    for(let obj in obj3){\n        console.log(obj+\":\"+obj3[obj]);//这种方式获取值\n    }\n\n\n    //删除对象的属性 delete 关键字\n    console.log(obj3);\n    delete obj3.name;\n    console.log(obj3);\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

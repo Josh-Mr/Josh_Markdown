@@ -1,0 +1,19 @@
+{
+	"ID": "20220119222707-si0is8u",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220119222707-si0is8u",
+		"title": "新文档",
+		"updated": "20220119222718"
+	},
+	"Children": [
+		{
+			"ID": "20220119222707-hzj34w2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119222707-hzj34w2",
+				"updated": "20220119222707"
+			}
+		}
+	]
+}

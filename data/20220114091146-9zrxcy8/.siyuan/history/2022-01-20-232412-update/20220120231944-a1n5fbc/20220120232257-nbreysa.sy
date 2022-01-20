@@ -1,0 +1,50 @@
+{
+	"ID": "20220120232257-nbreysa",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220120232257-nbreysa",
+		"title": "Vue_Vuex",
+		"updated": "20220120232306"
+	},
+	"Children": [
+		{
+			"ID": "20220120232257-8xdllde",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120232257-8xdllde",
+				"updated": "20220120232306"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "vuex.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/vuex-20220120232306-y1ybwmk.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

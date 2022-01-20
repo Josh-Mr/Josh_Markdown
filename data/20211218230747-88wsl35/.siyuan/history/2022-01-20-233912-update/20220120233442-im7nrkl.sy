@@ -1,0 +1,19 @@
+{
+	"ID": "20220120233442-im7nrkl",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220120233442-im7nrkl",
+		"title": "SpringBoot",
+		"updated": "20220120233448"
+	},
+	"Children": [
+		{
+			"ID": "20220120233442-lc6heyj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120233442-lc6heyj",
+				"updated": "20220120233442"
+			}
+		}
+	]
+}

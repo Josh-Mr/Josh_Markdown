@@ -1,0 +1,4076 @@
+{
+	"ID": "20220119222731-nvuibs6",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220119222731-nvuibs6",
+		"title": "Protocol_Http\u0026amp;Https协议详解",
+		"updated": "20220119233501"
+	},
+	"Children": [
+		{
+			"ID": "20220119222731-vxed488",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220119222731-vxed488",
+				"updated": "20220119222821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、HTTP简介"
+				}
+			]
+		},
+		{
+			"ID": "20220119222842-v1iy1g0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220119222842-v1iy1g0",
+				"updated": "20220119223324"
+			},
+			"Children": [
+				{
+					"ID": "20220119222842-ijhdb6y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220119222842-ijhdb6y",
+						"updated": "20220119223232"
+					},
+					"Children": [
+						{
+							"ID": "20220119222842-a6s0jzn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119222842-a6s0jzn",
+								"updated": "20220119223232"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HTTP （Hypertext transfer protocol ）"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "超文本传输协议"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220119222842-lt9oqaa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220119222842-lt9oqaa",
+						"updated": "20220119223242"
+					},
+					"Children": [
+						{
+							"ID": "20220119222842-1bkgbey",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119222842-1bkgbey",
+								"updated": "20220119223242"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HTTP协议是一个"
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "应用层协议"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，通常承载于"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "TCP协议"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "之上的一个"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "无状态协议"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220119222842-bxgr5w1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220119222842-bxgr5w1",
+						"updated": "20220119223253"
+					},
+					"Children": [
+						{
+							"ID": "20220119222842-mfbwf5t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119222842-mfbwf5t",
+								"updated": "20220119223253"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HTTP的"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "默认端口是80"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，HTTPS的"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "默认端口是443"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220119222850-yt5e62m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220119222850-yt5e62m",
+						"updated": "20220119223324"
+					},
+					"Children": [
+						{
+							"ID": "20220119222850-gydmw2n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119222850-gydmw2n"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "特点："
+								}
+							]
+						},
+						{
+							"ID": "20220119222850-2rbxaqz",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220119222850-2rbxaqz",
+								"updated": "20220119223324"
+							},
+							"Children": [
+								{
+									"ID": "20220119222850-k9lhj1k",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220119222850-k9lhj1k"
+									},
+									"Children": [
+										{
+											"ID": "20220119222850-cwmq8po",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119222850-cwmq8po"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "简单快速：客户向服务器请求服务时，只需传送请求方法和路径。由于HTTP协议简单，使得HTTP服务器的程序规模小，因而通信速度很快。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220119222850-cyy2fk5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220119222850-cyy2fk5",
+										"updated": "20220119223306"
+									},
+									"Children": [
+										{
+											"ID": "20220119222850-hcxybct",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119222850-hcxybct",
+												"updated": "20220119223306"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "灵活：运行传输任意类型的数据对象，正在传输的类型有"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "Content-Type"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "标记"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220119222850-78dcg2c",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220119222850-78dcg2c",
+										"updated": "20220119223319"
+									},
+									"Children": [
+										{
+											"ID": "20220119222850-t25jiky",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119222850-t25jiky",
+												"updated": "20220119223319"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "无状态： HTTP协议是"
+												},
+												{
+													"Type": "NodeMark",
+													"Data": "mark",
+													"Children": [
+														{
+															"Type": "NodeMark2OpenMarker"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "无状态协议。无状态是指协议对于事务处理没有记忆能力"
+														},
+														{
+															"Type": "NodeMark2CloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220119222850-9b920vu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220119222850-9b920vu",
+										"updated": "20220119223324"
+									},
+									"Children": [
+										{
+											"ID": "20220119222850-7b2he65",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119222850-7b2he65",
+												"updated": "20220119223324"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "支持"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "B/S及C/S模式"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119222848-8n5jl0v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220119222848-8n5jl0v",
+				"updated": "20220119223330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、HTTP之请求、响应信息"
+				}
+			]
+		},
+		{
+			"ID": "20220119223333-4dsjgs3",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220119223333-4dsjgs3",
+				"updated": "20220119223410"
+			},
+			"Children": [
+				{
+					"ID": "20220119223359-yqrshah",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220119223359-yqrshah",
+						"updated": "20220119223410"
+					},
+					"Children": [
+						{
+							"ID": "20220119223359-zu0tpj5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119223359-zu0tpj5",
+								"updated": "20220119223404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通用信息"
+								}
+							]
+						},
+						{
+							"ID": "20220119223405-85iyrdb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119223405-85iyrdb",
+								"updated": "20220119223410"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Image.png"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/Image-20220119223410-41kpypi.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119223418-4j3xv6s",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220119223418-4j3xv6s",
+				"updated": "20220119233340"
+			},
+			"Children": [
+				{
+					"ID": "20220119223420-fxc7fa9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220119223420-fxc7fa9"
+					},
+					"Children": [
+						{
+							"ID": "20220119223420-rj46gqj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119223420-rj46gqj",
+								"updated": "20220119223425"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HTTP之请求信息"
+								}
+							]
+						},
+						{
+							"ID": "20220119223438-c293ct1",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220119223438-c293ct1",
+								"updated": "20220119223455"
+							},
+							"Children": [
+								{
+									"ID": "20220119223455-8v01sit",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220119223455-8v01sit"
+									},
+									"Children": [
+										{
+											"ID": "20220119223455-iupdk65",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119223455-iupdk65",
+												"updated": "20220119223509"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "客户端发送一个HTTP请求服务器请求信息的格式："
+												},
+												{
+													"Type": "NodeMark",
+													"Data": "mark",
+													"Children": [
+														{
+															"Type": "NodeMark2OpenMarker"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "请求行"
+														},
+														{
+															"Type": "NodeMark2CloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "、"
+												},
+												{
+													"Type": "NodeMark",
+													"Data": "mark",
+													"Children": [
+														{
+															"Type": "NodeMark2OpenMarker"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "请求头部"
+														},
+														{
+															"Type": "NodeMark2CloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "、"
+												},
+												{
+													"Type": "NodeMark",
+													"Data": "mark",
+													"Children": [
+														{
+															"Type": "NodeMark2OpenMarker"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "空行"
+														},
+														{
+															"Type": "NodeMark2CloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "、"
+												},
+												{
+													"Type": "NodeMark",
+													"Data": "mark",
+													"Children": [
+														{
+															"Type": "NodeMark2OpenMarker"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "请求数据"
+														},
+														{
+															"Type": "NodeMark2CloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "四部分组成"
+												}
+											]
+										},
+										{
+											"ID": "20220119223519-tq8y1qr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119223519-tq8y1qr",
+												"updated": "20220119223522"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "Image.png"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Image-20220119223522-z5nqjcb.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220119223532-yz9beqo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119223532-yz9beqo",
+												"updated": "20220119223536"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "Image.png"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Image-20220119223536-lc5s0w5.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220119223549-12mc4af",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20220119223549-12mc4af",
+												"updated": "20220119223552"
+											},
+											"Children": [
+												{
+													"ID": "20220119223552-9q3k94m",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20220119223552-9q3k94m"
+													},
+													"Children": [
+														{
+															"ID": "20220119223552-pdgm05f",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220119223552-pdgm05f",
+																"updated": "20220119223622"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "请求方式示例"
+																}
+															]
+														},
+														{
+															"ID": "20220119223625-v28rw8c",
+															"Type": "NodeList",
+															"ListData": {
+																"Typ": 1
+															},
+															"Properties": {
+																"id": "20220119223625-v28rw8c"
+															},
+															"Children": [
+																{
+																	"ID": "20220119223622-r129ccw",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "MS4=",
+																		"Num": 1
+																	},
+																	"Properties": {
+																		"id": "20220119223622-r129ccw"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119223622-9l897d3",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119223622-9l897d3",
+																				"updated": "20220119223632"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "GET"
+																				}
+																			]
+																		},
+																		{
+																			"ID": "20220119223633-hwliw25",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119223633-hwliw25",
+																				"updated": "20220119223644"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeImage",
+																					"Data": "span",
+																					"Children": [
+																						{
+																							"Type": "NodeBang"
+																						},
+																						{
+																							"Type": "NodeOpenBracket"
+																						},
+																						{
+																							"Type": "NodeLinkText",
+																							"Data": "Image.png"
+																						},
+																						{
+																							"Type": "NodeCloseBracket"
+																						},
+																						{
+																							"Type": "NodeOpenParen"
+																						},
+																						{
+																							"Type": "NodeLinkDest",
+																							"Data": "assets/Image-20220119223644-u6yzc1d.png"
+																						},
+																						{
+																							"Type": "NodeCloseParen"
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119223648-pxuu03c",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "Mi4=",
+																		"Num": 2
+																	},
+																	"Properties": {
+																		"id": "20220119223648-pxuu03c"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119223648-ood5rgw",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119223648-ood5rgw",
+																				"updated": "20220119223652"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "POST"
+																				}
+																			]
+																		},
+																		{
+																			"ID": "20220119223652-n82kruc",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119223652-n82kruc",
+																				"updated": "20220119223656"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeImage",
+																					"Data": "span",
+																					"Children": [
+																						{
+																							"Type": "NodeBang"
+																						},
+																						{
+																							"Type": "NodeOpenBracket"
+																						},
+																						{
+																							"Type": "NodeLinkText",
+																							"Data": "Image.png"
+																						},
+																						{
+																							"Type": "NodeCloseBracket"
+																						},
+																						{
+																							"Type": "NodeOpenParen"
+																						},
+																						{
+																							"Type": "NodeLinkDest",
+																							"Data": "assets/Image-20220119223656-1c1zrth.png"
+																						},
+																						{
+																							"Type": "NodeCloseParen"
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220119223717-2f5eqni",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20220119223717-2f5eqni"
+													},
+													"Children": [
+														{
+															"ID": "20220119223717-6v431e6",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220119223717-6v431e6",
+																"updated": "20220119223953"
+															},
+															"Children": [
+																{
+																	"Type": "NodeMark",
+																	"Data": "mark",
+																	"Children": [
+																		{
+																			"Type": "NodeMark2OpenMarker"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "第一部分（请求行）"
+																		},
+																		{
+																			"Type": "NodeMark2CloseMarker"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "：说明"
+																},
+																{
+																	"Type": "NodeStrong",
+																	"Data": "strong",
+																	"Children": [
+																		{
+																			"Type": "NodeStrongA6kOpenMarker",
+																			"Data": "**"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "请求方式"
+																		},
+																		{
+																			"Type": "NodeStrongA6kCloseMarker",
+																			"Data": "**"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "+"
+																},
+																{
+																	"Type": "NodeStrong",
+																	"Data": "strong",
+																	"Children": [
+																		{
+																			"Type": "NodeStrongA6kOpenMarker",
+																			"Data": "**"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "访问的URL（统一资源定位符）"
+																		},
+																		{
+																			"Type": "NodeStrongA6kCloseMarker",
+																			"Data": "**"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "+"
+																},
+																{
+																	"Type": "NodeStrong",
+																	"Data": "strong",
+																	"Children": [
+																		{
+																			"Type": "NodeStrongA6kOpenMarker",
+																			"Data": "**"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "HTTP 1.1版本"
+																		},
+																		{
+																			"Type": "NodeStrongA6kCloseMarker",
+																			"Data": "**"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220119223914-rz6eum3",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20220119223914-rz6eum3"
+													},
+													"Children": [
+														{
+															"ID": "20220119223914-605pojh",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220119223914-605pojh",
+																"updated": "20220119224011"
+															},
+															"Children": [
+																{
+																	"Type": "NodeMark",
+																	"Data": "mark",
+																	"Children": [
+																		{
+																			"Type": "NodeMark2OpenMarker"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "第二部分（请求头部）"
+																		},
+																		{
+																			"Type": "NodeMark2CloseMarker"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "：用来说明服务器要用的"
+																},
+																{
+																	"Type": "NodeStrong",
+																	"Data": "strong",
+																	"Children": [
+																		{
+																			"Type": "NodeStrongA6kOpenMarker",
+																			"Data": "**"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "附加信息"
+																		},
+																		{
+																			"Type": "NodeStrongA6kCloseMarker",
+																			"Data": "**"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "："
+																}
+															]
+														},
+														{
+															"ID": "20220119224013-9ziakjl",
+															"Type": "NodeList",
+															"ListData": {
+																"Typ": 1
+															},
+															"Properties": {
+																"id": "20220119224013-9ziakjl"
+															},
+															"Children": [
+																{
+																	"ID": "20220119224012-bizsfae",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "MS4=",
+																		"Num": 1
+																	},
+																	"Properties": {
+																		"id": "20220119224012-bizsfae"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119224012-2p5ofz4",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119224012-2p5ofz4",
+																				"updated": "20220119225004"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Accept"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：告诉WEB服务器自己接受什么介质类型"
+																				}
+																			]
+																		},
+																		{
+																			"ID": "20220119224030-ux49ur8",
+																			"Type": "NodeCodeBlock",
+																			"IsFencedCodeBlock": true,
+																			"Properties": {
+																				"id": "20220119224030-ux49ur8",
+																				"updated": "20220119224119"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeCodeBlockFenceOpenMarker",
+																					"Data": "```"
+																				},
+																				{
+																					"Type": "NodeCodeBlockFenceInfoMarker",
+																					"CodeBlockInfo": "eWFtbA=="
+																				},
+																				{
+																					"Type": "NodeCodeBlockCode",
+																					"Data": "*/* 表示任何类型\ntype/* 表示该类型下的所有子类型\n"
+																				},
+																				{
+																					"Type": "NodeCodeBlockFenceCloseMarker",
+																					"Data": "```"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119224128-xs7wyer",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "Mi4=",
+																		"Num": 2
+																	},
+																	"Properties": {
+																		"id": "20220119224128-xs7wyer"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119224128-ziv3tpy",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119224128-ziv3tpy",
+																				"updated": "20220119225007"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Accept-Charset"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：浏览器申明自己接收的字符集"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119224139-zqutae3",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "My4=",
+																		"Num": 3
+																	},
+																	"Properties": {
+																		"id": "20220119224139-zqutae3"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119224139-dd33b4o",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119224139-dd33b4o",
+																				"updated": "20220119225008"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Accept-Encoding"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：浏览器申明自己接收的编码方法，通常指定压缩方法，是否支持压缩，支持什么压缩方法  （gzip，deflate）"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119224155-nd2y4og",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "NC4=",
+																		"Num": 4
+																	},
+																	"Properties": {
+																		"id": "20220119224155-nd2y4og"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119224155-ij9ya32",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119224155-ij9ya32",
+																				"updated": "20220119225010"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Accept-Language"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "： 浏览器申明自己接收的语言。语言跟字符集的区别：中文是语言，中文有多种字符集，比如big5，gb2312，gbk等等。"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119224209-rt97oba",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "NS4=",
+																		"Num": 5
+																	},
+																	"Properties": {
+																		"id": "20220119224209-rt97oba"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119224209-gi6jxkw",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119224209-gi6jxkw",
+																				"updated": "20220119225029"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Authorization"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：当客户端接收到来自WEB服务器的 WWW-Authenticate 响应时，该头部来回应自己的身份验证信息给WEB服务器。"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119225031-137z9rv",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "Ni4=",
+																		"Num": 6
+																	},
+																	"Properties": {
+																		"id": "20220119225031-137z9rv"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119225031-26dnw74",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119225031-26dnw74",
+																				"updated": "20220119232256"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Connection"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：表示是否需要持久连接。"
+																				}
+																			]
+																		},
+																		{
+																			"ID": "20220119232315-vzuwjph",
+																			"Type": "NodeList",
+																			"ListData": {
+																				"Typ": 1
+																			},
+																			"Properties": {
+																				"id": "20220119232315-vzuwjph"
+																			},
+																			"Children": [
+																				{
+																					"ID": "20220119232314-4yhlt6r",
+																					"Type": "NodeListItem",
+																					"ListData": {
+																						"Typ": 1,
+																						"Delimiter": 46,
+																						"Marker": "MS4=",
+																						"Num": 1
+																					},
+																					"Properties": {
+																						"id": "20220119232314-4yhlt6r"
+																					},
+																					"Children": [
+																						{
+																							"ID": "20220119232314-43gzydi",
+																							"Type": "NodeParagraph",
+																							"Properties": {
+																								"id": "20220119232314-43gzydi",
+																								"updated": "20220119232315"
+																							},
+																							"Children": [
+																								{
+																									"Type": "NodeText",
+																									"Data": "close（告诉WEB服务器或者代理服务器，在完成本次请求的响应后，断开连接，不要等待本次连接的后续请求了）。"
+																								}
+																							]
+																						}
+																					]
+																				},
+																				{
+																					"ID": "20220119232316-j8x42yj",
+																					"Type": "NodeListItem",
+																					"ListData": {
+																						"Typ": 1,
+																						"Delimiter": 46,
+																						"Marker": "Mi4=",
+																						"Num": 2
+																					},
+																					"Properties": {
+																						"id": "20220119232316-j8x42yj"
+																					},
+																					"Children": [
+																						{
+																							"ID": "20220119232316-82b6ls7",
+																							"Type": "NodeParagraph",
+																							"Properties": {
+																								"id": "20220119232316-82b6ls7",
+																								"updated": "20220119232320"
+																							},
+																							"Children": [
+																								{
+																									"Type": "NodeText",
+																									"Data": "keep-alive（告诉WEB服务器或者代理服务器，在完成本次请求的响应后，保持连接，等待本次连接的后续请求）。"
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119232321-pwk6kui",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "Ny4=",
+																		"Num": 7
+																	},
+																	"Properties": {
+																		"id": "20220119232321-pwk6kui"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119232321-01o1019",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119232321-01o1019",
+																				"updated": "20220119232327"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Referer"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：发送请求页面URL。浏览器向 WEB 服务器表明自己是从哪个 网页/URL 获得/点击 当前请求中的网址/URL。"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119232333-w24u4vd",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "OC4=",
+																		"Num": 8
+																	},
+																	"Properties": {
+																		"id": "20220119232333-w24u4vd"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119232333-afulyke",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119232333-afulyke",
+																				"updated": "20220119232344"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "User-Agent"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": ": 浏览器表明自己的身份（是哪种浏览器）。"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119232345-fg2kyep",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "OS4=",
+																		"Num": 9
+																	},
+																	"Properties": {
+																		"id": "20220119232345-fg2kyep"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119232345-z9vos3c",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119232345-z9vos3c",
+																				"updated": "20220119232356"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Host"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "： 发送请求页面所在域。"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119232358-402b9h2",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "MTAu",
+																		"Num": 10
+																	},
+																	"Properties": {
+																		"id": "20220119232358-402b9h2"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119232358-z9w8clc",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119232358-z9w8clc",
+																				"updated": "20220119232405"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Cache-Control"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：浏览器应遵循的缓存机制。"
+																				}
+																			]
+																		},
+																		{
+																			"ID": "20220119232408-1l65h5h",
+																			"Type": "NodeList",
+																			"ListData": {
+																				"Typ": 1
+																			},
+																			"Properties": {
+																				"id": "20220119232408-1l65h5h"
+																			},
+																			"Children": [
+																				{
+																					"ID": "20220119232407-oyf5znu",
+																					"Type": "NodeListItem",
+																					"ListData": {
+																						"Typ": 1,
+																						"Delimiter": 46,
+																						"Marker": "MS4=",
+																						"Num": 1
+																					},
+																					"Properties": {
+																						"id": "20220119232407-oyf5znu"
+																					},
+																					"Children": [
+																						{
+																							"ID": "20220119232407-axyz26v",
+																							"Type": "NodeParagraph",
+																							"Properties": {
+																								"id": "20220119232407-axyz26v",
+																								"updated": "20220119232412"
+																							},
+																							"Children": [
+																								{
+																									"Type": "NodeText",
+																									"Data": "no-cache（不要缓存的实体，要求现在从WEB服务器去取）"
+																								}
+																							]
+																						}
+																					]
+																				},
+																				{
+																					"ID": "20220119232413-rxc8s0m",
+																					"Type": "NodeListItem",
+																					"ListData": {
+																						"Typ": 1,
+																						"Delimiter": 46,
+																						"Marker": "Mi4=",
+																						"Num": 2
+																					},
+																					"Properties": {
+																						"id": "20220119232413-rxc8s0m"
+																					},
+																					"Children": [
+																						{
+																							"ID": "20220119232413-h8hdr5t",
+																							"Type": "NodeParagraph",
+																							"Properties": {
+																								"id": "20220119232413-h8hdr5t",
+																								"updated": "20220119232430"
+																							},
+																							"Children": [
+																								{
+																									"Type": "NodeText",
+																									"Data": "max-age：（只接受 Age 值小于 max-age 值，并且没有过期的对象）"
+																								}
+																							]
+																						}
+																					]
+																				},
+																				{
+																					"ID": "20220119232431-b13nwae",
+																					"Type": "NodeListItem",
+																					"ListData": {
+																						"Typ": 1,
+																						"Delimiter": 46,
+																						"Marker": "My4=",
+																						"Num": 3
+																					},
+																					"Properties": {
+																						"id": "20220119232431-b13nwae"
+																					},
+																					"Children": [
+																						{
+																							"ID": "20220119232431-dpvlbxw",
+																							"Type": "NodeParagraph",
+																							"Properties": {
+																								"id": "20220119232431-dpvlbxw",
+																								"updated": "20220119232435"
+																							},
+																							"Children": [
+																								{
+																									"Type": "NodeText",
+																									"Data": "max-stale：（可以接受过去的对象，但是过期时间必须小于 max-stale 值）"
+																								}
+																							]
+																						}
+																					]
+																				},
+																				{
+																					"ID": "20220119232435-d1dt31f",
+																					"Type": "NodeListItem",
+																					"ListData": {
+																						"Typ": 1,
+																						"Delimiter": 46,
+																						"Marker": "NC4=",
+																						"Num": 4
+																					},
+																					"Properties": {
+																						"id": "20220119232435-d1dt31f"
+																					},
+																					"Children": [
+																						{
+																							"ID": "20220119232435-nfetjp7",
+																							"Type": "NodeParagraph",
+																							"Properties": {
+																								"id": "20220119232435-nfetjp7",
+																								"updated": "20220119232439"
+																							},
+																							"Children": [
+																								{
+																									"Type": "NodeText",
+																									"Data": "min-fresh：（接受其新鲜生命期大于其当前 Age 跟 min-fresh 值之和的缓存对象）"
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119232440-vvufwnz",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "MTEu",
+																		"Num": 11
+																	},
+																	"Properties": {
+																		"id": "20220119232440-vvufwnz"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119232440-lyaqu05",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119232440-lyaqu05",
+																				"updated": "20220119232529"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Pramga"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：主要使用 Pramga: no-cache，相当于 Cache-Control： no-cache。"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119232455-qscvuko",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "MTIu",
+																		"Num": 12
+																	},
+																	"Properties": {
+																		"id": "20220119232455-qscvuko"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119232455-c2fflti",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119232455-c2fflti",
+																				"updated": "20220119232528"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Range"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：浏览器（比如 Flashget 多线程下载时）告诉 WEB 服务器自己想取对象的哪部分。"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119232502-5dlu3ck",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "MTMu",
+																		"Num": 13
+																	},
+																	"Properties": {
+																		"id": "20220119232502-5dlu3ck"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119232502-oz3ffho",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119232502-oz3ffho",
+																				"updated": "20220119232526"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Form"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：一种请求头标，给定控制用户代理的人工用户的电子邮件地址。"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119232511-ypacg6o",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"Typ": 1,
+																		"Delimiter": 46,
+																		"Marker": "MTQu",
+																		"Num": 14
+																	},
+																	"Properties": {
+																		"id": "20220119232511-ypacg6o"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119232511-zpuh9jk",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119232511-zpuh9jk",
+																				"updated": "20220119232524"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Cookie"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：当前页面设置的任何Cookie（这是最重要的"
+																				},
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "请求头信息"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "之一）"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220119232537-i2hu5zy",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NC4=",
+														"Num": 4
+													},
+													"Properties": {
+														"id": "20220119232537-i2hu5zy"
+													},
+													"Children": [
+														{
+															"ID": "20220119232537-72ipwo2",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220119232537-72ipwo2",
+																"updated": "20220119232547"
+															},
+															"Children": [
+																{
+																	"Type": "NodeMark",
+																	"Data": "mark",
+																	"Children": [
+																		{
+																			"Type": "NodeMark2OpenMarker"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "第三部分（空行）"
+																		},
+																		{
+																			"Type": "NodeMark2CloseMarker"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "：请求头部后面的空行是必须的"
+																}
+															]
+														},
+														{
+															"ID": "20220119232550-s8pjk75",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220119232550-s8pjk75",
+																"updated": "20220119232605"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "即使第四部分的"
+																},
+																{
+																	"Type": "NodeStrong",
+																	"Data": "strong",
+																	"Children": [
+																		{
+																			"Type": "NodeStrongA6kOpenMarker",
+																			"Data": "**"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "请求数据"
+																		},
+																		{
+																			"Type": "NodeStrongA6kCloseMarker",
+																			"Data": "**"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "为空，也必须有"
+																},
+																{
+																	"Type": "NodeStrong",
+																	"Data": "strong",
+																	"Children": [
+																		{
+																			"Type": "NodeStrongA6kOpenMarker",
+																			"Data": "**"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "空行"
+																		},
+																		{
+																			"Type": "NodeStrongA6kCloseMarker",
+																			"Data": "**"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220119232607-0i8o0fd",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NS4=",
+														"Num": 5
+													},
+													"Properties": {
+														"id": "20220119232607-0i8o0fd"
+													},
+													"Children": [
+														{
+															"ID": "20220119232607-nfkst2b",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220119232607-nfkst2b",
+																"updated": "20220119232627"
+															},
+															"Children": [
+																{
+																	"Type": "NodeMark",
+																	"Data": "mark",
+																	"Children": [
+																		{
+																			"Type": "NodeMark2OpenMarker"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "第四部分（请求数据）"
+																		},
+																		{
+																			"Type": "NodeMark2CloseMarker"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": ":请求数据也叫"
+																},
+																{
+																	"Type": "NodeStrong",
+																	"Data": "strong",
+																	"Children": [
+																		{
+																			"Type": "NodeStrongA6kOpenMarker",
+																			"Data": "**"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "主体"
+																		},
+																		{
+																			"Type": "NodeStrongA6kCloseMarker",
+																			"Data": "**"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "，可以添加"
+																},
+																{
+																	"Type": "NodeStrong",
+																	"Data": "strong",
+																	"Children": [
+																		{
+																			"Type": "NodeStrongA6kOpenMarker",
+																			"Data": "**"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "任意的其他数据"
+																		},
+																		{
+																			"Type": "NodeStrongA6kCloseMarker",
+																			"Data": "**"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "。(get 请求数据为空)"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220119232645-7veogck",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220119232645-7veogck",
+						"updated": "20220119233340"
+					},
+					"Children": [
+						{
+							"ID": "20220119232645-h2rfr6r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119232645-h2rfr6r",
+								"updated": "20220119232711"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "HTTP之响应信息"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220119232718-dy1e41g",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220119232718-dy1e41g",
+								"updated": "20220119233340"
+							},
+							"Children": [
+								{
+									"ID": "20220119232725-alwy8k6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220119232725-alwy8k6",
+										"updated": "20220119233340"
+									},
+									"Children": [
+										{
+											"ID": "20220119232725-sw32y9f",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119232725-sw32y9f",
+												"updated": "20220119232823"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "HTTP响应也是由四部分组成："
+												},
+												{
+													"Type": "NodeMark",
+													"Data": "mark",
+													"Children": [
+														{
+															"Type": "NodeMark2OpenMarker"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "响应行（状态行）"
+														},
+														{
+															"Type": "NodeMark2CloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "、"
+												},
+												{
+													"Type": "NodeMark",
+													"Data": "mark",
+													"Children": [
+														{
+															"Type": "NodeMark2OpenMarker"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "响应头部（消息报头）"
+														},
+														{
+															"Type": "NodeMark2CloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "、"
+												},
+												{
+													"Type": "NodeMark",
+													"Data": "mark",
+													"Children": [
+														{
+															"Type": "NodeMark2OpenMarker"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "空行"
+														},
+														{
+															"Type": "NodeMark2CloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "、 "
+												},
+												{
+													"Type": "NodeMark",
+													"Data": "mark",
+													"Children": [
+														{
+															"Type": "NodeMark2OpenMarker"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "响应数据（响应正文）"
+														},
+														{
+															"Type": "NodeMark2CloseMarker"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220119232729-jpy1jj4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119232729-jpy1jj4",
+												"updated": "20220119232827"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "Image.png"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Image-20220119232827-n7e1kgu.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220119232829-x2s7c1o",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119232829-x2s7c1o",
+												"updated": "20220119232857"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "Image.png"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Image-20220119232857-5m8ws23.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220119232901-prvcm2v",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20220119232901-prvcm2v",
+												"updated": "20220119233340"
+											},
+											"Children": [
+												{
+													"ID": "20220119232905-v42eevd",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20220119232905-v42eevd"
+													},
+													"Children": [
+														{
+															"ID": "20220119232905-yk5xl5m",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220119232905-yk5xl5m",
+																"updated": "20220119232917"
+															},
+															"Children": [
+																{
+																	"Type": "NodeMark",
+																	"Data": "mark",
+																	"Children": [
+																		{
+																			"Type": "NodeMark2OpenMarker"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "第一部分"
+																		},
+																		{
+																			"Type": "NodeMark2CloseMarker"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "：状态行，由HTTP协议版本号， 状态码， 状态消息 三部分组成。"
+																}
+															]
+														},
+														{
+															"ID": "20220119232939-6d0r398",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220119232939-6d0r398",
+																"updated": "20220119232940"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "第一行为状态行，（HTTP/1.1）表明HTTP版本为1.1版本，状态码为200，状态消息为（ok）"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220119232941-s4s4kne",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20220119232941-s4s4kne"
+													},
+													"Children": [
+														{
+															"ID": "20220119232941-mbp5wzc",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220119232941-mbp5wzc",
+																"updated": "20220119232953"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "第二部分：消息报头，用来说明客户端要使用的一些附加信息"
+																}
+															]
+														},
+														{
+															"ID": "20220119233016-dw3c7pe",
+															"Type": "NodeList",
+															"ListData": {},
+															"Properties": {
+																"id": "20220119233016-dw3c7pe"
+															},
+															"Children": [
+																{
+																	"ID": "20220119233016-lde3tmy",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119233016-lde3tmy"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119233016-nw354q2",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119233016-nw354q2",
+																				"updated": "20220119233020"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Date"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：表示消息发送的时间，时间的描述格式由rfc822定义"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119233016-xsd5jtu",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119233016-xsd5jtu"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119233016-rwg8xa3",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119233016-rwg8xa3",
+																				"updated": "20220119233022"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "server"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": ":服务器名字。"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119233016-w06mpuy",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119233016-w06mpuy"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119233016-ovrsfyi",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119233016-ovrsfyi",
+																				"updated": "20220119233023"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Connection"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：浏览器与服务器之间连接的类型"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119233016-k82ijl4",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119233016-k82ijl4"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119233016-mc5l0r7",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119233016-mc5l0r7",
+																				"updated": "20220119233027"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeMark",
+																					"Data": "mark",
+																					"Children": [
+																						{
+																							"Type": "NodeMark2OpenMarker"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "content-type"
+																						},
+																						{
+																							"Type": "NodeMark2CloseMarker"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": ":表示后面的文档属于什么MIME类型"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119233016-2vrgu41",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119233016-2vrgu41"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119233016-uy8x2hj",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119233016-uy8x2hj",
+																				"updated": "20220119233045"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Cache-Control"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：控制HTTP缓存"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119233016-dn49r7h",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119233016-dn49r7h"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119233016-11cezg3",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119233016-11cezg3",
+																				"updated": "20220119233042"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Age"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：当代理服务器用自己缓存的实体去响应请求时，用该头部表明该实体从产生到现在经过多长时间了。"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119233016-uonbbaz",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119233016-uonbbaz"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119233016-1olukcj",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119233016-1olukcj",
+																				"updated": "20220119233041"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Accept-Ranges"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：WEB服务器表明自己是否接受获取其某个实体的一部分（比如文件的分）的请求。bytes：表示接受，none：表示不接受。"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119233016-2bupcnu",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119233016-2bupcnu"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119233016-pf324vu",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119233016-pf324vu",
+																				"updated": "20220119233038"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Cache-Control"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：服务器应遵循的缓存机制。"
+																				}
+																			]
+																		},
+																		{
+																			"ID": "20220119233016-9s2vz30",
+																			"Type": "NodeList",
+																			"ListData": {},
+																			"Properties": {
+																				"id": "20220119233016-9s2vz30"
+																			},
+																			"Children": [
+																				{
+																					"ID": "20220119233016-7olhk6x",
+																					"Type": "NodeListItem",
+																					"ListData": {
+																						"BulletChar": 42,
+																						"Marker": "Kg=="
+																					},
+																					"Properties": {
+																						"id": "20220119233016-7olhk6x"
+																					},
+																					"Children": [
+																						{
+																							"ID": "20220119233016-02ehhiy",
+																							"Type": "NodeParagraph",
+																							"Properties": {
+																								"id": "20220119233016-02ehhiy"
+																							},
+																							"Children": [
+																								{
+																									"Type": "NodeText",
+																									"Data": "public(可以用 Cached 内容回应任何用户)"
+																								}
+																							]
+																						}
+																					]
+																				},
+																				{
+																					"ID": "20220119233016-787j0e1",
+																					"Type": "NodeListItem",
+																					"ListData": {
+																						"BulletChar": 42,
+																						"Marker": "Kg=="
+																					},
+																					"Properties": {
+																						"id": "20220119233016-787j0e1"
+																					},
+																					"Children": [
+																						{
+																							"ID": "20220119233016-9etep7r",
+																							"Type": "NodeParagraph",
+																							"Properties": {
+																								"id": "20220119233016-9etep7r"
+																							},
+																							"Children": [
+																								{
+																									"Type": "NodeText",
+																									"Data": "private（只能用缓存内容回应先前请求该内容的那个用户）"
+																								}
+																							]
+																						}
+																					]
+																				},
+																				{
+																					"ID": "20220119233016-mfhociq",
+																					"Type": "NodeListItem",
+																					"ListData": {
+																						"BulletChar": 42,
+																						"Marker": "Kg=="
+																					},
+																					"Properties": {
+																						"id": "20220119233016-mfhociq"
+																					},
+																					"Children": [
+																						{
+																							"ID": "20220119233016-3uhz9os",
+																							"Type": "NodeParagraph",
+																							"Properties": {
+																								"id": "20220119233016-3uhz9os"
+																							},
+																							"Children": [
+																								{
+																									"Type": "NodeText",
+																									"Data": "no-cache（可以缓存，但是只有在跟WEB服务器验证了其有效后，才能返回给客户端）"
+																								}
+																							]
+																						}
+																					]
+																				},
+																				{
+																					"ID": "20220119233016-0q97ym1",
+																					"Type": "NodeListItem",
+																					"ListData": {
+																						"BulletChar": 42,
+																						"Marker": "Kg=="
+																					},
+																					"Properties": {
+																						"id": "20220119233016-0q97ym1"
+																					},
+																					"Children": [
+																						{
+																							"ID": "20220119233016-e7lngev",
+																							"Type": "NodeParagraph",
+																							"Properties": {
+																								"id": "20220119233016-e7lngev"
+																							},
+																							"Children": [
+																								{
+																									"Type": "NodeText",
+																									"Data": "max-age：（本响应包含的对象的过期时间）"
+																								}
+																							]
+																						}
+																					]
+																				},
+																				{
+																					"ID": "20220119233016-zyd8iqs",
+																					"Type": "NodeListItem",
+																					"ListData": {
+																						"BulletChar": 42,
+																						"Marker": "Kg=="
+																					},
+																					"Properties": {
+																						"id": "20220119233016-zyd8iqs"
+																					},
+																					"Children": [
+																						{
+																							"ID": "20220119233016-fuda3ea",
+																							"Type": "NodeParagraph",
+																							"Properties": {
+																								"id": "20220119233016-fuda3ea"
+																							},
+																							"Children": [
+																								{
+																									"Type": "NodeText",
+																									"Data": "ALL:  no-store（不允许缓存）"
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119233016-j29g19s",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119233016-j29g19s"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119233016-ru1irhz",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119233016-ru1irhz",
+																				"updated": "20220119233157"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Connection"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "： 是否需要持久连接"
+																				}
+																			]
+																		},
+																		{
+																			"ID": "20220119233052-4exg4sp",
+																			"Type": "NodeList",
+																			"ListData": {},
+																			"Properties": {
+																				"id": "20220119233052-4exg4sp"
+																			},
+																			"Children": [
+																				{
+																					"ID": "20220119233016-hh5ln2d",
+																					"Type": "NodeListItem",
+																					"ListData": {
+																						"BulletChar": 42,
+																						"Marker": "Kg=="
+																					},
+																					"Properties": {
+																						"id": "20220119233016-hh5ln2d"
+																					},
+																					"Children": [
+																						{
+																							"ID": "20220119233016-z648bar",
+																							"Type": "NodeParagraph",
+																							"Properties": {
+																								"id": "20220119233016-z648bar"
+																							},
+																							"Children": [
+																								{
+																									"Type": "NodeText",
+																									"Data": "close（连接已经关闭）。"
+																								}
+																							]
+																						}
+																					]
+																				},
+																				{
+																					"ID": "20220119233016-a68occ2",
+																					"Type": "NodeListItem",
+																					"ListData": {
+																						"BulletChar": 42,
+																						"Marker": "Kg=="
+																					},
+																					"Properties": {
+																						"id": "20220119233016-a68occ2"
+																					},
+																					"Children": [
+																						{
+																							"ID": "20220119233016-rl6z2c2",
+																							"Type": "NodeParagraph",
+																							"Properties": {
+																								"id": "20220119233016-rl6z2c2"
+																							},
+																							"Children": [
+																								{
+																									"Type": "NodeText",
+																									"Data": "keepalive（连接保持着，在等待本次连接的后续请求）。"
+																								}
+																							]
+																						}
+																					]
+																				},
+																				{
+																					"ID": "20220119233016-dlk7my9",
+																					"Type": "NodeListItem",
+																					"ListData": {
+																						"BulletChar": 42,
+																						"Marker": "Kg=="
+																					},
+																					"Properties": {
+																						"id": "20220119233016-dlk7my9"
+																					},
+																					"Children": [
+																						{
+																							"ID": "20220119233016-osshs7n",
+																							"Type": "NodeParagraph",
+																							"Properties": {
+																								"id": "20220119233016-osshs7n"
+																							},
+																							"Children": [
+																								{
+																									"Type": "NodeText",
+																									"Data": "Keep-Alive：如果浏览器请求保持连接，则该头部表明希望 WEB 服务器保持连接多长时间（秒）。例如：Keep-Alive：300"
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119233016-0u50r59",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119233016-0u50r59"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119233016-krin3or",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119233016-krin3or",
+																				"updated": "20220119233159"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Content-Encoding"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：WEB服务器表明自己使用了什么压缩方法（gzip，deflate）压缩响应中的对象。 例如：Content-Encoding：gzip"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119233016-ona815w",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119233016-ona815w"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119233016-no9jhcz",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119233016-no9jhcz",
+																				"updated": "20220119233202"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Content-Language"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：WEB 服务器告诉浏览器自己响应的对象的语言。"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119233016-tf6l0q2",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119233016-tf6l0q2"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119233016-0xf5txr",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119233016-0xf5txr",
+																				"updated": "20220119233214"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeMark",
+																					"Data": "mark",
+																					"Children": [
+																						{
+																							"Type": "NodeMark2OpenMarker"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Content-Length"
+																						},
+																						{
+																							"Type": "NodeMark2CloseMarker"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "："
+																				},
+																				{
+																					"Type": "NodeMark",
+																					"Data": "mark",
+																					"Children": [
+																						{
+																							"Type": "NodeMark2OpenMarker"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "WEB 服务器告诉浏览器自己响应的对象的长度"
+																						},
+																						{
+																							"Type": "NodeMark2CloseMarker"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "。例如：Content-Length: 26012"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119233016-3z3btgs",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119233016-3z3btgs"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119233016-6evrguw",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119233016-6evrguw",
+																				"updated": "20220119233222"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeMark",
+																					"Data": "mark",
+																					"Children": [
+																						{
+																							"Type": "NodeMark2OpenMarker"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Content-Range"
+																						},
+																						{
+																							"Type": "NodeMark2CloseMarker"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "："
+																				},
+																				{
+																					"Type": "NodeMark",
+																					"Data": "mark",
+																					"Children": [
+																						{
+																							"Type": "NodeMark2OpenMarker"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "WEB 服务器表明该响应包含的部分对象为整个对象的哪个部分"
+																						},
+																						{
+																							"Type": "NodeMark2CloseMarker"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "。例如：Content-Range: bytes 21010-47021/47022"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119233016-c92zq84",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119233016-c92zq84"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119233016-z5tgoa7",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119233016-z5tgoa7",
+																				"updated": "20220119233248"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeMark",
+																					"Data": "mark",
+																					"Children": [
+																						{
+																							"Type": "NodeMark2OpenMarker"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Content-Type"
+																						},
+																						{
+																							"Type": "NodeMark2CloseMarker"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：WEB 服务器告诉浏览器自己响应的对象的类型。例如："
+																				},
+																				{
+																					"Type": "NodeMark",
+																					"Data": "mark",
+																					"Children": [
+																						{
+																							"Type": "NodeMark2OpenMarker"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Content-Type：application/xml"
+																						},
+																						{
+																							"Type": "NodeMark2CloseMarker"
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119233016-h2c3c49",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119233016-h2c3c49"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119233016-xz3oxhs",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119233016-xz3oxhs",
+																				"updated": "20220119233258"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Expired"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：WEB服务器表明该实体将在什么时候过期，对于过期了的对象，只有在跟WEB服务器验证了其有效性后，才能用来响应客户请求。"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119233016-6d3jbi2",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119233016-6d3jbi2"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119233016-mh93ewa",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119233016-mh93ewa",
+																				"updated": "20220119233301"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Last-Modified"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：WEB 服务器认为对象的最后修改时间，比如文件的最后修改时间，动态页面的最后产生时间等等。"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119233016-dehgw0c",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119233016-dehgw0c"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119233016-8jn3ke1",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119233016-8jn3ke1",
+																				"updated": "20220119233306"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Location"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：WEB 服务器告诉浏览器，试图访问的对象已经被移到别的位置了，到该头部指定的位置去取。"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119233016-0h32muh",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119233016-0h32muh"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119233016-sux6l50",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119233016-sux6l50",
+																				"updated": "20220119233308"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Proxy-Authenticate"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "： 代理服务器响应浏览器，要求其提供代理身份验证信息。"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119233016-vcp5w7q",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119233016-vcp5w7q"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119233016-xrexem0",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119233016-xrexem0",
+																				"updated": "20220119233312"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Server"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": ": WEB 服务器表明自己是什么软件及版本等信息。"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119233016-2ro2cbj",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119233016-2ro2cbj"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119233016-ieszidv",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119233016-ieszidv",
+																				"updated": "20220119233313"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeStrong",
+																					"Data": "strong",
+																					"Children": [
+																						{
+																							"Type": "NodeStrongA6kOpenMarker",
+																							"Data": "**"
+																						},
+																						{
+																							"Type": "NodeText",
+																							"Data": "Refresh"
+																						},
+																						{
+																							"Type": "NodeStrongA6kCloseMarker",
+																							"Data": "**"
+																						}
+																					]
+																				},
+																				{
+																					"Type": "NodeText",
+																					"Data": "：表示浏览器应该在多少时间之后刷新文档，以秒计。"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220119233326-nzv0o1m",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20220119233326-nzv0o1m",
+														"updated": "20220119233338"
+													},
+													"Children": [
+														{
+															"ID": "20220119233326-5nx8c77",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220119233326-5nx8c77",
+																"updated": "20220119233338"
+															},
+															"Children": [
+																{
+																	"Type": "NodeMark",
+																	"Data": "mark",
+																	"Children": [
+																		{
+																			"Type": "NodeMark2OpenMarker"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "第三部分"
+																		},
+																		{
+																			"Type": "NodeMark2CloseMarker"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "：空行，消息报头后面的空行是必须的"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220119233328-ib024q5",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "NC4=",
+														"Num": 4
+													},
+													"Properties": {
+														"id": "20220119233328-ib024q5",
+														"updated": "20220119233340"
+													},
+													"Children": [
+														{
+															"ID": "20220119233333-7w67vpk",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220119233333-7w67vpk",
+																"updated": "20220119233340"
+															},
+															"Children": [
+																{
+																	"Type": "NodeMark",
+																	"Data": "mark",
+																	"Children": [
+																		{
+																			"Type": "NodeMark2OpenMarker"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "第四部分"
+																		},
+																		{
+																			"Type": "NodeMark2CloseMarker"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "：响应正文，服务器返回给客户端的文本信息。"
+																}
+															]
+														},
+														{
+															"ID": "20220119233333-3ourq5u",
+															"Type": "NodeList",
+															"ListData": {},
+															"Properties": {
+																"id": "20220119233333-3ourq5u"
+															},
+															"Children": [
+																{
+																	"ID": "20220119233333-6lifkyj",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119233333-6lifkyj"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119233333-pdivmy6",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119233333-pdivmy6"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "空行后面的html部分为响应正文。"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119224120-6g7qsir",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220119224120-6g7qsir",
+				"updated": "20220119233428"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、HTTPS简介"
+				}
+			]
+		},
+		{
+			"ID": "20220119233428-zecep98",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220119233428-zecep98",
+				"updated": "20220119233501"
+			},
+			"Children": [
+				{
+					"ID": "20220119233434-bjfxbtc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220119233434-bjfxbtc",
+						"updated": "20220119233501"
+					},
+					"Children": [
+						{
+							"ID": "20220119233434-dnz5yxm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119233434-dnz5yxm",
+								"updated": "20220119233501"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Http和Tcp中间加多一层TLS、SSL"
+								}
+							]
+						},
+						{
+							"ID": "20220119233436-gtzerd7",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220119233436-gtzerd7",
+								"updated": "20220119233457"
+							},
+							"Children": [
+								{
+									"ID": "20220119233436-bjwz9sd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220119233436-bjwz9sd",
+										"updated": "20220119233457"
+									},
+									"Children": [
+										{
+											"ID": "20220119233436-77511cy",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119233436-77511cy",
+												"updated": "20220119233440"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "TLS（传输层安全）SSL（安全套接层）："
+												}
+											]
+										},
+										{
+											"ID": "20220119233447-kd1dusr",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220119233447-kd1dusr",
+												"updated": "20220119233457"
+											},
+											"Children": [
+												{
+													"ID": "20220119233447-81efboe",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220119233447-81efboe"
+													},
+													"Children": [
+														{
+															"ID": "20220119233447-iq8argq",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220119233447-iq8argq",
+																"updated": "20220119233452"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "SSL是个加密套件，负责对HTTP的数据进行加密。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220119233453-of1ihc0",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220119233453-of1ihc0",
+														"updated": "20220119233457"
+													},
+													"Children": [
+														{
+															"ID": "20220119233453-fwy8u9w",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220119233453-fwy8u9w",
+																"updated": "20220119233457"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "TLS是SSL的升级版。现在提到HTTPS，加密套件基本指的是TLS。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

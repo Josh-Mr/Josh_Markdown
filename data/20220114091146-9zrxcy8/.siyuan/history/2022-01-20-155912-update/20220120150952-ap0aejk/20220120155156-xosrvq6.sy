@@ -1,0 +1,92 @@
+{
+	"ID": "20220120155156-xosrvq6",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220120155156-xosrvq6",
+		"title": "JQuery_对象、数组",
+		"updated": "20220120155548"
+	},
+	"Children": [
+		{
+			"ID": "20220120155156-nm1k68c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120155156-nm1k68c",
+				"updated": "20220120155531"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、数组对象方法"
+				}
+			]
+		},
+		{
+			"ID": "20220120155532-norec0m",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120155532-norec0m",
+				"updated": "20220120155548"
+			},
+			"Children": [
+				{
+					"ID": "20220120155539-plk1aev",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120155539-plk1aev",
+						"updated": "20220120155548"
+					},
+					"Children": [
+						{
+							"ID": "20220120155539-2ifh2qx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120155539-2ifh2qx",
+								"updated": "20220120155539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "$.each(obj,fn) 遍历数组"
+								}
+							]
+						},
+						{
+							"ID": "20220120155539-ni955c8",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220120155539-ni955c8",
+								"updated": "20220120155548"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "--数组\n$.each( [0,1,2], function(i, n){\n  alert( \"Item #\" + i + \": \" + n );\n});\n--对象\n$.each( { name: \"John\", lang: \"JS\" }, function(i, n){\n  alert( \"Name: \" + i + \", Value: \" + n );\n});\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

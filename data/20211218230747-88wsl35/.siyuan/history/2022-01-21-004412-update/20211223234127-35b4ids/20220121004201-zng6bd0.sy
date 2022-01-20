@@ -1,0 +1,591 @@
+{
+	"ID": "20220121004201-zng6bd0",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220121004201-zng6bd0",
+		"title": "SpringMVC_基础",
+		"updated": "20220121004412"
+	},
+	"Children": [
+		{
+			"ID": "20220121004201-welbr0d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220121004201-welbr0d",
+				"updated": "20220121004255"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、什么是三层架构？是什么MVC模式？"
+				}
+			]
+		},
+		{
+			"ID": "20220121004329-ijseiio",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220121004329-ijseiio",
+				"updated": "20220121004329"
+			},
+			"Children": [
+				{
+					"ID": "20220121004329-1vvocjf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220121004329-1vvocjf"
+					},
+					"Children": [
+						{
+							"ID": "20220121004329-1yaqhrp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121004329-1yaqhrp"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "三层架构："
+								}
+							]
+						},
+						{
+							"ID": "20220121004329-u4jp09c",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220121004329-u4jp09c"
+							},
+							"Children": [
+								{
+									"ID": "20220121004329-rai97yp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220121004329-rai97yp"
+									},
+									"Children": [
+										{
+											"ID": "20220121004329-a9iiyfe",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220121004329-a9iiyfe"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "表现层："
+												}
+											]
+										},
+										{
+											"ID": "20220121004329-dgp2d4f",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220121004329-dgp2d4f"
+											},
+											"Children": [
+												{
+													"ID": "20220121004329-s37pia5",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220121004329-s37pia5"
+													},
+													"Children": [
+														{
+															"ID": "20220121004329-ekq51mi",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220121004329-ekq51mi"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "Web层，接收客户端请求和响应结果，表现层包括展示层和控制层，表现层依赖业务层一般会调用业务层处理业务。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220121004329-wplnc6x",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220121004329-wplnc6x"
+													},
+													"Children": [
+														{
+															"ID": "20220121004329-mf21upt",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220121004329-mf21upt"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "表现层的设计一般都是使用MVC设计模型"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220121004329-98orky6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220121004329-98orky6"
+									},
+									"Children": [
+										{
+											"ID": "20220121004329-kplbapt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220121004329-kplbapt"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "业务层："
+												}
+											]
+										},
+										{
+											"ID": "20220121004334-0gkhfns",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220121004334-0gkhfns"
+											},
+											"Children": [
+												{
+													"ID": "20220121004329-d15wb39",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220121004329-d15wb39"
+													},
+													"Children": [
+														{
+															"ID": "20220121004329-8otlh68",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220121004329-8otlh68"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "service层，负责具体的业务逻辑。不依赖Web层。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220121004329-iw9c6fp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220121004329-iw9c6fp"
+									},
+									"Children": [
+										{
+											"ID": "20220121004329-tfxk99d",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220121004329-tfxk99d"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "持久层："
+												}
+											]
+										},
+										{
+											"ID": "20220121004335-onj3qme",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220121004335-onj3qme"
+											},
+											"Children": [
+												{
+													"ID": "20220121004329-r071xeh",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220121004329-r071xeh"
+													},
+													"Children": [
+														{
+															"ID": "20220121004329-tltaqfa",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220121004329-tltaqfa"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "dao层，主要用来操作数据库的。是对数据库交互。对数据进行CRUD。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220121004329-hrb3f4f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220121004329-hrb3f4f"
+					},
+					"Children": [
+						{
+							"ID": "20220121004329-74ig2tv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121004329-74ig2tv"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "MVC：Model - View - Controller 是一种Web应用表现层的设计模型。"
+								}
+							]
+						},
+						{
+							"ID": "20220121004339-cqvq1ow",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220121004339-cqvq1ow"
+							},
+							"Children": [
+								{
+									"ID": "20220121004329-74olzdc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220121004329-74olzdc"
+									},
+									"Children": [
+										{
+											"ID": "20220121004329-emlbddl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220121004329-emlbddl"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Model 模型："
+												}
+											]
+										},
+										{
+											"ID": "20220121004342-n53nz80",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220121004342-n53nz80"
+											},
+											"Children": [
+												{
+													"ID": "20220121004329-7ygxtl9",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220121004329-7ygxtl9"
+													},
+													"Children": [
+														{
+															"ID": "20220121004329-170u1p4",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220121004329-170u1p4"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "数据模型，JavaBase，对数据进行封装。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220121004329-bba0tso",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220121004329-bba0tso"
+					},
+					"Children": [
+						{
+							"ID": "20220121004329-nmc209l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121004329-nmc209l"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "View 视图："
+								}
+							]
+						},
+						{
+							"ID": "20220121004344-ce0canx",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220121004344-ce0canx"
+							},
+							"Children": [
+								{
+									"ID": "20220121004329-2056953",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220121004329-2056953"
+									},
+									"Children": [
+										{
+											"ID": "20220121004329-zp5deze",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220121004329-zp5deze"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "展示数据，JSP 、HTML"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220121004329-bu7bb7n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220121004329-bu7bb7n"
+					},
+					"Children": [
+						{
+							"ID": "20220121004329-g9dr8hx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121004329-g9dr8hx"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Controller 控制器："
+								}
+							]
+						},
+						{
+							"ID": "20220121004347-2s44lch",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220121004347-2s44lch"
+							},
+							"Children": [
+								{
+									"ID": "20220121004329-s2tmbhd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220121004329-s2tmbhd"
+									},
+									"Children": [
+										{
+											"ID": "20220121004329-59o7g1a",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220121004329-59o7g1a"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "接收客户端的请求，进行数据的校验，整个流程的控制器。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121004329-2eyvsgf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220121004329-2eyvsgf",
+				"updated": "20220121004357"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(226)-20220121004329-4r57q2q.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121004356-puhjrki",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220121004356-puhjrki",
+				"updated": "20220121004409"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、Spring MVC 是什么？"
+				}
+			]
+		},
+		{
+			"ID": "20220121004410-otqects",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220121004410-otqects",
+				"updated": "20220121004412"
+			},
+			"Children": [
+				{
+					"ID": "20220121004412-4pa0d6w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220121004412-4pa0d6w"
+					},
+					"Children": [
+						{
+							"ID": "20220121004412-rynllne",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121004412-rynllne"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

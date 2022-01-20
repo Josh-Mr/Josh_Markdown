@@ -1,0 +1,19 @@
+{
+	"ID": "20220120223651-z2pipmj",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220120223651-z2pipmj",
+		"title": "ES6",
+		"updated": "20220120223702"
+	},
+	"Children": [
+		{
+			"ID": "20220120223651-2wlbcm5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120223651-2wlbcm5",
+				"updated": "20220120223651"
+			}
+		}
+	]
+}

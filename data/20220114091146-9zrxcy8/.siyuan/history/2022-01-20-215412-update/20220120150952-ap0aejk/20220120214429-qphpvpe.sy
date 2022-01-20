@@ -1,0 +1,327 @@
+{
+	"ID": "20220120214429-qphpvpe",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220120214429-qphpvpe",
+		"title": "前端日常记录",
+		"updated": "20220120215353"
+	},
+	"Children": [
+		{
+			"ID": "20220120214912-j6y3o99",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220120214912-j6y3o99",
+				"updated": "20220120215328"
+			},
+			"Children": [
+				{
+					"ID": "20220120215328-ptyxlb2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220120215328-ptyxlb2"
+					},
+					"Children": [
+						{
+							"ID": "20220120215328-9kfi2rr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120215328-9kfi2rr"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "解决append 加入的元素，绑定事件无效的方法"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120214440-6fw5k26",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120214440-6fw5k26",
+				"updated": "20220120214951"
+			},
+			"Children": [
+				{
+					"ID": "20220120214926-riha111",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120214926-riha111",
+						"updated": "20220120214951"
+					},
+					"Children": [
+						{
+							"ID": "20220120214926-fubc5nd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120214926-fubc5nd"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将事件直接绑定在DOM树上，也就是采用on函数，格式如下："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "$(\"outerSelector\").on('eventType','selector',function(){})；outerSelector"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 是一个一直存在的DOM， selector是你要监听点击的节点；"
+								}
+							]
+						},
+						{
+							"ID": "20220120214942-naumxtx",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220120214942-naumxtx",
+								"updated": "20220120214951"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "$(\"body\").on(\"click\", \"img\", function () {\n    console.log(\"进来了\");\n    $(this).toggleClass(\"show\");\n});\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120214440-l6z49qh",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220120214440-l6z49qh",
+				"updated": "20220120215015"
+			},
+			"Children": [
+				{
+					"ID": "20220120215003-8ke0uu9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220120215003-8ke0uu9",
+						"updated": "20220120215015"
+					},
+					"Children": [
+						{
+							"ID": "20220120215003-naqev4r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120215003-naqev4r",
+								"updated": "20220120215006"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "把一个元素追加到另一个元素需要克隆出来，要不然会把原来的元素会被追加"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220120215009-ir5k5uv",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220120215009-ir5k5uv",
+								"updated": "20220120215015"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "$(\"#guan\").clone().appendTo($(\"#img\"));\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120215224-aeuvnhf",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220120215224-aeuvnhf",
+				"updated": "20220120215351"
+			},
+			"Children": [
+				{
+					"ID": "20220120215333-oleth7m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220120215333-oleth7m",
+						"updated": "20220120215351"
+					},
+					"Children": [
+						{
+							"ID": "20220120215333-ooo1xb6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120215333-ooo1xb6",
+								"updated": "20220120215337"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "字符串的截取："
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220120215340-mwc2kke",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220120215340-mwc2kke",
+								"updated": "20220120215351"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "if(value){\n    return value.slice(0,10)\n}\nreturn value\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120215353-93y3gjp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120215353-93y3gjp",
+				"updated": "20220120215353"
+			}
+		}
+	]
+}

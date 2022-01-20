@@ -1,0 +1,799 @@
+{
+	"ID": "20220120211700-t95wout",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220120211700-t95wout",
+		"title": "Javascript_【BOM】使用",
+		"updated": "20220120211910"
+	},
+	"Children": [
+		{
+			"ID": "20220120211700-t08xrne",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120211700-t08xrne",
+				"updated": "20220120211725"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、DOM 浏览器文档模型（browser object model）"
+				}
+			]
+		},
+		{
+			"ID": "20220120211725-gpowr0w",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120211725-gpowr0w",
+				"updated": "20220120211732"
+			},
+			"Children": [
+				{
+					"ID": "20220120211732-4saa4m6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120211732-4saa4m6"
+					},
+					"Children": [
+						{
+							"ID": "20220120211732-u9lzmr6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120211732-u9lzmr6",
+								"updated": "20220120211733"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "作用：DOM中为我们提供了一组对象，用来操作浏览器。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120211734-hj4dzmz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120211734-hj4dzmz",
+				"updated": "20220120211758"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、常见的DOM对象"
+				}
+			]
+		},
+		{
+			"ID": "20220120211759-zz1eion",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220120211759-zz1eion",
+				"updated": "20220120211910"
+			},
+			"Children": [
+				{
+					"ID": "20220120211810-h48rh5a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220120211810-h48rh5a",
+						"updated": "20220120211910"
+					},
+					"Children": [
+						{
+							"ID": "20220120211810-gmx8kq5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120211810-gmx8kq5",
+								"updated": "20220120211810"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "window"
+								}
+							]
+						},
+						{
+							"ID": "20220120211818-7rby09s",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220120211818-7rby09s",
+								"updated": "20220120211910"
+							},
+							"Children": [
+								{
+									"ID": "20220120211818-8ibb1u4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120211818-8ibb1u4",
+										"updated": "20220120211910"
+									},
+									"Children": [
+										{
+											"ID": "20220120211818-66ly5dh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120211818-66ly5dh",
+												"updated": "20220120211824"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "范围：代表整个浏览器的窗口"
+												}
+											]
+										},
+										{
+											"ID": "20220120211834-h244fqn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120211834-h244fqn"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "对象属性："
+												}
+											]
+										},
+										{
+											"ID": "20220120211834-ggqo4j5",
+											"Type": "NodeTable",
+											"TableAligns": [
+												0,
+												0
+											],
+											"Properties": {
+												"id": "20220120211834-ggqo4j5"
+											},
+											"Children": [
+												{
+													"Type": "NodeTableHead",
+													"Data": "thead",
+													"Children": [
+														{
+															"Type": "NodeTableRow",
+															"Data": "tr",
+															"Children": [
+																{
+																	"Type": "NodeTableCell",
+																	"Data": "th",
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "属性"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeTableCell",
+																	"Data": "th",
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "描述"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "closed"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "返回窗口是否被关闭"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "opener"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "返回对创建此窗口的窗口的引用"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "self"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "返回当前窗口的引用，等价于window属性"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220120211847-te2tsop",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120211847-te2tsop",
+												"updated": "20220120211847"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "方法："
+												}
+											]
+										},
+										{
+											"ID": "20220120211847-qjau0r8",
+											"Type": "NodeTable",
+											"TableAligns": [
+												0,
+												0
+											],
+											"Properties": {
+												"id": "20220120211847-qjau0r8",
+												"updated": "20220120211910"
+											},
+											"Children": [
+												{
+													"Type": "NodeTableHead",
+													"Data": "thead",
+													"Children": [
+														{
+															"Type": "NodeTableRow",
+															"Data": "tr",
+															"Children": [
+																{
+																	"Type": "NodeTableCell",
+																	"Data": "th",
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "Method"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeTableCell",
+																	"Data": "th",
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "Description"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "open()"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeStrong",
+																	"Data": "strong",
+																	"Children": [
+																		{
+																			"Type": "NodeStrongA6kOpenMarker",
+																			"Data": "**"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "打开一个新的窗口（参数URL,name,features,replace）"
+																		},
+																		{
+																			"Type": "NodeStrongA6kCloseMarker",
+																			"Data": "**"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "blur()"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "把焦点从顶层窗口移开"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "focus()"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "获取顶层窗口的焦点"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "close（）"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeStrong",
+																	"Data": "strong",
+																	"Children": [
+																		{
+																			"Type": "NodeStrongA6kOpenMarker",
+																			"Data": "**"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "关闭浏览器窗口"
+																		},
+																		{
+																			"Type": "NodeStrongA6kCloseMarker",
+																			"Data": "**"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "moveBy()"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "相对于当前的坐标移动指定的像素"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "moveTo()"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "移动到指定的指定的坐标"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "resizeBy()"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "增大或减少窗口的大小"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "resizeTo()"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "改变到指定到大小"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "scrollBy()"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "指定像素来滚动内容"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "scrollTo()"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "把内容滚动到指定的位置"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "setInterval()"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeStrong",
+																	"Data": "strong",
+																	"Children": [
+																		{
+																			"Type": "NodeStrongA6kOpenMarker",
+																			"Data": "**"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "设置定时器（参数code,millisec[,\"lang\"]）code：函数或代码串，millisec：周期间隔执行code，以毫秒计算"
+																		},
+																		{
+																			"Type": "NodeStrongA6kCloseMarker",
+																			"Data": "**"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "clearInterval()"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeStrong",
+																	"Data": "strong",
+																	"Children": [
+																		{
+																			"Type": "NodeStrongA6kOpenMarker",
+																			"Data": "**"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "取消setInterval设置的timeout"
+																		},
+																		{
+																			"Type": "NodeStrongA6kCloseMarker",
+																			"Data": "**"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "setTimeout()"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "指定的毫秒数调用函数或者表达式"
+																}
+															]
+														}
+													]
+												},
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "clearTimeout()"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "td",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "取消setTimeout设置的timeout"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120211811-82978a5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220120211811-82978a5"
+					},
+					"Children": [
+						{
+							"ID": "20220120211811-og5fwy5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120211811-og5fwy5"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

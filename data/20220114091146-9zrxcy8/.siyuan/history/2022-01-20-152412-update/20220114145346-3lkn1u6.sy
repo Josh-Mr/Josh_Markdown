@@ -1,0 +1,193 @@
+{
+	"ID": "20220114145346-3lkn1u6",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220114145346-3lkn1u6",
+		"title": "未整理",
+		"updated": "20220120151942"
+	},
+	"Children": [
+		{
+			"ID": "20220114145347-bofivfh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114145347-bofivfh",
+				"updated": "20220114145347"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "console.log()：会在浏览器控制台打印出信息。"
+				}
+			]
+		},
+		{
+			"ID": "20220114145347-2bmps3h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114145347-2bmps3h",
+				"updated": "20220114145347"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "console.dir()：可以显示一个对象所有的属性和方法。"
+				}
+			]
+		},
+		{
+			"ID": "20220114145347-7iqxw36",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114145347-7iqxw36",
+				"updated": "20220114145347"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "webstrome格式化快捷键：ctrl+alt+l"
+				}
+			]
+		},
+		{
+			"ID": "20220114145350-75y2dh4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114145350-75y2dh4",
+				"updated": "20220114145350"
+			}
+		},
+		{
+			"ID": "20220114145434-8n3cigc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114145434-8n3cigc",
+				"updated": "20220114145434"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "前端类库："
+				}
+			]
+		},
+		{
+			"ID": "20220114145434-g0984q0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114145434-g0984q0",
+				"updated": "20220114145434"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、moment 关于时间"
+				}
+			]
+		},
+		{
+			"ID": "20220114145434-9v0pwf6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114145434-9v0pwf6",
+				"updated": "20220114145434"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、nprogress 网页上方小进度条插件"
+				}
+			]
+		},
+		{
+			"ID": "20220114145434-xpjss2r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114145434-xpjss2r",
+				"updated": "20220114145434"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、monaco-editor 可以理解为浏览器端的VScode"
+				}
+			]
+		},
+		{
+			"ID": "20220114145434-x2rfaet",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114145434-x2rfaet",
+				"updated": "20220114145434"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4、pinyin ：一个实现汉字与拼音互转的小巧web工具库，另外还包含一个非常非常简单的JS版拼音输入法。"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://github.com/sxei/pinyinjs/"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/sxei/pinyinjs/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220114145434-0ultiur",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114145434-0ultiur",
+				"updated": "20220114145434"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5、js-cookie ：轻松获取cookie信息"
+				}
+			]
+		},
+		{
+			"ID": "20220114145434-dqzb565",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114145434-dqzb565",
+				"updated": "20220114145434"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6、v-charts：图表"
+				}
+			]
+		},
+		{
+			"ID": "20220114145352-yf6ozcy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114145352-yf6ozcy",
+				"updated": "20220114145352"
+			}
+		}
+	]
+}

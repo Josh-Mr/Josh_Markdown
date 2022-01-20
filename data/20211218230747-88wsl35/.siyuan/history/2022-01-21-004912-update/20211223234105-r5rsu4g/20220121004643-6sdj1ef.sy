@@ -1,0 +1,171 @@
+{
+	"ID": "20220121004643-6sdj1ef",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220121004643-6sdj1ef",
+		"title": "未整理",
+		"updated": "20220121004750"
+	},
+	"Children": [
+		{
+			"ID": "20220121004643-b4kqgll",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220121004643-b4kqgll",
+				"updated": "20220121004710"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "异常处理 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://juejin.im/post/5dd5f7f8e51d4536a36a1d7d"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://juejin.im/post/5dd5f7f8e51d4536a36a1d7d"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121004750-9nr6o7m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220121004750-9nr6o7m",
+				"updated": "20220121004750"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、AOP"
+				}
+			]
+		},
+		{
+			"ID": "20220121004750-f0h5wis",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220121004750-f0h5wis",
+				"updated": "20220121004750"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    1、什么是AOP ？"
+				}
+			]
+		},
+		{
+			"ID": "20220121004750-va9ojd4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220121004750-va9ojd4",
+				"updated": "20220121004750"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        核心业务：增删改查操作都叫核心业务，"
+				}
+			]
+		},
+		{
+			"ID": "20220121004750-li8pfzm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220121004750-li8pfzm",
+				"updated": "20220121004750"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        切面（周围）业务：性能统计，日志，事务管理等"
+				}
+			]
+		},
+		{
+			"ID": "20220121004750-odzdu4l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220121004750-odzdu4l",
+				"updated": "20220121004750"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        在面向切面的编程思想里面，核心业务功能和切面功能分别独立开发，然后把核心业务功能和切面功能“编织”在一起！"
+				}
+			]
+		},
+		{
+			"ID": "20220121004750-2rs7zkf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220121004750-2rs7zkf",
+				"updated": "20220121004750"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    2、目的？"
+				}
+			]
+		},
+		{
+			"ID": "20220121004750-o5bqert",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220121004750-o5bqert",
+				"updated": "20220121004750"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        AOP是将那些和业务无关的，并将那些被业务共同调用和处理逻辑（权限控制，日志处理，事务处理）封装起来，减少代码的重复性，降低业务模块之间的耦合度，有利于系统的可可扩展性和可维护性。"
+				}
+			]
+		},
+		{
+			"ID": "20220121004750-aujbpon",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220121004750-aujbpon",
+				"updated": "20220121004750"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Filter是过滤器，interceptor是拦截器。前者基于回调函数实现，必须依靠容器支持。因为需要容器装配好整条FilterChain并逐个调用。后者基于代理实现，属于AOP的范畴"
+				}
+			]
+		},
+		{
+			"ID": "20220121004711-awec2su",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220121004711-awec2su",
+				"updated": "20220121004711"
+			}
+		}
+	]
+}

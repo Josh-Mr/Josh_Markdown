@@ -1,0 +1,179 @@
+{
+	"ID": "20220120161208-qxluq34",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220120161208-qxluq34",
+		"title": "JavaScript_【函数】使用",
+		"updated": "20220120161543"
+	},
+	"Children": [
+		{
+			"ID": "20220120161208-l1zdg29",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120161208-l1zdg29",
+				"updated": "20220120161359"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、函数的创建"
+				}
+			]
+		},
+		{
+			"ID": "20220120161359-99kc1gh",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220120161359-99kc1gh",
+				"updated": "20220120161405"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "1、函数声明式：\n    function add(a,b){\n        console.log(arguments);\n        return a;\n    }\n2、函数表达式：\n    let add = function(){\n        return \"Y\";\n    }\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220120161410-5xafms3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120161410-5xafms3",
+				"updated": "20220120161413"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、函数的内置属性"
+				}
+			]
+		},
+		{
+			"ID": "20220120161413-6tu0i33",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220120161413-6tu0i33",
+				"updated": "20220120161434"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "1、 arguments对象：\narguments对象中存储了传递的所有的实参；\n\n2、length属性：\narguments.length属性：实参的个数\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220120161518-eskeez3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120161518-eskeez3",
+				"updated": "20220120161524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、匿名函数"
+				}
+			]
+		},
+		{
+			"ID": "20220120161524-30639a0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220120161524-30639a0",
+				"updated": "20220120161532"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "1、没有名字的函数\nfunction(){\n}\n2、定时器\nsetInterval(function () {\n        console.log('每秒爱你1遍！');\n},1000);\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220120161536-f7z27h1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120161536-f7z27h1",
+				"updated": "20220120161538"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四、常见的函数"
+				}
+			]
+		},
+		{
+			"ID": "20220120161538-sp2ghma",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220120161538-sp2ghma",
+				"updated": "20220120161543"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "decodeURI():解码某个编码的 URI。\ndecodeURIComponent():解码一个编码的 URI 组件。\nencodeURI():把字符串编码为 URI。\nencodeURIComponent():把字符串编码为 URI 组件。\nescape():对字符串进行编码。\nunescape():对由 escape() 编码的字符串进行解码。\neval():计算 JavaScript 字符串，并把它作为脚本代码来执行。\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

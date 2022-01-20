@@ -1,0 +1,19 @@
+{
+	"ID": "20220120155156-xosrvq6",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220120155156-xosrvq6",
+		"title": "JQuery之【工具方法】",
+		"updated": "20220120155157"
+	},
+	"Children": [
+		{
+			"ID": "20220120155156-nm1k68c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120155156-nm1k68c",
+				"updated": "20220120155156"
+			}
+		}
+	]
+}

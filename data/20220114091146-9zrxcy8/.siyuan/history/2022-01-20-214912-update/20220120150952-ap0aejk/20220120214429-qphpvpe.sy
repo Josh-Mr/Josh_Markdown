@@ -1,0 +1,997 @@
+{
+	"ID": "20220120214429-qphpvpe",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220120214429-qphpvpe",
+		"title": "JQuery_【记录】",
+		"updated": "20220120214912"
+	},
+	"Children": [
+		{
+			"ID": "20220120214912-j6y3o99",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120214912-j6y3o99",
+				"updated": "20220120214912"
+			}
+		},
+		{
+			"ID": "20220120214440-9lunyrm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120214440-9lunyrm",
+				"updated": "20220120214440"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、解决append 加入的元素，绑定事件无效的方法"
+				}
+			]
+		},
+		{
+			"ID": "20220120214440-6fw5k26",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120214440-6fw5k26",
+				"updated": "20220120214658"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.将事件直接绑定在DOM树上，也就是采用on函数，格式如下："
+				}
+			]
+		},
+		{
+			"ID": "20220120214440-uxu1uhv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120214440-uxu1uhv",
+				"updated": "20220120214654"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "$(\"outerSelector\").on('eventType','selector',function(){})；"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120214440-aiuzxjf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120214440-aiuzxjf",
+				"updated": "20220120214655"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "outerSelector"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 是一个一直存在的DOM， selector是你要监听点击的节点；"
+				}
+			]
+		},
+		{
+			"ID": "20220120214440-eojxqub",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120214440-eojxqub",
+				"updated": "20220120214440"
+			}
+		},
+		{
+			"ID": "20220120214537-vswfkna",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220120214537-vswfkna",
+				"updated": "20220120214543"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "$(\"body\").on(\"click\", \"img\", function () {\n    console.log(\"进来了\");\n    $(this).toggleClass(\"show\");\n});\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220120214440-l6z49qh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120214440-l6z49qh",
+				"updated": "20220120214440"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、把一个元素追加到另一个元素需要克隆出来，要不然会把原来的元素会被追加"
+				}
+			]
+		},
+		{
+			"ID": "20220120214736-ag6pt03",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220120214736-ag6pt03",
+				"updated": "20220120214808"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "$(\"#guan\").clone().appendTo($(\"#img\"));\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220120214440-tkj7k63",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120214440-tkj7k63",
+				"updated": "20220120214440"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、jquery 基础"
+				}
+			]
+		},
+		{
+			"ID": "20220120214826-5vx49z5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120214826-5vx49z5",
+				"updated": "20220120214826"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "关于Jquery兼容问题"
+				}
+			]
+		},
+		{
+			"ID": "20220120214826-7rzr6yg",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120214826-7rzr6yg",
+				"updated": "20220120214826"
+			},
+			"Children": [
+				{
+					"ID": "20220120214826-wyfamic",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120214826-wyfamic"
+					},
+					"Children": [
+						{
+							"ID": "20220120214826-qeie5cp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120214826-qeie5cp"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "兼容 IE8 以下"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120214826-hm4nill",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120214826-hm4nill",
+				"updated": "20220120214826"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(193)-20220120214826-do30rkh.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120214826-hm0d7h1",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120214826-hm0d7h1",
+				"updated": "20220120214826"
+			},
+			"Children": [
+				{
+					"ID": "20220120214826-9gnjmpq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120214826-9gnjmpq"
+					},
+					"Children": [
+						{
+							"ID": "20220120214826-bpu3ebv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120214826-bpu3ebv"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "关于ready 和 onload事件区别"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120214826-260uymd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120214826-260uymd"
+					},
+					"Children": [
+						{
+							"ID": "20220120214826-a6mhehu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120214826-a6mhehu"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ready 表示页面中DOM加载完毕后触发"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120214826-qe12sug",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120214826-qe12sug"
+					},
+					"Children": [
+						{
+							"ID": "20220120214826-mze15hu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120214826-mze15hu"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "onload 事件 页面中所有的一切加载完毕后触发"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120214833-8przawk",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220120214833-8przawk",
+				"updated": "20220120214835"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!-- HTML5默认 type=\"text/javascript\" 但是在HTML4和XHTML1.0中type是必须的--\u003e\n\u003cscript type=\"text/javascript\"\u003e\n\n \u003cimg src=\"http://www.google.com.1.jpg\" /\u003e\n     \u003cscript src=\"../js/jquery-3.2.1.min.js\"\u003e\u003c/script\u003e\n     \u003cscript type=\"text/javascript\"\u003e\n         $(document).ready(function() {\n              alert(\"ready...\");\n         });\n         window.onload = function() {\n              alert(\"onload...\");\n         }\n     \u003c/script\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220120214904-13j1hci",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120214904-13j1hci",
+				"updated": "20220120214904"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、编程语言"
+				}
+			]
+		},
+		{
+			"ID": "20220120214904-g8x69jo",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120214904-g8x69jo",
+				"updated": "20220120214904"
+			},
+			"Children": [
+				{
+					"ID": "20220120214904-gexzt0e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120214904-gexzt0e"
+					},
+					"Children": [
+						{
+							"ID": "20220120214904-koi6cbd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120214904-koi6cbd"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "机器语言"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120214904-7hslji5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120214904-7hslji5"
+					},
+					"Children": [
+						{
+							"ID": "20220120214904-4n3ppoz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120214904-4n3ppoz"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "汇编语言"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120214904-96qfbiw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120214904-96qfbiw"
+					},
+					"Children": [
+						{
+							"ID": "20220120214904-ay64ltv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120214904-ay64ltv"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "高级语言"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120214904-dydrsda",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120214904-dydrsda",
+				"updated": "20220120214904"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、解析性语言：程序执行之前，不需要编译就可以直接运行，既是运行时边解析边运行。"
+				}
+			]
+		},
+		{
+			"ID": "20220120214904-v6erncp",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120214904-v6erncp",
+				"updated": "20220120214904"
+			},
+			"Children": [
+				{
+					"ID": "20220120214904-nky9nlk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120214904-nky9nlk"
+					},
+					"Children": [
+						{
+							"ID": "20220120214904-k14rppl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120214904-k14rppl"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "种类"
+								}
+							]
+						},
+						{
+							"ID": "20220120214904-8mxw6mw",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220120214904-8mxw6mw"
+							},
+							"Children": [
+								{
+									"ID": "20220120214904-pdjn1yt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120214904-pdjn1yt"
+									},
+									"Children": [
+										{
+											"ID": "20220120214904-hvps1yj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120214904-hvps1yj"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "JavaScript ：高级语言、解析性语言"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120214904-hseaass",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120214904-hseaass"
+									},
+									"Children": [
+										{
+											"ID": "20220120214904-ux0uluv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120214904-ux0uluv"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "PHP"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120214904-shfv9fw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120214904-shfv9fw"
+									},
+									"Children": [
+										{
+											"ID": "20220120214904-wvhogp7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120214904-wvhogp7"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Python"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120214904-dfeitie",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120214904-dfeitie"
+					},
+					"Children": [
+						{
+							"ID": "20220120214904-7hbcelt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120214904-7hbcelt"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "过程："
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120214904-rg069sy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120214904-rg069sy"
+					},
+					"Children": [
+						{
+							"ID": "20220120214904-tjtl0vt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120214904-tjtl0vt"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "*.js ---\u003e解析--\u003e 机器语言"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120214904-91v21zh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120214904-91v21zh",
+				"updated": "20220120214904"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、编译性语言：程序执行之前，需要一个专门的编译过程，把程序编译为机器语言的文件：exe、jar"
+				}
+			]
+		},
+		{
+			"ID": "20220120214904-b2bmlcg",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120214904-b2bmlcg",
+				"updated": "20220120214904"
+			},
+			"Children": [
+				{
+					"ID": "20220120214904-v1silb2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120214904-v1silb2"
+					},
+					"Children": [
+						{
+							"ID": "20220120214904-lowvfnj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120214904-lowvfnj"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "种类"
+								}
+							]
+						},
+						{
+							"ID": "20220120214904-53lwwb4",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220120214904-53lwwb4"
+							},
+							"Children": [
+								{
+									"ID": "20220120214904-2ht9yq5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120214904-2ht9yq5"
+									},
+									"Children": [
+										{
+											"ID": "20220120214904-6ob9ghj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120214904-6ob9ghj"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "C/C++"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120214904-ps6r1i3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120214904-ps6r1i3"
+									},
+									"Children": [
+										{
+											"ID": "20220120214904-d32ay86",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120214904-d32ay86"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Object -C"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120214904-tv0t1g7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120214904-tv0t1g7"
+					},
+					"Children": [
+						{
+							"ID": "20220120214904-padik06",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120214904-padik06"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "过程:"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120214904-foxfuet",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120214904-foxfuet"
+					},
+					"Children": [
+						{
+							"ID": "20220120214904-h3ys0ff",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120214904-h3ys0ff"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "*.c --\u003e 编译 --\u003e *.obj --\u003e链接 --\u003e 机器语言"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120214904-7w1ii84",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120214904-7w1ii84",
+				"updated": "20220120214904"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四、总结"
+				}
+			]
+		},
+		{
+			"ID": "20220120214904-8d10nvo",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120214904-8d10nvo",
+				"updated": "20220120214904"
+			},
+			"Children": [
+				{
+					"ID": "20220120214904-hxh04u2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120214904-hxh04u2"
+					},
+					"Children": [
+						{
+							"ID": "20220120214904-tztogwq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120214904-tztogwq"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编译性语言和解析性语言对比"
+								}
+							]
+						},
+						{
+							"ID": "20220120214904-b15lqv3",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220120214904-b15lqv3"
+							},
+							"Children": [
+								{
+									"ID": "20220120214904-jgpxeyv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120214904-jgpxeyv"
+									},
+									"Children": [
+										{
+											"ID": "20220120214904-hd12vgc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120214904-hd12vgc"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "编译性语言：执行速度快、性能好主要用于开发操作系统、数据库系统"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120214904-vh2nkxy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120214904-vh2nkxy"
+									},
+									"Children": [
+										{
+											"ID": "20220120214904-ajcg9uy",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120214904-ajcg9uy"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "解析性语言：相对于编译性语言慢，但是跨平台好主要用于开发网页脚本等"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

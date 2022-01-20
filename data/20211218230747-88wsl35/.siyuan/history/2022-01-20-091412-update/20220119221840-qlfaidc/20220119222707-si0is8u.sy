@@ -1,0 +1,356 @@
+{
+	"ID": "20220119222707-si0is8u",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220119222707-si0is8u",
+		"title": "未整理",
+		"updated": "20220120091056"
+	},
+	"Children": [
+		{
+			"ID": "20220119222723-u0a3qk9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220119222723-u0a3qk9",
+				"updated": "20220119222723"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在浏览器中输入url地址 -\u003e\u003e 显示主页的过程(面试常客)"
+				}
+			]
+		},
+		{
+			"ID": "20220119222723-71njfvp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119222723-71njfvp",
+				"updated": "20220119222723"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "总体来说分为以下几个过程:"
+				}
+			]
+		},
+		{
+			"ID": "20220119222723-jvppx2g",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220119222723-jvppx2g",
+				"updated": "20220119222723"
+			},
+			"Children": [
+				{
+					"ID": "20220119222723-g1zw9rf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220119222723-g1zw9rf"
+					},
+					"Children": [
+						{
+							"ID": "20220119222723-827b0fb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119222723-827b0fb"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "DNS解析"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220119222723-b4j2v7w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220119222723-b4j2v7w"
+					},
+					"Children": [
+						{
+							"ID": "20220119222723-nkr3ncm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119222723-nkr3ncm"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "TCP连接"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220119222723-bbzfmd5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220119222723-bbzfmd5"
+					},
+					"Children": [
+						{
+							"ID": "20220119222723-u398qom",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119222723-u398qom"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "发送HTTP请求"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220119222723-v6p208z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220119222723-v6p208z"
+					},
+					"Children": [
+						{
+							"ID": "20220119222723-7yth90r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119222723-7yth90r"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "服务器处理请求并返回HTTP报文"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220119222723-3b2een1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220119222723-3b2een1"
+					},
+					"Children": [
+						{
+							"ID": "20220119222723-j4qiw3z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119222723-j4qiw3z"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "浏览器解析渲染页面"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220119222723-lkbpmi4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220119222723-lkbpmi4"
+					},
+					"Children": [
+						{
+							"ID": "20220119222723-ou6bzma",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119222723-ou6bzma"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "连接结束"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119222724-i4m07gk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119222724-i4m07gk",
+				"updated": "20220119222724"
+			}
+		},
+		{
+			"ID": "20220119231831-hb1f8tt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119231831-hb1f8tt",
+				"updated": "20220119231831"
+			}
+		},
+		{
+			"ID": "20220119231831-ac8oac4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220119231831-ac8oac4",
+				"updated": "20220119231831"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "TCP 的 Keepalive 和 HTTP 的 Keep-Alive 是一个东西吗？"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.1024sou.com/article/1458.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119231841-wrtp5ue",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220119231841-wrtp5ue",
+				"updated": "20220119231841"
+			}
+		},
+		{
+			"ID": "20220119231841-pdv9lx4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220119231841-pdv9lx4",
+				"updated": "20220119231841"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "KeepAlive详解（转）"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.1024sou.com/article/56021.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119231900-lpph5lr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220119231900-lpph5lr",
+				"updated": "20220119231900"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "HTTP Keep-Alive模式客户端与服务器如何判定传输完成"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.cnblogs.com/lifan1998/p/14325065.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

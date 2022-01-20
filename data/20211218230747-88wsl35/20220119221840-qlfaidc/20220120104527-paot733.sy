@@ -1,0 +1,1434 @@
+{
+	"ID": "20220120104527-paot733",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220120104527-paot733",
+		"title": "Protocol_HTTP消息头",
+		"updated": "20220120110001"
+	},
+	"Children": [
+		{
+			"ID": "20220120104527-eyjvca1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120104527-eyjvca1",
+				"updated": "20220120105006"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、General Header 通用首部"
+				}
+			]
+		},
+		{
+			"ID": "20220120105020-dgcjgvd",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120105020-dgcjgvd",
+				"updated": "20220120105137"
+			},
+			"Children": [
+				{
+					"ID": "20220120105020-9ldx0bb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120105020-9ldx0bb"
+					},
+					"Children": [
+						{
+							"ID": "20220120105020-0ngo5hg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120105020-0ngo5hg"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通用首部：指的是可以应用于请求和响应中，但是不能应用于消息内容自身的HTTP首部，取决于应用的上下文环境，通用首部可以是响应头部或者请求头部，但是不可以是实体头部。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120105020-nfx126y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120105020-nfx126y",
+						"updated": "20220120105137"
+					},
+					"Children": [
+						{
+							"ID": "20220120105020-ofeutld",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120105020-ofeutld"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "最常见的通用首部包括："
+								}
+							]
+						},
+						{
+							"ID": "20220120105020-34hidy8",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220120105020-34hidy8",
+								"updated": "20220120105115"
+							},
+							"Children": [
+								{
+									"ID": "20220120105020-tt10qfe",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120105020-tt10qfe",
+										"updated": "20220120105115"
+									},
+									"Children": [
+										{
+											"ID": "20220120105020-8yn2ikj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120105020-8yn2ikj"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Date: 是一个通用首部，其中包含了报文创建的日期和时间。"
+												}
+											]
+										},
+										{
+											"ID": "20220120105111-fdpqloh",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20220120105111-fdpqloh",
+												"updated": "20220120105115"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "anM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "语法：\nDate: \u003cday-name\u003e, \u003cday\u003e \u003cmonth\u003e \u003cyear\u003e \u003chour\u003e:\u003cminute\u003e:\u003csecond\u003e GMT\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220120105056-2n5ad7e",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220120105056-2n5ad7e",
+								"updated": "20220120105137"
+							},
+							"Children": [
+								{
+									"ID": "20220120105059-uk59ye1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120105059-uk59ye1"
+									},
+									"Children": [
+										{
+											"ID": "20220120105059-ekmvz22",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120105059-ekmvz22",
+												"updated": "20220120105100"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Cache-control:通用的消息头字段，被用于在http请求和响应中，通过制定指令来实现缓存机制。"
+												}
+											]
+										},
+										{
+											"ID": "20220120105105-gmte78w",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20220120105105-gmte78w",
+												"updated": "20220120105107"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "anM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "* 缓存请求指令\n* 客户端可以在HTTP请求中使用的标准 Cache-Control 指令。\nCache-Control: max-age=\u003cseconds\u003e\nCache-Control: max-stale[=\u003cseconds\u003e]\nCache-Control: min-fresh=\u003cseconds\u003e\n......\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120105126-hiyf52r",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120105126-hiyf52r",
+										"updated": "20220120105137"
+									},
+									"Children": [
+										{
+											"ID": "20220120105126-w8numd5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120105126-w8numd5",
+												"updated": "20220120105127"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Connection:头（header） 决定当前的事物完成后，是否会关闭网络连接。"
+												}
+											]
+										},
+										{
+											"ID": "20220120105134-oudf3re",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20220120105134-oudf3re",
+												"updated": "20220120105137"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "anM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "Connection: keep-alive  --如果该值是“keep-alive”，网络连接就是持久的，不会关闭，使得对同一个服务器的请求可以继续在该连接上完成。\nConnection: close --默认值\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120105035-nymio8a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120105035-nymio8a",
+				"updated": "20220120105143"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、Request Header 请求头"
+				}
+			]
+		},
+		{
+			"ID": "20220120105150-fj5jkwf",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120105150-fj5jkwf",
+				"updated": "20220120105150"
+			},
+			"Children": [
+				{
+					"ID": "20220120105150-s4x8vsq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120105150-s4x8vsq"
+					},
+					"Children": [
+						{
+							"ID": "20220120105150-ivqrrql",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120105150-ivqrrql"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "请求头：请求头是http头的一种，他可在请求中使用，并且和请求主体无关。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120105150-4479gf4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120105150-4479gf4"
+					},
+					"Children": [
+						{
+							"ID": "20220120105150-or4sx1s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120105150-or4sx1s"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "例如： 些请求头如 "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Accept"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Accept"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "Accept 请求头用来告知（服务器）客户端可以处理的内容类型，这种内容类型用MIME类型来表示。借助内容协商机制, 服务器可以从诸多备选项中选择一项进行应用，并使用 Content-Type 应答头通知客户端它的选择。浏览器会基于请求的上下文来为这个请求头设置合适的值，比如获取一个CSS层叠样式表时值与获取图片、视频或脚本文件时的值是不同的。"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "、"
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Accept-*"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Accept-Language"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "Accept-Language 请求头允许客户端声明它可以理解的自然语言，以及优先选择的区域方言。借助内容协商机制，服务器可以从诸多备选项中选择一项进行应用， 并使用 Content-Language 应答头通知客户端它的选择。浏览器会基于其用户界面语言为这个请求头设置合适的值，即便是用户可以进行修改，但是这种情况极少发生（因为可增加指纹独特性，通常也不被鼓励）（译者注：通常只在测试网站的多语言支持时手动修改它；或为进一步减少指纹独特性，改为最常见的英文）。"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "、 "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "If-*"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/If-Modified-Since"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "If-Modified-Since 是一个条件式请求首部，服务器只在所请求的资源在给定的日期时间之后对内容进行过修改的情况下才会将资源返回，状态码为 200  。如果请求的资源从那时起未经修改，那么返回一个不带有消息主体的  304  响应，而在 Last-Modified 首部中会带有上次修改时间。 不同于  If-Unmodified-Since, If-Modified-Since 只可以用在 GET 或 HEAD 请求中。"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 允许执行条件请求。某些请求头如："
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Cookie"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Cookie"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "Cookie 是一个请求首部，其中含有先前由服务器通过 Set-Cookie  首部投放并存储到客户端的 HTTP cookies。"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ", "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "User-Agent"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/User-Agent"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "User-Agent 首部包含了一个特征字符串，用来让网络协议的对端来识别发起请求的用户代理软件的应用类型、操作系统、软件开发商以及版本号。"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 和 "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Referer"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Referer"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "Referer 请求头包含了当前请求页面的来源页面的地址，即表示当前页面是通过此来源页面里的链接进入的。服务端一般使用 Referer 请求头识别访问来源，可能会以此进行统计分析、日志记录以及缓存优化等。"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 描述了请求本身以确保服务端能返回正确的响应。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120105210-70k9hb1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220120105210-70k9hb1",
+				"updated": "20220120105214"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "GET /home.html HTTP/1.1\nHost: developer.mozilla.org\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:50.0) Gecko/20100101 Firefox/50.0\n//请求头用来告知（服务器）客户端可以处理的内容类型，这种内容类型用MIME类型来表示。\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 \nAccept-Language: en-US,en;q=0.5\nAccept-Encoding: gzip, deflate, br\nReferer: https://developer.mozilla.org/testpage.html\nConnection: keep-alive\nUpgrade-Insecure-Requests: 1\nIf-Modified-Since: Mon, 18 Jul 2016 02:36:04 GMT\nIf-None-Match: \"c561c68d0ba92bbeb8b0fff2a9199f722e3a621a\"\nCache-Control: max-age=0\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220120105218-q4wolrc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120105218-q4wolrc",
+				"updated": "20220120105221"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、Response Header 响应头"
+				}
+			]
+		},
+		{
+			"ID": "20220120105221-jme6918",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120105221-jme6918",
+				"updated": "20220120105236"
+			},
+			"Children": [
+				{
+					"ID": "20220120105232-mlln9zk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120105232-mlln9zk",
+						"updated": "20220120105236"
+					},
+					"Children": [
+						{
+							"ID": "20220120105232-7qvcfy8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120105232-7qvcfy8"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以定义为：被用于http响应中并且和响应消息主体无关的那一类HTTP Header，像Age、Location和Server都是属于响应头。"
+								}
+							]
+						},
+						{
+							"ID": "20220120105234-0yh585m",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220120105234-0yh585m",
+								"updated": "20220120105236"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "200 OK\nAccess-Control-Allow-Origin: *\nConnection: Keep-Alive\nContent-Encoding: gzip\nContent-Type: text/html; charset=utf-8\nDate: Mon, 18 Jul 2016 16:06:00 GMT\nEtag: \"c561c68d0ba92bbeb8b0f612a9199f722e3a621a\"\nKeep-Alive: timeout=5, max=997\nLast-Modified: Mon, 18 Jul 2016 02:36:04 GMT\nServer: Apache\nSet-Cookie: mykey=myvalue; expires=Mon, 17-Jul-2017 16:06:00 GMT; Max-Age=31449600; Path=/; secure\nTransfer-Encoding: chunked\nVary: Cookie, Accept-Encoding\nX-Backend-Server: developer2.webapp.scl3.mozilla.com\nX-Cache-Info: not cacheable; meta data too large\nX-kuma-revision: 1085259\nx-frame-options: DENY\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120105229-v2043uu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120105229-v2043uu",
+				"updated": "20220120105246"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四、Entity Header 实体头"
+				}
+			]
+		},
+		{
+			"ID": "20220120105250-htuqmwq",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120105250-htuqmwq",
+				"updated": "20220120105256"
+			},
+			"Children": [
+				{
+					"ID": "20220120105250-wivdciv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120105250-wivdciv",
+						"updated": "20220120105256"
+					},
+					"Children": [
+						{
+							"ID": "20220120105250-sd3hun9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120105250-sd3hun9"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实体报头HTTP header 用来描述消息内容。实体报头既可用于请求也可以用于响应中。"
+								}
+							]
+						},
+						{
+							"ID": "20220120105251-hgdra6e",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220120105251-hgdra6e",
+								"updated": "20220120105256"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "Content-Length:128 --实体消息首部，用来指明发送给接收方的消息主体的大小，既用十进制数字表示的八位元组的数目。\nContent-Language: de-DE, en-CA--用来说明访问者希望采用的语言\nContent-Encoding: gzip --是一个实体消息首部，用于对特定媒体类型的数据进行压缩。\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120105318-b2p7ll8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120105318-b2p7ll8",
+				"updated": "20220120105320"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "五、常用的消息头"
+				}
+			]
+		},
+		{
+			"ID": "20220120105325-dhld4vw",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"id": "20220120105325-dhld4vw",
+				"updated": "20220120105325"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "消息头"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "描述"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "更多信息"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "标准"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Accept"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation#The_Accept.3a_header"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "https://developer.mozilla.org/en/HTTP/Content_negotiation#The_Accept.3a_header"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用户代理期望的MIME 类型列表"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "HTTP Content Negotiation"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "en/HTTP/Content negotiation"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HTTP/1.1"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Accept-CH"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation#The_Accept-CH_header"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "列出配置数据，服务器可据此来选择适当的响应。"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "HTTP Client Hints"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "http://igrigorik.github.io/http-client-hints"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Accept-Charset"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation#The_Accept-Charset.3a_header"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "https://developer.mozilla.org/en/HTTP/Content_negotiation#The_Accept-Charset.3a_header"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "列出用户代理支持的字符集。"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "HTTP Content Negotiation"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "en/HTTP/Content negotiation"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HTTP/1.1"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Accept-Features"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "HTTP Content Negotiation"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "en/HTTP/Content negotiation"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "RFC 2295, §8.2"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Accept-Encoding"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation#The_Accept-Encoding.3a_header"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "https://developer.mozilla.org/en/HTTP/Content_negotiation#The_Accept-Encoding.3a_header"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "列出用户代理支持的压缩方法。"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "HTTP Content Negotiation"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "en/HTTP/Content negotiation"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HTTP/1.1"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Accept-Language"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation#The_Accept-Language.3a_header"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "https://developer.mozilla.org/en/HTTP/Content_negotiation#The_Accept-Language.3a_header"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "列出用户代理期望的页面语言。"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "HTTP Content Negotiation"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "https://developer.mozilla.org/en/Content_negotiation"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HTTP/1.1"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120105327-2qf7vdp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120105327-2qf7vdp",
+				"updated": "20220120105327"
+			}
+		}
+	]
+}

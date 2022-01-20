@@ -1,0 +1,3083 @@
+{
+	"ID": "20220120111106-lgqdbfi",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220120111106-lgqdbfi",
+		"title": "Protocol_HTTP跨域资源共享（CORS）重点",
+		"updated": "20220120114834"
+	},
+	"Children": [
+		{
+			"ID": "20220120111106-lqw2c6i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120111106-lqw2c6i",
+				"updated": "20220120111132"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、什么是跨域资源共享-"
+				}
+			]
+		},
+		{
+			"ID": "20220120111838-r5brcxh",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120111838-r5brcxh",
+				"updated": "20220120113106"
+			},
+			"Children": [
+				{
+					"ID": "20220120111839-jx60ppj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120111839-jx60ppj"
+					},
+					"Children": [
+						{
+							"ID": "20220120111839-dfil64h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120111839-dfil64h",
+								"updated": "20220120111908"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Cross-Origin Resource Sharing【"
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "参考文档"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CORS"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "】"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120113104-qpziqyz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120113104-qpziqyz",
+						"updated": "20220120113106"
+					},
+					"Children": [
+						{
+							"ID": "20220120113104-7pq0zcc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120113104-7pq0zcc",
+								"updated": "20220120113106"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "https://zhuanlan.zhihu.com/p/53996160"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://zhuanlan.zhihu.com/p/53996160"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120111138-b1pfigj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120111138-b1pfigj",
+				"updated": "20220120111502"
+			},
+			"Children": [
+				{
+					"ID": "20220120111138-cnsfght",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120111138-cnsfght",
+						"updated": "20220120111408"
+					},
+					"Children": [
+						{
+							"ID": "20220120111138-mp527bt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120111138-mp527bt",
+								"updated": "20220120111408"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是一种"
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "HTTP头的一种机制"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，可以标识"
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "除了自己以外"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "的其他"
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Origin（域、协议、端口）"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，这样浏览器就可以访问"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "加载资源"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "了。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120111138-it7tu2j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120111138-it7tu2j",
+						"updated": "20220120111502"
+					},
+					"Children": [
+						{
+							"ID": "20220120111138-fl5dm88",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120111138-fl5dm88",
+								"updated": "20220120111502"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "CROS还通过一种机制来"
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "检查服务器"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "是否"
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "会允许要发送的真实请求"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，该"
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "机制"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "通过"
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "浏览器"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "发起一个到"
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "服务器"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "托管的跨源资源的“"
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "预检"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "”。在预检中，"
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "浏览器"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "发送的"
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "头标识"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "有"
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "HTTP方法"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "和"
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "真实请求中会用到的头"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120111320-llprs72",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120111320-llprs72",
+						"updated": "20220120111348"
+					},
+					"Children": [
+						{
+							"ID": "20220120111320-c0zb62b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120111320-c0zb62b",
+								"updated": "20220120111348"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Properties": {
+										"style": "color: var(--b3-font-color9);"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "什么是预检？什么是同源策略？"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color9);\"}"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120111150-flajm3o",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120111150-flajm3o",
+				"updated": "20220120111154"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、CORS功能概述"
+				}
+			]
+		},
+		{
+			"ID": "20220120111150-80qju6c",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120111150-80qju6c",
+				"updated": "20220120111150"
+			},
+			"Children": [
+				{
+					"ID": "20220120111150-ywcs178",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120111150-ywcs178"
+					},
+					"Children": [
+						{
+							"ID": "20220120111150-oedeb7x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120111150-oedeb7x"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "跨域资源共享标准"
+								}
+							]
+						},
+						{
+							"ID": "20220120111150-ge90rq4",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220120111150-ge90rq4"
+							},
+							"Children": [
+								{
+									"ID": "20220120111150-p2mxmb8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120111150-p2mxmb8"
+									},
+									"Children": [
+										{
+											"ID": "20220120111150-lkapz4a",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120111150-lkapz4a"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "增加了一组HTTP首部的字段，允许服务器声明哪些源站通过浏览器有权限访问哪些资源。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120111150-9z4sk02",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120111150-9z4sk02"
+									},
+									"Children": [
+										{
+											"ID": "20220120111150-0gx4rmm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120111150-0gx4rmm"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "规范要求，对于那些可能对服务器数据产生副作用的HTTP请求方法（除了GET以外，或者搭配某些MIME类型的POST请求），浏览器首先用OPTIONS方法发起一个预检的请求。"
+												}
+											]
+										},
+										{
+											"ID": "20220120111150-mluawa9",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220120111150-mluawa9"
+											},
+											"Children": [
+												{
+													"ID": "20220120111150-dbec50l",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220120111150-dbec50l"
+													},
+													"Children": [
+														{
+															"ID": "20220120111150-08shgng",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220120111150-08shgng"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "从而获知服务器是否允许该跨域请求。服务器确认允许之后，才发起实际的HTTP请求。在预检请求的返回中，服务器端也可以通知客户端，是否需要携带身份证（包括Cookies和HTTP认证相关数据）"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120114016-09avqxq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120114016-09avqxq",
+				"updated": "20220120114020"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、场景过程"
+				}
+			]
+		},
+		{
+			"ID": "20220120114021-15mkivp",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120114021-15mkivp",
+				"updated": "20220120114053"
+			},
+			"Children": [
+				{
+					"ID": "20220120114026-2r2wvdc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120114026-2r2wvdc",
+						"updated": "20220120114053"
+					},
+					"Children": [
+						{
+							"ID": "20220120114026-ftosntq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120114026-ftosntq"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "简单请求：不会触发CORS预检请求的称为“简单请求”。"
+								}
+							]
+						},
+						{
+							"ID": "20220120114028-ibs1uym",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220120114028-ibs1uym",
+								"updated": "20220120114036"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "1、GET /resources/public-data/ HTTP/1.1\n2、Host: bar.other\n3、User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1b3pre)Gecko/20081130 Minefield/3.1b3pre\n4、Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n5、Accept-Language: en-us,en;q=0.5\n6、Accept-Encoding: gzip,deflate\n7、Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7\n8、Connection: keep-alive\n9、Referer: http://foo.example/examples/access-control/simpleXSInvocation.html\n10、Origin: http://foo.example\n\n解析：\n1~10行是请求首部，第10行的请求首部字段Origin表名该请求来源于http://foo.example。\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220120114048-syzf5e2",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220120114048-syzf5e2",
+								"updated": "20220120114053"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "13、HTTP/1.1 200 OK\n14、Date: Mon, 01 Dec 2008 00:23:53 GMT\n15、Server: Apache/2.0.61\n16、Access-Control-Allow-Origin: *\n17、Keep-Alive: timeout=2, max=100\n18、Connection: Keep-Alive\n19、Transfer-Encoding: chunked\n20、Content-Type: application/xml\n22、[XML Data]\n\n解析：\n服务器返回的Access-Control-Allow-Origin：*表明，该资源可以被任意外域访问。\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120114037-i1fal9o",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120114037-i1fal9o",
+				"updated": "20220120114834"
+			},
+			"Children": [
+				{
+					"ID": "20220120114103-t31dfdx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120114103-t31dfdx",
+						"updated": "20220120114107"
+					},
+					"Children": [
+						{
+							"ID": "20220120114107-rdzdqug",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120114107-rdzdqug",
+								"updated": "20220120114250"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "预检请求"
+								}
+							]
+						},
+						{
+							"ID": "20220120114107-jrqnmyb",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220120114107-jrqnmyb",
+								"updated": "20220120114107"
+							},
+							"Children": [
+								{
+									"ID": "20220120114320-cr68zze",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120114320-cr68zze"
+									},
+									"Children": [
+										{
+											"ID": "20220120114320-2wzg13g",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120114320-2wzg13g"
+											}
+										}
+									]
+								},
+								{
+									"ID": "20220120114107-a9wvd1d",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120114107-a9wvd1d"
+									},
+									"Children": [
+										{
+											"ID": "20220120114107-ev220e2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120114107-ev220e2"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "“需预检的请求”要求必须首先使用OPTIONS方法发起一个预检请求到服务器，获得服务器是否允许该实际请求。“预检请求”的使用，可以避免跨域请求对服务器的用户数据产生未预期的影响。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120114143-6a955wb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120114143-6a955wb",
+						"updated": "20220120114834"
+					},
+					"Children": [
+						{
+							"ID": "20220120114148-tz0r3xd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120114148-tz0r3xd",
+								"updated": "20220120114148"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "预检请求"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220120114202-9zrtlp0",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220120114202-9zrtlp0",
+								"updated": "20220120114202"
+							},
+							"Children": [
+								{
+									"ID": "20220120114148-p93oy7x",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-p93oy7x",
+										"updated": "20220120114202"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "OPTIONS /resources/post-here/ HTTP/1.1"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120114148-1kqws35",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-1kqws35",
+										"updated": "20220120114202"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Host: bar.other"
+										}
+									]
+								},
+								{
+									"ID": "20220120114148-aymmhl9",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-aymmhl9",
+										"updated": "20220120114202"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1b3pre) Gecko/20081130 Minefield/3.1b3pre"
+										}
+									]
+								},
+								{
+									"ID": "20220120114148-0px7ngn",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-0px7ngn",
+										"updated": "20220120114202"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,"
+										},
+										{
+											"Type": "NodeEmphasis",
+											"Data": "em",
+											"Children": [
+												{
+													"Type": "NodeEmA6kOpenMarker",
+													"Data": "*"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "/"
+												},
+												{
+													"Type": "NodeEmA6kCloseMarker",
+													"Data": "*"
+												}
+											]
+										},
+										{
+											"Type": "NodeText",
+											"Data": ";q=0.8"
+										}
+									]
+								},
+								{
+									"ID": "20220120114148-40bmorw",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-40bmorw",
+										"updated": "20220120114202"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Accept-Language: en-us,en;q=0.5"
+										}
+									]
+								},
+								{
+									"ID": "20220120114148-ooxp01b",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-ooxp01b",
+										"updated": "20220120114202"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Accept-Encoding: gzip,deflate"
+										}
+									]
+								},
+								{
+									"ID": "20220120114148-gj62w0a",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-gj62w0a",
+										"updated": "20220120114202"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7"
+										}
+									]
+								},
+								{
+									"ID": "20220120114148-np03139",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-np03139",
+										"updated": "20220120114202"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Connection: keep-alive"
+										}
+									]
+								},
+								{
+									"ID": "20220120114148-n3u18vw",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-n3u18vw",
+										"updated": "20220120114202"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Origin: http://foo.example"
+										}
+									]
+								},
+								{
+									"ID": "20220120114148-78p1hsy",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-78p1hsy",
+										"updated": "20220120114202"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "Access-Control-Request-Method: POST --告知服务器，实际请求将使用 POST 方法"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120114148-3w6lgxu",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-3w6lgxu",
+										"updated": "20220120114202"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "Access-Control-Request-Headers: X-PINGOTHER, Content-Type--告知服务器，实际请求将会携带两个自定义请求首部字段：X-PINGOTHER, Content-Type，服务器据此决定，该实际请求是否被允许。"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								}
+							]
+						},
+						{
+							"ID": "20220120114230-v0xejsv",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220120114230-v0xejsv",
+								"updated": "20220120114334"
+							},
+							"Children": [
+								{
+									"ID": "20220120114148-5jnionl",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-5jnionl",
+										"updated": "20220120114230"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "HTTP/1.1 200 OK"
+										}
+									]
+								},
+								{
+									"ID": "20220120114148-oj38gmj",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-oj38gmj",
+										"updated": "20220120114230"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Date: Mon, 01 Dec 2008 01:15:39 GMT"
+										}
+									]
+								},
+								{
+									"ID": "20220120114148-dzyk3r8",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-dzyk3r8",
+										"updated": "20220120114230"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Server: Apache/2.0.61 (Unix)"
+										}
+									]
+								},
+								{
+									"ID": "20220120114148-zpfgp0u",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-zpfgp0u",
+										"updated": "20220120114230"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "Access-Control-Allow-Origin: http://foo.example"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120114148-cis47df",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-cis47df",
+										"updated": "20220120114230"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "Access-Control-Allow-Methods: POST, GET, OPTIONS--表明服务器允许客户端使用的方法发起的请求。"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120114148-wj0m9b7",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-wj0m9b7",
+										"updated": "20220120114230"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "Access-Control-Allow-Headers: X-PINGOTHER, Content-Type--表明服务器允许请求中携带字段 X-PINGOTHER 与 Content-Type"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120114148-j9g842o",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-j9g842o",
+										"updated": "20220120114230"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": " "
+										},
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "Access-Control-Max-Age: 86400--"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										},
+										{
+											"Type": "NodeText",
+											"Data": " "
+										},
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "表明该响应的有效时间为 86400 秒，也就是 24 小时"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120114148-p71otag",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-p71otag",
+										"updated": "20220120114230"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Vary: Accept-Encoding, Origin"
+										}
+									]
+								},
+								{
+									"ID": "20220120114148-evttp50",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-evttp50",
+										"updated": "20220120114230"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Content-Encoding: gzip"
+										}
+									]
+								},
+								{
+									"ID": "20220120114148-j4jnla3",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-j4jnla3",
+										"updated": "20220120114230"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Content-Length: 0"
+										}
+									]
+								},
+								{
+									"ID": "20220120114148-6k6kdvp",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-6k6kdvp",
+										"updated": "20220120114230"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Keep-Alive: timeout=2, max=100"
+										}
+									]
+								},
+								{
+									"ID": "20220120114148-cdpnet9",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-cdpnet9",
+										"updated": "20220120114230"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Connection: Keep-Alive"
+										}
+									]
+								},
+								{
+									"ID": "20220120114148-0s68ip8",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114148-0s68ip8",
+										"updated": "20220120114230"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Content-Type: text/plain"
+										}
+									]
+								},
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								}
+							]
+						},
+						{
+							"ID": "20220120114419-uxsmj0j",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220120114419-uxsmj0j",
+								"updated": "20220120114419"
+							},
+							"Children": [
+								{
+									"ID": "20220120114253-j10w3e8",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-j10w3e8",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "实际请求"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-lnhuh19",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-lnhuh19",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "POST /resources/post-here/ HTTP/1.1"
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-axlbj0o",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-axlbj0o",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Host: bar.other"
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-l7s66m5",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-l7s66m5",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1b3pre) Gecko/20081130 Minefield/3.1b3pre"
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-a4r6d2g",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-a4r6d2g",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,"
+												},
+												{
+													"Type": "NodeEmphasis",
+													"Data": "em",
+													"Children": [
+														{
+															"Type": "NodeEmA6kOpenMarker",
+															"Data": "*"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "/"
+														},
+														{
+															"Type": "NodeEmA6kCloseMarker",
+															"Data": "*"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ";q=0.8"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-p1fcfbe",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-p1fcfbe",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "Accept-Language: en-us,en;q=0.5"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-b6rrn8s",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-b6rrn8s",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "Accept-Encoding: gzip,deflate"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-6n1b257",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-6n1b257",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-2os9uk4",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-2os9uk4",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Connection: keep-alive"
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-z45wjod",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-z45wjod",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "X-PINGOTHER: pingpong"
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-p05i1s8",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-p05i1s8",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Content-Type: text/xml; charset=UTF-8"
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-q0l57jz",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-q0l57jz",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "Referer: http://foo.example/examples/preflightInvocation.html"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-a7yzyj9",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-a7yzyj9",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Content-Length: 55"
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-etu2eii",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-etu2eii",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "Origin: http://foo.example"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-dxcmveg",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-dxcmveg",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Pragma: no-cache"
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-vr6thbr",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-vr6thbr",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Cache-Control: no-cache"
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-2pnpn8n",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-2pnpn8n",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "\u003c?xml version=\"1.0\"?\u003e\u003cperson\u003e\u003cname\u003eArun\u003c/name\u003e\u003c/person\u003e"
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-8ks4063",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-8ks4063",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "HTTP/1.1 200 OK"
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-e1bfl4w",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-e1bfl4w",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Date: Mon, 01 Dec 2008 01:15:40 GMT"
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-mnc2vin",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-mnc2vin",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Server: Apache/2.0.61 (Unix)"
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-sbm26gr",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-sbm26gr",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "Access-Control-Allow-Origin: http://foo.example"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-5ermiic",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-5ermiic",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Vary: Accept-Encoding, Origin"
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-9129udi",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-9129udi",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Content-Encoding: gzip"
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-e32708f",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-e32708f",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Content-Length: 235"
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-cdbss5k",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-cdbss5k",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Keep-Alive: timeout=2, max=99"
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-ngb1g1o",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-ngb1g1o",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "Connection: Keep-Alive"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-yvtzr8o",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-yvtzr8o",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "Content-Type: text/plain"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120114253-9etdror",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114253-9etdror",
+										"updated": "20220120114419"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "[Some GZIP'd payload]"
+										}
+									]
+								},
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								}
+							]
+						},
+						{
+							"ID": "20220120114830-gtm2cmn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120114830-gtm2cmn",
+								"updated": "20220120114834"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Image.png"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/Image-20220120114426-2yao479.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120114438-uuh99s9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120114438-uuh99s9",
+				"updated": "20220120114459"
+			},
+			"Children": [
+				{
+					"ID": "20220120114440-mx199gq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120114440-mx199gq",
+						"updated": "20220120114459"
+					},
+					"Children": [
+						{
+							"ID": "20220120114440-efd238h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120114440-efd238h",
+								"updated": "20220120114440"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "附带身份凭证的请求"
+								}
+							]
+						},
+						{
+							"ID": "20220120114458-6bscso6",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220120114458-6bscso6",
+								"updated": "20220120114459"
+							},
+							"Children": [
+								{
+									"ID": "20220120114453-c95kmvz",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-c95kmvz",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "GET /resources/access-control-with-credentials/ HTTP/1.1"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-avjtfb5",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-avjtfb5",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Host: bar.other"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-nfyfizt",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-nfyfizt",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1b3pre) Gecko/20081130 Minefield/3.1b3pre"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-b10xjch",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-b10xjch",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,"
+										},
+										{
+											"Type": "NodeEmphasis",
+											"Data": "em",
+											"Children": [
+												{
+													"Type": "NodeEmA6kOpenMarker",
+													"Data": "*"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "/"
+												},
+												{
+													"Type": "NodeEmA6kCloseMarker",
+													"Data": "*"
+												}
+											]
+										},
+										{
+											"Type": "NodeText",
+											"Data": ";q=0.8"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-291tsir",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-291tsir",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Accept-Language: en-us,en;q=0.5"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-62cv6d0",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-62cv6d0",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Accept-Encoding: gzip,deflate"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-bw545ua",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-bw545ua",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Connection: keep-alive"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-nm0ffmn",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-nm0ffmn",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Referer: http://foo.example/examples/credential.html"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-q6kkyis",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-q6kkyis",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Origin: http://foo.example"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-klkrjpj",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-klkrjpj",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Cookie: pageAccess=2"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-c14tbjv",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-c14tbjv",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "HTTP/1.1 200 OK"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-ujq3vs0",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-ujq3vs0",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Date: Mon, 01 Dec 2008 01:34:52 GMT"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-3afju6d",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-3afju6d",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Server: Apache/2"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-8puouwa",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-8puouwa",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Access-Control-Allow-Origin: http://foo.example"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-qeab420",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-qeab420",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "Access-Control-Allow-Credentials: true"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-f87xm3z",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-f87xm3z",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Cache-Control: no-cache"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-5odjfnc",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-5odjfnc",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Pragma: no-cache"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-0curzzn",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-0curzzn",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Set-Cookie: pageAccess=3; expires=Wed, 31-Dec-2008 01:34:53 GMT"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-a38721q",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-a38721q",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Vary: Accept-Encoding, Origin"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-kalw4z8",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-kalw4z8",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Content-Encoding: gzip"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-lzplys0",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-lzplys0",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Content-Length: 106"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-e2dp02z",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-e2dp02z",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Keep-Alive: timeout=2, max=100"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-xz1rxzb",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-xz1rxzb",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Connection: Keep-Alive"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-ook1jqt",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-ook1jqt",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Content-Type: text/plain"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-51rpt2i",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-51rpt2i",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "[text/plain payload]"
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-s1jeit2",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-s1jeit2",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "解析："
+										}
+									]
+								},
+								{
+									"ID": "20220120114453-z52j4ui",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220120114453-z52j4ui",
+										"updated": "20220120114459"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "即使第 10 行指定了 Cookie 的相关信息，但是，如果 bar.other 的响应中缺失  "
+										},
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "Access-Control-Allow-Credentials: true"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										},
+										{
+											"Type": "NodeText",
+											"Data": " （第 17 行），则响应内容不会返回给请求的发起者"
+										}
+									]
+								},
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120114505-bwb2diz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120114505-bwb2diz",
+				"updated": "20220120114511"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四、HTTP响应首部字段"
+				}
+			]
+		},
+		{
+			"ID": "20220120114511-2x23tn1",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220120114511-2x23tn1",
+				"updated": "20220120114534"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220120114534-6ur4nhr",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120114534-6ur4nhr",
+						"updated": "20220120114534"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "1、--origin 参数的值指定了允许访问该资源的外域 URI。对于不需要携带身份凭证的请求，服务器可以指定该字段的值为通配符，表示允许来自所有域的请求。"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120114534-cq1tcma",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120114534-cq1tcma",
+						"updated": "20220120114534"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "Access-Control-Allow-Origin: \u003corigin\u003e | *"
+						}
+					]
+				},
+				{
+					"ID": "20220120114534-lyzq9hi",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120114534-lyzq9hi",
+						"updated": "20220120114534"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": " "
+						},
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "2、让服务器把允许浏览器访问的头放入白名单，"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": " "
+						},
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "这样浏览器就能够通过getResponseHeader访问X-My-Custom-Header和 X-Another-Custom-Header 响应头了。"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120114534-y46n4bm",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120114534-y46n4bm",
+						"updated": "20220120114534"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "Access-Control-Expose-Headers: X-My-Custom-Header, X-Another-Custom-Header"
+						}
+					]
+				},
+				{
+					"ID": "20220120114534-74tlpkv",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120114534-74tlpkv",
+						"updated": "20220120114534"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": " "
+						},
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "3、头指定了preflight请求的结果能够被缓存多久，"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": " "
+						},
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "delta-seconds 参数表示preflight请求的结果在多少秒内有效。"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120114534-5nbpucm",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120114534-5nbpucm",
+						"updated": "20220120114534"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "Access-Control-Max-Age: \u003cdelta-seconds\u003e"
+						}
+					]
+				},
+				{
+					"ID": "20220120114534-mlbjiss",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120114534-mlbjiss",
+						"updated": "20220120114534"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": " "
+						},
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "4、指定了当浏览器的credentials设置为true时是否允许浏览器读取response的内容。当用在对preflight预检测请求的响应中时，它指定了实际的请求是否可以使用credentials。"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": " "
+						},
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "请注意：简单 GET 请求不会被预检；如果对此类请求的响应中不包含该字段，这个响应将被忽略掉，并且浏览器也不会将相应内容返回给网页。"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120114534-e02fw5m",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120114534-e02fw5m",
+						"updated": "20220120114534"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "Access-Control-Allow-Credentials: true"
+						}
+					]
+				},
+				{
+					"ID": "20220120114534-xlrty4t",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120114534-xlrty4t",
+						"updated": "20220120114534"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "5、首部字段用于预检请求的响应"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120114534-h1vk1v6",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120114534-h1vk1v6",
+						"updated": "20220120114534"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "Access-Control-Allow-Methods: \u003cmethod\u003e[, \u003cmethod\u003e]*"
+						}
+					]
+				},
+				{
+					"ID": "20220120114534-cii22ox",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120114534-cii22ox",
+						"updated": "20220120114534"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "6、首部字段用于预检请求的响应。"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120114534-2rungva",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120114534-2rungva",
+						"updated": "20220120114534"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "Access-Control-Allow-Headers: \u003cfield-name\u003e[, \u003cfield-name\u003e]*"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120114541-7ec8qhe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120114541-7ec8qhe",
+				"updated": "20220120114543"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "五、HTTP请求首部字段"
+				}
+			]
+		},
+		{
+			"ID": "20220120114544-5hhqdvv",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220120114544-5hhqdvv",
+				"updated": "20220120114557"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220120114557-997iskx",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120114557-997iskx",
+						"updated": "20220120114557"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "1、首部字段表明预检请求或实际请求的源站。"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120114557-nokesnt",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120114557-nokesnt",
+						"updated": "20220120114557"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "Origin: \u003corigin\u003e"
+						},
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "--origin 参数的值为源站 URI。它不包含任何路径信息，只是服务器名称。"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120114557-ag5ij2s",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120114557-ag5ij2s",
+						"updated": "20220120114557"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "2、首部字段用于预检请求。其作用是，将实际请求所使用的 HTTP 方法告诉服务器。"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120114557-ess29rv",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120114557-ess29rv",
+						"updated": "20220120114557"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "Access-Control-Request-Method: \u003cmethod\u003e"
+						}
+					]
+				},
+				{
+					"ID": "20220120114557-aulglca",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120114557-aulglca",
+						"updated": "20220120114557"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "3、首部字段用于预检请求。其作用是，将实际请求所携带的首部字段告诉服务器。"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120114557-eo86xay",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120114557-eo86xay",
+						"updated": "20220120114557"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "Access-Control-Request-Headers: \u003cfield-name\u003e[, \u003cfield-name\u003e]*"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120114559-8qvsntq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120114559-8qvsntq",
+				"updated": "20220120114559"
+			}
+		}
+	]
+}

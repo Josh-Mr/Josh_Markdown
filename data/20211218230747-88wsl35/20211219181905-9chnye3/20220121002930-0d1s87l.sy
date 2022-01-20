@@ -1,0 +1,631 @@
+{
+	"ID": "20220121002930-0d1s87l",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220121002930-0d1s87l",
+		"title": "面试题",
+		"updated": "20220121002939"
+	},
+	"Children": [
+		{
+			"ID": "20220121002939-e0ubqnq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220121002939-e0ubqnq",
+				"updated": "20220121002939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "多线程"
+				}
+			]
+		},
+		{
+			"ID": "20220121002939-33nda4q",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220121002939-33nda4q",
+				"updated": "20220121002939"
+			},
+			"Children": [
+				{
+					"ID": "20220121002939-bvgql0u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220121002939-bvgql0u"
+					},
+					"Children": [
+						{
+							"ID": "20220121002939-uku2rxj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121002939-uku2rxj"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java实现多线程有哪几种方式。"
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "https://zhuanlan.zhihu.com/p/47401636"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://zhuanlan.zhihu.com/p/47401636"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220121002939-st0an4j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220121002939-st0an4j"
+					},
+					"Children": [
+						{
+							"ID": "20220121002939-4dbufpm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121002939-4dbufpm"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Callable和Future的了解。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220121002939-fbhbtwd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220121002939-fbhbtwd"
+					},
+					"Children": [
+						{
+							"ID": "20220121002939-7xdzgmu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121002939-7xdzgmu"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "线程池的参数有哪些，在线程池创建一个线程的过程。"
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "https://blog.csdn.net/meihuai7538/article/details/104876674"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://blog.csdn.net/meihuai7538/article/details/104876674"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220121002939-gkpbd7h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220121002939-gkpbd7h"
+					},
+					"Children": [
+						{
+							"ID": "20220121002939-ej3e0dv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121002939-ej3e0dv"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "volitile关键字的作用，原理。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220121002939-ucdrl2m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220121002939-ucdrl2m"
+					},
+					"Children": [
+						{
+							"ID": "20220121002939-0ma7ii8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121002939-0ma7ii8"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "synchronized关键字的用法，优缺点。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220121002939-chl1evx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220121002939-chl1evx"
+					},
+					"Children": [
+						{
+							"ID": "20220121002939-0lioj0e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121002939-0lioj0e"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Lock接口有哪些实现类，使用场景是什么。"
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "https://magi003769.github.io/post/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%BD%BF%E7%94%A8ReentrantLock%E7%AD%89/"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://magi003769.github.io/post/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%BD%BF%E7%94%A8ReentrantLock%E7%AD%89/"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220121002939-0q5bxe5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20220121002939-0q5bxe5"
+					},
+					"Children": [
+						{
+							"ID": "20220121002939-74umrrp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121002939-74umrrp"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可重入锁的用处及实现原理，写时复制的过程，读写锁，分段锁（ConcurrentHashMap中的segment）。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220121002939-8pl40zb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20220121002939-8pl40zb"
+					},
+					"Children": [
+						{
+							"ID": "20220121002939-bpo96fy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121002939-bpo96fy"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "悲观锁，乐观锁，优缺点，CAS有什么缺陷，该如何解决。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220121002939-o0kielo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20220121002939-o0kielo"
+					},
+					"Children": [
+						{
+							"ID": "20220121002939-tvvdo6y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121002939-tvvdo6y"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ABC三个线程如何保证顺序执行。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220121002939-phjuuuo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20220121002939-phjuuuo"
+					},
+					"Children": [
+						{
+							"ID": "20220121002939-v07ng6n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121002939-v07ng6n"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "线程的状态都有哪些。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220121002939-orqkb0h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20220121002939-orqkb0h"
+					},
+					"Children": [
+						{
+							"ID": "20220121002939-i150uik",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121002939-i150uik"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "sleep和wait的区别。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220121002939-42sv1at",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTIu",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20220121002939-42sv1at"
+					},
+					"Children": [
+						{
+							"ID": "20220121002939-cqilfuk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121002939-cqilfuk"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "notify和notifyall的区别。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220121002939-p0sbk3m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTMu",
+						"Num": 13
+					},
+					"Properties": {
+						"id": "20220121002939-p0sbk3m"
+					},
+					"Children": [
+						{
+							"ID": "20220121002939-h265xau",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121002939-h265xau"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ThreadLocal的了解，实现原理。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220121002939-3476kl0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTQu",
+						"Num": 14
+					},
+					"Properties": {
+						"id": "20220121002939-3476kl0"
+					},
+					"Children": [
+						{
+							"ID": "20220121002939-e0q28w8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121002939-e0q28w8"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "关于Java中的锁："
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "https://tech.meituan.com/2018/11/15/java-lock.html"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://tech.meituan.com/2018/11/15/java-lock.html"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121002939-vpigrat",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220121002939-vpigrat",
+				"updated": "20220121002939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CPU资源和锁资源"
+				}
+			]
+		},
+		{
+			"ID": "20220121002939-srohip2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220121002939-srohip2",
+				"updated": "20220121002939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "synchronized 保护共享数据"
+				}
+			]
+		},
+		{
+			"ID": "20220121002939-29lea52",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220121002939-29lea52",
+				"updated": "20220121002939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "cpu时间片"
+				}
+			]
+		},
+		{
+			"ID": "20220121002939-8p01x4a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220121002939-8p01x4a",
+				"updated": "20220121002939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Thread.currentThread() 获取当前线程"
+				}
+			]
+		},
+		{
+			"ID": "20220121002939-an831iz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220121002939-an831iz",
+				"updated": "20220121002939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "好的，并发编程博客："
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://www.cnblogs.com/paddix/p/5374810.html"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.cnblogs.com/paddix/p/5374810.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

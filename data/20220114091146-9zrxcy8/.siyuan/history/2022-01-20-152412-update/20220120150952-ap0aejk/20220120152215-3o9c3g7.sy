@@ -1,0 +1,241 @@
+{
+	"ID": "20220120152215-3o9c3g7",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220120152215-3o9c3g7",
+		"title": "JavaScript_【数据类型】",
+		"updated": "20220120152352"
+	},
+	"Children": [
+		{
+			"ID": "20220120152215-b7kapca",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120152215-b7kapca",
+				"updated": "20220120152246"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、数据类型"
+				}
+			]
+		},
+		{
+			"ID": "20220120152251-20iunnm",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120152251-20iunnm",
+				"updated": "20220120152352"
+			},
+			"Children": [
+				{
+					"ID": "20220120152251-v8etymh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120152251-v8etymh",
+						"updated": "20220120152352"
+					},
+					"Children": [
+						{
+							"ID": "20220120152251-k43uyul",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120152251-k43uyul"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "简单的数据类型"
+								}
+							]
+						},
+						{
+							"ID": "20220120152251-on5pq23",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220120152251-on5pq23",
+								"updated": "20220120152251"
+							},
+							"Children": [
+								{
+									"ID": "20220120152251-wt01d8f",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120152251-wt01d8f",
+										"updated": "20220120152251"
+									},
+									"Children": [
+										{
+											"ID": "20220120152251-umld2w1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120152251-umld2w1"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Number"
+												}
+											]
+										},
+										{
+											"ID": "20220120152251-9szs1l1",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220120152251-9szs1l1",
+												"updated": "20220120152251"
+											},
+											"Children": [
+												{
+													"ID": "20220120152251-snxfdn3",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220120152251-snxfdn3"
+													},
+													"Children": [
+														{
+															"ID": "20220120152251-zie68rd",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220120152251-zie68rd"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "NaN非法数字：对数值计算时没有结果，返回NaN"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220120152251-oql6aay",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220120152251-oql6aay"
+													},
+													"Children": [
+														{
+															"ID": "20220120152251-h678k7k",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220120152251-h678k7k"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "注意：整数值运算可以保证精确。浮点数不保证（10.1+20.1=30.2000003）"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220120152257-w3q4kgl",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220120152257-w3q4kgl",
+								"ligatures": "false",
+								"linenumber": "true",
+								"updated": "20220120152307"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "       方式一：\n        var s = \"10020\";\n        console.log(Number(s));//10020\n        var s1 = true;\n        console.log(Number(s1));//1\n        var s2 = undefined;\n        console.log(Number(s2));//NaN\n        var s3 = null;\n        console.log(Number(s3));//0\n       方式二：+运算符方式转化：对于非Number类型的值,会将先转换为Number，然后再运算\n        var s1 = \"12306\";\n        var r1 = +s1;\n        console.log(r1);\n        console.log(typeof r1);\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220120152347-9j3r5h5",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220120152347-9j3r5h5",
+								"updated": "20220120152352"
+							},
+							"Children": [
+								{
+									"ID": "20220120152351-xogklnd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120152351-xogklnd",
+										"updated": "20220120152352"
+									},
+									"Children": [
+										{
+											"ID": "20220120152351-4q970p1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120152351-4q970p1",
+												"updated": "20220120152352"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "String"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120152343-tgswdqz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120152343-tgswdqz",
+				"updated": "20220120152343"
+			}
+		}
+	]
+}

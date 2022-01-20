@@ -1,0 +1,1121 @@
+{
+	"ID": "20220120145519-lid79vk",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220120145519-lid79vk",
+		"title": "RPC_基础",
+		"updated": "20220120145614"
+	},
+	"Children": [
+		{
+			"ID": "20220120145520-skrwju2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120145520-skrwju2",
+				"updated": "20220120145546"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、什么是PRC？"
+				}
+			]
+		},
+		{
+			"ID": "20220120145520-t86plk8",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120145520-t86plk8",
+				"updated": "20220120145614"
+			},
+			"Children": [
+				{
+					"ID": "20220120145520-gm8t0ob",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120145520-gm8t0ob",
+						"updated": "20220120145614"
+					},
+					"Children": [
+						{
+							"ID": "20220120145520-oro9iym",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120145520-oro9iym",
+								"updated": "20220120145614"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "RPC （Remote Procedure Call）"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "远程过程调用"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220120145520-63qsl9m",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220120145520-63qsl9m"
+							},
+							"Children": [
+								{
+									"ID": "20220120145520-xnc04e6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120145520-xnc04e6"
+									},
+									"Children": [
+										{
+											"ID": "20220120145520-2osx0c7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120145520-2osx0c7"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "一种通过网络从远程计算机程序上请求服务，而不需要连接底层网络技术的协议。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120145520-gw01llo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120145520-gw01llo",
+				"updated": "20220120145548"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、PRC的特点"
+				}
+			]
+		},
+		{
+			"ID": "20220120145520-uyftrez",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120145520-uyftrez",
+				"updated": "20220120145520"
+			},
+			"Children": [
+				{
+					"ID": "20220120145520-b5mo48k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120145520-b5mo48k"
+					},
+					"Children": [
+						{
+							"ID": "20220120145520-waxmc3c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120145520-waxmc3c"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过网络传输"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120145520-ceozac4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120145520-ceozac4"
+					},
+					"Children": [
+						{
+							"ID": "20220120145520-yyuvh97",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120145520-yyuvh97"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "跨终端、跨平台"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120145520-o1eiq1q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120145520-o1eiq1q"
+					},
+					"Children": [
+						{
+							"ID": "20220120145520-m2zz5h5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120145520-m2zz5h5"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基于请求-响应"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120145520-xqnea8v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120145520-xqnea8v"
+					},
+					"Children": [
+						{
+							"ID": "20220120145520-mtido4n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120145520-mtido4n"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "只调用过程、不需关心细节"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120145520-ytt93tt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120145520-ytt93tt",
+				"updated": "20220120145551"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、PRC分类"
+				}
+			]
+		},
+		{
+			"ID": "20220120145520-qwufezm",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120145520-qwufezm",
+				"updated": "20220120145520"
+			},
+			"Children": [
+				{
+					"ID": "20220120145520-y44ezfr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120145520-y44ezfr"
+					},
+					"Children": [
+						{
+							"ID": "20220120145520-oe0kx0p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120145520-oe0kx0p"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通信协议：基于Http、TCP、Socket、SOAP协议、Binary-PRC协议"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120145520-qsvgkwk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120145520-qsvgkwk"
+					},
+					"Children": [
+						{
+							"ID": "20220120145520-9cjmbhb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120145520-9cjmbhb"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "报文协议：XML文本、Json文本、二进制"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120145520-v541y6o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120145520-v541y6o"
+					},
+					"Children": [
+						{
+							"ID": "20220120145520-j3iyoi0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120145520-j3iyoi0"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是否跨平台：平台专用的、平台中立的。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120145520-uffd03n",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120145520-uffd03n",
+				"updated": "20220120145555"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四、基本实现原理"
+				}
+			]
+		},
+		{
+			"ID": "20220120145520-ss09pg6",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120145520-ss09pg6",
+				"updated": "20220120145520"
+			},
+			"Children": [
+				{
+					"ID": "20220120145520-s8t0cau",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120145520-s8t0cau"
+					},
+					"Children": [
+						{
+							"ID": "20220120145520-3tcm7jh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120145520-3tcm7jh"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "服务端"
+								}
+							]
+						},
+						{
+							"ID": "20220120145520-6n0sb6f",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220120145520-6n0sb6f"
+							},
+							"Children": [
+								{
+									"ID": "20220120145520-mftwyj6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120145520-mftwyj6"
+									},
+									"Children": [
+										{
+											"ID": "20220120145520-sr7w9su",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120145520-sr7w9su"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "服务器端生成骨架"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120145520-uvoqscj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120145520-uvoqscj"
+									},
+									"Children": [
+										{
+											"ID": "20220120145520-b2k027p",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120145520-b2k027p"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "对外暴露服务"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120145520-2sf9dz6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120145520-2sf9dz6"
+					},
+					"Children": [
+						{
+							"ID": "20220120145520-rtqqa1x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120145520-rtqqa1x"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "客户端"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120145520-zj59rey",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120145520-zj59rey"
+					},
+					"Children": [
+						{
+							"ID": "20220120145520-fzxbmcy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120145520-fzxbmcy"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "客户端生成服务代理"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120145520-4foualu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120145520-4foualu"
+					},
+					"Children": [
+						{
+							"ID": "20220120145520-n8lfte3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120145520-n8lfte3"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "访问调用服务"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120145520-4mx53d2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120145520-4mx53d2",
+				"updated": "20220120145606"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "五、常见的PRC调用技术"
+				}
+			]
+		},
+		{
+			"ID": "20220120145520-9rg3gds",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"id": "20220120145520-9rg3gds",
+				"updated": "20220120145520"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "分布式技术"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "特点"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "协议"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "数据形式"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "SpringCloud"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "SOA架构的分布式框架"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基于Socket"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "？"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Dubbo"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "SOA架构的分布式框架"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基于Socket"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "？"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "单机技术"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "特点"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "协议"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据形式"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "WebService"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "跨语言"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基于SOAP协议"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "xml或json数据"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "RMI"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Hessian"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "跨语言"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基于Binary-PRC协议"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "二进制"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "RestFul WebService（HttpClient）"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "RESTful风格的调用，跨语言"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基于HTTP协议"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Json数据"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原生jdk"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HttpURLConnection"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120145520-y1g9xa0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120145520-y1g9xa0",
+				"updated": "20220120145520"
+			},
+			"Children": [
+				{
+					"ID": "20220120145520-0uik3nx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120145520-0uik3nx"
+					},
+					"Children": [
+						{
+							"ID": "20220120145520-0rjxyjg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120145520-0rjxyjg"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "扩展-几种实现webService方式："
+								}
+							]
+						},
+						{
+							"ID": "20220120145520-9yurge5",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220120145520-9yurge5"
+							},
+							"Children": [
+								{
+									"ID": "20220120145520-gjo94jp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120145520-gjo94jp"
+									},
+									"Children": [
+										{
+											"ID": "20220120145520-eduywhc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120145520-eduywhc"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Spring + CXF"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120145520-zj8m2ll",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120145520-zj8m2ll"
+									},
+									"Children": [
+										{
+											"ID": "20220120145520-zg2m4wr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120145520-zg2m4wr"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Spring + Axis"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120145520-mmwwym6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120145520-mmwwym6"
+									},
+									"Children": [
+										{
+											"ID": "20220120145520-p0tbcb0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120145520-p0tbcb0"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Spring + WS"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,464 @@
+{
+	"ID": "20220120115128-g1wj61g",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220120115128-g1wj61g",
+		"title": "MIME类型和文件扩展名是什么？有什么区别？",
+		"updated": "20220120115322"
+	},
+	"Children": [
+		{
+			"ID": "20220120115230-v4ylikw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120115230-v4ylikw",
+				"updated": "20220120115301"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "文件扩展名是什么？"
+				}
+			]
+		},
+		{
+			"ID": "20220120115236-uxzw578",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120115236-uxzw578",
+				"updated": "20220120115252"
+			},
+			"Children": [
+				{
+					"ID": "20220120115245-2n925d0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120115245-2n925d0"
+					},
+					"Children": [
+						{
+							"ID": "20220120115245-y0t53qd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120115245-y0t53qd"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是操作系统用来标记文件的格式的一种机制、用一个点号和主文件名分割。由于历史原因、多数扩展名是三个字母。注意的是：这里说的是标注，而非定义。不是强制的。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120115251-m51mr2v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120115251-m51mr2v",
+						"updated": "20220120115252"
+					},
+					"Children": [
+						{
+							"ID": "20220120115252-dww8bah",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120115252-dww8bah",
+								"updated": "20220120115252"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "举例："
+								}
+							]
+						},
+						{
+							"ID": "20220120115252-63ugaxd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120115252-63ugaxd",
+								"updated": "20220120115252"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "    你用photoshop可以打开psd图像文件，把这个文件扩展名改为txt时，再拖到photoshop里面，还是可以打开的，说明内容完全没有变化，变化的是双击时打开的默认方式。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120115242-s2ae3zh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120115242-s2ae3zh",
+				"updated": "20220120115304"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MIME又是什么呢？"
+				}
+			]
+		},
+		{
+			"ID": "20220120115309-cjrctnw",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120115309-cjrctnw",
+				"updated": "20220120115309"
+			},
+			"Children": [
+				{
+					"ID": "20220120115309-zuuf6fd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120115309-zuuf6fd"
+					},
+					"Children": [
+						{
+							"ID": "20220120115309-og3yki1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120115309-og3yki1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "多用途互联网邮件扩展（Multipurpose Internet Mail Extensions），最初是为了将纯文本格式的电子邮件扩展到可以支持多种信息格式而定制的。后来被应用到多种协议里，包括我们常用的HTTP协议。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120115309-7rqakyo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120115309-7rqakyo"
+					},
+					"Children": [
+						{
+							"ID": "20220120115309-u9z9ti1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120115309-u9z9ti1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "MIME的常见的形式是一个主类型加一个子类型，用 斜线分割。 比如text/html、application/javascript、image/png等"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120115309-wti3z00",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120115309-wti3z00"
+					},
+					"Children": [
+						{
+							"ID": "20220120115309-xyhd3ti",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120115309-xyhd3ti"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在访问页面时、MIME type 帮助浏览器识别一个http 请求返回的是什么内容的数据，应该如何打开、如何显示？"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120115315-gfdq8xe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120115315-gfdq8xe",
+				"updated": "20220120115315"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "两者的区别："
+				}
+			]
+		},
+		{
+			"ID": "20220120115315-zzbt5uz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120115315-zzbt5uz",
+				"updated": "20220120115315"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "但是应用场景完全不同：一个是操作系统中标注文件的，一个是邮件和HTTP协议中用来标注网络数据的、"
+				}
+			]
+		},
+		{
+			"ID": "20220120115322-6va50p7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120115322-6va50p7",
+				"updated": "20220120115322"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(182)-20220120115322-2ht5qe9.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120115322-h7tg735",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120115322-h7tg735",
+				"updated": "20220120115322"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Multipart/form-data"
+				}
+			]
+		},
+		{
+			"ID": "20220120115322-lmwkba1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120115322-lmwkba1",
+				"updated": "20220120115322"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Multipart/form-data 为表单的MIME编码属性之一，共有三个值"
+				}
+			]
+		},
+		{
+			"ID": "20220120115322-9qnncxk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120115322-9qnncxk",
+				"updated": "20220120115322"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "① application/x-www-form-urlencoded"
+				}
+			]
+		},
+		{
+			"ID": "20220120115322-41o2ww3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120115322-41o2ww3",
+				"updated": "20220120115322"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "② multipart/form-data"
+				}
+			]
+		},
+		{
+			"ID": "20220120115322-9ta1cc3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120115322-9ta1cc3",
+				"updated": "20220120115322"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "③ text/plain"
+				}
+			]
+		},
+		{
+			"ID": "20220120115322-oy2mmpy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120115322-oy2mmpy",
+				"updated": "20220120115322"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "①为Html表单默认传输编码类型"
+				}
+			]
+		},
+		{
+			"ID": "20220120115322-jy7pska",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120115322-jy7pska",
+				"updated": "20220120115322"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "②是表单上传的非文本的内容，传递的是文件数据，设置该属性再配合post请求方式从而实现文件上传"
+				}
+			]
+		},
+		{
+			"ID": "20220120115322-iudqd8k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120115322-iudqd8k",
+				"updated": "20220120115322"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "③是传输为纯文本的意思，在发邮件时要设置这种编码，拿text/plain和text/html做比较，前者用来传输纯文本文件，后者则是传递html代码的编码类型，在发送头文件时才用得上"
+				}
+			]
+		},
+		{
+			"ID": "20220120115322-17tu20y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120115322-17tu20y",
+				"updated": "20220120115322"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "上述所提到的MIME，它的英文全称是\"Multipurpose Internet Mail Extensions\" 多功能Internet 邮件扩充服务，它是一种多用途网际邮件扩充协议。通过MIME，浏览器的再请求，会告诉服务器接收的数据是什么类型."
+				}
+			]
+		},
+		{
+			"ID": "20220120115322-l1c2ndh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120115322-l1c2ndh",
+				"updated": "20220120115322"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://www.cnblogs.com/davidwang456/p/7799096.html"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.cnblogs.com/davidwang456/p/7799096.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

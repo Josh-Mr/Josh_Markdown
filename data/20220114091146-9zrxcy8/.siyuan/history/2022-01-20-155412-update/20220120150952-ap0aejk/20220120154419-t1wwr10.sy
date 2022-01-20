@@ -1,0 +1,209 @@
+{
+	"ID": "20220120154419-t1wwr10",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220120154419-t1wwr10",
+		"title": "JavaScript_【数组】使用",
+		"updated": "20220120155124"
+	},
+	"Children": [
+		{
+			"ID": "20220120154419-pm01z8o",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120154419-pm01z8o",
+				"updated": "20220120154447"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、数组的创建方式"
+				}
+			]
+		},
+		{
+			"ID": "20220120154447-m17a6yv",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120154447-m17a6yv",
+				"updated": "20220120154457"
+			},
+			"Children": [
+				{
+					"ID": "20220120154451-zu6hxyr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120154451-zu6hxyr",
+						"updated": "20220120154457"
+					},
+					"Children": [
+						{
+							"ID": "20220120154451-rsvxdfn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120154451-rsvxdfn",
+								"updated": "20220120154452"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "构造方法"
+								}
+							]
+						},
+						{
+							"ID": "20220120154452-51u4c52",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220120154452-51u4c52",
+								"updated": "20220120154457"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "        //构造函数的方式\n        let demo1 = new Array(10);\n        demo1.length = 2;\n        demo1[0] = \"josh\";\n        console.log(demo1);\n        console.log(\"数组的长度为：\"+demo1.length);\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120154458-yol0yq1",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120154458-yol0yq1",
+				"updated": "20220120154513"
+			},
+			"Children": [
+				{
+					"ID": "20220120154501-1ydrqej",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120154501-1ydrqej",
+						"updated": "20220120154513"
+					},
+					"Children": [
+						{
+							"ID": "20220120154501-15u43h4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120154501-15u43h4",
+								"updated": "20220120154511"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "字面量值"
+								}
+							]
+						},
+						{
+							"ID": "20220120154512-wfpxeyg",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220120154512-wfpxeyg",
+								"updated": "20220120154513"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "        //字面量值的方式\n        let demo2 = [\"12\",true,{\"name\":\"zhangsan\"}];\n        console.log(demo2);\n        console.log(demo2.length);\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120154924-azjguuz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120154924-azjguuz",
+				"updated": "20220120154927"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、数组的常用方法"
+				}
+			]
+		},
+		{
+			"ID": "20220120154927-t0f4ggq",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220120154927-t0f4ggq",
+				"linenumber": "false",
+				"updated": "20220120155124"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "1、join()：把数组的所有元素放入一个字符串。元素通过指定的分隔符进行分隔。\n\n2、push()和pop()：\npush():向数组的末尾添加一个或更多元素，并返回新的长度。\npop():删除并返回数组的最后一个元素\n\n3、unshift()和shift() \nunshift():向数组的开头添加一个或更多元素，并返回新的长度。\nshift():删除并返回数组的第一个元素\n\n4、slice()和splice()\nslice():从某个已有的数组返回选定的元素\nsplice():删除元素，并向数组添加新元素。\n\n5、indexOf()和 lastIndexOf()\nindexOf()：查找元素所在的index，没有返回-1\nlastIndexOf():后面开始查找元素所在的index，没有返回-1\n\n6、sort()：对数组的元素进行排序\n\n7、reverse()：颠倒数组中元素的顺序。\n\n8:、concat()：连接两个或更多的数组，并返回结果。\n\n9、forEach(value,index,obj):\n* 项目值\n* 项目索引\n* 数组本身\narr.forEach(function(value , index , obj){\n  console.log(value);\n});\n\n10、map():通过指定函数处理数组的每个元素，并返回处理后的数组。\n    var arr = [1, 3, 5, 7, 9, 11];\n     var arr2 = arr.map(function (value, index) {\n         return value * value + 10;\n     });\n     console.log(arr2);\n\n11、filter():过滤筛选\ncallback在这里担任的是过滤器的角色，当元素符合条件，过滤器就返回true，而filter则会返回所有符合过滤条件的元素\n   let arr2 =  arr.filter(function(value,index,array){\n        console.log(\"value=\"+value);\n        console.log(index);\n        console.log(array);\n        return true;//ture不过滤，false就过滤\n    });\n\n12、every():且\nevery(callback[, thisObject])当数组中每一个元素在callback上被返回true时就返回true\n\n13、some():或\nsome(callback[, thisObject]) 只要数组中有一项在callback上被返回true，就返回true\n\n13、reduce\narray.reduce(function(total, currentValue, currentIndex, arr), initialValue)\ntotal：必需。初始值, 或者计算结束后的返回值。\ncurrentValue：必需。当前元素\ncurrentIndex：可选。当前元素的索引\narr： 可选。当前元素所属的数组对象。\ninitialValue：可选。传递给函数的初始值\nreduce() 方法接收一个函数作为累加器，数组中的每个值（从左到右）开始缩减，最终计算为一个值。\n注意: reduce() 对于空数组是不会执行回调函数的。\n// 返回条数\nreturn this.todos.reduce((initData, todo) =\u003e {\n  return initData + (todo.isSelect ? 1 : 0)\n}, 0)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220120155058-9rptxkd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120155058-9rptxkd",
+				"updated": "20220120155058"
+			}
+		}
+	]
+}

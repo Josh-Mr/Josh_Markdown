@@ -1,0 +1,533 @@
+{
+	"ID": "20220120232039-lrbts6f",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220120232039-lrbts6f",
+		"title": "未整理",
+		"updated": "20220120232208"
+	},
+	"Children": [
+		{
+			"ID": "20220120232050-3h6a444",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220120232050-3h6a444",
+				"updated": "20220120232050"
+			},
+			"Children": [
+				{
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Children": [
+						{
+							"ID": "20220120232050-1d9vgdd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120232050-1d9vgdd"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "{{mes}} 插值"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120232050-belksa0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220120232050-belksa0"
+					},
+					"Children": [
+						{
+							"ID": "20220120232050-n66vshv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120232050-n66vshv"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "v-once 只渲染一次"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120232050-ok6pgy3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220120232050-ok6pgy3"
+					},
+					"Children": [
+						{
+							"ID": "20220120232050-rechcub",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120232050-rechcub"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "disabled 是否禁用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120232050-k26hy9s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220120232050-k26hy9s"
+					},
+					"Children": [
+						{
+							"ID": "20220120232050-zpgotyd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120232050-zpgotyd"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "hidden 是够隐藏"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120232050-3yjgpg1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120232050-3yjgpg1",
+				"updated": "20220120232050"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、vue是什么东西？"
+				}
+			]
+		},
+		{
+			"ID": "20220120232050-mucbnpj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120232050-mucbnpj",
+				"updated": "20220120232050"
+			},
+			"Children": [
+				{
+					"ID": "20220120232050-fqm5kls",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120232050-fqm5kls"
+					},
+					"Children": [
+						{
+							"ID": "20220120232050-1c0vkh7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120232050-1c0vkh7"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "特点："
+								}
+							]
+						},
+						{
+							"ID": "20220120232050-zrrmjqf",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220120232050-zrrmjqf"
+							},
+							"Children": [
+								{
+									"ID": "20220120232050-pg5tkvb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120232050-pg5tkvb"
+									},
+									"Children": [
+										{
+											"ID": "20220120232050-czozg3s",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120232050-czozg3s"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "采用组件化模式，提高代码复用率，让代码更好维护。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120232050-a3l30wy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120232050-a3l30wy"
+									},
+									"Children": [
+										{
+											"ID": "20220120232050-8ztwn5f",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120232050-8ztwn5f"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "声明式编码（之前是命令式编码），让编码人员无需操作DOM，提高开发效率。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120232050-u4rj6gx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120232050-u4rj6gx",
+				"updated": "20220120232050"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "shift +刷新 =强制刷新"
+				}
+			]
+		},
+		{
+			"ID": "20220120232207-kxg67bn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120232207-kxg67bn",
+				"updated": "20220120232207"
+			}
+		},
+		{
+			"ID": "20220120232208-fbfi2u3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120232208-fbfi2u3",
+				"updated": "20220120232208"
+			}
+		},
+		{
+			"ID": "20220120232208-h5x6tyz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120232208-h5x6tyz",
+				"updated": "20220120232208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "mustache 前段模板引擎："
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://www.jianshu.com/p/7f1cecdc27e1"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.jianshu.com/p/7f1cecdc27e1"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120232208-yjbu5hk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120232208-yjbu5hk",
+				"updated": "20220120232208"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://blog.csdn.net/Conradine_Lian/article/details/106884122"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://blog.csdn.net/Conradine_Lian/article/details/106884122"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120232208-fty6s6h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120232208-fty6s6h",
+				"updated": "20220120232208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "shortid 解决：vue的list的index问题"
+				}
+			]
+		},
+		{
+			"ID": "20220120232208-elfrvmu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120232208-elfrvmu",
+				"updated": "20220120232208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用"
+				}
+			]
+		},
+		{
+			"ID": "20220120232208-5yufj7s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120232208-5yufj7s",
+				"updated": "20220120232208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装 npm  i shortid --save"
+				}
+			]
+		},
+		{
+			"ID": "20220120232208-umv52fc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120232208-umv52fc",
+				"updated": "20220120232208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Object.freeze(); 冻结"
+				}
+			]
+		},
+		{
+			"ID": "20220120232208-6p22zf2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120232208-6p22zf2",
+				"updated": "20220120232208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "watch 观察"
+				}
+			]
+		},
+		{
+			"ID": "20220120232208-f070f7l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120232208-f070f7l",
+				"updated": "20220120232208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "definition 定义"
+				}
+			]
+		},
+		{
+			"ID": "20220120232208-17oqatp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120232208-17oqatp",
+				"updated": "20220120232208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "directive 指令"
+				}
+			]
+		},
+		{
+			"ID": "20220120232208-n7yh4a8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120232208-n7yh4a8",
+				"updated": "20220120232208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "failure  失败、故障"
+				}
+			]
+		},
+		{
+			"ID": "20220120232208-8ek78q8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120232208-8ek78q8",
+				"updated": "20220120232208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "callback  回调函数"
+				}
+			]
+		},
+		{
+			"ID": "20220120232208-ovm7c9s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120232208-ovm7c9s",
+				"updated": "20220120232208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "resolve 坚决，分解"
+				}
+			]
+		},
+		{
+			"ID": "20220120232208-h29092a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120232208-h29092a",
+				"updated": "20220120232208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "声明式渲染："
+				}
+			]
+		},
+		{
+			"ID": "20220120232208-hyewchs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120232208-hyewchs",
+				"updated": "20220120232208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "条件与循环："
+				}
+			]
+		},
+		{
+			"ID": "20220120232208-y4g0t6z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120232208-y4g0t6z",
+				"updated": "20220120232208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "处理用户输入："
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,864 @@
+{
+	"ID": "20220121004732-p40cgxf",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220121004732-p40cgxf",
+		"title": "Java读取Properties文件的六种方法",
+		"updated": "20220121005527"
+	},
+	"Children": [
+		{
+			"ID": "20220121004732-nh9mtv6",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220121004732-nh9mtv6",
+				"updated": "20220121005527"
+			},
+			"Children": [
+				{
+					"ID": "20220121005007-4lbt3gb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220121005007-4lbt3gb",
+						"updated": "20220121005527"
+					},
+					"Children": [
+						{
+							"ID": "20220121005007-ojdzvxv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121005007-ojdzvxv",
+								"updated": "20220121005527"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "使用java.util.Properties类的load()方法"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220121005014-a3lw1l4",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220121005014-a3lw1l4",
+								"updated": "20220121005016"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "示例： InputStream in = lnew BufferedInputStream(new FileInputStream(name));\nProperties p = new Properties();\np.load(in);\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121004957-tvvyfya",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220121004957-tvvyfya",
+				"updated": "20220121005252"
+			},
+			"Children": [
+				{
+					"ID": "20220121005019-260oja9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220121005019-260oja9",
+						"updated": "20220121005252"
+					},
+					"Children": [
+						{
+							"ID": "20220121005019-u16wv81",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121005019-u16wv81",
+								"updated": "20220121005023"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用java.util.ResourceBundle类的getBundle()方法（适合国际化）"
+								}
+							]
+						},
+						{
+							"ID": "20220121005024-mdkl87z",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220121005024-mdkl87z",
+								"updated": "20220121005252"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "示例： ResourceBundle rb = ResourceBundle.getBundle(name, Locale.getDefault());\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121005256-gqdkp8u",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220121005256-gqdkp8u",
+				"updated": "20220121005310"
+			},
+			"Children": [
+				{
+					"ID": "20220121005257-wgjqszj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220121005257-wgjqszj",
+						"updated": "20220121005310"
+					},
+					"Children": [
+						{
+							"ID": "20220121005257-6bzsi62",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121005257-6bzsi62",
+								"updated": "20220121005301"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用java.util.PropertyResourceBundle类的构造函数（适合国际化）"
+								}
+							]
+						},
+						{
+							"ID": "20220121005302-pn5r55g",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220121005302-pn5r55g",
+								"updated": "20220121005310"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "示例： InputStream in = new BufferedInputStream(new FileInputStream(name));\nResourceBundle rb = new PropertyResourceBundle(in);\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121005311-gg1a3fo",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220121005311-gg1a3fo",
+				"updated": "20220121005526"
+			},
+			"Children": [
+				{
+					"ID": "20220121005312-1so1fpb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220121005312-1so1fpb",
+						"updated": "20220121005526"
+					},
+					"Children": [
+						{
+							"ID": "20220121005312-ojqakhv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121005312-ojqakhv",
+								"updated": "20220121005526"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "使用class变量的getResourceAsStream()方法"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220121005317-w3ue8l0",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220121005317-w3ue8l0",
+								"updated": "20220121005324"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "示例： InputStream in = JProperties.class.getResourceAsStream(name);\nProperties p = new Properties();\np.load(in);\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121005324-lso3n5v",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220121005324-lso3n5v",
+				"updated": "20220121005525"
+			},
+			"Children": [
+				{
+					"ID": "20220121005326-guzv2e9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220121005326-guzv2e9",
+						"updated": "20220121005525"
+					},
+					"Children": [
+						{
+							"ID": "20220121005326-0kpn65l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121005326-0kpn65l",
+								"updated": "20220121005525"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "使用class.getClassLoader()所得到的java.lang.ClassLoader的getResourceAsStream()方法"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220121005332-5chs657",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220121005332-5chs657",
+								"updated": "20220121005337"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "示例： InputStream in = JProperties.class.getClassLoader().getResourceAsStream(name);\nProperties p = new Properties();\np.load(in);\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121005337-a85chgv",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220121005337-a85chgv",
+				"updated": "20220121005524"
+			},
+			"Children": [
+				{
+					"ID": "20220121005339-4b4yzno",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220121005339-4b4yzno",
+						"updated": "20220121005524"
+					},
+					"Children": [
+						{
+							"ID": "20220121005339-3z4ghl5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121005339-3z4ghl5",
+								"updated": "20220121005524"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "使用java.lang.ClassLoader类的getSystemResourceAsStream()静态方法"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220121005349-5tmerhe",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220121005349-5tmerhe",
+								"updated": "20220121005353"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "示例： InputStream in = ClassLoader.getSystemResourceAsStream(name);\nProperties p = new Properties();\np.load(in);\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121005354-ryfn7ei",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220121005354-ryfn7ei",
+				"updated": "20220121005516"
+			},
+			"Children": [
+				{
+					"ID": "20220121005516-dvcus89",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220121005516-dvcus89"
+					},
+					"Children": [
+						{
+							"ID": "20220121005516-1yxvojr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121005516-1yxvojr"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "关于Properties常用的方法"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121005403-ng1bmb2",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220121005403-ng1bmb2",
+				"updated": "20220121005409"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 获取键集合\nEnumeration\u003cObject\u003e keys = prop.keys();\nwhile (keys.hasMoreElements()){\n    String key = (String)keys.nextElement();\n    System.out.println(\"键是\"+key );\n}\n// 获取值集合\nEnumeration\u003cObject\u003e elements = prop.elements();\nwhile (elements.hasMoreElements()){\n    String value = (String)elements.nextElement();\n    System.out.println(\"值\"+value);\n}\n// 获取键取值\nEnumeration\u003c?\u003e enumeration = prop.propertyNames();\nwhile (enumeration.hasMoreElements()){\n    String key = (String)enumeration.nextElement();\n    Object value = prop.getProperty(key);\n    System.out.println(\"键是\"+key +\",值\"+value);\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220121005414-h6f73yd",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220121005414-h6f73yd",
+				"updated": "20220121005511"
+			},
+			"Children": [
+				{
+					"ID": "20220121005415-p72amx9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220121005415-p72amx9",
+						"updated": "20220121005511"
+					},
+					"Children": [
+						{
+							"ID": "20220121005415-2mhhi1w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121005415-2mhhi1w",
+								"updated": "20220121005415"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "常用方法"
+								}
+							]
+						},
+						{
+							"ID": "20220121005416-le3ws42",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220121005416-le3ws42",
+								"updated": "20220121005511"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								},
+								{
+									"ID": "20220121005436-0e2n1ay",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005436-0e2n1ay",
+										"updated": "20220121005436"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "load(InputStream inStream) --"
+										},
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "从输入流中读取属性列表（键和元素对）"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220121005436-jg4ejxk",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005436-jg4ejxk",
+										"updated": "20220121005436"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "getProperty(String key)--"
+										},
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "用指定的键在此属性列表中搜索属性"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220121005436-3cuyax7",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005436-3cuyax7",
+										"updated": "20220121005436"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "getProperty(String key, String defaultValue)--"
+										},
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "用指定的键在属性列表中搜索属性。如果未找到属性，则此方法返回默认值变量"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220121005436-lqrodvn",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005436-lqrodvn",
+										"updated": "20220121005436"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "propertyNames()--"
+										},
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "返回属性列表中所有键的枚举"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220121005436-f9yung4",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005436-f9yung4",
+										"updated": "20220121005436"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "setProperty(String key, String value)--设置键值对 "
+										},
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "（存在键则更新，不存在则新增！）"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220121005436-itb9pfv",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005436-itb9pfv",
+										"updated": "20220121005509"
+									},
+									"Children": [
+										{
+											"Type": "NodeMark",
+											"Data": "mark",
+											"Children": [
+												{
+													"Type": "NodeMark2OpenMarker"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "store(OutputStream out, String comments) --将属性集文件更新"
+												},
+												{
+													"Type": "NodeMark2CloseMarker"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220121005436-oh87435",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005436-oh87435",
+										"updated": "20220121005511"
+									},
+									"Children": [
+										{
+											"Type": "NodeMark",
+											"Data": "mark",
+											"Children": [
+												{
+													"Type": "NodeMark2OpenMarker"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "例如：#name=guanhuaqin"
+												},
+												{
+													"Type": "NodeMark2CloseMarker"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220121005436-j9mv8sy",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005436-j9mv8sy",
+										"updated": "20220121005505"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "  "
+										},
+										{
+											"Type": "NodeText",
+											"Data": " "
+										},
+										{
+											"Type": "NodeMark",
+											"Data": "mark",
+											"Children": [
+												{
+													"Type": "NodeMark2OpenMarker"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "  #Tue May 05 20:52:34 CST 2020"
+												},
+												{
+													"Type": "NodeMark2CloseMarker"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220121005436-2gq36i5",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005436-2gq36i5",
+										"updated": "20220121005436"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "list(PrintStream out)--将属性集写入到流文件"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

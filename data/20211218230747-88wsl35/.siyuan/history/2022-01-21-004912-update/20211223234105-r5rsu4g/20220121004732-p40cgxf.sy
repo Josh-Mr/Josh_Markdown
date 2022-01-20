@@ -1,0 +1,19 @@
+{
+	"ID": "20220121004732-p40cgxf",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220121004732-p40cgxf",
+		"title": "Java读取Properties文件的六种方法",
+		"updated": "20220121004735"
+	},
+	"Children": [
+		{
+			"ID": "20220121004732-nh9mtv6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220121004732-nh9mtv6",
+				"updated": "20220121004732"
+			}
+		}
+	]
+}

@@ -1,0 +1,1791 @@
+{
+	"ID": "20220121005529-i2t3ykw",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220121005529-i2t3ykw",
+		"title": "Spring_使用",
+		"updated": "20220121010026"
+	},
+	"Children": [
+		{
+			"ID": "20220121005726-ckq2btv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220121005726-ckq2btv",
+				"updated": "20220121005735"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、加载容器"
+				}
+			]
+		},
+		{
+			"ID": "20220121005651-6y7m024",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220121005651-6y7m024",
+				"updated": "20220121005701"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "1、ApplicationContext的三个常用的实现类："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121005651-y2ewlwt",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220121005651-y2ewlwt",
+				"updated": "20220121005709"
+			},
+			"Children": [
+				{
+					"ID": "20220121005651-0j5a13a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220121005651-0j5a13a",
+						"updated": "20220121005659"
+					},
+					"Children": [
+						{
+							"ID": "20220121005651-vclpilj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121005651-vclpilj",
+								"updated": "20220121005659"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ClassPathXMLApplicationContext :"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "加载类路径下的配置文件"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，要求配置文件必须在类路径下。不在的话，加载不了。(更常用)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220121005651-txe1vyd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220121005651-txe1vyd",
+						"updated": "20220121005709"
+					},
+					"Children": [
+						{
+							"ID": "20220121005651-92m33r6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121005651-92m33r6",
+								"updated": "20220121005709"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "FileSystemXmlApplicationContext："
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "加载磁盘任意路径下的配置文件"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "(必须有访问权限）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220121005651-mn4ab7f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220121005651-mn4ab7f",
+						"updated": "20220121005706"
+					},
+					"Children": [
+						{
+							"ID": "20220121005651-ash97tv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121005651-ash97tv",
+								"updated": "20220121005706"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "AnnotationConfigApplicationContext："
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "读取注解创建容器"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121005651-4qrvn06",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220121005651-4qrvn06",
+				"updated": "20220121005651"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、核心容器的两个接口引发的问题"
+				}
+			]
+		},
+		{
+			"ID": "20220121005651-6odn65r",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220121005651-6odn65r",
+				"updated": "20220121005651"
+			},
+			"Children": [
+				{
+					"ID": "20220121005651-5gxvl4j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220121005651-5gxvl4j"
+					},
+					"Children": [
+						{
+							"ID": "20220121005651-jypyqgo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121005651-jypyqgo"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ApplicationContext ：创建对象采取的策略是采用立即加载的方式（单例对象使用）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220121005651-ot1tlb1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220121005651-ot1tlb1"
+					},
+					"Children": [
+						{
+							"ID": "20220121005651-f1hyhbm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121005651-f1hyhbm"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "BeanFactory ：创建对象采取的策略是采用延迟加载的方式 (多例对象使用)"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121005737-ivh5rlg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220121005737-ivh5rlg",
+				"updated": "20220121005739"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、spring的bean管理"
+				}
+			]
+		},
+		{
+			"ID": "20220121005740-o3lryl1",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220121005740-o3lryl1",
+				"updated": "20220121005826"
+			},
+			"Children": [
+				{
+					"ID": "20220121005744-1lmt0x9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220121005744-1lmt0x9",
+						"updated": "20220121005826"
+					},
+					"Children": [
+						{
+							"ID": "20220121005744-ky0n864",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121005744-ky0n864",
+								"updated": "20220121005744"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "bean对象的三种创建方式"
+								}
+							]
+						},
+						{
+							"ID": "20220121005822-660xk3h",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220121005822-660xk3h",
+								"updated": "20220121005826"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								},
+								{
+									"ID": "20220121005826-pnwchvl",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005826-pnwchvl",
+										"updated": "20220121005826"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "\u003c!-- **方式一：默认的构造方法创建** --\u003e"
+										}
+									]
+								},
+								{
+									"ID": "20220121005826-22yofoz",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005826-22yofoz",
+										"updated": "20220121005826"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "\u003c!---没有其他属性时，默认使用构造方法创建对象，若没有构造方法，则无法创建对象！-\u003e"
+										}
+									]
+								},
+								{
+									"ID": "20220121005826-xth03n0",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005826-xth03n0",
+										"updated": "20220121005826"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "\u003cbean id=\"userServiceImpl\" class=\"com.josh.serivce.impl.UserServiceImpl\"\u003e\u003c/bean\u003e"
+										}
+									]
+								},
+								{
+									"ID": "20220121005826-si5dq6t",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005826-si5dq6t",
+										"updated": "20220121005826"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "\u003c!-- "
+										},
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "方式二：使用普通工厂创建方法"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220121005826-j5zk0nw",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005826-j5zk0nw",
+										"updated": "20220121005826"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "    \u003cbean id=\"userServiceImpl\""
+										}
+									]
+								},
+								{
+									"ID": "20220121005826-30czcy9",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005826-30czcy9",
+										"updated": "20220121005826"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "          factory-bean=\"instanceFactory\""
+										}
+									]
+								},
+								{
+									"ID": "20220121005826-7mj4ygt",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005826-7mj4ygt",
+										"updated": "20220121005826"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "          factory-method=\"getInstanceByMethod\"\u003e"
+										}
+									]
+								},
+								{
+									"ID": "20220121005826-7du0y3f",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005826-7du0y3f",
+										"updated": "20220121005826"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "    \u003c/bean\u003e"
+										}
+									]
+								},
+								{
+									"ID": "20220121005826-rqap6gc",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005826-rqap6gc",
+										"updated": "20220121005826"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "    \u003cbean id=\"instanceFactory\""
+										}
+									]
+								},
+								{
+									"ID": "20220121005826-8mvlh0w",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005826-8mvlh0w",
+										"updated": "20220121005826"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "          class=\"com.josh.serivce.InstanceFactory\" \u003e"
+										}
+									]
+								},
+								{
+									"ID": "20220121005826-4h1jv0n",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005826-4h1jv0n",
+										"updated": "20220121005826"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "    \u003c/bean\u003e"
+										}
+									]
+								},
+								{
+									"ID": "20220121005826-a56dry4",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005826-a56dry4",
+										"updated": "20220121005826"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "    --\u003e"
+										}
+									]
+								},
+								{
+									"ID": "20220121005826-2ji1xj7",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005826-2ji1xj7",
+										"updated": "20220121005826"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "\u003c!--"
+										},
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "第三种方式：使用工厂中的静态方法创建对象（使用某个类中的静态方法创建对象，并存入spring容器)"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220121005826-ggphrid",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005826-ggphrid",
+										"updated": "20220121005826"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "    \u003cbean id=\"userServiceImpl\" class=\"com.josh.serivce.InstanceFactory\""
+										}
+									]
+								},
+								{
+									"ID": "20220121005826-efycsfk",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005826-efycsfk",
+										"updated": "20220121005826"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "          factory-method=\"geInstanceByMethod2\"\u003e\u003c/bean\u003e"
+										}
+									]
+								},
+								{
+									"ID": "20220121005826-wimsmmx",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005826-wimsmmx",
+										"updated": "20220121005826"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "--\u003e"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121005814-gb970i4",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220121005814-gb970i4",
+				"updated": "20220121005839"
+			},
+			"Children": [
+				{
+					"ID": "20220121005833-v6a5kki",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220121005833-v6a5kki",
+						"updated": "20220121005839"
+					},
+					"Children": [
+						{
+							"ID": "20220121005833-sncotil",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121005833-sncotil",
+								"updated": "20220121005833"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "bean对象的作用范围"
+								}
+							]
+						},
+						{
+							"ID": "20220121005833-r6c0w70",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220121005833-r6c0w70",
+								"updated": "20220121005839"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								},
+								{
+									"ID": "20220121005839-k6hbgfe",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005839-k6hbgfe",
+										"updated": "20220121005839"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "        bean标签的scope属性："
+										}
+									]
+								},
+								{
+									"ID": "20220121005839-s883jt5",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005839-s883jt5",
+										"updated": "20220121005839"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "            作用：用于指定bean的作用范围"
+										}
+									]
+								},
+								{
+									"ID": "20220121005839-4ej6hf7",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005839-4ej6hf7",
+										"updated": "20220121005839"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "            取值： 常用的就是单例的和多例的"
+										}
+									]
+								},
+								{
+									"ID": "20220121005839-62arqa7",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005839-62arqa7",
+										"updated": "20220121005839"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "                "
+										},
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "singleton：单例的（默认值）"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220121005839-51d81qn",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005839-51d81qn",
+										"updated": "20220121005839"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "                "
+										},
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "prototype：多例的"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220121005839-yx30mys",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005839-yx30mys",
+										"updated": "20220121005839"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "                request：作用于web应用的请求范围"
+										}
+									]
+								},
+								{
+									"ID": "20220121005839-yjak7kz",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005839-yjak7kz",
+										"updated": "20220121005839"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "                session：作用于web应用的会话范围"
+										}
+									]
+								},
+								{
+									"ID": "20220121005839-ucml58n",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005839-ucml58n",
+										"updated": "20220121005839"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "                global-session：作用于集群环境的会话范围（全局会话范围），当不是集群环境时，它就是session"
+										}
+									]
+								},
+								{
+									"ID": "20220121005839-v3lm8e0",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005839-v3lm8e0",
+										"updated": "20220121005839"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "\u003cbean id=\"userServiceImpl\""
+										}
+									]
+								},
+								{
+									"ID": "20220121005839-9jjg0lj",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005839-9jjg0lj",
+										"updated": "20220121005839"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "      class=\"com.josh.serivce.impl.UserServiceImpl\"  "
+										},
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "scope=\"singleton\""
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										},
+										{
+											"Type": "NodeText",
+											"Data": " \u003e"
+										}
+									]
+								},
+								{
+									"ID": "20220121005839-q567isk",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005839-q567isk",
+										"updated": "20220121005839"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "\u003c/bean\u003e"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121005842-r1l6yxe",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220121005842-r1l6yxe",
+				"updated": "20220121005856"
+			},
+			"Children": [
+				{
+					"ID": "20220121005847-4hfbgwj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220121005847-4hfbgwj",
+						"updated": "20220121005856"
+					},
+					"Children": [
+						{
+							"ID": "20220121005847-57wzmwd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121005847-57wzmwd",
+								"updated": "20220121005847"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "bean对象的生命周期"
+								}
+							]
+						},
+						{
+							"ID": "20220121005848-i6pimxi",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220121005848-i6pimxi",
+								"updated": "20220121005856"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								},
+								{
+									"ID": "20220121005856-iclxwju",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005856-iclxwju",
+										"updated": "20220121005856"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "bean对象的生命周期"
+										}
+									]
+								},
+								{
+									"ID": "20220121005856-8cvadwx",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005856-8cvadwx",
+										"updated": "20220121005856"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "            单例对象"
+										}
+									]
+								},
+								{
+									"ID": "20220121005856-3hwczjg",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005856-3hwczjg",
+										"updated": "20220121005856"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "                出生：当容器创建时对象出生"
+										}
+									]
+								},
+								{
+									"ID": "20220121005856-c07jqa6",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005856-c07jqa6",
+										"updated": "20220121005856"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "                活着：只要容器还在，对象一直活着"
+										}
+									]
+								},
+								{
+									"ID": "20220121005856-3crsukj",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005856-3crsukj",
+										"updated": "20220121005856"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "                死亡：容器销毁，对象消亡"
+										}
+									]
+								},
+								{
+									"ID": "20220121005856-nqd8t9c",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005856-nqd8t9c",
+										"updated": "20220121005856"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "                总结：单例对象的生命周期和容器相同"
+										}
+									]
+								},
+								{
+									"ID": "20220121005856-in85olm",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005856-in85olm",
+										"updated": "20220121005856"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "            多例对象"
+										}
+									]
+								},
+								{
+									"ID": "20220121005856-v7skchp",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005856-v7skchp",
+										"updated": "20220121005856"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "                出生：当我们使用对象时spring框架为我们创建"
+										}
+									]
+								},
+								{
+									"ID": "20220121005856-uis7jso",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005856-uis7jso",
+										"updated": "20220121005856"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "                活着：对象只要是在使用过程中就一直活着。"
+										}
+									]
+								},
+								{
+									"ID": "20220121005856-bokmv3g",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005856-bokmv3g",
+										"updated": "20220121005856"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "                死亡：当对象长时间不用，且没有别的对象引用时，由Java的垃圾回收器回收"
+										}
+									]
+								},
+								{
+									"ID": "20220121005856-vb03cc4",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005856-vb03cc4",
+										"updated": "20220121005856"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "\u003cbean id=\"userServiceImpl\""
+										}
+									]
+								},
+								{
+									"ID": "20220121005856-se41dke",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005856-se41dke",
+										"updated": "20220121005856"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "      class=\"com.josh.serivce.impl.UserServiceImpl\""
+										}
+									]
+								},
+								{
+									"ID": "20220121005856-s6qkhkq",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005856-s6qkhkq",
+										"updated": "20220121005856"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "      scope=\"singleton\"  "
+										},
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "init-method=\"init\" destroy-method=\"destroy"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										},
+										{
+											"Type": "NodeText",
+											"Data": " \"\u003e"
+										}
+									]
+								},
+								{
+									"ID": "20220121005856-kk3hmox",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220121005856-kk3hmox",
+										"updated": "20220121005856"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "\u003c/bean\u003e"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121005901-67a74cp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220121005901-67a74cp",
+				"updated": "20220121005903"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、Spring的依赖注入"
+				}
+			]
+		},
+		{
+			"ID": "20220121005903-4lh46vl",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220121005903-4lh46vl",
+				"updated": "20220121005910"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220121005910-66t4m61",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220121005910-66t4m61",
+						"updated": "20220121005910"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "        依赖注入："
+						}
+					]
+				},
+				{
+					"ID": "20220121005910-6fn8cza",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220121005910-6fn8cza",
+						"updated": "20220121005910"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "            Dependency Injection"
+						}
+					]
+				},
+				{
+					"ID": "20220121005910-j0o5c0m",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220121005910-j0o5c0m",
+						"updated": "20220121005910"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "        IOC的作用："
+						}
+					]
+				},
+				{
+					"ID": "20220121005910-8usox87",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220121005910-8usox87",
+						"updated": "20220121005910"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "            降低程序间的耦合（依赖关系）"
+						}
+					]
+				},
+				{
+					"ID": "20220121005910-uv38kl1",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220121005910-uv38kl1",
+						"updated": "20220121005910"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "        依赖关系的管理："
+						}
+					]
+				},
+				{
+					"ID": "20220121005910-sxlgkwf",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220121005910-sxlgkwf",
+						"updated": "20220121005910"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "            以后都交给spring来维护"
+						}
+					]
+				},
+				{
+					"ID": "20220121005910-cnqmnnq",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220121005910-cnqmnnq",
+						"updated": "20220121005910"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "        在当前类需要用到其他类的对象，由spring为我们提供，我们只需要在配置文件中说明"
+						}
+					]
+				},
+				{
+					"ID": "20220121005910-6op72ux",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220121005910-6op72ux",
+						"updated": "20220121005910"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "        依赖关系的维护："
+						}
+					]
+				},
+				{
+					"ID": "20220121005910-tdrxkqk",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220121005910-tdrxkqk",
+						"updated": "20220121005910"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "            就称之为依赖注入。"
+						}
+					]
+				},
+				{
+					"ID": "20220121005910-ks1odjj",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220121005910-ks1odjj",
+						"updated": "20220121005910"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "         依赖注入："
+						}
+					]
+				},
+				{
+					"ID": "20220121005910-sezoprw",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220121005910-sezoprw",
+						"updated": "20220121005910"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "            能注入的数据：有三类"
+						}
+					]
+				},
+				{
+					"ID": "20220121005910-k1l29w8",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220121005910-k1l29w8",
+						"updated": "20220121005910"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "                基本类型和String"
+						}
+					]
+				},
+				{
+					"ID": "20220121005910-ltx5mul",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220121005910-ltx5mul",
+						"updated": "20220121005910"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "                其他bean类型（在配置文件中或者注解配置过的bean）"
+						}
+					]
+				},
+				{
+					"ID": "20220121005910-llkb0ds",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220121005910-llkb0ds",
+						"updated": "20220121005910"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "                复杂类型/集合类型"
+						}
+					]
+				},
+				{
+					"ID": "20220121005910-kxnh8zw",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220121005910-kxnh8zw",
+						"updated": "20220121005910"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "             注入的方式：有三种"
+						}
+					]
+				},
+				{
+					"ID": "20220121005910-fnyfrcl",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220121005910-fnyfrcl",
+						"updated": "20220121005910"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "                第一种：使用构造函数提供"
+						}
+					]
+				},
+				{
+					"ID": "20220121005910-cp849b5",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220121005910-cp849b5",
+						"updated": "20220121005910"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "                第二种：使用set方法提供"
+						}
+					]
+				},
+				{
+					"ID": "20220121005910-sxv2ihg",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220121005910-sxv2ihg",
+						"updated": "20220121005910"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "                第三种：使用注解提供（明天的内容）"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121005918-as6c3lb",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220121005918-as6c3lb",
+				"updated": "20220121005918"
+			},
+			"Children": [
+				{
+					"ID": "20220121005918-sr04ut5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220121005918-sr04ut5"
+					},
+					"Children": [
+						{
+							"ID": "20220121005918-wl9vxew",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121005918-wl9vxew"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分类"
+								}
+							]
+						},
+						{
+							"ID": "20220121005918-4g4zcki",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220121005918-4g4zcki"
+							},
+							"Children": [
+								{
+									"ID": "20220121005918-60mjxqq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220121005918-60mjxqq"
+									},
+									"Children": [
+										{
+											"ID": "20220121005918-qumlgpb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220121005918-qumlgpb"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "基本类型和String"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220121005918-3w5y5uu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220121005918-3w5y5uu"
+									},
+									"Children": [
+										{
+											"ID": "20220121005918-hws5qes",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220121005918-hws5qes"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "其他bean类型（配置文件中 或者注解配置过的bean）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220121005918-mmakddp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220121005918-mmakddp"
+									},
+									"Children": [
+										{
+											"ID": "20220121005918-u6jooh8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220121005918-u6jooh8"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "复杂类型/集合类型"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220121005918-elm3ve8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220121005918-elm3ve8"
+					},
+					"Children": [
+						{
+							"ID": "20220121005918-1ulvhzn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121005918-1ulvhzn"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "注入方式"
+								}
+							]
+						},
+						{
+							"ID": "20220121005921-lijvj1a",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220121005921-lijvj1a"
+							},
+							"Children": [
+								{
+									"ID": "20220121005918-6iglsi2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220121005918-6iglsi2"
+									},
+									"Children": [
+										{
+											"ID": "20220121005918-0j05183",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220121005918-0j05183"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "构造函数注入"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121005931-cvxh83m",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220121005931-cvxh83m",
+				"updated": "20220121005950"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "    \u003c!--构造函数注入：\n        使用的标签:constructor-arg\n        标签出现的位置：bean标签的内部\n        标签中的属性\n            type：用于指定要注入的数据的数据类型，该数据类型也是构造函数中某个或某些参数的类型\n            index：用于指定要注入的数据给构造函数中指定索引位置的参数赋值。索引的位置是从0开始\n            name：用于指定给构造函数中指定名称的参数赋值           --常用的\n            =============以上三个用于指定给构造函数中哪个参数赋值===============================\n            value：用于提供基本类型和String类型的数据\n            ref：用于指定其他的bean类型数据。它指的就是在spring的Ioc核心容器中出现过的bean对象\n\n        优势：\n            在获取bean对象时，注入数据是必须的操作，否则对象无法创建成功。\n        弊端：\n            改变了bean对象的实例化方式，使我们在创建对象时，如果用不到这些数据，也必须提供。\n    --\u003e\n\n\u003c!--构造函数注入--\u003e\n\u003cbean id=\"userSerivceImpl2\" class=\"com.josh.serivce.impl.UserServiceImpl2\"\u003e\n    \u003cconstructor-arg name=\"name\" value=\"josh\"\u003e\u003c/constructor-arg\u003e\n    \u003cconstructor-arg name=\"age\" value=\"23\"\u003e\u003c/constructor-arg\u003e\n    \u003cconstructor-arg name=\"date\" ref=\"date\"\u003e\u003c/constructor-arg\u003e\n\u003c/bean\u003e\n\u003cbean name=\"date\" class=\"java.util.Date\"\u003e\u003c/bean\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220121005919-w87ve0o",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220121005919-w87ve0o",
+				"updated": "20220121010002"
+			},
+			"Children": [
+				{
+					"ID": "20220121005956-i1c764s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220121005956-i1c764s",
+						"updated": "20220121010002"
+					},
+					"Children": [
+						{
+							"ID": "20220121005956-04i3kdg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121005956-04i3kdg",
+								"updated": "20220121005956"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "set方法注入"
+								}
+							]
+						},
+						{
+							"ID": "20220121005956-tqmtrhu",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220121005956-tqmtrhu",
+								"updated": "20220121010002"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "eG1s"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003c!-- set方法注入                更常用的方式\n        涉及的标签：property\n        出现的位置：bean标签的内部\n        标签的属性\n            name：用于指定注入时所调用的set方法名称\n            value：用于提供基本类型和String类型的数据\n            ref：用于指定其他的bean类型数据。它指的就是在spring的Ioc核心容器中出现过的bean对象\n        优势：\n            创建对象时没有明确的限制，可以直接使用默认构造函数\n        弊端：\n            如果有某个成员必须有值，则获取对象是有可能set方法没有执行。\n    --\u003e\n\u003c!--set方法注入--\u003e\n\u003cbean id=\"userSerivceImplSet\" class=\"com.josh.serivce.impl.UserServiceImplSet\"\u003e\n    \u003cproperty name=\"name\" value=\"josh\"\u003e\u003c/property\u003e\n    \u003cproperty name=\"age\" value=\"18\"\u003e\u003c/property\u003e\n    \u003cproperty name=\"date\" ref=\"date\"\u003e\u003c/property\u003e\n\u003c/bean\u003e\n\u003cbean id=\"date\" class=\"java.util.Date\"\u003e\u003c/bean\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121010007-keaj0om",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220121010007-keaj0om",
+				"updated": "20220121010016"
+			},
+			"Children": [
+				{
+					"ID": "20220121010008-1a2rxnn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220121010008-1a2rxnn",
+						"updated": "20220121010016"
+					},
+					"Children": [
+						{
+							"ID": "20220121010008-6po650c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121010008-6po650c",
+								"updated": "20220121010008"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "复杂/集合类型注入"
+								}
+							]
+						},
+						{
+							"ID": "20220121010008-zbrf2gz",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220121010008-zbrf2gz",
+								"updated": "20220121010016"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "eG1s"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003c!-- 复杂类型的注入/集合类型的注入\n\n        用于给List结构集合注入的标签：\n            list array set\n\n        用于个Map结构集合注入的标签:\n            map  props\n        结构相同，标签可以互换\n    --\u003e\n\u003c!--复杂类型注入--\u003e\n\u003cbean id=\"userServiceImpl3\" class=\"com.josh.serivce.impl.UserServiceImpl3\"\u003e\n    \u003cproperty name=\"strings\"\u003e\n        \u003carray\u003e\n            \u003cvalue\u003eAA_array\u003c/value\u003e\n            \u003cvalue\u003eBB_array\u003c/value\u003e\n            \u003cvalue\u003eCC_array\u003c/value\u003e\n        \u003c/array\u003e\n    \u003c/property\u003e\n    \u003cproperty name=\"list\"\u003e\n        \u003clist\u003e\n            \u003cvalue\u003eAA_list\u003c/value\u003e\n            \u003cvalue\u003eBB_list\u003c/value\u003e\n            \u003cvalue\u003eCC_list\u003c/value\u003e\n        \u003c/list\u003e\n    \u003c/property\u003e\n    \u003cproperty name=\"set\"\u003e\n        \u003cset\u003e\n            \u003cvalue\u003eAA_set\u003c/value\u003e\n            \u003cvalue\u003eBB_set\u003c/value\u003e\n            \u003cvalue\u003eCC_set\u003c/value\u003e\n        \u003c/set\u003e\n    \u003c/property\u003e\n    \u003cproperty name=\"map\"\u003e\n        \u003cmap\u003e\n            \u003centry key=\"A\" value=\"AA_map\"\u003e\u003c/entry\u003e\n            \u003centry key=\"B\" value=\"BB_map\"\u003e\u003c/entry\u003e\n            \u003centry key=\"C\" value=\"CC_map\"\u003e\u003c/entry\u003e\n        \u003c/map\u003e\n    \u003c/property\u003e\n    \u003cproperty name=\"properties\"\u003e\n        \u003cprops\u003e\n            \u003cprop key=\"A\"\u003eA_prop\u003c/prop\u003e\n            \u003cprop key=\"B\"\u003eB_prop\u003c/prop\u003e\n            \u003cprop key=\"C\"\u003eC_prop\u003c/prop\u003e\n        \u003c/props\u003e\n    \u003c/property\u003e\n\u003c/bean\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121010026-3xx47ys",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220121010026-3xx47ys",
+				"updated": "20220121010026"
+			}
+		}
+	]
+}

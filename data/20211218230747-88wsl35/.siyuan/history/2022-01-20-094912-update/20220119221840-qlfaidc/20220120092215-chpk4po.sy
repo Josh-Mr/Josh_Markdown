@@ -1,0 +1,1235 @@
+{
+	"ID": "20220120092215-chpk4po",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220120092215-chpk4po",
+		"title": "Protocol_HTTP原理\u0026amp;状态码\u0026amp;Get和Post区别",
+		"updated": "20220120094815"
+	},
+	"Children": [
+		{
+			"ID": "20220120092215-6yoh4ga",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120092215-6yoh4ga",
+				"updated": "20220120092327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、响应-状态码（五种）"
+				}
+			]
+		},
+		{
+			"ID": "20220120092720-bg6s0bi",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120092720-bg6s0bi",
+				"updated": "20220120094815"
+			},
+			"Children": [
+				{
+					"ID": "20220120092720-ep8v5cu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120092720-ep8v5cu",
+						"updated": "20220120094811"
+					},
+					"Children": [
+						{
+							"ID": "20220120092720-mg6bzq7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120092720-mg6bzq7",
+								"updated": "20220120094811"
+							},
+							"Children": [
+								{
+									"Type": "NodeEmphasis",
+									"Data": "em",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "1xx：指示信息--表示请求已接收，继续处理"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120092720-hj90ske",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120092720-hj90ske",
+						"updated": "20220120094812"
+					},
+					"Children": [
+						{
+							"ID": "20220120092720-dkmbib9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120092720-dkmbib9",
+								"updated": "20220120094812"
+							},
+							"Children": [
+								{
+									"Type": "NodeEmphasis",
+									"Data": "em",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "2xx：成功--表示请求已被成功接收、理解、接受"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120092720-oz2vvm2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120092720-oz2vvm2",
+						"updated": "20220120094813"
+					},
+					"Children": [
+						{
+							"ID": "20220120092720-udsly7q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120092720-udsly7q",
+								"updated": "20220120094813"
+							},
+							"Children": [
+								{
+									"Type": "NodeEmphasis",
+									"Data": "em",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "3xx：重定向--要完成请求必须进行更进一步的操作"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120092720-vf10k30",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120092720-vf10k30",
+						"updated": "20220120094814"
+					},
+					"Children": [
+						{
+							"ID": "20220120092720-xm89k0y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120092720-xm89k0y",
+								"updated": "20220120094814"
+							},
+							"Children": [
+								{
+									"Type": "NodeEmphasis",
+									"Data": "em",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "4xx：客户端错误--请求有语法错误或请求无法实现"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120092720-eh4mi63",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120092720-eh4mi63",
+						"updated": "20220120094815"
+					},
+					"Children": [
+						{
+							"ID": "20220120092720-6j9gfv9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120092720-6j9gfv9",
+								"updated": "20220120094815"
+							},
+							"Children": [
+								{
+									"Type": "NodeEmphasis",
+									"Data": "em",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "5xx：服务器端错误--服务器未能实现合法的请求"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120092723-lj9sz0r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120092723-lj9sz0r"
+					},
+					"Children": [
+						{
+							"ID": "20220120092723-r8m7s97",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120092723-r8m7s97",
+								"updated": "20220120092729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "常见的状态码："
+								}
+							]
+						},
+						{
+							"ID": "20220120092730-xjm64sy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120092730-xjm64sy",
+								"updated": "20220120092734"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Image.png"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/Image-20220120092734-79r4hlo.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120092741-sjrs1gl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120092741-sjrs1gl",
+				"updated": "20220120092806"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、HTTP工作原理"
+				}
+			]
+		},
+		{
+			"ID": "20220120092745-sx2hedp",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220120092745-sx2hedp",
+				"updated": "20220120093054"
+			},
+			"Children": [
+				{
+					"ID": "20220120092816-szc21u2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220120092816-szc21u2"
+					},
+					"Children": [
+						{
+							"ID": "20220120092816-hsynu5i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120092816-hsynu5i",
+								"updated": "20220120092840"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "解析地址"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120092822-xj6my4m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220120092822-xj6my4m"
+					},
+					"Children": [
+						{
+							"ID": "20220120092822-ajgk13x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120092822-ajgk13x",
+								"updated": "20220120092842"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "封装HTTP请求数据包"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "-"
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "请求报文"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：URL、协议版本、请求头部、请求数据"
+								}
+							]
+						},
+						{
+							"ID": "20220120092847-qadxp9n",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220120092847-qadxp9n",
+								"updated": "20220120092851"
+							},
+							"Children": [
+								{
+									"ID": "20220120092851-1507pay",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120092851-1507pay"
+									},
+									"Children": [
+										{
+											"ID": "20220120092851-aj9d3t2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120092851-aj9d3t2",
+												"updated": "20220120092856"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "结合本机自己的信息，封装成一个HTTP请求数据包"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120092843-huewfa9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220120092843-huewfa9"
+					},
+					"Children": [
+						{
+							"ID": "20220120092843-5lhpn7z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120092843-5lhpn7z",
+								"updated": "20220120092907"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "封装成TCP包，建立TCP连接（TCP的三次握手）"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220120092915-v264tdu",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220120092915-v264tdu",
+								"updated": "20220120092923"
+							},
+							"Children": [
+								{
+									"ID": "20220120092923-e537e8c",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120092923-e537e8c"
+									},
+									"Children": [
+										{
+											"ID": "20220120092923-gallsej",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120092923-gallsej",
+												"updated": "20220120092957"
+											},
+											"Children": [
+												{
+													"Type": "NodeMark",
+													"Data": "mark",
+													"Children": [
+														{
+															"Type": "NodeMark2OpenMarker"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "若HTTPS的话"
+														},
+														{
+															"Type": "NodeMark2CloseMarker"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220120092926-zr7heoa",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20220120092926-zr7heoa",
+												"updated": "20220120092929"
+											},
+											"Children": [
+												{
+													"ID": "20220120092929-8rtw7yy",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20220120092929-8rtw7yy"
+													},
+													"Children": [
+														{
+															"ID": "20220120092929-6z0j3o3",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220120092929-6z0j3o3",
+																"updated": "20220120092935"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "SSL客户端通过TCP和服务器建立连接之后（443端口），并且在一般的tcp连接协商（握手）过程中请求证书。即客户端发出一个消息给服务器，这个消息里面包含了自己可实现的算法列表和其它一些需要的消息，SSL的服务器端会回应一个数据包，这里面确定了这次通信所需要的算法，然后服务器向客户端返回证书。（证书里面包含了服务器信息：域名。申请证书的公司，公共秘钥）"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220120092937-7ezr8ld",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20220120092937-7ezr8ld"
+													},
+													"Children": [
+														{
+															"ID": "20220120092937-ge67xju",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220120092937-ge67xju",
+																"updated": "20220120092941"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "Client在收到服务器返回的证书后，判断签发这个证书的公共签发机构，并使用这个机构的公共秘钥确认签名是否有效，客户端还会确保证书中列出的域名就是它正在连接的域名。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220120092942-gr1seeb",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20220120092942-gr1seeb"
+													},
+													"Children": [
+														{
+															"ID": "20220120092942-6rlpgsg",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220120092942-6rlpgsg",
+																"updated": "20220120092945"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "如果确认证书有效，那么生成对称秘钥并使用服务器的公共秘钥进行加密。然后发送给服务器，服务器使用它的私钥对它进行解密，这样两台计算机可以开始进行对称加密进行通信。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120092908-zmljtwh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220120092908-zmljtwh"
+					},
+					"Children": [
+						{
+							"ID": "20220120092908-zpemitm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120092908-zpemitm",
+								"updated": "20220120093003"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "客户机发送请求命令"
+								}
+							]
+						},
+						{
+							"ID": "20220120093012-ujyv9ks",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220120093012-ujyv9ks",
+								"updated": "20220120093015"
+							},
+							"Children": [
+								{
+									"ID": "20220120093015-u1xerl6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120093015-u1xerl6"
+									},
+									"Children": [
+										{
+											"ID": "20220120093015-23eup8s",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120093015-23eup8s",
+												"updated": "20220120093015"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "建立连接后，客户机发送一个请求给服务器，请求方式的格式为：统一资源标识符（URI：Uniform Resource Identifier）、协议版本号，后边是MIME信息包括请求修饰符、客户机信息和可能的内容。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120093004-v8owvw2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220120093004-v8owvw2"
+					},
+					"Children": [
+						{
+							"ID": "20220120093004-u8ic3pv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120093004-u8ic3pv",
+								"updated": "20220120093020"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "服务器响应"
+								}
+							]
+						},
+						{
+							"ID": "20220120093021-n3kv3xu",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220120093021-n3kv3xu",
+								"updated": "20220120093026"
+							},
+							"Children": [
+								{
+									"ID": "20220120093026-eyndbyf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120093026-eyndbyf"
+									},
+									"Children": [
+										{
+											"ID": "20220120093026-hckned7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120093026-hckned7",
+												"updated": "20220120093026"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "服务器接到请求后，给予相应的响应信息，其格式为一个状态行，包括信息的协议版本号、一个成功或错误的代码，后边是MIME信息包括服务器信息、实体信息和可能的内容。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120093027-omewgnv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120093027-omewgnv"
+									},
+									"Children": [
+										{
+											"ID": "20220120093027-8kdpyk3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120093027-8kdpyk3",
+												"updated": "20220120093033"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": " 实体消息是服务器向浏览器发送头信息后，它会发送一个空白行来表示头信息的发送到此结束，接着，它就以Content-Type应答头信息所描述的格式发送用户所请求的实际数据"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120093034-082a7y2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220120093034-082a7y2",
+						"updated": "20220120093054"
+					},
+					"Children": [
+						{
+							"ID": "20220120093034-5yob4wq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120093034-5yob4wq",
+								"updated": "20220120093039"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "服务器关闭TCP连接"
+								}
+							]
+						},
+						{
+							"ID": "20220120093040-bwcys2o",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220120093040-bwcys2o",
+								"updated": "20220120093054"
+							},
+							"Children": [
+								{
+									"ID": "20220120093041-ibvwwiq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120093041-ibvwwiq"
+									},
+									"Children": [
+										{
+											"ID": "20220120093041-47i3phw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120093041-47i3phw",
+												"updated": "20220120093046"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "一般情况下，一旦Web服务器向浏览器发送了请求数据，它就要关闭TCP连接，然后如果浏览器或者服务器在其头信息加入了这行代码 Connection:keep-alive"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120093046-4ian6g1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120093046-4ian6g1",
+										"updated": "20220120093054"
+									},
+									"Children": [
+										{
+											"ID": "20220120093046-9e5cupv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120093046-9e5cupv",
+												"updated": "20220120093054"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "TCP连接在发送后将仍然保持打开状态，于是，浏览器可以继续通过相同的连接发送请求。保持连接节省了为每个请求建立新连接所需的时间，还节约了网络带宽。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120093033-egqs5f0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120093033-egqs5f0",
+				"updated": "20220120093102"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、Get和Post的区别"
+				}
+			]
+		},
+		{
+			"ID": "20220120093102-q0fgzge",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220120093102-q0fgzge",
+				"updated": "20220120093107"
+			},
+			"Children": [
+				{
+					"ID": "20220120093107-hmetb0x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220120093107-hmetb0x"
+					},
+					"Children": [
+						{
+							"ID": "20220120093107-7qm68yg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120093107-7qm68yg",
+								"updated": "20220120093422"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "GET提交的数据会放在URL之后，以?分割URL和传输数据，参数之间以\u0026相连，如EditPosts.aspx?name=test1\u0026id=123456. POST方法是把提交的数据放在HTTP包的Body中."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120093423-1cmxe32",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220120093423-1cmxe32"
+					},
+					"Children": [
+						{
+							"ID": "20220120093423-abt43nb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120093423-abt43nb",
+								"updated": "20220120093432"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "GET提交的数据大小有限制（因为浏览器对URL的长度有限制），而POST方法提交的数据没有限制."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120093433-g1vpkvt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220120093433-g1vpkvt"
+					},
+					"Children": [
+						{
+							"ID": "20220120093433-nvknxoq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120093433-nvknxoq",
+								"updated": "20220120093445"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "GET方式提交数据，会带来安全问题，比如一个登录页面，通过GET方式提交数据时，用户名和密码将出现在            URL上，如果页面可以被缓存或者其他人可以访问这台机器，就可以从历史记录获得该用户的账号和密码."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120093525-14t1mb4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220120093525-14t1mb4",
+				"updated": "20220120093525"
+			},
+			"Children": [
+				{
+					"ID": "20220120093525-dy00goj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220120093525-dy00goj"
+					},
+					"Children": [
+						{
+							"ID": "20220120093525-939isp9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120093525-939isp9"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "GET在浏览器回退时是无害的，POST会再次提交请求。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120093525-f1reydi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220120093525-f1reydi"
+					},
+					"Children": [
+						{
+							"ID": "20220120093525-vvxwjym",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120093525-vvxwjym"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "GET产生的URL地址可以被Bookmark，而POST不可以。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120093525-e34cl3o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220120093525-e34cl3o"
+					},
+					"Children": [
+						{
+							"ID": "20220120093525-oojeevp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120093525-oojeevp"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "GET请求会被浏览器主动cache，而POST不会，除非手动设置。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120093525-1nr7flb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220120093525-1nr7flb"
+					},
+					"Children": [
+						{
+							"ID": "20220120093525-1hdimsv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120093525-1hdimsv"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "GET请求只能进行url编码，而POST支持多种编码方式。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120093525-h9l6lam",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220120093525-h9l6lam"
+					},
+					"Children": [
+						{
+							"ID": "20220120093525-olksrru",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120093525-olksrru"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "GET请求参数会被完整保留在浏览器历史记录里，而POST中的参数不会被保留。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120093525-sab6k5s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220120093525-sab6k5s"
+					},
+					"Children": [
+						{
+							"ID": "20220120093525-w3yqbqj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120093525-w3yqbqj"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "GET只接受ASCII字符的参数的数据类型，而POST没有限制"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

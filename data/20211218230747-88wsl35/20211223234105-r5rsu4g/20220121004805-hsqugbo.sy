@@ -1,0 +1,287 @@
+{
+	"ID": "20220121004805-hsqugbo",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220121004805-hsqugbo",
+		"title": "Class和ClassLoader加载资源的区别",
+		"updated": "20220121004938"
+	},
+	"Children": [
+		{
+			"ID": "20220121004805-e0mpbcw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220121004805-e0mpbcw",
+				"updated": "20220121004820"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、Class 的getResource方法"
+				}
+			]
+		},
+		{
+			"ID": "20220121004825-harzsd8",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220121004825-harzsd8",
+				"updated": "20220121004831"
+			},
+			"Children": [
+				{
+					"ID": "20220121004825-142k6qo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220121004825-142k6qo",
+						"updated": "20220121004829"
+					},
+					"Children": [
+						{
+							"ID": "20220121004825-99dmqse",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121004825-99dmqse",
+								"updated": "20220121004829"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Path 不以\"/\" 开头"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：默认在此类所有的包下去资源。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220121004825-j9egh1t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220121004825-j9egh1t",
+						"updated": "20220121004831"
+					},
+					"Children": [
+						{
+							"ID": "20220121004825-fe3gewb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121004825-fe3gewb",
+								"updated": "20220121004831"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Path 以“/”开头"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：项目的classPath根下获取资源。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121004831-ms5b5fl",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220121004831-ms5b5fl",
+				"updated": "20220121004841"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 通过类的Class加载资源\nURL relativeClassResource = UserTest.class.getResource(\"\");\nURL absoluteClassResources = UserTest.class.getResource(\"/\");\nSystem.out.println(relativeClassResource);\nSystem.out.println(absoluteClassResources);\n结果：\nfile:/J:/GithubTest/Spring_learing/Spring_01/target/test-classes/com/josh/test/\nfile:/J:/GithubTest/Spring_learing/Spring_01/target/test-classes/\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220121004847-kf201a2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220121004847-kf201a2",
+				"updated": "20220121004854"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、ClassLoader的getResource方法"
+				}
+			]
+		},
+		{
+			"ID": "20220121004855-h2613xc",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220121004855-h2613xc",
+				"updated": "20220121004938"
+			},
+			"Children": [
+				{
+					"ID": "20220121004905-myaf9x2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220121004905-myaf9x2",
+						"updated": "20220121004938"
+					},
+					"Children": [
+						{
+							"ID": "20220121004905-7nsldbo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220121004905-7nsldbo",
+								"updated": "20220121004938"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Path不能以“/” 开头， path是指类加载器的加载范围，在资源加载的过程中，使用的逐级向上委托的形式加载的，'/'表示Boot ClassLoader中的加载范围，因为这个类加载器是C++实现的。 所以"
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "加载范围为null"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。"
+								}
+							]
+						},
+						{
+							"ID": "20220121004906-ok773pa",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220121004906-ok773pa",
+								"updated": "20220121004913"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "// 通过类的加载器 加载资源\nURL relativeResource = UserTest.class.getClassLoader().getResource(\"\");\nURL absoluteResource = UserTest.class.getClassLoader().getResource(\"/\");\nSystem.out.println(relativeResource);\nSystem.out.println(absoluteResource);\n\nfile:/J:/GithubTest/Spring_learing/Spring_01/target/test-classes/\nnull\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121004919-1wbnqqa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220121004919-1wbnqqa",
+				"updated": "20220121004929"
+			},
+			"Children": [
+				{
+					"Type": "NodeMark",
+					"Data": "mark",
+					"Children": [
+						{
+							"Type": "NodeMark2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "总结：UserTest.class.getResource(\"/\")等价于 UserTest.class.getClassLoader().getResource(\"\");"
+						},
+						{
+							"Type": "NodeMark2CloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220121004929-tsyasdc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220121004929-tsyasdc",
+				"updated": "20220121004929"
+			}
+		}
+	]
+}

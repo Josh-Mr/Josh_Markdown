@@ -1,0 +1,19 @@
+{
+	"ID": "20220120213716-tkr0tab",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220120213716-tkr0tab",
+		"title": "JQuery_【事件】",
+		"updated": "20220120213724"
+	},
+	"Children": [
+		{
+			"ID": "20220120213716-ve1dech",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120213716-ve1dech",
+				"updated": "20220120213716"
+			}
+		}
+	]
+}

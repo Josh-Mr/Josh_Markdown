@@ -1,0 +1,673 @@
+{
+	"ID": "20220120223939-jie9lj0",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220120223939-jie9lj0",
+		"title": "JSON_详解",
+		"updated": "20220120224408"
+	},
+	"Children": [
+		{
+			"ID": "20220120223939-p8bwjwr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120223939-p8bwjwr",
+				"updated": "20220120224003"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "一、JavaScript中JSON使用"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120224018-v5ejjl2",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120224018-v5ejjl2",
+				"updated": "20220120224054"
+			},
+			"Children": [
+				{
+					"ID": "20220120224018-18hnawk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120224018-18hnawk",
+						"updated": "20220120224054"
+					},
+					"Children": [
+						{
+							"ID": "20220120224018-wyh9akl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120224018-wyh9akl",
+								"updated": "20220120224054"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "stringify() "
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "把"
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "JS对象"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "转化"
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Json字符串"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120224018-46892yv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120224018-46892yv",
+						"updated": "20220120224047"
+					},
+					"Children": [
+						{
+							"ID": "20220120224018-agdjrro",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120224018-agdjrro",
+								"updated": "20220120224047"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "parse()"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 把"
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Json数据"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "转化"
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Js对象"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120224030-7385rhv",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220120224030-7385rhv",
+				"updated": "20220120224120"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "var txt = JSON.stringify(obj);\nvar obj = JSON.parse(txt);\nJQuery解析Json\nJSON.parse() 把Json数据转化Js对象\nJSON.stringify() 把JS对象转化Json字符串\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220120224120-6mbnk7d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120224120-6mbnk7d",
+				"updated": "20220120224128"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、Java中JSON【fastjson】基本使用"
+				}
+			]
+		},
+		{
+			"ID": "20220120224205-qe7mzqm",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220120224205-qe7mzqm",
+				"updated": "20220120224250"
+			},
+			"Children": [
+				{
+					"ID": "20220120224208-3nugidz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220120224208-3nugidz",
+						"updated": "20220120224250"
+					},
+					"Children": [
+						{
+							"ID": "20220120224208-zimduel",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120224208-zimduel",
+								"updated": "20220120224250"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "JSON类"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220120224229-lee1bw9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120224229-lee1bw9",
+								"updated": "20220120224248"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "toJSONString"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220120224234-ek4zjkc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120224234-ek4zjkc",
+								"updated": "20220120224247"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "parseObject"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220120224238-xh969vp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120224238-xh969vp",
+								"updated": "20220120224246"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "toJavaObject"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220120224242-l78aws8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120224242-l78aws8",
+								"updated": "20220120224246"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "parseArray"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120224216-s8u4wh1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220120224216-s8u4wh1",
+				"updated": "20220120224311"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "JSONObject json = new JSONObject();\njson.put(\"name1\",\"josh\");\njson.put(\"age1\",12);\nJSONArray jsonArray = new JSONArray();\njsonArray.add(json);\njsonArray.add(json.clone());\n\n// JSONObject =\u003e Strings\nString jsonString= JSON.toJSONString(json);\n// JSONArray =\u003e Strings\nString jsonArrayString = json.toJSONString(jsonArray);\n// String =\u003e JavaBean\nPerson person = JSON.parseObject(jsonString, Person.class);\n// JSON =\u003e JavaBean\nPerson person1 = JSON.toJavaObject(json, Person.class);\n// String =\u003e JSONObject\nJSONObject jsonObject = JSON.parseObject(jsonString);\n// String =\u003e Person\u003cT\u003e\nList\u003cPerson\u003e personList = JSON.parseArray(jsonArrayString,Person.class);\n// String =\u003e JSONArray\u003cT\u003e\nJSONArray jsonArray1 = JSON.parseArray(jsonArrayString);2\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220120224303-1gz9aug",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220120224303-1gz9aug",
+				"updated": "20220120224408"
+			},
+			"Children": [
+				{
+					"ID": "20220120224316-zv12eia",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220120224316-zv12eia"
+					},
+					"Children": [
+						{
+							"ID": "20220120224316-4ouj99i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120224316-4ouj99i",
+								"updated": "20220120224319"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "JSONObject类"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220120224325-4bamye4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120224325-4bamye4",
+								"updated": "20220120224335"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "parseObject"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220120224325-2r7uv3y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120224325-2r7uv3y",
+								"updated": "20220120224335"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "toJSONString"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220120224325-suj2qt9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120224325-suj2qt9",
+								"updated": "20220120224336"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "toJavaObject"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220120224341-jj96eey",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220120224341-jj96eey",
+						"updated": "20220120224408"
+					},
+					"Children": [
+						{
+							"ID": "20220120224341-kjgj6ko",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120224341-kjgj6ko",
+								"updated": "20220120224351"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "JSONArray类"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220120224400-3vvcdm5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120224400-3vvcdm5",
+								"updated": "20220120224407"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "parseArray"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220120224400-tf6t1rj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120224400-tf6t1rj",
+								"updated": "20220120224408"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "toJSONString"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120224314-vv07g93",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120224314-vv07g93",
+				"updated": "20220120224314"
+			}
+		}
+	]
+}

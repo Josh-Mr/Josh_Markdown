@@ -1,0 +1,277 @@
+{
+	"ID": "20220120224758-fqknn4g",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20220120224758-fqknn4g",
+		"title": "JSP_了解",
+		"updated": "20220120224937"
+	},
+	"Children": [
+		{
+			"ID": "20220120224940-rreb1q8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120224940-rreb1q8",
+				"updated": "20220120224959"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、JSP缺点"
+				}
+			]
+		},
+		{
+			"ID": "20220120224937-fof1e2d",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220120224937-fof1e2d",
+				"updated": "20220120225004"
+			},
+			"Children": [
+				{
+					"ID": "20220120225004-xt79v14",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220120225004-xt79v14"
+					},
+					"Children": [
+						{
+							"ID": "20220120225004-mx3ni0f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120225004-mx3ni0f"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JSP和java代码的耦合性太强"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120224937-bbcdroc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120224937-bbcdroc",
+				"updated": "20220120225007"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、JSP的执行过程"
+				}
+			]
+		},
+		{
+			"ID": "20220120224937-376teft",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120224937-376teft",
+				"updated": "20220120224937"
+			},
+			"Children": [
+				{
+					"ID": "20220120224937-sc8f4so",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120224937-sc8f4so",
+						"updated": "20220120224937"
+					},
+					"Children": [
+						{
+							"ID": "20220120224937-6qmjem9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120224937-6qmjem9"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1、判断是否修改和创建的最后一次？"
+								}
+							]
+						},
+						{
+							"ID": "20220120224937-k7ngn09",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220120224937-k7ngn09",
+								"updated": "20220120224937"
+							},
+							"Children": [
+								{
+									"ID": "20220120224937-dnxodn3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120224937-dnxodn3"
+									},
+									"Children": [
+										{
+											"ID": "20220120224937-ypilaqq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120224937-ypilaqq"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "否：直接返回之前编译好servlet字节码文件"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120224937-950vb3k",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120224937-950vb3k",
+										"updated": "20220120224937"
+									},
+									"Children": [
+										{
+											"ID": "20220120224937-ya0g5h0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120224937-ya0g5h0",
+												"updated": "20220120224937"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "是：调用JSP解析器编译成Servlet程序（.java文件）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120224937-26i92ow",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120224937-26i92ow"
+									},
+									"Children": [
+										{
+											"ID": "20220120224937-z2kihnk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120224937-z2kihnk"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "JVM再把servlet程序编译的Servlet字节码文件"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120224937-gr8pj7o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120224937-gr8pj7o",
+				"updated": "20220120224937"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(194)-20220120224937-sp1ukw6.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

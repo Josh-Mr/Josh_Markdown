@@ -1,0 +1,1224 @@
+{
+	"ID": "20220119181247-q4p5st7",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20220119181247-q4p5st7",
+		"title": "如何解决Session共享问题？",
+		"updated": "20220119221152"
+	},
+	"Children": [
+		{
+			"ID": "20220119181247-0vuiqs5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220119181247-0vuiqs5",
+				"updated": "20220119181258"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、为什么要解决Session共享问题？"
+				}
+			]
+		},
+		{
+			"ID": "20220119181302-ucg85kn",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220119181302-ucg85kn",
+				"updated": "20220119220933"
+			},
+			"Children": [
+				{
+					"ID": "20220119181302-p41tuoy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220119181302-p41tuoy"
+					},
+					"Children": [
+						{
+							"ID": "20220119181302-f9txsae",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119181302-f9txsae"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当存在多个web应用时才需要实现session共享。存在服务器A和B，假如用户A一开始登录的是服务器A，设置登录信息存在服务器A中，当下一次请求被分配都服务器B的时候，就存在无法获取session问题，想要解决类似的问题就要实现session共享问题。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220119181302-z6635zs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220119181302-z6635zs",
+						"updated": "20220119220933"
+					},
+					"Children": [
+						{
+							"ID": "20220119181302-x35ksgx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119181302-x35ksgx",
+								"updated": "20220119220933"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "因为Session共享在"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "分布式环境"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "和"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "微服务环境"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "下，session共享尤其重要！"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119181305-mlr8re4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220119181305-mlr8re4",
+				"updated": "20220119181311"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、如何解决Session共享问题？"
+				}
+			]
+		},
+		{
+			"ID": "20220119181321-abr5tkf",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220119181321-abr5tkf",
+				"updated": "20220119181524"
+			},
+			"Children": [
+				{
+					"ID": "20220119181321-j9uwyox",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220119181321-j9uwyox",
+						"updated": "20220119181340"
+					},
+					"Children": [
+						{
+							"ID": "20220119181321-ams1ror",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119181321-ams1ror",
+								"updated": "20220119220953"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "利用Nginx提供的ip_hash 负载均衡。"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220119181321-h7jgfp1",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220119181321-h7jgfp1",
+								"updated": "20220119181340"
+							},
+							"Children": [
+								{
+									"ID": "20220119181321-plnsc6g",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220119181321-plnsc6g"
+									},
+									"Children": [
+										{
+											"ID": "20220119181321-j56xhew",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119181321-j56xhew"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "利用请求过来的ip进行取模，然后分发到nginx反向代理服务（这个ip每次请求都是指定的相同的服务器）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220119181321-r526q2y",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220119181321-r526q2y",
+										"updated": "20220119181340"
+									},
+									"Children": [
+										{
+											"ID": "20220119181321-4v5o9nc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119181321-4v5o9nc"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "实现方式："
+												}
+											]
+										},
+										{
+											"ID": "20220119181336-yrw659c",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119181336-yrw659c",
+												"updated": "20220119181340"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Properties": {
+														"parent-style": "max-width: 582px;",
+														"style": "width: 572px;"
+													},
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "Image.png"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Image-20220119181340-tpboqnf.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeKramdownSpanIAL",
+													"Data": "{: style=\"width: 572px;\" parent-style=\"max-width: 582px;\"}"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220119181350-z9ffllz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220119181350-z9ffllz",
+										"updated": "20220119181355"
+									},
+									"Children": [
+										{
+											"ID": "20220119181350-7pcwpxj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119181350-7pcwpxj",
+												"updated": "20220119181351"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "优点和缺点："
+												}
+											]
+										},
+										{
+											"ID": "20220119181351-bhjbv1z",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119181351-bhjbv1z",
+												"updated": "20220119181355"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Properties": {
+														"parent-style": "max-width: 592px;",
+														"style": "width: 582px;"
+													},
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "Image.png"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Image-20220119181355-756spy6.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeKramdownSpanIAL",
+													"Data": "{: style=\"width: 582px;\" parent-style=\"max-width: 592px;\"}"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220119181404-sps6wen",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220119181404-sps6wen",
+						"updated": "20220119181429"
+					},
+					"Children": [
+						{
+							"ID": "20220119181404-2n8ruqv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119181404-2n8ruqv",
+								"updated": "20220119221020"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "基于Tomcat的session复制。"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220119181407-0xev776",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220119181407-0xev776",
+								"updated": "20220119181429"
+							},
+							"Children": [
+								{
+									"ID": "20220119181406-38pm3pn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220119181406-38pm3pn"
+									},
+									"Children": [
+										{
+											"ID": "20220119181406-rt7buki",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119181406-rt7buki",
+												"updated": "20220119181411"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "当用户请求的时候，把session同步到其他的服务器中，当用户访问其他服务时就不需要进行二次登陆了"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220119181412-p0b5hza",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220119181412-p0b5hza",
+										"updated": "20220119181419"
+									},
+									"Children": [
+										{
+											"ID": "20220119181412-gnezljb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119181412-gnezljb",
+												"updated": "20220119181415"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "实现方式："
+												}
+											]
+										},
+										{
+											"ID": "20220119181416-ajs22wh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119181416-ajs22wh",
+												"updated": "20220119181419"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Properties": {
+														"parent-style": "max-width: 581px;",
+														"style": "width: 571px;"
+													},
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "Image.png"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Image-20220119181419-69uivza.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeKramdownSpanIAL",
+													"Data": "{: style=\"width: 571px;\" parent-style=\"max-width: 581px;\"}"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220119181422-c0vnyby",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220119181422-c0vnyby",
+										"updated": "20220119181429"
+									},
+									"Children": [
+										{
+											"ID": "20220119181422-71x1sym",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119181422-71x1sym",
+												"updated": "20220119181426"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "优点和缺点："
+												}
+											]
+										},
+										{
+											"ID": "20220119181427-dmvoyus",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119181427-dmvoyus",
+												"updated": "20220119181429"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Properties": {
+														"parent-style": "max-width: 580px;",
+														"style": "width: 570px;"
+													},
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "Image.png"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Image-20220119181429-nm1yytx.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeKramdownSpanIAL",
+													"Data": "{: style=\"width: 570px;\" parent-style=\"max-width: 580px;\"}"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220119181441-qj7ukaj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220119181441-qj7ukaj",
+						"updated": "20220119221118"
+					},
+					"Children": [
+						{
+							"ID": "20220119181442-ffyofwn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119181442-ffyofwn",
+								"updated": "20220119221044"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "使用redis对session做统一缓存"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220119181442-lgkwiag",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220119181442-lgkwiag",
+								"updated": "20220119221118"
+							},
+							"Children": [
+								{
+									"ID": "20220119181442-dpdt8ok",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220119181442-dpdt8ok",
+										"updated": "20220119221118"
+									},
+									"Children": [
+										{
+											"ID": "20220119181442-0wixe5y",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119181442-0wixe5y",
+												"updated": "20220119221118"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "用户的请求的时候生成的sessionID给放到"
+												},
+												{
+													"Type": "NodeMark",
+													"Data": "mark",
+													"Children": [
+														{
+															"Type": "NodeMark2OpenMarker"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "Redis的服务器"
+														},
+														{
+															"Type": "NodeMark2CloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "上。然后在"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "基于Redis"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "的特性进行设置一个"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "失效时间"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "的机制，这样就能保证用户在我们设置的Redis中的session失效时间内，都不需要进行再次登录。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220119181507-k86dwu6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220119181507-k86dwu6",
+						"updated": "20220119181512"
+					},
+					"Children": [
+						{
+							"ID": "20220119181507-d8vxp4g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119181507-d8vxp4g",
+								"updated": "20220119181509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实现方式："
+								}
+							]
+						},
+						{
+							"ID": "20220119181509-yvm303e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119181509-yvm303e",
+								"updated": "20220119181512"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Properties": {
+										"parent-style": "max-width: 606px;",
+										"style": "width: 596px;"
+									},
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Image.png"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/Image-20220119181512-g7d3fnu.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"width: 596px;\" parent-style=\"max-width: 606px;\"}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220119181516-i5xksxh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220119181516-i5xksxh",
+						"updated": "20220119181524"
+					},
+					"Children": [
+						{
+							"ID": "20220119181516-mkcigum",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119181516-mkcigum",
+								"updated": "20220119181520"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "优点和缺点："
+								}
+							]
+						},
+						{
+							"ID": "20220119181521-13mpb7t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119181521-13mpb7t",
+								"updated": "20220119181524"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Properties": {
+										"parent-style": "max-width: 609px;",
+										"style": "width: 599px;"
+									},
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Image.png"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/Image-20220119181524-idp4uv0.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"width: 599px;\" parent-style=\"max-width: 609px;\"}"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220119181535-o693nza",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220119181535-o693nza",
+				"updated": "20220119221152"
+			},
+			"Children": [
+				{
+					"ID": "20220119181535-bs7s3x9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220119181535-bs7s3x9",
+						"updated": "20220119221152"
+					},
+					"Children": [
+						{
+							"ID": "20220119181535-9lo9xw4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220119181535-9lo9xw4",
+								"updated": "20220119221152"
+							},
+							"Children": [
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "客户端Cookie保存："
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220119181535-d2d5brl",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220119181535-d2d5brl",
+								"updated": "20220119181601"
+							},
+							"Children": [
+								{
+									"ID": "20220119181535-jyksonm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220119181535-jyksonm"
+									},
+									"Children": [
+										{
+											"ID": "20220119181535-b7cvrxo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119181535-b7cvrxo"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "以cookie加密的方式保存在客户端.优点是减轻服务器端的压力，每次session信息被写在客服端,然后经浏览器再次提交到服务器。即使两次请求在集群中的两台服务器上完成，也可以到达session共享。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220119181535-adwba2j",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220119181535-adwba2j",
+										"updated": "20220119181601"
+									},
+									"Children": [
+										{
+											"ID": "20220119181535-vcy2pww",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220119181535-vcy2pww",
+												"updated": "20220119181543"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "优点和缺点： "
+												}
+											]
+										},
+										{
+											"ID": "20220119181552-j6q5n0r",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220119181552-j6q5n0r",
+												"updated": "20220119181601"
+											},
+											"Children": [
+												{
+													"ID": "20220119181552-gvebvwj",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220119181552-gvebvwj"
+													},
+													"Children": [
+														{
+															"ID": "20220119181552-al1noxz",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220119181552-al1noxz"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "优点是"
+																},
+																{
+																	"Type": "NodeMark",
+																	"Data": "mark",
+																	"Children": [
+																		{
+																			"Type": "NodeMark2OpenMarker"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "session信息不用存放在服务器端，大大减轻了服务器的压力"
+																		},
+																		{
+																			"Type": "NodeMark2CloseMarker"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220119181550-j1l8gmy",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220119181550-j1l8gmy",
+														"updated": "20220119181601"
+													},
+													"Children": [
+														{
+															"ID": "20220119181550-pbc7cm3",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220119181550-pbc7cm3"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "另一个优点是一个session中的两次或多次请求可以在一个集群中的多个服务器上完成，可以避免单点故障。目前，淘宝是采用的这种解决方案。 缺点有几个，"
+																}
+															]
+														},
+														{
+															"ID": "20220119181601-3bdc01h",
+															"Type": "NodeList",
+															"ListData": {},
+															"Properties": {
+																"id": "20220119181601-3bdc01h",
+																"updated": "20220119181601"
+															},
+															"Children": [
+																{
+																	"ID": "20220119181601-54cf21f",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119181601-54cf21f"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119181601-grhedh8",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119181601-grhedh8"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "一是传递cookie时，http信息头的长度限制使我们只能够在cookie中存入一部分用户信息；"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119181603-j3fv2e3",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119181603-j3fv2e3"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119181603-1iex0id",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119181603-1iex0id"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "二是需要额外地做session信息加密的工作；"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119181606-8lfdv7j",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119181606-8lfdv7j"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119181606-0kyrejm",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119181606-0kyrejm"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "第三，如果采用这种方式，每次访问网站二级域名时都会在http信息头中带有这些以cookie形式存储的session信息，会占用一定的带宽；"
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"ID": "20220119181609-38lhjcp",
+																	"Type": "NodeListItem",
+																	"ListData": {
+																		"BulletChar": 42,
+																		"Marker": "Kg=="
+																	},
+																	"Properties": {
+																		"id": "20220119181609-38lhjcp"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220119181609-ugerpre",
+																			"Type": "NodeParagraph",
+																			"Properties": {
+																				"id": "20220119181609-ugerpre"
+																			},
+																			"Children": [
+																				{
+																					"Type": "NodeText",
+																					"Data": "最后，由于这种方式是在客户端进行信息存储，用户完全可以禁用cookie或删除cookie，不是很可靠。"
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

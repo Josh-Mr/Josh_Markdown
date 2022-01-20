@@ -1,0 +1,549 @@
+{
+	"ID": "20220120172459-snpjaun",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220120172459-snpjaun",
+		"title": "JQuery_【筛选操作】",
+		"updated": "20220120172700"
+	},
+	"Children": [
+		{
+			"ID": "20220120172514-n9aa3tw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120172514-n9aa3tw",
+				"updated": "20220120172700"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、筛选操作"
+				}
+			]
+		},
+		{
+			"ID": "20220120172514-l4vhg9q",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220120172514-l4vhg9q",
+				"updated": "20220120172646"
+			},
+			"Children": [
+				{
+					"ID": "20220120172646-4hr4gee",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220120172646-4hr4gee"
+					},
+					"Children": [
+						{
+							"ID": "20220120172646-wovfdl2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120172646-wovfdl2"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "过滤操作"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120172546-knpfm0i",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220120172546-knpfm0i",
+				"updated": "20220120172546"
+			},
+			"Children": [
+				{
+					"ID": "20220120172514-g54vo0q",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-g54vo0q",
+						"updated": "20220120172546"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "first() 首个元素"
+						}
+					]
+				},
+				{
+					"ID": "20220120172514-bxuf9ty",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-bxuf9ty",
+						"updated": "20220120172546"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "last() 最后一个元素"
+						}
+					]
+				},
+				{
+					"ID": "20220120172514-zombcmi",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-zombcmi",
+						"updated": "20220120172546"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "eq(index) 返回index返回的元素"
+						}
+					]
+				},
+				{
+					"ID": "20220120172514-hycylsv",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-hycylsv",
+						"updated": "20220120172546"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "not(selector) 排除元素"
+						}
+					]
+				},
+				{
+					"ID": "20220120172514-64hitpm",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-64hitpm",
+						"updated": "20220120172546"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "filter(selector) 筛选出selector的集合"
+						}
+					]
+				},
+				{
+					"ID": "20220120172514-36smj2c",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-36smj2c",
+						"updated": "20220120172546"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "slice(start, [end])) 截取一个集合元素"
+						}
+					]
+				},
+				{
+					"ID": "20220120172514-u5f2p9j",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-u5f2p9j",
+						"updated": "20220120172546"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "hasClass()  检查当前的元素是否含有某个特定的类，如果有，则返回true。这其实就是 is(\".\" + class)。"
+						}
+					]
+				},
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20220120172514-85hq9u2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220120172514-85hq9u2",
+				"updated": "20220120172649"
+			},
+			"Children": [
+				{
+					"ID": "20220120172649-3cqdgao",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220120172649-3cqdgao"
+					},
+					"Children": [
+						{
+							"ID": "20220120172649-0fgq94u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120172649-0fgq94u"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查找"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120172603-gne4xsl",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220120172603-gne4xsl",
+				"updated": "20220120172604"
+			},
+			"Children": [
+				{
+					"ID": "20220120172514-7e0sjpl",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-7e0sjpl",
+						"updated": "20220120172604"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "children(selector) 获取子元素"
+						}
+					]
+				},
+				{
+					"ID": "20220120172514-ugmn4a1",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-ugmn4a1",
+						"updated": "20220120172604"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "find(selector) 获取后代元素"
+						}
+					]
+				},
+				{
+					"ID": "20220120172514-igp4u7y",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-igp4u7y",
+						"updated": "20220120172604"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "parent([selector]) 获取父元素"
+						}
+					]
+				},
+				{
+					"ID": "20220120172514-5c25pnj",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-5c25pnj",
+						"updated": "20220120172604"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "parents([selector]) 获取所有的祖先元素(满足条件)"
+						}
+					]
+				},
+				{
+					"ID": "20220120172514-6ix1zeh",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-6ix1zeh",
+						"updated": "20220120172604"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "parentsUntil([selector]) 获取祖先元素集合(从父元素到选择器指定的祖先元素排除))"
+						}
+					]
+				},
+				{
+					"ID": "20220120172514-urshwmx",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-urshwmx",
+						"updated": "20220120172604"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "offsetParent() 获取第一个定位的祖先元素"
+						}
+					]
+				},
+				{
+					"ID": "20220120172514-on64jzi",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-on64jzi",
+						"updated": "20220120172604"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "next([selector])紧邻在后面的兄弟元素"
+						}
+					]
+				},
+				{
+					"ID": "20220120172514-1r5sd6a",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-1r5sd6a",
+						"updated": "20220120172604"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "nextAll(selector)后面所有的兄弟元素"
+						}
+					]
+				},
+				{
+					"ID": "20220120172514-lj5cnzb",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-lj5cnzb",
+						"updated": "20220120172604"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "nextUntil([selector])"
+						}
+					]
+				},
+				{
+					"ID": "20220120172514-1qivwk3",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-1qivwk3",
+						"updated": "20220120172604"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "prev([selector])紧邻在前面的兄弟元素"
+						}
+					]
+				},
+				{
+					"ID": "20220120172514-u75o64n",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-u75o64n",
+						"updated": "20220120172604"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "prevAll([selector])前面所有的兄弟元素"
+						}
+					]
+				},
+				{
+					"ID": "20220120172514-1vxhnvy",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-1vxhnvy",
+						"updated": "20220120172604"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "prevUntil([selector])"
+						}
+					]
+				},
+				{
+					"ID": "20220120172514-jb88u77",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-jb88u77",
+						"updated": "20220120172604"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "siblings([selector])所有的兄弟元素"
+						}
+					]
+				},
+				{
+					"ID": "20220120172514-mdnzkv8",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-mdnzkv8",
+						"updated": "20220120172604"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "closest(selector)从所有的祖先元素和本身里面找出第一个满足条件"
+						}
+					]
+				},
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20220120172514-r0tnabl",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220120172514-r0tnabl",
+				"updated": "20220120172653"
+			},
+			"Children": [
+				{
+					"ID": "20220120172653-pj03amd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220120172653-pj03amd"
+					},
+					"Children": [
+						{
+							"ID": "20220120172653-uvqo46t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120172653-uvqo46t"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "串联"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120172640-ionj735",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220120172640-ionj735",
+				"updated": "20220120172640"
+			},
+			"Children": [
+				{
+					"ID": "20220120172514-rkpem1g",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-rkpem1g",
+						"updated": "20220120172640"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "add0 把选中的元素加入当前集合"
+						}
+					]
+				},
+				{
+					"ID": "20220120172514-lrogzfr",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-lrogzfr",
+						"updated": "20220120172640"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "addBack() 把调用该方法的元素加入当前集合"
+						}
+					]
+				},
+				{
+					"ID": "20220120172514-ni0m08g",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-ni0m08g",
+						"updated": "20220120172640"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "end() 返回最后一次破会性操作之前的oM"
+						}
+					]
+				},
+				{
+					"ID": "20220120172514-crl47y3",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220120172514-crl47y3",
+						"updated": "20220120172640"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "contents() 返回所有子节点的集合"
+						}
+					]
+				},
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20220120172641-roc6nmn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120172641-roc6nmn",
+				"updated": "20220120172641"
+			}
+		}
+	]
+}

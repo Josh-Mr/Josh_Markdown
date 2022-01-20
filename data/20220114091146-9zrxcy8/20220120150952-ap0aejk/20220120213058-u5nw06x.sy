@@ -1,0 +1,542 @@
+{
+	"ID": "20220120213058-u5nw06x",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20220120213058-u5nw06x",
+		"title": "JavaScript_【Cookie】使用",
+		"updated": "20220120213434"
+	},
+	"Children": [
+		{
+			"ID": "20220120213058-ohmr1qc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120213058-ohmr1qc",
+				"updated": "20220120213122"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、Cookie是什么？"
+				}
+			]
+		},
+		{
+			"ID": "20220120213122-7ccsw23",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120213122-7ccsw23",
+				"updated": "20220120213129"
+			},
+			"Children": [
+				{
+					"ID": "20220120213129-f46fsba",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120213129-f46fsba"
+					},
+					"Children": [
+						{
+							"ID": "20220120213129-u1wmk9a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120213129-u1wmk9a",
+								"updated": "20220120213130"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用于存储 web 页面的用户信息"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120213130-8k0txtt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120213130-8k0txtt",
+				"updated": "20220120213136"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、有什么作用？"
+				}
+			]
+		},
+		{
+			"ID": "20220120213141-wk16b5d",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220120213141-wk16b5d",
+				"updated": "20220120213223"
+			},
+			"Children": [
+				{
+					"ID": "20220120213141-iyh1lhv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220120213141-iyh1lhv",
+						"updated": "20220120213223"
+					},
+					"Children": [
+						{
+							"ID": "20220120213141-g2eqx6a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120213141-g2eqx6a"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用于解决“如何记录客户端的用户信息”"
+								}
+							]
+						},
+						{
+							"ID": "20220120213141-yyti5oz",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220120213141-yyti5oz",
+								"updated": "20220120213223"
+							},
+							"Children": [
+								{
+									"ID": "20220120213141-3y56ki2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120213141-3y56ki2"
+									},
+									"Children": [
+										{
+											"ID": "20220120213141-qp205ee",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120213141-qp205ee"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "当用户访问web页面时，他的名字可以记录在cookie中。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220120213141-p7e7az2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220120213141-p7e7az2",
+										"updated": "20220120213223"
+									},
+									"Children": [
+										{
+											"ID": "20220120213141-4luuiyd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220120213141-4luuiyd",
+												"updated": "20220120213223"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在用户下一次访问该页面时，可以在cookie中读取"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "用户访问"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "记录。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120213150-iy1nohp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120213150-iy1nohp",
+				"updated": "20220120213231"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、创建、修改、读取、删除的使用"
+				}
+			]
+		},
+		{
+			"ID": "20220120213231-b36dmzw",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220120213231-b36dmzw",
+				"updated": "20220120213246"
+			},
+			"Children": [
+				{
+					"ID": "20220120213234-9zui6jc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220120213234-9zui6jc",
+						"updated": "20220120213246"
+					},
+					"Children": [
+						{
+							"ID": "20220120213234-0d9vzrn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120213234-0d9vzrn",
+								"updated": "20220120213240"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建"
+								}
+							]
+						},
+						{
+							"ID": "20220120213241-bzir1y5",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220120213241-bzir1y5",
+								"updated": "20220120213246"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "document.cookie=\"username=John Doe\";\n您还可以为 cookie 添加一个过期时间（以 UTC 或 GMT 时间）。默认情况下，cookie 在浏览器关闭时删除：\ndocument.cookie=\"username=John Doe; expires=Thu, 18 Dec 2043 12:00:00 GMT\";\n您可以使用 path 参数告诉浏览器 cookie 的路径。默认情况下，cookie 属于当前页面。\ndocument.cookie=\"username=John Doe; expires=Thu, 18 Dec 2043 12:00:00 GMT; path=/\";\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120213249-3pfico4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220120213249-3pfico4",
+				"updated": "20220120213302"
+			},
+			"Children": [
+				{
+					"ID": "20220120213250-s9dliq5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220120213250-s9dliq5",
+						"updated": "20220120213302"
+					},
+					"Children": [
+						{
+							"ID": "20220120213250-1h0xryd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120213250-1h0xryd",
+								"updated": "20220120213254"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "读取"
+								}
+							]
+						},
+						{
+							"ID": "20220120213254-9mwz8pp",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220120213254-9mwz8pp",
+								"updated": "20220120213302"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "var x = document.cookie;\ndocument.cookie 将以字符串的方式返回所有的 cookie，类型格式： cookie1=value; cookie2=value; cookie3=value;\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120213303-nm3pyvx",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220120213303-nm3pyvx",
+				"updated": "20220120213319"
+			},
+			"Children": [
+				{
+					"ID": "20220120213306-9lxt497",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220120213306-9lxt497",
+						"updated": "20220120213319"
+					},
+					"Children": [
+						{
+							"ID": "20220120213306-9bqkyg0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120213306-9bqkyg0",
+								"updated": "20220120213308"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "修改"
+								}
+							]
+						},
+						{
+							"ID": "20220120213308-mq38kmf",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220120213308-mq38kmf",
+								"updated": "20220120213319"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\n\t* 修改\n\n\n\ndocument.cookie=\"username=John Smith; expires=Thu, 18 Dec 2043 12:00:00 GMT; path=/\";\n旧的 cookie 将被覆盖。\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120213331-4m32tms",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220120213331-4m32tms",
+				"updated": "20220120213345"
+			},
+			"Children": [
+				{
+					"ID": "20220120213334-hqn09oj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220120213334-hqn09oj",
+						"updated": "20220120213345"
+					},
+					"Children": [
+						{
+							"ID": "20220120213334-lh142zq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220120213334-lh142zq",
+								"updated": "20220120213336"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "删除"
+								}
+							]
+						},
+						{
+							"ID": "20220120213337-rblk77s",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220120213337-rblk77s",
+								"updated": "20220120213345"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "删除 cookie 非常简单。您只需要设置 expires 参数为以前的时间即可，如下所示，设置为 Thu, 01 Jan 1970 00:00:00 GMT:\ndocument.cookie = \"username=; expires=Thu, 01 Jan 1970 00:00:00 GMT\";\n注意，当您删除时不必指定 cookie 的值。\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120213347-f7bc0o7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220120213347-f7bc0o7",
+				"updated": "20220120213403"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四、实例"
+				}
+			]
+		},
+		{
+			"ID": "20220120213404-aururrs",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220120213404-aururrs",
+				"updated": "20220120213413"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 设置 cookie 值的函数\nfunction setCookie(cname,cvalue,exdays) {\n    var d = new Date();\n    d.setTime(d.getTime() + (exdays*24*60*60*1000));\n    var expires = \"expires=\" + d.toGMTString();\n    document.cookie = cname + \"=\" + cvalue + \";\" + expires + \";path=/\";\n}\n\n//获取 cookie 值的函数\nfunction getCookie(cname) {\n    var name = cname + \"=\";\n    var decodedCookie = decodeURIComponent(document.cookie);\n    var ca = decodedCookie.split(';');\n    for(var i = 0; i \u003c ca.length; i++) {\n        var c = ca[i];\n        while (c.charAt(0) == ' ') {\n            c = c.substring(1);\n        }\n        if (c.indexOf(name) == 0) {\n            return c.substring(name.length, c.length);\n        }\n    }\n    return \"\";\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}
