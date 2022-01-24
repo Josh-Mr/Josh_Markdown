@@ -1,0 +1,229 @@
+{
+	"ID": "20220124172622-fbvvdc1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220124172622-fbvvdc1",
+		"title": "Oracle_误删除数据恢复",
+		"updated": "20220124172725"
+	},
+	"Children": [
+		{
+			"ID": "20220124172634-uhlt5c1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124172634-uhlt5c1",
+				"updated": "20220124172643"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "select * from tablename as of timestamp to_timestamp('2018-05-04 13:30:00','yyyy-MM-dd hh24:mi:ss')"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220124172634-ggca69h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124172634-ggca69h",
+				"updated": "20220124172634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "查询这个时间点的数据"
+				}
+			]
+		},
+		{
+			"ID": "20220124172634-oro5did",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124172634-oro5did",
+				"updated": "20220124172634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "（有可能因为系统时间和数据库时间不一致查不出数据 所以先查询数据库的时间"
+				}
+			]
+		},
+		{
+			"ID": "20220124172634-1ep2a6g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124172634-1ep2a6g",
+				"updated": "20220124172646"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "select  to_char(sysdate,'yyyy-mm-dd hh24:mi:ss') from dual"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220124172634-gipji89",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124172634-gipji89",
+				"updated": "20220124172634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "按照这个时间为准，找到数据删除时间之前的数据）"
+				}
+			]
+		},
+		{
+			"ID": "20220124172634-5cjztkf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124172634-5cjztkf",
+				"updated": "20220124172634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "找到数据可以导出为Excel ，怎么恢复就不是问题了"
+				}
+			]
+		},
+		{
+			"ID": "20220124172634-btcb6zz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124172634-btcb6zz",
+				"updated": "20220124172725"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "flashback table tablename to timestamp to_timestamp('2018-05-04 13:30:00','yyyy-MM-dd hh24:mi:ss')"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220124172634-sijp347",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124172634-sijp347",
+				"updated": "20220124172634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "执行这条语句把数据恢复到这个时间点"
+				}
+			]
+		},
+		{
+			"ID": "20220124172634-yehm1he",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220124172634-yehm1he",
+				"updated": "20220124172634"
+			}
+		},
+		{
+			"ID": "20220124172634-s7kdaqy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124172634-s7kdaqy",
+				"updated": "20220124172634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "报错： ORA-08189: 因为未启用行移动功能, 不能闪回表"
+				}
+			]
+		},
+		{
+			"ID": "20220124172634-4m5ku7r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124172634-4m5ku7r",
+				"updated": "20220124172652"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "alter table tablename  enable row movement"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220124172634-knb4oxe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124172634-knb4oxe",
+				"updated": "20220124172634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "开启行移动功能"
+				}
+			]
+		},
+		{
+			"ID": "20220124172723-ionum4c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124172723-ionum4c",
+				"updated": "20220124172723"
+			}
+		}
+	]
+}

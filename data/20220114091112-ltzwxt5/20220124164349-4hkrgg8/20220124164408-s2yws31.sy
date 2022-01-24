@@ -1,0 +1,51 @@
+{
+	"ID": "20220124164408-s2yws31",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20220124164408-s2yws31",
+		"title": "Jenkins_思维导图",
+		"updated": "20220124164436"
+	},
+	"Children": [
+		{
+			"ID": "20220124164409-kpijjkp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124164409-kpijjkp",
+				"updated": "20220124164436"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "6464255-cc56d3af1fdd96df.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/6464255-cc56d3af1fdd96df-20220124164436-0ijdydd.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"ID": "20220124004845-jmjon7k",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220124004845-jmjon7k",
+		"title": "2022-01-24",
+		"updated": "20220124004938"
+	},
+	"Children": [
+		{
+			"ID": "20220124004938-jy1tsgc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004938-jy1tsgc",
+				"updated": "20220124004938"
+			}
+		}
+	]
+}

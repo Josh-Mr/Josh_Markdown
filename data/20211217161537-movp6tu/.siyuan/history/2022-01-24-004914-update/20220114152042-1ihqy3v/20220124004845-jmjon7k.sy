@@ -1,0 +1,1581 @@
+{
+	"ID": "20220124004845-jmjon7k",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220124004845-jmjon7k",
+		"title": "2022-01-24",
+		"updated": "20220124004847"
+	},
+	"Children": [
+		{
+			"ID": "20220124004847-hzxnfs3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220124004847-hzxnfs3",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "【天力恒力】工程款应付单跟踪表"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-o30dflo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-o30dflo",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "   body, td { font-family: 微软雅黑; font-size: 10pt; }"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-ulho0u8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220124004847-ulho0u8",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "【天力恒力】工程款应付单跟踪表"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-bo2rnuu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-bo2rnuu",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "工程款应付单跟踪表"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-hj2ao1w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-hj2ao1w",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SELECT *"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-yxfazev",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-yxfazev",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  FROM (SELECT ROW_NUMBER() OVER(PARTITION BY  billno ORDER BY testp.ts DESC) rnn,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-plgia25",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-plgia25",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "               testp.*"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-fbotacd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-fbotacd",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "          FROM (select pay.def8 businessid,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-o386d2v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-o386d2v",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                       pay.billno billno,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-mcxl8ks",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-mcxl8ks",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                       org.name orgname,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-eef9ysm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-eef9ysm",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                       dep.name deptname,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-2n1n255",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-2n1n255",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                       sup.name supname,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-r2rlgne",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-r2rlgne",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                       to_char(pay.local_money,  'FM999,999,999,999,990.00') money,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-h7nc738",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-h7nc738",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                       act.dispatchtype,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-3oqk75d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-3oqk75d",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                       case"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-7dg1b1r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-7dg1b1r",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                         when act.opstatus = '-1' then"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-ch6stiu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-ch6stiu",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          '待提取'"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-4ov1j58",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-4ov1j58",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                         when act.opstatus = '2' then"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-31hlcto",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-31hlcto",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          '已提取'"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-nir4sd2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-nir4sd2",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                         when act.opstatus = '20' then"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-k9nc4q0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-k9nc4q0",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          '批准'"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-zo7i9sb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-zo7i9sb",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                         when act.opstatus = '22' then"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-mzxeaag",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-mzxeaag",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          '已驳回'"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-4zjifdx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-4zjifdx",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                         else"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-hfw31wo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-hfw31wo",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          ''"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-4mjd3es",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-4mjd3es",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                       end opstatus,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-kmgkxm3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-kmgkxm3",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                       substr(act.pickuptime, 0, 10)  pickuptime,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-1ealfzd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-1ealfzd",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                       ea.errorname,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-ukvdo7k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-ukvdo7k",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                       listagg(bil.describe, ';') within  group(order by bil.ts desc) describe,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-mxmweak",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-mxmweak",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                       case"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-lqzk5s3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-lqzk5s3",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                         when act.opstatus = '22' then"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-bgjniek",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-bgjniek",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          substr(act.donetime, 0, 10)"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-dibeo50",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-dibeo50",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                         else"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-rz3rzr8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-rz3rzr8",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          ''"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-y0dx69j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-y0dx69j",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                       end donetime,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-x3ng690",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-x3ng690",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                       substr(listagg(substr(bil.vdef7,  0, 10), ',') within"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-wocc9o9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-wocc9o9",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                              group(order by bil.ts  desc),"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-bw8znn7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-bw8znn7",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                              0,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-ncqg719",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-ncqg719",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                              10) vdef7,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-1kmovun",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-1kmovun",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                       substr(listagg(substr(bil.vdef8,  0, 10), ',') within"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-062vcwd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-062vcwd",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                              group(order by bil.ts  desc),"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-9pmkoqy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-9pmkoqy",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                              0,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-9eun4y5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-9eun4y5",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                              10) vdef8,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-xnmmqau",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-xnmmqau",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                       case"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-h9zoq2a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-h9zoq2a",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                         when act.opstatus = '-1' or  act.opstatus = '2' or"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-p588yda",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-p588yda",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                              act.opstatus = '20' or  act.opstatus = '22' then"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-izv49d3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-izv49d3",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          act.handlername"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-92x42jr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-92x42jr",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                         else"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-awm28q7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-awm28q7",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          ''"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-u2qbd3b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-u2qbd3b",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                       end handlername,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-zzkzmt2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-zzkzmt2",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                       sm.user_name name,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-ldv0yai",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-ldv0yai",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                       pay.def4,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-kxxy15l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-kxxy15l",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                       act.ts,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-vd79z54",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-vd79z54",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                       act.pk_task"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-j19sjjm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-j19sjjm",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                  from ap_payablebill pay"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-d2t9j72",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-d2t9j72",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                  left join org_orgs org"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-aaa967e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-aaa967e",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                    on org.pk_org = pay.pk_org"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-vwwpj1f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-vwwpj1f",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                  left join (select e.pk_deptid,  e.supplier, e.pk_payablebill"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-bexr2a7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-bexr2a7",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                              from (select  item.pk_deptid,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-jfsyg9a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-jfsyg9a",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                                           item.supplier,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-6ugc730",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-6ugc730",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                                            item.pk_payablebill,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-7q0sjfm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-7q0sjfm",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                                           (row_number()"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-w2d69em",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-w2d69em",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                                            over(partition  by pk_payablebill"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-csy8o5d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-csy8o5d",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                                                 order by  pk_payablebill desc)) px"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-jpeytn0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-jpeytn0",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                                      from ap_payableitem  item"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-moxsinf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-moxsinf",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                                     where nvl(item.dr, 0)  = 0"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-4yprvji",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-4yprvji",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                                       and  item.pk_tradetype = 'F1-Cxx-S03') e"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-8d9zw4u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-8d9zw4u",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                             where px = 1) item"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-bjw9jvq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-bjw9jvq",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                    on pay.pk_payablebill =  item.pk_payablebill"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-1act1b1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-1act1b1",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                  left join org_dept dep"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-oj6t55o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-oj6t55o",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                    on dep.pk_dept = item.pk_deptid"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-l58wajb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-l58wajb",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                   and nvl(dep.dr, 0) = 0"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-3u6hx1p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-3u6hx1p",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                  left join bd_supplier sup"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-bsyncv7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-bsyncv7",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                    on sup.pk_supplier = item.supplier"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-a80j5iu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-a80j5iu",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                   and nvl(sup.dr, 0) = 0"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-fmlanty",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-fmlanty",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                  join hssc_activitytask act"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-w2d4e9u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-w2d4e9u",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                    on act.vbillno = pay.billno"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-0ok32k6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-0ok32k6",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                   and nvl(act.dr, 0) = 0"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-sa4bmz3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-sa4bmz3",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                   and act.vbilltype = 'F1-Cxx-S03'"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-st7v18b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-st7v18b",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                   and act.valid = 'Y'"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-6skpc0p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-6skpc0p",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                  left join hssc_billmemo bil"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-4yhc9qq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-4yhc9qq",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                    on bil.vbillno = pay.billno"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-q4df48u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-q4df48u",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                   and nvl(bil.dr, 0) = 0"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-x6y2i1c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-x6y2i1c",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                  left join hssc_errordoc ea"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-vn4r196",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-vn4r196",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                    on ea.pk_errordoc = bil.errortype"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-5zg29t9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-5zg29t9",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                  left join sm_user sm"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-oo3td7w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-oo3td7w",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                    on sm.cuserid = pay.creator"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-xq8114g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-xq8114g",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                 where pay.pk_tradetype = 'F1-Cxx-S03'"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-05c3rom",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-05c3rom",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                   and nvl(pay.dr, 0) = 0"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-6uqzkvw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-6uqzkvw",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                   and pay.pk_org in  ('0001A81000000000114U')"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-ta80jyr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-ta80jyr",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                   and act.opstatus in ('-1', '2',  '20', '22')"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-dyrqot8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-dyrqot8",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                   and pay.billdate \u003e '2020-11-05  00:00:00'"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-gudul0v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-gudul0v",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                   and pay.billdate \u003c '2020-12-28  23:59:59'"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-pqa1u53",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-pqa1u53",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                 group by pay.def8,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-r2ts22w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-r2ts22w",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          pay.billno,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-9ndi8jw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-9ndi8jw",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          org.name,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-i7b025k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-i7b025k",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          dep.name,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-xulae2k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-xulae2k",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          sup.name,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-q9lacri",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-q9lacri",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          pay.local_money,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-3m36bby",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-3m36bby",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          act.dispatchtype,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-lsxli8g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-lsxli8g",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          act.opstatus,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-ctr2cs5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-ctr2cs5",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          act.pickuptime,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-zzfgmnk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-zzfgmnk",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          act.opstatus,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-f8e6exf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-f8e6exf",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          act.donetime,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-nw64hw6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-nw64hw6",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          act.handlername,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-barrad6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-barrad6",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          act.ts,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-qo7ipva",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-qo7ipva",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          act.pk_task,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-5lr6p04",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-5lr6p04",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          ea.errorname,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-firs2nq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-firs2nq",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          sm.user_name,"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-sn7abge",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-sn7abge",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "                          pay.def4) testp)"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-bdtgx6w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-bdtgx6w",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "WHERE rnn = 1"
+				}
+			]
+		},
+		{
+			"ID": "20220124004847-poe4cc1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124004847-poe4cc1",
+				"updated": "20220124004847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "order by businessid, ts desc"
+				}
+			]
+		}
+	]
+}

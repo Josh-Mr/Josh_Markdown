@@ -1,0 +1,59 @@
+{
+	"ID": "20220124170352-6b8wo2o",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220124170352-6b8wo2o",
+		"title": "策略模式",
+		"updated": "20220124170358"
+	},
+	"Children": [
+		{
+			"ID": "20220124170352-h6mkmzd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124170352-h6mkmzd",
+				"updated": "20220124170357"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "策略模式："
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://www.cnblogs.com/sunl123/p/11105261.html"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.cnblogs.com/sunl123/p/11105261.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220124170358-seur054",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220124170358-seur054",
+				"updated": "20220124170358"
+			}
+		}
+	]
+}
