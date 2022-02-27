@@ -2,6 +2,7 @@
 	"ID": "20220120110653-4ckrkst",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220120110653-4ckrkst",
 		"title": "Protocol_HTTP缓存",
 		"updated": "20220120110910"

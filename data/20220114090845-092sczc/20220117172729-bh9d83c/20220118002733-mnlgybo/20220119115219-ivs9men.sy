@@ -2,6 +2,7 @@
 	"ID": "20220119115219-ivs9men",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220119115219-ivs9men",
 		"title": "Linux_常用操作命令（参考）",
 		"updated": "20220119115447"

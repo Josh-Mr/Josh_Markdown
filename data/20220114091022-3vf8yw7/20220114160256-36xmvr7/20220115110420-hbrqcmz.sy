@@ -2,6 +2,7 @@
 	"ID": "20220115110420-hbrqcmz",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220115110420-hbrqcmz",
 		"title": "Maven_POM配置表",
 		"updated": "20220115110451"

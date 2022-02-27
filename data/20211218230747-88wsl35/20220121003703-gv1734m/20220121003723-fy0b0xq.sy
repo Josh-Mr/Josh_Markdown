@@ -2,6 +2,7 @@
 	"ID": "20220121003723-fy0b0xq",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220121003723-fy0b0xq",
 		"title": "JWT_详解",
 		"updated": "20220121003813"

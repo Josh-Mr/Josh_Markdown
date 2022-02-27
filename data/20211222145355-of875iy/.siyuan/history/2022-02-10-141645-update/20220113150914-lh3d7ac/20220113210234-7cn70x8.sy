@@ -1,0 +1,154 @@
+{
+	"ID": "20220113210234-7cn70x8",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20220113210234-7cn70x8",
+		"title": "4、Java【局部、成员、静态变量】",
+		"updated": "20220210141642"
+	},
+	"Children": [
+		{
+			"ID": "20220113210244-mbqaiu9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220113210244-mbqaiu9",
+				"updated": "20220113210244"
+			},
+			"Children": [
+				{
+					"ID": "20220113210244-572fiwm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210244-572fiwm"
+					},
+					"Children": [
+						{
+							"ID": "20220113210244-eb9ib7q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210244-eb9ib7q"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "且先记住：在一个类中，如果一个变量能够用来描述一个类的属性，那就定义为成员变量。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113210244-1rc5c3b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210244-1rc5c3b"
+					},
+					"Children": [
+						{
+							"ID": "20220113210244-hvjorrc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210244-hvjorrc"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "否则，它就应该定义为局部变量。而如果一个变量在全局中都能使用（某个内容是被所有对象所共享），那么我们就可以把这个变量用static来修饰，即为静态变量。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113210244-tsp9adf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113210244-tsp9adf",
+				"updated": "20220113210244"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Image(49)-20220113210244-v0voggz.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220210141604-sommoh3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220210141604-sommoh3",
+				"updated": "20220210141642"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "问题：静态方法为什么不可以调用"
+				}
+			]
+		}
+	]
+}

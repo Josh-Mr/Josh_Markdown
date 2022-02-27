@@ -2,6 +2,7 @@
 	"ID": "20220113104236-si0zelg",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220113104236-si0zelg",
 		"title": "3、Java【List详解】",
 		"updated": "20220113142625"

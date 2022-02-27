@@ -2,6 +2,7 @@
 	"ID": "20220119114234-f3brwfx",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220119114234-f3brwfx",
 		"title": "Linux_在线传输文件",
 		"updated": "20220119114328"

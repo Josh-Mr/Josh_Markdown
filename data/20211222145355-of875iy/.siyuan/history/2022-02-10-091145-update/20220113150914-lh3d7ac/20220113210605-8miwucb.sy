@@ -1,0 +1,774 @@
+{
+	"ID": "20220113210605-8miwucb",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20220113210605-8miwucb",
+		"title": "6、Java【传值详解】",
+		"updated": "20220210091021"
+	},
+	"Children": [
+		{
+			"ID": "20220113210605-doy45yz",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220113210605-doy45yz",
+				"updated": "20220113210617"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "  public String change(String s, int i, StringBuffer sb, Person p){\n        s=\"123\";\n        i=3;\n        sb.append(\"woshi\");\n        p.setAge(100);\n        sb = new StringBuffer(\"sbsb\");\n        p = new Person(\"bb\",44);\n        return s;\n    }\n    @Test\n    public void testChange(){\n        StringBuffer sb = new StringBuffer(\"buff\");\n        String s = \"aaa\";\n        int i = 1;\n        Person p = new Person(\"aa\",12);\n        i=2;\n        change(s,i,sb,p);\n        System.out.println(s);\n        System.out.println(i);\n        System.out.println(sb.toString());\n        System.out.println(p);\n    }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220113210626-r1wnfdb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113210626-r1wnfdb",
+				"updated": "20220113210626"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、Stirng的按值传递"
+				}
+			]
+		},
+		{
+			"ID": "20220113210626-jigvxxi",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220113210626-jigvxxi",
+				"updated": "20220210090954"
+			},
+			"Children": [
+				{
+					"ID": "20220113210626-cvu62nl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210626-cvu62nl",
+						"updated": "20220210090954"
+					},
+					"Children": [
+						{
+							"ID": "20220113210626-im463hg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210626-im463hg",
+								"updated": "20220210090945"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java 传递数都是"
+								},
+								{
+									"Type": "NodeMark",
+									"Data": "mark",
+									"Children": [
+										{
+											"Type": "NodeMark2OpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "值"
+										},
+										{
+											"Type": "NodeMark2CloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "的。"
+								}
+							]
+						},
+						{
+							"ID": "20220113210626-r8nzcgw",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220113210626-r8nzcgw",
+								"updated": "20220210090954"
+							},
+							"Children": [
+								{
+									"ID": "20220113210626-13pp6l5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113210626-13pp6l5",
+										"updated": "20220210090937"
+									},
+									"Children": [
+										{
+											"ID": "20220113210626-jcoqbdr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113210626-jcoqbdr",
+												"updated": "20220210090937"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果是"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "对象的"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "话，就是将"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "引用的值"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "复制一份给方法当参数。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220113210626-ffhh5t6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113210626-ffhh5t6",
+										"updated": "20220210090954"
+									},
+									"Children": [
+										{
+											"ID": "20220113210626-9v48hl0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113210626-9v48hl0",
+												"updated": "20220210090954"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果是根据"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "引用把堆里的对象"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "修改了，那么对象就真的修改了，"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220113210626-uuekrif",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113210626-uuekrif"
+									},
+									"Children": [
+										{
+											"ID": "20220113210626-gdp7jwc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113210626-gdp7jwc"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不过不是被创建赋值给那个引用修改的，是方法里的一个复制的引用副本给修改的。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113210626-301lejs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113210626-301lejs",
+				"updated": "20220210091021"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "总结：Java所有的参数传递都是"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "传递的副本"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，变量所代表的值副本。"
+				}
+			]
+		},
+		{
+			"ID": "20220113210626-v08lob0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113210626-v08lob0",
+				"updated": "20220113210626"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "副本的概念：在方法里面，运行的时候到这里的线程都会把传过来的参数拷贝副本带自己工作去中，在工作区中对这个副本的值发生一些改变。最终改变的是副本，如果通过副本的指向修改了指向中的内容，那么那个指向的地址里的内容确实改变了。如果修改了副本的指向，即给重新赋值，那么关原来的变量何事？原变量仍旧指向最初的地址。"
+				}
+			]
+		},
+		{
+			"ID": "20220113210626-6jvfz26",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113210626-6jvfz26",
+				"updated": "20220113210626"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "那么，String 传递过去的是副本，修改了副本的指向，原来的String是不会改变的，因为副本没有能力修改final的string类。"
+				}
+			]
+		},
+		{
+			"ID": "20220113210626-gbak728",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113210626-gbak728",
+				"updated": "20220113210626"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、为什么Java 字符串是不可变的？"
+				}
+			]
+		},
+		{
+			"ID": "20220113210626-6ukvnj8",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220113210626-6ukvnj8",
+				"updated": "20220113210626"
+			},
+			"Children": [
+				{
+					"ID": "20220113210626-c8vrct0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210626-c8vrct0"
+					},
+					"Children": [
+						{
+							"ID": "20220113210626-43rvmmc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210626-43rvmmc"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "字符串一旦在内存中被创建，就无法被更改。String 类的所有方法都不会改变字符串本身，而是返回一个新的字符串对象"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113210626-6aew2mx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210626-6aew2mx"
+					},
+					"Children": [
+						{
+							"ID": "20220113210626-pexcqzg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210626-pexcqzg"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "String 类的源码中还有一个重要的字段 hash，用来保存字符串对象的hashCode。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113210626-4cv679u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113210626-4cv679u",
+						"updated": "20220113210626"
+					},
+					"Children": [
+						{
+							"ID": "20220113210626-cndceys",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113210626-cndceys"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "作用："
+								}
+							]
+						},
+						{
+							"ID": "20220113210626-xfwcghy",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220113210626-xfwcghy",
+								"updated": "20220113210626"
+							},
+							"Children": [
+								{
+									"ID": "20220113210626-wq9sd3p",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113210626-wq9sd3p"
+									},
+									"Children": [
+										{
+											"ID": "20220113210626-rt8ilgt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113210626-rt8ilgt"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "便于实现字符串池（String pool）"
+												}
+											]
+										},
+										{
+											"ID": "20220113210626-td72gv8",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220113210626-td72gv8"
+											},
+											"Children": [
+												{
+													"ID": "20220113210626-hp5o814",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220113210626-hp5o814"
+													},
+													"Children": [
+														{
+															"ID": "20220113210626-pioqo15",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220113210626-pioqo15"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "由于会大量的使用String常量，如果每一次声明一个String都创建一个String对象，那将会造成极大的空间资源的浪费。Java提出了String pool的概念，在堆中开辟一块存储空间String pool，当初始化一个String变量时，如果该字符串已经存在了，就不会去创建一个新的字符串变量，而是会返回已经存在了的字符串的引用。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220113210626-5wust7c",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113210626-5wust7c"
+									},
+									"Children": [
+										{
+											"ID": "20220113210626-w9zwzh2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113210626-w9zwzh2"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使多线程安全"
+												}
+											]
+										},
+										{
+											"ID": "20220113210633-jte99dh",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220113210633-jte99dh"
+											},
+											"Children": [
+												{
+													"ID": "20220113210626-rcz6kw3",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220113210626-rcz6kw3"
+													},
+													"Children": [
+														{
+															"ID": "20220113210626-0ydw07l",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220113210626-0ydw07l"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "在并发场景下，多个线程同时读一个资源，是安全的，不会引发竞争，但对资源进行写操作时是不安全的，不可变对象不能被写，所以保证了多线程的安全。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220113210626-x743pxn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113210626-x743pxn"
+									},
+									"Children": [
+										{
+											"ID": "20220113210626-vhfgcgp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113210626-vhfgcgp"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "避免安全问题："
+												}
+											]
+										},
+										{
+											"ID": "20220113210638-taqap89",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220113210638-taqap89"
+											},
+											"Children": [
+												{
+													"ID": "20220113210626-8dsi8ee",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220113210626-8dsi8ee"
+													},
+													"Children": [
+														{
+															"ID": "20220113210626-l7sidg2",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220113210626-l7sidg2"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "在网络连接和数据库连接中字符串常常作为参数，例如，网络连接地址URL，文件路径path，反射机制所需要的String参数。其不可变性可以保证连接的安全性。如果字符串是可变的，黑客就有可能改变字符串指向对象的值，那么会引起很严重的安全问题"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220113210626-ft18k8g",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113210626-ft18k8g"
+									},
+									"Children": [
+										{
+											"ID": "20220113210626-lzbr7ct",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113210626-lzbr7ct"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "加快字符串处理速度：HashCode缓存--Map的key"
+												}
+											]
+										},
+										{
+											"ID": "20220113210641-3huvwzp",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220113210641-3huvwzp"
+											},
+											"Children": [
+												{
+													"ID": "20220113210626-p5ze43b",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220113210626-p5ze43b"
+													},
+													"Children": [
+														{
+															"ID": "20220113210626-8npxhbm",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220113210626-8npxhbm"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "由于String是不可变的，保证了hashcode的唯一性，于是在创建对象时其hashcode就可以放心的缓存了，不需要重新计算。这也就是Map喜欢将String作为Key的原因，处理速度要快过其它的键对象。所以HashMap中的键往往都使用String。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220113210626-cxlvkc0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220113210626-cxlvkc0"
+									},
+									"Children": [
+										{
+											"ID": "20220113210626-efati18",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220113210626-efati18"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "总结： String不可变的原因要包括 设计考虑，效率优化，以及安全性这三大方面"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113210626-sy324gt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113210626-sy324gt",
+				"updated": "20220113210626"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "http://www.itwanger.com/java/2020/01/03/java-string-reference-pass.html"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "http://www.itwanger.com/java/2020/01/03/java-string-reference-pass.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113210626-eq6ubka",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113210626-eq6ubka",
+				"updated": "20220113210626"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "传值和引用问题"
+				}
+			]
+		}
+	]
+}

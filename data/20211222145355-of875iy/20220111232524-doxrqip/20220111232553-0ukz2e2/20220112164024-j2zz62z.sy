@@ -2,6 +2,7 @@
 	"ID": "20220112164024-j2zz62z",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220112164024-j2zz62z",
 		"title": "【FileInputStream\u0026amp;FileOutputstream\u0026amp;BufferedInputSream\u0026amp;BufferedOutputStream】例子",
 		"updated": "20220112164036"

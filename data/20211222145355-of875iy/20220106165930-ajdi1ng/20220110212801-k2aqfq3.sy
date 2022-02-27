@@ -2,6 +2,7 @@
 	"ID": "20220110212801-k2aqfq3",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220110212801-k2aqfq3",
 		"title": "【ThreadLocal使用、原理】",
 		"updated": "20220111232444"

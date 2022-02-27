@@ -2,6 +2,7 @@
 	"ID": "20220115110457-rp6gtie",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220115110457-rp6gtie",
 		"title": "Maven_常用命令",
 		"updated": "20220115110524"

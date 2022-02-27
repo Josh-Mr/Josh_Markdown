@@ -1,0 +1,284 @@
+{
+	"ID": "20220211143316-9yg11yc",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220211143316-9yg11yc",
+		"title": "SpringCloud_分布式锁",
+		"updated": "20220211144125"
+	},
+	"Children": [
+		{
+			"ID": "20220211143316-fp3aikh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220211143316-fp3aikh",
+				"updated": "20220211143523"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、为什么要分布式锁？"
+				}
+			]
+		},
+		{
+			"ID": "20220211143527-moa6prs",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220211143527-moa6prs",
+				"updated": "20220211144125"
+			},
+			"Children": [
+				{
+					"ID": "20220211143528-g7fwjfs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220211143528-g7fwjfs",
+						"updated": "20220211144125"
+					},
+					"Children": [
+						{
+							"ID": "20220211143528-3mplkgy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220211143528-3mplkgy",
+								"updated": "20220211144125"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "作用：解决并发时"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "资源抢占问题"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "！"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220211143552-c3y2uqy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220211143552-c3y2uqy",
+						"updated": "20220211144114"
+					},
+					"Children": [
+						{
+							"ID": "20220211143552-t4512in",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220211143552-t4512in",
+								"updated": "20220211143852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "理解："
+								}
+							]
+						},
+						{
+							"ID": "20220211143857-zx6g2bs",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20220211143857-zx6g2bs",
+								"updated": "20220211144114"
+							},
+							"Children": [
+								{
+									"ID": "20220211143857-opyj9j4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220211143857-opyj9j4"
+									},
+									"Children": [
+										{
+											"ID": "20220211143857-l9mkjdc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220211143857-l9mkjdc"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "传统的单体服务解决同一时刻资源抢占问题可以使用"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "synchronized"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "或者"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "lock"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "来实现。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220211143859-ex56umz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20220211143859-ex56umz",
+										"updated": "20220211144114"
+									},
+									"Children": [
+										{
+											"ID": "20220211143859-0fix5v9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220211143859-0fix5v9",
+												"updated": "20220211144114"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如今微服务架构，一个应用集群部署时，配置synchronized或者本地应用lock就不生效了，要通过"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "分布式锁"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "实现同一时刻值允许一条线程访问资源。"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220211144122-vvzys0m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220211144122-vvzys0m",
+				"updated": "20220211144122"
+			}
+		}
+	]
+}

@@ -2,6 +2,7 @@
 	"ID": "20220113142952-4luv0v5",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220113142952-4luv0v5",
 		"title": "5、【LinkedArray （双向链表）实现栈（stack）和 队列 （queue）】",
 		"updated": "20220113143005"

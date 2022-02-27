@@ -1,0 +1,497 @@
+{
+	"ID": "20220211104202-obrs34l",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4c4",
+		"id": "20220211104202-obrs34l",
+		"title": "Redis_用Lua脚本",
+		"updated": "20220211143156"
+	},
+	"Children": [
+		{
+			"ID": "20220211104202-9o7qd7j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220211104202-9o7qd7j",
+				"updated": "20220211104234"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、什么是Lua脚本"
+				}
+			]
+		},
+		{
+			"ID": "20220211104234-gxjj170",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220211104234-gxjj170",
+				"updated": "20220211142704"
+			},
+			"Children": [
+				{
+					"ID": "20220211142703-tzzuh9h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220211142703-tzzuh9h",
+						"updated": "20220211142704"
+					},
+					"Children": [
+						{
+							"ID": "20220211142703-k6dh7vz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220211142703-k6dh7vz",
+								"updated": "20220211142704"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Lua 是一种轻量小巧的脚本语言，用标准C语言编写并以源代码形式开放， 其设计目的是为了嵌入应用程序中，从而为应用程序提供灵活的扩展和定制功能。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220211104235-7z9l7j5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220211104235-7z9l7j5",
+				"updated": "20220211143136"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、为什么要用Lua脚本（保证原子性）"
+				}
+			]
+		},
+		{
+			"ID": "20220211104251-m0z60gj",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220211104251-m0z60gj",
+				"updated": "20220211143156"
+			},
+			"Children": [
+				{
+					"ID": "20220211142749-ukhrzfv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220211142749-ukhrzfv",
+						"updated": "20220211143156"
+					},
+					"Children": [
+						{
+							"ID": "20220211142749-kcbvapb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220211142749-kcbvapb",
+								"updated": "20220211143156"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Redis命令的计算能力并不算很强大，使用Lua语言则可以在很大程度上弥补Redis的这个不足"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220211142750-nv9519l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220211142750-nv9519l",
+						"updated": "20220211143103"
+					},
+					"Children": [
+						{
+							"ID": "20220211142750-f6qikro",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220211142750-f6qikro",
+								"updated": "20220211142809"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在Redis中，执行"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Lua语言是原子性"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，也就是说Redis执行"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Lua的时候是不会被中断的"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，具备原子性，这个特性有助于Redis对并发数据一致性的支持。"
+								}
+							]
+						},
+						{
+							"ID": "20220211142903-8ka8y3a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220211142903-8ka8y3a",
+								"updated": "20220211143109"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "用lua之前"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，两个步骤命令："
+								}
+							]
+						},
+						{
+							"ID": "20220211142813-1qnwc4b",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220211142813-1qnwc4b",
+								"updated": "20220211142940"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "127.0.0.1:6379\u003e SETNX lock 1    // 加锁\n(integer) 1\n127.0.0.1:6379\u003e EXPIRE lock 10  // 10s后自动过期\n(integer) 1\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220211142947-542cz82",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220211142947-542cz82",
+								"updated": "20220211143107"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "用lua之后"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220211142955-guz1ty7",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220211142955-guz1ty7",
+								"updated": "20220211143026"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "eG1s"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "eval lua-script key-num [key1 key2 key3 ....] [value1 value2 value3 ....]\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220211143047-lvhdz7m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220211143047-lvhdz7m",
+								"updated": "20220211143047"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "其中"
+								}
+							]
+						},
+						{
+							"ID": "20220211143047-zfxx5z8",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220211143047-zfxx5z8",
+								"updated": "20220211143103"
+							},
+							"Children": [
+								{
+									"ID": "20220211143053-olzz1u1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220211143053-olzz1u1"
+									},
+									"Children": [
+										{
+											"ID": "20220211143053-yhkxgio",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220211143053-yhkxgio",
+												"updated": "20220211143055"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "eval代表执行Lua语言的命令。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220211143056-htf5lof",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220211143056-htf5lof"
+									},
+									"Children": [
+										{
+											"ID": "20220211143056-uw5pvld",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220211143056-uw5pvld",
+												"updated": "20220211143058"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "lua-script代表Lua语言脚本。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220211143058-zqvbryr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220211143058-zqvbryr"
+									},
+									"Children": [
+										{
+											"ID": "20220211143058-s4gmih9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220211143058-s4gmih9",
+												"updated": "20220211143100"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "key-num表示参数中有多少个key，需要注意的是Redis中key是从1开始的，如果没有key的参数，那么写0。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220211143100-f9ku825",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220211143100-f9ku825"
+									},
+									"Children": [
+										{
+											"ID": "20220211143100-z0sxhdn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220211143100-z0sxhdn",
+												"updated": "20220211143102"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "[key1 key2 key3…]是key作为参数传递给Lua语言，也可以不填，但是需要和key-num的个数对应起来。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220211143103-g4nghdc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220211143103-g4nghdc",
+										"updated": "20220211143103"
+									},
+									"Children": [
+										{
+											"ID": "20220211143103-9rm8by1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220211143103-9rm8by1",
+												"updated": "20220211143103"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "[value1 value2 value3 …]这些参数传递给Lua语言，他们是可填可不填的"
+												},
+												{
+													"Type": "NodeBr",
+													"Data": "br"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220211104307-fmnryj1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220211104307-fmnryj1",
+				"updated": "20220211104307"
+			}
+		},
+		{
+			"ID": "20220211104308-carbjdq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220211104308-carbjdq",
+				"updated": "20220211104308"
+			}
+		}
+	]
+}

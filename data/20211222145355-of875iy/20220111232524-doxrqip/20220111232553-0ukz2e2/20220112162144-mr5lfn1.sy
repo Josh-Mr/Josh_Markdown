@@ -2,6 +2,7 @@
 	"ID": "20220112162144-mr5lfn1",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220112162144-mr5lfn1",
 		"title": "【DataInputStream\u0026amp;DataOutputStream】例子",
 		"updated": "20220112164018"

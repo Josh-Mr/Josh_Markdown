@@ -2,6 +2,7 @@
 	"ID": "20220112154557-qiaj9ur",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220112154557-qiaj9ur",
 		"title": "JVM【垃圾回收机制】",
 		"updated": "20220112154609"

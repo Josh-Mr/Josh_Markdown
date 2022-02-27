@@ -2,6 +2,7 @@
 	"ID": "20220115110545-dyxgh3s",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220115110545-dyxgh3s",
 		"title": "Maven_构建流程\u0026amp;使用插件",
 		"updated": "20220115110604"

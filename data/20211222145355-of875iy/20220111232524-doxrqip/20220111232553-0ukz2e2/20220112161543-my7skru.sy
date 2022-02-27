@@ -2,6 +2,7 @@
 	"ID": "20220112161543-my7skru",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220112161543-my7skru",
 		"title": "【byteArrayInputStream\u0026amp;ByteArrayOutputStream】例子",
 		"updated": "20220112162142"

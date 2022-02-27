@@ -1,0 +1,39 @@
+{
+	"ID": "20220203213310-r2689q9",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220203213310-r2689q9",
+		"title": "2022-02-03",
+		"updated": "20220203213327"
+	},
+	"Children": [
+		{
+			"ID": "20220203213310-2jafn1n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220203213310-2jafn1n",
+				"updated": "20220203213320"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "简历思路"
+				}
+			]
+		},
+		{
+			"ID": "20220203213320-nkge1x2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220203213320-nkge1x2",
+				"updated": "20220203213327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1"
+				}
+			]
+		}
+	]
+}

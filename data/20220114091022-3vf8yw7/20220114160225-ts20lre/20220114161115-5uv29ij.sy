@@ -2,6 +2,7 @@
 	"ID": "20220114161115-5uv29ij",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220114161115-5uv29ij",
 		"title": "Git_Terminal的基本使用",
 		"updated": "20220114162017"

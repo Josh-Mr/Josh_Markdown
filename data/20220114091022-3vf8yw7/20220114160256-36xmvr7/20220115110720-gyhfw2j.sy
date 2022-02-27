@@ -2,6 +2,7 @@
 	"ID": "20220115110720-gyhfw2j",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220115110720-gyhfw2j",
 		"title": "Maven_模块管理",
 		"updated": "20220115110748"

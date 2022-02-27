@@ -2,6 +2,7 @@
 	"ID": "20220118002758-cdkwmh0",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220118002758-cdkwmh0",
 		"title": "Linux_目录操作命令",
 		"updated": "20220118232001"

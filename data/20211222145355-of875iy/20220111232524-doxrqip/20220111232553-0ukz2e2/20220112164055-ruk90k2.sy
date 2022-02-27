@@ -2,6 +2,7 @@
 	"ID": "20220112164055-ruk90k2",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220112164055-ruk90k2",
 		"title": "【OutputStreamWriter\u0026amp;InputStreamReader】例子",
 		"updated": "20220112164104"

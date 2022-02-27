@@ -2,6 +2,7 @@
 	"ID": "20220121003826-kwed9zx",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220121003826-kwed9zx",
 		"title": "OAuth2.0_详解",
 		"updated": "20220121003844"

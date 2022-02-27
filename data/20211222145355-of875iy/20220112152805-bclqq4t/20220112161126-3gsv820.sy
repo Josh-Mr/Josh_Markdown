@@ -2,6 +2,7 @@
 	"ID": "20220112161126-3gsv820",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220112161126-3gsv820",
 		"title": "JVM【内存泄露的几种可能】",
 		"updated": "20220112161135"

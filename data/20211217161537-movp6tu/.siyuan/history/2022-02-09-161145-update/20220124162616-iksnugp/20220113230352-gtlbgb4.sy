@@ -1,0 +1,1536 @@
+{
+	"ID": "20220113230352-gtlbgb4",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220113230352-gtlbgb4",
+		"title": "一、Java面试基础",
+		"updated": "20220209160833"
+	},
+	"Children": [
+		{
+			"ID": "20220113230356-u1nfdji",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-u1nfdji",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、Java基础 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-slve86y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-slve86y",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、Java基本数据类型 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-jl9yo2a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-jl9yo2a",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "int double float string char boolean long byte"
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-lxvm1qd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-lxvm1qd",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、原始数据类型和封装类的区别 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-xqq2afj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-xqq2afj",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "原始类型是：传值   封装类型：传引用"
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-5ii67b4",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220113230356-5ii67b4",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"ID": "20220113230356-g3dg9cq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113230356-g3dg9cq"
+					},
+					"Children": [
+						{
+							"ID": "20220113230356-dcj08ch",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113230356-dcj08ch"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "初始化方式不同"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220113230356-ecnvpyt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220113230356-ecnvpyt"
+					},
+					"Children": [
+						{
+							"ID": "20220113230356-ed7wi4b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220113230356-ed7wi4b"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原始类型是类，封装类型是引用"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-qp6w10v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-qp6w10v",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、String、StringBuffer、StringBuilder区别 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-c9o34f5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-c9o34f5",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4、运行时异常和非运行时异常区别 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-29aoxav",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-29aoxav",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5、简述一下面向对象的特征，并举例说明你对面向对象的理解 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-jhql45v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-jhql45v",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6、正则表达式的用法 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-23vhm5h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-23vhm5h",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7、Java 语言如何进行异常处理，关键字：throws、throw、try、catch、finally分别代表什么意义？finally代码是在return之后还是之前执行？"
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-houcf5h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-houcf5h",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "8、abstract class和interface有什么区别?接口可以继承接口吗？接口可以继承抽象类吗，为什么？ "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-ctz86vz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-ctz86vz",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "9、构造器（constructor）是否可被重写（override）？ "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-cimkenp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-cimkenp",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "10、是否可以继承String类？ "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-xv222jj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-xv222jj",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "11、Java 中的final关键字有哪些用法？"
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-26vbg2r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-26vbg2r",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "12、try{}里有一个return语句，那么紧跟在这个try后的finally{}里的代码会不会被执行，什么时候被执行，在return前还是后? "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-2zcpd6m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-2zcpd6m",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "13、阐述final、finally、finalize的区别。 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-3o24fj2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-3o24fj2",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "14、如何通过反射创建对象？ "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-xb2qykb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-xb2qykb",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "15、Java 8的新特性 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-j3p0ej6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-j3p0ej6",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "16、Java数组和链表的两种结构的操作效率 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-8hpj5x2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-8hpj5x2",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "17、Java的引用类型有哪几种 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-cvpxcum",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-cvpxcum",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、多线程、IO、集合 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-hxp9ih8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-hxp9ih8",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、ArrayList、Vector、LinkedList的存储性能和特性 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-wfcerro",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-wfcerro",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、List、Set、Map是否继承自Collection接口？ "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-jj7ekan",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-jj7ekan",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、List、Map、Set三个接口存取元素时，各有什么特点？ "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-n11gvnp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-n11gvnp",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4、请说出与线程同步以及线程调度相关的方法。 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-lyxvggh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-lyxvggh",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5、编写多线程程序有几种实现方式？ "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-5wzbthk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-5wzbthk",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6、简述synchronized 和java.util.concurrent.locks.Lock的异同？"
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-bgnrcp7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-bgnrcp7",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7、hash碰撞以及hash算法、如何解决哈希冲突 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-t5ooo5s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-t5ooo5s",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "8、ArrayList和HsahSet的区别,HashMap和Hashtable的区别? "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-ozmc1m7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-ozmc1m7",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "9、HashMap的存储原理，需要了解HashMap的源码。 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-huxge1e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-huxge1e",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "10、ArrayList和LinkedList的各自实现和区别 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-rg9oi5k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-rg9oi5k",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "11、HashMap和HashTable区别 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-tamttn1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-tamttn1",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "12、Hashtable,HashMap,ConcurrentHashMap 底层实现原理与线程安全问题"
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-wnt78hu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-wnt78hu",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "13、Hash冲突怎么办？哪些解决散列冲突的方法？ "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-dxwediz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-dxwediz",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "14、讲讲IO里面的常见类，字节流、字符流、接口、实现类、方法阻塞。 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-u1fz9ne",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-u1fz9ne",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "15、讲讲NIO。 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-fgx4hge",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-fgx4hge",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "16、递归读取文件夹下的文件，代码怎么实现 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-2qo6q6x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-2qo6q6x",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "17、常用的线程池模式以及不同线程池的使用场景 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-5ibjuoa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-5ibjuoa",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "18、newFixedThreadPool此种线程池如果线程数达到最大值后会怎么办，底层原理。 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-qdda9t9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-qdda9t9",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "19、了解可重入锁的含义，以及ReentrantLock 和synchronized的区别"
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-8bl612g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-8bl612g",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "20、atomicinteger和volatile等线程安全操作的关键字的理解和使用 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-ts8qjtw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-ts8qjtw",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "21、进程和线程的区别 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-yyc5hvm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-yyc5hvm",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "22、同步和异步，阻塞和非阻塞 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-tj25o7n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-tj25o7n",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、设计模式 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-2gxcp9t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-2gxcp9t",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、简述一下你了解的设计模式。 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-691e24t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-691e24t",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、写出单利模式，懒汉和饿汉 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-44iuevl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-44iuevl",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四、JVM "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-58ksd32",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-58ksd32",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、描述一下JVM加载class文件的原理机制？ "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-d8th69r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-d8th69r",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、Java 中会存在内存泄漏吗，请简单描述。"
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-b1enhk4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-b1enhk4",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、GC是什么？为什么要有GC？ "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-8bmmk2x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-8bmmk2x",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4、JVM的内存模型（重要、GC算法、新生代、老年代、永久代等需要详细了解） "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-og82ajk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-og82ajk",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5、GC的工作原理 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-jxw1j0c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-jxw1j0c",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "五、数据库 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-ccqe450",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-ccqe450",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、事务的ACID是指什么？ "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-67pk5fx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-67pk5fx",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、悲观锁和乐观锁的区别 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-2r11lcj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-2r11lcj",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、Left join、right join、inner join区别 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-38tmken",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-38tmken",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4、SQL优化 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-u0yz69o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-u0yz69o",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5、redis缓存数据库，需要了解，什么是内存数据库，支持的数据类型 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-yzdyau0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-yzdyau0",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6、单个索引、联合索引、主键索引 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-s81x2rc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-s81x2rc",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7、索引的数据结构 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-bieoewb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-bieoewb",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "8、数据库的锁，行锁、表锁、悲观锁、乐观锁 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-796uyuf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-796uyuf",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "六、框架 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-oxuk00t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-oxuk00t",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、web Service 常用注解 客户端如何生成，还是手写"
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-iqcihgi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-iqcihgi",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、mybatis处理大数据 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-8i2yb3r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-8i2yb3r",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、AOP IOC优点缺点 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-2n1ve3t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-2n1ve3t",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4、spring事务传播属性和隔离级别 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-rc7sfgz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-rc7sfgz",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5、Web Service 客户端和服务端实现技术"
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-jwbe3i5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-jwbe3i5",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6、Spring Mvc返回json技术 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-sk7nuy4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-sk7nuy4",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7、Hibernate悲观锁和乐观锁 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-zuhb0gj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-zuhb0gj",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "8、Hibernate三种状态 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-5dh7vdp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-5dh7vdp",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "9、hibernate和ibatis的区别 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-1soiaxm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-1soiaxm",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "10、讲讲mybatis连接池 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-2vinez0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-2vinez0",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "11、SpringMVC的工作原理 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-ovz045t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-ovz045t",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "12、Spring的几种注入方式 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-a0k59o3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-a0k59o3",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "13、Spring如何实现事务管理 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-vf58vh9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-vf58vh9",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "14、Spring IOC和AOP的原理 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-9u57ek1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-9u57ek1",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "七、算法和数据结构 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-dc5ient",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-dc5ient",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、写出快速排序和冒泡排序算法 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-sh7lv7b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-sh7lv7b",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "八、Linux基础 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-20cpc1i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-20cpc1i",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、常用命令 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-mty0vfq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-mty0vfq",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、Linux文件权限 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-hkb8xgp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-hkb8xgp",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、端口占用 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-7lxu8hf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-7lxu8hf",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "九、项目经验面试真题 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-pu5fdu0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-pu5fdu0",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、浏览器访问www.taobao.com，经历了怎样的过程。 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-0v43b35",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-0v43b35",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、高并发情况下，我们系统是如何支撑大量的请求的 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-q9x6i5x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-q9x6i5x",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、集群如何同步会话状态 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-kcfldu5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-kcfldu5",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4、负载均衡的原理 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-z1keqd7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-z1keqd7",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5、如果有一个特别大的访问量，到数据库上，怎么做优化（DB设计，DBIO，SQL优化，Java优化） "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-8aet6fs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-8aet6fs",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "设计缓存，使用memcached、redis，读写分离，数据库优化（优化表结构、索引、查询语句等），使用集群，升级硬件， "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-w70nu6f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-w70nu6f",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6、手写斐波那契数列、递归查找文件 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-emm5io4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-emm5io4",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7、Mybatis的# $的区别 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-wjlblx7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-wjlblx7",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "8、prototype作用域的范围 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-pfx5580",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-pfx5580",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "9、Spring的动态代理 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-l0jpgnd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-l0jpgnd",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "10、手写生产者消费者模式 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-im4i6mr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-im4i6mr",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "11、分布式锁 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-kz4xlmg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-kz4xlmg",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "12、死锁的原因以及如何避免 "
+				}
+			]
+		},
+		{
+			"ID": "20220209160833-crufv00",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220209160833-crufv00",
+				"updated": "20220209160833"
+			}
+		},
+		{
+			"ID": "20220113230356-gnqutx3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-gnqutx3",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "13、内存溢出的原因 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-i1jtick",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-i1jtick",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "14、秒杀系统的设计 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-xmey8t1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-xmey8t1",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "15、100万条记录实现导出 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-osjitkc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-osjitkc",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "16、字符串的比较、反转 "
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-zifknmc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-zifknmc",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "17、CountDownLatch的应用场景"
+				}
+			]
+		},
+		{
+			"ID": "20220113230356-ayhthtj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113230356-ayhthtj",
+				"updated": "20220113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "读写分离： "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://juejin.im/post/5cbdaf80f265da038d0b444e"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://juejin.im/post/5cbdaf80f265da038d0b444e"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

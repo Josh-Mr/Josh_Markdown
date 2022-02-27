@@ -2,6 +2,7 @@
 	"ID": "20220112152821-tnul9sm",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220112152821-tnul9sm",
 		"title": "JVM【内存结构】",
 		"updated": "20220112152830"

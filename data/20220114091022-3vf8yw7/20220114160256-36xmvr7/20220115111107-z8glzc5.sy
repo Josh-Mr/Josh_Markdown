@@ -2,6 +2,7 @@
 	"ID": "20220115111107-z8glzc5",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220115111107-z8glzc5",
 		"title": "Maven_项目切换远程仓库地址",
 		"updated": "20220115111213"

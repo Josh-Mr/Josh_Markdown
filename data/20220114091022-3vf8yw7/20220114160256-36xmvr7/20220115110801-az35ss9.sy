@@ -2,6 +2,7 @@
 	"ID": "20220115110801-az35ss9",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220115110801-az35ss9",
 		"title": "Maven_自动化部署",
 		"updated": "20220115111043"

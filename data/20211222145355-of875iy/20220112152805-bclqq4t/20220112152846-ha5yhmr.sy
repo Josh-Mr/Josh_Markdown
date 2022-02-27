@@ -2,6 +2,7 @@
 	"ID": "20220112152846-ha5yhmr",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220112152846-ha5yhmr",
 		"title": "JVM【栈、堆、常量池（字符串池）的详解】",
 		"updated": "20220112153608"

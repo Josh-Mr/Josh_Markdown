@@ -2,6 +2,7 @@
 	"ID": "20220119104521-7401p14",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220119104521-7401p14",
 		"title": "Linux_常用操作命令",
 		"updated": "20220119114159"

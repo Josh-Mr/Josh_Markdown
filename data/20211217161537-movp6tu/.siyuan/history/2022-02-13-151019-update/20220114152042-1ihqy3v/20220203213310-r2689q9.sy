@@ -1,0 +1,571 @@
+{
+	"ID": "20220203213310-r2689q9",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220203213310-r2689q9",
+		"title": "2022-02-03",
+		"updated": "20220203214212"
+	},
+	"Children": [
+		{
+			"ID": "20220203213310-2jafn1n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220203213310-2jafn1n",
+				"updated": "20220203213320"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "简历思路"
+				}
+			]
+		},
+		{
+			"ID": "20220211092523-40ce7uw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220211092523-40ce7uw",
+				"updated": "20220211092523"
+			}
+		},
+		{
+			"ID": "20220203213702-70yne5f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220203213702-70yne5f",
+				"updated": "20220203213702"
+			}
+		},
+		{
+			"ID": "20220210113926-pwunl9j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220210113926-pwunl9j",
+				"updated": "20220210114129"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.工资短信平台"
+				}
+			]
+		},
+		{
+			"ID": "20220210113948-qgp9pdk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220210113948-qgp9pdk",
+				"updated": "20220210165652"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Springboot、redis、RocketMQ"
+				}
+			]
+		},
+		{
+			"ID": "20220213150426-m0zfh46",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220213150426-m0zfh46",
+				"updated": "20220213150426"
+			}
+		},
+		{
+			"ID": "20220213150426-19aafrv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220213150426-19aafrv",
+				"updated": "20220213150426"
+			}
+		},
+		{
+			"ID": "20220210165653-seh8l8g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220210165653-seh8l8g",
+				"updated": "20220210165653"
+			}
+		},
+		{
+			"ID": "20220210165610-4goelvw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220210165610-4goelvw",
+				"updated": "20220210165610"
+			}
+		},
+		{
+			"ID": "20220210165611-a7tw1ri",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220210165611-a7tw1ri",
+				"updated": "20220210165611"
+			}
+		},
+		{
+			"ID": "20220203213320-nkge1x2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220203213320-nkge1x2",
+				"updated": "20220203214212"
+			},
+			"Children": [
+				{
+					"ID": "20220203214055-ssbk2cc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220203214055-ssbk2cc",
+						"updated": "20220203214212"
+					},
+					"Children": [
+						{
+							"ID": "20220203214055-5xycx8j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220203214055-5xycx8j",
+								"updated": "20220203214105"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Jpaas 平台开发"
+								}
+							]
+						},
+						{
+							"ID": "20220203214106-thj6q6q",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20220203214106-thj6q6q",
+								"updated": "20220203214212"
+							},
+							"Children": [
+								{
+									"ID": "20220203214105-3thhdvs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220203214105-3thhdvs",
+										"updated": "20220203214212"
+									},
+									"Children": [
+										{
+											"ID": "20220203214105-4rhrvy2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220203214105-4rhrvy2",
+												"updated": "20220203214212"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "后端代码生成器模板开发"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220203214725-7xk8ipz",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220203214725-7xk8ipz",
+				"updated": "20220203215336"
+			},
+			"Children": [
+				{
+					"ID": "20220203214728-lreb7sx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220203214728-lreb7sx",
+						"updated": "20220203215336"
+					},
+					"Children": [
+						{
+							"ID": "20220203214728-f3hqj27",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220203214728-f3hqj27",
+								"updated": "20220203214735"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "权证系统"
+								}
+							]
+						},
+						{
+							"ID": "20220203214926-1eex0b2",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20220203214926-1eex0b2",
+								"updated": "20220203215336"
+							},
+							"Children": [
+								{
+									"ID": "20220203214938-mjsdkil",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220203214938-mjsdkil"
+									},
+									"Children": [
+										{
+											"ID": "20220203214938-cfy2v9q",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220203214938-cfy2v9q",
+												"updated": "20220203215112"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "实时数据同步（队列实现）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220203214925-w37gnal",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20220203214925-w37gnal",
+										"updated": "20220203215336"
+									},
+									"Children": [
+										{
+											"ID": "20220203214925-6x1t431",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220203214925-6x1t431",
+												"updated": "20220203214930"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "数据迁移模块"
+												}
+											]
+										},
+										{
+											"ID": "20220203215205-ogticv0",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20220203215205-ogticv0",
+												"updated": "20220203215336"
+											},
+											"Children": [
+												{
+													"ID": "20220203215214-qyeykxa",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20220203215214-qyeykxa",
+														"updated": "20220203215336"
+													},
+													"Children": [
+														{
+															"ID": "20220203215214-b6sidf2",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220203215214-b6sidf2",
+																"updated": "20220203215336"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "不同维度的数据迁移、可视化配置、前置数据校验。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220203215336-8q3zcin",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20220203215336-8q3zcin"
+													},
+													"Children": [
+														{
+															"ID": "20220203215336-yoz1m4h",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220203215336-yoz1m4h"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "开源平台DataX开源平台"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220203215052-f0br40i",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20220203215052-f0br40i"
+									},
+									"Children": [
+										{
+											"ID": "20220203215052-qa1f8hv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220203215052-qa1f8hv"
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220210104728-rpz7ioy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220210104728-rpz7ioy",
+				"updated": "20220210221451"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "NC系统财务模块二次开发"
+				}
+			]
+		},
+		{
+			"ID": "20220213141842-6gf5kkh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220213141842-6gf5kkh",
+				"updated": "20220213141848"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "亮点："
+				}
+			]
+		},
+		{
+			"ID": "20220210221346-1nxb0gj",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220210221346-1nxb0gj",
+				"updated": "20220213141851"
+			},
+			"Children": [
+				{
+					"ID": "20220213141851-w1659sc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220213141851-w1659sc"
+					},
+					"Children": [
+						{
+							"ID": "20220213141851-nw8jh4f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220213141851-nw8jh4f"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分布式锁场景：\n1、楼栋开盘抢购时\n2、使用分布式锁"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220210104729-3bqdpzo",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220210104729-3bqdpzo",
+				"updated": "20220213141853"
+			},
+			"Children": [
+				{
+					"ID": "20220213141853-m3f0obu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220213141853-m3f0obu"
+					},
+					"Children": [
+						{
+							"ID": "20220213141853-t056m36",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220213141853-t056m36"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "SQL优化经验"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220213141835-17xg4w4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220213141835-17xg4w4",
+				"updated": "20220213141835"
+			}
+		},
+		{
+			"ID": "20220213141836-q0y3ep9",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220213141836-q0y3ep9",
+				"updated": "20220213141856"
+			},
+			"Children": [
+				{
+					"ID": "20220213141856-di8457e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220213141856-di8457e"
+					},
+					"Children": [
+						{
+							"ID": "20220213141856-az2u9lp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220213141856-az2u9lp"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "亮点：报表优化：forkjoin"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220213141832-c8ruwmk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220213141832-c8ruwmk",
+				"updated": "20220213141832"
+			}
+		}
+	]
+}

@@ -2,6 +2,7 @@
 	"ID": "20220112165556-yui6r6d",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220112165556-yui6r6d",
 		"title": "Java之递归算法",
 		"updated": "20220112165620"

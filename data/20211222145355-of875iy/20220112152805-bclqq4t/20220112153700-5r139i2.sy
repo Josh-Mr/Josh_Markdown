@@ -2,6 +2,7 @@
 	"ID": "20220112153700-5r139i2",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220112153700-5r139i2",
 		"title": "JVM【对象的创建过程】",
 		"updated": "20220112153908"

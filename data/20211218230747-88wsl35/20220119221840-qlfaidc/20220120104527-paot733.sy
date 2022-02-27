@@ -2,6 +2,7 @@
 	"ID": "20220120104527-paot733",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220120104527-paot733",
 		"title": "Protocol_HTTP消息头",
 		"updated": "20220120110001"

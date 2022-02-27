@@ -1,0 +1,684 @@
+{
+	"ID": "20220125101053-mtjdg7o",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4dd",
+		"id": "20220125101053-mtjdg7o",
+		"title": "Java8_四大函数式接口",
+		"updated": "20220125105431"
+	},
+	"Children": [
+		{
+			"ID": "20220125101053-egou68h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220125101053-egou68h",
+				"updated": "20220125101241"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220125101241-w8zlzt8.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220125101243-ouj36rc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220125101243-ouj36rc",
+				"updated": "20220125101306"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、Consumer\u003cT\u003e消费型接口"
+				}
+			]
+		},
+		{
+			"ID": "20220125101306-0fdpire",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220125101306-0fdpire",
+				"updated": "20220125102513"
+			},
+			"Children": [
+				{
+					"ID": "20220125101436-ks87x4n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220125101436-ks87x4n"
+					},
+					"Children": [
+						{
+							"ID": "20220125101436-jbs8a4z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220125101436-jbs8a4z",
+								"updated": "20220125101514"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "消费型接口，有一个输入参数，没有返回值。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220125101307-bq1u1mp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220125101307-bq1u1mp"
+					},
+					"Children": [
+						{
+							"ID": "20220125101307-kjyghdx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220125101307-kjyghdx",
+								"updated": "20220125101407"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用途：对类型为T的对象应用操作，包含方法："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "void accept(T t)"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220125101518-tr1ohej",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220125101518-tr1ohej",
+						"updated": "20220125102513"
+					},
+					"Children": [
+						{
+							"ID": "20220125101518-r3rnqqp",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220125101518-r3rnqqp",
+								"updated": "20220125102513"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220125101647-zfglplt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220125101647-zfglplt",
+				"updated": "20220125101723"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、Supplier\u003cT\u003e供给型接口"
+				}
+			]
+		},
+		{
+			"ID": "20220125101723-49ts3u7",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220125101723-49ts3u7",
+				"updated": "20220125102107"
+			},
+			"Children": [
+				{
+					"ID": "20220125101724-y93iya7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220125101724-y93iya7"
+					},
+					"Children": [
+						{
+							"ID": "20220125101724-6x5mfcm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220125101724-6x5mfcm",
+								"updated": "20220125101803"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "供给型接口，没有输入参数，只有放回参数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220125101804-qiiq717",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220125101804-qiiq717"
+					},
+					"Children": [
+						{
+							"ID": "20220125101804-rnqjggq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220125101804-rnqjggq",
+								"updated": "20220125101859"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用途：返回类型为T的对象，包含方法："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "T get();"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220125101902-4u1jjuy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220125101902-4u1jjuy",
+						"updated": "20220125102107"
+					},
+					"Children": [
+						{
+							"ID": "20220125101902-vj136ob",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220125101902-vj136ob",
+								"updated": "20220125102107"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "//        Supplier\u003cString\u003e supplier = new Supplier\u003cString\u003e() {\n//            @Override\n//            public String get() {\n//                return \"data\";\n//            }\n//        };\n        Supplier\u003cString\u003e supplier1 = () -\u003e {\n            return \"Data2\";\n        };\n//        System.out.println(supplier.get());\n        System.out.println(supplier1.get());\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220125102107-gao12sc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220125102107-gao12sc",
+				"updated": "20220125102147"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、Function\u003cT,R\u003e 函数型接口"
+				}
+			]
+		},
+		{
+			"ID": "20220125102428-innhroo",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220125102428-innhroo",
+				"updated": "20220125102514"
+			},
+			"Children": [
+				{
+					"ID": "20220125102437-bl5wgh9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220125102437-bl5wgh9"
+					},
+					"Children": [
+						{
+							"ID": "20220125102437-w9d8jj9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220125102437-w9d8jj9",
+								"updated": "20220125102455"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "函数型接口，有一个输入，有一个出。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220125102430-iqwpzr6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220125102430-iqwpzr6"
+					},
+					"Children": [
+						{
+							"ID": "20220125102430-heflkk3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220125102430-heflkk3"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用途：对类型为"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "T"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "的对象应用操作，并返回结果。结果是"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "R"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "类型的结果。包含方法："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "R apply(T t)"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220125102457-ebl9w69",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220125102457-ebl9w69",
+						"updated": "20220125102514"
+					},
+					"Children": [
+						{
+							"ID": "20220125102457-gf2txrg",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220125102457-gf2txrg",
+								"updated": "20220125102514"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "//        Function\u003cString,String\u003e function = new Function\u003cString, String\u003e() {\n//            @Override\n//            public String apply(String s) {\n//                return s;\n//            }\n//        };\n        Function\u003cString,String\u003e function01 = string-\u003e { return string; };\n\n        System.out.println(function01.apply(\"test\"));\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220125104909-m6qtwyn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220125104909-m6qtwyn",
+				"updated": "20220125104948"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四、Predicate\u003cT\u003e 断定型接口"
+				}
+			]
+		},
+		{
+			"ID": "20220125104948-eps6cwi",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220125104948-eps6cwi",
+				"updated": "20220125105157"
+			},
+			"Children": [
+				{
+					"ID": "20220125104949-172hf2u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220125104949-172hf2u"
+					},
+					"Children": [
+						{
+							"ID": "20220125104949-iysp8ig",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220125104949-iysp8ig",
+								"updated": "20220125105050"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "断定型接口，有一个输入值，返回只有布尔值。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220125105050-6x7dviq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220125105050-6x7dviq",
+						"updated": "20220125105157"
+					},
+					"Children": [
+						{
+							"ID": "20220125105050-ffy9sc0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220125105050-ffy9sc0",
+								"updated": "20220125105157"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "确定类型为T的对象是否满足某约束，并返回boolean值，包含方法："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "boolean test(T t);"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220125105158-lblee94",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220125105158-lblee94",
+				"updated": "20220125105431"
+			},
+			"Children": [
+				{
+					"ID": "20220125105200-dcirm2o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220125105200-dcirm2o",
+						"updated": "20220125105431"
+					},
+					"Children": [
+						{
+							"ID": "20220125105200-8mjfb4i",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220125105200-8mjfb4i",
+								"updated": "20220125105431"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "//         Predicate\u003cString\u003e predicate = new Predicate\u003cString\u003e() {\n//             @Override\n//             public boolean test(String s) {\n//                 return false;\n//             }\n//         };\n//        System.out.println(predicate.test(\"w34r\"));\n\n        Predicate\u003cString\u003e predicate1 = (str) -\u003e {return  false;};\n        System.out.println(predicate1.test(\"234\"));\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

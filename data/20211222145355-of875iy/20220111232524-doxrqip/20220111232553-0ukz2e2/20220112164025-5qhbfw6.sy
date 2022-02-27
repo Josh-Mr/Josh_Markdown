@@ -2,6 +2,7 @@
 	"ID": "20220112164025-5qhbfw6",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220112164025-5qhbfw6",
 		"title": "【FileReader\u0026amp;FileWriter\u0026amp;BufferedReader\u0026amp;BufferedWriter】例子",
 		"updated": "20220112164048"

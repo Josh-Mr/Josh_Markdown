@@ -2,6 +2,7 @@
 	"ID": "20220113143056-s0nt9sv",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220113143056-s0nt9sv",
 		"title": "7、Java【Map详解】",
 		"updated": "20220113143103"

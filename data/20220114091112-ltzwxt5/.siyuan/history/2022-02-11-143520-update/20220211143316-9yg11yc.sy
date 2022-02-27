@@ -1,0 +1,57 @@
+{
+	"ID": "20220211143316-9yg11yc",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220211143316-9yg11yc",
+		"title": "SpringCloud_分布式锁",
+		"updated": "20220211143519"
+	},
+	"Children": [
+		{
+			"ID": "20220211143316-fp3aikh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220211143316-fp3aikh",
+				"updated": "20220211143519"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、为什么要是分布式锁"
+				}
+			]
+		},
+		{
+			"ID": "20220211143346-yfs2pid",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220211143346-yfs2pid",
+				"updated": "20220211143503"
+			},
+			"Children": [
+				{
+					"ID": "20220211143503-rqwo840",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220211143503-rqwo840"
+					},
+					"Children": [
+						{
+							"ID": "20220211143503-e18jjvu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220211143503-e18jjvu"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

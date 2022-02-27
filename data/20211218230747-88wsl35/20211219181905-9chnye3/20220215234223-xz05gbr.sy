@@ -1,0 +1,33 @@
+{
+	"ID": "20220215234223-xz05gbr",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220215234223-xz05gbr",
+		"title": "面试经验",
+		"updated": "20220215234311"
+	},
+	"Children": [
+		{
+			"ID": "20220215234244-ddmnlvz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220215234244-ddmnlvz",
+				"updated": "20220215234309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Josh:\n1、jvm垃圾回收\n2、分布式事务\n3、redis和mysql一致性\n4、SQL或者查询接口优化\n5、redis支持数据类型\n6、什么string和stringbuffer和stringbuild区别\n7、分库分表"
+				}
+			]
+		},
+		{
+			"ID": "20220215234311-kkn4xwh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220215234311-kkn4xwh",
+				"updated": "20220215234311"
+			}
+		}
+	]
+}

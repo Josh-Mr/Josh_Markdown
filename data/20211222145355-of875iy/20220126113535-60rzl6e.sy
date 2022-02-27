@@ -1,0 +1,86 @@
+{
+	"ID": "20220126113535-60rzl6e",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4d2",
+		"id": "20220126113535-60rzl6e",
+		"title": "Java_开发手册",
+		"updated": "20220126113606"
+	},
+	"Children": [
+		{
+			"ID": "20220126113535-sg7jqnt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220126113535-sg7jqnt",
+				"updated": "20220126113606"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Java开发手册-灵魂15问.pdf"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Java开发手册-灵魂15问-20220126113606-p673q5f.pdf"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Java开发手册.pdf"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Java开发手册-20220126113606-gzk7yzv.pdf"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220126113606-azsv2jz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220126113606-azsv2jz",
+				"updated": "20220126113606"
+			}
+		}
+	]
+}

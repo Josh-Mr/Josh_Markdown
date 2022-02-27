@@ -2,6 +2,7 @@
 	"ID": "20220113210255-9y6k7hx",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220113210255-9y6k7hx",
 		"title": "5、Java【static\u0026amp;final\u0026amp;this\u0026amp;super】",
 		"updated": "20220113210549"

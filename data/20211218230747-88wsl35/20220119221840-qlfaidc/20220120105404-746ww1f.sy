@@ -2,6 +2,7 @@
 	"ID": "20220120105404-746ww1f",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220120105404-746ww1f",
 		"title": "Protocol_HTTPCookie",
 		"updated": "20220120110630"

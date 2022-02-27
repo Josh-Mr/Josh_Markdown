@@ -2,6 +2,7 @@
 	"ID": "20220113210805-6nrip96",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220113210805-6nrip96",
 		"title": "9、Java【String类源码】",
 		"updated": "20220113214305"

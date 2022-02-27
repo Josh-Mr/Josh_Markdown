@@ -2,6 +2,7 @@
 	"ID": "20220120224451-ekyo5f7",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220120224451-ekyo5f7",
 		"title": "时间格式化问题",
 		"updated": "20220120224705"

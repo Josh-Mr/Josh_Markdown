@@ -2,6 +2,7 @@
 	"ID": "20220113153345-bzqv183",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220113153345-bzqv183",
 		"title": "3、Java【重载、重写、继承、封装、多态】",
 		"updated": "20220113153714"

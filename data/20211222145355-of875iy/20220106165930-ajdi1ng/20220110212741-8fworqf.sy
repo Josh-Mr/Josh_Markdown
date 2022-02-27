@@ -2,6 +2,7 @@
 	"ID": "20220110212741-8fworqf",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220110212741-8fworqf",
 		"title": "【局部变量为什么是线程安全的？】",
 		"updated": "20220110212749"

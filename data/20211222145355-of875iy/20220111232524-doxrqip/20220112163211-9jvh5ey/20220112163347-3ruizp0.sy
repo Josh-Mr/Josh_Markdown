@@ -2,6 +2,7 @@
 	"ID": "20220112163347-3ruizp0",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220112163347-3ruizp0",
 		"title": "【字节流、字符流】",
 		"updated": "20220112163356"

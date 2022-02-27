@@ -1,0 +1,123 @@
+{
+	"ID": "20220126113611-b04x730",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220126113611-b04x730",
+		"title": "Java_异常日志",
+		"updated": "20220126113714"
+	},
+	"Children": [
+		{
+			"ID": "20220126113611-nu4dyaa",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220126113611-nu4dyaa",
+				"updated": "20220126113649"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、错误码"
+				}
+			]
+		},
+		{
+			"ID": "20220126113650-qkpndd9",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220126113650-qkpndd9",
+				"updated": "20220126113714"
+			},
+			"Children": [
+				{
+					"ID": "20220126113714-2ok8wsa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220126113714-2ok8wsa"
+					},
+					"Children": [
+						{
+							"ID": "20220126113714-co3eu0a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220126113714-co3eu0a"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220126113650-rbmhnm3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220126113650-rbmhnm3",
+				"updated": "20220126113650"
+			}
+		},
+		{
+			"ID": "20220126113650-80a9kld",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220126113650-80a9kld",
+				"updated": "20220126113657"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、异常处理"
+				}
+			]
+		},
+		{
+			"ID": "20220126113701-8bp93k8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220126113701-8bp93k8",
+				"updated": "20220126113701"
+			}
+		},
+		{
+			"ID": "20220126113702-ddt6b91",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220126113702-ddt6b91",
+				"updated": "20220126113702"
+			}
+		},
+		{
+			"ID": "20220126113702-y09uerh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220126113702-y09uerh",
+				"updated": "20220126113702"
+			}
+		},
+		{
+			"ID": "20220126113702-lawz7p6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220126113702-lawz7p6",
+				"updated": "20220126113712"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、日志规范"
+				}
+			]
+		}
+	]
+}

@@ -2,6 +2,7 @@
 	"ID": "20220121004732-p40cgxf",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220121004732-p40cgxf",
 		"title": "Java读取Properties文件的六种方法",
 		"updated": "20220121005527"

@@ -2,6 +2,7 @@
 	"ID": "20220113151413-h3a81ap",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220113151413-h3a81ap",
 		"title": "2、Java【抽象、接口】",
 		"updated": "20220113152735"

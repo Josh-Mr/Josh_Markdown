@@ -5,7 +5,7 @@
 		"icon": "1f4dd",
 		"id": "20211229152013-8mfdi7o",
 		"title": "10、【多表连接使用】",
-		"updated": "20211229181009"
+		"updated": "20211229153302"
 	},
 	"Children": [
 		{
@@ -431,8 +431,8 @@
 					"Type": "NodeImage",
 					"Data": "span",
 					"Properties": {
-						"parent-style": "max-width: 181px;",
-						"style": "width: 171px;"
+						"parent-style": "max-width: 179px;",
+						"style": "width: 169px;"
 					},
 					"Children": [
 						{
@@ -462,7 +462,7 @@
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",
-					"Data": "{: style=\"width: 171px;\" parent-style=\"max-width: 181px;\"}"
+					"Data": "{: style=\"width: 169px;\" parent-style=\"max-width: 179px;\"}"
 				}
 			]
 		},

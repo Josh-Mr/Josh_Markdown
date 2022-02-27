@@ -2,6 +2,7 @@
 	"ID": "20220118093507-6za5kk0",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220118093507-6za5kk0",
 		"title": "Mysql_自增ID与UUID索引结构对比",
 		"updated": "20220118100705"

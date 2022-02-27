@@ -2,6 +2,7 @@
 	"ID": "20220112170107-5qnjt89",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220112170107-5qnjt89",
 		"title": "Java之ASCIICode和String相互转化问题！",
 		"updated": "20220112170121"

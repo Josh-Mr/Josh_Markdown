@@ -2,6 +2,7 @@
 	"ID": "20220115110612-grx30mw",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220115110612-grx30mw",
 		"title": "Maven_介绍\u0026amp;依赖管理",
 		"updated": "20220115110708"

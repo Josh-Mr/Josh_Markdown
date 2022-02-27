@@ -2,6 +2,7 @@
 	"ID": "20220120145519-lid79vk",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220120145519-lid79vk",
 		"title": "RPC_基础",
 		"updated": "20220120145614"

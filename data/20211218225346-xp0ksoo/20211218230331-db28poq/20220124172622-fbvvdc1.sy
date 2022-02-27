@@ -2,6 +2,7 @@
 	"ID": "20220124172622-fbvvdc1",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220124172622-fbvvdc1",
 		"title": "Oracle_误删除数据恢复",
 		"updated": "20220124172725"

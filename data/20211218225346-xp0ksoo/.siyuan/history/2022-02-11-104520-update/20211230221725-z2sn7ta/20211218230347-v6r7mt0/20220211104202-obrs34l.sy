@@ -1,0 +1,128 @@
+{
+	"ID": "20220211104202-obrs34l",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220211104202-obrs34l",
+		"title": "Redis_用Lua脚本",
+		"updated": "20220211104308"
+	},
+	"Children": [
+		{
+			"ID": "20220211104202-9o7qd7j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220211104202-9o7qd7j",
+				"updated": "20220211104234"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、什么是Lua脚本"
+				}
+			]
+		},
+		{
+			"ID": "20220211104234-gxjj170",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220211104234-gxjj170",
+				"updated": "20220211104234"
+			}
+		},
+		{
+			"ID": "20220211104234-3bclq1s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220211104234-3bclq1s",
+				"updated": "20220211104234"
+			}
+		},
+		{
+			"ID": "20220211104235-ur1c7un",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220211104235-ur1c7un",
+				"updated": "20220211104235"
+			}
+		},
+		{
+			"ID": "20220211104235-7z9l7j5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220211104235-7z9l7j5",
+				"updated": "20220211104250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、为什么要用Lua脚本"
+				}
+			]
+		},
+		{
+			"ID": "20220211104251-m0z60gj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220211104251-m0z60gj",
+				"updated": "20220211104251"
+			}
+		},
+		{
+			"ID": "20220211104251-k3yepny",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220211104251-k3yepny",
+				"updated": "20220211104251"
+			}
+		},
+		{
+			"ID": "20220211104251-aqpzpp4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220211104251-aqpzpp4",
+				"updated": "20220211104251"
+			}
+		},
+		{
+			"ID": "20220211104251-2rlngcc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220211104251-2rlngcc",
+				"updated": "20220211104307"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、怎么用Lua脚本"
+				}
+			]
+		},
+		{
+			"ID": "20220211104307-11xo554",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220211104307-11xo554",
+				"updated": "20220211104307"
+			}
+		},
+		{
+			"ID": "20220211104307-fmnryj1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220211104307-fmnryj1",
+				"updated": "20220211104307"
+			}
+		},
+		{
+			"ID": "20220211104308-carbjdq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220211104308-carbjdq",
+				"updated": "20220211104308"
+			}
+		}
+	]
+}

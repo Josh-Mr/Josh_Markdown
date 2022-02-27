@@ -2,6 +2,7 @@
 	"ID": "20220120111106-lgqdbfi",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220120111106-lgqdbfi",
 		"title": "Protocol_HTTP跨域资源共享（CORS）重点",
 		"updated": "20220120230242"

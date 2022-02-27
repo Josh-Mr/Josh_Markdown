@@ -1,0 +1,106 @@
+{
+	"ID": "20211223234258-opfhbf7",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4c4",
+		"id": "20211223234258-opfhbf7",
+		"title": "springboot_未整理",
+		"updated": "20220124223325"
+	},
+	"Children": [
+		{
+			"ID": "20211223234258-1y39vem",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223234258-1y39vem",
+				"updated": "20211223234300"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Springboot：\nspring.factories自动加载配置：\nhttps://qidawu.github.io/posts/spring-factories/"
+				}
+			]
+		},
+		{
+			"ID": "20211223234302-ufi7twg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223234302-ufi7twg",
+				"updated": "20211223234302"
+			}
+		},
+		{
+			"ID": "20220120233455-tel75zo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120233455-tel75zo",
+				"updated": "20220120233521"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "springboot github"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/527515025/springBoot"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220120233500-gavufnl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220120233500-gavufnl",
+				"updated": "20220120234552"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://github.com/gf-huanchupk/SpringBootLearning"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/gf-huanchupk/SpringBootLearning"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

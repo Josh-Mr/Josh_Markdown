@@ -2,6 +2,7 @@
 	"ID": "20220118220511-mvweok5",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4c4",
 		"id": "20220118220511-mvweok5",
 		"title": "Linux_文件操作命令",
 		"updated": "20220119093723"

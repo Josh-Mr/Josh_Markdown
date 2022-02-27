@@ -2,6 +2,7 @@
 	"ID": "20220112165650-l6mzcvo",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220112165650-l6mzcvo",
 		"title": "Java之排序基本算法",
 		"updated": "20220112165716"

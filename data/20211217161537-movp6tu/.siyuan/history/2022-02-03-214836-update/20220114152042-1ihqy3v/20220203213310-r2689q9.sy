@@ -1,0 +1,223 @@
+{
+	"ID": "20220203213310-r2689q9",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220203213310-r2689q9",
+		"title": "2022-02-03",
+		"updated": "20220203214728"
+	},
+	"Children": [
+		{
+			"ID": "20220203213310-2jafn1n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220203213310-2jafn1n",
+				"updated": "20220203213320"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "简历思路"
+				}
+			]
+		},
+		{
+			"ID": "20220203213702-70yne5f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220203213702-70yne5f",
+				"updated": "20220203213702"
+			}
+		},
+		{
+			"ID": "20220203213320-nkge1x2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220203213320-nkge1x2",
+				"updated": "20220203214055"
+			},
+			"Children": [
+				{
+					"ID": "20220203214055-ssbk2cc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220203214055-ssbk2cc"
+					},
+					"Children": [
+						{
+							"ID": "20220203214055-5xycx8j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220203214055-5xycx8j",
+								"updated": "20220203214105"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Jpaas 平台开发"
+								}
+							]
+						},
+						{
+							"ID": "20220203214106-thj6q6q",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20220203214106-thj6q6q"
+							},
+							"Children": [
+								{
+									"ID": "20220203214105-3thhdvs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220203214105-3thhdvs"
+									},
+									"Children": [
+										{
+											"ID": "20220203214105-4rhrvy2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220203214105-4rhrvy2",
+												"updated": "20220203214212"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "后端代码生成器模板开发"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220203214213-9v1zkat",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20220203214213-9v1zkat"
+									},
+									"Children": [
+										{
+											"ID": "20220203214213-u8rtqiv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220203214213-u8rtqiv"
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220203214055-85wvbxy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220203214055-85wvbxy"
+					},
+					"Children": [
+						{
+							"ID": "20220203214055-kehbhvs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220203214055-kehbhvs"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据迁移平台"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220203214725-7xk8ipz",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220203214725-7xk8ipz",
+				"updated": "20220203214728"
+			},
+			"Children": [
+				{
+					"ID": "20220203214728-lreb7sx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220203214728-lreb7sx"
+					},
+					"Children": [
+						{
+							"ID": "20220203214728-f3hqj27",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220203214728-f3hqj27",
+								"updated": "20220203214735"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "权证系统"
+								}
+							]
+						},
+						{
+							"ID": "20220203214736-gqzm91x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220203214736-gqzm91x"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220203213640-rrqct5h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220203213640-rrqct5h",
+				"updated": "20220203213640"
+			}
+		}
+	]
+}

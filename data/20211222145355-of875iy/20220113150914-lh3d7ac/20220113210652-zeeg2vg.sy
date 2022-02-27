@@ -2,6 +2,7 @@
 	"ID": "20220113210652-zeeg2vg",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f4dd",
 		"id": "20220113210652-zeeg2vg",
 		"title": "7、Java【Object类源码】",
 		"updated": "20220113210657"
